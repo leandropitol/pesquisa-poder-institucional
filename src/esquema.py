@@ -254,10 +254,12 @@ TABELAS: list[Tabela] = [
         C("moeda", "vocab", True, vocab="moeda"),
         C("tipo_garantia", "texto", False), C("situacao", "texto", False, "Situação informada pelo BNDES (ativa, liquidada)"), FONTE,
     ), prefixo="BND"),
-    Tabela("votos_multilaterais", "eixo_relacoes_externas", "Votos por país em resoluções de organismos multilaterais (Brasil e demais países).", ("id_voto",), (
+    Tabela("votos_multilaterais", "eixo_relacoes_externas", "Voto de cada país em resoluções selecionadas de organismos multilaterais (Brasil e demais países).", ("id_voto",), (
         C("id_voto", "id", True), C("id_organismo", "ref", True, fk="instituicoes.id_instituicao"),
-        C("resolucao", "texto", True), C("tema", "texto", True), C("data", "data", True),
-        C("pais_iso3", "iso3", True), C("voto", "vocab", True, vocab="voto_multilateral"), FONTE,
+        C("resolucao", "texto", True), C("titulo", "texto", True), C("tema", "texto", False, "Item de agenda, como publicado"),
+        C("criterio_inclusao", "texto", True, "Regra de seleção que incluiu a resolução (docs/lista_e8_para_revisao.md)"),
+        C("data", "data", True), C("pais_iso3", "iso3", True), C("voto", "vocab", True, vocab="voto_multilateral"),
+        C("link", "url", False, "Registro da votação na fonte"), FONTE,
     ), prefixo="VOT"),
     Tabela("acordos_bilaterais", "eixo_relacoes_externas", "Acordos bilaterais do Brasil (todos os países, para ter denominador).", ("id_acordo",), (
         C("id_acordo", "id", True), C("pais_iso3", "iso3", True), C("titulo", "texto", True), C("tema", "texto", True),

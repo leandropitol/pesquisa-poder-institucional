@@ -1,0 +1,3 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/onu_ag/2026-09-24/2026_02_06_ga_voting.csv,https://digitallibrary.un.org/record/4060887/files/2026_02_06_ga_voting.csv,1,364289592,9b8ddbee7490d9e31aa1b2f852c0b074ff58afd9e4bb67e629bcddbdde7852f1
+2026-09-24,data/raw/onu_ag/2026-09-24/2026_02_06_ga_voting_md.md,https://digitallibrary.un.org/record/4060887/files/2026_02_06_ga_voting_md.md,1,3333,4f0899233f13113f03d8035945f5e11be246ed2777f4bcd39cce767f40faf5e5

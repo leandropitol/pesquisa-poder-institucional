@@ -172,6 +172,20 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
 
+    vm = ler("votos_multilaterais", base)
+    if len(vm):
+        res = vm.drop_duplicates("resolucao")
+        linhas += [
+            "### Votos em organismos multilaterais (etapa E8, bloco A)", "",
+            f"- Assembleia Geral da ONU: {len(res)} resoluções adotadas por voto nominal de {res['data'].min()[:4]} a {res['data'].max()[:4]}, "
+            f"com o voto de todos os países ({len(vm)} votos); critério em `docs/lista_e8_para_revisao.md`. "
+            + "; ".join(f"{k}: {n}" for k, n in res["criterio_inclusao"].value_counts().items()) + ".",
+            "- Resoluções adotadas sem votação (por consenso) e votos sobre parágrafos isolados não constam do conjunto da ONU.",
+            "- O critério \"cita país da América Latina\" é aplicado ao pé da letra e inclui resoluções de desenvolvimento; a análise separa pelo título.",
+            "- Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) e na OEA (bloco A3) ainda não entraram.",
+            "",
+        ]
+
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
     if len(avisos) > 20:

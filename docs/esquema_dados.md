@@ -418,17 +418,20 @@ Linhas (subcréditos) das operações de apoio à exportação do BNDES com paí
 
 ### `votos_multilaterais`
 
-Votos por país em resoluções de organismos multilaterais (Brasil e demais países). Chave: `id_voto`; prefixo `VOT`.
+Voto de cada país em resoluções selecionadas de organismos multilaterais (Brasil e demais países). Chave: `id_voto`; prefixo `VOT`.
 
 | Coluna | Tipo | Obrigatória | Descrição |
 |---|---|---|---|
 | `id_voto` | id | sim |  |
 | `id_organismo` | ref → `instituicoes.id_instituicao` | sim |  |
 | `resolucao` | texto | sim |  |
-| `tema` | texto | sim |  |
+| `titulo` | texto | sim |  |
+| `tema` | texto |  | Item de agenda, como publicado |
+| `criterio_inclusao` | texto | sim | Regra de seleção que incluiu a resolução (docs/lista_e8_para_revisao.md) |
 | `data` | data | sim |  |
 | `pais_iso3` | iso3 | sim |  |
 | `voto` | vocab (`voto_multilateral`) | sim |  |
+| `link` | url |  | Registro da votação na fonte |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
 ### `acordos_bilaterais`

@@ -62,32 +62,34 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 1468 |
+| `instituicoes` | 1469 |
 | `denominacoes_partido` | 67 |
 | `processos` | 205 |
 | `fases_processo` | 58 |
 | `eventos` | 2297 |
 | `relacoes` | 2409 |
-| `fontes` | 17 |
-| `fonte_oficial` | 14 |
+| `fontes` | 18 |
+| `fonte_oficial` | 15 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2409 |
-| `buscas` | 34 |
+| `buscas` | 35 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
+| `votos_multilaterais` | 19442 |
 | `emendas_parlamentares` | 92364 |
 
-Tabelas ainda vazias (14): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 34 buscas registradas; 0 com zero resultados.
+- 35 buscas registradas; 0 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
+- ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -142,6 +144,13 @@ Tabelas ainda vazias (14): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Emendas individuais: 9554 linhas sem autor na fonte; das 73747 com autor, 97,5% ligadas a um parlamentar da base (nome e mandato no ano). As demais têm grafia diferente (nome civil contra nome parlamentar) ou homônimos com mandato no mesmo ano.
 - Emendas de relator: 3537 linhas, com autor publicado só como "RELATOR GERAL" ou sem informação; o arquivo não identifica os parlamentares que indicaram os recursos. Emendas de bancada e de comissão não têm autor individual.
 - O arquivo de emendas por favorecido (com nomes de pessoas físicas) e o de convênios ficam só no dado bruto.
+
+### Votos em organismos multilaterais (etapa E8, bloco A)
+
+- Assembleia Geral da ONU: 101 resoluções adotadas por voto nominal de 2003 a 2025, com o voto de todos os países (19442 votos); critério em `docs/lista_e8_para_revisao.md`. direitos_humanos_pais: 77; cita_america_latina: 24.
+- Resoluções adotadas sem votação (por consenso) e votos sobre parágrafos isolados não constam do conjunto da ONU.
+- O critério "cita país da América Latina" é aplicado ao pé da letra e inclui resoluções de desenvolvimento; a análise separa pelo título.
+- Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) e na OEA (bloco A3) ainda não entraram.
 
 ### Validador
 
