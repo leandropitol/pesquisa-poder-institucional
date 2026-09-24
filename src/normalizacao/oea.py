@@ -47,7 +47,7 @@ RE_TEMA = re.compile(r"situaci[oó]n|crisis|democr|elecci|electoral|derechos hum
                      r"apoyo al pueblo|seguridad en hait|situation|democra|election|human rights|peace", re.I)
 RE_ESTADO = re.compile(r"\b(" + "|".join(re.escape(e) for e in ESTADOS) + r")\b", re.I)
 RE_CABECALHO = re.compile(r"^\s*(AG/(?:RES|DEC)\.\s*\d+\s*\([IVXLCDM]+-[OE]/\d{2}\)(?:\s*rev\.\s*\d)?)\s*$", re.M)
-RE_APROVADA = re.compile(r"\((?:Aprobad[ao][^)]*?(\d{1,2}) de (\w+) de (\d{4})|Adopted[^)]*?on (\w+) (\d{1,2}), (\d{4}))\)", re.I)
+RE_APROVADA = re.compile(r"\((?:Aprobad[ao][^)]*?(\d{1,2}) de (\w+) de (\d{4})|Adopted[^)]*?on (\w+) (\d{1,2}), (\d{4}))[^)]*\)", re.I)
 RE_CARTA_ART = re.compile(r"Carta Democrática Interamericana[^.]{0,300}?art[íi]culos?\s*(1[7-9]|2[01])|art[íi]culos?\s*(1[7-9]|2[01])[^.]{0,120}Carta Democrática", re.I | re.S)
 MESES_EN = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"], 1)}
 MESES = {m: i for i, m in enumerate(["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"], 1)}
@@ -111,6 +111,45 @@ def notas_do_brasil(texto_completo: str, simbolo: str) -> str:
     return " | ".join(trechos)[:2000]
 
 
+CURADORIA = RAIZ / "data" / "curadoria" / "oea_resolucoes_ag_curadoria.csv"
+
+
+def proposta(titulo: str) -> tuple[str, str]:
+    """Proposta de decisão para uma candidata (a decisão final é do autor, na tabela de curadoria).
+
+    Casos parecidos recebem a mesma regra: disputas entre Estados (Malvinas, Belize e Guatemala) ficam fora;
+    rupturas constitucionais históricas (Chile 1973, República Dominicana 1965) entram."""
+    tl = titulo.lower()
+    if "malvinas" in tl or "falkland" in tl or "belize y guatemala" in tl:
+        return "exclui", "disputa de soberania ou territorial entre Estados; não trata da situação interna de um Estado membro"
+    if re.search(r"desastres naturales|terremoto|reconstrucci[oó]n|orquestas|plan de acci[oó]n|energ[ií]a|minas antipersonal|"
+                 r"seguridad alimentaria|aniversario|comisi[oó]n interamericana|puertos", tl):
+        return "exclui", "tema de cooperação, cultura, desastre natural ou institucional; sem tratar de situação política, eleitoral ou de direitos humanos"
+    if re.search(r"golpe de estado|rep[uú]blica dominicana$", tl.strip(" ”\"/")):
+        return "inclui", "ruptura da ordem constitucional em Estado membro (fato histórico); mesma regra para todos os casos históricos"
+    if re.search(r"estabilidad pol[ií]tica|resoluci[oó]n sobre cuba|declaraci[oó]n sobre hait[ií]", tl):
+        return "inclui", "trata de estabilidade política, participação de Estado na OEA ou processo eleitoral em Estado membro"
+    if not RE_TEMA.search(titulo):
+        return "revisar", "cita Estado membro, mas o título não indica o tema; ler o texto"
+    return "inclui", "trata de situação política, eleitoral, de direitos humanos ou de paz em Estado membro"
+
+
+def atualizar_curadoria(sel: pd.DataFrame) -> pd.DataFrame:
+    """Acrescenta candidatas novas à tabela de curadoria, com proposta; nunca altera decisões já registradas."""
+    atual = pd.read_csv(CURADORIA, dtype=str, keep_default_na=False) if CURADORIA.exists() else pd.DataFrame(
+        columns=["data", "simbolo", "titulo", "decisao_proposta", "motivo", "decisao_final"])
+    pend = atual["decisao_final"] == ""
+    if pend.any():  # propostas sem decisão do autor são recalculadas com as regras atuais
+        atual.loc[pend, ["decisao_proposta", "motivo"]] = [proposta(t) for t in atual.loc[pend, "titulo"]]
+    novas = sel[~sel["simbolo"].isin(atual["simbolo"])].copy()
+    novas["titulo"] = novas["titulo"].str.replace(r"(\[\d+\]|/)+$", "", regex=True).str.strip()
+    novas[["decisao_proposta", "motivo"]] = [proposta(t) for t in novas["titulo"]] if len(novas) else []
+    novas["decisao_final"] = ""
+    saida = pd.concat([atual, novas[atual.columns]], ignore_index=True).sort_values(["data", "simbolo"])
+    saida.to_csv(CURADORIA, index=False, encoding="utf-8", lineterminator="\n")
+    return saida
+
+
 def run() -> None:
     man = list(csv.DictReader(MANIFESTO.open(encoding="utf-8")))
     SAIDA.mkdir(parents=True, exist_ok=True)
@@ -130,6 +169,8 @@ def run() -> None:
     sel = df[df["criterio"] != ""].copy()
     sel["triagem_tema"] = ["sim" if RE_TEMA.search(t) else "nao" for t in sel["titulo"]]
     sel.to_csv(SAIDA / "resolucoes_ag_oea_selecionadas.csv", index=False, encoding="utf-8")
+    cur = atualizar_curadoria(sel)
+    print(f"curadoria: {len(cur)} candidatas; sem decisão final: {int((cur['decisao_final'] == '').sum())}")
     print(f"textos certificados: {len(df)} em {df['volume'].nunique()} volumes; selecionados: {sel['criterio'].value_counts().to_dict()}")
 
 

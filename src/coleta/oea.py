@@ -63,8 +63,42 @@ def coletar(data: str | None = None) -> None:
     print(f"{len(volumes()) - len(falhas)} volumes baixados; {len(falhas)} falhas")
 
 
+def registrar_manuais(data: str) -> None:
+    """Volumes baixados manualmente pelo autor (D-034) e deixados em data/raw/oea/: identifica pelo nome do
+    arquivo na lista de volumes, move para a pasta da data, grava manifesto e busca."""
+    import shutil
+    from src.coleta.comum import MANIFESTOS, RAW, sha256
+
+    raiz = RAW / "oea"
+    pasta = raiz / data
+    pasta.mkdir(parents=True, exist_ok=True)
+    por_nome = {v["url"].rsplit("/", 1)[1].lower(): v for v in volumes()}
+    ids, regs = RegistroIds(), []
+    for f in sorted(raiz.iterdir()):
+        if not f.is_file() or f.name.lower() not in por_nome:
+            continue
+        v = por_nome[f.name.lower()]
+        destino = pasta / nome_local(v)
+        if destino.exists():
+            continue
+        shutil.move(f, destino)
+        regs.append({"data_acesso": data, "arquivo": destino.relative_to(RAIZ).as_posix(), "url_base": v["url"], "n_requisicoes": 1,
+                     "bytes": destino.stat().st_size, "sha256": sha256(destino)})
+    with (MANIFESTOS / "oea.csv").open("a", encoding="utf-8", newline="") as m:
+        csv.DictWriter(m, fieldnames=["data_acesso", "arquivo", "url_base", "n_requisicoes", "bytes", "sha256"], lineterminator="\n").writerows(regs)
+    for reg in regs:
+        registrar_busca("OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034)", f"volume {reg['arquivo'].rsplit('/', 1)[1]}",
+                        1, SCRIPT, data, {"url": reg["url_base"]}, reg, ids)
+    ids.salvar()
+    print(f"{len(regs)} volumes registrados: {[r['arquivo'].rsplit('/', 1)[1] for r in regs]}")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--planejar", action="store_true")
+    ap.add_argument("--registrar-manuais", metavar="DATA")
     a = ap.parse_args()
-    print(planejar()) if a.planejar else coletar()
+    if a.registrar_manuais:
+        registrar_manuais(a.registrar_manuais)
+    else:
+        print(planejar()) if a.planejar else coletar()
