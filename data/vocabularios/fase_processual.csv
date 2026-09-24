@@ -1,0 +1,17 @@
+codigo,rotulo
+instauracao_inquerito,Instauração de inquérito
+arquivamento_inquerito,Arquivamento de inquérito
+oferecimento_denuncia,Oferecimento de denúncia
+recebimento_denuncia,Recebimento de denúncia
+rejeicao_denuncia,Rejeição de denúncia
+sentenca,Sentença
+acordao_2a_instancia,Acórdão de segunda instância
+acordao_tribunal_superior,Acórdão de tribunal superior
+transito_em_julgado,Trânsito em julgado
+declinio_competencia,Declínio de competência
+remessa_outra_instancia,Remessa a outra instância
+anulacao,Anulação
+prescricao_reconhecida,Prescrição reconhecida
+homologacao_colaboracao,Homologação de colaboração premiada
+extincao_punibilidade,Extinção da punibilidade
+outra,Outra

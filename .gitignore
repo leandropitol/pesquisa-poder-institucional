@@ -1,0 +1,12 @@
+# brutos e derivados ficam fora do Git (manifestos com sha256 ficam dentro)
+data/raw/*
+!data/raw/README.md
+data/staging/*
+!data/staging/.gitkeep
+data/derivados/*
+!data/derivados/.gitkeep
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.env

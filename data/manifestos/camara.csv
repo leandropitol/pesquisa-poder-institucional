@@ -1,0 +1,5 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/camara/2026-09-24/legislaturas.jsonl,https://dadosabertos.camara.leg.br/api/v2/legislaturas,1,8062,57b9c8f9760fe777b229204dbbe2894d0efb84d4b0dfbc05f6864a81dc746155
+2026-09-24,data/raw/camara/2026-09-24/deputados_por_legislatura.jsonl,https://dadosabertos.camara.leg.br/api/v2/deputados,61,2059362,43927fb017dd737b1ce3b47304efd197982898d4c99b6ce65243f74a4b7776a4
+2026-09-24,data/raw/camara/2026-09-24/historicos.jsonl,https://dadosabertos.camara.leg.br/api/v2/deputados/{id}/historico,2079,11835856,531f2b277443c2eb8a30995d34a7e7db7d0fef501d5b88b52df0c6e0cbce368d
+2026-09-24,data/raw/camara/2026-09-24/partidos.jsonl,https://dadosabertos.camara.leg.br/api/v2/partidos/{id},67,61808,2835501674d16fd7c0b63d136afe36cc8c67cea358979c50e9ef6d8828beea38

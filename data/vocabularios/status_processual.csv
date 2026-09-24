@@ -1,0 +1,16 @@
+codigo,rotulo,modelo_frase
+investigado,investigado,{data}: {ator} passou a investigado em {processo}.
+denunciado,denunciado,{data}: {ator} foi denunciado em {processo}{tipificacao}.
+reu,réu,{data}: {ator} passou a réu em {processo}{tipificacao}.
+condenado_1a_instancia,condenado em primeira instância,{data}: {ator} foi condenado em primeira instância em {processo}{tipificacao}.
+condenado_2a_instancia,condenado em segunda instância,{data}: {ator} foi condenado em segunda instância em {processo}{tipificacao}.
+condenado_tribunal_superior,condenado por tribunal superior,{data}: {ator} foi condenado por tribunal superior em {processo}{tipificacao}.
+condenado_transito_em_julgado,condenado com trânsito em julgado,{data}: a condenação de {ator} em {processo} transitou em julgado{tipificacao}.
+absolvido,absolvido,{data}: {ator} foi absolvido em {processo}.
+denuncia_rejeitada,denúncia rejeitada,{data}: a denúncia contra {ator} em {processo} foi rejeitada.
+arquivado,arquivado,{data}: a investigação sobre {ator} em {processo} foi arquivada.
+prescrito,prescrição reconhecida,{data}: foi reconhecida a prescrição em relação a {ator} em {processo}.
+punibilidade_extinta,punibilidade extinta,{data}: foi declarada extinta a punibilidade de {ator} em {processo}.
+condenacao_anulada,condenação anulada,{data}: a condenação de {ator} em {processo} foi anulada.
+processo_anulado,processo anulado,{data}: o processo {processo} foi anulado em relação a {ator}.
+colaborador,colaborador,{data}: {ator} firmou colaboração premiada homologada em {processo}.

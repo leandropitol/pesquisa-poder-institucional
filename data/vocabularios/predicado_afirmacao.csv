@@ -1,0 +1,9 @@
+codigo,rotulo,modelo_frase,nivel_maximo
+recebeu_valor,recebeu valor de,{data}: {sujeito} recebeu valor de {objeto}{valor}.,
+pagou_valor,pagou valor a,{data}: {sujeito} pagou valor a {objeto}{valor}.,
+autorizou,autorizou,{data}: {sujeito} autorizou {objeto}.,
+indicou_para_cargo,indicou para cargo,{data}: {sujeito} indicou {objeto} para cargo.,
+interveio_em,interveio em,{data}: {sujeito} interveio em {objeto}.,
+declarou,declarou sobre,{data}: {sujeito} declarou sobre {objeto}.,alegado
+negou,negou,{data}: {sujeito} negou {objeto}.,
+outro,outro,"{data}: {sujeito}, {objeto}.",

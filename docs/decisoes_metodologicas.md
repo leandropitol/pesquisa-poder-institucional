@@ -1,0 +1,21 @@
+# Decisões metodológicas
+
+Registro datado. Cada decisão vale para todos os atores igualmente. Mudança de decisão é uma entrada
+nova que cita a anterior, nunca edição da antiga.
+
+| ID | Data | Decisão | Motivo |
+|---|---|---|---|
+| D-001 | 2026-09-24 | Projeto em `Documents/pesquisa-poder-institucional`, separado de outros estudos | Aprovado pelo autor |
+| D-002 | 2026-09-24 | Git só local; remoto privado e commits quando grande parte estiver pronta e o autor pedir | Aprovado pelo autor |
+| D-003 | 2026-09-24 | Qualidade democrática por V-Dem (Regimes of the World) e Freedom House (status), lado a lado, sem índice combinado; limiares na seção 4 do protocolo | Aprovado pelo autor ("os dois"); limiares são as próprias categorias publicadas pelas réguas, para não criar corte próprio |
+| D-004 | 2026-09-24 | Universo do eixo 1, fase 1: ações penais e inquéritos originários no STF e no STJ desde 2003, com os tipos penais da seção 3 do protocolo | Aprovado pelo autor; evita seleção por casos conhecidos |
+| D-005 | 2026-09-24 | CSV em `data/base/` é a fonte de verdade; Parquet e DuckDB são derivados. DuckDB fica para quando houver consultas analíticas (não está instalado) | Diff linha a linha no Git; nenhuma instalação sem necessidade |
+| D-006 | 2026-09-24 | Tabelas de histórico só crescem; o validador compara com o último commit | Status muda com o tempo (condenação, anulação); o registro antigo continua fato histórico |
+| D-007 | 2026-09-24 | Achado sem verificação de simetria é aviso na base e bloqueio no relatório | A base cresce por etapas; o relatório é o ponto em que a regra precisa estar cumprida |
+| D-008 | 2026-09-24 | Redes partidárias transnacionais de todas as orientações entram no eixo 2 | Simetria: registrar só uma rede seria seleção |
+| D-009 | 2026-09-24 | Fontes que recusam cliente automatizado (STF, TSE, UN Digital Library em 2026-09-24) não são contornadas; entram por download manual do autor ou espelho público citado | Respeito aos termos de acesso; a origem de cada arquivo fica no manifesto |
+| D-010 | 2026-09-24 | Votações nominais da Câmara e do Senado entram por lista de temas fixada antes (ver `docs/plano_coleta.md`, E1), não pelo resultado | Evita selecionar votações que confirmem uma leitura |
+| D-011 | 2026-09-24 | A coleta da Câmara não usa o endpoint de detalhe do deputado (`/deputados/{id}`), que devolve CPF; nome e UF vêm da lista por legislatura e do histórico | O dado bruto é imutável; não guardar CPF nem no bruto |
+| D-012 | 2026-09-24 | Uma busca é uma consulta lógica (por exemplo, "histórico dos deputados das legislaturas 52 a 57"), não cada requisição; cada requisição fica no arquivo bruto JSONL com URL, horário e status | Mantém `buscas` legível sem perder rastreabilidade |
+| D-013 | 2026-09-24 | Universo de partidos do ano X: partidos com ao menos um deputado federal em exercício em 2 de fevereiro de X, pelo histórico da Câmara | Critério objetivo, após a posse de cada legislatura; o Senado não altera o conjunto de forma relevante e pode ser incluído depois |
+| D-014 | 2026-09-24 | Deputado e senador são a mesma pessoa só quando nome parlamentar normalizado e UF coincidem de forma única; casos ambíguos ficam separados até revisão manual | Evita fundir homônimos sem dado pessoal adicional |

@@ -1,0 +1,56 @@
+id_instituicao,nome,sigla,tipo_instituicao,poder,esfera,pais_iso3,cnpj,id_sucessora,observacao
+INS-000001,Câmara dos Deputados,CD,casa_legislativa,legislativo,federal,BRA,,,
+INS-000002,Senado Federal,SF,casa_legislativa,legislativo,federal,BRA,,,
+INS-000003,Partido da Frente Liberal,PFL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000004,Democratas,DEM,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000005,Partido Socialista Brasileiro,PSB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000006,Partido Republicano Brasileiro,PRB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000007,Partido dos Trabalhadores,PT,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000008,Partido da Mobilização Nacional,PMN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000009,Partido Trabalhista Brasileiro,PTB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000010,Partido Social Cristão,PSC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000011,Partido Trabalhista do Brasil,PTDOB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000012,Avante,AVANTE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000013,Partido da Social Democracia Brasileira,PSDB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000014,Partido da República,PR,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000015,Partido do Movimento Democrático Brasileiro,PMDB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000016,União Brasil,UNIÃO,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000017,Progressistas,PP,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000018,Partido Popular Socialista,PPS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000019,Movimento Democrático Brasileiro,MDB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000020,Partido Democrático Trabalhista,PDT,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000021,Solidariedade,SDD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000022,Solidariedade,SD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000023,Partido Trabalhista Nacional,PTN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000024,Podemos,PODE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000025,Partido Verde,PV,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000026,Partido Progressista Brasileiro,PPB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000027,Partido Comunista do Brasil,PCDOB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000028,Republicanos,REPUBLICANOS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000029,Partido Liberal,PL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000030,Cidadania,CIDADANIA,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000031,Partido Socialismo e Liberdade,PSOL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000032,Partido Republicano da Ordem Social,PROS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000033,Partido Ecológico Nacional,PEN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000034,Partido Social Trabalhista,PST,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000035,Solidariedade,SOLIDARIEDADE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000036,Partido Social Democrático,PSD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000037,Partido Humanista da Solidariedade,PHS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000038,Partido Trabalhista Cristão,PTC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000039,Democracia Cristã,DC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000040,Partido Social Liberal,PSL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000041,Partido Municipalista Renovador,PMR,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000042,Partido Social Democrata Cristão,PSDC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000043,Partido Republicano Progressista,PRP,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000044,Partido de Reedificação da Ordem Nacional,PRONA,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000045,Partido dos Aposentados da Nação,PAN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000046,Partido da Mulher Brasileira,PMB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000047,Rede Sustentabilidade,REDE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000048,Patriota,PATRI,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000049,Partido Renovador Trabalhista Brasileiro,PRTB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000050,Partido Novo,NOVO,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000051,Patriota,PATRIOTA,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000052,Partido Renovação Democrática,PRD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000053,Partido Pátria Livre,PPL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000054,Partido Missão,MISSÃO,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000055,Partido Comunista Brasileiro,PCB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado

@@ -1,0 +1,3 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/senado/2026-09-24/senadores_por_legislatura.jsonl,https://legis.senado.leg.br/dadosabertos/senador/lista/legislatura/{n}.json,6,1691657,cd75033610dc14584a2bfd59892a844efb3bc5cc0881ec214f310ea5aeba5382
+2026-09-24,data/raw/senado/2026-09-24/filiacoes.jsonl,https://legis.senado.leg.br/dadosabertos/senador/{codigo}/filiacoes.json,739,592786,385d65c7339ebc164f1e758adcf2fd0061f395a8cbc8b27b4422fb4505d2066c
