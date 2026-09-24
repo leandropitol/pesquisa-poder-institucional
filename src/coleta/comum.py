@@ -38,16 +38,22 @@ class Cliente:
         self.sessao = requests.Session()
         self.sessao.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json"})
         tentativa = Retry(total=6, backoff_factor=2, status_forcelist=(429, 500, 502, 503, 504),
-                          allowed_methods=("GET", "HEAD"), respect_retry_after_header=True)
+                          allowed_methods=("GET", "HEAD", "POST"), respect_retry_after_header=True)
         self.sessao.mount("https://", HTTPAdapter(max_retries=tentativa))
         self._ultima = 0.0
         self.n_requisicoes = 0
 
-    def get(self, url: str, params: dict | None = None) -> requests.Response:
+    def get(self, url: str, params: dict | None = None, headers: dict | None = None) -> requests.Response:
+        return self._requisitar("GET", url, params=params, headers=headers)
+
+    def post(self, url: str, json_corpo: dict, headers: dict | None = None) -> requests.Response:
+        return self._requisitar("POST", url, json=json_corpo, headers=headers)
+
+    def _requisitar(self, metodo: str, url: str, **kw) -> requests.Response:
         espera = self.pausa - (time.monotonic() - self._ultima)
         if espera > 0:
             time.sleep(espera)
-        r = self.sessao.get(url, params=params, timeout=self.tempo_limite)
+        r = self.sessao.request(metodo, url, timeout=self.tempo_limite, **kw)
         self._ultima = time.monotonic()
         self.n_requisicoes += 1
         if r.status_code == 403:

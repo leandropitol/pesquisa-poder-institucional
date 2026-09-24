@@ -37,6 +37,9 @@ de 2003, com imputação de ao menos um destes tipos:
 - organização criminosa (Lei 12.850/2013) ou associação criminosa conexa;
 - falsidade ideológica eleitoral (Código Eleitoral, art. 350) conexa aos anteriores.
 
+No STJ, o universo é descoberto pela API pública do DataJud, com uso restrito (D-022): o DataJud lista os
+processos, e o que for citado ou publicado vem da fonte primária do tribunal.
+
 Ações de improbidade (Lei 8.429/1992) entram como processos cíveis, marcadas como tal. Processos de
 primeira instância entram quando ligados a um caso cujo processo originário está no universo (por
 exemplo, ações da Lava Jato em Curitiba). A ampliação para operações da Polícia Federal e para acórdãos

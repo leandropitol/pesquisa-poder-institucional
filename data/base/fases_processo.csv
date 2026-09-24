@@ -1,1 +1,59 @@
 id_fase,id_processo,data,fase,id_orgao_julgador,resumo,id_fonte
+FAS-000008,PRC-000010,2018-06-29,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000022,PRC-000023,2018-03-21,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000023,PRC-000024,2018-08-06,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000026,PRC-000026,2018-06-29,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000028,PRC-000027,2018-08-02,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000029,PRC-000028,2018-05-07,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000031,PRC-000029,2018-07-03,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000035,PRC-000032,2017-12-11,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000039,PRC-000035,2019-03-12,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000045,PRC-000037,2018-06-21,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000048,PRC-000040,2019-06-05,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000064,PRC-000049,2018-06-28,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000069,PRC-000050,2015-10-21,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000073,PRC-000050,2018-06-21,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000075,PRC-000051,2019-10-02,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000089,PRC-000057,2024-10-02,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000097,PRC-000063,2021-12-16,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000100,PRC-000065,2021-10-21,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000101,PRC-000066,2021-05-04,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000105,PRC-000068,2021-03-25,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000113,PRC-000073,2023-06-14,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000121,PRC-000079,2022-08-08,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000125,PRC-000082,2021-03-23,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000135,PRC-000086,2021-05-03,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000138,PRC-000088,2022-07-19,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000140,PRC-000089,2021-05-03,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000146,PRC-000092,2020-12-09,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000147,PRC-000093,2021-02-12,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000148,PRC-000093,2023-02-02,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000156,PRC-000100,2019-10-11,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000196,PRC-000112,2020-11-20,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000198,PRC-000114,2021-02-17,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000202,PRC-000116,2022-05-27,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000209,PRC-000118,2021-11-08,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000211,PRC-000119,2021-04-30,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000215,PRC-000120,2026-03-25,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000221,PRC-000123,2019-03-26,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000225,PRC-000124,2025-11-06,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000226,PRC-000124,2025-11-27,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000236,PRC-000130,2022-05-30,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000239,PRC-000130,2023-04-03,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000246,PRC-000133,2019-05-15,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000250,PRC-000136,2021-06-16,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000270,PRC-000156,2020-02-28,arquivamento_inquerito,INS-000378,Determinação de arquivamento de procedimentos investigatórios,FNT-000013
+FAS-000303,PRC-000170,2023-09-11,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000314,PRC-000175,2023-06-27,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000318,PRC-000176,2022-05-30,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000319,PRC-000176,2022-05-30,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000322,PRC-000177,2022-05-30,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000324,PRC-000179,2021-05-19,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000332,PRC-000184,2021-06-10,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000336,PRC-000185,2025-06-11,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000348,PRC-000195,2021-07-02,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000354,PRC-000196,2019-05-16,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000357,PRC-000197,2021-05-04,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000363,PRC-000202,2022-06-07,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000366,PRC-000203,2023-06-22,declinio_competencia,INS-000378,Incompetência,FNT-000013
+FAS-000368,PRC-000204,2024-08-21,declinio_competencia,INS-000378,Incompetência,FNT-000013

@@ -99,12 +99,13 @@ TABELAS: list[Tabela] = [
     Tabela("processos", "entidades", "Processos judiciais e procedimentos formais. Unidade de registro do eixo 1.", ("id_processo",), (
         C("id_processo", "id", True),
         C("numero_cnj", "texto", False, "Numeração única CNJ, quando existir"),
-        C("numero_originario", "texto", True, "Ex.: AP 470, Inq 4.130"),
+        C("numero_originario", "texto", False, "Ex.: AP 470, Inq 4.130 (quando a fonte informa)"),
         C("classe", "vocab", True, vocab="classe_processual"),
         C("id_tribunal", "ref", True, fk="instituicoes.id_instituicao"),
         C("id_relator_atual", "ref", False, fk="atores.id_ator"),
         C("data_autuacao", "data", True),
         C("id_caso", "ref", False, fk="casos.id_caso"),
+        C("assuntos_tpu", "texto", False, "Assuntos da Tabela Processual Unificada do CNJ, 'código:nome' separados por ';'"),
         C("sigilo", "bool", True), C("url", "url", True), FONTE,
     ), prefixo="PRC"),
     Tabela("fases_processo", "entidades", "Histórico de fases de cada processo.", ("id_fase",), (

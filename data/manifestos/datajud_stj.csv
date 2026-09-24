@@ -1,0 +1,4 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/datajud_stj/2026-09-24/exploracao.jsonl,https://api-publica.datajud.cnj.jus.br/api_publica_stj/_search,2,12809,d7e8264acba06335c6edc7d17863b2b3ecb93643e14095124633857c358f4e27
+2026-09-24,data/raw/datajud_stj/2026-09-24-b/exploracao_classes_penais.jsonl,https://api-publica.datajud.cnj.jus.br/api_publica_stj/_search,1,5852,142f71f5ba4830cccbcb317089fb783d5f5ac355441851f07208331794332bd7
+2026-09-24,data/raw/datajud_stj/2026-09-24/processos_originarios_penais.jsonl,https://api-publica.datajud.cnj.jus.br/api_publica_stj/_search,1,7992161,4408fcd0a83272dec852c8493b2d708e37ead1d44ea27ae7b40bcad49c202d72

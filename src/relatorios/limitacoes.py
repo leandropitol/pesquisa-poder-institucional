@@ -125,6 +125,31 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
 
+    proc = ler("processos", base)
+    if len(proc):
+        from src.normalizacao.datajud_stj import no_universo, regras_assuntos
+        regras = regras_assuntos()
+        proc = proc.copy()
+        proc["universo"] = [no_universo([x.split(":")[0] for x in s.split("; ") if x], regras) for s in proc["assuntos_tpu"]]
+        proc["ano"] = proc["data_autuacao"].str[:4]
+        uni = proc[(proc["universo"] == "sim") & (proc["ano"] >= "2003")]
+        ate_2012 = int((uni["ano"] <= "2012").sum())
+        linhas += [
+            "### STJ pelo DataJud (etapa E4)", "",
+            f"- {len(proc)} ações penais e inquéritos do STJ na API pública do DataJud; {len(uni)} no universo do eixo 1 desde 2003 "
+            f"(tipos penais do protocolo, pela tabela `data/curadoria/assuntos_tpu_eixo1.csv`); {int((proc['universo'] == 'revisar').sum())} com assuntos "
+            "genéricos, a revisar pela fonte primária.",
+            f"- Cobertura histórica baixa: só {ate_2012} processos do universo autuados de 2003 a 2012. O DataJud concentra processos com movimentação "
+            "recente; processos antigos e baixados podem não estar na base do CNJ. O universo do STJ anterior a 2013 está incompleto.",
+            "- A API pública só traz processos sem sigilo; processos sigilosos não aparecem.",
+            "- A API não traz nomes de partes, e o termo de uso impede cruzar seus dados com pessoas (D-022). Status de pessoas depende de fonte primária.",
+            "- O portal do STJ (consulta processual e jurisprudência) exige verificação de robô; a leitura da fonte primária de cada processo citado "
+            "precisa ser feita por uma pessoa. A URL gravada segue o formato do portal e não foi conferida por script.",
+            "- Fases processuais: só declínio de competência e arquivamento de procedimento investigatório. O trânsito em julgado não foi usado, porque "
+            "no STJ aparece a cada recurso interno encerrado.",
+            "",
+        ]
+
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
     if len(avisos) > 20:

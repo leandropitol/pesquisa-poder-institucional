@@ -8,3 +8,4 @@ FNT-000006,INS-000002,Resposta da API de dados abertos (JSONL),2026-09-24,https:
 FNT-000007,INS-000056,Página institucional com tabelas de partidos,2026-09-24,https://www.tse.jus.br/partidos/partidos-registrados-no-tse
 FNT-000011,INS-000105,Conjunto de dados abertos (CSV),2026-09-24,https://dadosabertos.bndes.gov.br/dataset/f27e48cd-653b-4bfa-bc4f-08b637793873/resource/d158033b-f6cb-4609-9717-a9cb2ff7ffc5/download/operacoes-exportacao-operacoes-de-exportacao-pos-embarque-servicos-de-engenharia.csv
 FNT-000012,INS-000105,Conjunto de dados abertos (CSV),2026-09-24,https://dadosabertos.bndes.gov.br/dataset/f27e48cd-653b-4bfa-bc4f-08b637793873/resource/0cfe4594-44bf-48a8-a79a-686fc2d0db95/download/operacoes-exportacao-operacoes-de-exportacao-pos-embarque-bens.csv
+FNT-000013,INS-000379,Resposta da API pública do DataJud (JSONL),2026-09-24,https://api-publica.datajud.cnj.jus.br/api_publica_stj/_search

@@ -81,8 +81,12 @@ Linguagem descritiva, sem adjetivos valorativos. A mesma formulação para atore
    `python -m src.estrutura` (regenera dicionário e vocabulários) e `python -m src.validacao.validar`.
 5. Chaves de API só em variável de ambiente (por exemplo `TRANSPARENCIA_API_KEY`), nunca no código.
    Respeitar limites de requisição (backoff exponencial). Downloads acima de 50 MB pedem autorização.
-6. Repositório Git **local** por enquanto. Não criar remoto, não dar push e não tornar nada público
-   sem pedido explícito do autor. Commits só quando o autor pedir.
+6. **DataJud (CNJ):** termo de uso aceito com restrições (D-022). Uso só para descobrir o universo de
+   processos; fontes com licença "Termo de uso da API pública do DataJud" nunca são citadas em relatório
+   nem publicadas; nada do DataJud é cruzado com pessoas; máximo de 120 requisições por minuto; ao publicar
+   qualquer estudo, lembrar o autor de dar ciência ao CNJ (cláusula 3.9).
+7. Repositório Git **local** por enquanto. Não criar remoto, não dar push e não tornar nada público
+   sem pedido explícito do autor. Commits locais liberados pelo autor em 2026-09-24.
 
 ## 7. Padrões de código
 

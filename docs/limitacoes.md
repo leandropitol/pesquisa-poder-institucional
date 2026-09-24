@@ -62,25 +62,28 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 323 |
+| `instituicoes` | 325 |
 | `denominacoes_partido` | 67 |
+| `processos` | 205 |
+| `fases_processo` | 58 |
 | `relacoes` | 17 |
-| `fontes` | 12 |
-| `fonte_oficial` | 9 |
+| `fontes` | 13 |
+| `fonte_oficial` | 10 |
 | `fonte_base_dados` | 3 |
 | `relacao_fonte` | 17 |
-| `buscas` | 27 |
+| `buscas` | 30 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
 
-Tabelas ainda vazias (18): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (16): `casos`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 27 buscas registradas; 0 com zero resultados.
+- 30 buscas registradas; 0 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
+- DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -118,6 +121,15 @@ Tabelas ainda vazias (18): `casos`, `processos`, `fases_processo`, `status_pesso
 - O arquivo de pré-embarque financia o exportador no Brasil e não informa o país de destino; fica só no dado bruto.
 - Valores em moeda da operação, nominais, sem correção; linhas contratadas antes de 2000 não têm régua de qualidade democrática.
 - As condições de garantia (seguro de crédito, Fundo de Garantia à Exportação, convênio de créditos recíprocos) aparecem só como texto do BNDES.
+
+### STJ pelo DataJud (etapa E4)
+
+- 205 ações penais e inquéritos do STJ na API pública do DataJud; 124 no universo do eixo 1 desde 2003 (tipos penais do protocolo, pela tabela `data/curadoria/assuntos_tpu_eixo1.csv`); 21 com assuntos genéricos, a revisar pela fonte primária.
+- Cobertura histórica baixa: só 14 processos do universo autuados de 2003 a 2012. O DataJud concentra processos com movimentação recente; processos antigos e baixados podem não estar na base do CNJ. O universo do STJ anterior a 2013 está incompleto.
+- A API pública só traz processos sem sigilo; processos sigilosos não aparecem.
+- A API não traz nomes de partes, e o termo de uso impede cruzar seus dados com pessoas (D-022). Status de pessoas depende de fonte primária.
+- O portal do STJ (consulta processual e jurisprudência) exige verificação de robô; a leitura da fonte primária de cada processo citado precisa ser feita por uma pessoa. A URL gravada segue o formato do portal e não foi conferida por script.
+- Fases processuais: só declínio de competência e arquivamento de procedimento investigatório. O trânsito em julgado não foi usado, porque no STJ aparece a cada recurso interno encerrado.
 
 ### Validador
 
