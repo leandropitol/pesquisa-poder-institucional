@@ -10,3 +10,5 @@ __pycache__/
 .venv/
 .env
 *.env
+# capturas feitas no navegador (D-015) não podem ser refeitas por script: ficam versionadas
+!data/raw/tse_partidos/
