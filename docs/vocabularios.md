@@ -57,6 +57,7 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `empresa_estatal` | Empresa estatal |
 | `banco_publico` | Banco público |
 | `empresa_privada` | Empresa privada |
+| `empresa` | Empresa (natureza pública ou privada não classificada) |
 | `partido` | Partido político |
 | `governo_estrangeiro` | Governo estrangeiro |
 | `organismo_multilateral` | Organismo multilateral |

@@ -41,6 +41,7 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("orgao_publico", "Órgão público"), ("tribunal", "Tribunal"), ("ministerio_publico", "Ministério Público"),
         ("policia", "Polícia"), ("casa_legislativa", "Casa legislativa"), ("tribunal_de_contas", "Tribunal de contas"),
         ("empresa_estatal", "Empresa estatal"), ("banco_publico", "Banco público"), ("empresa_privada", "Empresa privada"),
+        ("empresa", "Empresa (natureza pública ou privada não classificada)"),
         ("partido", "Partido político"), ("governo_estrangeiro", "Governo estrangeiro"),
         ("organismo_multilateral", "Organismo multilateral"), ("rede_partidaria_transnacional", "Rede partidária transnacional"),
         ("outro", "Outro"),

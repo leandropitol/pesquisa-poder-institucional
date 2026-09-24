@@ -49,3 +49,276 @@ INS-000100,PARTIDO NOVO,NOVO,partido,nao_se_aplica,federal,BRA,,,"Registro no TS
 INS-000101,REDE SUSTENTABILIDADE,REDE,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2015-09-22, legenda 18"
 INS-000102,UNIDADE POPULAR,UP,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2019-12-10, legenda 80"
 INS-000103,PARTIDO MISSÃO,MISSÃO,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2025-11-04, legenda 14"
+INS-000105,Banco Nacional de Desenvolvimento Econômico e Social,BNDES,banco_publico,executivo,federal,BRA,,,
+INS-000106,MULTITRADE S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.144.298/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000107,CONSTRUTORA ANDRADE GUTIERREZ S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17.262.213/0001-94,,Exportadora com operação de apoio à exportação no BNDES
+INS-000108,CONSTRUTORA NORBERTO ODEBRECHT SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.102.288/0001-82,,Exportadora com operação de apoio à exportação no BNDES
+INS-000109,ENGEVIX ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.103.582/0001-31,,Exportadora com operação de apoio à exportação no BNDES
+INS-000110,FURNAS CENTRAIS ELETRICAS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,23.274.194/0001-19,,Exportadora com operação de apoio à exportação no BNDES
+INS-000111,ARG LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20.520.862/0001-52,,Exportadora com operação de apoio à exportação no BNDES
+INS-000112,PRO SINALIZACAO VIARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44.218.154/0001-20,,Exportadora com operação de apoio à exportação no BNDES
+INS-000113,CONFAB INDUSTRIAL S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.882.628/0042-68,,Exportadora com operação de apoio à exportação no BNDES
+INS-000114,SCHAHIN ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.226.890/0001-57,,Exportadora com operação de apoio à exportação no BNDES
+INS-000115,CONSTRUCOES E COMERCIO CAMARGO CORREA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.522.512/0001-02,,Exportadora com operação de apoio à exportação no BNDES
+INS-000116,PRADO VALLADARES AGENCIA DE COOPERCAO E DESENVOLVIMENTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.972.474/0001-19,,Exportadora com operação de apoio à exportação no BNDES
+INS-000117,EMSA EMPRESA SUL AMERICANA DE MONTAGENS S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17.393.547/0001-05,,Exportadora com operação de apoio à exportação no BNDES
+INS-000118,CONSTRUTORA QUEIROZ GALVAO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,33.412.792/0001-60,,Exportadora com operação de apoio à exportação no BNDES
+INS-000119,CONSTRUTORA OAS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,14.310.577/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000120,MELLO JUNIOR - EMPREENDIMENTOS E PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,64.243.769/0001-13,,Exportadora com operação de apoio à exportação no BNDES
+INS-000121,COMPANHIA DE OBRAS E INFRA-ESTRUTURA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.422.564/0001-97,,Exportadora com operação de apoio à exportação no BNDES
+INS-000122,TPRO ENGENHARIA S.A./ PHARMASTER DO BRASIL CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.502.090/0001-44,,Exportadora com operação de apoio à exportação no BNDES
+INS-000123,BUREAU DE PROJETOS E CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,58.416.389/0001-30,,Exportadora com operação de apoio à exportação no BNDES
+INS-000124,CONTRACTA ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.843.322/0001-90,,Exportadora com operação de apoio à exportação no BNDES
+INS-000125,MARCOPOLO SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.611.835/0001-29,,Exportadora com operação de apoio à exportação no BNDES
+INS-000126,MAQUINAS AGRICOLAS JACTO S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,55.064.562/0001-90,,Exportadora com operação de apoio à exportação no BNDES
+INS-000127,SCHULZ S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,84.693.183/0001-68,,Exportadora com operação de apoio à exportação no BNDES
+INS-000128,VOLVO DO BRASIL VEICULOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,43.999.424/0001-14,,Exportadora com operação de apoio à exportação no BNDES
+INS-000129,PERFIPAR S/A - MANUFATURADOS DE ACO,,empresa,nao_se_aplica,nao_se_aplica,BRA,95.816.963/0001-74,,Exportadora com operação de apoio à exportação no BNDES
+INS-000130,A CARNEVALLI CIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.372.058/0001-50,,Exportadora com operação de apoio à exportação no BNDES
+INS-000131,GNATUS EQUIPAMENTOS MEDICO ODONTOLOGICOS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,48.015.119/0001-64,,Exportadora com operação de apoio à exportação no BNDES
+INS-000132,GE CELMA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,33.435.231/0001-87,,Exportadora com operação de apoio à exportação no BNDES
+INS-000133,TRAMONTINA FARROUPILHA SA INDUSTRIA METALURGICA,,empresa,nao_se_aplica,nao_se_aplica,BRA,87.834.883/0001-13,,Exportadora com operação de apoio à exportação no BNDES
+INS-000134,CATERPILLAR BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.064.911/0001-77,,Exportadora com operação de apoio à exportação no BNDES
+INS-000135,KARSTEN S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,82.640.558/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000136,AGCO DO BRASIL COMERCIO E INDUSTRIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.876.003/0001-36,,Exportadora com operação de apoio à exportação no BNDES
+INS-000137,MARCOPOLO TRADING SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,87.004.594/0001-97,,Exportadora com operação de apoio à exportação no BNDES
+INS-000138,SILEX TRADING S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.914.606/0001-85,,Exportadora com operação de apoio à exportação no BNDES
+INS-000139,EMBRAER S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07.689.002/0001-89,,Exportadora com operação de apoio à exportação no BNDES
+INS-000140,KEPLER WEBER SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,91.983.056/0001-69,,Exportadora com operação de apoio à exportação no BNDES
+INS-000141,LIGHTERA LATAM S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.775.690/0001-91,,Exportadora com operação de apoio à exportação no BNDES
+INS-000142,CONFAB INDUSTRIAL SOCIEDADE ANONIMA,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.882.628/0001-90,,Exportadora com operação de apoio à exportação no BNDES
+INS-000143,COTIA TRADING S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,72.891.955/0001-97,,Exportadora com operação de apoio à exportação no BNDES
+INS-000144,IRIZAR BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.301.582/0001-71,,Exportadora com operação de apoio à exportação no BNDES
+INS-000145,BOMAG MARINI EQUIPAMENTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,87.960.167/0001-82,,Exportadora com operação de apoio à exportação no BNDES
+INS-000146,ALSTOM HYDRO ENERGIA BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44.682.318/0001-75,,Exportadora com operação de apoio à exportação no BNDES
+INS-000147,TRAMONTINA ELETRIK S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.674.080/0001-01,,Exportadora com operação de apoio à exportação no BNDES
+INS-000148,MANGELS INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17.958.315/0001-49,,Exportadora com operação de apoio à exportação no BNDES
+INS-000149,TECNOLOGICA INDUSTRIA E COMERCIO DE INFORMATICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39.803.010/0001-09,,Exportadora com operação de apoio à exportação no BNDES
+INS-000150,FUNDACAO CPQD - CENTRO DE PESQUISA E DESENVOLVIMENTO EM,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.641.663/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000151,SCANIA LATIN AMERICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.104.901/0001-76,,Exportadora com operação de apoio à exportação no BNDES
+INS-000152,TRAMONTINA SA CUTELARIA,,empresa,nao_se_aplica,nao_se_aplica,BRA,90.050.238/0001-14,,Exportadora com operação de apoio à exportação no BNDES
+INS-000153,COMIL SILOS E SECADORES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,76.061.480/0001-62,,Exportadora com operação de apoio à exportação no BNDES
+INS-000154,OURO FINO SAUDE ANIMAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,57.624.462/0001-05,,Exportadora com operação de apoio à exportação no BNDES
+INS-000155,INTERNATIONAL ENGINES SOUTH AMERICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.267.712/0001-05,,Exportadora com operação de apoio à exportação no BNDES
+INS-000156,ANDRITZ SCHULER DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.068.342/0001-38,,Exportadora com operação de apoio à exportação no BNDES
+INS-000157,IPE AGRO AVICOLA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.060.978/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000158,JOHN DEERE BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,89.674.782/0001-58,,Exportadora com operação de apoio à exportação no BNDES
+INS-000159,POLIMAQUINAS INDUSTRIA E COMERCIO LIMITADA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46.142.725/0001-15,,Exportadora com operação de apoio à exportação no BNDES
+INS-000160,MASSA FALIDA DE BUSSCAR ONIBUS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,84.683.879/0001-03,,Exportadora com operação de apoio à exportação no BNDES
+INS-000161,MERCEDES-BENZ DO BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.104.273/0001-29,,Exportadora com operação de apoio à exportação no BNDES
+INS-000162,ICA TELECOMUNICACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,47.103.106/0001-84,,Exportadora com operação de apoio à exportação no BNDES
+INS-000163,CIBER EQUIPAMENTOS RODOVIARIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.678.093/0001-26,,Exportadora com operação de apoio à exportação no BNDES
+INS-000164,ATLAS COPCO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,57.029.431/0001-06,,Exportadora com operação de apoio à exportação no BNDES
+INS-000165,AGCO DO BRASIL MAQUINAS E EQUIPAMENTOS AGRICOLAS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.076.055/0001-70,,Exportadora com operação de apoio à exportação no BNDES
+INS-000166,ROMI S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,56.720.428/0001-63,,Exportadora com operação de apoio à exportação no BNDES
+INS-000167,AGRALE SOCIEDADE ANONIMA,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.610.324/0001-92,,Exportadora com operação de apoio à exportação no BNDES
+INS-000168,SUPLEXTRADE COMERCIO EXTERIOR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,73.190.670/0001-91,,Exportadora com operação de apoio à exportação no BNDES
+INS-000169,RMS SOFTWARE S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.320.808/0001-70,,Exportadora com operação de apoio à exportação no BNDES
+INS-000170,TOTVS LARGE ENTERPRISE TECNOLOGIA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,82.373.077/0001-71,,Exportadora com operação de apoio à exportação no BNDES
+INS-000171,METSO BRASIL INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16.622.284/0001-98,,Exportadora com operação de apoio à exportação no BNDES
+INS-000172,NOMA DO BRASIL SOCIEDADE ANONIMA EM RECUPERACAO JUDICIA,,empresa,nao_se_aplica,nao_se_aplica,BRA,79.131.918/0001-20,,Exportadora com operação de apoio à exportação no BNDES
+INS-000173,VOITH PAPER MAQUINAS E EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.243.119/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000174,FSTP BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06.011.542/0001-46,,Exportadora com operação de apoio à exportação no BNDES
+INS-000175,TECHINT ENGENHARIA E CONSTRUCAO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.575.775/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000176,FRS S/A AGRO AVICOLA INDUSTRIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,91.374.561/0001-06,,Exportadora com operação de apoio à exportação no BNDES
+INS-000177,LOUIS DREYFUS COMPANY BRASIL S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,47.067.525/0001-08,,Exportadora com operação de apoio à exportação no BNDES
+INS-000178,LEON HEIMER S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,10.805.893/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000179,COMIL ONIBUS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.940.956/0001-73,,Exportadora com operação de apoio à exportação no BNDES
+INS-000180,HELICOPTEROS DO BRASIL S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,20.367.629/0001-81,,Exportadora com operação de apoio à exportação no BNDES
+INS-000181,MAQPLAS INDUSTRIA E COMERCIO DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,64.166.812/0001-94,,Exportadora com operação de apoio à exportação no BNDES
+INS-000182,SAN MARINO ONIBUS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,93.785.822/0001-06,,Exportadora com operação de apoio à exportação no BNDES
+INS-000183,CNH INDUSTRIAL BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.844.555/0001-82,,Exportadora com operação de apoio à exportação no BNDES
+INS-000184,MASSA FALIDA DE BUSSCAR COMERCIO EXTERIOR S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,80.472.616/0001-02,,Exportadora com operação de apoio à exportação no BNDES
+INS-000185,CORIB IMPORTACAO E EXPORTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.572.199/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000186,SEAPORT BRASIL COMERCIO INTERNACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.733.287/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000187,NIGATA COMERCIO INTERNACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72.505.621/0001-38,,Exportadora com operação de apoio à exportação no BNDES
+INS-000188,F. M. COEMPAR COMERCIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.433.227/0001-19,,Exportadora com operação de apoio à exportação no BNDES
+INS-000189,MAUBERTEC EMPREENDIMENTOS E CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.484.780/0001-23,,Exportadora com operação de apoio à exportação no BNDES
+INS-000190,TRACAN MAQUINAS E SISTEMAS PARA AGRICULTURA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.949.160/0001-07,,Exportadora com operação de apoio à exportação no BNDES
+INS-000191,PADTEC S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.549.807/0001-76,,Exportadora com operação de apoio à exportação no BNDES
+INS-000192,A L HECHER MADEIRAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.289.291/0001-54,,Exportadora com operação de apoio à exportação no BNDES
+INS-000193,TOLEDO DO BRASIL INDUSTRIA DE BALANCAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.704.510/0001-92,,Exportadora com operação de apoio à exportação no BNDES
+INS-000194,JOHNSON CONTROLS-HITACHI AR CONDICIONADO DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33.284.522/0001-11,,Exportadora com operação de apoio à exportação no BNDES
+INS-000195,MOTOROLA INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.472.720/0001-12,,Exportadora com operação de apoio à exportação no BNDES
+INS-000196,ARMCO STACO S. A. INDUSTRIA METALURGICA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72.343.882/0001-07,,Exportadora com operação de apoio à exportação no BNDES
+INS-000197,GSI BRASIL INDUSTRIA E COMERCIO DE EQUIPAMENTOS AGROPEC,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.770.039/0001-50,,Exportadora com operação de apoio à exportação no BNDES
+INS-000198,CAMPAK BRASIL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.804.783/0001-54,,Exportadora com operação de apoio à exportação no BNDES
+INS-000199,TK ELEVADORES BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,90.347.840/0001-18,,Exportadora com operação de apoio à exportação no BNDES
+INS-000200,HIMAPEL MAQUINAS INDUSTRIAIS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,96.737.002/0001-37,,Exportadora com operação de apoio à exportação no BNDES
+INS-000201,INDUSTRIAL PAGE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,82.563.321/0001-69,,Exportadora com operação de apoio à exportação no BNDES
+INS-000202,HAARSLEV INDUSTRIES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.011.353/0001-48,,Exportadora com operação de apoio à exportação no BNDES
+INS-000203,FABRIMA MAQUINAS AUTOMATICAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,43.222.439/0001-71,,Exportadora com operação de apoio à exportação no BNDES
+INS-000204,JCB DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.833.372/0001-24,,Exportadora com operação de apoio à exportação no BNDES
+INS-000205,WXBR SISTEMAS DE TELECOMUNICACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10.210.213/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000206,ZANELLA ENGENHARIA E INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,83.780.668/0001-26,,Exportadora com operação de apoio à exportação no BNDES
+INS-000207,WEG EQUIPAMENTOS ELETRICOS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,07.175.725/0001-60,,Exportadora com operação de apoio à exportação no BNDES
+INS-000208,ZANINI INDUSTRIA E MONTAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,47.038.088/0001-02,,Exportadora com operação de apoio à exportação no BNDES
+INS-000209,INTERUNION COMERCIO INTERNACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,57.663.932/0001-31,,Exportadora com operação de apoio à exportação no BNDES
+INS-000210,KEPLER WEBER INDUSTRIAL S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,87.288.940/0001-06,,Exportadora com operação de apoio à exportação no BNDES
+INS-000211,TGM INDUSTRIA E COMERCIO DE TURBINAS E TRANSMISSOES LTD,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.729.768/0001-14,,Exportadora com operação de apoio à exportação no BNDES
+INS-000212,BASIM MAQUINAS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,89.408.975/0001-67,,Exportadora com operação de apoio à exportação no BNDES
+INS-000213,STARA S.A. - INDUSTRIA DE IMPLEMENTOS AGRICOLAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,91.495.499/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000214,TRAMONTINA TEEC S/A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.554.846/0001-36,,Exportadora com operação de apoio à exportação no BNDES
+INS-000215,COMERCIAL SURIMPEX LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,69.182.277/0001-89,,Exportadora com operação de apoio à exportação no BNDES
+INS-000216,KOMATSU DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44.410.199/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000217,GUERRA S/A IMPLEMENTOS RODOVIARIOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.665.146/0001-05,,Exportadora com operação de apoio à exportação no BNDES
+INS-000218,BRN INTERNACIONAL INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07.585.058/0001-93,,Exportadora com operação de apoio à exportação no BNDES
+INS-000219,IPACOL MAQUINAS AGRICOLAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.825.524/0001-35,,Exportadora com operação de apoio à exportação no BNDES
+INS-000220,TRAMONTINA MULTI S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.037.668/0001-54,,Exportadora com operação de apoio à exportação no BNDES
+INS-000221,PDL SISTEMAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.358.451/0001-20,,Exportadora com operação de apoio à exportação no BNDES
+INS-000222,INDUSTRIAS MACHINA ZACCARIA S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.466.324/0001-50,,Exportadora com operação de apoio à exportação no BNDES
+INS-000223,THOR MAQUINAS E MONTAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,90.312.885/0001-57,,Exportadora com operação de apoio à exportação no BNDES
+INS-000224,INDUCTOTHERM GROUP BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.223.253/0001-65,,Exportadora com operação de apoio à exportação no BNDES
+INS-000225,J W INDUSTRIA E COMERCIO DE EQUIPAMENTOS EM ACO INOXIDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.511.648/0001-22,,Exportadora com operação de apoio à exportação no BNDES
+INS-000226,COTIA VITORIA SERVICOS E COMERCIO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.826.229/0001-42,,Exportadora com operação de apoio à exportação no BNDES
+INS-000227,NOGUEIRA INDUSTRIA E COMERCIO DE IMPLEMENTOS E MAQUINAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,08.510.974/0001-27,,Exportadora com operação de apoio à exportação no BNDES
+INS-000228,NB MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46.127.635/0001-55,,Exportadora com operação de apoio à exportação no BNDES
+INS-000229,PIRELLI PNEUS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.179.838/0001-37,,Exportadora com operação de apoio à exportação no BNDES
+INS-000230,RANDON IMPLEMENTOS PARA O TRANSPORTE LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.479.233/0001-93,,Exportadora com operação de apoio à exportação no BNDES
+INS-000231,HITACHI ENERGY BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.074.829/0001-23,,Exportadora com operação de apoio à exportação no BNDES
+INS-000232,JOSE DARCI CAMARGO JUNIOR,,empresa,nao_se_aplica,nao_se_aplica,BRA,06.890.517/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000233,CONSILOS INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,76.533.629/0001-69,,Exportadora com operação de apoio à exportação no BNDES
+INS-000234,SAUR EQUIPAMENTOS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.253.095/0001-73,,Exportadora com operação de apoio à exportação no BNDES
+INS-000235,FERRAZ MAQUINAS E ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,43.490.424/0001-94,,Exportadora com operação de apoio à exportação no BNDES
+INS-000236,RANDONCORP S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,89.086.144/0001-16,,Exportadora com operação de apoio à exportação no BNDES
+INS-000237,BERTOLINI SISTEMAS DE ARMAZENAGEM S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.358.988/0001-32,,Exportadora com operação de apoio à exportação no BNDES
+INS-000238,DIAS BRASIL COMER. REPRES. EXPORT. E IMPORT. LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.162.704/0001-96,,Exportadora com operação de apoio à exportação no BNDES
+INS-000239,YABORA INDUSTRIA AERONAUTICA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,30.657.250/0001-60,,Exportadora com operação de apoio à exportação no BNDES
+INS-000240,LIESS MAQUINAS E EQUIPAMENTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.765.833/0001-61,,Exportadora com operação de apoio à exportação no BNDES
+INS-000241,FACCHINI S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.509.978/0001-71,,Exportadora com operação de apoio à exportação no BNDES
+INS-000242,MEGA STEEL INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.575.049/0001-72,,Exportadora com operação de apoio à exportação no BNDES
+INS-000243,MODULAX INDUSTRIA E COMERCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08.370.673/0001-45,,Exportadora com operação de apoio à exportação no BNDES
+INS-000244,MASCARELLO - CARROCERIAS E ONIBUS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.440.065/0001-71,,Exportadora com operação de apoio à exportação no BNDES
+INS-000245,PLASSON DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.628.313/0001-51,,Exportadora com operação de apoio à exportação no BNDES
+INS-000246,SCHWING EQUIPAMENTOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.586.393/0001-99,,Exportadora com operação de apoio à exportação no BNDES
+INS-000247,STOCKMANS INDUSTRIA MECANICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10.429.551/0001-29,,Exportadora com operação de apoio à exportação no BNDES
+INS-000248,BUHLER INDUSTRIA E COMERCIO DE EQUIPAMENTOS INDUSTRIAIS,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.885.761/0001-08,,Exportadora com operação de apoio à exportação no BNDES
+INS-000249,CZM INDUSTRIA DE EQUIPAMENTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07.818.165/0001-14,,Exportadora com operação de apoio à exportação no BNDES
+INS-000250,MEDABIL INDUSTRIA EM SISTEMAS CONSTRUTIVOS SA EM RECUPE,,empresa,nao_se_aplica,nao_se_aplica,BRA,18.705.246/0001-24,,Exportadora com operação de apoio à exportação no BNDES
+INS-000251,PRYSMIAN CABOS E SISTEMAS DO BRASIL S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.150.751/0001-89,,Exportadora com operação de apoio à exportação no BNDES
+INS-000252,LIBRELATO S.A. IMPLEMENTOS RODOVIARIOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,75.274.316/0001-70,,Exportadora com operação de apoio à exportação no BNDES
+INS-000253,PRENSA JUNDIAI S/A                           (50925890),,empresa,nao_se_aplica,nao_se_aplica,BRA,50.925.890/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000254,LAKATOS EQUIPAMENTOS PARA EMBALAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,43.357.193/0001-45,,Exportadora com operação de apoio à exportação no BNDES
+INS-000255,COMEXI DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.791.540/0001-91,,Exportadora com operação de apoio à exportação no BNDES
+INS-000256,SERILON BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.143.008/0001-68,,Exportadora com operação de apoio à exportação no BNDES
+INS-000257,ALFA LAVAL AALBORG INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,31.120.686/0001-88,,Exportadora com operação de apoio à exportação no BNDES
+INS-000258,INDUMAK MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,84.431.352/0001-91,,Exportadora com operação de apoio à exportação no BNDES
+INS-000259,CORTINOVIS DO BRASIL INDUSTRIA E COMERCIO DE MAQUINAS L,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.634.840/0001-02,,Exportadora com operação de apoio à exportação no BNDES
+INS-000260,CARROCERIAS LINSHALM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,86.375.458/0001-40,,Exportadora com operação de apoio à exportação no BNDES
+INS-000261,SCM GROUP TECMATIC MAQUINAS E EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,78.977.451/0001-70,,Exportadora com operação de apoio à exportação no BNDES
+INS-000262,VETTOR TORRES DE RESFRIAMENTO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.825.612/0001-49,,Exportadora com operação de apoio à exportação no BNDES
+INS-000263,VOESTALPINE MEINCOL S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.614.342/0001-42,,Exportadora com operação de apoio à exportação no BNDES
+INS-000264,FINANTINTAS INDUSTRIA DE TINTAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23.640.926/0001-47,,Exportadora com operação de apoio à exportação no BNDES
+INS-000265,TRIEL-HT INDUSTRIAL E PARTICIPACOES S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,89.422.042/0001-24,,Exportadora com operação de apoio à exportação no BNDES
+INS-000266,VITOR CIOLA INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,48.080.642/0001-74,,Exportadora com operação de apoio à exportação no BNDES
+INS-000267,XCMG BRASIL INDUSTRIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14.707.364/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000268,ALFA LAVAL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,43.474.212/0001-13,,Exportadora com operação de apoio à exportação no BNDES
+INS-000269,NG METALURGICA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.939.979/0001-20,,Exportadora com operação de apoio à exportação no BNDES
+INS-000270,APEMA EQUIPAMENTOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.425.857/0001-85,,Exportadora com operação de apoio à exportação no BNDES
+INS-000271,MESAL MAQUINAS E TECNOLOGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,87.071.536/0001-86,,Exportadora com operação de apoio à exportação no BNDES
+INS-000272,VENCOMATIC SOUTH AMERICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.272.695/0001-59,,Exportadora com operação de apoio à exportação no BNDES
+INS-000273,CRISTIANE APARECIDA DOS SANTOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.743.524/0001-40,,Exportadora com operação de apoio à exportação no BNDES
+INS-000274,NATREB INDUSTRIA E COMERCIO DE MAQUINAS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.927.219/0001-66,,Exportadora com operação de apoio à exportação no BNDES
+INS-000275,SAGA MEDICAO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,08.026.075/0001-53,,Exportadora com operação de apoio à exportação no BNDES
+INS-000276,ETIRAMA INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01.400.742/0001-77,,Exportadora com operação de apoio à exportação no BNDES
+INS-000277,LIBREMAC AMBIENTAL IMPLEMENTOS RODOVIARIOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,18.229.986/0001-31,,Exportadora com operação de apoio à exportação no BNDES
+INS-000278,AGCO DO BRASIL SOLUCOES AGRICOLAS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,55.962.369/0001-77,,Exportadora com operação de apoio à exportação no BNDES
+INS-000279,PBG S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,83.475.913/0001-91,,Exportadora com operação de apoio à exportação no BNDES
+INS-000280,PERFOR INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.004.720/0001-08,,Exportadora com operação de apoio à exportação no BNDES
+INS-000281,AGI BRASIL INDUSTRIA E COMERCIO S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,58.764.309/0001-38,,Exportadora com operação de apoio à exportação no BNDES
+INS-000282,MAUSA SA EQUIPAMENTOS INDUSTRIAIS,,empresa,nao_se_aplica,nao_se_aplica,BRA,54.363.072/0001-22,,Exportadora com operação de apoio à exportação no BNDES
+INS-000283,ITALFLOR INDUSTRIA E COMERCIO DE MAQUINAS AGRICOLAS LTD,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.730.369/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000284,REIVAX AUTOMACAO E CONTROLE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,79.942.645/0001-01,,Exportadora com operação de apoio à exportação no BNDES
+INS-000285,SIEMENS ENERGY BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,44.013.159/0001-16,,Exportadora com operação de apoio à exportação no BNDES
+INS-000286,BIG DUTCHMAN BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.616.149/0001-40,,Exportadora com operação de apoio à exportação no BNDES
+INS-000287,LS MTRON INDUSTRIA DE MAQUINAS AGRICOLAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13.677.964/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000288,PLANALTO INDUSTRIA MECANICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,37.021.136/0001-98,,Exportadora com operação de apoio à exportação no BNDES
+INS-000289,PINHALENSE S/A.-MAQUINAS AGRICOLAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,54.224.423/0001-14,,Exportadora com operação de apoio à exportação no BNDES
+INS-000290,BUHLER SANMAK INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,75.304.766/0001-69,,Exportadora com operação de apoio à exportação no BNDES
+INS-000291,TECSOL AGROINDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.834.919/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000292,HECE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,59.602.144/0001-60,,Exportadora com operação de apoio à exportação no BNDES
+INS-000293,AVANCO S/A INDUSTRIA E COMERCIO DE MAQUINAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,43.297.852/0001-03,,Exportadora com operação de apoio à exportação no BNDES
+INS-000294,PALETRANS EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,50.770.445/0001-29,,Exportadora com operação de apoio à exportação no BNDES
+INS-000295,EXTRUSION SYSTEM INDUSTRIA E COMERCIO DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24.219.897/0001-07,,Exportadora com operação de apoio à exportação no BNDES
+INS-000296,ROCA SANITARIOS BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,75.801.902/0001-26,,Exportadora com operação de apoio à exportação no BNDES
+INS-000297,NBN TECNOLOGIA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,91.230.326/0001-60,,Exportadora com operação de apoio à exportação no BNDES
+INS-000298,MARCARINI DO BRASIL INDUSTRIA E COMERCIO DE FULOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,73.607.392/0001-25,,Exportadora com operação de apoio à exportação no BNDES
+INS-000299,LEMASA INDUSTRIA E COMERCIO DE EQUIPAMENTOS DE ALTA PRE,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.991.667/0001-98,,Exportadora com operação de apoio à exportação no BNDES
+INS-000300,ENGINEERING COMERCIO REPRESENTACAO DE MAQUINAS E TECNOL,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.068.691/0001-65,,Exportadora com operação de apoio à exportação no BNDES
+INS-000301,HOMAG INDUSTRIA E COMERCIO DE MAQUINAS PARA MADEIRA LTD,,empresa,nao_se_aplica,nao_se_aplica,BRA,42.560.912/0001-68,,Exportadora com operação de apoio à exportação no BNDES
+INS-000302,VOLKSWAGEN TRUCK & BUS INDUSTRIA E COMERCIO DE VEICULOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,06.020.318/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000303,PLASCONY INDUSTRIA DE PLASTICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,47.882.618/0001-96,,Exportadora com operação de apoio à exportação no BNDES
+INS-000304,IMPLEMENTOS AGRICOLAS JAN S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,91.495.226/0001-66,,Exportadora com operação de apoio à exportação no BNDES
+INS-000305,MULTI PACK PLAS INDUSTRIA E COMERCIO DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.504.374/0001-44,,Exportadora com operação de apoio à exportação no BNDES
+INS-000306,MENDES MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,83.750.729/0001-02,,Exportadora com operação de apoio à exportação no BNDES
+INS-000307,HD CONSTRUCTION EQUIPMENT BRASIL - INDUSTRIA E COMERCIO,,empresa,nao_se_aplica,nao_se_aplica,BRA,13.837.846/0001-22,,Exportadora com operação de apoio à exportação no BNDES
+INS-000308,JOHN BEAN TECHNOLOGIES MAQUINAS E EQUIPAMENTOS INDUSTRI,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.688.218/0001-55,,Exportadora com operação de apoio à exportação no BNDES
+INS-000309,K O MAQUINAS AGRICOLAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72.006.968/0001-36,,Exportadora com operação de apoio à exportação no BNDES
+INS-000310,KROMIA LABELL PRESS INDUSTRIA COMERCIO E MANUTENCAO DE,,empresa,nao_se_aplica,nao_se_aplica,BRA,10.796.294/0001-63,,Exportadora com operação de apoio à exportação no BNDES
+INS-000311,BUHLER DO BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,42.599.019/0001-46,,Exportadora com operação de apoio à exportação no BNDES
+INS-000312,INOZAGAM COMERCIAL IMPORTADORA EXPORTADORA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.106.974/0001-42,,Exportadora com operação de apoio à exportação no BNDES
+INS-000313,MANITOU BRASIL IMPORTACAO E COMERCIO DE MAQUINAS DE ELE,,empresa,nao_se_aplica,nao_se_aplica,BRA,14.749.973/0001-32,,Exportadora com operação de apoio à exportação no BNDES
+INS-000314,ELETROFRIO REFRIGERACAO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,76.498.179/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000315,HAVER & BOECKER LATINOAMERICANA MAQUINAS LIMITADA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44.000.941/0001-09,,Exportadora com operação de apoio à exportação no BNDES
+INS-000316,RCA MAQUINAS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.856.793/0001-33,,Exportadora com operação de apoio à exportação no BNDES
+INS-000317,ING INDUSTRIA NACIONAL DE GUINDASTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11.897.872/0001-10,,Exportadora com operação de apoio à exportação no BNDES
+INS-000318,TEXTIL J SERRANO SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,49.870.173/0001-50,,Exportadora com operação de apoio à exportação no BNDES
+INS-000319,AVIBRASIL INDUSTRIA E COMERCIO DE EQUIPAMENTOS AVICOLAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.986.723/0001-37,,Exportadora com operação de apoio à exportação no BNDES
+INS-000320,OSVALDO PEREIRA DA CUNHA & CIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.690.261/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000321,FRONTIERS WTA (WORLDWIDE TRADING AGRO MACHINERY) SERVIC,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.560.836/0001-72,,Exportadora com operação de apoio à exportação no BNDES
+INS-000322,INDUSTRIAS COLOMBO S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,45.127.545/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000323,REINOS INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.983.189/0001-01,,Exportadora com operação de apoio à exportação no BNDES
+INS-000324,GUARARAPES PAINEIS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,08.810.422/0001-34,,Exportadora com operação de apoio à exportação no BNDES
+INS-000325,HERGEN S A MAQUINAS E EQUIPAMENTOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,83.141.507/0001-92,,Exportadora com operação de apoio à exportação no BNDES
+INS-000326,AMMANN DO BRASIL - EQUIPAMENTOS PARA CONSTRUCAO DE ESTR,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.143.836/0001-12,,Exportadora com operação de apoio à exportação no BNDES
+INS-000327,FAST INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.771.598/0001-12,,Exportadora com operação de apoio à exportação no BNDES
+INS-000328,KUHN DO BRASIL S/A - IMPLEMENTOS AGRICOLAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,06.216.625/0001-71,,Exportadora com operação de apoio à exportação no BNDES
+INS-000329,PROADEC BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.821.074/0001-87,,Exportadora com operação de apoio à exportação no BNDES
+INS-000330,DEXCO S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,97.837.181/0001-47,,Exportadora com operação de apoio à exportação no BNDES
+INS-000331,DECORWOOD LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.514.846/0001-75,,Exportadora com operação de apoio à exportação no BNDES
+INS-000332,SULMAQ INDUSTRIAL E COMERCIAL SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,87.861.324/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000333,ABB ELETRIFICACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33.449.988/0001-20,,Exportadora com operação de apoio à exportação no BNDES
+INS-000334,GRATT INDUSTRIA DE MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.620.220/0001-06,,Exportadora com operação de apoio à exportação no BNDES
+INS-000335,OESTERGAARD S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,28.504.568/0001-69,,Exportadora com operação de apoio à exportação no BNDES
+INS-000336,"JUMIL-JUSTINO DE MORAIS, IRMAOS S/A",,empresa,nao_se_aplica,nao_se_aplica,BRA,44.944.668/0001-62,,Exportadora com operação de apoio à exportação no BNDES
+INS-000337,INDUSTRIA DE IMPLEMENTOS AGRICOLAS VENCE TUDO IMPORTACA,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.544.196/0001-01,,Exportadora com operação de apoio à exportação no BNDES
+INS-000338,AUDACES AUTOMACAO E INFORMATICA INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,85.236.743/0001-18,,Exportadora com operação de apoio à exportação no BNDES
+INS-000339,GUNTNER HEAT EXCHANGE DO BRASIL S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.210.803/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000340,JBT MAREL BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.013.050/0001-27,,Exportadora com operação de apoio à exportação no BNDES
+INS-000341,COMPANYTEC-AUTOMACAO E CONTROLE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.041.647/0001-85,,Exportadora com operação de apoio à exportação no BNDES
+INS-000342,TKA GUINDASTES INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.332.314/0001-66,,Exportadora com operação de apoio à exportação no BNDES
+INS-000343,MANZONI INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46.010.419/0001-25,,Exportadora com operação de apoio à exportação no BNDES
+INS-000344,WAYNE INDUSTRIA E COMERCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,42.120.394/0001-61,,Exportadora com operação de apoio à exportação no BNDES
+INS-000345,INRODA INDUSTRIA DE ROCADEIRAS DESBRAVADOR AVARE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,45.931.904/0001-79,,Exportadora com operação de apoio à exportação no BNDES
+INS-000346,RUGERI MEC-RUL SA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.614.417/0001-95,,Exportadora com operação de apoio à exportação no BNDES
+INS-000347,PROGEU ACESSORIOS DE PISCINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.873.111/0001-38,,Exportadora com operação de apoio à exportação no BNDES
+INS-000348,ALFATERM INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,55.818.397/0001-15,,Exportadora com operação de apoio à exportação no BNDES
+INS-000349,MUNTERS BRASIL INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.385.090/0001-86,,Exportadora com operação de apoio à exportação no BNDES
+INS-000350,IMBIL INDUSTRIA E MANUTENCAO DE BOMBAS ITA S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.482.776/0001-26,,Exportadora com operação de apoio à exportação no BNDES
+INS-000351,MECALOR SOLUCOES EM ENGENHARIA TERMICA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,49.031.776/0001-68,,Exportadora com operação de apoio à exportação no BNDES
+INS-000352,MARGUI MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13.991.890/0001-92,,Exportadora com operação de apoio à exportação no BNDES
+INS-000353,BENECKE IRMAOS & CIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,86.375.656/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000354,COFAMA IND. E COM. DE MAQUINAS E EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.969.327/0001-64,,Exportadora com operação de apoio à exportação no BNDES
+INS-000355,BALDAN IMPLEMENTOS AGRICOLAS S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,52.311.347/0001-59,,Exportadora com operação de apoio à exportação no BNDES
+INS-000356,MARCHESAN IMPLEMENTOS E MAQUINAS AGRICOLAS TATU S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,52.311.289/0001-63,,Exportadora com operação de apoio à exportação no BNDES
+INS-000357,SAFEEDS - NUTRICAO ANIMAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06.239.798/0001-05,,Exportadora com operação de apoio à exportação no BNDES
+INS-000358,PEQUITO INDUSTRIA E COMERCIO DE CALCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11.099.961/0001-11,,Exportadora com operação de apoio à exportação no BNDES
+INS-000359,EXXER LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,42.890.809/0001-86,,Exportadora com operação de apoio à exportação no BNDES
+INS-000360,"HORSCH DO BRASIL INDUSTRIA, COMERCIO E IMPORTACAO DE MA",,empresa,nao_se_aplica,nao_se_aplica,BRA,22.552.058/0001-80,,Exportadora com operação de apoio à exportação no BNDES
+INS-000361,METALFRIO SOLUTIONS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.821.041/0001-08,,Exportadora com operação de apoio à exportação no BNDES
+INS-000362,VALMET TISSUE CONVERTING LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,46.861.449/0001-45,,Exportadora com operação de apoio à exportação no BNDES
+INS-000363,CARMOMAQ INDUSTRIA E COMERCIO DE PECAS E MAQUINAS AGRIC,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.768.124/0001-72,,Exportadora com operação de apoio à exportação no BNDES
+INS-000364,TMSA - TECNOLOGIA EM MOVIMENTACAO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.782.705/0001-26,,Exportadora com operação de apoio à exportação no BNDES
+INS-000365,AGROBONA - INDUSTRIA DE EQUIPAMENTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,06.333.795/0001-36,,Exportadora com operação de apoio à exportação no BNDES
+INS-000366,TRUCKVAN INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.142.588/0001-31,,Exportadora com operação de apoio à exportação no BNDES
+INS-000367,HERMITERIO SANTORO NETTO & FILHOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,68.124.528/0001-06,,Exportadora com operação de apoio à exportação no BNDES
+INS-000368,MAXITEC DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12.605.249/0001-00,,Exportadora com operação de apoio à exportação no BNDES
+INS-000369,G4 INDUSTRIA E COMERCIO DE MAQUINAS E EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04.702.084/0001-66,,Exportadora com operação de apoio à exportação no BNDES
+INS-000370,RODIMAQ COMERCIO DE MAQUINAS AGRICOLAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.469.593/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000371,INDUSTRIA DE MOVEIS NOTAVEL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.303.732/0001-50,,Exportadora com operação de apoio à exportação no BNDES
+INS-000372,KOHLER IMPLEMENTOS AGRICOLAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.264.472/0001-70,,Exportadora com operação de apoio à exportação no BNDES
+INS-000373,SUMIG SOLUCOES PARA SOLDA E CORTE LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,92.236.629/0001-53,,Exportadora com operação de apoio à exportação no BNDES
+INS-000374,KAMIL EXPORTADORA DE SILOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36.148.472/0001-33,,Exportadora com operação de apoio à exportação no BNDES
+INS-000375,VOLVO EQUIPAMENTOS DE CONSTRUCAO LATIN AMERICA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,29.307.609/0001-90,,Exportadora com operação de apoio à exportação no BNDES
+INS-000376,EUROLATTE DO BRASIL INDUSTRIA E COMERCIO DE MAQUINAS LT,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.517.127/0001-08,,Exportadora com operação de apoio à exportação no BNDES
+INS-000377,GERALDO N RECKTENWALD & CIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08.201.347/0001-04,,Exportadora com operação de apoio à exportação no BNDES

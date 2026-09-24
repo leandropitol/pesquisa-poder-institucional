@@ -394,21 +394,25 @@ Valores brutos das réguas externas, por país e ano. A classificação é calcu
 
 ### `operacoes_exportacao_bndes`
 
-Todas as operações de apoio à exportação de serviços do BNDES (universo, não amostra). Chave: `id_operacao`; prefixo `BND`.
+Linhas (subcréditos) das operações de apoio à exportação do BNDES com país de destino, como publicadas. Linhas com o mesmo número somam a operação. Chave: `id_operacao`; prefixo `BND`.
 
 | Coluna | Tipo | Obrigatória | Descrição |
 |---|---|---|---|
 | `id_operacao` | id | sim |  |
-| `numero_contrato` | texto |  |  |
+| `numero_operacao` | texto | sim | Número da operação no BNDES |
+| `linha_de_apoio` | texto | sim | Arquivo de origem: pós-embarque de serviços de engenharia ou pós-embarque de bens |
 | `data_contratacao` | data | sim |  |
-| `pais_iso3` | iso3 | sim |  |
+| `pais_destino_fonte` | texto | sim | País de destino como publicado pelo BNDES |
+| `pais_iso3` | iso3 |  | Vazio quando o BNDES informa destinos diversos |
 | `id_exportadora` | ref → `instituicoes.id_instituicao` | sim |  |
-| `id_devedor` | ref → `instituicoes.id_instituicao` |  | Governo ou entidade importadora |
+| `tipo_mutuario` | texto |  | Ente público ou ente privado, como publicado (o nome do tomador não é publicado) |
 | `descricao_projeto` | texto | sim |  |
-| `modalidade` | texto |  |  |
-| `valor` | decimal | sim |  |
+| `modalidade` | texto |  | Modalidade operacional (buyer, supplier) |
+| `valor` | decimal |  | Valor da linha na moeda da operação; o arquivo de bens não publica valores |
+| `valor_desembolsado` | decimal |  |  |
 | `moeda` | vocab (`moeda`) | sim |  |
-| `situacao` | texto |  | Situação de pagamento informada pelo BNDES |
+| `tipo_garantia` | texto |  |  |
+| `situacao` | texto |  | Situação informada pelo BNDES (ativa, liquidada) |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
 ### `votos_multilaterais`

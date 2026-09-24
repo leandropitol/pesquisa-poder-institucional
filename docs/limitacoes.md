@@ -62,22 +62,24 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 50 |
+| `instituicoes` | 323 |
 | `denominacoes_partido` | 67 |
 | `relacoes` | 17 |
-| `fontes` | 10 |
-| `fonte_oficial` | 7 |
+| `fontes` | 12 |
+| `fonte_oficial` | 9 |
 | `fonte_base_dados` | 3 |
 | `relacao_fonte` | 17 |
-| `buscas` | 20 |
+| `buscas` | 27 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
+| `operacoes_exportacao_bndes` | 2996 |
 
-Tabelas ainda vazias (19): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `operacoes_exportacao_bndes`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (18): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 20 buscas registradas; 0 com zero resultados.
+- 27 buscas registradas; 0 com zero resultados.
+- BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
@@ -105,6 +107,17 @@ Tabelas ainda vazias (19): `casos`, `processos`, `fases_processo`, `status_pesso
 - A Freedom House não publicou abertamente a edição 2026 (ano de 2025): os dados passaram a ser atendidos por pedido por e-mail. O ano de 2025 só tem V-Dem.
 - Países só no V-Dem: 5 (HKG, PSE, PSG, SML, ZZB). Países só na Freedom House: 22 (a maioria microestados que o V-Dem não cobre; inclui Sérvia e Montenegro, SCG, que o V-Dem registra como Sérvia). Códigos de país seguem o V-Dem (ISO 3166-1 alfa-3 quando existe); a ligação dos nomes da Freedom House está em `data/curadoria/paises_freedom_house.csv`.
 - Os valores do V-Dem são estimativas de modelo com incerteza (intervalos publicados pelo V-Dem, não importados); valores próximos ao limiar entre categorias devem ser lidos com cautela.
+
+### BNDES, operações de exportação (etapa E3)
+
+- Pós-embarque, bens: 2344 linhas (subcréditos) de 1912 operações, contratadas de 2002-01-04 a 2026-07-31.
+- Pós-embarque, serviços de engenharia: 652 linhas (subcréditos) de 146 operações, contratadas de 1998-07-24 a 2015-04-28.
+- O arquivo aberto de pós-embarque de bens não publica valores (2344 linhas sem valor): para bens, só é possível contar operações.
+- 82 linhas com destino "diversos", sem país definido.
+- O nome do tomador do financiamento (mutuário) não é publicado; só a categoria (ente público ou privado).
+- O arquivo de pré-embarque financia o exportador no Brasil e não informa o país de destino; fica só no dado bruto.
+- Valores em moeda da operação, nominais, sem correção; linhas contratadas antes de 2000 não têm régua de qualidade democrática.
+- As condições de garantia (seguro de crédito, Fundo de Garantia à Exportação, convênio de créditos recíprocos) aparecem só como texto do BNDES.
 
 ### Validador
 

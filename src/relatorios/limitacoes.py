@@ -108,6 +108,23 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
 
+    ops = ler("operacoes_exportacao_bndes", base)
+    if len(ops):
+        g = ops.groupby("linha_de_apoio").agg(linhas=("id_operacao", "size"), operacoes=("numero_operacao", "nunique"),
+                                              inicio=("data_contratacao", "min"), fim=("data_contratacao", "max"))
+        linhas += ["### BNDES, operações de exportação (etapa E3)", ""]
+        linhas += [f"- {i}: {r.linhas} linhas (subcréditos) de {r.operacoes} operações, contratadas de {r.inicio} a {r.fim}." for i, r in g.iterrows()]
+        sem_valor = ops[ops["valor"] == ""]
+        linhas += [
+            f"- O arquivo aberto de pós-embarque de bens não publica valores ({len(sem_valor)} linhas sem valor): para bens, só é possível contar operações.",
+            f"- {int((ops['pais_iso3'] == '').sum())} linhas com destino \"diversos\", sem país definido.",
+            "- O nome do tomador do financiamento (mutuário) não é publicado; só a categoria (ente público ou privado).",
+            "- O arquivo de pré-embarque financia o exportador no Brasil e não informa o país de destino; fica só no dado bruto.",
+            "- Valores em moeda da operação, nominais, sem correção; linhas contratadas antes de 2000 não têm régua de qualidade democrática.",
+            "- As condições de garantia (seguro de crédito, Fundo de Garantia à Exportação, convênio de créditos recíprocos) aparecem só como texto do BNDES.",
+            "",
+        ]
+
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
     if len(avisos) > 20:
