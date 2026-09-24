@@ -105,8 +105,8 @@ TABELAS: list[Tabela] = [
         C("id_relator_atual", "ref", False, fk="atores.id_ator"),
         C("data_autuacao", "data", True),
         C("id_caso", "ref", False, fk="casos.id_caso"),
-        C("assuntos_tpu", "texto", False, "Assuntos da Tabela Processual Unificada do CNJ, 'código:nome' separados por ';'"),
-        C("sigilo", "bool", True), C("url", "url", True), FONTE,
+        C("assuntos_tpu", "texto", False, "Assuntos da Tabela Processual Unificada do CNJ, 'código:nome' separados por ';'; no STF, o assunto do Corte Aberta com prefixo 'STF:'"),
+        C("sigilo", "bool", False, "Vazio quando a fonte não informa"), C("url", "url", True), FONTE,
     ), prefixo="PRC"),
     Tabela("fases_processo", "entidades", "Histórico de fases de cada processo.", ("id_fase",), (
         C("id_fase", "id", True),

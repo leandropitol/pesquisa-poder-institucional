@@ -62,18 +62,18 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 1470 |
+| `instituicoes` | 1471 |
 | `denominacoes_partido` | 67 |
-| `processos` | 205 |
-| `fases_processo` | 58 |
+| `processos` | 5250 |
+| `fases_processo` | 5256 |
 | `eventos` | 2297 |
 | `relacoes` | 2409 |
-| `fontes` | 45 |
-| `fonte_oficial` | 42 |
+| `fontes` | 47 |
+| `fonte_oficial` | 44 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2409 |
-| `buscas` | 87 |
+| `buscas` | 90 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -84,7 +84,7 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### Buscas
 
-- 87 buscas registradas; 14 com zero resultados.
+- 90 buscas registradas; 14 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -94,6 +94,7 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
+- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 3 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
 - V-Dem Institute, pacote vdemdata (GitHub, tag V16): 1 buscas, coleta de 2026-09-24.
@@ -139,6 +140,15 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - A API não traz nomes de partes, e o termo de uso impede cruzar seus dados com pessoas (D-022). Status de pessoas depende de fonte primária.
 - O portal do STJ (consulta processual e jurisprudência) exige verificação de robô; a leitura da fonte primária de cada processo citado precisa ser feita por uma pessoa. A URL gravada segue o formato do portal e não foi conferida por script.
 - Fases processuais: só declínio de competência e arquivamento de procedimento investigatório. O trânsito em julgado não foi usado, porque no STJ aparece a cada recurso interno encerrado.
+
+### STF pelo Corte Aberta (etapa E5)
+
+- 5045 ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação (D-037). No universo do eixo 1: 912 (tipos do protocolo pelo assunto); 2556 a revisar; 1533 fora; 44 autuados antes de 2003.
+- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico "Direito Processual Penal | Ação Penal", e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): sem_indicio: 1358; indicio_fora_do_protocolo: 910; indicio_do_protocolo: 288. Os indícios de fora do protocolo vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).
+- Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como conexos (art. 350); crimes de responsabilidade (Decreto-Lei 201/1967) ficam fora, como no STJ.
+- Fases: 5198 registros de decisões com correspondência inequívoca (recebimento_denuncia: 1630; acordao_tribunal_superior: 1073; declinio_competencia: 1052; extincao_punibilidade: 699; arquivamento_inquerito: 653; rejeicao_denuncia: 91). O julgamento de mérito da ação penal (procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.
+- Decisões em segredo de justiça aparecem só como "Decisão (segredo de justiça)" e não geram fase. O campo de sigilo do processo não vem na exportação.
+- Número único CNJ só para os processos em tramitação (planilha do acervo). A URL gravada é a consulta por classe e número do portal, conferida no navegador para a AP 470.
 
 ### Portal da Transparência (etapa E6)
 

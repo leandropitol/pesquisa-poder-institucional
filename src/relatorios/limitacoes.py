@@ -125,7 +125,9 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
 
-    proc = ler("processos", base)
+    todos = ler("processos", base)
+    sigla = dict(zip(ler("instituicoes", base)["id_instituicao"], ler("instituicoes", base)["sigla"]))
+    proc = todos[todos["id_tribunal"].map(sigla) == "STJ"]
     if len(proc):
         from src.normalizacao.datajud_stj import no_universo, regras_assuntos
         regras = regras_assuntos()
@@ -149,6 +151,8 @@ def texto(base: Path = BASE) -> str:
             "no STJ aparece a cada recurso interno encerrado.",
             "",
         ]
+
+    linhas += _linhas_stf(todos[todos["id_tribunal"].map(sigla) == "STF"], base)
 
     em = ler("emendas_parlamentares", base)
     if len(em):
@@ -238,6 +242,40 @@ def _linhas_oea(vm: pd.DataFrame) -> list[str]:
     linhas += ["- Volumes de resoluções de 2003, 2005 e 2006 não foram obtidos (erro do servidor da OEA); o segundo arquivo da sessão extraordinária de 2009 veio do repositório de documentos da OEA, porque o link do índice recusa o acesso; "
                "resoluções do Conselho Permanente ainda não foram indexadas.", ""]
     return linhas
+
+
+def _linhas_stf(proc: pd.DataFrame, base: Path) -> list[str]:
+    """Etapa E5: STF pelo Corte Aberta (D-037, D-038)."""
+    if not len(proc):
+        return []
+    from src.normalizacao.stf import CUR_ASSUNTOS, universo
+    cur = pd.read_csv(CUR_ASSUNTOS, dtype=str, keep_default_na=False)
+    u = universo(proc, dict(zip(cur["caminho_stf"], cur["decisao"])))
+    tri = RAIZ / "data" / "staging" / "stf" / "universo_stf.csv"
+    t = pd.read_csv(tri, dtype=str, keep_default_na=False) if tri.exists() else pd.DataFrame(columns=["triagem"])
+    fases = ler("fases_processo", base)
+    fases = fases[fases["id_processo"].isin(proc["id_processo"])]
+    sim = proc[u == "sim"]
+    return [
+        "### STF pelo Corte Aberta (etapa E5)", "",
+        f"- {len(proc)} ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação "
+        f"(D-037). No universo do eixo 1: {len(sim)} (tipos do protocolo pelo assunto); {int((u == 'revisar').sum())} a revisar; "
+        f"{int((u == 'nao').sum())} fora; {int((u == 'antes_de_2003').sum())} autuados antes de 2003.",
+        "- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico \"Direito Processual Penal | Ação Penal\", "
+        "e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): "
+        + "; ".join(f"{k}: {n}" for k, n in t["triagem"].replace("", pd.NA).dropna().value_counts().items()) + ". Os indícios de fora do protocolo "
+        "vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).",
+        "- Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como "
+        "diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como "
+        "conexos (art. 350); crimes de responsabilidade (Decreto-Lei 201/1967) ficam fora, como no STJ.",
+        f"- Fases: {len(fases)} registros de decisões com correspondência inequívoca ("
+        + "; ".join(f"{k}: {n}" for k, n in fases["fase"].value_counts().items()) + "). O julgamento de mérito da ação penal "
+        "(procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.",
+        "- Decisões em segredo de justiça aparecem só como \"Decisão (segredo de justiça)\" e não geram fase. O campo de sigilo do processo não vem na exportação.",
+        "- Número único CNJ só para os processos em tramitação (planilha do acervo). A URL gravada é a consulta por classe e número do portal, "
+        "conferida no navegador para a AP 470.",
+        "",
+    ]
 
 
 def run() -> None:
