@@ -7,7 +7,6 @@ DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL |
 DIREITO ELEITORAL |CRIMES ELEITORAIS,4,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
 CRIME ELEITORAL | FALSIDADE IDEOLÓGICA,2,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
 DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL | FALSIDADE IDEOLÓGICA,1,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE RESPONSABILIDADE,218,exclui,Decreto-Lei 201/1967; fora dos tipos do protocolo,tpu_nome
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO,194,exclui,fora dos tipos do protocolo,tpu_nome
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A ORDEM TRIBUTÁRIA,111,exclui,Lei 8.137/1990; fora dos tipos do protocolo,tpu_nome
 DIREITO PENAL | CRIMES CONTRA A HONRA | CALÚNIA,100,exclui,fora dos tipos do protocolo,tpu_nome
@@ -235,6 +234,7 @@ CRIME CONTRA A PAZ PÚBLICA | QUADRILHA,1,exclui,fora dos tipos do protocolo,res
 ASSUNTOS DIVERSOS,1,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DA LEI DE LICITAÇÕES,225,inclui,"Lei 8.666/1993, arts. 89 a 99; desde a Lei 14.133/2021, CP arts. 337-E a 337-P (Título XI); D-024",tpu_nome
 DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PECULATO,224,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE RESPONSABILIDADE,218,inclui,Decreto-Lei 201/1967 (crimes de responsabilidade de prefeitos e vereadores); incluído por emenda ao protocolo (D-039),tpu_nome
 DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | CORRUPÇÃO PASSIVA,118,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
 "DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE ""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES",105,inclui,Lei 9.613/1998,tpu_nome
 DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL,73,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi

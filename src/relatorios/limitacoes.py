@@ -267,7 +267,7 @@ def _linhas_stf(proc: pd.DataFrame, base: Path) -> list[str]:
         "vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).",
         "- Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como "
         "diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como "
-        "conexos (art. 350); crimes de responsabilidade (Decreto-Lei 201/1967) ficam fora, como no STJ.",
+        "conexos (art. 350); crimes de responsabilidade de prefeitos (Decreto-Lei 201/1967) entram por emenda ao protocolo (D-039), também no STJ.",
         f"- Fases: {len(fases)} registros de decisões com correspondência inequívoca ("
         + "; ".join(f"{k}: {n}" for k, n in fases["fase"].value_counts().items()) + "). O julgamento de mérito da ação penal "
         "(procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.",

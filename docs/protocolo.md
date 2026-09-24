@@ -34,6 +34,7 @@ de 2003, com imputação de ao menos um destes tipos:
 
 - crimes contra a administração pública (Código Penal, Título XI, arts. 312 a 359-H);
 - lavagem de dinheiro (Lei 9.613/1998);
+- crimes de responsabilidade de prefeitos e vereadores (Decreto-Lei 201/1967), incluídos por emenda em 2026-09-24 (D-039);
 - organização criminosa (Lei 12.850/2013) ou associação criminosa conexa;
 - falsidade ideológica eleitoral (Código Eleitoral, art. 350) conexa aos anteriores.
 

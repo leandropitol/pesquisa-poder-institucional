@@ -134,7 +134,7 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### STJ pelo DataJud (etapa E4)
 
-- 205 ações penais e inquéritos do STJ na API pública do DataJud; 124 no universo do eixo 1 desde 2003 (tipos penais do protocolo, pela tabela `data/curadoria/assuntos_tpu_eixo1.csv`); 21 com assuntos genéricos, a revisar pela fonte primária.
+- 205 ações penais e inquéritos do STJ na API pública do DataJud; 127 no universo do eixo 1 desde 2003 (tipos penais do protocolo, pela tabela `data/curadoria/assuntos_tpu_eixo1.csv`); 21 com assuntos genéricos, a revisar pela fonte primária.
 - Cobertura histórica baixa: só 14 processos do universo autuados de 2003 a 2012. O DataJud concentra processos com movimentação recente; processos antigos e baixados podem não estar na base do CNJ. O universo do STJ anterior a 2013 está incompleto.
 - A API pública só traz processos sem sigilo; processos sigilosos não aparecem.
 - A API não traz nomes de partes, e o termo de uso impede cruzar seus dados com pessoas (D-022). Status de pessoas depende de fonte primária.
@@ -143,9 +143,9 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### STF pelo Corte Aberta (etapa E5)
 
-- 5045 ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação (D-037). No universo do eixo 1: 912 (tipos do protocolo pelo assunto); 2556 a revisar; 1533 fora; 44 autuados antes de 2003.
+- 5045 ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação (D-037). No universo do eixo 1: 1127 (tipos do protocolo pelo assunto); 2556 a revisar; 1315 fora; 47 autuados antes de 2003.
 - O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico "Direito Processual Penal | Ação Penal", e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): sem_indicio: 1358; indicio_fora_do_protocolo: 910; indicio_do_protocolo: 288. Os indícios de fora do protocolo vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).
-- Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como conexos (art. 350); crimes de responsabilidade (Decreto-Lei 201/1967) ficam fora, como no STJ.
+- Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como conexos (art. 350); crimes de responsabilidade de prefeitos (Decreto-Lei 201/1967) entram por emenda ao protocolo (D-039), também no STJ.
 - Fases: 5198 registros de decisões com correspondência inequívoca (recebimento_denuncia: 1630; acordao_tribunal_superior: 1073; declinio_competencia: 1052; extincao_punibilidade: 699; arquivamento_inquerito: 653; rejeicao_denuncia: 91). O julgamento de mérito da ação penal (procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.
 - Decisões em segredo de justiça aparecem só como "Decisão (segredo de justiça)" e não geram fase. O campo de sigilo do processo não vem na exportação.
 - Número único CNJ só para os processos em tramitação (planilha do acervo). A URL gravada é a consulta por classe e número do portal, conferida no navegador para a AP 470.
