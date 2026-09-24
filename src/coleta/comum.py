@@ -104,7 +104,7 @@ class Execucao:
         destino = self.pasta / arquivo
         if destino.exists():
             raise FileExistsError(f"{destino} já existe: data/raw é imutável; use outra data de coleta")
-        r = cliente.get(url)
+        r = cliente.get(url, headers={"Accept": "*/*"})  # arquivos (Word, PDF, ZIP): sem exigir JSON
         r.raise_for_status()
         self.pasta.mkdir(parents=True, exist_ok=True)
         destino.write_bytes(r.content)

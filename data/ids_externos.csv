@@ -2852,6 +2852,29 @@ buscas,src.coleta.transparencia|2026-09-24|arquivo cnep_20260923_CNEP.zip,BSC-00
 buscas,src.coleta.transparencia|2026-09-24|arquivo ceis_20260923_CEIS.zip,BSC-000033
 buscas,src.coleta.transparencia|2026-09-24|arquivo emendas-parlamentares_EmendasParlamentares.zip,BSC-000034
 buscas,"src.coleta.onu_ag|2026-09-24|votos nominais da Assembleia Geral, resoluções 1 a 80/246",BSC-000035
+buscas,src.coleta.oea|2026-09-24|volume 2004_XXXIV-O_AG02528S08.doc,BSC-000036
+buscas,src.coleta.oea|2026-09-24|volume 2007_XXXVII-O_AG03738S13.doc,BSC-000037
+buscas,src.coleta.oea|2026-09-24|volume 2012_XLII-O_AG05835S04.doc,BSC-000038
+buscas,src.coleta.oea|2026-09-24|volume 2013_XLIII-O_AG06222E04.doc,BSC-000039
+buscas,src.coleta.oea|2026-09-24|volume 2014_XLIV-O_AG06712S04.doc,BSC-000040
+buscas,src.coleta.oea|2026-09-24|volume 2015_XLV-O_AG06943S04.doc,BSC-000041
+buscas,src.coleta.oea|2026-09-24|volume 2016_XLVI-O_AG07239S03.doc,BSC-000042
+buscas,src.coleta.oea|2026-09-24|volume 2017_XLVII-O_AG07524S02.doc,BSC-000043
+buscas,src.coleta.oea|2026-09-24|volume 2018_XLVIII-O_AG07745S03.doc,BSC-000044
+buscas,src.coleta.oea|2026-09-24|volume 2019_XLIX-O_AG07996S03.doc,BSC-000045
+buscas,src.coleta.oea|2026-09-24|volume 2020_L-O_AG08309S03.docx,BSC-000046
+buscas,src.coleta.oea|2026-09-24|volume 2021_LI-O_AG08489S07.docx,BSC-000047
+buscas,src.coleta.oea|2026-09-24|volume 2022_LII-O_AG08750S08.docx,BSC-000048
+buscas,src.coleta.oea|2026-09-24|volume 2023_LIII-O_AG08923S12.docx,BSC-000049
+buscas,src.coleta.oea|2026-09-24|volume 2024_LIV-O_AG09324S06.docx,BSC-000050
+buscas,src.coleta.oea|2026-09-24|volume da sessão XXXIII-O (falha no download),BSC-000051
+buscas,src.coleta.oea|2026-09-24|volume da sessão XXXV-O (falha no download),BSC-000052
+buscas,src.coleta.oea|2026-09-24|volume da sessão XXXVI-O (falha no download),BSC-000053
+buscas,src.coleta.oea|2026-09-24|volume da sessão XXXVIII-O (falha no download),BSC-000054
+buscas,src.coleta.oea|2026-09-24|volume da sessão XXXIX-O (falha no download),BSC-000055
+buscas,src.coleta.oea|2026-09-24|volume da sessão XL-O (falha no download),BSC-000056
+buscas,src.coleta.oea|2026-09-24|volume da sessão XLI-O (falha no download),BSC-000057
+buscas,src.coleta.oea|2026-09-24|volume da sessão XXXVII-E (falha no download),BSC-000058
 cargos,camara:3151:53,CRG-000001
 cargos,camara:3151:54,CRG-000002
 cargos,camara:3155:53,CRG-000003
