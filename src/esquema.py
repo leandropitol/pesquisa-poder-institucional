@@ -78,7 +78,7 @@ TABELAS: list[Tabela] = [
         C("nome", "texto", True), C("sigla", "texto"),
         C("tipo_instituicao", "vocab", True, vocab="tipo_instituicao"),
         C("poder", "vocab", True, vocab="poder"), C("esfera", "vocab", True, vocab="esfera"),
-        C("pais_iso3", "iso3", True, "País sede (BRA para instituições brasileiras)"),
+        C("pais_iso3", "iso3", False, "País sede (BRA para instituições brasileiras); vazio quando a fonte não informa (por exemplo, empresa estrangeira identificada só por código da CGU)"),
         C("cnpj", "texto", False, "Só para pessoa jurídica brasileira"),
         C("id_sucessora", "ref", False, "Instituição que a sucedeu (fusão ou mudança de nome de partido)", fk="instituicoes.id_instituicao"),
         C("observacao", "texto"),
@@ -272,6 +272,16 @@ TABELAS: list[Tabela] = [
         C("suspende_ato_normativo", "bool", True), C("atinge_ato_de_outro_poder", "bool", True),
         C("data_referendo", "data", False, "Data em que o colegiado apreciou a decisão monocrática"), FONTE,
     ), prefixo="DEC"),
+
+    Tabela("emendas_parlamentares", "eixo_poder_institucional", "Execução de emendas parlamentares (Portal da Transparência), agregada por emenda, localidade e função.", ("id_emenda_linha",), (
+        C("id_emenda_linha", "id", True),
+        C("ano", "ano", True), C("tipo_emenda", "texto", True, "Como publicado: individual, bancada, comissão, relator"),
+        C("codigo_emenda", "texto", False), C("numero_emenda", "texto", False),
+        C("codigo_autor_fonte", "texto", False), C("autor_fonte", "texto", True, "Nome do autor como publicado (inclui 'RELATOR GERAL' e 'Sem informação')"),
+        C("id_ator", "ref", False, "Parlamentar ligado ao autor por nome e mandato no ano, quando a ligação é única", fk="atores.id_ator"),
+        C("localidade", "texto", False), C("uf", "texto", False), C("funcao", "texto", False),
+        C("valor_empenhado", "decimal", True), C("valor_liquidado", "decimal", True), C("valor_pago", "decimal", True), FONTE,
+    ), prefixo="EMD"),
 
     # ------------------------------------------------------------------ financiamento de campanha
     Tabela("doacoes_campanha", "financiamento", "Receitas de campanha (TSE). Pessoas físicas só em agregado.", ("id_doacao",), (

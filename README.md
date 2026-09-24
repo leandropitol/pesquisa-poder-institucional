@@ -9,7 +9,7 @@ réguas em `docs/protocolo.md`.
 
 ## Estado
 
-Fase 0 (estrutura) concluída. Etapa E1 (Câmara e Senado) coletada e normalizada em 2026-09-24, com partidos ligados ao registro no TSE (fusões, incorporações e mudanças de nome). Etapas E2 (V-Dem e Freedom House), E3 (BNDES) e E4 (STJ pelo DataJud, uso restrito) concluídas em 2026-09-24. Cobertura e lacunas na parte gerada de `docs/limitacoes.md`. Plano em `docs/plano_coleta.md`.
+Fase 0 (estrutura) concluída. Etapa E1 (Câmara e Senado) coletada e normalizada em 2026-09-24, com partidos ligados ao registro no TSE (fusões, incorporações e mudanças de nome). Etapas E2 (V-Dem e Freedom House), E3 (BNDES) E4 (STJ pelo DataJud, uso restrito) e E6 (Portal da Transparência) concluídas em 2026-09-24. Cobertura e lacunas na parte gerada de `docs/limitacoes.md`. Plano em `docs/plano_coleta.md`.
 
 ## Estrutura
 

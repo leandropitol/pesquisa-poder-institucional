@@ -77,3 +77,19 @@ class RegistroIds:
             w = csv.DictWriter(f, fieldnames=["tabela", "chave_externa", "id"], lineterminator="\n")
             w.writeheader()
             w.writerows(linhas)
+
+
+def cnpj_digitos(cnpj: str) -> str:
+    return "".join(c for c in (cnpj or "") if c.isdigit())
+
+
+def id_empresa(ids: "RegistroIds", cnpj: str) -> str:
+    """Identificador da empresa pelo CNPJ só com dígitos; reaproveita chaves antigas com CNPJ formatado."""
+    d = cnpj_digitos(cnpj)
+    chave = f"cnpj14:{d}" if len(d) == 14 else f"cnpj_fonte:{cnpj.strip()}"
+    if not ids.existe("instituicoes", chave) and len(d) == 14:
+        for (tab, ch), ident in list(ids.mapa.items()):
+            if tab == "instituicoes" and ch.startswith("cnpj:") and cnpj_digitos(ch[5:]) == d:
+                ids.vincular("instituicoes", chave, ident)
+                break
+    return ids.obter("instituicoes", chave)

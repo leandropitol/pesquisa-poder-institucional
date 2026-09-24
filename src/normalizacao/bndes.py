@@ -19,7 +19,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.base import BASE, RAIZ, RegistroIds, gravar, ler
+from src.base import BASE, RAIZ, RegistroIds, gravar, id_empresa, ler
 
 MANIFESTO = RAIZ / "data" / "manifestos" / "bndes.csv"
 CURADORIA = RAIZ / "data" / "curadoria"
@@ -73,7 +73,7 @@ def montar(ids: RegistroIds) -> dict:
             base_chave = chave_linha(r, 0)[:16]
             vistos[base_chave] += 1
             cnpj = r["cnpj_do_exportador"]
-            exp = ids.obter("instituicoes", f"cnpj:{cnpj}")
+            exp = id_empresa(ids, cnpj)
             instituicoes.setdefault(exp, {"id_instituicao": exp, "nome": r["exportador"], "tipo_instituicao": "empresa", "poder": "nao_se_aplica",
                                           "esfera": "nao_se_aplica", "pais_iso3": "BRA", "cnpj": cnpj,
                                           "observacao": "Exportadora com operação de apoio à exportação no BNDES"})

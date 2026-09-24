@@ -51,23 +51,23 @@ INS-000102,UNIDADE POPULAR,UP,partido,nao_se_aplica,federal,BRA,,,"Registro no T
 INS-000103,PARTIDO MISSÃO,MISSÃO,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2025-11-04, legenda 14"
 INS-000105,Banco Nacional de Desenvolvimento Econômico e Social,BNDES,banco_publico,executivo,federal,BRA,,,
 INS-000106,MULTITRADE S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.144.298/0001-80,,Exportadora com operação de apoio à exportação no BNDES
-INS-000107,CONSTRUTORA ANDRADE GUTIERREZ S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17.262.213/0001-94,,Exportadora com operação de apoio à exportação no BNDES
-INS-000108,CONSTRUTORA NORBERTO ODEBRECHT SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15.102.288/0001-82,,Exportadora com operação de apoio à exportação no BNDES
-INS-000109,ENGEVIX ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.103.582/0001-31,,Exportadora com operação de apoio à exportação no BNDES
+INS-000107,ANDRADE GUTIERREZ ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17262213000194,,Signatária de acordo de leniência (CGU)
+INS-000108,CNO S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,15102288000182,,Signatária de acordo de leniência (CGU)
+INS-000109,NOVA ENGEVIX ENGENHARIA E PROJETOS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00103582000131,,Signatária de acordo de leniência (CGU)
 INS-000110,FURNAS CENTRAIS ELETRICAS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,23.274.194/0001-19,,Exportadora com operação de apoio à exportação no BNDES
 INS-000111,ARG LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20.520.862/0001-52,,Exportadora com operação de apoio à exportação no BNDES
 INS-000112,PRO SINALIZACAO VIARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44.218.154/0001-20,,Exportadora com operação de apoio à exportação no BNDES
 INS-000113,CONFAB INDUSTRIAL S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,60.882.628/0042-68,,Exportadora com operação de apoio à exportação no BNDES
 INS-000114,SCHAHIN ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.226.890/0001-57,,Exportadora com operação de apoio à exportação no BNDES
-INS-000115,CONSTRUCOES E COMERCIO CAMARGO CORREA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61.522.512/0001-02,,Exportadora com operação de apoio à exportação no BNDES
+INS-000115,CONSTRUCOES E COMERCIO CAMARGO CORREA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,61522512000102,,Signatária de acordo de leniência (CGU)
 INS-000116,PRADO VALLADARES AGENCIA DE COOPERCAO E DESENVOLVIMENTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.972.474/0001-19,,Exportadora com operação de apoio à exportação no BNDES
 INS-000117,EMSA EMPRESA SUL AMERICANA DE MONTAGENS S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17.393.547/0001-05,,Exportadora com operação de apoio à exportação no BNDES
 INS-000118,CONSTRUTORA QUEIROZ GALVAO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,33.412.792/0001-60,,Exportadora com operação de apoio à exportação no BNDES
-INS-000119,CONSTRUTORA OAS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,14.310.577/0001-04,,Exportadora com operação de apoio à exportação no BNDES
+INS-000119,CONSTRUTORA COESA S.A. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,14310577000104,,Signatária de acordo de leniência (CGU)
 INS-000120,MELLO JUNIOR - EMPREENDIMENTOS E PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,64.243.769/0001-13,,Exportadora com operação de apoio à exportação no BNDES
 INS-000121,COMPANHIA DE OBRAS E INFRA-ESTRUTURA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09.422.564/0001-97,,Exportadora com operação de apoio à exportação no BNDES
 INS-000122,TPRO ENGENHARIA S.A./ PHARMASTER DO BRASIL CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.502.090/0001-44,,Exportadora com operação de apoio à exportação no BNDES
-INS-000123,BUREAU DE PROJETOS E CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,58.416.389/0001-30,,Exportadora com operação de apoio à exportação no BNDES
+INS-000123,TÜV SÜD BRASIL ENGENHARIA E CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,58416389000130,,Empresa com sanção no CNEP
 INS-000124,CONTRACTA ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03.843.322/0001-90,,Exportadora com operação de apoio à exportação no BNDES
 INS-000125,MARCOPOLO SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.611.835/0001-29,,Exportadora com operação de apoio à exportação no BNDES
 INS-000126,MAQUINAS AGRICOLAS JACTO S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,55.064.562/0001-90,,Exportadora com operação de apoio à exportação no BNDES
@@ -166,7 +166,7 @@ INS-000218,BRN INTERNACIONAL INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,na
 INS-000219,IPACOL MAQUINAS AGRICOLAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05.825.524/0001-35,,Exportadora com operação de apoio à exportação no BNDES
 INS-000220,TRAMONTINA MULTI S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,88.037.668/0001-54,,Exportadora com operação de apoio à exportação no BNDES
 INS-000221,PDL SISTEMAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02.358.451/0001-20,,Exportadora com operação de apoio à exportação no BNDES
-INS-000222,INDUSTRIAS MACHINA ZACCARIA S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.466.324/0001-50,,Exportadora com operação de apoio à exportação no BNDES
+INS-000222,INDUSTRIAS MACHINA ZACCARIA S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,51466324000150,,Empresa com sanção no CNEP
 INS-000223,THOR MAQUINAS E MONTAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,90.312.885/0001-57,,Exportadora com operação de apoio à exportação no BNDES
 INS-000224,INDUCTOTHERM GROUP BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,51.223.253/0001-65,,Exportadora com operação de apoio à exportação no BNDES
 INS-000225,J W INDUSTRIA E COMERCIO DE EQUIPAMENTOS EM ACO INOXIDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00.511.648/0001-22,,Exportadora com operação de apoio à exportação no BNDES
@@ -324,3 +324,1146 @@ INS-000376,EUROLATTE DO BRASIL INDUSTRIA E COMERCIO DE MAQUINAS LT,,empresa,nao_
 INS-000377,GERALDO N RECKTENWALD & CIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08.201.347/0001-04,,Exportadora com operação de apoio à exportação no BNDES
 INS-000378,Superior Tribunal de Justiça,STJ,tribunal,judiciario,federal,BRA,,,
 INS-000379,Conselho Nacional de Justiça,CNJ,orgao_publico,judiciario,federal,BRA,,,
+INS-000380,Controladoria-Geral da União,CGU,orgao_publico,executivo,federal,BRA,,,
+INS-000381,FLEXIBRAS TUBOS FLEXIVEIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28910529000161,,Signatária de acordo de leniência (CGU)
+INS-000382,"TECHNIP BRASIL - ENGENHARIA, INSTALACOES E APOIO MARITIMO LTDA.",,empresa,nao_se_aplica,nao_se_aplica,BRA,68915891000140,,Signatária de acordo de leniência (CGU)
+INS-000383,OCS Internacional LTD.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000384,ODB Infra-Estruturas Logísticas SGPSSA,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000385,Odebrecht Finance Ltd. - Under Judicial Reorganization,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000386,ODB International Corporation - Under Judicial Reorganization,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000387,ABIATAR SPE EMPREENDIMENTOS IMOBILIARIOS S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,09397320000100,,Signatária de acordo de leniência (CGU)
+INS-000388,ATVOS AGROINDUSTRIAL S.A. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,08636745000153,,Signatária de acordo de leniência (CGU)
+INS-000389,CURSA RJ EMPREENDIMENTO IMOBILIARIO S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,15136876000137,,Signatária de acordo de leniência (CGU)
+INS-000390,EDIFICACOES ITAIGARA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,14151714000105,,Signatária de acordo de leniência (CGU)
+INS-000391,ENSEADA INDUSTRIA NAVAL PARTICIPACOES S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,15427668000197,,Signatária de acordo de leniência (CGU)
+INS-000392,ENSEADA INDUSTRIA NAVAL S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,12243301000125,,Signatária de acordo de leniência (CGU)
+INS-000393,FAZENDAS REUNIDAS VALE DO JULIANA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,96788856000142,,Signatária de acordo de leniência (CGU)
+INS-000394,FUNDACAO NORBERTO ODEBRECHT,,empresa,nao_se_aplica,nao_se_aplica,BRA,15116155000165,,Signatária de acordo de leniência (CGU)
+INS-000395,HORIENS CONSULTORIA E CORRETORA DE SEGUROS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14588248000120,,Signatária de acordo de leniência (CGU)
+INS-000396,KIEPPE PARTICIPACOES E ADMINISTRACAO LTDA EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,04215837000109,,Signatária de acordo de leniência (CGU)
+INS-000397,NEO INVEST S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11218273000123,,Signatária de acordo de leniência (CGU)
+INS-000398,NITROCLOR PRODUTOS QUIMICOS LTDA EM LIQUIDACAO,,empresa,nao_se_aplica,nao_se_aplica,BRA,13185459000159,,Signatária de acordo de leniência (CGU)
+INS-000399,NOVA PARTICIPACOES E INVESTIMENTOS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07668258000100,,Signatária de acordo de leniência (CGU)
+INS-000400,NOVONOR AMBIENTAL PARTICIPACOES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,19014214000145,,Signatária de acordo de leniência (CGU)
+INS-000401,NOVONOR AMBIENTAL S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,09437097000179,,Signatária de acordo de leniência (CGU)
+INS-000402,NOVONOR DEFESA E TECNOLOGIA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,13688755000172,,Signatária de acordo de leniência (CGU)
+INS-000403,NOVONOR ENERGIA INVESTIMENTOS S.A. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,20541146000151,,Signatária de acordo de leniência (CGU)
+INS-000404,NOVONOR ENERGIA S.A -,,empresa,nao_se_aplica,nao_se_aplica,BRA,13079757000164,,Signatária de acordo de leniência (CGU)
+INS-000405,NOVONOR PARTICIPACOES E ENGENHARIA S.A. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,17851495000165,,Signatária de acordo de leniência (CGU)
+INS-000406,NOVONOR PROPERTIES E INVESTIMENTOS S.A - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,21264618000139,,Signatária de acordo de leniência (CGU)
+INS-000407,NOVONOR S.A - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,05144757000172,,Signatária de acordo de leniência (CGU)
+INS-000408,NOVONOR SERVICOS E PARTICIPACOES S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,10904193000169,,Signatária de acordo de leniência (CGU)
+INS-000409,NP GESTAO DE PROPRIEDADES S.A. -,,empresa,nao_se_aplica,nao_se_aplica,BRA,20620396000187,,Signatária de acordo de leniência (CGU)
+INS-000410,NPI S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17337615000100,,Signatária de acordo de leniência (CGU)
+INS-000411,NSP INVESTIMENTOS S.A. EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,22606673000122,,Signatária de acordo de leniência (CGU)
+INS-000412,OCYAN PARTICIPACOES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,23075178000105,,Signatária de acordo de leniência (CGU)
+INS-000413,OCYAN S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08091102000252,,Signatária de acordo de leniência (CGU)
+INS-000414,ODBINV S/A. EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,15105588000115,,Signatária de acordo de leniência (CGU)
+INS-000415,ODEBRECHT AMBIENTAL  INVESTIMENTOS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,12682780000186,,Signatária de acordo de leniência (CGU)
+INS-000416,ODEBRECHT AMBIENTAL - INVESTIMENTOS E PARTICIPACOES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04746694000161,,Signatária de acordo de leniência (CGU)
+INS-000417,ODEBRECHT COMERCIALIZADORA DE ENERGIA S.A. EM LIQUIDACAO,,empresa,nao_se_aplica,nao_se_aplica,BRA,14770709000180,,Signatária de acordo de leniência (CGU)
+INS-000418,ODEBRECHT ENGENHARIA E CONSTRUCAO S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,19821234000128,,Signatária de acordo de leniência (CGU)
+INS-000419,ODEBRECHT UTILITIES  INVESTIMENTOS E PARTICIPACOES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17308752000117,,Signatária de acordo de leniência (CGU)
+INS-000420,ODEBRECHT UTILITIES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17382530000144,,Signatária de acordo de leniência (CGU)
+INS-000421,OECI S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10220039000178,,Signatária de acordo de leniência (CGU)
+INS-000422,OR EMPREENDIMENTOS IMOBILIARIOS E PARTICIPACOES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10917143000116,,Signatária de acordo de leniência (CGU)
+INS-000423,OTP S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,12251483000186,,Signatária de acordo de leniência (CGU)
+INS-000424,QUIMICA DA BAHIA INDUSTRIA E COMERCIO S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,51744803000191,,Signatária de acordo de leniência (CGU)
+INS-000425,VEXTY,,empresa,nao_se_aplica,nao_se_aplica,BRA,00571135000107,,Signatária de acordo de leniência (CGU)
+INS-000426,ECOVIX CONSTRUCOES OCEANICAS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,11754525000139,,Signatária de acordo de leniência (CGU)
+INS-000427,INFRAVIX ENGENHARIA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,12366484000176,,Signatária de acordo de leniência (CGU)
+INS-000428,NOVA ENGEVIX CONSTRUCOES E MONTAGENS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,18294051000139,,Signatária de acordo de leniência (CGU)
+INS-000429,NOVAPAR S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02357415000142,,Signatária de acordo de leniência (CGU)
+INS-000430,CAMARGO CORREA CONSTRUCOES E PARTICIPACOES S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,11196609000102,,Signatária de acordo de leniência (CGU)
+INS-000431,MOVER PARTICIPACOES S.A. EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,01098905000109,,Signatária de acordo de leniência (CGU)
+INS-000432,COESA ENGENHARIA LTDA. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,13578349000157,,Signatária de acordo de leniência (CGU)
+INS-000433,COESA LOGISTICA E COMERCIO EXTERIOR S.A. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,18738703000187,,Signatária de acordo de leniência (CGU)
+INS-000434,INVICTA DEFESA SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15806518000194,,Signatária de acordo de leniência (CGU)
+INS-000435,METHA S.A. - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,14811848000105,,Signatária de acordo de leniência (CGU)
+INS-000436,OAS EMPREENDIMENTOS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,06324922000130,,Signatária de acordo de leniência (CGU)
+INS-000437,OAS OLEO E GAS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11866604000131,,Signatária de acordo de leniência (CGU)
+INS-000438,FCB BRASIL PUBLICIDADE E COMUNICACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46516712000169,,Signatária de acordo de leniência (CGU)
+INS-000439,MULLEN LOWE BRASIL PUBLICIDADE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61067377000152,,Signatária de acordo de leniência (CGU)
+INS-000440,CONSTRAN S/A - CONSTRUCOES E COMERCIO - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,61156568001910,,Signatária de acordo de leniência (CGU)
+INS-000441,U T C ENGENHARIA S/A - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,44023661000108,,Signatária de acordo de leniência (CGU)
+INS-000442,UTC PARTICIPACOES S/A - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,02164892000191,,Signatária de acordo de leniência (CGU)
+INS-000443,SBM OFFSHORE N.V.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000444,ANDRADE GUTIERREZ INVESTIMENTOS EM ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17027611000126,,Signatária de acordo de leniência (CGU)
+INS-000445,ANDRADE GUTIERREZ S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,17262197000130,,Signatária de acordo de leniência (CGU)
+INS-000446,BILFINGER MASCHINENBAU GMBH & CO KG,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000447,ANDRI SOLUCOES COMERCIO DE SUPRIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20729334000108,,Signatária de acordo de leniência (CGU)
+INS-000448,HERTZ FRANCE S.A.S.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000449,CAR RENTAL SYSTEMS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00237003000143,,Signatária de acordo de leniência (CGU)
+INS-000450,LOCALIZA FLEET S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02286479000108,,Signatária de acordo de leniência (CGU)
+INS-000451,LOCALIZA RENT A CAR SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16670085000155,,Signatária de acordo de leniência (CGU)
+INS-000452,AMEC FOSTER WHEELER ENERGY LIMITED,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000453,"AMEC FOSTER WHEELER AMERICA LATINA, LTDA.",,empresa,nao_se_aplica,nao_se_aplica,BRA,01388397000101,,Signatária de acordo de leniência (CGU)
+INS-000454,SICPA HOLDING SA,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000455,SICPA AMERICA DO SUL INDUSTRIA SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28721821000136,,Signatária de acordo de leniência (CGU)
+INS-000456,SICPA BRASIL INDUSTRIA DE TINTAS E SISTEMAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,42596973000185,,Signatária de acordo de leniência (CGU)
+INS-000457,SAMSUNG HEAVY INDUSTRIES CO. LTD,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000458,NEOWAY TECNOLOGIA INTEGRADA ASSESSORIA E NEGOCIOS SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05337875000105,,Signatária de acordo de leniência (CGU)
+INS-000459,MACAUBAS ENERGETICA SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09194393000196,,Signatária de acordo de leniência (CGU)
+INS-000460,NOVO HORIZONTE ENERGETICA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,09214349000109,,Signatária de acordo de leniência (CGU)
+INS-000461,SEABRA ENERGETICA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,09196341000159,,Signatária de acordo de leniência (CGU)
+INS-000462,STATKRAFT ENERGIAS RENOVAVEIS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,00622416000141,,Signatária de acordo de leniência (CGU)
+INS-000463,ROLLS-ROYCE PLC,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000464,BRAINFARMA INDUSTRIA QUIMICA E FARMACEUTICA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,05161069000110,,Signatária de acordo de leniência (CGU)
+INS-000465,COSMED INDUSTRIA DE COSMETICOS E MEDICAMENTOS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,61082426000207,,Signatária de acordo de leniência (CGU)
+INS-000466,HYPERA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02932074000191,,Signatária de acordo de leniência (CGU)
+INS-000467,MONTE CRISTALINA PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00631348000187,,Signatária de acordo de leniência (CGU)
+INS-000468,"STERICYCLE INTERNATIONAL, LLC",,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000469,STERICYCLE INC.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000470,ABORGAMA DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05462743000105,,Signatária de acordo de leniência (CGU)
+INS-000471,B GREEN NOVAS PARTICIPACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11568295000113,,Signatária de acordo de leniência (CGU)
+INS-000472,B-GREEN GESTAO AMBIENTAL S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01568077000125,,Signatária de acordo de leniência (CGU)
+INS-000473,B-GREEN PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,30887092000134,,Signatária de acordo de leniência (CGU)
+INS-000474,GOL LINHAS AEREAS INTELIGENTES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,06164253000187,,Signatária de acordo de leniência (CGU)
+INS-000475,GOL LINHAS AEREAS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07575651000159,,Signatária de acordo de leniência (CGU)
+INS-000476,OEC S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,33950222000124,,Signatária de acordo de leniência (CGU)
+INS-000477,BRF S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01838723000127,,Signatária de acordo de leniência (CGU)
+INS-000478,KEPPEL OFFSHORE & MARINE LTD.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000479,PASSOS MAIA ENERGETICA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08542325000299,,Signatária de acordo de leniência (CGU)
+INS-000480,MOINHO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,09196223000140,,Signatária de acordo de leniência (CGU)
+INS-000481,UOP LLC,,empresa,nao_se_aplica,nao_se_aplica,BRA,09004160000183,,Signatária de acordo de leniência (CGU)
+INS-000482,ENGELUZ ILUMINACAO E ELETRICIDADE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,85489078000174,,Signatária de acordo de leniência (CGU)
+INS-000483,MAR HOLDING PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,74340936000106,,Signatária de acordo de leniência (CGU)
+INS-000484,OPERADORA E AGENCIA DE VIAGENS TUR LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,44191666000140,,Signatária de acordo de leniência (CGU)
+INS-000485,C P M CONSTRUTORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05545366000160,,Signatária de acordo de leniência (CGU)
+INS-000486,MAURO LUVIZOTO MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11057774000175,,Signatária de acordo de leniência (CGU)
+INS-000487,RESOURCE TECNOLOGIA E INFORMATICA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04947601000167,,Signatária de acordo de leniência (CGU)
+INS-000488,MICROSTRATEGY BRASIL LIMITADA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02869307000159,,Signatária de acordo de leniência (CGU)
+INS-000489,QUALICORP CONSULTORIA E CORRETORA DE SEGUROS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11992680000193,,Signatária de acordo de leniência (CGU)
+INS-000490,VIKEN FLEET I AS,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000491,VIKEN SHUTTLE AS,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000492,VIKEN SHIPPING AS,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000493,DIVALI - DISTRIBUIDOR DE VEICULOS VALE DO IVINHEMA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11985717000156,,Signatária de acordo de leniência (CGU)
+INS-000494,S A PICOLI TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09290616000119,,Signatária de acordo de leniência (CGU)
+INS-000495,FREEPOINT COMMODITIES LLC,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000496,MINERVA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,67620377000114,,Signatária de acordo de leniência (CGU)
+INS-000497,SAP BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,74544297000192,,Signatária de acordo de leniência (CGU)
+INS-000498,JURONG SHIPYARD PTE. LTD.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000499,SEATRIUM LTD.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000500,ESTALEIRO JURONG ARACRUZ LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11200595000145,,Signatária de acordo de leniência (CGU)
+INS-000501,L. DOS REIS GARCIA - LABORATORIO DE ANALISES CLINICAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20610396000368,,Signatária de acordo de leniência (CGU)
+INS-000502,TRAFIGURA PTE. LTD.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000503,TRAFIGURA TRADING LLC,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000504,TRAFIGURA GROUP PTE. LTD.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000505,FARRINGFORD FOUNDATION,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000506,TRAFIGURA BEHEER B.V.,,empresa,nao_se_aplica,nao_se_aplica,,,,Signatária de acordo de leniência (CGU)
+INS-000507,TRAFIGURA DO BRASIL CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11631729000182,,Signatária de acordo de leniência (CGU)
+INS-000508,"TRAFIGURA DO BRASIL IMPORTACAO, EXPORTACAO E COMERCIO LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,11880550000169,,Signatária de acordo de leniência (CGU)
+INS-000509,AGROPECUARIA NOVO MILENIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04165520000105,,Signatária de acordo de leniência (CGU)
+INS-000510,JBJ AGROPECUARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15689716000115,,Signatária de acordo de leniência (CGU)
+INS-000511,PRIMA FOODS S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,16820052000144,,Signatária de acordo de leniência (CGU)
+INS-000512,SINDICATO DAS INDUSTRIAS DE BIOENERGIA DO ESTADO DE MATO GROSSO - BIOIND MT,,empresa,nao_se_aplica,nao_se_aplica,BRA,01345461000169,,Signatária de acordo de leniência (CGU)
+INS-000513,BONASA ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03573324000298,,Signatária de acordo de leniência (CGU)
+INS-000514,ARLA FOODS INGREDIENTS COMERCIO DE PRODUTOS ALIMENTICIOS UNIPESSOAL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,05861627000150,,Signatária de acordo de leniência (CGU)
+INS-000515,MARTELLI TRANSPORTES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07059135000171,,Signatária de acordo de leniência (CGU)
+INS-000516,TRANSOESTE LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06107061000139,,Signatária de acordo de leniência (CGU)
+INS-000517,RR DISTRIBUIDORA DE BEBIDAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00967837000104,,Signatária de acordo de leniência (CGU)
+INS-000518,AMBIENTAL ENGENHARIA E CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,22641641000168,,Signatária de acordo de leniência (CGU)
+INS-000519,BRASKEM S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,42150391000170,,Signatária de acordo de leniência (CGU)
+INS-000520,UNIDAS LOCACOES E SERVICOS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,75609123000123,,Signatária de acordo de leniência (CGU)
+INS-000521,VISTA LINDA INDÚSTRIA E COMÉRCIO DE CAFÉS,,empresa,nao_se_aplica,nao_se_aplica,BRA,06217047000198,,Empresa com sanção no CNEP
+INS-000522,Filial COOPERATIVA DOS PROFISSIONAIS DE TRANSPORTES ALTERNATIVOS E ESPECIAIS DO ESTADO DA BAHIA - TRANSCOPS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09277669000280,,Empresa com sanção no CNEP
+INS-000523,ASTRO ABC INDÚSTRIA E COMÉRCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04678283000186,,Empresa com sanção no CNEP
+INS-000524,FUNDACAO DE ENSINO E PESQUISA DE UBERABA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20054326000109,,Empresa com sanção no CNEP
+INS-000525,Silva e Saldanha Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,07344844000107,,Empresa com sanção no CNEP
+INS-000526,ANG SERVICOS DE LIMPEZA DE TERRENOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04690303000134,,Empresa com sanção no CNEP
+INS-000527,JPTE ENGENHARIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,74501081000140,,Empresa com sanção no CNEP
+INS-000528,HGS VALVULAS CONEXOES E ACESSORIOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13595003000167,,Empresa com sanção no CNEP
+INS-000529,BRASILVET INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,01731479000107,,Empresa com sanção no CNEP
+INS-000530,COMERCIAL ANAZUS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,36396059000198,,Empresa com sanção no CNEP
+INS-000531,FIX CONSTRUCOES E SERVICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05384786000101,,Empresa com sanção no CNEP
+INS-000532,CAIOBA TRANSPORTES LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,05007011000117,,Empresa com sanção no CNEP
+INS-000533,PETROENERGY SERVICE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10670717000102,,Empresa com sanção no CNEP
+INS-000534,TOTAL LIC SERVIÇOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,21345879000183,,Empresa com sanção no CNEP
+INS-000535,BLT LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23068420000105,,Empresa com sanção no CNEP
+INS-000536,QUALITY SERVIÇOS E CONSTRUÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07599862000121,,Empresa com sanção no CNEP
+INS-000537,"PROJETO ARAPAIMA, IMPORTACAO E EXPORTACAO DE AQUICULTURA EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,14113625000174,,Empresa com sanção no CNEP
+INS-000538,DMVF MANUTENCAO E SERVICOS INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,29496539000165,,Empresa com sanção no CNEP
+INS-000539,GB COMERCIAL ELETRICA E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11073873000140,,Empresa com sanção no CNEP
+INS-000540,"HORTUS BRASIL COMERCIO, IMPORTACAO E EXPORTACAO LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,28094307000118,,Empresa com sanção no CNEP
+INS-000541,ROGERIO VALTER LUIS ALVES,,empresa,nao_se_aplica,nao_se_aplica,BRA,12990717000107,,Empresa com sanção no CNEP
+INS-000542,IPSE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18451297000177,,Empresa com sanção no CNEP
+INS-000543,ELIZALDE CALIMAN ANDRADE - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08212043000142,,Empresa com sanção no CNEP
+INS-000544,O2 SERVIÇOS DE CONSERVAÇÃO E LIMPEZA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,34561704000155,,Empresa com sanção no CNEP
+INS-000545,LIVE PRODUTORA LTDA.-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,17874235000105,,Empresa com sanção no CNEP
+INS-000546,MARTA TEIXEIRA - LAPA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,04080992000165,,Empresa com sanção no CNEP
+INS-000547,JM TRANSPORTES E COMÉRCIO DE ALIMENTOS (ATUAL BURTA ASSESSORIA COMERCIAL LTDA.),,empresa,nao_se_aplica,nao_se_aplica,BRA,20193977000180,,Empresa com sanção no CNEP
+INS-000548,"LOKPLAN COMÉRCIO E SERVIÇOS EIRELI,",,empresa,nao_se_aplica,nao_se_aplica,BRA,14272273000108,,Empresa com sanção no CNEP
+INS-000549,CONSTROL CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17195298000135,,Empresa com sanção no CNEP
+INS-000550,DEUTSCHEBRAS COMERCIAL E ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00002776000140,,Empresa com sanção no CNEP
+INS-000551,ES SOLUTIONS CONSULTORIA E SERVICOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,19776464000112,,Empresa com sanção no CNEP
+INS-000552,LIFE-BELT SERVICOS ESPECIALIZADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03645771000124,,Empresa com sanção no CNEP
+INS-000553,PRO VIDA SOLUCOES E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,50695831000101,,Empresa com sanção no CNEP
+INS-000554,F2 ENGENHARIA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,12103967000188,,Empresa com sanção no CNEP
+INS-000555,Arsit Tecnologia e Telecom Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,27050408000124,,Empresa com sanção no CNEP
+INS-000556,CULP CONSTRUCOES E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23300383000119,,Empresa com sanção no CNEP
+INS-000557,LEAL COMERCIO DE MATERIAIS OFFSHORE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,32956602000103,,Empresa com sanção no CNEP
+INS-000558,VALIFILTER COMERCIO DE FILTROS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,40857231000130,,Empresa com sanção no CNEP
+INS-000559,BANDEIRANTE COMERCIO DE PECAS E EQUIPAMENTOS DE REFRIGERACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12800672000160,,Empresa com sanção no CNEP
+INS-000560,TRANSPORTADORA E LOCADORA ABC LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,38032736000114,,Empresa com sanção no CNEP
+INS-000561,U B INDUSTRIA E COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14360688000125,,Empresa com sanção no CNEP
+INS-000562,GALPAO GESTORA DE MARCAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15667070000175,,Empresa com sanção no CNEP
+INS-000563,BIDDEN COMERCIAL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,36181473000180,,Empresa com sanção no CNEP
+INS-000564,GRENIT SERVICOS E DESENVOLVIMENTO DE SOFTWARES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06936483000117,,Empresa com sanção no CNEP
+INS-000565,Filial COOPERATIVA DOS PROFISSIONAIS DE TRANSPORTES ALTERNATIVOS E ESPECIAIS DO ESTADO DA BAHIA - TRANSCOPS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09277669000361,,Empresa com sanção no CNEP
+INS-000566,RADIOGRAPH CLÍNICA DE IMAGEM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00243530000160,,Empresa com sanção no CNEP
+INS-000567,HIGI SERV LIMPEZA E CONSERVACAO S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,78570397000144,,Empresa com sanção no CNEP
+INS-000568,GLOBAL GEOMATICA ENGENHARIA E CONSULTORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05166440000137,,Empresa com sanção no CNEP
+INS-000569,LOGICA COMERCIO E LOCACAO DE MAO DE OBRA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,20166637000160,,Empresa com sanção no CNEP
+INS-000570,F JUNIOR INDÚSTRIA E COMÉRCIO DE CONFECÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09033211000103,,Empresa com sanção no CNEP
+INS-000571,IDEAL ENGENHARIA E SERVICOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,05676532000167,,Empresa com sanção no CNEP
+INS-000572,UNIVERSAL SERVICE - LIMPEZA E TRANSPORTE EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04255818000106,,Empresa com sanção no CNEP
+INS-000573,EXSEG PRESTACAO DE SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24753081000169,,Empresa com sanção no CNEP
+INS-000574,S.E. Costa Informática-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,20520956000121,,Empresa com sanção no CNEP
+INS-000575,M. P. V. GERVASIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36404608000129,,Empresa com sanção no CNEP
+INS-000576,CASA FREI REGINALDO DE ACOLHIDA A CRIANCA E AO IDOSO,,empresa,nao_se_aplica,nao_se_aplica,BRA,04427955000180,,Empresa com sanção no CNEP
+INS-000577,COR E SABOR DISTRIBUIDORA DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,97508121000180,,Empresa com sanção no CNEP
+INS-000578,ETC EMPREENDIMENTOS TRANSPORTES COMERCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,33647462000154,,Empresa com sanção no CNEP
+INS-000579,Distribuidora de Leite Capelinha Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07665406000132,,Empresa com sanção no CNEP
+INS-000580,JULIO CARON ADVOGADOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,06348905000133,,Empresa com sanção no CNEP
+INS-000581,MINHOMAR COMERCIO E SERVICOS MARITIMOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04626992000118,,Empresa com sanção no CNEP
+INS-000582,TOTEN INFORMÁTICA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,15315346000156,,Empresa com sanção no CNEP
+INS-000583,R&B Produtos e Serviços Ltda. ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,21545589000183,,Empresa com sanção no CNEP
+INS-000584,NOVA CRIST EIRELI ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,29065909000100,,Empresa com sanção no CNEP
+INS-000585,SILVESTRE LABS QUIMICA & FARMACEUTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33019548000132,,Empresa com sanção no CNEP
+INS-000586,LAPIS RARO PAPELARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,42973230000187,,Empresa com sanção no CNEP
+INS-000587,ÁPICE CONSTRUTORA INCORPORADORA E IMOBILIÁRIA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,36892271000146,,Empresa com sanção no CNEP
+INS-000588,Americasul Aeroagrícola Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,05976905000115,,Empresa com sanção no CNEP
+INS-000589,"ART AUDIO, VIDEO, PROJECOES & INFORMATICA LTDA - ME",,empresa,nao_se_aplica,nao_se_aplica,BRA,10786518000156,,Empresa com sanção no CNEP
+INS-000590,SÃO BENEDITO CONSTRUÇÃO CIVIL LTDA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,00125882000111,,Empresa com sanção no CNEP
+INS-000591,INOVVATI TECNOLOGIA LTDA. (PSG TECNOLOGIA APLICADA LTDA.),,empresa,nao_se_aplica,nao_se_aplica,BRA,00073357000108,,Empresa com sanção no CNEP
+INS-000592,FLAVIANO SILVA SANTOS ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,07714171000121,,Empresa com sanção no CNEP
+INS-000593,"W.W.SPORTS IMPORTADORA,EXPORTADORA E COMERCIAL LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,03248412000486,,Empresa com sanção no CNEP
+INS-000594,SPENGEZER SERVICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05350381000152,,Empresa com sanção no CNEP
+INS-000595,METALCORTE FUNDICAO LTDA - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,03273282000199,,Empresa com sanção no CNEP
+INS-000596,RAK LOG TRANSPORTES E LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,52957693000109,,Empresa com sanção no CNEP
+INS-000597,MELF CONSTRUÇÃO EIRELI-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08780160000102,,Empresa com sanção no CNEP
+INS-000598,PARANÁ CAFETERIA LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,19849176000140,,Empresa com sanção no CNEP
+INS-000599,IPANEMA INDUSTRIA DE PRODUTOS VETERINARIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,64687015000152,,Empresa com sanção no CNEP
+INS-000600,SFC MARKETING DIRETO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,18057110000155,,Empresa com sanção no CNEP
+INS-000601,MARCO ZERO CONSTRUÇÃO E COMÉRCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25289836000189,,Empresa com sanção no CNEP
+INS-000602,Hominus Gestão e Tecnologia Ltda - GT1 Tecnologia,,empresa,nao_se_aplica,nao_se_aplica,BRA,08188158000149,,Empresa com sanção no CNEP
+INS-000603,TRANSFORTE TRANSPORTE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05572965000172,,Empresa com sanção no CNEP
+INS-000604,SERVICOB - SERVICO DE RECUPERACAO DE CREDITOS E COBRANCAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02213337000102,,Empresa com sanção no CNEP
+INS-000605,SINDICATO DOS TRABALHADORES EM EMPRESAS DE PESCA DE SANTA CATARINA,,empresa,nao_se_aplica,nao_se_aplica,BRA,76701697000190,,Empresa com sanção no CNEP
+INS-000606,VIX MERCANTE IMPORTACAO E EXPORTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09592573000126,,Empresa com sanção no CNEP
+INS-000607,ENGEB ENGENHARIA E MONTAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11162114000154,,Empresa com sanção no CNEP
+INS-000608,"A. S. LUBRIFICANTES, SERVIÇOS E MANUTENÇÃO DE COMBUSTÍVEL LTDA.",,empresa,nao_se_aplica,nao_se_aplica,BRA,27444613000174,,Empresa com sanção no CNEP
+INS-000609,ANDRADE ENGENHARIA E DESIGN LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02907437000139,,Empresa com sanção no CNEP
+INS-000610,CNS LEARNING CRIACAO E DESENVOLVIMENTO DE SOFTWARE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06912818000167,,Empresa com sanção no CNEP
+INS-000611,ISOSHORE SERVICOS TERMICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13938791000147,,Empresa com sanção no CNEP
+INS-000612,CLINICAO CLINICA VETERINARIA POPULAR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15311126000154,,Empresa com sanção no CNEP
+INS-000613,ZAD COMÉRCIO E SERVIÇÕS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14381980000124,,Empresa com sanção no CNEP
+INS-000614,VALE DO RIO NOVO ENGENHARIA E CONSTRUÇÕES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,50344902000113,,Empresa com sanção no CNEP
+INS-000615,ADEMIR PEREIRA DE FREITAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,30590139000101,,Empresa com sanção no CNEP
+INS-000616,Distribuidora de Fogos São Francisco Ltda. ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08074300000127,,Empresa com sanção no CNEP
+INS-000617,PHD SERVICOS DE MANUTENCAO EM MAQUINAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05836651000130,,Empresa com sanção no CNEP
+INS-000618,RENOAIR ENERGIAS RENOVÁVEIS DO BRASIL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02825971000104,,Empresa com sanção no CNEP
+INS-000619,RRG CONSTRUTORA E SERVIÇOS LTDA-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,97544368000152,,Empresa com sanção no CNEP
+INS-000620,GERALDO A. DAS CHAGAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,07355284000188,,Empresa com sanção no CNEP
+INS-000621,CAMPO FELIZ CONSTRUCOES E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,26635344000160,,Empresa com sanção no CNEP
+INS-000622,NARDA ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,68690932000147,,Empresa com sanção no CNEP
+INS-000623,NIAZITEX IMPORTACAO E EXPORTACAO DE TECIDOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09183348000136,,Empresa com sanção no CNEP
+INS-000624,DUNAX CONSTRUÇÕES E ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01180063000130,,Empresa com sanção no CNEP
+INS-000625,MOBRA SERVIÇOS DE VIGILÂNCIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,87134086000204,,Empresa com sanção no CNEP
+INS-000626,LABGARD INDUSTRIA E COMERCIO DE PRODUTOS VETERINARIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09513510000218,,Empresa com sanção no CNEP
+INS-000627,USIMAT DESTILARIA DE ALCOOL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07670089000142,,Empresa com sanção no CNEP
+INS-000628,Associação do Jardim São Vicente e Adjacências,,empresa,nao_se_aplica,nao_se_aplica,BRA,01483998000195,,Empresa com sanção no CNEP
+INS-000629,JEMA REFLORESTAMENTO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09333481000121,,Empresa com sanção no CNEP
+INS-000630,FLT CONSTRUTORA E MONTAGENS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16456314000133,,Empresa com sanção no CNEP
+INS-000631,UNIVERSAL PRODUTOS HOSPITALARES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10918870000106,,Empresa com sanção no CNEP
+INS-000632,L.A. SCHMITT ALIMENTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,22672333000108,,Empresa com sanção no CNEP
+INS-000633,BUSINESS TO TECHNOLOGY CONSULTORIA E ANALISE DE SISTEMAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06061285000157,,Empresa com sanção no CNEP
+INS-000634,EDITORA PROJETO CULTURAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10946774000163,,Empresa com sanção no CNEP
+INS-000635,IT2B TECNOLOGIA E SERVIÇOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04392420000200,,Empresa com sanção no CNEP
+INS-000636,H M C BICUDO SEGURANCA PRIVADA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14775292000149,,Empresa com sanção no CNEP
+INS-000637,AUXILIO ASSESSORIA E SERVICOS TECNICOS - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,62034327000131,,Empresa com sanção no CNEP
+INS-000638,BIGUÁ ALIMENTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,55694814000165,,Empresa com sanção no CNEP
+INS-000639,R2 RADIODIFUSAO E TELECOMUNICACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05613242000174,,Empresa com sanção no CNEP
+INS-000640,LUCATER LOCACAO E MANUTENCAO DE EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09279283000127,,Empresa com sanção no CNEP
+INS-000641,FAUSB EDUCACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17073302000192,,Empresa com sanção no CNEP
+INS-000642,PMH PRODUTOS MÉDICOS HOSPITALARES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00740696000192,,Empresa com sanção no CNEP
+INS-000643,COLETIVO NACIONAL DA PESCA E AQUICULTURA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00676189000137,,Empresa com sanção no CNEP
+INS-000644,MB TERCEIRIZAÇÃO E SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10517972000101,,Empresa com sanção no CNEP
+INS-000645,CLAUDIA YURIKO SAKAI & CIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03625975000101,,Empresa com sanção no CNEP
+INS-000646,RIMONTE OPERACOES INDUSTRIAIS,,empresa,nao_se_aplica,nao_se_aplica,BRA,19923857000101,,Empresa com sanção no CNEP
+INS-000647,CLARION BIOCIENCIAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03244722000180,,Empresa com sanção no CNEP
+INS-000648,ASSOCIAÇÃO GERAL DOS MILITARES DO ESTADO DO ESPÍRITO SANTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,17897107000187,,Empresa com sanção no CNEP
+INS-000649,GPC COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05095250000176,,Empresa com sanção no CNEP
+INS-000650,"EMTEL - Empreendimento, Tecnologia e Engenharia Ltda.",,empresa,nao_se_aplica,nao_se_aplica,BRA,17276908000125,,Empresa com sanção no CNEP
+INS-000651,EXPRESS SERVICE ADMINISTRADORA DE SERVICOS TERCEIRIZADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13179025000146,,Empresa com sanção no CNEP
+INS-000652,CLÍNICA RECANTO DE ORIENTAÇÃO PSICOSSOCIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04186630000153,,Empresa com sanção no CNEP
+INS-000653,CONSERGE CONSTRUCAO E SERVICOS GERAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,84513290000167,,Empresa com sanção no CNEP
+INS-000654,BECA CINE VÍDEO E EVENTOS ARTÍSTICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,15657176000198,,Empresa com sanção no CNEP
+INS-000655,MEDIC STOCK COMERCIO DE PRODUTOS MEDICOS HOSPITALARES EIRELI - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,05997927000161,,Empresa com sanção no CNEP
+INS-000656,JP COMERCIAL FORNECEDORA E SERVIÇOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,10906855000130,,Empresa com sanção no CNEP
+INS-000657,DÍNAMO CONSTRUTORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07163616000122,,Empresa com sanção no CNEP
+INS-000658,RJV EMPREENDIMENTOS E ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17464285000114,,Empresa com sanção no CNEP
+INS-000659,RCM SERVICOS ESPECIALIZADOS DE MANUTENCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33308533000194,,Empresa com sanção no CNEP
+INS-000660,VIGILANCIA TRIANGULO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,79894168000148,,Empresa com sanção no CNEP
+INS-000661,PREMIUM LOG LOGISTICA E TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08852322000170,,Empresa com sanção no CNEP
+INS-000662,LARREF COMERCIO DE MATERIAL ELETRICO E CONSTRUCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33603119000108,,Empresa com sanção no CNEP
+INS-000663,XADAI SERVIÇOS TÉCNICOS TERCEIRIZADOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17975975000138,,Empresa com sanção no CNEP
+INS-000664,VISION MIDIA E PROPAGANDA LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,10435582000192,,Empresa com sanção no CNEP
+INS-000665,E-TAG CONSTRUÇÕES E COMÉRCIO LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,05319939000137,,Empresa com sanção no CNEP
+INS-000666,KYLIMEDI MATERIAL MEDICO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07079067000102,,Empresa com sanção no CNEP
+INS-000667,VS2 SANEAMENTO E SERVIÇOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,22439760000132,,Empresa com sanção no CNEP
+INS-000668,"Ipê Incorporação, Planejamento e Engenharia Ltda",,empresa,nao_se_aplica,nao_se_aplica,BRA,00829808000186,,Empresa com sanção no CNEP
+INS-000669,CONSTRUTORA ZANETTI LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09121131000100,,Empresa com sanção no CNEP
+INS-000670,VIDRO GLASS COMERCIO DE VIDROS E MOLDURAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07716914000100,,Empresa com sanção no CNEP
+INS-000671,SWS MONTAGEM E MANUTENCAO INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28289898000189,,Empresa com sanção no CNEP
+INS-000672,JS CARVALHO SERVICOS E LOCACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,18674609000101,,Empresa com sanção no CNEP
+INS-000673,Filial COOPERATIVA DOS PROFISSIONAIS DE TRANSPORTES ALTERNATIVOS E ESPECIAIS DO ESTADO DA BAHIA - TRANSCOPS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09277669000523,,Empresa com sanção no CNEP
+INS-000674,CONSTRUTORA ROCHA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06105049000195,,Empresa com sanção no CNEP
+INS-000675,VIP FALCAO SEGURANCA PATRIMONIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08512158000152,,Empresa com sanção no CNEP
+INS-000676,JJ PRODUÇÕES E COBRANÇAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,45993086000139,,Empresa com sanção no CNEP
+INS-000677,SALOC SERVICOS E MANUTENCAO INDUSTRIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,14286903000195,,Empresa com sanção no CNEP
+INS-000678,ALLABOR LABORATORIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07877969000194,,Empresa com sanção no CNEP
+INS-000679,Policard Systems e Serviços S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00904951000195,,Empresa com sanção no CNEP
+INS-000680,ASSOCIAÇÃO NACIONAL DE ASSISTÊNCIA AOS FUNCIONARIOS PUBLICOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,10383676000165,,Empresa com sanção no CNEP
+INS-000681,"PAULISTA BUSINESS COMERCIO, IMPORTACAO E EXPORTACAO DE PRODUTOS ELETRICOS LTDA.",,empresa,nao_se_aplica,nao_se_aplica,BRA,64109499000152,,Empresa com sanção no CNEP
+INS-000682,COMERCIAL PICAPAU EIRELI - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,21463538000102,,Empresa com sanção no CNEP
+INS-000683,PROTEC TERCEIRIZACOES E SERVICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,13406440000195,,Empresa com sanção no CNEP
+INS-000684,ELETRICA BELEM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23387386000131,,Empresa com sanção no CNEP
+INS-000685,EB SERVICOS E PROJETOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13750957000105,,Empresa com sanção no CNEP
+INS-000686,PED SERVIÇOS TERCEIRIZADOS LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,13851112000106,,Empresa com sanção no CNEP
+INS-000687,GWR CONSULTORIA EM GESTAO EMPRESARIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13945551000170,,Empresa com sanção no CNEP
+INS-000688,HABIL SERVICOS DE APOIO OPERACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10145133000100,,Empresa com sanção no CNEP
+INS-000689,CREMOLAT IND. E COMERCIO DE LATICINIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04200282000121,,Empresa com sanção no CNEP
+INS-000690,JP PRIME ADMINISTRADORA E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,43956906000197,,Empresa com sanção no CNEP
+INS-000691,SINDICATO REGIONAL DOS TRABALHADORES NA PESCA E AQUICULTURA NO ESTADO DO TOCANTINS - SINDIPEIXE-TO,,empresa,nao_se_aplica,nao_se_aplica,BRA,11858215000164,,Empresa com sanção no CNEP
+INS-000692,VENIRE DISTRIBUIDORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,43794463000185,,Empresa com sanção no CNEP
+INS-000693,ISOREL LOCACAO E SERVICOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,03240946000113,,Empresa com sanção no CNEP
+INS-000694,VANTUR CONSTRUCOES E PROJETOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,02750635000131,,Empresa com sanção no CNEP
+INS-000695,JBF ENGENHEIROS & ARQUITETOS ASSOCIADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13197596000103,,Empresa com sanção no CNEP
+INS-000696,OGSEA SERVICOS DE PETROLEO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,34445757000100,,Empresa com sanção no CNEP
+INS-000697,PARAISO IND COM DE ALIMENTOS E ABATE DE AVES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03673994000103,,Empresa com sanção no CNEP
+INS-000698,FRIGOSOL INDUSTRIA E COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,82345315000135,,Empresa com sanção no CNEP
+INS-000699,TECTENGE-TECNOLOGIA E SERVICOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00632068000193,,Empresa com sanção no CNEP
+INS-000700,POSTES DE FIBRA LITORAL INDÚSTRIA E COMÉRCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,03362908000133,,Empresa com sanção no CNEP
+INS-000701,VIRTUS ADMINISTRADORA DE SERVIÇOS - EIRELI - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,09625853000193,,Empresa com sanção no CNEP
+INS-000702,Estafe Comércio e Serviços Eireli,,empresa,nao_se_aplica,nao_se_aplica,BRA,24553849000150,,Empresa com sanção no CNEP
+INS-000703,PRINTEC TECNOLOGIA DA IMPRESSA0 LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06101609000133,,Empresa com sanção no CNEP
+INS-000704,BRG ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14272924000151,,Empresa com sanção no CNEP
+INS-000705,TRANSPORTES SATÉLITE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,83029140000110,,Empresa com sanção no CNEP
+INS-000706,DEJAMARO INDUSTRIA E COMERCIO DE PRODUTOS MÉDICOS HOSPITALARES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27608037000153,,Empresa com sanção no CNEP
+INS-000707,MAKRO MOVEIS E EQUIPAMENTOS MODULADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,35026574000113,,Empresa com sanção no CNEP
+INS-000708,ASSOCIACAO BENEFICENTE MOVIMENTO DAS MULHERES DA CIDADE TIRADENTES,,empresa,nao_se_aplica,nao_se_aplica,BRA,00134653000163,,Empresa com sanção no CNEP
+INS-000709,"M.F. Comércio, Gerenciamento e Serviços EIRELI M",,empresa,nao_se_aplica,nao_se_aplica,BRA,20853918000190,,Empresa com sanção no CNEP
+INS-000710,Associação Atlética Acadêmica Horácio Lane,,empresa,nao_se_aplica,nao_se_aplica,BRA,62568001000194,,Empresa com sanção no CNEP
+INS-000711,DBX CONSTRUTORA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,22995646000199,,Empresa com sanção no CNEP
+INS-000712,LUCIMARA KIST LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16638988000159,,Empresa com sanção no CNEP
+INS-000713,ACS LOG TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11400535000176,,Empresa com sanção no CNEP
+INS-000714,SITRAN-COMÉRCIO E INDÚSTRIA DE ELETRÔNICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02004950000110,,Empresa com sanção no CNEP
+INS-000715,ASSOCIAÇÃO BENEFICENTE COMUNITÁRIA FAMÍLIA REIS,,empresa,nao_se_aplica,nao_se_aplica,BRA,04287761000127,,Empresa com sanção no CNEP
+INS-000716,"PORTO SEGURO NEGÓCIOS, EMPREENDIMENTOS E PARTICIPAÇÕES S/A",,empresa,nao_se_aplica,nao_se_aplica,BRA,11689292000138,,Empresa com sanção no CNEP
+INS-000717,PORT PRESTAÇÃO DE SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25024486000129,,Empresa com sanção no CNEP
+INS-000718,WK&NETOS COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,31120808000136,,Empresa com sanção no CNEP
+INS-000719,EMFLORS EMPREENDIMENTOS FLORESTAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05018123000173,,Empresa com sanção no CNEP
+INS-000720,PSG DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08219178000130,,Empresa com sanção no CNEP
+INS-000721,1. MIL PUBLICITA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,03759465000119,,Empresa com sanção no CNEP
+INS-000722,GUINDASTES BRASIL OLEO E GAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02355017000197,,Empresa com sanção no CNEP
+INS-000723,LIGA NACIONAL GARRA DE ÁGUIA KUOSHU WUSHU KUNG FU TRADICIONAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,11417732000106,,Empresa com sanção no CNEP
+INS-000724,"FEDERAÇÃO PAULISTA DE KUNG FU, WUSHU E KUOSHU TRADICIONAL",,empresa,nao_se_aplica,nao_se_aplica,BRA,00103139000160,,Empresa com sanção no CNEP
+INS-000725,Instituto Urbis Porto Alegre - Cidadania e Participação Popular,,empresa,nao_se_aplica,nao_se_aplica,BRA,07729389000150,,Empresa com sanção no CNEP
+INS-000726,THAIS CRISTINA TEIXEIRA BRASIL,,empresa,nao_se_aplica,nao_se_aplica,BRA,07236940000123,,Empresa com sanção no CNEP
+INS-000727,KAMOV CONSTRUCOES E MONTAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,34427108000187,,Empresa com sanção no CNEP
+INS-000728,ANGRAMAR TRANSPORTADORA TURISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28542511000154,,Empresa com sanção no CNEP
+INS-000729,COPANELL CONSTRUÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19181901000155,,Empresa com sanção no CNEP
+INS-000730,PETRODESIGN ENGENHARIA LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,07767450000153,,Empresa com sanção no CNEP
+INS-000731,URGON CONSTRUTORA LTDA-EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,14292067000151,,Empresa com sanção no CNEP
+INS-000732,"A.R.S. BRASIL INDUSTRIA E COMERCIO, DISTRIBUICAO DE ROUPAS E BRINDES LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,24795369000104,,Empresa com sanção no CNEP
+INS-000733,JAMPAC INDUSTRIA E COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20844980000116,,Empresa com sanção no CNEP
+INS-000734,MOREIRA ESTRAZULAS EMPREENDIMENTOS E PARTICIPACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00760282000125,,Empresa com sanção no CNEP
+INS-000735,G T X CONSTRUTORA E INCORPORADORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,41793117000157,,Empresa com sanção no CNEP
+INS-000736,Ventana Manutenção e Serviços Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,15707659000150,,Empresa com sanção no CNEP
+INS-000737,TRATENGE ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06098460000180,,Empresa com sanção no CNEP
+INS-000738,REDE DE ESCOLAS BRASIL QUALIFICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13592348000167,,Empresa com sanção no CNEP
+INS-000739,FRP COMERCIO E SERVICOS DE INFORMATICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,38504819000169,,Empresa com sanção no CNEP
+INS-000740,Destilaria de Alcool Libra Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,00297598000122,,Empresa com sanção no CNEP
+INS-000741,ASSOCIACAO BRASILEIRA DE TECNOLOGIA GRAFICA - ABTG,,empresa,nao_se_aplica,nao_se_aplica,BRA,62427281000110,,Empresa com sanção no CNEP
+INS-000742,FE INTERMODAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15216482000199,,Empresa com sanção no CNEP
+INS-000743,SINDICATO DAS EMPRESAS DE TRANSPORTES RODOVIÁRIOS DE PASSAGEIROS DO ESTADO DE MATO GROSSO - SETROMAT,,empresa,nao_se_aplica,nao_se_aplica,BRA,33053596000147,,Empresa com sanção no CNEP
+INS-000744,V. F. RABELO FILHO CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08747162000108,,Empresa com sanção no CNEP
+INS-000745,LV INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,55836281000109,,Empresa com sanção no CNEP
+INS-000746,HM TEXTIL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,13338238000173,,Empresa com sanção no CNEP
+INS-000747,H L DOS SANTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,01219144000104,,Empresa com sanção no CNEP
+INS-000748,HOPE RECURSOS HUMANOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,31880164000184,,Empresa com sanção no CNEP
+INS-000749,ENAVAL - ENGENHARIA NAVAL E OFFSHORE LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02445332000105,,Empresa com sanção no CNEP
+INS-000750,CONSTRUTORA ENGEMEGA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33480104000108,,Empresa com sanção no CNEP
+INS-000751,MONTEIRO ATIVIDADES ESPORTIVAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13336262000173,,Empresa com sanção no CNEP
+INS-000752,Marmoraria Nacional Comércio de Artefatos de Cimento e Serviços de Mão de Obra Ltda ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,11396646000156,,Empresa com sanção no CNEP
+INS-000753,LCT CONSULTORIA E TREINAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,30477220000171,,Empresa com sanção no CNEP
+INS-000754,ICE CARTÕES ESPECIAIS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01175647000117,,Empresa com sanção no CNEP
+INS-000755,"SALUTARIS - PESQUISA, CONSULTORIA E GESTÃO EM SAÚDE LTDA-ME",,empresa,nao_se_aplica,nao_se_aplica,BRA,07406337000142,,Empresa com sanção no CNEP
+INS-000756,GRUPO SUPPORT ASSESSORIA EMPRESARIAL EIRELI EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,00550523000101,,Empresa com sanção no CNEP
+INS-000757,TRATOR MÁQUINAS E TERRAPLANAGEM EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,14587906000169,,Empresa com sanção no CNEP
+INS-000758,J&P COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27138079000178,,Empresa com sanção no CNEP
+INS-000759,AMS COMERCIO DE MATERIAIS EM GERAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,10752045000176,,Empresa com sanção no CNEP
+INS-000760,ELIEZER SOARES LIMA SERVICOS ADMINISTRATIVOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,10582197000178,,Empresa com sanção no CNEP
+INS-000761,COMERCIO E INDUSTRIA DE PESCADOS KOWALSKY,,empresa,nao_se_aplica,nao_se_aplica,BRA,86129962000160,,Empresa com sanção no CNEP
+INS-000762,Abreu & Abreu Serviços Eireli ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,14100924000174,,Empresa com sanção no CNEP
+INS-000763,CONSERV BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36000244000111,,Empresa com sanção no CNEP
+INS-000764,WVA COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28008321000151,,Empresa com sanção no CNEP
+INS-000765,J.O.S. TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,89035539000190,,Empresa com sanção no CNEP
+INS-000766,A. CONSTANCIO SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,31751386000105,,Empresa com sanção no CNEP
+INS-000767,FORTUNE IMPORTACAO E EXPORTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10633556000179,,Empresa com sanção no CNEP
+INS-000768,MÁRIO WROBLESKI SZYCHTA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,17979169000138,,Empresa com sanção no CNEP
+INS-000769,TRANSLAINO TRANSPORTES RODOVIÁRIOS DE PASSAGEIROS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06203062000187,,Empresa com sanção no CNEP
+INS-000770,CCV CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20739940000104,,Empresa com sanção no CNEP
+INS-000771,EMPRESA BRASILEIRA DE ENGENHARIA S A,,empresa,nao_se_aplica,nao_se_aplica,BRA,33247271000103,,Empresa com sanção no CNEP
+INS-000772,ASJ ASSESSORIA TRANSPORTE E CONSTRUCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16757935000157,,Empresa com sanção no CNEP
+INS-000773,CLARICE DONIZETE MOREIRA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,20800005000106,,Empresa com sanção no CNEP
+INS-000774,COMERCIAL PRECO JUSTO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06017989000122,,Empresa com sanção no CNEP
+INS-000775,STRONGHOLD GROUP FACILITIES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09324222000134,,Empresa com sanção no CNEP
+INS-000776,DISTRIBUIDORA SANTA PAULA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17364470000137,,Empresa com sanção no CNEP
+INS-000777,MAYANNE THAYARA DE ARAUJO CRUZ,,empresa,nao_se_aplica,nao_se_aplica,BRA,13994345000150,,Empresa com sanção no CNEP
+INS-000778,NATIVA COMERCIAL EIRELI - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,20800022000143,,Empresa com sanção no CNEP
+INS-000779,A. CHRISTO COMERCIO - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,27602332000100,,Empresa com sanção no CNEP
+INS-000780,EMTRES EMPRESA DE TRANSPORTE E GERENCIAMENTO DE RESIDUOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14606280000190,,Empresa com sanção no CNEP
+INS-000781,NT FAST ALIMENTAÇÃO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11091855000191,,Empresa com sanção no CNEP
+INS-000782,ALBAN SERVICOS E PROJETOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04636797000179,,Empresa com sanção no CNEP
+INS-000783,MULTI MAO DE OBRA E SERVICOS ESPECIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12123660000149,,Empresa com sanção no CNEP
+INS-000784,DUTLIMPE SERVICOS DE LIMPEZA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,22719820000170,,Empresa com sanção no CNEP
+INS-000785,INTERCAPITAL BELAS ARTES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01334179000186,,Empresa com sanção no CNEP
+INS-000786,ASSOCIAÇÃO BRASILEIRA DOS PROFISSIONAIS DE EDUCAÇÃO FÍSICA E ESPORTE - ABRAFEPE,,empresa,nao_se_aplica,nao_se_aplica,BRA,13117449000186,,Empresa com sanção no CNEP
+INS-000787,B.M.Taques Consultoria Empresarial ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,12358742000172,,Empresa com sanção no CNEP
+INS-000788,LEILAMAD PORTAS E JANELAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03170663000142,,Empresa com sanção no CNEP
+INS-000789,D. BECKER PESCADOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,01938662000170,,Empresa com sanção no CNEP
+INS-000790,Santa Cruz Engenharia Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,00961615000184,,Empresa com sanção no CNEP
+INS-000791,SANTOS TREINAMENTO E CAPACITAÇÃO DE PESSOAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08304721000105,,Empresa com sanção no CNEP
+INS-000792,Construtora Cava Eireli (atual Construtora Cava Ltda),,empresa,nao_se_aplica,nao_se_aplica,BRA,33739811000168,,Empresa com sanção no CNEP
+INS-000793,ESPECIALISTA CONFECÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07604583000109,,Empresa com sanção no CNEP
+INS-000794,A. K. D. FIGUEIREDO LTDA. (antiga AEP CONSTRUÇÕES E URBANIZAÇÕES LTDA),,empresa,nao_se_aplica,nao_se_aplica,BRA,05648230000185,,Empresa com sanção no CNEP
+INS-000795,FELBER ENGENHARIA E REPRESENTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10704862000159,,Empresa com sanção no CNEP
+INS-000796,HLR ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12219026000104,,Empresa com sanção no CNEP
+INS-000797,SINDICATO DOS TRABALHADORES NAS INDUSTRIAS DE LATICINIOS E ALIMENTACAO DE SAO PAULO - SP (STILASP),,empresa,nao_se_aplica,nao_se_aplica,BRA,62806575000153,,Empresa com sanção no CNEP
+INS-000798,ASSOCIACAO DOS PESCADORES PROFISSIONAIS DO ESTADO DO TOCANTINS - APPET,,empresa,nao_se_aplica,nao_se_aplica,BRA,28650921000119,,Empresa com sanção no CNEP
+INS-000799,UNIAO SOLUCOES EM SERVICOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20912923000127,,Empresa com sanção no CNEP
+INS-000800,Associação Desportiva Kyokushin da Pedreira,,empresa,nao_se_aplica,nao_se_aplica,BRA,16596168000141,,Empresa com sanção no CNEP
+INS-000801,INSTITUTO PANAMERICANO DE GESTAO - IPG,,empresa,nao_se_aplica,nao_se_aplica,BRA,14707792000143,,Empresa com sanção no CNEP
+INS-000802,AJOTA ENGENHARIA E CONSTRUCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00764466000163,,Empresa com sanção no CNEP
+INS-000803,TECHNICIAN COMERCIO E SERVICOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28611985000100,,Empresa com sanção no CNEP
+INS-000804,FULL LOG TRANSPORTES LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,04654218000110,,Empresa com sanção no CNEP
+INS-000805,LM CONSERVACAO PREDIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10896293000190,,Empresa com sanção no CNEP
+INS-000806,TOLENTINO'S SOLUÇÕES EMPRESARIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,45373223000132,,Empresa com sanção no CNEP
+INS-000807,A & L SERVICE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14752105000101,,Empresa com sanção no CNEP
+INS-000808,M.B. NAUTICA INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23033408000165,,Empresa com sanção no CNEP
+INS-000809,LINK PROJETOS E PARTICIPACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05778203000127,,Empresa com sanção no CNEP
+INS-000810,AUDIOMIX EVENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17800968000103,,Empresa com sanção no CNEP
+INS-000811,INDUSTRIA MADEIREIRA ULIANA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72455751000103,,Empresa com sanção no CNEP
+INS-000812,MERCADO DO BRANCO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01544907000184,,Empresa com sanção no CNEP
+INS-000813,IPE INDUSTRIA E COMERCIO DE PESCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,79683033000133,,Empresa com sanção no CNEP
+INS-000814,COOPERCAR - COOPERATIVA DOS PRESTADORES DE SERVICOS NA AREA DE TRANSPORTES EM GERAL DE SAO PAULO,,empresa,nao_se_aplica,nao_se_aplica,BRA,07995986000126,,Empresa com sanção no CNEP
+INS-000815,WALERIA DOS S. CORDEIRO EIRELI - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,30985777000113,,Empresa com sanção no CNEP
+INS-000816,TVM TECNOLOGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04754795000184,,Empresa com sanção no CNEP
+INS-000817,PIRAPO PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,76513480000156,,Empresa com sanção no CNEP
+INS-000818,BRAZIL CONSTRUCTION LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16490504000177,,Empresa com sanção no CNEP
+INS-000819,OKAYBANK CAPITAL S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,26054641000112,,Empresa com sanção no CNEP
+INS-000820,PORTAL DO NETWORK AGENCIA DE NOTICIAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12504001000152,,Empresa com sanção no CNEP
+INS-000821,A G ROSSATO DISTRIBUIDORA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,22499940000100,,Empresa com sanção no CNEP
+INS-000822,BIOEX EQUIPAMENTOS MEDICOS E ODONTOLOGICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,08982275000180,,Empresa com sanção no CNEP
+INS-000823,PERSONAL SERVICE RECURSOS HUMANOS E ASSESSORIA EMPRESARIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00277106000137,,Empresa com sanção no CNEP
+INS-000824,Avançar Tecnologia em Software LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16585364000110,,Empresa com sanção no CNEP
+INS-000825,SEITON INDUSTRIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,01525928000152,,Empresa com sanção no CNEP
+INS-000826,OFFICE TECH TECNOLOGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07366769000177,,Empresa com sanção no CNEP
+INS-000827,MAZETTO SOCIEDADE DE ADVOGADOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,59586404000151,,Empresa com sanção no CNEP
+INS-000828,INSTITUTO ESPORTE E VIDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19010566000122,,Empresa com sanção no CNEP
+INS-000829,FRANGO DM INDUSTRIA E COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,80803802000179,,Empresa com sanção no CNEP
+INS-000830,Associação Educa São Paulo,,empresa,nao_se_aplica,nao_se_aplica,BRA,03954032000114,,Empresa com sanção no CNEP
+INS-000831,M de A Claudio,,empresa,nao_se_aplica,nao_se_aplica,BRA,16505167000144,,Empresa com sanção no CNEP
+INS-000832,MORALES TREINAMENTO E DESENVOLVIMENTO PROFISSIONAL E GERENCIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17974244000178,,Empresa com sanção no CNEP
+INS-000833,GERAQUIMICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06197674000104,,Empresa com sanção no CNEP
+INS-000834,MINUTA IMPORTADORA E EXPORTADORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19847091000123,,Empresa com sanção no CNEP
+INS-000835,MILLENNIUM EMPREENDIMENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05357594000106,,Empresa com sanção no CNEP
+INS-000836,ON ARQUITETURA E CONSTRUCOES EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,18358892000162,,Empresa com sanção no CNEP
+INS-000837,JK ENERGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08847656000156,,Empresa com sanção no CNEP
+INS-000838,GALVAO ENGENHARIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,01340937000179,,Empresa com sanção no CNEP
+INS-000839,INCA TECNOLOGIA DE PRODUTOS E SERVICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,14239192000106,,Empresa com sanção no CNEP
+INS-000840,CIDADE SERVIÇOS e MÃO DE OBRA ESPECIALIZADA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,26414755000126,,Empresa com sanção no CNEP
+INS-000841,Organização da Sociedade Civil (OSC) Instituto de Desenvolvimento Econômico e Socioambiental (IDESA),,empresa,nao_se_aplica,nao_se_aplica,BRA,04936953000117,,Empresa com sanção no CNEP
+INS-000842,MULTIFOAM DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,48223831000159,,Empresa com sanção no CNEP
+INS-000843,PLANALTO SERVICE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02843359000156,,Empresa com sanção no CNEP
+INS-000844,EMPRESA BRASILEIRA DE EQUIPAMENTOS CIRURGICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04141995000161,,Empresa com sanção no CNEP
+INS-000845,LOGICA SEGURANCA E VIGILANCIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05408502000170,,Empresa com sanção no CNEP
+INS-000846,STILTECH COMERCIO DE FILTROS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05963094000118,,Empresa com sanção no CNEP
+INS-000847,Papelaria e Copiadora Copysul Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,68533967000172,,Empresa com sanção no CNEP
+INS-000848,DANLEX SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07503564000196,,Empresa com sanção no CNEP
+INS-000849,PP COMERCIO E SERVICOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07757951000159,,Empresa com sanção no CNEP
+INS-000850,Maximus Esportes Comércio Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08738035000134,,Empresa com sanção no CNEP
+INS-000851,N2O TECNOLOGIA DA INFORMACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10671554000174,,Empresa com sanção no CNEP
+INS-000852,SEMATEL SERVICOS DE MANUTENCAO E INSTALACOES ELETRICAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,83547794000135,,Empresa com sanção no CNEP
+INS-000853,LUMA CONSTRUTORA LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,12150087000162,,Empresa com sanção no CNEP
+INS-000854,MAGMA OIL & GAS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,24477808000122,,Empresa com sanção no CNEP
+INS-000855,ASSOCIAÇÃO BENEFICENTE ANJOS DA PAZ,,empresa,nao_se_aplica,nao_se_aplica,BRA,09584495000118,,Empresa com sanção no CNEP
+INS-000856,MULTIPLOS ESTALEIROS DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07607446000128,,Empresa com sanção no CNEP
+INS-000857,N M ENGENHARIA E CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,51594950000122,,Empresa com sanção no CNEP
+INS-000858,MEC PRESS ENGENHARIA DO BRASIL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,06940189000189,,Empresa com sanção no CNEP
+INS-000859,QRC INDUSTRIA E MANUTENCAO DE BOMBAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06319000000135,,Empresa com sanção no CNEP
+INS-000860,COPESCAR PESCADOS E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17784039000140,,Empresa com sanção no CNEP
+INS-000861,PALACIO DOS UNIFORMES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20773425000140,,Empresa com sanção no CNEP
+INS-000862,Estrela Prateada Comércio e Transportes Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,05683805000109,,Empresa com sanção no CNEP
+INS-000863,QUANTICA GUEMA ENGENHARIA TECNOLOGIA E PROJETOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39249272000165,,Empresa com sanção no CNEP
+INS-000864,W CONEX COMERCIO DE EQUIPAMENTOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06186188000190,,Empresa com sanção no CNEP
+INS-000865,VITÓRIA SAÚDE SERVIÇOS DE URGÊNCIA E EMERGENCIAS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,07287200000116,,Empresa com sanção no CNEP
+INS-000866,CRS MARITIME SERVICE COMERCIO E CONSTRUCAO CIVIL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,11325509000120,,Empresa com sanção no CNEP
+INS-000867,"AGROFORTE INDUSTRIA, COMERCIO E TRANSPORTE LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,05115544000201,,Empresa com sanção no CNEP
+INS-000868,FARMACONN LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04159816000113,,Empresa com sanção no CNEP
+INS-000869,OAJ - ADMINISTRACAO DE SERVICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,25403710000193,,Empresa com sanção no CNEP
+INS-000870,CENTURION SEGURANÇA E VIGILÂNCIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,67668194000179,,Empresa com sanção no CNEP
+INS-000871,LOC MAXX LOCACAO DE MAO DE OBRA E SERVICOS TEMPORARIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02215262000107,,Empresa com sanção no CNEP
+INS-000872,Empresa WL Indústria LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11924928000189,,Empresa com sanção no CNEP
+INS-000873,CONTAX S.A. - EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,67313221000190,,Empresa com sanção no CNEP
+INS-000874,ASS TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15752844000166,,Empresa com sanção no CNEP
+INS-000875,LV Comércio de Papéis EIRELI. ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,23983971000102,,Empresa com sanção no CNEP
+INS-000876,VERT SERVICOS DE MONITORAMENTO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,12954522000101,,Empresa com sanção no CNEP
+INS-000877,NGM ASSESSORIA JURIDICA S/C LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03951272000165,,Empresa com sanção no CNEP
+INS-000878,Cohabita Construções Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,01649055000190,,Empresa com sanção no CNEP
+INS-000879,ALLELE BIOTECNOLOGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23474150000132,,Empresa com sanção no CNEP
+INS-000880,Globalprint Editora Gráfica Ltda - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,12622028000140,,Empresa com sanção no CNEP
+INS-000881,ORTHOFLEX INDÚSTRIA E COMÉRCIO DE COLCHÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25167768000185,,Empresa com sanção no CNEP
+INS-000882,VALENTIM & ROSA COMERCIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,74386947000119,,Empresa com sanção no CNEP
+INS-000883,ATP Tecnologia e Produtos S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,38059846000170,,Empresa com sanção no CNEP
+INS-000884,BMB BESTY MERCHAND BANK CONSULTORIAS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,14675586000107,,Empresa com sanção no CNEP
+INS-000885,BAURUPISOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,50743624000177,,Empresa com sanção no CNEP
+INS-000886,VIAÇÃO SOL NASCENTE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04487514000174,,Empresa com sanção no CNEP
+INS-000887,SCA Distribuidora Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,31797544000150,,Empresa com sanção no CNEP
+INS-000888,"A2A COMÉRCIO, SERVIÇOS E REPRESENTAÇÕES LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,22682915000167,,Empresa com sanção no CNEP
+INS-000889,TETRAMAR COMÉRCIO E SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39818984000158,,Empresa com sanção no CNEP
+INS-000890,MARIA JOSÉ DOS REIS NETO,,empresa,nao_se_aplica,nao_se_aplica,BRA,10226940000157,,Empresa com sanção no CNEP
+INS-000891,THL CARGAS E ENCOMENDAS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,17715315000118,,Empresa com sanção no CNEP
+INS-000892,APUÍ CONSTRUTORA DE OBRAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09258862000193,,Empresa com sanção no CNEP
+INS-000893,ROLL CENTER ROLAMENTOS E EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72876030000177,,Empresa com sanção no CNEP
+INS-000894,FLORESTAL ALIMENTOS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,91155259000167,,Empresa com sanção no CNEP
+INS-000895,IMPLEMENTOS GUALTER LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27896328000194,,Empresa com sanção no CNEP
+INS-000896,INSTITUTO BRASÍLIA DE BEM ESTAR PARA O SERVIDOR PÚBLICO (IBESP),,empresa,nao_se_aplica,nao_se_aplica,BRA,05113903000100,,Empresa com sanção no CNEP
+INS-000897,VERDE FLEX TRANSPORTES E LOGÍSTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17988089000149,,Empresa com sanção no CNEP
+INS-000898,Carvas Material Cirurgico e Dental Ltda - Me,,empresa,nao_se_aplica,nao_se_aplica,BRA,28955193000153,,Empresa com sanção no CNEP
+INS-000899,POSTAL KLABIN LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05234251000154,,Empresa com sanção no CNEP
+INS-000900,FDC_78 COMERCIO ATACADISTA E VAREJISTA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21245310000146,,Empresa com sanção no CNEP
+INS-000901,STARCOM COMÉRCIO E REPARAÇÃO E MANUTENÇÃO DE MÓDULOS E EQUIPAMENTOS PERIFÉRICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,68062363000195,,Empresa com sanção no CNEP
+INS-000902,MGD MANUTENCAO INDUSTRIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,22661879000155,,Empresa com sanção no CNEP
+INS-000903,NEURAL EMPREENDIMENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,29202951000125,,Empresa com sanção no CNEP
+INS-000904,ASSOCIACAO DOS PRODUTORES RURAIS DE POCINHOS DE BAIXO,,empresa,nao_se_aplica,nao_se_aplica,BRA,10564428000110,,Empresa com sanção no CNEP
+INS-000905,COPEOR - XINGU COMERCIO DE PEIXES ORNAMENTAIS LIMITADA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12956097000190,,Empresa com sanção no CNEP
+INS-000906,SIGA TERCEIRIZADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39936946000108,,Empresa com sanção no CNEP
+INS-000907,INDUSTRIA DE LATICINIOS S.S.P.M.A. LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05150262000156,,Empresa com sanção no CNEP
+INS-000908,LINK-SYSTEM TECNOLOGIA E EQUIPAMENTOS EIRELI - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,07488946000198,,Empresa com sanção no CNEP
+INS-000909,USINA PANTANAL DE ACUCAR E ALCOOL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01321793000103,,Empresa com sanção no CNEP
+INS-000910,INDUSTRIA E COMERCIO DE CARNES E DERIVADOS BOI BRASIL LTDA - EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,04603630000101,,Empresa com sanção no CNEP
+INS-000911,NUCLEO SOCIAL E EDUCACIONAL EDUCANDO,,empresa,nao_se_aplica,nao_se_aplica,BRA,10172754000182,,Empresa com sanção no CNEP
+INS-000912,E PC INFORMÁTICA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,19104451000105,,Empresa com sanção no CNEP
+INS-000913,PETROEXON SERVICOS DE MANUTENCAO E CONSULTORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12282552000119,,Empresa com sanção no CNEP
+INS-000914,ENEFER CONSULTORIA PROJETOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19737741000188,,Empresa com sanção no CNEP
+INS-000915,PRESTOMAR SERVICOS MARITIMOS LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,00792112000122,,Empresa com sanção no CNEP
+INS-000916,NS DISTRIBUIDORA DE ALIMENTOS LTDA),,empresa,nao_se_aplica,nao_se_aplica,BRA,03586001000158,,Empresa com sanção no CNEP
+INS-000917,LAG OFFSHORE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,41956928000121,,Empresa com sanção no CNEP
+INS-000918,K J M DE ANDRADE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,49385374000161,,Empresa com sanção no CNEP
+INS-000919,ASSOCIAÇÃO DE SURF DA GRANDE SÃO PAULO,,empresa,nao_se_aplica,nao_se_aplica,BRA,07371714000155,,Empresa com sanção no CNEP
+INS-000920,PARCER SOLUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,31902228000109,,Empresa com sanção no CNEP
+INS-000921,LUMAX EMPREENDIMENTOS E PROJETOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03250045000102,,Empresa com sanção no CNEP
+INS-000922,TRANSPORTES JAÓ LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15099930000111,,Empresa com sanção no CNEP
+INS-000923,ASSOCIAÇÃO ÁGUAS MARINHA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01834949000150,,Empresa com sanção no CNEP
+INS-000924,ASSOCIAÇÃO BENEFICENTE COMUNITÁRIA IRMÃOS MAXI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05000025000109,,Empresa com sanção no CNEP
+INS-000925,TEC NOVA - CONSTRUCAO CIVIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14958510000180,,Empresa com sanção no CNEP
+INS-000926,MJ2 CONSTRUCAO E MANUTENCAO DE DUTOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,37262437000103,,Empresa com sanção no CNEP
+INS-000927,BRFERTIL S.A,,empresa,nao_se_aplica,nao_se_aplica,BRA,12759673000109,,Empresa com sanção no CNEP
+INS-000928,WM PRESTACAO SERVICOS MONTAGENS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24763800000122,,Empresa com sanção no CNEP
+INS-000929,Facco Soluções Contábeis e Gerenciais LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15729703000122,,Empresa com sanção no CNEP
+INS-000930,TECNIMED INDÚSTRIA E COMÉRCIO DE EQUIPAMENTOS HOSPITALAR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10890352000113,,Empresa com sanção no CNEP
+INS-000931,COPANORTE CONSTRUÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11178406000185,,Empresa com sanção no CNEP
+INS-000932,MARAVILHA INDUSTRIA E COMÉRCIO DE LINGUIÇA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,67954024000150,,Empresa com sanção no CNEP
+INS-000933,PRECISA - COMERCIALIZACAO DE MEDICAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03394819000179,,Empresa com sanção no CNEP
+INS-000934,SERMATEC ASSISTENCIA TECNICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03602000000150,,Empresa com sanção no CNEP
+INS-000935,ACADEMIA BRASILEIRA DE ARTE CULTURA E HISTORIA,,empresa,nao_se_aplica,nao_se_aplica,BRA,64724545000123,,Empresa com sanção no CNEP
+INS-000936,JOSE EDINIZ RIBEIRO PINTURAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,10537152000181,,Empresa com sanção no CNEP
+INS-000937,AASJ SERVICOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14975620000150,,Empresa com sanção no CNEP
+INS-000938,GLOBAL GESTAO EM SAUDE S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10375666000188,,Empresa com sanção no CNEP
+INS-000939,D & A EMPREENDIMENTOS E LOCACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17147881000170,,Empresa com sanção no CNEP
+INS-000940,TS ENGENHARIA E CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01601246000181,,Empresa com sanção no CNEP
+INS-000941,MTX CONSTRUCOES E EMPREENDIMENTOS - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,10933834000103,,Empresa com sanção no CNEP
+INS-000942,INAE CONSULTORIA E SERVICOS DE ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02808098000133,,Empresa com sanção no CNEP
+INS-000943,EMPRESA COLIBRI TRANSPORTES LIMITADA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03831740000168,,Empresa com sanção no CNEP
+INS-000944,Instituto de Atenção Básica e Avançada à Saúde - IABAS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09652823000176,,Empresa com sanção no CNEP
+INS-000945,LUNA SERVICOS POSTAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,84312891000101,,Empresa com sanção no CNEP
+INS-000946,AGIL EIRELLI,,empresa,nao_se_aplica,nao_se_aplica,BRA,26427482000154,,Empresa com sanção no CNEP
+INS-000947,GRUPO PROJETOS EDITORIAIS UNIVERSITARIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18401371000140,,Empresa com sanção no CNEP
+INS-000948,MA COMERCIO DE REFRIGERACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,37673034000157,,Empresa com sanção no CNEP
+INS-000949,OURO VERDE COMÉRCIO DE CARNES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,32076568000182,,Empresa com sanção no CNEP
+INS-000950,VERKAUF SERVICOS DE MANUTENCAO E COMERCIO DE COMPONENTES ELETRONICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17822832000196,,Empresa com sanção no CNEP
+INS-000951,DANTOOLS FERRAMENTAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,29077923000123,,Empresa com sanção no CNEP
+INS-000952,MICHELLE ARCURI BICHO MANIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,29853144000172,,Empresa com sanção no CNEP
+INS-000953,FOPIL COMERCIO E INDUSTRIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,55970693000137,,Empresa com sanção no CNEP
+INS-000954,SOCIEDADE EDUCACIONAL ENES NASCIMENTO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03762673000177,,Empresa com sanção no CNEP
+INS-000955,INFINITY SERVICOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,11079889000160,,Empresa com sanção no CNEP
+INS-000956,CELL MANUTENCAO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20846947000125,,Empresa com sanção no CNEP
+INS-000957,NOLASCO & MATOS COMERCIO DE MATERIAIS E EQUIPAMENTOS DE TELECOMUNICACOES EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,19715134000117,,Empresa com sanção no CNEP
+INS-000958,FAMA EVENTOS & EDITORA MUSICAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10460081000166,,Empresa com sanção no CNEP
+INS-000959,M&M CONSTRUÇÃO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18218614000100,,Empresa com sanção no CNEP
+INS-000960,Matrix Sat Rastreamento de Veículos Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,00345309000113,,Empresa com sanção no CNEP
+INS-000961,Construtora Contágio Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,05143919000158,,Empresa com sanção no CNEP
+INS-000962,BLAZE COMERCIO EXTERIOR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04935792000147,,Empresa com sanção no CNEP
+INS-000963,WR TRANSPORTES E LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,22400495000189,,Empresa com sanção no CNEP
+INS-000964,NÚCLEO DE EDUCAÇÃO INFANTIL APRENDER E BRINCAR,,empresa,nao_se_aplica,nao_se_aplica,BRA,59396051000127,,Empresa com sanção no CNEP
+INS-000965,M. A. LEAO,,empresa,nao_se_aplica,nao_se_aplica,BRA,07451959000192,,Empresa com sanção no CNEP
+INS-000966,MENDES JÚNIOR TRADING E ENGENHARIA S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,19394808000129,,Empresa com sanção no CNEP
+INS-000967,VERDE TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01751730000197,,Empresa com sanção no CNEP
+INS-000968,MAXIMUS COMERCIO E SERVICOS DE LIMPEZA E CONSERVACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,13291768000103,,Empresa com sanção no CNEP
+INS-000969,G6 MULTISSERVIÇOS DE LOCAÇÃO E TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10708894000122,,Empresa com sanção no CNEP
+INS-000970,GOLD MAR HOTEL E TURISMO EIRELI - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,08814232000195,,Empresa com sanção no CNEP
+INS-000971,VERTICAL EMPRESA DE VIGILANCIA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,03602646000137,,Empresa com sanção no CNEP
+INS-000972,INSAAT CONSTRUTORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36928596000131,,Empresa com sanção no CNEP
+INS-000973,SUDESTE GESTAO DE PESSOAS E REPRESENTACOES EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,08195911000123,,Empresa com sanção no CNEP
+INS-000974,RESTAURAR ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15033824000135,,Empresa com sanção no CNEP
+INS-000975,SINDICATO DA INDUSTRIA DA PESCA DOS ARMADORES E DA AQUICULTURA DA GRANDE FLORIANOPOLIS E SUL CATARINENSE - SINPESCASUL,,empresa,nao_se_aplica,nao_se_aplica,BRA,82509027000179,,Empresa com sanção no CNEP
+INS-000976,PAPELARIA NOVO HORIZONTE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01211300000182,,Empresa com sanção no CNEP
+INS-000977,SR MARINE SERVICOS E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33104706000152,,Empresa com sanção no CNEP
+INS-000978,Maria Bonita Profissional Comércio de Cosméticos EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,28165379000109,,Empresa com sanção no CNEP
+INS-000979,PROJETO21 CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36769628000101,,Empresa com sanção no CNEP
+INS-000980,ASSOCIAÇÃO BENEFICENTE COMUNITÁRIA PEQUENO VENCEDOR,,empresa,nao_se_aplica,nao_se_aplica,BRA,02456912000106,,Empresa com sanção no CNEP
+INS-000981,INDUSTRIA E COMERCIO DE LATICINIOS VENEZA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08385677000105,,Empresa com sanção no CNEP
+INS-000982,S.S.T SAÚDE E SEGURANÇA NO TRABALHO,,empresa,nao_se_aplica,nao_se_aplica,BRA,08248808000102,,Empresa com sanção no CNEP
+INS-000983,Associação Camargo Miron,,empresa,nao_se_aplica,nao_se_aplica,BRA,10174003000103,,Empresa com sanção no CNEP
+INS-000984,ASSOCIACAO SERGIPANA ESTUDANTIL DE DISTRIBUIDORES INDEPENDENTES EM MARKETING DE REDE,,empresa,nao_se_aplica,nao_se_aplica,BRA,12356936000139,,Empresa com sanção no CNEP
+INS-000985,CASSOL REPRESENTACOES E INTERMEDIACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11338577000124,,Empresa com sanção no CNEP
+INS-000986,"BRADISA COMERCIO, PROJETOS E SERVICOS ELETRICOS EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,04093968000160,,Empresa com sanção no CNEP
+INS-000987,APOLUS ENGENHARIA LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,36915163000141,,Empresa com sanção no CNEP
+INS-000988,LAVA MAX LAVANDERIA INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16489320000197,,Empresa com sanção no CNEP
+INS-000989,RBLM ENGENHARIA LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,09580535000153,,Empresa com sanção no CNEP
+INS-000990,DANIELA ISIDORO DE PAULA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,14838591000185,,Empresa com sanção no CNEP
+INS-000991,CERELAB- LABORATORIOS QUIMICOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,53687752000139,,Empresa com sanção no CNEP
+INS-000992,"PROJETOS, ASSESSORIA E CONSULTORIA ALVES RODRIGUES EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,17335279000167,,Empresa com sanção no CNEP
+INS-000993,BEIRA MINHO COMÉRCIO VAREJISTA DE COMBUSTÍVEL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,12574593000189,,Empresa com sanção no CNEP
+INS-000994,PP LIMPEZA E CONSERVACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13146946000102,,Empresa com sanção no CNEP
+INS-000995,L.G.H - TRANSPORTES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10483981000129,,Empresa com sanção no CNEP
+INS-000996,ENERQUIMICA PRODUTOS QUIMICOS ENERGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,78705928000169,,Empresa com sanção no CNEP
+INS-000997,FRIGORIFICO RAJA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44304053000171,,Empresa com sanção no CNEP
+INS-000998,SPLENDIDA MARITIME SERVICE EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,10311317000100,,Empresa com sanção no CNEP
+INS-000999,LUCAMAR SORVETERIA E LANCHONETE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,32460453000197,,Empresa com sanção no CNEP
+INS-001000,VPX Várzea Grande Comércio de Pneus Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17516250000181,,Empresa com sanção no CNEP
+INS-001001,FDS LOGISTICA E TERCEIRIZACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,07366916000109,,Empresa com sanção no CNEP
+INS-001002,MERCEARIA E BAZAR NOSSA SENHORA DA LUZ LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00887566000187,,Empresa com sanção no CNEP
+INS-001003,IGOR FAGURY EVENTOS - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,11044624000127,,Empresa com sanção no CNEP
+INS-001004,CENTRO DE FORMAÇÃO DE CONDUTORES A/B PEREIRA LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,12004888000110,,Empresa com sanção no CNEP
+INS-001005,TIETÊ COMÉRCIO DE COMBUSTÍVEIS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17608538000186,,Empresa com sanção no CNEP
+INS-001006,PETROZ BRASIL SA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09499128000116,,Empresa com sanção no CNEP
+INS-001007,JG OFFSHORE COMERCIO DE EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28365519000192,,Empresa com sanção no CNEP
+INS-001008,LAMARO HOLDING E ADMINISTRADORA DE BENS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,61029567000185,,Empresa com sanção no CNEP
+INS-001009,LUPE CONSULTORIA E ASSESSORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,59710582000142,,Empresa com sanção no CNEP
+INS-001010,CAPTURA E COMERCIO DE PESCADOS CELINO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05350866000146,,Empresa com sanção no CNEP
+INS-001011,THEOTO S A INDUSTRIA E COMERCIO,,empresa,nao_se_aplica,nao_se_aplica,BRA,50938745000174,,Empresa com sanção no CNEP
+INS-001012,FRIGORIFICO TOPBEEF LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,29261471000135,,Empresa com sanção no CNEP
+INS-001013,GH MATERIAL ELETRICO SOCIEDADE UNIPESSOAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33863446000107,,Empresa com sanção no CNEP
+INS-001014,WWS SERVICES PRESTADORA DE SERVICOS LTDA EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,21297153000112,,Empresa com sanção no CNEP
+INS-001015,ALPHALIMP CONSERVACAO PATRIMONIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28809301000180,,Empresa com sanção no CNEP
+INS-001016,LINK PRODUTOS AGROPECUÁRIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11049105000151,,Empresa com sanção no CNEP
+INS-001017,Alimentare Serviços de Restaurante e Lanchonete Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,19823999000105,,Empresa com sanção no CNEP
+INS-001018,MANUPA COMERCIO DE EQUIPAMENTOS E FERRAMENTAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03093776000191,,Empresa com sanção no CNEP
+INS-001019,DRM LOCADORA DE VEICULOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17453682000190,,Empresa com sanção no CNEP
+INS-001020,P.C.R. do Amaral & Amaral Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,09343965000151,,Empresa com sanção no CNEP
+INS-001021,CONSTRUTORA MILLENIUM LTDA- EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,19426827000190,,Empresa com sanção no CNEP
+INS-001022,L.E.S COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,30232495000145,,Empresa com sanção no CNEP
+INS-001023,MOTA CONSTRUCOES E TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08825707000149,,Empresa com sanção no CNEP
+INS-001024,AGROBOM - COMERCIO DE PRODUTOS ORGANICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18344117000158,,Empresa com sanção no CNEP
+INS-001025,JARDIM COMERCIO & SERVIÇOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08722213000139,,Empresa com sanção no CNEP
+INS-001026,SPHERA SECURITY EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05105062000181,,Empresa com sanção no CNEP
+INS-001027,JK TERCEIRIZACAO DE SERVICOS E COMERCIO EIRELI - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,10398550000164,,Empresa com sanção no CNEP
+INS-001028,"FAG COMERCIOS E SERVIÇOS DE EQUIPAMENTOS, MÁQUINAS, MÓVEIS EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,12322473000194,,Empresa com sanção no CNEP
+INS-001029,CONSULTORIA EGP LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09006232000121,,Empresa com sanção no CNEP
+INS-001030,L SOBRAL CONSTRUCOES EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,23167914000147,,Empresa com sanção no CNEP
+INS-001031,CRECHE CARROSSEL ENCANTADO,,empresa,nao_se_aplica,nao_se_aplica,BRA,00090616000109,,Empresa com sanção no CNEP
+INS-001032,JCAM - ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10527700000192,,Empresa com sanção no CNEP
+INS-001033,UPA COUROS - INDUSTRIA E COMERCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,06125043000180,,Empresa com sanção no CNEP
+INS-001034,"CARIBOLE EVENTOS, PESQUISAS E TRANSPORTES LTDA. - ME",,empresa,nao_se_aplica,nao_se_aplica,BRA,19179828000187,,Empresa com sanção no CNEP
+INS-001035,ASSOCIAÇÃO BENEFICENTE EPONINA ROCHA GONÇALVES,,empresa,nao_se_aplica,nao_se_aplica,BRA,15799195000159,,Empresa com sanção no CNEP
+INS-001036,PRINCETON-LEMITAR INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,47180831000156,,Empresa com sanção no CNEP
+INS-001037,Evoluti Tecnologia e Serviços LTDA - Evoluti,,empresa,nao_se_aplica,nao_se_aplica,BRA,37010014000104,,Empresa com sanção no CNEP
+INS-001038,COMERCIAL NOSSO LAR EIRELI LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18266878000139,,Empresa com sanção no CNEP
+INS-001039,WM SERVICOS TECNICOS E COMISSIONAMENTO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,23868882000107,,Empresa com sanção no CNEP
+INS-001040,SECRETARIA NACIONAL DE ASSUNTOS HUMANITARIOS - SENAH,,empresa,nao_se_aplica,nao_se_aplica,BRA,05205294000101,,Empresa com sanção no CNEP
+INS-001041,ROSANA REIS DE OLIVEIRA 04247054600,,empresa,nao_se_aplica,nao_se_aplica,BRA,27105153000150,,Empresa com sanção no CNEP
+INS-001042,AXIAL SERVICOS DE ENGENHARIA E CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21204392000180,,Empresa com sanção no CNEP
+INS-001043,ORION TURISMO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03898324000187,,Empresa com sanção no CNEP
+INS-001044,MG TERCEIRIZACOES DE SERVICOS LTDA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,01278154000102,,Empresa com sanção no CNEP
+INS-001045,G4F SOLUCOES CORPORATIVAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07094346000145,,Empresa com sanção no CNEP
+INS-001046,AGROSERVICE EMPREITEIRA AGRICOLA - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,00478727000189,,Empresa com sanção no CNEP
+INS-001047,INFOMAQUINAS COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10570195000169,,Empresa com sanção no CNEP
+INS-001048,JERONIMO E NUNES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07121011000179,,Empresa com sanção no CNEP
+INS-001049,Willian de Andrade Bullerjanh-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,18165087000112,,Empresa com sanção no CNEP
+INS-001050,TRIMEC EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,37519998000145,,Empresa com sanção no CNEP
+INS-001051,GPO - GESTÃO DE PROJETOS E OBRAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11366252000155,,Empresa com sanção no CNEP
+INS-001052,SUPRA ACESSÓRIOS DE INFORMÁTICA - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,25048205000178,,Empresa com sanção no CNEP
+INS-001053,ALMIR DA SILVA SANTOS 04837346405,,empresa,nao_se_aplica,nao_se_aplica,BRA,23129842000143,,Empresa com sanção no CNEP
+INS-001054,SUPREVE SUPRIMENTOS ELETRICOS E ELETRONICOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36348807000167,,Empresa com sanção no CNEP
+INS-001055,PRATAPEREIRA COMERCIO IMPORTACAO E EXPORTACAO DE CAFE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00544628000158,,Empresa com sanção no CNEP
+INS-001056,FOCO - TECNOLOGIA INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28661944000129,,Empresa com sanção no CNEP
+INS-001057,POGGERE CONSTRUÇÕES E IMPLEMENTOS LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,11767402000132,,Empresa com sanção no CNEP
+INS-001058,LAGO PESCA IND E COM DE PESCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,78613486000120,,Empresa com sanção no CNEP
+INS-001059,GUINDASTES BRASIL LOCACAO DE EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11732231000106,,Empresa com sanção no CNEP
+INS-001060,EMPOWER SERVICOS ELETRICOS E HIDRAULICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33736213000135,,Empresa com sanção no CNEP
+INS-001061,DMD GESTÃO ADMINISTRATIVA LTDA. (DMD CONSULTORIA),,empresa,nao_se_aplica,nao_se_aplica,BRA,02610235000120,,Empresa com sanção no CNEP
+INS-001062,GMFS COMERCIO DE VEICULOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25217002000168,,Empresa com sanção no CNEP
+INS-001063,União Popular de Moradia Adão Manoel da Silva,,empresa,nao_se_aplica,nao_se_aplica,BRA,64616246000175,,Empresa com sanção no CNEP
+INS-001064,FRIGORIFICO LARISSA LTDA. INABILITADA PARA EXERCER ATIVIDADE EMPRESARIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,00283996000190,,Empresa com sanção no CNEP
+INS-001065,VECTOR COMERCIO DE MAQUINAS E EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,34176565000146,,Empresa com sanção no CNEP
+INS-001066,CONSULTEC ENGENHARIA S/C LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01457801000143,,Empresa com sanção no CNEP
+INS-001067,RA ESTOCAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25384903000144,,Empresa com sanção no CNEP
+INS-001068,JC DIEHL ENGENHARIA E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12052704000197,,Empresa com sanção no CNEP
+INS-001069,Sanperes Avaliações e Vistorias em Veículos LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07978421000130,,Empresa com sanção no CNEP
+INS-001070,SHIELD SEGURANCA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15252971000104,,Empresa com sanção no CNEP
+INS-001071,NILDO FREITAS DANTAS ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,01034997000163,,Empresa com sanção no CNEP
+INS-001072,T Y JERONIMO E SILVA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13804874000143,,Empresa com sanção no CNEP
+INS-001073,ESPACO & FORMA MOVEIS E DIVISORIAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,37977691000783,,Empresa com sanção no CNEP
+INS-001074,SOS GAS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,09266128000257,,Empresa com sanção no CNEP
+INS-001075,COMERCIO DE MATERIAIS PARA CONSTRUÇÃO MARIGU LTDA-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08143105000101,,Empresa com sanção no CNEP
+INS-001076,FEMEPE CAPTURA COMERCIO E INDUSTRIA DE PESCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10013491000169,,Empresa com sanção no CNEP
+INS-001077,VIVA SERVICOS COMBINADOS - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,19571216000135,,Empresa com sanção no CNEP
+INS-001078,WINSEA SOLUTIONS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07779781000103,,Empresa com sanção no CNEP
+INS-001079,AMANDA DAS NEVES ALVES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,32650614000105,,Empresa com sanção no CNEP
+INS-001080,DINAMICA SERVICOS POSTAIS E TELEMATICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02252220000138,,Empresa com sanção no CNEP
+INS-001081,CRISTALRIO SERVIÇOS DE GERENCIAMENTO E APOIO A GESTÃO EMPRESARIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02899825000115,,Empresa com sanção no CNEP
+INS-001082,"M.G Comércio, Distribuidora e Serviços Ltda",,empresa,nao_se_aplica,nao_se_aplica,BRA,10467477000135,,Empresa com sanção no CNEP
+INS-001083,ASSOCIACAO DA IRMANDADE DA SANTA CASA DE MISERICORDIA DE PACAEMBU,,empresa,nao_se_aplica,nao_se_aplica,BRA,53524534000183,,Empresa com sanção no CNEP
+INS-001084,NOVATEKI SERVICOS E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39800499000157,,Empresa com sanção no CNEP
+INS-001085,R. SERVICE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14639113000146,,Empresa com sanção no CNEP
+INS-001086,MASSA FALIDA DE EJS PARTICIPACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,06895143000195,,Empresa com sanção no CNEP
+INS-001087,MASGOVI INDÚSTRIA COMÉRCIO SERVIÇOS DE IMPORTAÇÃO E EXPORTAÇÃO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01859823000130,,Empresa com sanção no CNEP
+INS-001088,JABOUR CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00272028000188,,Empresa com sanção no CNEP
+INS-001089,CONSORCIO ECR-EUROESTUDIOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,42161372000140,,Empresa com sanção no CNEP
+INS-001090,A C CONSTRUCOES E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11685502000110,,Empresa com sanção no CNEP
+INS-001091,FAST SHOP S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,43708379000100,,Empresa com sanção no CNEP
+INS-001092,SOUL CLEAN COMÉRCIO E SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10713005000115,,Empresa com sanção no CNEP
+INS-001093,BEMLOCAR LOCADORA DE VEICULOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05897758000198,,Empresa com sanção no CNEP
+INS-001094,C.R.M CONSTRUTORA E EMPREENDIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18508881000111,,Empresa com sanção no CNEP
+INS-001095,JCN SOLUÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05778323000124,,Empresa com sanção no CNEP
+INS-001096,JUDKAL SERVICOS DE TRANSPORTE E ALIMENTACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,00700484000181,,Empresa com sanção no CNEP
+INS-001097,MULTICLEAN - LOCACAO DE MAO DE OBRA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04206409000110,,Empresa com sanção no CNEP
+INS-001098,MAXIMAR COMERCIO E SERVICOS DE MACAE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14710270000109,,Empresa com sanção no CNEP
+INS-001099,ITEC SOLUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13653699000130,,Empresa com sanção no CNEP
+INS-001100,AM&C DISTRIBUIDORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,54853906000188,,Empresa com sanção no CNEP
+INS-001101,GUERINI MARITIMA CONSTRUCAO E MONTAGEM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08181934000189,,Empresa com sanção no CNEP
+INS-001102,FANTON SERVIÇOS LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,04249145000181,,Empresa com sanção no CNEP
+INS-001103,EVOLUÇÃO COMÉRCIO E ALIMENTAÇÃO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,32447500000162,,Empresa com sanção no CNEP
+INS-001104,CONSTRUTORA JH9 LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,70966486000100,,Empresa com sanção no CNEP
+INS-001105,CRUZADA MARANATA DE EVANGELIZACAO,,empresa,nao_se_aplica,nao_se_aplica,BRA,74333097000190,,Empresa com sanção no CNEP
+INS-001106,MAR E TERRA DE NILOPOLIS COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11490410000184,,Empresa com sanção no CNEP
+INS-001107,BV ARQUITETURA VERDE EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,13869575000197,,Empresa com sanção no CNEP
+INS-001108,INSTITUTO DE EDUCAÇÃO SOCIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,02236885000158,,Empresa com sanção no CNEP
+INS-001109,SINDICATO DOS POLICIAIS PENAIS E SERVIDORES DO SISTEMA PENITENCIÁRIO DO ESTADO DO ESPÍRITO SANTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,11332464000111,,Empresa com sanção no CNEP
+INS-001110,"COGUMELO DE OURO COMERCIO, IMPORTACAO E EXPORTACAO LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,09418445000160,,Empresa com sanção no CNEP
+INS-001111,COLONIA DOS PESCADORES Z- 12 DO MEDIO RIO DOCE,,empresa,nao_se_aplica,nao_se_aplica,BRA,07596880000150,,Empresa com sanção no CNEP
+INS-001112,"IT SERVICOS CORPORATIVOS, COMERCIO E EMPREENDIMENTOS EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,01711147000152,,Empresa com sanção no CNEP
+INS-001113,ESTELAR CONSERVACAO PATRIMONIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10833472000189,,Empresa com sanção no CNEP
+INS-001114,Confraria André Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,14386616000157,,Empresa com sanção no CNEP
+INS-001115,RSX INFORMATICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02873779000185,,Empresa com sanção no CNEP
+INS-001116,COTEMON CONSTRUCOES TUBULACOES E MONTAGENS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04984298000172,,Empresa com sanção no CNEP
+INS-001117,"L.C.D. ENGENHARIA, CONSTRUCOES, MONTAGENS E MANUTENCOES INDUSTRIAIS LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,03593765000170,,Empresa com sanção no CNEP
+INS-001118,BRENDA E LEIDI LOCACAO DE EQUIPAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16894216000188,,Empresa com sanção no CNEP
+INS-001119,CAYMIRIM COMERCIO E DISTRIBUICAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46504141000142,,Empresa com sanção no CNEP
+INS-001120,MSL SERVICOS DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09474236000134,,Empresa com sanção no CNEP
+INS-001121,FIGUEREDO JUNIOR INDÚSTRIA E COMÉRCIO DE CONFECÇÕES LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,07509082000143,,Empresa com sanção no CNEP
+INS-001122,CONSTRUTORA PANAMERICANA EIRELI ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,03255381000148,,Empresa com sanção no CNEP
+INS-001123,JS CONSTRUCAO CIVIL E OBRAS DE PAVIMENTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21613513000148,,Empresa com sanção no CNEP
+INS-001124,END OLIVEIRA FISCALIZACAO TECNICA EM MONTAGEM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07785471000100,,Empresa com sanção no CNEP
+INS-001125,INSTITUTO BRASILEIRO DE GESTÃO CULTURAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,09300324000110,,Empresa com sanção no CNEP
+INS-001126,W A S CONSULTORIA AGROPECUARIA EIRELI - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,13213454000192,,Empresa com sanção no CNEP
+INS-001127,UNION ESCOLAR INDUSTRIA E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,26749172000156,,Empresa com sanção no CNEP
+INS-001128,SOLUCAO CULTURAL CONSULTORIA EM PROJETOS CULTURAIS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,07481398000174,,Empresa com sanção no CNEP
+INS-001129,JOINT ASSESSORIA E LOGISTICA INTERNACIONAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,00459916000104,,Empresa com sanção no CNEP
+INS-001130,ULIMAX ESQUADRIAS DE MADEIRA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,45254299000149,,Empresa com sanção no CNEP
+INS-001131,RECUPERAÇÃO INDÚSTRIA E COMÉRCIO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,23318726000172,,Empresa com sanção no CNEP
+INS-001132,LINKCON LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05323742000171,,Empresa com sanção no CNEP
+INS-001133,EQUINOCIO HOSPITALAR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07329169000139,,Empresa com sanção no CNEP
+INS-001134,ALTERNATIVA SERVICOS E TERCEIRIZACAO EM GERAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,68000199000191,,Empresa com sanção no CNEP
+INS-001135,DYNAMIC SERVICOS E TERCEIRIZACAO,,empresa,nao_se_aplica,nao_se_aplica,BRA,29721277000195,,Empresa com sanção no CNEP
+INS-001136,REDE SEG GRAFICA E EDITORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13288025000184,,Empresa com sanção no CNEP
+INS-001137,RGB MIDIA & GRAFICA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,08350394000110,,Empresa com sanção no CNEP
+INS-001138,FETTEROLF DO BRASIL COMERCIO E INDUSTRIA DE VALVULAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01870071000108,,Empresa com sanção no CNEP
+INS-001139,ONIX - ENERGIA E PETROLEO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03941848000103,,Empresa com sanção no CNEP
+INS-001140,SAFIRA ENGENHARIA E AVALIACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27503792000173,,Empresa com sanção no CNEP
+INS-001141,MADEIREIRA NORTESUL COMÉRCIO DE MADEIRAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05914595000104,,Empresa com sanção no CNEP
+INS-001142,FLORIANO CONSTRUTORA E INCORPORADORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07509217000170,,Empresa com sanção no CNEP
+INS-001143,PROVETS - SIMOES LABORATORIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04239400000105,,Empresa com sanção no CNEP
+INS-001144,MATHIESEN DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,96318340000134,,Empresa com sanção no CNEP
+INS-001145,SAGA ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09020790000141,,Empresa com sanção no CNEP
+INS-001146,IGREJA EVANGELICA ASSEMBLEIA DE DEUS DE GOIANIA-MINISTERIO CRISTO PARA TODOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,04923739000126,,Empresa com sanção no CNEP
+INS-001147,One Gestão e Serviços Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,33131860000113,,Empresa com sanção no CNEP
+INS-001148,VERDE AVIATION LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24290442000188,,Empresa com sanção no CNEP
+INS-001149,SINDICATO DOS ARMADORES E DAS INDUSTRIAS DA PESCA DE ITAJAI E REGIAO,,empresa,nao_se_aplica,nao_se_aplica,BRA,83822122000190,,Empresa com sanção no CNEP
+INS-001150,CONSTRUMAT LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03821415000114,,Empresa com sanção no CNEP
+INS-001151,DARDOUR TINTAS COMÉRCIO E SERVIÇOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10679547000119,,Empresa com sanção no CNEP
+INS-001152,AMAZON BOOKS & ARTS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04361294000138,,Empresa com sanção no CNEP
+INS-001153,G.L. TRANSPORTADORA E SERVICOS EIRELI - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,08295197000145,,Empresa com sanção no CNEP
+INS-001154,J C KOHLER ENGENHARIA EIRELI - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,10453872000169,,Empresa com sanção no CNEP
+INS-001155,Metalúrgica Flex Fitness Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,13898616000173,,Empresa com sanção no CNEP
+INS-001156,FORTE AMBIENTAL E EMPREENDIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11563274000105,,Empresa com sanção no CNEP
+INS-001157,At Prime Varejo de Vestuário Online Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,31101853000143,,Empresa com sanção no CNEP
+INS-001158,MP COMÉRCIO E SERVIÇO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19312691000197,,Empresa com sanção no CNEP
+INS-001159,DBR DISTRIBUIDORA DE ACESSORIOS AUTOMOTIVOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04231732000143,,Empresa com sanção no CNEP
+INS-001160,CERVEJARIA TRES LOBOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04029796000166,,Empresa com sanção no CNEP
+INS-001161,RIOMAR 2001 DISTRIBUIDORA DE ALIMENTOS E DESCARTAVEIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05057706000103,,Empresa com sanção no CNEP
+INS-001162,SEROPLAST INDUSTRIA E COMERCIO DE PRODUTOS HOSPITALARES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23596733000136,,Empresa com sanção no CNEP
+INS-001163,EMPRESA BRAGANTINA DE MONTAGEM INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05071991000117,,Empresa com sanção no CNEP
+INS-001164,ECD - ENTREPOSTO DE CARNES E DERIVADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08018510000106,,Empresa com sanção no CNEP
+INS-001165,L J SERVICOS MANUTENCAO E MONTAGEM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10371988000159,,Empresa com sanção no CNEP
+INS-001166,TEO SANTANA PRODUCOES & EVENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,11339486000103,,Empresa com sanção no CNEP
+INS-001167,ASSOCIAÇÃO DOS CABOS E SOLDADOS DA POLÍCIA MILITAR E BOMBEIRO MILITAR DO ESTADO DO ESPÍRITO SANTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,27346535000175,,Empresa com sanção no CNEP
+INS-001168,COMPNET TECNOLOGIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,14164094000149,,Empresa com sanção no CNEP
+INS-001169,MARE MANSA PESCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04833821000160,,Empresa com sanção no CNEP
+INS-001170,FIRSTOIL PRATICA OFFSHORE S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,32847777000182,,Empresa com sanção no CNEP
+INS-001171,BARUC INVESTMENT EMPRESARIAL S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,21248115000170,,Empresa com sanção no CNEP
+INS-001172,MLA Construções Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,05901218000130,,Empresa com sanção no CNEP
+INS-001173,MANACÁ PRODUÇÕES E EMPREENDIMENTOS CULTURAIS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08822338000130,,Empresa com sanção no CNEP
+INS-001174,MIDLAND QUIMICA DO BRASIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61100871000171,,Empresa com sanção no CNEP
+INS-001175,MEGATRENDS CONSULTORIA EMPRESARIAL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01658334000110,,Empresa com sanção no CNEP
+INS-001176,LCM-CONSULTORIA FINANCEIRA ESPECIALIZADA EM MUNICIPIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09458424000179,,Empresa com sanção no CNEP
+INS-001177,BULLS HOLDING INVESTMENTS COMPANY S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,10217440000159,,Empresa com sanção no CNEP
+INS-001178,FENIX SERVICO CONTABIL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19498432000100,,Empresa com sanção no CNEP
+INS-001179,LBS TERCEIRIZAÇÃO DE MÃO DE OBRA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,05276664000100,,Empresa com sanção no CNEP
+INS-001180,THREENG MANUTENCAO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15322898000191,,Empresa com sanção no CNEP
+INS-001181,ASSOCIAÇÃO BENEFICENTE COMUNITÁRIA CRIANÇAS DE DEUS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09376423000185,,Empresa com sanção no CNEP
+INS-001182,Projeto Cultural Educacional Novo Pantanal,,empresa,nao_se_aplica,nao_se_aplica,BRA,08926150000132,,Empresa com sanção no CNEP
+INS-001183,BY CREDIT COBRANCAS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,26587081000161,,Empresa com sanção no CNEP
+INS-001184,AGILE MONTAGENS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11694574000123,,Empresa com sanção no CNEP
+INS-001185,BOIFORTE FRIGORIFICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02935880000202,,Empresa com sanção no CNEP
+INS-001186,VIAÇÃO ELDORADO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15060676000148,,Empresa com sanção no CNEP
+INS-001187,INFRANER MONTAGEM E CONSTRUCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04814660000167,,Empresa com sanção no CNEP
+INS-001188,UNIVERSO TECNICO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,32301203000104,,Empresa com sanção no CNEP
+INS-001189,ECOLLEGARE SOLUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,29611959000145,,Empresa com sanção no CNEP
+INS-001190,PIPECONSULT ENGENHARIA E REPRESENTACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07376885000177,,Empresa com sanção no CNEP
+INS-001191,Consignum Programa de Controle e Gerenciamento de Margem Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,08907500000113,,Empresa com sanção no CNEP
+INS-001192,JUVENTUS COMÉRCIO VAREJISTA DE COMBUSTÍVEL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10681439000180,,Empresa com sanção no CNEP
+INS-001193,EBC - EMPRESA BRASILEIRA DE CONSTRUÇÕES EIRELLI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05483882000107,,Empresa com sanção no CNEP
+INS-001194,EMPREITEIRA GUSMÃO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10585153000100,,Empresa com sanção no CNEP
+INS-001195,ARRUDA COMÉRCIO DE PRODUTOS DE LIMPEZA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,30681395000104,,Empresa com sanção no CNEP
+INS-001196,CF FOODS LTDA..,,empresa,nao_se_aplica,nao_se_aplica,BRA,59652487000130,,Empresa com sanção no CNEP
+INS-001197,SOUZA & COSTA COSMETICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23571337000154,,Empresa com sanção no CNEP
+INS-001198,CARRER ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07520001000106,,Empresa com sanção no CNEP
+INS-001199,GOLDEN STAR PARTICIPACOES E LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36311886000131,,Empresa com sanção no CNEP
+INS-001200,CLARITY RIO COMÉRCIO E SERVIÇOS DE GERENCIAMENTO LOGÍSTICO - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,28761603000125,,Empresa com sanção no CNEP
+INS-001201,COPLEX EQUIPAMENTOS COMERCIAL E DISTRIBUIDORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39977873000194,,Empresa com sanção no CNEP
+INS-001202,Associação Novo Horizonte da Cidade Tiradentes,,empresa,nao_se_aplica,nao_se_aplica,BRA,10651295000110,,Empresa com sanção no CNEP
+INS-001203,VPX Goiabeiras Comércio de Pneus Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,01804794000109,,Empresa com sanção no CNEP
+INS-001204,MERCANTIL MG EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,25072390000136,,Empresa com sanção no CNEP
+INS-001205,LIVE PAYMENT ADMINISTRACAO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11845291000135,,Empresa com sanção no CNEP
+INS-001206,SOUNDZILLA MUSIC MONSTERS PRODUCOES AUDIOVISUAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09131911000122,,Empresa com sanção no CNEP
+INS-001207,FIB BANK GARANTIA DE FIANCAS FIDEJUSSORIAS S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,23706333000136,,Empresa com sanção no CNEP
+INS-001208,INSTITUTO BRASILEIRO SANTA CATARINA - IBRASC,,empresa,nao_se_aplica,nao_se_aplica,BRA,06253542000152,,Empresa com sanção no CNEP
+INS-001209,PROLE SERVIÇOS DE PROPAGANDA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09249055000104,,Empresa com sanção no CNEP
+INS-001210,F.ANDRADE TRANSPORTES E LOCACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10900587000149,,Empresa com sanção no CNEP
+INS-001211,PTV TECNOLOGIA DA INFORMACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,03488073000162,,Empresa com sanção no CNEP
+INS-001212,LP EMPREENDIMENTOS CONSTRUCAO E MANUTENCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01347216000190,,Empresa com sanção no CNEP
+INS-001213,ICONE MKT EVENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09443963000134,,Empresa com sanção no CNEP
+INS-001214,C.R.N. SERVICOS DE LIMPEZA INDUSTRIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04618847000195,,Empresa com sanção no CNEP
+INS-001215,USINA JACIARA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,03464104000145,,Empresa com sanção no CNEP
+INS-001216,TRANSCOR INDUSTRIA DE PIGMENTOS E CORANTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00012847000196,,Empresa com sanção no CNEP
+INS-001217,BLUNAC DISTRIBUIDORA EIRELI ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,14534916000136,,Empresa com sanção no CNEP
+INS-001218,JPM Comércio Atacadista Eireli,,empresa,nao_se_aplica,nao_se_aplica,BRA,05129178000150,,Empresa com sanção no CNEP
+INS-001219,GREIDE CONSTRUÇÃO E PAVIMENTAÇÃO LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,05249155000180,,Empresa com sanção no CNEP
+INS-001220,JRS COMÉRCIO E ALIMENTAÇÃO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,23178176000133,,Empresa com sanção no CNEP
+INS-001221,CONSTRUTORA JURUENA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04292274000152,,Empresa com sanção no CNEP
+INS-001222,VITEDNO SERVICOS DE COBRANCAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17363537000119,,Empresa com sanção no CNEP
+INS-001223,LX Serviços Maritimos LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11360768000192,,Empresa com sanção no CNEP
+INS-001224,PACATU INTERMEDIACAO E AGENCIAMENTO DE NEGOCIOS EM GERAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72783608000140,,Empresa com sanção no CNEP
+INS-001225,VPX Cuiabá Comércio de Pneus Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,17161417000139,,Empresa com sanção no CNEP
+INS-001226,INFRAMAX CONSTRUÇÕES E TERRAPLANAGEM LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02470900000128,,Empresa com sanção no CNEP
+INS-001227,IPE PAISAGISMO E TERRAPLENAGEM S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,08841121000178,,Empresa com sanção no CNEP
+INS-001228,ASSOCIAÇÃO DOS SERVIDORES PÚBLICOS CIVIS E MILITARES DO ESPÍRITO SANTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,24104379000148,,Empresa com sanção no CNEP
+INS-001229,R E RAMOS MARCAS E PATENTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27611695000102,,Empresa com sanção no CNEP
+INS-001230,FAURTIL FABRICA DE URNAS TIETE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,45509346000158,,Empresa com sanção no CNEP
+INS-001231,V.V. INDUSTRIA DE PRODUTOS SANEANTES E AUTOMOTIVOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12342862000181,,Empresa com sanção no CNEP
+INS-001232,"INSTITUTO DE EDUCAÇÃO, INTEGRAÇÃO E ASSISTÊNCIA SOCIAL",,empresa,nao_se_aplica,nao_se_aplica,BRA,03543404000110,,Empresa com sanção no CNEP
+INS-001233,ASSOCIAÇÃO ASSISTENCIAL E CULTURAL DOS SERVIDORES PÚBLICOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,00818632000167,,Empresa com sanção no CNEP
+INS-001234,EDMAR FERNANDO BATISTA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03601302000103,,Empresa com sanção no CNEP
+INS-001235,CLEITON DE SOUZA COMERCIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,18531205000169,,Empresa com sanção no CNEP
+INS-001236,Nutri House Alimentos LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19685191000109,,Empresa com sanção no CNEP
+INS-001237,SERCO SERVICOS E COBRANCAS - EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,01853228000197,,Empresa com sanção no CNEP
+INS-001238,F PAULO NETO LACTEOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,38146734000156,,Empresa com sanção no CNEP
+INS-001239,DALMA ENGENHARIA E CONSULTORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23319666000102,,Empresa com sanção no CNEP
+INS-001240,VIACAO SANTA RITA TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18054255000100,,Empresa com sanção no CNEP
+INS-001241,WATERSERVICE PROJETOS INSTALACOES E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,40378440000100,,Empresa com sanção no CNEP
+INS-001242,MARF-INOX CONEXOES INOXIDAVEIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03189110000131,,Empresa com sanção no CNEP
+INS-001243,VK SERVICOS ONSHORE E OFFSHORE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23357820000130,,Empresa com sanção no CNEP
+INS-001244,SHEILA MOREIRA SCHIMIDT,,empresa,nao_se_aplica,nao_se_aplica,BRA,07188556000100,,Empresa com sanção no CNEP
+INS-001245,CM LOGISTICA AMBIENTAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,09610090000107,,Empresa com sanção no CNEP
+INS-001246,BARRATTUR TRANSPORTES E TURISMO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15099369000170,,Empresa com sanção no CNEP
+INS-001247,PRATICA ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03112766000156,,Empresa com sanção no CNEP
+INS-001248,INSTITUTO DE LIVRE INICIATIVA SOCIAL - INSTITUTO LINS,,empresa,nao_se_aplica,nao_se_aplica,BRA,05762101000113,,Empresa com sanção no CNEP
+INS-001249,PROVER SAUDE E MEIO AMBIENTE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10212240000103,,Empresa com sanção no CNEP
+INS-001250,COZISUL - ALIMENTAÇÃO COLETIVA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,02373492000196,,Empresa com sanção no CNEP
+INS-001251,BEL CHAVES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,34884403000162,,Empresa com sanção no CNEP
+INS-001252,MEGA COMERCIO DE PRODUTOS HOSPITALARES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07729499000111,,Empresa com sanção no CNEP
+INS-001253,VIAVEL BRASIL TELECOMUNICAÇÃO VISUAL LTDA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,13659947000150,,Empresa com sanção no CNEP
+INS-001254,FCR EDUCACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17184404000185,,Empresa com sanção no CNEP
+INS-001255,MIL COMUNICAÇÃO E EVENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28660364000117,,Empresa com sanção no CNEP
+INS-001256,WM CONSTRUTORA LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,21345805000147,,Empresa com sanção no CNEP
+INS-001257,OMAR & OCAMPO COMERCIO E EXPORTACAO DE PESCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07034905000121,,Empresa com sanção no CNEP
+INS-001258,E.R.O.S. SEGURANCA PATRIMONIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,16709779000159,,Empresa com sanção no CNEP
+INS-001259,"INPEL PESCADOS, INDUSTRIA, COMERCIO IMPORTACAO E EXPORTACAO LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,09215311000142,,Empresa com sanção no CNEP
+INS-001260,SDI INFORMATICA E CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07085880000195,,Empresa com sanção no CNEP
+INS-001261,ITPLAN INTEGRAÇÃO TECNOLOGIA E PLANEJAMENTO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05674062000100,,Empresa com sanção no CNEP
+INS-001262,L & L COMÉRCIO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,32125666000162,,Empresa com sanção no CNEP
+INS-001263,OX Comercial Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08915256000130,,Empresa com sanção no CNEP
+INS-001264,DIGITAL NET INTERNET SERVICE PROVIDER LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08929889000106,,Empresa com sanção no CNEP
+INS-001265,Multiservice Empreendimentos E Participações Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,01552979000173,,Empresa com sanção no CNEP
+INS-001266,ALJM CONSULTORIA EMPRESARIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11274439000129,,Empresa com sanção no CNEP
+INS-001267,SABOR MAIS COCO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24060302000113,,Empresa com sanção no CNEP
+INS-001268,F R DEMORE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07757703000108,,Empresa com sanção no CNEP
+INS-001269,PHG SERVICE INSTRUMENTACAO E COMERCIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21409296000179,,Empresa com sanção no CNEP
+INS-001270,INSTITUTO TERRA UTÓPICA - ITU,,empresa,nao_se_aplica,nao_se_aplica,BRA,17305757000196,,Empresa com sanção no CNEP
+INS-001271,MULTIENG COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21586100000111,,Empresa com sanção no CNEP
+INS-001272,CEM ADMINISTRACAO E PARTICIPACOES S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01828436000136,,Empresa com sanção no CNEP
+INS-001273,FRIGOBETO FRIGORIFICOS E COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16956194000133,,Empresa com sanção no CNEP
+INS-001274,FCENG SERVICOS DE ENGENHARIA E CONSULTORIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,24350697000199,,Empresa com sanção no CNEP
+INS-001275,LATICINIO NATA REAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,35674976000124,,Empresa com sanção no CNEP
+INS-001276,VIX SERVIÇOS - ES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13729411000164,,Empresa com sanção no CNEP
+INS-001277,ESTRELA COMERCIAL DE TRÊS RIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,29593458000183,,Empresa com sanção no CNEP
+INS-001278,Liga de Canoagem do Estado de São Paulo - LICAESP,,empresa,nao_se_aplica,nao_se_aplica,BRA,13704618000184,,Empresa com sanção no CNEP
+INS-001279,D3TM - CONSULTORIA E PARTICIPACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15839450000140,,Empresa com sanção no CNEP
+INS-001280,ELFE OPERACAO E MANUTENCAO S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,97428668000176,,Empresa com sanção no CNEP
+INS-001281,INVERTER COMÉRCIO DE EQUIPAMENTOS ESPECIAIS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,17074272000139,,Empresa com sanção no CNEP
+INS-001282,SPAÇO MÓVEIS CORPORATIVOS LTDA-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,01727849000124,,Empresa com sanção no CNEP
+INS-001283,I O PALMEIRA - CENTRO DE FORMAÇÃO DE CONDUTORES ARACRUZ - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,23446753000120,,Empresa com sanção no CNEP
+INS-001284,DELTAPE INDUSTRIA E COMERCIO DE FITAS ADESIVAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09542352000143,,Empresa com sanção no CNEP
+INS-001285,ALFA COMERCIO E REPRESENTACOES E SOLUCOES GRAFICAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18672579000102,,Empresa com sanção no CNEP
+INS-001286,Guizardi Junior Constrtutora Incorporadora Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,36912947000116,,Empresa com sanção no CNEP
+INS-001287,KSM ENGENHARIA LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,24777079000120,,Empresa com sanção no CNEP
+INS-001288,VITORIAFARMA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09031497000180,,Empresa com sanção no CNEP
+INS-001289,BERTOLI CONSTRUÇÕES LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,10395017000149,,Empresa com sanção no CNEP
+INS-001290,VILA COMERCIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39405774000138,,Empresa com sanção no CNEP
+INS-001291,SOFTTEK TECNOLOGIA DA INFORMACAO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,02068632000899,,Empresa com sanção no CNEP
+INS-001292,MATESA CONSTRUCOES E REFORMAS LTDA - EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,26232397000130,,Empresa com sanção no CNEP
+INS-001293,IMF TECNOLOGIA PARA SAÚDE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07140025000210,,Empresa com sanção no CNEP
+INS-001294,Art Som e Iluminação Ltda-ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,04977561000104,,Empresa com sanção no CNEP
+INS-001295,BANDEIRA RECUPERACAO DE CREDITO E ASSESSORIA DE COBRANCA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01140310000174,,Empresa com sanção no CNEP
+INS-001296,REALIZA COMERCIO DE VEICULOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04219340000169,,Empresa com sanção no CNEP
+INS-001297,Liga Paulista de Futebol Feminino,,empresa,nao_se_aplica,nao_se_aplica,BRA,09366286000106,,Empresa com sanção no CNEP
+INS-001298,Federação de Irmãos Beneficente - FIB,,empresa,nao_se_aplica,nao_se_aplica,BRA,59178822000100,,Empresa com sanção no CNEP
+INS-001299,RABELLO ENTRETENIMENTO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,21029498000195,,Empresa com sanção no CNEP
+INS-001300,TABARÉU EQUIP. SERVICE EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,00329206000160,,Empresa com sanção no CNEP
+INS-001301,Boa Vista Comércio de Equipamento EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,24137809000128,,Empresa com sanção no CNEP
+INS-001302,J&L SERVIÇOS DE REPAROS E MANUTENÇÕES LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,09183119000111,,Empresa com sanção no CNEP
+INS-001303,PALHANO COMERCIO E REPRESENTACOES DE SERVICOS GRAFICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01012498000175,,Empresa com sanção no CNEP
+INS-001304,S Ferreira Negócios e Serviços ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,11916511000174,,Empresa com sanção no CNEP
+INS-001305,HELISTAR MANUTENCAO DE AERONAVES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12308653000111,,Empresa com sanção no CNEP
+INS-001306,DANGER COMERCIAL E INDUSTRIA LTDA EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,27869148000113,,Empresa com sanção no CNEP
+INS-001307,PLÁSTICOS JUREMA INDÚSTRIA E COMÉRCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,52550282000102,,Empresa com sanção no CNEP
+INS-001308,MX PRODUÇÕES E COBRANÇAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,55054860000108,,Empresa com sanção no CNEP
+INS-001309,TFM PETRO OBRAS E MANUTENCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23232527000147,,Empresa com sanção no CNEP
+INS-001310,ANGULOS SERVICOS DE PINTURA E MANUTENCAO ELETRICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11152629000173,,Empresa com sanção no CNEP
+INS-001311,LOTTOS ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11657578000131,,Empresa com sanção no CNEP
+INS-001312,POSTO CENTRO AUTOMOTIVO ÁGUIA AZUL,,empresa,nao_se_aplica,nao_se_aplica,BRA,01301271000140,,Empresa com sanção no CNEP
+INS-001313,Rucks Wireles INC,,empresa,nao_se_aplica,nao_se_aplica,BRA,09454122000122,,Empresa com sanção no CNEP
+INS-001314,SOLIDA VIGILANCIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,19515217000162,,Empresa com sanção no CNEP
+INS-001315,TECHWAY INSTALACOES E MANUTENCAO PREDIAL EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,19026321000193,,Empresa com sanção no CNEP
+INS-001316,DBR PARTS COMERCIO VAREJISTA DE ACESSORIOS PARA VEICULOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,22492920000107,,Empresa com sanção no CNEP
+INS-001317,R NEVES DE OLIVEIRA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05336316000172,,Empresa com sanção no CNEP
+INS-001318,MC3 TECNOLOGIA E LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04700632000119,,Empresa com sanção no CNEP
+INS-001319,CASE SERVICOS DE MONTAGEM EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,18379101000180,,Empresa com sanção no CNEP
+INS-001320,TRANSVENI TRANSPORTES E SERVIÇOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,17722088000158,,Empresa com sanção no CNEP
+INS-001321,INOVARE BENEFICIADORA DE ALIMENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04714171000133,,Empresa com sanção no CNEP
+INS-001322,HUMANAS SERVICOS DE MANUTENCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20290872000149,,Empresa com sanção no CNEP
+INS-001323,CONSTRUTORA J R CONSTRUCOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13017783000168,,Empresa com sanção no CNEP
+INS-001324,INSTITUTO ILUMINA TERRA AÇÃO PARA DESENVOLVIMENTO SOCIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,08928169000118,,Empresa com sanção no CNEP
+INS-001325,GSV ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24241412000181,,Empresa com sanção no CNEP
+INS-001326,BASTOS INSTALACOES INDUSTRIAIS E LOCACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04122927000155,,Empresa com sanção no CNEP
+INS-001327,COMERCIO DE MADEIRAS NALESSIO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,53008751000110,,Empresa com sanção no CNEP
+INS-001328,Restaurante Ponto Do Criador Ltda - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,04355831000137,,Empresa com sanção no CNEP
+INS-001329,TIRANTE CONSTRUTORA E CONSULTORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04603651000127,,Empresa com sanção no CNEP
+INS-001330,NORTH ENGENHARIA E CONSULTORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25244432000179,,Empresa com sanção no CNEP
+INS-001331,ARTACHO COMERCIO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,08263761000148,,Empresa com sanção no CNEP
+INS-001332,JK ISOLAMENTOS TERMICOS COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25044094000121,,Empresa com sanção no CNEP
+INS-001333,TECH INSP ENERGY LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10759768000105,,Empresa com sanção no CNEP
+INS-001334,CONSTRUTORA C & J LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12888221000127,,Empresa com sanção no CNEP
+INS-001335,VIABRÁS ENGENHARIA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,00638595000105,,Empresa com sanção no CNEP
+INS-001336,MIL PRINT INFORMÁTICA EIRELI (atual MPK Comercio Importação e Exportação LTDA),,empresa,nao_se_aplica,nao_se_aplica,BRA,23791227000106,,Empresa com sanção no CNEP
+INS-001337,ANAMIL CONSTRUÇÕES LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,08768034000132,,Empresa com sanção no CNEP
+INS-001338,TRANSPORTADORA WAY EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,19421352000149,,Empresa com sanção no CNEP
+INS-001339,FRIBARREIRAS AGRO INDUSTRIAL DE ALIMENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,04377477000141,,Empresa com sanção no CNEP
+INS-001340,ESDERS BRASIL EQUIPAMENTOS DE TESTE LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,41164266000157,,Empresa com sanção no CNEP
+INS-001341,SERVCON CONSTRUCOES COMERCIO E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10997953000120,,Empresa com sanção no CNEP
+INS-001342,LIRA SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,63287247000150,,Empresa com sanção no CNEP
+INS-001343,MASTER PROJETOS E EMPREENDIMENTOS CULTURAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04750630000134,,Empresa com sanção no CNEP
+INS-001344,ASSOCIAÇÃO DE BENEFÍCIOS DE SERVIDORES PUBLICOS - ABESP,,empresa,nao_se_aplica,nao_se_aplica,BRA,01158752000148,,Empresa com sanção no CNEP
+INS-001345,R & S - MANUTENCOES E MONTAGENS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,18810419000174,,Empresa com sanção no CNEP
+INS-001346,VEIGAMED MATERIAL MÉDICO E HOSPITALAR EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,02482618000160,,Empresa com sanção no CNEP
+INS-001347,LEARDINI PESCADOS LTDA EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,80727720000192,,Empresa com sanção no CNEP
+INS-001348,P E L SERVICOS E CONSTRUCOES LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,12711422000154,,Empresa com sanção no CNEP
+INS-001349,M3 PRESTAÇÃO DE SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20288629000196,,Empresa com sanção no CNEP
+INS-001350,PESQUEIRA PIONEIRA DA COSTA S/A EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,83897710000193,,Empresa com sanção no CNEP
+INS-001351,INSTITUTO EDUCACIONAL PAIS E FILHOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,08351152000140,,Empresa com sanção no CNEP
+INS-001352,CLUBE HS PRESTAÇÃO DE SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,12293737000129,,Empresa com sanção no CNEP
+INS-001353,PROINVEST INVESTIMENTO E NEGÓCIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01686779000103,,Empresa com sanção no CNEP
+INS-001354,C & S CONTABILIDADE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11419857000167,,Empresa com sanção no CNEP
+INS-001355,X-DRILL HOLDINGS LIMITED,,empresa,nao_se_aplica,nao_se_aplica,BRA,50750238000102,,Empresa com sanção no CNEP
+INS-001356,ITALLI ALIMENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,09237048000192,,Empresa com sanção no CNEP
+INS-001357,LL VILAS EVENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27673878000144,,Empresa com sanção no CNEP
+INS-001358,KLIEX LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07628013000159,,Empresa com sanção no CNEP
+INS-001359,LL SOLUCOES ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,36033115000120,,Empresa com sanção no CNEP
+INS-001360,Associação Beneficente Nossa Senhora da Saúde,,empresa,nao_se_aplica,nao_se_aplica,BRA,43190337000111,,Empresa com sanção no CNEP
+INS-001361,TRICONE CONSTRUTORA E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13239216000156,,Empresa com sanção no CNEP
+INS-001362,TIM COB EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,24585141000181,,Empresa com sanção no CNEP
+INS-001363,MCR - PUBLICIDADE & PROPAGANDA S/S LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05078477000103,,Empresa com sanção no CNEP
+INS-001364,ADRIANA MICHELS FERREIRA CONSULTORIA EM GESTÃO EMPRESARIAL (atual GROSS Auditoria e Gestão de Serviços e Projetos Ltda.),,empresa,nao_se_aplica,nao_se_aplica,BRA,34577065000116,,Empresa com sanção no CNEP
+INS-001365,TFM RIO COMERCIO DE GENEROS ALIMENTICIOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10988435000140,,Empresa com sanção no CNEP
+INS-001366,TRANSKARRIER TRANSPORTES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11445324000150,,Empresa com sanção no CNEP
+INS-001367,OPEN MEDICAL COMERCIO IMPORTAÇÃO E EXPORTAÇÃO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,26145871000197,,Empresa com sanção no CNEP
+INS-001368,NOVA ESPERANÇA LOCADORA DE VEÍCULOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,09474700000192,,Empresa com sanção no CNEP
+INS-001369,EHD - ASSESSORIA E PARTICIPACOES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,01502425000161,,Empresa com sanção no CNEP
+INS-001370,IMPACTO ASSESSORIA E CONSULTORIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02207639000178,,Empresa com sanção no CNEP
+INS-001371,EXPORTADORA FLORENZANO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,22975999000127,,Empresa com sanção no CNEP
+INS-001372,SUPERMERCADO L. L. LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11338808000108,,Empresa com sanção no CNEP
+INS-001373,QUIMILAR COMERCIO E SERVICOS ESPECIALIZADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,86776499000149,,Empresa com sanção no CNEP
+INS-001374,SUARES DISTRIBUIDORA DE PRODUTOS DE LIMPEZA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18202203000126,,Empresa com sanção no CNEP
+INS-001375,"FDL SERVIÇOS DE REGISTRO, INFORMATIVO E CERTIFICAÇÃO - ATUAL EIG MERCADO",,empresa,nao_se_aplica,nao_se_aplica,BRA,06316183000135,,Empresa com sanção no CNEP
+INS-001376,INSTITUTO SALUTEM VITA EM RECUPERACAO JUDICIAL,,empresa,nao_se_aplica,nao_se_aplica,BRA,07771646000111,,Empresa com sanção no CNEP
+INS-001377,GONDIM & REGO LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,02349756000176,,Empresa com sanção no CNEP
+INS-001378,M.E. OYAMADA COMERCIAL ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,14606326000171,,Empresa com sanção no CNEP
+INS-001379,ZAP SERVIÇOS E CONSERVAÇÃO LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,14145704000167,,Empresa com sanção no CNEP
+INS-001380,REDECOM EMPREENDIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05950933000163,,Empresa com sanção no CNEP
+INS-001381,INSTITUTO DE ATENÇÃO BÁSICA E AVANÇADO À SAÚDE - IABAS/RJ,,empresa,nao_se_aplica,nao_se_aplica,BRA,42409892000129,,Empresa com sanção no CNEP
+INS-001382,LA MAISON DISTRIBUIDORA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46743542000155,,Empresa com sanção no CNEP
+INS-001383,ESF Serviços e Transportes Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,13672891000174,,Empresa com sanção no CNEP
+INS-001384,ESCOLA TECNICA DE APRENDIZAGEM,,empresa,nao_se_aplica,nao_se_aplica,BRA,12367392000100,,Empresa com sanção no CNEP
+INS-001385,LIRA & SANTOS NEGOCIOS E CONSULTORIAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14598545000156,,Empresa com sanção no CNEP
+INS-001386,DOMAIN CONSULTORES ASSOCIADOS EM INFORMATICA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,05902798000180,,Empresa com sanção no CNEP
+INS-001387,Monsaras Distribuidora e Comércio Ltda. ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,23417238000112,,Empresa com sanção no CNEP
+INS-001388,EVAL EMPRESA DE VIACAO ANGRENSE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,28500981000155,,Empresa com sanção no CNEP
+INS-001389,ORGANIZAÇÃO SOCIAL GERAÇÃO DE SEMELHANTES PARA A EDUCAÇÃO E SAÚDE - OS GERAÇÃO,,empresa,nao_se_aplica,nao_se_aplica,BRA,03508481000139,,Empresa com sanção no CNEP
+INS-001390,Base Demolições e Serviços EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,93225779000124,,Empresa com sanção no CNEP
+INS-001391,EDITORA N.X.T CHALLENGER LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10734571000103,,Empresa com sanção no CNEP
+INS-001392,FERRAGEM DO TREVO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,13525166000173,,Empresa com sanção no CNEP
+INS-001393,AFONSO PENA PARTICIPACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,01299615000123,,Empresa com sanção no CNEP
+INS-001394,ECM NI ELETRICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44439567000134,,Empresa com sanção no CNEP
+INS-001395,SUPRITECH SUPRIMENTOS ELETRICOS E ELETRONICOS INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,44264128000138,,Empresa com sanção no CNEP
+INS-001396,LIGHTHOUSE-SMS CONSULTORIA E TREINAMENTO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08900111000166,,Empresa com sanção no CNEP
+INS-001397,COMERCIAL SANTOS SILVA DE TOCANTINS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,46766632000161,,Empresa com sanção no CNEP
+INS-001398,IMP INSTITUTO DE MEDICINA E PROJETOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,04199009000124,,Empresa com sanção no CNEP
+INS-001399,Filial COOPERATIVA DOS PROFISSIONAIS DE TRANSPORTES ALTERNATIVOS E ESPECIAIS DO ESTADO DA BAHIA - TRANSCOPS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09277669000442,,Empresa com sanção no CNEP
+INS-001400,UNIT SOLUÇÕES E SERVIÇOS EIRELI ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,13536783000174,,Empresa com sanção no CNEP
+INS-001401,MHS-PRODUTOS E SERVIÇOS LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,29233652000158,,Empresa com sanção no CNEP
+INS-001402,REMOCENTER REMOÇÕES E SERVIÇOS MÉDICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08243988000121,,Empresa com sanção no CNEP
+INS-001403,SIGMATRONIC TECNOLOGIA APLICADA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,03667959000173,,Empresa com sanção no CNEP
+INS-001404,PEDREIRA RIO BRANCO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14576573000172,,Empresa com sanção no CNEP
+INS-001405,Instituto São Paulo Melhor,,empresa,nao_se_aplica,nao_se_aplica,BRA,07208563000119,,Empresa com sanção no CNEP
+INS-001406,ALLCONTROL ENGENHARIA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,11838945000101,,Empresa com sanção no CNEP
+INS-001407,MASTER LAVANDERIA INDUSTRIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14681803000163,,Empresa com sanção no CNEP
+INS-001408,ELET AUTOM SERVICOS E MANUTENCOES INDUSTRIAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17901568000186,,Empresa com sanção no CNEP
+INS-001409,RGA CONSULTORIA EM GESTAO EMPRESARIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,41317809000129,,Empresa com sanção no CNEP
+INS-001410,Associação Centro Social Beneficente de Recuperação El Shadai,,empresa,nao_se_aplica,nao_se_aplica,BRA,02986801000101,,Empresa com sanção no CNEP
+INS-001411,JV Centro Automotivo Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,15701446000110,,Empresa com sanção no CNEP
+INS-001412,COMERCIAL AGROPIRES PRODUTOS AGROPECUARIOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04672141000101,,Empresa com sanção no CNEP
+INS-001413,CONSTRUTORA ZAG LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00356328000145,,Empresa com sanção no CNEP
+INS-001414,BARBOSA & SILVA CONSTRUÇÕS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,14989665000184,,Empresa com sanção no CNEP
+INS-001415,Adonai Contabilidade Consultoria e Serviços LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,26465731000104,,Empresa com sanção no CNEP
+INS-001416,SQUADRA TECNOLOGIA S/A,,empresa,nao_se_aplica,nao_se_aplica,BRA,41893678000128,,Empresa com sanção no CNEP
+INS-001417,INCOMOL INDUSTRIA E COMERCIO DE MOVEIS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,21993399000129,,Empresa com sanção no CNEP
+INS-001418,KESTON LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09653058000109,,Empresa com sanção no CNEP
+INS-001419,LG COMERCIO DE ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,72611312000142,,Empresa com sanção no CNEP
+INS-001420,CONFEDERAÇÃO BRASILEIRA DE ARTES MARCIAIS CHINESAS KUNG-FU,,empresa,nao_se_aplica,nao_se_aplica,BRA,11417606000143,,Empresa com sanção no CNEP
+INS-001421,CWP ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,17159468000126,,Empresa com sanção no CNEP
+INS-001422,DW LOG AMBIENTAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,18916044000121,,Empresa com sanção no CNEP
+INS-001423,A. F. IMPORTACAO E EXPORTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09137439000135,,Empresa com sanção no CNEP
+INS-001424,CENTRO AUTOMOTIVO SÃO RFAEL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04954441000183,,Empresa com sanção no CNEP
+INS-001425,CFC CALIMAN LTDA ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,22141655000112,,Empresa com sanção no CNEP
+INS-001426,SEMPRE ALERTA AGENCIAMENTO DE MAO-DE-OBRA E SERVICOS GERAIS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03470083000170,,Empresa com sanção no CNEP
+INS-001427,"R.F. COMERCIO E PRESTACAO DE SERVICOS MECANICOS, ELETRICOS E INSTRUMENTACAO LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,06300617000109,,Empresa com sanção no CNEP
+INS-001428,Associação de Karatê Kyokushin Oyama Morumbi,,empresa,nao_se_aplica,nao_se_aplica,BRA,07344428000109,,Empresa com sanção no CNEP
+INS-001429,COOPERATIVA DOS PROFISSIONAIS DE TRANSPORTES ALTERNATIVOS E ESPECIAIS DO ESTADO DA BAHIA - TRANSCOPS,,empresa,nao_se_aplica,nao_se_aplica,BRA,09277669000108,,Empresa com sanção no CNEP
+INS-001430,Marcelo Araújo Silva e Cia. Ltda.,,empresa,nao_se_aplica,nao_se_aplica,BRA,71107320000193,,Empresa com sanção no CNEP
+INS-001431,NOVATEC EDUCACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,16985463000190,,Empresa com sanção no CNEP
+INS-001432,PEDROZA SERVICOS CORPORATIVOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,34534435000138,,Empresa com sanção no CNEP
+INS-001433,PONTAL DISTRIBUIDORA LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,37893589000104,,Empresa com sanção no CNEP
+INS-001434,SANEPAVI SANEAMENTO E PAVIMENTAÇÃO EIRELI EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,52519048000295,,Empresa com sanção no CNEP
+INS-001435,"INVESTNEWS PARTICIPACOES, INVESTIMENTOS, ASSESSORIA, CONSULTORIA, IMPORTACAO E EXPORTACAO, LOGISTICA E TRANSPORTES EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,27770585000185,,Empresa com sanção no CNEP
+INS-001436,SCHIMIDT SERVICE & COMPANY EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,19860660000170,,Empresa com sanção no CNEP
+INS-001437,MED SERVIÇOS LTDA. ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,12487586000140,,Empresa com sanção no CNEP
+INS-001438,IGUATEMI CONSULTORIA E SERVICOS DE ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,83256172000158,,Empresa com sanção no CNEP
+INS-001439,EMBRAMAR COMERCIO E SERVICOS EM GERAL LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17846708000160,,Empresa com sanção no CNEP
+INS-001440,PRIVATECH SOLUÇÕES EM SERVIÇOS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,17480879000119,,Empresa com sanção no CNEP
+INS-001441,LOJAS CEM SA,,empresa,nao_se_aplica,nao_se_aplica,BRA,56642960000100,,Empresa com sanção no CNEP
+INS-001442,NEW SERVICE COMÉRCIO E SERVIÇO DE EQUIPAMENTO MÉDICO HOSPITALAR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,40982787000159,,Empresa com sanção no CNEP
+INS-001443,PEFRAN MATERIAIS PARA CONSTRUCAO LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,08235458000131,,Empresa com sanção no CNEP
+INS-001444,TRIAMA BD PECAS E SERVICOS AUTOMOTIVOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11078678000103,,Empresa com sanção no CNEP
+INS-001445,MAYFRAN LOCAÇÃO DE VEÍCULOS TRANSPORTRS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,04403238000119,,Empresa com sanção no CNEP
+INS-001446,GOYAZES BIOTECNOLOGIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05658906000111,,Empresa com sanção no CNEP
+INS-001447,LOGISTICA PLANEJAMENTO CULTURAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,47107958000140,,Empresa com sanção no CNEP
+INS-001448,CARPORT OFFSHORE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,25343274000104,,Empresa com sanção no CNEP
+INS-001449,INSTITUTO DE PESQUISA DE CIÊNCIAS DA MÉTRICA - IPCIM,,empresa,nao_se_aplica,nao_se_aplica,BRA,13144375000177,,Empresa com sanção no CNEP
+INS-001450,ASSOCIAÇÃO DE BENEFÍCIOS AOS POLICIAIS E BOMBEIROS MILITARES DO ESTADO DO ESPÍRITO SANTO,,empresa,nao_se_aplica,nao_se_aplica,BRA,24293039000102,,Empresa com sanção no CNEP
+INS-001451,Associação Consciência Responsabilidade Educação e Respeito,,empresa,nao_se_aplica,nao_se_aplica,BRA,05235465000145,,Empresa com sanção no CNEP
+INS-001452,FRIGOLI ALIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10953649000180,,Empresa com sanção no CNEP
+INS-001453,EXPRESSO RUBI LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15950025000123,,Empresa com sanção no CNEP
+INS-001454,DISPAMA DISTRIBUIDORA PAULISTA DE MADEIRAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,08743081000121,,Empresa com sanção no CNEP
+INS-001455,CONSÓRCIO VIADUTO EPIG,,empresa,nao_se_aplica,nao_se_aplica,BRA,42421318000196,,Empresa com sanção no CNEP
+INS-001456,PAMPULHA INFORMATICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03771351000194,,Empresa com sanção no CNEP
+INS-001457,CEPEMAR SERVICOS DE CONSULTORIA EM MEIO AMBIENTE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,03770522000160,,Empresa com sanção no CNEP
+INS-001458,PRIMUS CONSTRUCOES E ACABAMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21414475000102,,Empresa com sanção no CNEP
+INS-001459,N.S. KARYDI,,empresa,nao_se_aplica,nao_se_aplica,BRA,24728467000110,,Empresa com sanção no CNEP
+INS-001460,JULIX INDÚSTRIA E COMÉRCIO DE EMBALAGENS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,12749969000149,,Empresa com sanção no CNEP
+INS-001461,POLIFILME INDÚSTRIA E COMÉRCIO DE MEBALAGENS LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,03644345000176,,Empresa com sanção no CNEP
+INS-001462,SMATEC 1000 COMERCIAL NAVAL TECNICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,07891295000182,,Empresa com sanção no CNEP
+INS-001463,EMN CONSTRUÇÕES E LOCAÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15329604000153,,Empresa com sanção no CNEP
+INS-001464,NUTRAMIL LOGÍSTICA COMÉRCIO DE ALIMENTOS (ATUAL CAMPICERES COMERCIAL LTDA.),,empresa,nao_se_aplica,nao_se_aplica,BRA,10875674000193,,Empresa com sanção no CNEP
+INS-001465,LENY COMERCIO IMPORTACAO E EXPORTACAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,09010565000124,,Empresa com sanção no CNEP
+INS-001466,NOVA CIVIK AGÊNCIA DE PUBLICIDADE LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24272382000170,,Empresa com sanção no CNEP
+INS-001467,BORPLAST SUPRIMENTOS INDUSTRIAIS IMP. EXP. LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,10340730000195,,Empresa com sanção no CNEP
+INS-001468,ARMAZEM TURISMO E EVENTOS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,68258573000153,,Empresa com sanção no CNEP
+INS-001469,EMBATTUR EMPRESA BAHIANA DE TRANSPORTE E SERVICOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02517814000123,,Empresa com sanção no CNEP
+INS-001470,SASET CONSTRUCOES E EMPREENDIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,27863774000100,,Empresa com sanção no CNEP
+INS-001471,Napoles Participações Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,29123570000150,,Empresa com sanção no CNEP
+INS-001472,J VIANA ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,22516549000176,,Empresa com sanção no CNEP
+INS-001473,START-ENGENHARIA DE COMISSIONAMENTO E MANUTENCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,86778966000170,,Empresa com sanção no CNEP
+INS-001474,ASSOCIAÇÃO BRASILEIRA DE AUXÍLIO AOS SERVIDORES PÚBLICOS - ASBRASP,,empresa,nao_se_aplica,nao_se_aplica,BRA,04747160000150,,Empresa com sanção no CNEP
+INS-001475,QG CONSTRUCOES E ENGENHARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05647206000121,,Empresa com sanção no CNEP
+INS-001476,JADER ALBERTO PAZINATO ADVOGADOS ASSOCIADOS,,empresa,nao_se_aplica,nao_se_aplica,BRA,06922366000102,,Empresa com sanção no CNEP
+INS-001477,Norte Eventos S/S Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,05887094000186,,Empresa com sanção no CNEP
+INS-001478,EMPREZE CONSULTORIA EMPRESARIAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,00955725000133,,Empresa com sanção no CNEP
+INS-001479,J GONCALVES COMERCIO DE PESCADOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,86694056000109,,Empresa com sanção no CNEP
+INS-001480,"MTX 26 MARKETING, COMERCIO E CONSULTORIA LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,12430340000131,,Empresa com sanção no CNEP
+INS-001481,INFOPARTS COMERCIO E LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,37121980000190,,Empresa com sanção no CNEP
+INS-001482,CEZAR CONSTRUCOES EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,28465121000128,,Empresa com sanção no CNEP
+INS-001483,Leandro Francisco de Souza EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,25306696000100,,Empresa com sanção no CNEP
+INS-001484,J CRUZ SERVICOS ADMINISTRATIVOS PARA TERCEIROS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,02236769000139,,Empresa com sanção no CNEP
+INS-001485,METALURGICA ACO-LAR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,05413295000141,,Empresa com sanção no CNEP
+INS-001486,Brasfitness Comércio de Artigos Esportivos,,empresa,nao_se_aplica,nao_se_aplica,BRA,11753865000145,,Empresa com sanção no CNEP
+INS-001487,OPEM REPRESENTACAO IMPORTADORA EXPORTADORA E DISTR.LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,38909503000157,,Empresa com sanção no CNEP
+INS-001488,UNIR NEGÓCIOS E SERVIÇOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,39299359000147,,Empresa com sanção no CNEP
+INS-001489,M.S.B INDUSTRIA E COMERCIO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,81120842000189,,Empresa com sanção no CNEP
+INS-001490,"SUPERAÇÃO INDÚSTRIA, COMÉRCIO E SERVIÇOS EIRELI",,empresa,nao_se_aplica,nao_se_aplica,BRA,23541435000149,,Empresa com sanção no CNEP
+INS-001491,INOVA SERVICOS DE MAO DE OBRA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,06979037000190,,Empresa com sanção no CNEP
+INS-001492,JEQUINUTRI NUTRICAO ANIMAL LTDA - ME,,empresa,nao_se_aplica,nao_se_aplica,BRA,21099250000109,,Empresa com sanção no CNEP
+INS-001493,DAVITA SERVIÇOS DE NEFROLOGIA JK LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,38033882000164,,Empresa com sanção no CNEP
+INS-001494,WEBTECH - Softwares e Serviços LTDA EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,02183888000170,,Empresa com sanção no CNEP
+INS-001495,MIPE - CONSTRUCOES E MONTAGENS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,10787589000173,,Empresa com sanção no CNEP
+INS-001496,THN FABRICACAO DE AUTO PECAS BRASIL S.A.,,empresa,nao_se_aplica,nao_se_aplica,BRA,11491547000153,,Empresa com sanção no CNEP
+INS-001497,DJO SERVICOS DE TRANSPORTES DE CARGAS EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,20739738000182,,Empresa com sanção no CNEP
+INS-001498,DML SERVICE ALIMENTAÇÃO LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,08573627000143,,Empresa com sanção no CNEP
+INS-001499,Extrema Eventos Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,05669475000199,,Empresa com sanção no CNEP
+INS-001500,BUYERBR SERVIÇOS E COMÉRCIO EXTERIOR LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,21533430000149,,Empresa com sanção no CNEP
+INS-001501,SEC - SOCIEDADE DE ENGENHARIA E CONSTRUÇÕES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,61529376000182,,Empresa com sanção no CNEP
+INS-001502,MJ2 IMPORTACAO E EXPORTACAO EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,10509819000132,,Empresa com sanção no CNEP
+INS-001503,POLO COMERCIO INTERNACIONAL LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,06261751000148,,Empresa com sanção no CNEP
+INS-001504,SUPERGUARAPIRANGA MADEIRAS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,23359138000187,,Empresa com sanção no CNEP
+INS-001505,R I SOARES COMERCIAL IMPORTACAO E LOGISTICA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,15076695000162,,Empresa com sanção no CNEP
+INS-001506,SERV SEGURO PORTARIA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11232916000193,,Empresa com sanção no CNEP
+INS-001507,LAB PACK DO BRASIL PRODUTOS HOSPITALARES LTDA.,,empresa,nao_se_aplica,nao_se_aplica,BRA,67692087000186,,Empresa com sanção no CNEP
+INS-001508,UTIL - ASSESSORIA E TERCEIRIZACAO DE LOCACAO DE MAO DE OBRA EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,12084049000159,,Empresa com sanção no CNEP
+INS-001509,Hospitalares - Distribuidora de Medicamentos e Correlatos EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,26364969000135,,Empresa com sanção no CNEP
+INS-001510,ISDN CONSULTORIA E EMPREEND DE TELECOMUNICACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,32251399000170,,Empresa com sanção no CNEP
+INS-001511,DUARTE ALIMENTOS ATACADISTA LTDA. EPP,,empresa,nao_se_aplica,nao_se_aplica,BRA,17793806000187,,Empresa com sanção no CNEP
+INS-001512,FRANCA MATERIAL ELETRICO E CONSTRUCAO LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,37242045000182,,Empresa com sanção no CNEP
+INS-001513,ESTEIO CONSTRUÇÕES EIRELI,,empresa,nao_se_aplica,nao_se_aplica,BRA,00407752000171,,Empresa com sanção no CNEP
+INS-001514,"WM MANUTENCAO E REPARACAO DE MAQUINAS, PRODUTOS E EQUIPAMENTOS LTDA",,empresa,nao_se_aplica,nao_se_aplica,BRA,34038541000120,,Empresa com sanção no CNEP
+INS-001515,JVA Logística Transporte de Carga e Armazéns Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,13170898000198,,Empresa com sanção no CNEP
+INS-001516,TECLIGHT SELECOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,11712915000146,,Empresa com sanção no CNEP
+INS-001517,RURAL ELABORACAO DE PROJETOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,20962348000177,,Empresa com sanção no CNEP
+INS-001518,WARU - AGENTE AUTONOMO DE INVESTIMENTOS LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,33952416000169,,Empresa com sanção no CNEP
+INS-001519,"INTEGRA TECNOLOGIA AMBIENTAL, PROJETOS E EDUCACAO AMBIENTAL LTDA.",,empresa,nao_se_aplica,nao_se_aplica,BRA,17785766000121,,Empresa com sanção no CNEP
+INS-001520,FAZENDA LAGOA DA SERRA LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,24211090000128,,Empresa com sanção no CNEP
+INS-001521,Viga Participações e Engenharia Ltda,,empresa,nao_se_aplica,nao_se_aplica,BRA,07744431000101,,Empresa com sanção no CNEP
+INS-001522,ARATEC ENGENHARIA CONSULTORIA & REPRESENTACOES LTDA,,empresa,nao_se_aplica,nao_se_aplica,BRA,04068632000148,,Empresa com sanção no CNEP

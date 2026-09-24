@@ -60,7 +60,7 @@ Cargos ocupados no tempo. Chave: `id_cargo`; prefixo `CRG`.
 | `tipo_instituicao` | vocab (`tipo_instituicao`) | sim |  |
 | `poder` | vocab (`poder`) | sim |  |
 | `esfera` | vocab (`esfera`) | sim |  |
-| `pais_iso3` | iso3 | sim | País sede (BRA para instituições brasileiras) |
+| `pais_iso3` | iso3 |  | País sede (BRA para instituições brasileiras); vazio quando a fonte não informa (por exemplo, empresa estrangeira identificada só por código da CGU) |
 | `cnpj` | texto |  | Só para pessoa jurídica brasileira |
 | `id_sucessora` | ref → `instituicoes.id_instituicao` |  | Instituição que a sucedeu (fusão ou mudança de nome de partido) |
 | `observacao` | texto |  |  |
@@ -462,6 +462,28 @@ Decisões (universo do Corte Aberta e equivalentes), com atributos para o crité
 | `suspende_ato_normativo` | bool | sim |  |
 | `atinge_ato_de_outro_poder` | bool | sim |  |
 | `data_referendo` | data |  | Data em que o colegiado apreciou a decisão monocrática |
+| `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
+
+### `emendas_parlamentares`
+
+Execução de emendas parlamentares (Portal da Transparência), agregada por emenda, localidade e função. Chave: `id_emenda_linha`; prefixo `EMD`.
+
+| Coluna | Tipo | Obrigatória | Descrição |
+|---|---|---|---|
+| `id_emenda_linha` | id | sim |  |
+| `ano` | ano | sim |  |
+| `tipo_emenda` | texto | sim | Como publicado: individual, bancada, comissão, relator |
+| `codigo_emenda` | texto |  |  |
+| `numero_emenda` | texto |  |  |
+| `codigo_autor_fonte` | texto |  |  |
+| `autor_fonte` | texto | sim | Nome do autor como publicado (inclui 'RELATOR GERAL' e 'Sem informação') |
+| `id_ator` | ref → `atores.id_ator` |  | Parlamentar ligado ao autor por nome e mandato no ano, quando a ligação é única |
+| `localidade` | texto |  |  |
+| `uf` | texto |  |  |
+| `funcao` | texto |  |  |
+| `valor_empenhado` | decimal | sim |  |
+| `valor_liquidado` | decimal | sim |  |
+| `valor_pago` | decimal | sim |  |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
 ## Financiamento

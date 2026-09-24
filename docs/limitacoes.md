@@ -62,29 +62,33 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 325 |
+| `instituicoes` | 1468 |
 | `denominacoes_partido` | 67 |
 | `processos` | 205 |
 | `fases_processo` | 58 |
-| `relacoes` | 17 |
-| `fontes` | 13 |
-| `fonte_oficial` | 10 |
+| `eventos` | 2297 |
+| `relacoes` | 2409 |
+| `fontes` | 17 |
+| `fonte_oficial` | 14 |
 | `fonte_base_dados` | 3 |
-| `relacao_fonte` | 17 |
-| `buscas` | 30 |
+| `evento_fonte` | 2297 |
+| `relacao_fonte` | 2409 |
+| `buscas` | 34 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
+| `emendas_parlamentares` | 92364 |
 
-Tabelas ainda vazias (16): `casos`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (14): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 30 buscas registradas; 0 com zero resultados.
+- 34 buscas registradas; 0 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
+- Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
 - V-Dem Institute, pacote vdemdata (GitHub, tag V16): 1 buscas, coleta de 2026-09-24.
@@ -130,6 +134,14 @@ Tabelas ainda vazias (16): `casos`, `status_pessoa_processo`, `eventos`, `afirma
 - A API não traz nomes de partes, e o termo de uso impede cruzar seus dados com pessoas (D-022). Status de pessoas depende de fonte primária.
 - O portal do STJ (consulta processual e jurisprudência) exige verificação de robô; a leitura da fonte primária de cada processo citado precisa ser feita por uma pessoa. A URL gravada segue o formato do portal e não foi conferida por script.
 - Fases processuais: só declínio de competência e arquivamento de procedimento investigatório. O trânsito em julgado não foi usado, porque no STJ aparece a cada recurso interno encerrado.
+
+### Portal da Transparência (etapa E6)
+
+- Acordos de leniência: 57 acordos da CGU. Sanções administrativas na base: 2240 (todas as do CNEP a pessoas jurídicas e, do CEIS, só as de empresas que já estão na base; o CEIS completo fica no dado bruto, D-027). Sanções a pessoas físicas não entram (LGPD).
+- Emendas parlamentares: 92364 linhas (agregadas por emenda, localidade e função), de 2014 a 2026; o arquivo da CGU não traz anos anteriores a 2014.
+- Emendas individuais: 9554 linhas sem autor na fonte; das 73747 com autor, 97,5% ligadas a um parlamentar da base (nome e mandato no ano). As demais têm grafia diferente (nome civil contra nome parlamentar) ou homônimos com mandato no mesmo ano.
+- Emendas de relator: 3537 linhas, com autor publicado só como "RELATOR GERAL" ou sem informação; o arquivo não identifica os parlamentares que indicaram os recursos. Emendas de bancada e de comissão não têm autor individual.
+- O arquivo de emendas por favorecido (com nomes de pessoas físicas) e o de convênios ficam só no dado bruto.
 
 ### Validador
 

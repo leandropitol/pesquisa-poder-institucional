@@ -1,0 +1,5 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/transparencia/2026-09-24/acordos-leniencia_20260923_AcordosLeniencia.zip,https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/acordos-leniencia/20260923_AcordosLeniencia.zip,1,40665,3fe97b2e1d6dc98ced162d58401f2d19b8206a13a1dc7a1c4242a0abad58d152
+2026-09-24,data/raw/transparencia/2026-09-24/cnep_20260923_CNEP.zip,https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/cnep/20260923_CNEP.zip,1,198461,a7d36f1e7f67136aa965ac0d268f2e8de61c0b58100a25e98f57f52859a625d0
+2026-09-24,data/raw/transparencia/2026-09-24/ceis_20260923_CEIS.zip,https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/ceis/20260923_CEIS.zip,1,3433257,37ef8d53a13eb3abd4b3f1072c1e46d86429660bdcab7037f84a687110726f4b
+2026-09-24,data/raw/transparencia/2026-09-24/emendas-parlamentares_EmendasParlamentares.zip,https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/emendas-parlamentares/EmendasParlamentares.zip,1,32413700,db34554b2207ef2a1a0a94a4c8ca26e3e9402729bb2a3797ee85a31d7fecf2d4

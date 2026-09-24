@@ -150,6 +150,28 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
 
+    em = ler("emendas_parlamentares", base)
+    if len(em):
+        ev = ler("eventos", base)
+        ind = em[em["tipo_emenda"].str.startswith("Emenda Individual")]
+        ident = ind[ind["autor_fonte"] != "Sem informação"]
+        rel = em[em["tipo_emenda"] == "Emenda de Relator"]
+        linhas += [
+            "### Portal da Transparência (etapa E6)", "",
+            f"- Acordos de leniência: {int((ev['tipo_evento'] == 'acordo_leniencia').sum())} acordos da CGU. Sanções administrativas na base: "
+            f"{int((ev['tipo_evento'] == 'sancao_administrativa').sum())} (todas as do CNEP a pessoas jurídicas e, do CEIS, só as de empresas que já estão "
+            "na base; o CEIS completo fica no dado bruto, D-027). Sanções a pessoas físicas não entram (LGPD).",
+            f"- Emendas parlamentares: {len(em)} linhas (agregadas por emenda, localidade e função), de {em['ano'].min()} a {em['ano'].max()}; "
+            "o arquivo da CGU não traz anos anteriores a 2014.",
+            f"- Emendas individuais: {int((ind['autor_fonte'] == 'Sem informação').sum())} linhas sem autor na fonte; das {len(ident)} com autor, "
+            f"{(ident['id_ator'] != '').mean() * 100:.1f}%".replace(".", ",") + " ligadas a um parlamentar da base (nome e mandato no ano). "
+            "As demais têm grafia diferente (nome civil contra nome parlamentar) ou homônimos com mandato no mesmo ano.",
+            f"- Emendas de relator: {len(rel)} linhas, com autor publicado só como \"RELATOR GERAL\" ou sem informação; o arquivo não identifica "
+            "os parlamentares que indicaram os recursos. Emendas de bancada e de comissão não têm autor individual.",
+            "- O arquivo de emendas por favorecido (com nomes de pessoas físicas) e o de convênios ficam só no dado bruto.",
+            "",
+        ]
+
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
     if len(avisos) > 20:

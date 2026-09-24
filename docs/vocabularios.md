@@ -185,6 +185,8 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `cpi_instalada` | Instalação de CPI |
 | `cpi_relatorio_final` | Relatório final de CPI |
 | `reuniao_rede_partidaria` | Reunião de rede partidária transnacional |
+| `acordo_leniencia` | Acordo de leniência |
+| `sancao_administrativa` | Sanção administrativa |
 | `outro` | Outro |
 
 ## `precisao_data`
@@ -220,6 +222,8 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `relator_de` | foi relator de |  |
 | `fundiu_se_em` | fundiu-se em |  |
 | `incorporado_por` | foi incorporado por |  |
+| `signataria_de` | é signatária de |  |
+| `sancionada_em` | foi sancionada em |  |
 | `citado_em_colaboracao` | foi citado em colaboração premiada de | alegado |
 | `citado_em_reportagem` | foi citado em reportagem sobre | alegado |
 
