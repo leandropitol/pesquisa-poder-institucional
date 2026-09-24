@@ -2,7 +2,8 @@
 
 O portal do STF não entrega dados a cliente automatizado (D-009). O autor abriu os painéis no próprio
 navegador, com o Claude in Chrome, aplicou os filtros e exportou as planilhas pelo botão do painel
-(D-037). Este módulo identifica cada arquivo pelo cabeçalho, dá a ele um nome descritivo, move para
+(D-037). Também registra as bases da página de dados abertos do STF baixadas pelo autor, só quando
+completas (a página corta a exportação em 5 milhões de células). Este módulo identifica cada arquivo pelo cabeçalho, dá a ele um nome descritivo, move para
 data/raw/stf/<data>/, calcula o sha256 e grava manifesto e busca. Não acessa a rede.
 
 Uso:
@@ -27,6 +28,8 @@ EXPORTACOES = {
     "Link do processo": ("stf_corte_aberta_acervo_AP_Inq.xlsx", "https://transparencia.stf.jus.br/extensions/acervo/acervo.html",
                          {"classe": ["AP", "Inq"], "recorte": "acervo em tramitação na data da exportação", "botao": "Processos"}, 1331),
 }
+URL_DADOS_ABERTOS = "https://transparencia.stf.jus.br/extensions/dados_abertos/dados_abertos.html"
+LIMITE_CELULAS = 5_000_000
 RELATORIO = ("relatorio_stf_pesquisa_documental.md", "stf_relatorio_navegacao.md")
 
 
@@ -48,6 +51,21 @@ def registrar_manuais(data: str) -> None:
                 raise ValueError(f"{f.name}: {linhas} linhas, o painel mostrava {total}")
             consulta = f"exportação {nome} (painel com {total} registros)"
             parametros = {"url": url, "filtros": filtros, "arquivo_original": f.name, "linhas": linhas}
+        elif f.suffix.lower() == ".csv":
+            # página de dados abertos (https://transparencia.stf.jus.br/extensions/dados_abertos/dados_abertos.html):
+            # a exportação é cortada em 5 milhões de células; arquivo que chega perto do limite fica fora (incompleto)
+            d = pd.read_csv(f, dtype=str, encoding="utf-8-sig")
+            if d.size >= LIMITE_CELULAS * 0.999:
+                print(f"incompleto (corte em {LIMITE_CELULAS} células), não registrado: {f.name}")
+                continue
+            tipo, anos = d["Tipo andamento"].iloc[0], sorted(d["ano_andamento"].unique())
+            nome = f"stf_dados_abertos_{tipo}s_{anos[0]}{'' if len(anos) == 1 else '_a_' + anos[-1]}.csv"
+            url, linhas = URL_DADOS_ABERTOS, len(d)
+            consulta = f"dados abertos: {tipo}s {', '.join(anos)} ({linhas} linhas, todas as classes)"
+            parametros = {"url": url, "arquivo_original": f.name, "linhas": linhas, "celulas": int(d.size)}
+        elif f.name.startswith("dicionario_") and f.suffix.lower() == ".ods":
+            nome, url, linhas = f"stf_dados_abertos_{f.name}", URL_DADOS_ABERTOS, 1
+            consulta, parametros = f"dados abertos: {f.name}", {"url": url, "arquivo_original": f.name}
         elif f.name == RELATORIO[0]:
             nome, url = RELATORIO[1], "https://portal.stf.jus.br"
             consulta, linhas = "relatório de navegação do Claude in Chrome no portal do STF (registro auxiliar, não é fonte primária)", 1

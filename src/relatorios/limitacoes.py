@@ -272,6 +272,9 @@ def _linhas_stf(proc: pd.DataFrame, base: Path) -> list[str]:
         + "; ".join(f"{k}: {n}" for k, n in fases["fase"].value_counts().items()) + "). O julgamento de mérito da ação penal "
         "(procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.",
         "- Decisões em segredo de justiça aparecem só como \"Decisão (segredo de justiça)\" e não geram fase. O campo de sigilo do processo não vem na exportação.",
+        "- A página de dados abertos do STF (bases de processos recebidos e baixados, com todos os assuntos de cada processo) corta as "
+        "exportações em 5 milhões de células: os arquivos de cinco anos (2006 a 2025) chegam incompletos, em ordem alfabética de classe, "
+        "sem inquéritos. Só os de 2026 estão completos e foram registrados; neles, 22 de 140 AP e Inq trazem mais de um assunto.",
         "- Número único CNJ só para os processos em tramitação (planilha do acervo). A URL gravada é a consulta por classe e número do portal, "
         "conferida no navegador para a AP 470.",
         "",
