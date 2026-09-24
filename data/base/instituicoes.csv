@@ -1,56 +1,51 @@
 id_instituicao,nome,sigla,tipo_instituicao,poder,esfera,pais_iso3,cnpj,id_sucessora,observacao
 INS-000001,Câmara dos Deputados,CD,casa_legislativa,legislativo,federal,BRA,,,
 INS-000002,Senado Federal,SF,casa_legislativa,legislativo,federal,BRA,,,
-INS-000003,Partido da Frente Liberal,PFL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000004,Democratas,DEM,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000005,Partido Socialista Brasileiro,PSB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000006,Partido Republicano Brasileiro,PRB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000007,Partido dos Trabalhadores,PT,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000008,Partido da Mobilização Nacional,PMN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000009,Partido Trabalhista Brasileiro,PTB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000010,Partido Social Cristão,PSC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000011,Partido Trabalhista do Brasil,PTDOB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000012,Avante,AVANTE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000013,Partido da Social Democracia Brasileira,PSDB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000014,Partido da República,PR,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000015,Partido do Movimento Democrático Brasileiro,PMDB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000016,União Brasil,UNIÃO,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000017,Progressistas,PP,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000018,Partido Popular Socialista,PPS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000019,Movimento Democrático Brasileiro,MDB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000020,Partido Democrático Trabalhista,PDT,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000021,Solidariedade,SDD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000022,Solidariedade,SD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000023,Partido Trabalhista Nacional,PTN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000024,Podemos,PODE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000025,Partido Verde,PV,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000026,Partido Progressista Brasileiro,PPB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000027,Partido Comunista do Brasil,PCDOB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000028,Republicanos,REPUBLICANOS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000029,Partido Liberal,PL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000030,Cidadania,CIDADANIA,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000031,Partido Socialismo e Liberdade,PSOL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000032,Partido Republicano da Ordem Social,PROS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000033,Partido Ecológico Nacional,PEN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000034,Partido Social Trabalhista,PST,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000035,Solidariedade,SOLIDARIEDADE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000036,Partido Social Democrático,PSD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000037,Partido Humanista da Solidariedade,PHS,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000038,Partido Trabalhista Cristão,PTC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000039,Democracia Cristã,DC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000040,Partido Social Liberal,PSL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000041,Partido Municipalista Renovador,PMR,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000042,Partido Social Democrata Cristão,PSDC,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000043,Partido Republicano Progressista,PRP,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000044,Partido de Reedificação da Ordem Nacional,PRONA,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000045,Partido dos Aposentados da Nação,PAN,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000046,Partido da Mulher Brasileira,PMB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000047,Rede Sustentabilidade,REDE,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000048,Patriota,PATRI,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000049,Partido Renovador Trabalhista Brasileiro,PRTB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000050,Partido Novo,NOVO,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000051,Patriota,PATRIOTA,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000052,Partido Renovação Democrática,PRD,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000053,Partido Pátria Livre,PPL,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000054,Partido Missão,MISSÃO,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
-INS-000055,Partido Comunista Brasileiro,PCB,partido,nao_se_aplica,federal,BRA,,,Identificado pela sigla nos registros da Câmara e do Senado
+INS-000056,Tribunal Superior Eleitoral,TSE,tribunal,judiciario,federal,BRA,,,
+INS-000057,Partido Progressista Reformador,PPR,partido,nao_se_aplica,federal,BRA,,INS-000059,Registro no TSE; encerrado em 1995-11-16
+INS-000058,Partido Progressista,PP,partido,nao_se_aplica,federal,BRA,,INS-000059,Registro no TSE; encerrado em 1995-11-16
+INS-000059,PROGRESSISTAS,PP,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1995-11-16, legenda 11"
+INS-000060,Partido Humanista da Solidariedade,PHS,partido,nao_se_aplica,federal,BRA,,INS-000072,Registro no TSE; encerrado em 2019-09-19
+INS-000061,AGIR,AGIR,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1990-02-22, legenda 36"
+INS-000062,Partido Trabalhista Brasileiro,PTB,partido,nao_se_aplica,federal,BRA,,INS-000086,Registro no TSE; encerrado em 2023-11-09
+INS-000063,Partido Social Democrático,PSD,partido,nao_se_aplica,federal,BRA,,INS-000062,Registro no TSE; encerrado em 2003-02-20
+INS-000064,Partido Liberal,PL,partido,nao_se_aplica,federal,BRA,,INS-000068,Registro no TSE; encerrado em 2006-12-19
+INS-000065,Partido Geral dos Trabalhadores,PGT,partido,nao_se_aplica,federal,BRA,,INS-000064,Registro no TSE; encerrado em 2003-04-01
+INS-000066,Partido Social Trabalhista,PST,partido,nao_se_aplica,federal,BRA,,INS-000064,Registro no TSE; encerrado em 2003-04-01
+INS-000067,Partido da Reedificação da Ordem Nacional,PRONA,partido,nao_se_aplica,federal,BRA,,INS-000068,Registro no TSE; encerrado em 2006-12-19
+INS-000068,PARTIDO LIBERAL,PL,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2006-12-19, legenda 22"
+INS-000069,Partido dos Aposentados da Nação,PAN,partido,nao_se_aplica,federal,BRA,,INS-000062,Registro no TSE; encerrado em 2007-03-15
+INS-000070,Democratas,DEM,partido,nao_se_aplica,federal,BRA,,INS-000083,Registro no TSE; encerrado em 2022-02-08
+INS-000071,REPUBLICANOS,REPUBLICANOS,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2005-08-25, legenda 10"
+INS-000072,PODEMOS,PODE,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1997-10-02, legenda 20"
+INS-000073,AVANTE,AVANTE,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1994-10-11, legenda 70"
+INS-000074,PATRIOTA,PATRIOTA,partido,nao_se_aplica,federal,BRA,,INS-000086,Registro no TSE; encerrado em 2023-11-09
+INS-000075,MOVIMENTO DEMOCRÁTICO BRASILEIRO,MDB,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1981-06-30, legenda 15"
+INS-000076,DEMOCRACIA CRISTÃ,DC,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1997-08-05, legenda 27"
+INS-000077,SOLIDARIEDADE,SOLIDARIEDADE,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2013-09-24, legenda 77"
+INS-000078,Partido Republicano Progressista,PRP,partido,nao_se_aplica,federal,BRA,,INS-000074,Registro no TSE; encerrado em 2019-03-28
+INS-000079,PARTIDO COMUNISTA DO BRASIL,PCDOB,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1988-06-23, legenda 65"
+INS-000080,Partido Pátria Livre,PPL,partido,nao_se_aplica,federal,BRA,,INS-000079,Registro no TSE; encerrado em 2019-05-28
+INS-000081,CIDADANIA,CIDADANIA,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1992-03-19, legenda 23"
+INS-000082,Partido Social Liberal,PSL,partido,nao_se_aplica,federal,BRA,,INS-000083,Registro no TSE; encerrado em 2022-02-08
+INS-000083,UNIÃO BRASIL,UNIÃO,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2022-02-08, legenda 44"
+INS-000084,Partido Republicano da Ordem Social,PROS,partido,nao_se_aplica,federal,BRA,,INS-000077,Registro no TSE; encerrado em 2023-02-14
+INS-000085,Partido Social Cristão,PSC,partido,nao_se_aplica,federal,BRA,,INS-000072,Registro no TSE; encerrado em 2023-06-15
+INS-000086,PARTIDO RENOVAÇÃO DEMOCRÁTICA,PRD,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2023-11-09, legenda 25"
+INS-000087,MOBILIZAÇÃO NACIONAL,MOBILIZA,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1990-10-25, legenda 33"
+INS-000088,DEMOCRATA,DEMOCRATA,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2015-09-29, legenda 35"
+INS-000089,PARTIDO DEMOCRÁTICO TRABALHISTA,PDT,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1981-11-10, legenda 12"
+INS-000090,PARTIDO DOS TRABALHADORES,PT,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1982-02-11, legenda 13"
+INS-000091,PARTIDO SOCIALISTA BRASILEIRO,PSB,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1988-07-01, legenda 40"
+INS-000092,PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA,PSDB,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1989-08-24, legenda 45"
+INS-000093,PARTIDO VERDE,PV,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1993-09-30, legenda 43"
+INS-000094,PARTIDO SOCIALISTA DOS TRABALHADORES UNIFICADO,PSTU,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1995-12-19, legenda 16"
+INS-000095,PARTIDO COMUNISTA BRASILEIRO,PCB,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1996-05-09, legenda 21"
+INS-000096,PARTIDO RENOVADOR TRABALHISTA BRASILEIRO,PRTB,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1997-02-18, legenda 28"
+INS-000097,PARTIDO DA CAUSA OPERÁRIA,PCO,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 1997-09-30, legenda 29"
+INS-000098,PARTIDO SOCIALISMO E LIBERDADE,PSOL,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2005-09-15, legenda 50"
+INS-000099,PARTIDO SOCIAL DEMOCRÁTICO,PSD,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2011-09-27, legenda 55"
+INS-000100,PARTIDO NOVO,NOVO,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2015-09-15, legenda 30"
+INS-000101,REDE SUSTENTABILIDADE,REDE,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2015-09-22, legenda 18"
+INS-000102,UNIDADE POPULAR,UP,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2019-12-10, legenda 80"
+INS-000103,PARTIDO MISSÃO,MISSÃO,partido,nao_se_aplica,federal,BRA,,,"Registro no TSE, deferido em 2025-11-04, legenda 14"

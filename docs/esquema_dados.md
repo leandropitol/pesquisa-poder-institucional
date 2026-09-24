@@ -65,6 +65,20 @@ Cargos ocupados no tempo. Chave: `id_cargo`; prefixo `CRG`.
 | `id_sucessora` | ref → `instituicoes.id_instituicao` |  | Instituição que a sucedeu (fusão ou mudança de nome de partido) |
 | `observacao` | texto |  |  |
 
+### `denominacoes_partido`
+
+Siglas e nomes de cada partido (registro no TSE) ao longo do tempo. Mudança de nome ou sigla não cria partido novo. Chave: `id_denominacao`; prefixo `DNP`.
+
+| Coluna | Tipo | Obrigatória | Descrição |
+|---|---|---|---|
+| `id_denominacao` | id | sim |  |
+| `id_partido` | ref → `instituicoes.id_instituicao` | sim | Instituição de tipo partido |
+| `sigla` | texto | sim |  |
+| `nome` | texto | sim |  |
+| `data_inicio` | data |  | Vazia quando anterior aos registros consultados |
+| `data_fim` | data |  | Data da decisão que mudou o nome, fundiu ou incorporou o partido |
+| `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
+
 ### `casos`
 
 Agrupamento de processos (operação, ação penal, CPI). Não é unidade de registro. Chave: `id_caso`; prefixo `CAS`.
@@ -157,7 +171,7 @@ Relações entre entidades (membro de, financiou, controla…). Chave: `id_relac
 | `destino_id` | texto | sim |  |
 | `data_inicio` | data | sim |  |
 | `data_fim` | data |  |  |
-| `eixo` | vocab (`eixo`) | sim |  |
+| `eixo` | vocab (`eixo`) |  | Vazio em relações estruturais (por exemplo, fusão de partidos) |
 | `nivel_confianca` | vocab (`nivel_confianca`) | sim |  |
 
 ### `afirmacoes`

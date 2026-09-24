@@ -1,0 +1,2 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/tse_partidos/2026-09-24/tabelas_partidos_registrados.json,https://www.tse.jus.br/partidos/partidos-registrados-no-tse,1,8140,fda61af5901f1b2bbc1924f1f4d00249b39d4506c8dfb53349d2216004cbc545

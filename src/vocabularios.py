@@ -111,6 +111,7 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("membro_de", "é membro de"), ("parte_em_contrato", "é parte em contrato com"), ("financiou", "financiou"),
         ("controla", "controla"), ("subsidiaria_de", "é subsidiária de"), ("participou_de", "participou de"),
         ("representou_brasil_em", "representou o Brasil em"), ("indicou", "indicou"), ("relator_de", "foi relator de"),
+        ("fundiu_se_em", "fundiu-se em"), ("incorporado_por", "foi incorporado por"),
         ("citado_em_colaboracao", "foi citado em colaboração premiada de", {"nivel_maximo": "alegado"}),
         ("citado_em_reportagem", "foi citado em reportagem sobre", {"nivel_maximo": "alegado"}),
     ),

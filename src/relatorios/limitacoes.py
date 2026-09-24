@@ -24,6 +24,26 @@ def _n_csv(caminho: Path) -> int:
     return sum(1 for _ in csv.DictReader(caminho.open(encoding="utf-8"))) if caminho.exists() else 0
 
 
+def _linhas_partidos(base: Path) -> list[str]:
+    inst = ler("instituicoes", base)
+    partidos = inst[inst["tipo_instituicao"] == "partido"]
+    res = CURADORIA / "partidos_resolucao_siglas.csv"
+    linhas = [f"- Partidos: {len(partidos)} registros no TSE, com {len(ler('denominacoes_partido', base))} denominações e "
+              f"{len(ler('relacoes', base).query('tipo_relacao in [\"fundiu_se_em\", \"incorporado_por\"]'))} fusões ou incorporações "
+              "(fonte: página de partidos do TSE, lida no navegador; D-015). A página cobre mudanças a partir da Lei 9.096/1995."]
+    if res.exists():
+        r = pd.read_csv(res, dtype=str).fillna("")
+        soma = {c: int(pd.to_numeric(r[c]).sum()) for c in r.columns if c.startswith("registros_")}
+        total = sum(soma.values())
+        linhas.append(
+            f"- Ligação de siglas das fontes ao partido na data: {soma.get('registros_vigencia', 0)} de {total} na vigência da sigla; "
+            f"{soma.get('registros_partido_existente', 0)} com a sigla fora da vigência, mas com um único partido existente na data "
+            f"(fontes que gravam a sigla atual em registros antigos); {soma.get('registros_mais_proxima', 0)} pela denominação mais próxima no tempo; "
+            f"{soma.get('registros_sem_correspondencia', 0)} sem correspondência. Siglas ligadas pelo nome publicado pela fonte: "
+            f"{', '.join(f'{a} ({b})' for a, b in zip(r['sigla_fonte'], r['apelido_para_siglas_tse']) if b) or 'nenhuma'}.")
+    return linhas
+
+
 def texto(base: Path = BASE) -> str:
     falhas, avisos = validar(base)
     contagens = [(t.nome, len(ler(t.nome, base))) for t in TABELAS]
@@ -56,8 +76,7 @@ def texto(base: Path = BASE) -> str:
             f"- Pares Câmara e Senado identificados como a mesma pessoa automaticamente: {_n_csv(CURADORIA / 'equivalencias_atores_automaticas.csv')}; "
             f"pares ambíguos aguardando revisão: {_n_csv(CURADORIA / 'equivalencias_atores_pendentes.csv')} "
             "(`data/curadoria/equivalencias_atores_pendentes.csv`). Até a revisão, cada lado é um ator separado.",
-            f"- Partidos identificados por sigla: {int((ler('instituicoes', base)['tipo_instituicao'] == 'partido').sum())}. Fusões, mudanças de nome e "
-            "reutilização de sigla (por exemplo, a mesma sigla usada por partidos diferentes em épocas diferentes) ainda não foram revisadas.",
+            *_linhas_partidos(base),
             "",
         ]
         uni = ler("universo_partidos", base)

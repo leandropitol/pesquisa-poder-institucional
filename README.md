@@ -9,7 +9,7 @@ réguas em `docs/protocolo.md`.
 
 ## Estado
 
-Fase 0 (estrutura) concluída. Etapa E1 (Câmara e Senado) coletada e normalizada em 2026-09-24; cobertura e lacunas na parte gerada de `docs/limitacoes.md`. Plano em `docs/plano_coleta.md`.
+Fase 0 (estrutura) concluída. Etapa E1 (Câmara e Senado) coletada e normalizada em 2026-09-24, com partidos ligados ao registro no TSE (fusões, incorporações e mudanças de nome). Cobertura e lacunas na parte gerada de `docs/limitacoes.md`. Plano em `docs/plano_coleta.md`.
 
 ## Estrutura
 

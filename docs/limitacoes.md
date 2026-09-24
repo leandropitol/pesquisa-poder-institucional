@@ -62,19 +62,23 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 55 |
-| `fontes` | 6 |
-| `fonte_oficial` | 6 |
-| `buscas` | 16 |
+| `instituicoes` | 50 |
+| `denominacoes_partido` | 67 |
+| `relacoes` | 17 |
+| `fontes` | 7 |
+| `fonte_oficial` | 7 |
+| `relacao_fonte` | 17 |
+| `buscas` | 17 |
 | `universo_partidos` | 521 |
 
-Tabelas ainda vazias (23): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `relacoes`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `fonte_base_dados`, `evento_fonte`, `relacao_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `qualidade_democratica`, `operacoes_exportacao_bndes`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (21): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `fonte_base_dados`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `qualidade_democratica`, `operacoes_exportacao_bndes`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 16 buscas registradas; 0 com zero resultados.
+- 17 buscas registradas; 0 com zero resultados.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
+- TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
 
 ### Lacunas medidas na etapa E1 (Câmara e Senado)
 
@@ -82,7 +86,8 @@ Tabelas ainda vazias (23): `casos`, `processos`, `fases_processo`, `status_pesso
 - Atores sem nenhuma filiação registrada: 210 de 2703; 209 deles só têm mandato de suplente no Senado, e o Senado não publica filiação para quem não exerceu.
 - Filiações da Câmara cobrem só o período de mandato (fonte: histórico do deputado); fora do mandato, a filiação não é observada.
 - Pares Câmara e Senado identificados como a mesma pessoa automaticamente: 115; pares ambíguos aguardando revisão: 0 (`data/curadoria/equivalencias_atores_pendentes.csv`). Até a revisão, cada lado é um ator separado.
-- Partidos identificados por sigla: 53. Fusões, mudanças de nome e reutilização de sigla (por exemplo, a mesma sigla usada por partidos diferentes em épocas diferentes) ainda não foram revisadas.
+- Partidos: 47 registros no TSE, com 67 denominações e 17 fusões ou incorporações (fonte: página de partidos do TSE, lida no navegador; D-015). A página cobre mudanças a partir da Lei 9.096/1995.
+- Ligação de siglas das fontes ao partido na data: 6539 de 6850 na vigência da sigla; 299 com a sigla fora da vigência, mas com um único partido existente na data (fontes que gravam a sigla atual em registros antigos); 12 pela denominação mais próxima no tempo; 0 sem correspondência. Siglas ligadas pelo nome publicado pela fonte: SDD (SD SOLIDARIEDADE).
 
 - Universo de partidos por ano: de 15 a 30 partidos (2003 a 2026).
 

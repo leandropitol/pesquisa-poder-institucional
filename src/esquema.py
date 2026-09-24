@@ -83,6 +83,13 @@ TABELAS: list[Tabela] = [
         C("id_sucessora", "ref", False, "Instituição que a sucedeu (fusão ou mudança de nome de partido)", fk="instituicoes.id_instituicao"),
         C("observacao", "texto"),
     ), prefixo="INS"),
+    Tabela("denominacoes_partido", "entidades", "Siglas e nomes de cada partido (registro no TSE) ao longo do tempo. Mudança de nome ou sigla não cria partido novo.", ("id_denominacao",), (
+        C("id_denominacao", "id", True),
+        C("id_partido", "ref", True, "Instituição de tipo partido", fk="instituicoes.id_instituicao"),
+        C("sigla", "texto", True), C("nome", "texto", True),
+        C("data_inicio", "data", False, "Vazia quando anterior aos registros consultados"),
+        C("data_fim", "data", False, "Data da decisão que mudou o nome, fundiu ou incorporou o partido"), FONTE,
+    ), prefixo="DNP"),
     Tabela("casos", "entidades", "Agrupamento de processos (operação, ação penal, CPI). Não é unidade de registro.", ("id_caso",), (
         C("id_caso", "id", True), C("nome", "texto", True),
         C("tipo_caso", "vocab", True, vocab="tipo_caso"), C("eixo", "vocab", True, vocab="eixo"),
@@ -130,7 +137,7 @@ TABELAS: list[Tabela] = [
         C("tipo_relacao", "vocab", True, vocab="tipo_relacao"),
         C("destino_tipo", "vocab", True, vocab="tipo_entidade"), C("destino_id", "texto", True),
         C("data_inicio", "data", True), C("data_fim", "data"),
-        C("eixo", "vocab", True, vocab="eixo"),
+        C("eixo", "vocab", False, "Vazio em relações estruturais (por exemplo, fusão de partidos)", vocab="eixo"),
         C("nivel_confianca", "vocab", True, vocab="nivel_confianca"),
     ), prefixo="REL", polimorficas=(("origem_tipo", "origem_id"), ("destino_tipo", "destino_id"))),
     Tabela("afirmacoes", "entidades", "Afirmações que os relatórios podem fazer, em forma sujeito-predicado-objeto.", ("id_afirmacao",), (

@@ -217,6 +217,8 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `representou_brasil_em` | representou o Brasil em |  |
 | `indicou` | indicou |  |
 | `relator_de` | foi relator de |  |
+| `fundiu_se_em` | fundiu-se em |  |
+| `incorporado_por` | foi incorporado por |  |
 | `citado_em_colaboracao` | foi citado em colaboração premiada de | alegado |
 | `citado_em_reportagem` | foi citado em reportagem sobre | alegado |
 

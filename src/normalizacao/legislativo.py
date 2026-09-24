@@ -2,8 +2,10 @@
 
 Lê a coleta mais recente de data/raw/camara e data/raw/senado e gera:
 
-- `instituicoes`: Câmara, Senado e um partido por sigla (siglas reutilizadas ao longo do tempo ficam
-  na mesma instituição até revisão; ver docs/limitacoes.md);
+- `instituicoes`: Câmara, Senado, TSE e os partidos como registros no TSE (src/normalizacao/partidos.py);
+  cada sigla dos registros é ligada ao partido que a usava na data (resumo em
+  data/curadoria/partidos_resolucao_siglas.csv);
+- `denominacoes_partido` e `relacoes` de fusão e incorporação entre partidos, com fonte no TSE;
 - `atores`: deputados e senadores das legislaturas 52 em diante; a mesma pessoa nas duas Casas vira um
   só ator quando o nome parlamentar normalizado e a UF coincidem de forma única (lista em
   data/curadoria/equivalencias_atores_automaticas.csv; casos ambíguos em ..._pendentes.csv; decisões
@@ -28,6 +30,7 @@ from pathlib import Path
 import pandas as pd
 
 from src.base import BASE, RAIZ, RegistroIds, gravar, ler
+from src.normalizacao.partidos import Resolvedor, apelidos_por_nome, montar_partidos
 
 RAW = RAIZ / "data" / "raw"
 MANIFESTOS = RAIZ / "data" / "manifestos"
@@ -295,11 +298,29 @@ def montar(hoje: str | None = None, base: Path = BASE) -> dict:
         if a not in atores:
             atores[a] = {"id_ator": a, "nome": info["nome"], "nome_normalizado": normalizar_nome(info["nome"]), "tipo_ator": "agente_publico", "id_senado": cod}
 
-    def partido(sigla: str) -> str:
-        i = ids.obter("instituicoes", f"partido:{sigla}")
+    # partidos: registro no TSE vigente na data (src/normalizacao/partidos.py)
+    tse = montar_partidos(ids)
+    for i in tse["instituicoes"]:
+        instituicoes[i["id_instituicao"]] = i
+    fontes += tse["fontes"]
+    oficiais += tse["fonte_oficial"]
+    apelidos = apelidos_por_nome(tse["partidos"], nomes_partido)
+    resolver = Resolvedor(tse["partidos"], apelidos)
+    resolucao: dict[str, dict] = defaultdict(lambda: {"vigencia": 0, "partido_existente": 0, "mais_proxima": 0, "sem_correspondencia": 0, "destino": set()})
+
+    def partido(sigla: str, data: str) -> str:
+        p, metodo = resolver(sigla, data)
+        r = resolucao[sigla]
+        r[metodo] += 1
+        if p is not None:
+            i = tse["id_de"][id(p)]
+            r["destino"].add(i)
+            return i
+        i = ids.obter("instituicoes", f"partido_sem_tse:{sigla}")
+        r["destino"].add(i)
         instituicoes.setdefault(i, {"id_instituicao": i, "nome": nomes_partido.get(sigla) or sigla, "sigla": sigla, "tipo_instituicao": "partido",
                                     "poder": "nao_se_aplica", "esfera": "federal", "pais_iso3": "BRA",
-                                    "observacao": "Identificado pela sigla nos registros da Câmara e do Senado"})
+                                    "observacao": "Sigla dos registros da Câmara ou do Senado sem correspondência na página do TSE consultada"})
         return i
 
     filiacoes, cargos = [], []
@@ -315,7 +336,7 @@ def montar(hoje: str | None = None, base: Path = BASE) -> dict:
                            "data_inicio": c["inicio"], "data_fim": c["fim"], "id_fonte": f_hist})
         for f in fs:
             filiacoes.append({"id_filiacao": ids.obter("filiacoes", f"camara:{dep}:{f['legislatura']}:{f['sigla']}:{f['inicio']}"), "id_ator": a,
-                              "id_partido": partido(f["sigla"]), "data_inicio": f["inicio"], "data_fim": f["fim"], "id_fonte": f_hist})
+                              "id_partido": partido(f["sigla"], f["inicio"]), "data_inicio": f["inicio"], "data_fim": f["fim"], "id_fonte": f_hist})
     for cod, ms in mandatos.items():
         a = ids.obter("atores", f"senado:{cod}")
         for m in ms.values():
@@ -333,17 +354,20 @@ def montar(hoje: str | None = None, base: Path = BASE) -> dict:
             if f["fim"] and f["fim"] < INICIO_PERIODO:
                 continue  # filiação encerrada antes do período
             filiacoes.append({"id_filiacao": ids.obter("filiacoes", f"senado:{cod}:{f['sigla']}:{f['inicio']}:{f['fim']}"), "id_ator": a,
-                              "id_partido": partido(f["sigla"]), "data_inicio": f["inicio"], "data_fim": f["fim"], "id_fonte": f_sen_fil})
+                              "id_partido": partido(f["sigla"], f["inicio"]), "data_inicio": f["inicio"], "data_fim": f["fim"], "id_fonte": f_sen_fil})
 
     universo = []
     for ano in range(int(INICIO_PERIODO[:4]), int(hoje[:4]) + 1):
-        for s in sorted(universo_do_ano(historicos, legislaturas, ano)):
-            universo.append({"ano": str(ano), "id_partido": partido(s), "criterio": f"Partido com ao menos um deputado federal em exercício em {DIA_UNIVERSO[3:]}/{DIA_UNIVERSO[:2]}/{ano}, pelo histórico da Câmara",
+        dia = f"{ano}-{DIA_UNIVERSO}"
+        for i in sorted({partido(s, dia) for s in universo_do_ano(historicos, legislaturas, ano)}):
+            universo.append({"ano": str(ano), "id_partido": i, "criterio": f"Partido com ao menos um deputado federal em exercício em {DIA_UNIVERSO[3:]}/{DIA_UNIVERSO[:2]}/{ano}, pelo histórico da Câmara",
                              "id_fonte": f_hist})
 
     return {"ids": ids, "instituicoes": list(instituicoes.values()), "atores": list(atores.values()), "fontes": fontes, "fonte_oficial": oficiais,
             "filiacoes": filiacoes, "cargos": cargos, "universo_partidos": universo, "pares": pares, "ambiguos": ambiguos, "conflitos": conflitos,
-            "camara_info": camara_info, "senado_info": senado_info, "datas": (data_c, data_s), "sem_exercicio": sem_exercicio, "filiacoes_sem_data": filiacoes_sem_data}
+            "camara_info": camara_info, "senado_info": senado_info, "datas": (data_c, data_s), "sem_exercicio": sem_exercicio, "filiacoes_sem_data": filiacoes_sem_data,
+            "denominacoes_partido": tse["denominacoes_partido"], "relacoes": tse["relacoes"], "relacao_fonte": tse["relacao_fonte"],
+            "resolucao_siglas": resolucao, "apelidos": apelidos}
 
 
 def _mesclar(nome: str, novas: list[dict], base: Path, remover=None) -> pd.DataFrame:
@@ -365,7 +389,14 @@ def gravar_resultado(r: dict, base: Path = BASE) -> None:
         existentes = set(ler(nome, base)["id_fonte"])
         novas = [l for l in r[nome] if l["id_fonte"] not in existentes]
         gravar(nome, pd.concat([ler(nome, base), pd.DataFrame(novas, dtype=str)], ignore_index=True), base)
-    gravar("instituicoes", _mesclar("instituicoes", r["instituicoes"], base), base)
+    # partidos: o conjunto do TSE (mais siglas sem correspondência) substitui os anteriores
+    gravar("instituicoes", _mesclar("instituicoes", r["instituicoes"], base, remover=lambda df: df["tipo_instituicao"] == "partido"), base)
+    gravar("denominacoes_partido", pd.DataFrame(r["denominacoes_partido"], dtype=str), base)
+    tipos_partido = {"fundiu_se_em", "incorporado_por"}
+    antigas_rel = ler("relacoes", base)
+    ids_rel_partido = set(antigas_rel.loc[antigas_rel["tipo_relacao"].isin(tipos_partido), "id_relacao"])
+    gravar("relacoes", _mesclar("relacoes", r["relacoes"], base, remover=lambda df: df["tipo_relacao"].isin(tipos_partido)), base)
+    gravar("relacao_fonte", _mesclar("relacao_fonte", r["relacao_fonte"], base, remover=lambda df: df["id_relacao"].isin(ids_rel_partido)), base)
     # atores das Casas são substituídos pelo conjunto da coleta atual (quem tem id_camara ou id_senado)
     gravar("atores", _mesclar("atores", r["atores"], base, remover=lambda df: (df["id_camara"] != "") | (df["id_senado"] != "")), base)
     for nome in ("filiacoes", "cargos", "universo_partidos"):
@@ -380,6 +411,14 @@ def gravar_resultado(r: dict, base: Path = BASE) -> None:
         w.writerow(["id_camara", "nome_camara", "id_senado", "nome_senado", "metodo"])
         for c, s, m in sorted(r["pares"]):
             w.writerow([c, r["camara_info"][c]["nome"], s, r["senado_info"][s]["nome"], m])
+    inst = {i["id_instituicao"]: i for i in r["instituicoes"]}
+    with (CURADORIA / "partidos_resolucao_siglas.csv").open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f, lineterminator="\n")
+        metodos = ["vigencia", "partido_existente", "mais_proxima", "sem_correspondencia"]
+        w.writerow(["sigla_fonte", "apelido_para_siglas_tse", "partidos"] + [f"registros_{m}" for m in metodos])
+        for s, info in sorted(r["resolucao_siglas"].items()):
+            destinos = sorted(info["destino"])
+            w.writerow([s, " ".join(r["apelidos"].get(s, [])), "; ".join(f"{d} ({inst[d]['sigla']})" for d in destinos)] + [info[m] for m in metodos])
     with (CURADORIA / "equivalencias_atores_pendentes.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, lineterminator="\n")
         w.writerow(["id_camara", "nome_camara", "id_senado", "nome_senado", "motivo"])
@@ -393,6 +432,8 @@ def run() -> None:
     print(f"coletas: Câmara {r['datas'][0]}, Senado {r['datas'][1]}")
     for nome in ("instituicoes", "atores", "filiacoes", "cargos", "universo_partidos", "fontes"):
         print(f"{nome}: {len(r[nome])}")
+    soma = {m: sum(v[m] for v in r["resolucao_siglas"].values()) for m in ("vigencia", "partido_existente", "mais_proxima", "sem_correspondencia")}
+    print(f"resolução de siglas para o registro do TSE: {soma}; apelidos por nome: {r['apelidos']}")
     print(f"filiações do Senado sem data de início (fora da base): {len(r['filiacoes_sem_data'])}")
     print(f"deputados listados sem exercício desde 2003 (fora da base): {len(r['sem_exercicio'])}")
     print(f"mesma pessoa nas duas Casas: {len(r['pares'])}; pares ambíguos para revisão: {len(r['ambiguos'])}; conflitos de id: {len(r['conflitos'])}")
