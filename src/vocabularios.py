@@ -141,7 +141,7 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("vdem_row", "V-Dem Regimes of the World (0 a 3)"),
         ("vdem_ldi", "V-Dem Liberal Democracy Index (0 a 1)"),
         ("fh_status", "Freedom House, status (F, PF, NF)"),
-        ("fh_total", "Freedom House, pontuação total (0 a 100)"),
+        ("fh_total", "Freedom House, pontuação total (-4 a 100; direitos políticos podem ficar negativos)"),
     ),
     "doador_tipo": _v(
         ("pessoa_juridica", "Pessoa jurídica"), ("pessoa_fisica_agregado", "Pessoas físicas, agregado"),

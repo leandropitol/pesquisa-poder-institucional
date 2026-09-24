@@ -2834,6 +2834,9 @@ buscas,src.coleta.camara|2026-09-24|deputados da legislatura 57,BSC-000014
 buscas,src.coleta.camara|2026-09-24|histórico de 2079 deputados das legislaturas 52 a 57,BSC-000015
 buscas,src.coleta.camara|2026-09-24|67 partidos citados,BSC-000016
 buscas,"src.coleta.tse_partidos|2026-09-24|partidos registrados; fusões, incorporações e mudanças de nome ou sigla desde a Lei 9.096/1995; números de legenda reutilizados",BSC-000017
+buscas,src.coleta.reguas|2026-09-24|arquivo vdem_v16.RData,BSC-000018
+buscas,src.coleta.reguas|2026-09-24|arquivo Country_and_Territory_Ratings_and_Statuses_FIW_1973-2024.xlsx,BSC-000019
+buscas,src.coleta.reguas|2026-09-24|arquivo All_data_FIW_2013-2024.xlsx,BSC-000020
 cargos,camara:3151:53,CRG-000001
 cargos,camara:3151:54,CRG-000002
 cargos,camara:3155:53,CRG-000003
@@ -14971,6 +14974,9 @@ fontes,raw:data/raw/camara/2026-09-24/partidos.jsonl,FNT-000004
 fontes,raw:data/raw/senado/2026-09-24/senadores_por_legislatura.jsonl,FNT-000005
 fontes,raw:data/raw/senado/2026-09-24/filiacoes.jsonl,FNT-000006
 fontes,raw:data/raw/tse_partidos/2026-09-24/tabelas_partidos_registrados.json,FNT-000007
+fontes,raw:data/raw/vdem/2026-09-24/vdem_v16.RData,FNT-000008
+fontes,raw:data/raw/freedom_house/2026-09-24/Country_and_Territory_Ratings_and_Statuses_FIW_1973-2024.xlsx,FNT-000009
+fontes,raw:data/raw/freedom_house/2026-09-24/All_data_FIW_2013-2024.xlsx,FNT-000010
 instituicoes,casa:camara,INS-000001
 instituicoes,casa:senado,INS-000002
 instituicoes,partido:PFL,INS-000003

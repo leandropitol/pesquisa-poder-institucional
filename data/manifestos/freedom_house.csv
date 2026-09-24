@@ -1,0 +1,3 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/freedom_house/2026-09-24/Country_and_Territory_Ratings_and_Statuses_FIW_1973-2024.xlsx,https://freedomhouse.org/sites/default/files/2025-02/Country_and_Territory_Ratings_and_Statuses_FIW_1973-2024.xlsx,1,214340,b17283b2b9e96d2aa02fa4d32ff3f9184a50e38292b1891a3448b3ecf91936be
+2026-09-24,data/raw/freedom_house/2026-09-24/All_data_FIW_2013-2024.xlsx,https://freedomhouse.org/sites/default/files/2025-02/All_data_FIW_2013-2024.xlsx,1,499762,3dfa43b074baa2ff0fb353bb53e8baccea1065a91c8490a8c3b97bef67c44205

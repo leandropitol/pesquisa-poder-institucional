@@ -65,20 +65,24 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `instituicoes` | 50 |
 | `denominacoes_partido` | 67 |
 | `relacoes` | 17 |
-| `fontes` | 7 |
+| `fontes` | 10 |
 | `fonte_oficial` | 7 |
+| `fonte_base_dados` | 3 |
 | `relacao_fonte` | 17 |
-| `buscas` | 17 |
+| `buscas` | 20 |
 | `universo_partidos` | 521 |
+| `qualidade_democratica` | 16651 |
 
-Tabelas ainda vazias (21): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `fonte_base_dados`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `qualidade_democratica`, `operacoes_exportacao_bndes`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (19): `casos`, `processos`, `fases_processo`, `status_pessoa_processo`, `eventos`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `evento_fonte`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `operacoes_exportacao_bndes`, `votos_multilaterais`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 17 buscas registradas; 0 com zero resultados.
+- 20 buscas registradas; 0 com zero resultados.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
+- Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
+- V-Dem Institute, pacote vdemdata (GitHub, tag V16): 1 buscas, coleta de 2026-09-24.
 
 ### Lacunas medidas na etapa E1 (Câmara e Senado)
 
@@ -90,6 +94,17 @@ Tabelas ainda vazias (21): `casos`, `processos`, `fases_processo`, `status_pesso
 - Ligação de siglas das fontes ao partido na data: 6539 de 6850 na vigência da sigla; 299 com a sigla fora da vigência, mas com um único partido existente na data (fontes que gravam a sigla atual em registros antigos); 12 pela denominação mais próxima no tempo; 0 sem correspondência. Siglas ligadas pelo nome publicado pela fonte: SDD (SD SOLIDARIEDADE).
 
 - Universo de partidos por ano: de 15 a 30 partidos (2003 a 2026).
+
+### Réguas externas (etapa E2)
+
+- `fh_status`: 196 países, de 2000 a 2024.
+- `fh_total`: 195 países, de 2012 a 2024.
+- `vdem_ldi`: 179 países, de 2000 a 2025.
+- `vdem_row`: 179 países, de 2000 a 2025.
+- Concordância entre as réguas na classificação "baixa qualidade democrática" (V-Dem RoW 0 ou 1; Freedom House Não Livre): 80,7% dos 4318 pares país-ano com as duas réguas. Os relatórios mostram as duas, sem combiná-las.
+- A Freedom House não publicou abertamente a edição 2026 (ano de 2025): os dados passaram a ser atendidos por pedido por e-mail. O ano de 2025 só tem V-Dem.
+- Países só no V-Dem: 5 (HKG, PSE, PSG, SML, ZZB). Países só na Freedom House: 22 (a maioria microestados que o V-Dem não cobre; inclui Sérvia e Montenegro, SCG, que o V-Dem registra como Sérvia). Códigos de país seguem o V-Dem (ISO 3166-1 alfa-3 quando existe); a ligação dos nomes da Freedom House está em `data/curadoria/paises_freedom_house.csv`.
+- Os valores do V-Dem são estimativas de modelo com incerteza (intervalos publicados pelo V-Dem, não importados); valores próximos ao limiar entre categorias devem ser lidos com cautela.
 
 ### Validador
 

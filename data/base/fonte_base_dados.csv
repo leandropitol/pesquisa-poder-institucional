@@ -1,1 +1,4 @@
 id_fonte,organizacao,conjunto,versao,variavel,link
+FNT-000008,V-Dem Institute,Country-Year: V-Dem Full+Others,v16 (março de 2026),v2x_regime; v2x_libdem,https://github.com/vdeminstitute/vdemdata/tree/V16
+FNT-000009,Freedom House,Country and Territory Ratings and Statuses,edições 1973 a 2025 (anos sob avaliação 1972 a 2024),Status,https://freedomhouse.org/sites/default/files/2025-02/Country_and_Territory_Ratings_and_Statuses_FIW_1973-2024.xlsx
+FNT-000010,Freedom House,All data FIW 2013-2025,edições 2013 a 2025 (anos sob avaliação 2012 a 2024),Total,https://freedomhouse.org/sites/default/files/2025-02/All_data_FIW_2013-2024.xlsx

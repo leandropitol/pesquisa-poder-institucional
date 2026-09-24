@@ -61,7 +61,7 @@ VALORES_INDICE = {
     "vdem_row": lambda v: v in {"0", "1", "2", "3"},
     "vdem_ldi": lambda v: bool(FORMATOS["decimal"].match(v)) and 0 <= float(v) <= 1,
     "fh_status": lambda v: v in {"F", "PF", "NF"},
-    "fh_total": lambda v: bool(FORMATOS["inteiro"].match(v)) and 0 <= int(v) <= 100,
+    "fh_total": lambda v: bool(FORMATOS["inteiro"].match(v)) and -4 <= int(v) <= 100,  # direitos políticos podem ficar negativos (pergunta discricionária B)
 }
 
 

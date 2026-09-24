@@ -84,6 +84,30 @@ def texto(base: Path = BASE) -> str:
             por_ano = uni.groupby("ano").size()
             linhas += [f"- Universo de partidos por ano: de {por_ano.min()} a {por_ano.max()} partidos ({por_ano.index.min()} a {por_ano.index.max()}).", ""]
 
+    q = ler("qualidade_democratica", base)
+    if len(q):
+        from src.normalizacao.reguas import classificar
+        cob = q.groupby("indice").agg(paises=("pais_iso3", "nunique"), ano_min=("ano", "min"), ano_max=("ano", "max"))
+        linhas += ["### Réguas externas (etapa E2)", ""]
+        linhas += [f"- `{i}`: {r.paises} países, de {r.ano_min} a {r.ano_max}." for i, r in cob.iterrows()]
+        par = q[q["indice"].isin(["vdem_row", "fh_status"])].copy()
+        par["baixa"] = [classificar(i, v) == "baixa" for i, v in zip(par["indice"], par["valor"])]
+        ambos = par.pivot_table(index=["pais_iso3", "ano"], columns="indice", values="baixa", aggfunc="first").dropna()
+        so_vdem = set(q.loc[q["indice"] == "vdem_row", "pais_iso3"]) - set(q.loc[q["indice"] == "fh_status", "pais_iso3"])
+        so_fh = set(q.loc[q["indice"] == "fh_status", "pais_iso3"]) - set(q.loc[q["indice"] == "vdem_row", "pais_iso3"])
+        linhas += [
+            f"- Concordância entre as réguas na classificação \"baixa qualidade democrática\" (V-Dem RoW 0 ou 1; Freedom House Não Livre): "
+            f"{(ambos['vdem_row'] == ambos['fh_status']).mean() * 100:.1f}%".replace(".", ",") + f" dos {len(ambos)} pares país-ano com as duas réguas. Os relatórios mostram as duas, sem combiná-las.",
+            f"- A Freedom House não publicou abertamente a edição 2026 (ano de 2025): os dados passaram a ser atendidos por pedido por e-mail. "
+            "O ano de 2025 só tem V-Dem.",
+            f"- Países só no V-Dem: {len(so_vdem)} ({', '.join(sorted(so_vdem))}). Países só na Freedom House: {len(so_fh)} "
+            "(a maioria microestados que o V-Dem não cobre; inclui Sérvia e Montenegro, SCG, que o V-Dem registra como Sérvia). Códigos de país seguem o V-Dem (ISO 3166-1 alfa-3 quando existe); a ligação dos nomes da "
+            "Freedom House está em `data/curadoria/paises_freedom_house.csv`.",
+            "- Os valores do V-Dem são estimativas de modelo com incerteza (intervalos publicados pelo V-Dem, não importados); valores próximos ao limiar "
+            "entre categorias devem ser lidos com cautela.",
+            "",
+        ]
+
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
     if len(avisos) > 20:

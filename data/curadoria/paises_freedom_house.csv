@@ -1,0 +1,40 @@
+nome_freedom_house,pais_iso3,justificativa
+Andorra,AND,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Antigua and Barbuda,ATG,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Bahamas,BHS,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Belize,BLZ,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Brunei,BRN,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Cabo Verde,CPV,ISO 3166-1 alfa-3; grafia diferente no V-Dem (Cape Verde)
+Congo (Brazzaville),COG,ISO 3166-1 alfa-3 (República do Congo); grafia diferente no V-Dem
+Congo (Kinshasa),COD,ISO 3166-1 alfa-3 (República Democrática do Congo); grafia diferente no V-Dem
+Cote d'Ivoire,CIV,ISO 3166-1 alfa-3; grafia diferente no V-Dem (Ivory Coast)
+Czech Republic,CZE,ISO 3166-1 alfa-3 (Tchéquia); grafia diferente no V-Dem
+Dominica,DMA,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Grenada,GRD,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Kiribati,KIR,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Liechtenstein,LIE,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Marshall Islands,MHL,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Micronesia,FSM,ISO 3166-1 alfa-3 (Estados Federados da Micronésia); país não coberto pelo V-Dem
+Monaco,MCO,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Myanmar,MMR,ISO 3166-1 alfa-3; grafia diferente no V-Dem (Burma/Myanmar)
+Nauru,NRU,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Palau,PLW,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Samoa,WSM,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+San Marino,SMR,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Serbia and Montenegro,SCG,código alfa-3 usado pela ISO 3166-1 até 2006 para Sérvia e Montenegro
+St. Kitts and Nevis,KNA,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+St. Lucia,LCA,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+St. Vincent and the Grenadines,VCT,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Tonga,TON,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+Turkey,TUR,ISO 3166-1 alfa-3; grafia diferente no V-Dem (Türkiye)
+Tuvalu,TUV,ISO 3166-1 alfa-3; país não coberto pelo V-Dem
+United States,USA,ISO 3166-1 alfa-3; grafia diferente no V-Dem (United States of America)
+Czechoslovakia,,entidade extinta antes de 2000; fora do período
+"Germany, E.",,entidade extinta antes de 2000; fora do período
+"Germany, W.",,entidade extinta antes de 2000; fora do período
+USSR,,entidade extinta antes de 2000; fora do período
+"Vietnam, N.",,entidade extinta antes de 2000; fora do período
+"Vietnam, S.",,entidade extinta antes de 2000; fora do período
+"Yemen, N.",,entidade extinta antes de 2000; fora do período
+"Yemen, S.",,entidade extinta antes de 2000; fora do período
+Yugoslavia,,entidade extinta antes de 2000 na planilha (a partir de 2003 aparece como Serbia and Montenegro); fora do período

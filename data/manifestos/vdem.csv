@@ -1,0 +1,2 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-24,data/raw/vdem/2026-09-24/vdem_v16.RData,https://raw.githubusercontent.com/vdeminstitute/vdemdata/V16/data/vdem.RData,1,33878255,39b412d39a061c18f20c98e4ad4d6355b05a0441df31be4ee9aec420dc3d95ea

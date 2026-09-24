@@ -93,6 +93,18 @@ class Execucao:
         self.arquivos[arquivo]["n_requisicoes"] += 1
         return corpo
 
+    def baixar(self, cliente: "Cliente", url: str, arquivo: str) -> Path:
+        """Baixa um arquivo inteiro (planilha, pacote de dados) sem alteração."""
+        destino = self.pasta / arquivo
+        if destino.exists():
+            raise FileExistsError(f"{destino} já existe: data/raw é imutável; use outra data de coleta")
+        r = cliente.get(url)
+        r.raise_for_status()
+        self.pasta.mkdir(parents=True, exist_ok=True)
+        destino.write_bytes(r.content)
+        self.arquivos[arquivo] = {"url_base": url, "n_requisicoes": 1}
+        return destino
+
     def fechar(self) -> list[dict]:
         for f in self._abertos.values():
             f.close()
