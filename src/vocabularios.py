@@ -44,6 +44,7 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("empresa", "Empresa (natureza pública ou privada não classificada)"),
         ("partido", "Partido político"), ("governo_estrangeiro", "Governo estrangeiro"),
         ("organismo_multilateral", "Organismo multilateral"), ("rede_partidaria_transnacional", "Rede partidária transnacional"),
+        ("forum_politico_nao_partidario", "Fórum político transnacional não partidário (reúne pessoas ou organizações que não são partidos)"),
         ("outro", "Outro"),
     ),
     "poder": _v(
@@ -110,7 +111,7 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("ator", "Ator (tabela atores)"), ("instituicao", "Instituição"), ("caso", "Caso"), ("processo", "Processo"), ("evento", "Evento"),
     ),
     "tipo_relacao": _v(
-        ("membro_de", "é membro de"), ("parte_em_contrato", "é parte em contrato com"), ("financiou", "financiou"),
+        ("membro_de", "é membro de"), ("observador_de", "é observador em"), ("parte_em_contrato", "é parte em contrato com"), ("financiou", "financiou"),
         ("controla", "controla"), ("subsidiaria_de", "é subsidiária de"), ("participou_de", "participou de"),
         ("representou_brasil_em", "representou o Brasil em"), ("indicou", "indicou"), ("relator_de", "foi relator de"),
         ("fundiu_se_em", "fundiu-se em"), ("incorporado_por", "foi incorporado por"),

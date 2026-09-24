@@ -192,6 +192,7 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
     linhas += _linhas_oea(vm_todos[vm_todos["id_organismo"].map(siglas) == "AG/OEA"])
+    linhas += _linhas_redes(base)
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -277,6 +278,35 @@ def _linhas_stf(proc: pd.DataFrame, base: Path) -> list[str]:
         "sem inquéritos. Só os de 2026 estão completos e foram registrados; neles, 22 de 140 AP e Inq trazem mais de um assunto.",
         "- Número único CNJ só para os processos em tramitação (planilha do acervo). A URL gravada é a consulta por classe e número do portal, "
         "conferida no navegador para a AP 470.",
+        "",
+    ]
+
+
+def _linhas_redes(base: Path) -> list[str]:
+    """Bloco D: filiação de partidos brasileiros a redes transnacionais (D-040)."""
+    rel = ler("relacoes", base)
+    rel = rel[rel["tipo_relacao"].isin(["membro_de", "observador_de"])]
+    if not len(rel):
+        return []
+    inst = ler("instituicoes", base)
+    redes = inst[inst["tipo_instituicao"].isin(["rede_partidaria_transnacional", "forum_politico_nao_partidario"])]
+    com = set(rel["destino_id"])
+    sem = redes[~redes["id_instituicao"].isin(com)]
+    return [
+        "### Redes partidárias transnacionais (etapa E8, bloco D)", "",
+        f"- {len(rel)} períodos de filiação ou observação de partidos brasileiros em {len(com)} redes, lidos nas listas de membros publicadas "
+        "pelas próprias redes, em cópias anuais do Internet Archive (D-040). As datas são a primeira e a última observação no arquivo, não "
+        "as datas de filiação ou de saída; data final vazia quer dizer que o partido está na cópia de 2026.",
+        "- Cobertura desigual: o arquivo não tem lista de membros utilizável do Foro de São Paulo antes de 2014, da Internacional Socialista "
+        "de 2003 a 2018 (as páginas antigas não trazem a lista no texto), da International Democrat Union de 2007 a 2017 (lista carregada por script, "
+        "fora da cópia), da Aliança Progressista antes de 2014, da UPLA depois de 2003, nem da ODCA e da Internacional Democrata Centrista "
+        "depois de 2016 e de 2013. Ausência de cópia não é ausência de filiação.",
+        "- Listas desatualizadas pela própria rede são registradas como estão (por exemplo, \"PPS\" no Foro de São Paulo depois da mudança "
+        "para Cidadania; \"Democratas\" na International Democrat Union depois da fusão no União Brasil); a sigla é ligada ao partido do "
+        "registro no TSE.",
+        "- Sem partido brasileiro nas listas lidas: " + (", ".join(sorted(sem["nome"])) if len(sem) else "nenhuma rede") + ". O Grupo de "
+        "Puebla e o Foro de Madri reúnem pessoas; a participação de pessoas fica para etapa própria.",
+        "- Filiação a rede é relação política pública; o relatório não a liga a registros dos eixos 1 e 3.",
         "",
     ]
 

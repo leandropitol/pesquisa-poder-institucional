@@ -1,0 +1,40 @@
+id_rede,nome,tipo,url,busca,observacao
+FSP,Foro de São Paulo,rede_partidaria,http://forodesaopaulo.org/partidos/,exata,lista de partidos membros por país (site atual)
+FSP,Foro de São Paulo,rede_partidaria,http://forodesaopaulo.org.br/,exata,site anterior (2005 a 2013)
+IS,Internacional Socialista,rede_partidaria,https://www.socialistinternational.org/about-us/members/,exata,lista de membros (site atual)
+IS,Internacional Socialista,rede_partidaria,http://www.socialistinternational.org/about.cfm,exata,site anterior (2008 a 2019)
+IS,Internacional Socialista,rede_partidaria,http://www.socialistinternational.org/5congress/xxisicongress/members.html,exata,lista de membros no XXI Congresso (1999)
+IS,Internacional Socialista,rede_partidaria,http://www.socialistinternational.org/5congress/xxi-paris/members.html,exata,lista de membros no XXI Congresso (1999)
+AP,Aliança Progressista,rede_partidaria,http://progressive-alliance.info/network/parties-and-organisations/,exata,partidos e organizações da rede
+AP,Aliança Progressista,rede_partidaria,http://progressive-alliance.info/participants/,exata,participantes (2014 e 2015)
+AP,Aliança Progressista,rede_partidaria,http://progressive-alliance.info/network/,exata,página da rede
+IDU,International Democrat Union,rede_partidaria,http://www.idu.org/memberorganizations.asp,exata,site anterior (2000)
+IDU,International Democrat Union,rede_partidaria,http://www.idu.org/membership.aspx,exata,site anterior (2007 a 2015)
+IDU,International Democrat Union,rede_partidaria,http://www.idu.org/member.aspx,exata,site anterior (2007 a 2014)
+IDU,International Democrat Union,rede_partidaria,http://idu.org/member-parties,exata,site de 2015 a 2018
+IDU,International Democrat Union,rede_partidaria,http://idu.org/members/member-parties,exata,site de 2015 a 2018
+IDU,International Democrat Union,rede_partidaria,https://idu.org/members/,exata,lista de membros (site atual)
+IL,Internacional Liberal,rede_partidaria,http://www.liberal-international.org/members.asp,exata,site anterior (2005 a 2016)
+IL,Internacional Liberal,rede_partidaria,http://liberal-international.org/site/full_members.html,exata,membros plenos (2016)
+IL,Internacional Liberal,rede_partidaria,http://liberal-international.org/site/observer_members.html,exata,membros observadores (2016)
+IL,Internacional Liberal,rede_partidaria,https://liberal-international.org/our-members/regions/latin-america/,exata,membros da América Latina (site atual)
+IDC,Internacional Democrata Centrista,rede_partidaria,http://www.idc-cdi.org/parties/miembros_idc/brasil_,prefixo,páginas de partidos brasileiros membros (site anterior)
+IDC,Internacional Democrata Centrista,rede_partidaria,http://www.idc-cdi.com/partidos.php,exata,lista de partidos (2013)
+ODCA,Organização Democrata Cristã da América,rede_partidaria,http://www.odca.org.mx/espanol/miembros.html,exata,lista de membros (2007)
+ODCA,Organização Democrata Cristã da América,rede_partidaria,http://www.odca.org.mx/miembros.html,exata,lista de membros (2008)
+ODCA,Organização Democrata Cristã da América,rede_partidaria,http://www.odca.org.mx/partidos.php,exata,lista de partidos (2011)
+ODCA,Organização Democrata Cristã da América,rede_partidaria,http://www.odca.org.mx/partidos2.php,exata,lista de partidos (2013)
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,http://www.copppal.org.mx/partidos_integrantes.html,exata,site anterior
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,http://www.copppal.org.mx/partidosintegrantes.html,exata,site anterior
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,http://www.copppal.org.mx/directorio_partidos.html,exata,site anterior
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,http://www.copppal.org.mx/p-miembros.htm,exata,site anterior (2013)
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,http://www.copppal.org/contenidos/institucional/partidos_miembros.php,exata,site de 2015
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,http://www.copppal.org/paises-y-partidos-miembros,exata,site de 2016 a 2020
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,https://www.copppal.org/paises-y-partidos-miembros-de-la-copppal,exata,site de 2020
+COPPPAL,Conferência Permanente de Partidos Políticos da América Latina e do Caribe,rede_partidaria,https://www.copppal.org/partidos-miembros/,exata,lista de partidos membros (site atual)
+UPLA,União de Partidos Latino-Americanos,rede_partidaria,http://www.upla.net/miembro_lista.htm,exata,lista de membros (2001)
+UPLA,União de Partidos Latino-Americanos,rede_partidaria,http://upla.net/miembros.htm,exata,lista de membros (2002)
+UPLA,União de Partidos Latino-Americanos,rede_partidaria,http://upla.net/upla/miembros.php,exata,lista de membros (2003 em diante)
+FM,Foro de Madri,forum_nao_partidario,https://foromadrid.org/carta-de-madrid/,exata,Carta de Madri e signatários (pessoas e partidos)
+FM,Foro de Madri,forum_nao_partidario,https://foromadrid.org/que-es-foro-madrid/,exata,apresentação do fórum
+GP,Grupo de Puebla,forum_nao_partidario,https://www.grupodepuebla.org/,exata,página inicial (integrantes são pessoas)

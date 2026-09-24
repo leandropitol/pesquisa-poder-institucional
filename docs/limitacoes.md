@@ -62,18 +62,18 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 1471 |
+| `instituicoes` | 1482 |
 | `denominacoes_partido` | 67 |
 | `processos` | 5250 |
 | `fases_processo` | 5256 |
 | `eventos` | 2297 |
-| `relacoes` | 2409 |
-| `fontes` | 47 |
-| `fonte_oficial` | 44 |
+| `relacoes` | 2429 |
+| `fontes` | 68 |
+| `fonte_oficial` | 65 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
-| `relacao_fonte` | 2409 |
-| `buscas` | 94 |
+| `relacao_fonte` | 2449 |
+| `buscas` | 133 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -84,11 +84,22 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### Buscas
 
-- 94 buscas registradas; 14 com zero resultados.
+- 133 buscas registradas; 17 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Aliança Progressista: 3 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Conferência Permanente de Partidos Políticos da América Latina e do Caribe: 8 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Foro de Madri: 2 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Foro de São Paulo: 2 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Grupo de Puebla: 1 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Internacional Democrata Centrista: 2 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Internacional Liberal: 4 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Internacional Socialista: 4 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): International Democrat Union: 6 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): Organização Democrata Cristã da América: 4 buscas, coleta de 2026-09-24.
+- Internet Archive (Wayback Machine): União de Partidos Latino-Americanos: 3 buscas, coleta de 2026-09-24.
 - OEA, atas das sessões plenárias da Assembleia Geral: 22 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral: 25 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
@@ -173,6 +184,14 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Notas de rodapé do Brasil nas resoluções incluídas: 0.
 - Sem ata da sessão (download recusado pelo servidor da OEA: 2005, 2007, 2013, 2014 e 2015), não dá para dizer se houve votação; estas resoluções incluídas ficam fora da base: AG/DEC. 54 (XXXVII-O/07), AG/RES. 2306 (XXXVII-O/07), AG/RES. 2856 (XLIV-O/14), AG/RES. 2877 (XLV-O/15).
 - Volumes de resoluções de 2003, 2005 e 2006 não foram obtidos (erro do servidor da OEA); o segundo arquivo da sessão extraordinária de 2009 veio do repositório de documentos da OEA, porque o link do índice recusa o acesso; resoluções do Conselho Permanente ainda não foram indexadas.
+
+### Redes partidárias transnacionais (etapa E8, bloco D)
+
+- 20 períodos de filiação ou observação de partidos brasileiros em 8 redes, lidos nas listas de membros publicadas pelas próprias redes, em cópias anuais do Internet Archive (D-040). As datas são a primeira e a última observação no arquivo, não as datas de filiação ou de saída; data final vazia quer dizer que o partido está na cópia de 2026.
+- Cobertura desigual: o arquivo não tem lista de membros utilizável do Foro de São Paulo antes de 2014, da Internacional Socialista de 2003 a 2018 (as páginas antigas não trazem a lista no texto), da International Democrat Union de 2007 a 2017 (lista carregada por script, fora da cópia), da Aliança Progressista antes de 2014, da UPLA depois de 2003, nem da ODCA e da Internacional Democrata Centrista depois de 2016 e de 2013. Ausência de cópia não é ausência de filiação.
+- Listas desatualizadas pela própria rede são registradas como estão (por exemplo, "PPS" no Foro de São Paulo depois da mudança para Cidadania; "Democratas" na International Democrat Union depois da fusão no União Brasil); a sigla é ligada ao partido do registro no TSE.
+- Sem partido brasileiro nas listas lidas: Foro de Madri, Grupo de Puebla, União de Partidos Latino-Americanos. O Grupo de Puebla e o Foro de Madri reúnem pessoas; a participação de pessoas fica para etapa própria.
+- Filiação a rede é relação política pública; o relatório não a liga a registros dos eixos 1 e 3.
 
 ### Validador
 

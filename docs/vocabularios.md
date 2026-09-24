@@ -62,6 +62,7 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `governo_estrangeiro` | Governo estrangeiro |
 | `organismo_multilateral` | Organismo multilateral |
 | `rede_partidaria_transnacional` | Rede partidária transnacional |
+| `forum_politico_nao_partidario` | Fórum político transnacional não partidário (reúne pessoas ou organizações que não são partidos) |
 | `outro` | Outro |
 
 ## `poder`
@@ -212,6 +213,7 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | Código | Rótulo | nivel_maximo |
 |---|---|---|
 | `membro_de` | é membro de |  |
+| `observador_de` | é observador em |  |
 | `parte_em_contrato` | é parte em contrato com |  |
 | `financiou` | financiou |  |
 | `controla` | controla |  |

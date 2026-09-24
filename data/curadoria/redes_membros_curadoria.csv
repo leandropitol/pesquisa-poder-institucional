@@ -1,0 +1,33 @@
+id_rede,sigla,decisao,papel,motivo
+AP,PT,aceita,membro,"lista de partidos e organizações da rede: ""Brazil Worker's Party (PT)"""
+AP,PSB,aceita,membro,"lista de partidos e organizações da rede: ""Brazil Brazilian Socialist Party (PSB)"""
+COPPPAL,PDT,aceita,membro,lista de partidos membros por país (Brasil)
+COPPPAL,PT,aceita,membro,lista de partidos membros por país (Brasil)
+COPPPAL,PMDB,aceita,membro,lista de partidos membros por país (Brasil); de 2003 a 2006 a lista escreve a sigla como MDB
+COPPPAL,MDB,aceita,membro,"mesmo partido (PMDB), escrito ""PARTIDO DO MOVIMENTO DEMOCRÁTICO BRASILEIRO (MDB)"" no diretório de 2003 a 2006"
+COPPPAL,PL,rejeita,,homônimo: Partido Liberal Colombiano e outros partidos liberais da lista
+COPPPAL,PPS,rejeita,,homônimo: Partido Popular Socialista do México
+COPPPAL,PR,rejeita,,sigla lida fora da seção do Brasil (diretório seguinte)
+COPPPAL,DEM,rejeita,,"homônimo: ""Social Demócratas de América"" (Estados Unidos)"
+FSP,PT,aceita,membro,lista de partidos por país (Brasil)
+FSP,PDT,aceita,membro,lista de partidos por país (Brasil)
+FSP,PCdoB,aceita,membro,lista de partidos por país (Brasil)
+FSP,PCB,aceita,membro,lista de partidos por país (Brasil)
+FSP,PPS,aceita,membro,lista de partidos por país (Brasil)
+FSP,PSB,aceita,membro,lista de partidos por país (Brasil)
+FSP,PPL,aceita,membro,"lista de partidos por país (Brasil): ""Partido Patria Libre"""
+GP,PP,rejeita,,página inicial com notícia; o Grupo de Puebla reúne pessoas e não tem lista de partidos
+IDC,PFL,aceita,membro,"diretório de membros: ""PARTIDO DA FRENTE LIBERAL (PFL) Member / Miembro (Desde octubre de 2000)"""
+IDC,PSDB,aceita,observador,"diretório de membros: ""PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA (PSDB) Observer / Observador"""
+IDC,DEM,aceita,membro,"lista de partidos de 2013: ""BRASIL DEMOCRATAS (Miembro)"""
+IDU,DEM,aceita,membro,"lista de membros: ""Brazil Democratas ... Member category: Full Member"" (a lista também traz o Democratas da Bolívia, que não conta)"
+IDU,UNIÃO,aceita,membro,"lista de membros: ""Brazil União Brasil ... Member category: Full Member"""
+IL,NOVO,aceita,observador,"lista da América Latina: ""Partido Novo Observer Member Party""; ingresso em 2024"
+IL,PL,rejeita,,homônimo: Partido Liberal de Chile e outros partidos liberais da lista
+IL,PSD,rejeita,,sigla de partido de Cuba na lista de 2005
+IL,PSL,rejeita,,sigla de partido da Tunísia na lista de 2005
+IS,PDT,aceita,membro,"lista de membros plenos: ""Brazil Democratic Labour Party, PDT"" (antes das seções de consultivos e observadores)"
+IS,DC,rejeita,,"""Washington DC"" em título de reunião"
+ODCA,DEM,aceita,membro,"lista de partidos membros: ""Brasil Democratas"""
+ODCA,PSDB,aceita,observador,"seção ""Partidos Observadores"": ""Brasil Partido da Social Democracia Brasileira"""
+ODCA,PSC,rejeita,,"homônimo: ""Partido Social Cristiano - COPEI"" (Venezuela)"

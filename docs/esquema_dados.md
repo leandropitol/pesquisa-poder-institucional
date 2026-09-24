@@ -107,8 +107,8 @@ Processos judiciais e procedimentos formais. Unidade de registro do eixo 1. Chav
 | `id_relator_atual` | ref → `atores.id_ator` |  |  |
 | `data_autuacao` | data | sim |  |
 | `id_caso` | ref → `casos.id_caso` |  |  |
-| `assuntos_tpu` | texto |  | Assuntos da Tabela Processual Unificada do CNJ, 'código:nome' separados por ';' |
-| `sigilo` | bool | sim |  |
+| `assuntos_tpu` | texto |  | Assuntos da Tabela Processual Unificada do CNJ, 'código:nome' separados por ';'; no STF, o assunto do Corte Aberta com prefixo 'STF:' |
+| `sigilo` | bool |  | Vazio quando a fonte não informa |
 | `url` | url | sim |  |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
