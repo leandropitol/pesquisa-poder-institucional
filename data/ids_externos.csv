@@ -2903,6 +2903,7 @@ buscas,src.coleta.oea|2026-09-24|ata atas_2014_XLIV-O_AC02573T04.doc (falha no d
 buscas,src.coleta.oea|2026-09-24|ata atas_2015_XLV-O_AC03011T05.doc (falha no download),BSC-000084
 buscas,src.coleta.oea|2026-09-24|volume 2009_XXXVII-E_ag04682s02.doc (falha no download),BSC-000085
 buscas,src.coleta.oea|2026-09-24|ata atas_2005_XXXV-O_AC00917T04.DOC (falha no download),BSC-000086
+buscas,src.coleta.oea|2026-09-24|volume 2009_XXXVII-E_ag04682s02.doc,BSC-000087
 cargos,camara:3151:53,CRG-000001
 cargos,camara:3151:54,CRG-000002
 cargos,camara:3155:53,CRG-000003
@@ -110097,6 +110098,17 @@ fontes,raw:data/raw/oea/2026-09-24/2023_LIII-O_AG08923S12.docx,FNT-000031
 fontes,raw:data/raw/oea/2026-09-24/atas_2023_LIII-O_AC04029T03.docx,FNT-000032
 fontes,raw:data/raw/oea/2026-09-24/2024_LIV-O_AG09324S06.docx,FNT-000033
 fontes,raw:data/raw/oea/2026-09-24/atas_2024_LIV-O_AC04047T05.docx,FNT-000034
+fontes,raw:data/raw/oea/2026-09-24/2011_XLI-O_AG05485S05.doc,FNT-000035
+fontes,raw:data/raw/oea/2026-09-24/atas_2011_XLI-O_AC01733T04.DOC,FNT-000036
+fontes,raw:data/raw/oea/2026-09-24/2016_XLVI-O_AG07239S03.doc,FNT-000037
+fontes,raw:data/raw/oea/2026-09-24/2009_XXXVII-E_AG04665S04.doc,FNT-000038
+fontes,raw:data/raw/oea/2026-09-24/atas_2009_XXXVII-E_ac01419t04.doc,FNT-000039
+fontes,raw:data/raw/oea/2026-09-24/2008_XXXVIII-O_ag04269s07.doc,FNT-000040
+fontes,raw:data/raw/oea/2026-09-24/atas_2008_XXXVIII-O_ac01221t04.doc,FNT-000041
+fontes,raw:data/raw/oea/2026-09-24/2009_XXXIX-O_AG04688S10.doc,FNT-000042
+fontes,raw:data/raw/oea/2026-09-24/atas_2009_XXXIX-O_AC01413T04.DOC,FNT-000043
+fontes,raw:data/raw/oea/2026-09-24/2010_XL-O_AG05138S09.doc,FNT-000044
+fontes,raw:data/raw/oea/2026-09-24/atas_2010_XL-O_AC01645T04.DOC,FNT-000045
 instituicoes,casa:camara,INS-000001
 instituicoes,casa:senado,INS-000002
 instituicoes,partido:PFL,INS-000003
@@ -137241,3 +137253,11 @@ votos_multilaterais,oea:AG/RES. 3023 (LIV-O/24):ARG,VOT-019735
 votos_multilaterais,oea:AG/RES. 3023 (LIV-O/24):BRA,VOT-019736
 votos_multilaterais,oea:AG/RES. 3033 (LIV-O/24):BRA,VOT-019737
 votos_multilaterais,oea:AG/RES. 3033 (LIV-O/24):SLV,VOT-019738
+votos_multilaterais,oea:AG/DEC. 68 (XLI-O/11):BRA,VOT-019739
+votos_multilaterais,oea:AG/DEC. 94 (XLVI-O/16):BRA,VOT-019740
+votos_multilaterais,oea:AG/RES. 1 (XXXVII-E/09):BRA,VOT-019741
+votos_multilaterais,oea:AG/RES. 2424 (XXXVIII-O/08):BRA,VOT-019742
+votos_multilaterais,oea:AG/RES. 2438 (XXXIX-O/09):BRA,VOT-019743
+votos_multilaterais,oea:AG/RES. 2487 (XXXIX-O/09):BRA,VOT-019744
+votos_multilaterais,oea:AG/RES. 2526 (XXXIX-O/09):BRA,VOT-019745
+votos_multilaterais,oea:AG/RES. 2531 (XL-O/10):BRA,VOT-019746

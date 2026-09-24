@@ -223,7 +223,7 @@ def _linhas_oea(vm: pd.DataFrame) -> list[str]:
             + ("Não bate em: " + "; ".join(f"{r.data} ({r.simbolo or r.descricao[:60]}: placar {r.placar_sim}/{r.placar_nao}/{r.placar_abstencao}, "
                                            f"lidos {r.lidos_sim}/{r.lidos_nao}/{r.lidos_abstencao})" for r in nao.itertuples())
                + "; nesses casos só entra o voto do Brasil, lido na fala da delegação. " if len(nao) else "")
-            + "A votação de mão erguida (suspensão de Honduras, 4 de julho de 2009, 33 votos afirmativos) não individualiza os votos e não gera linha por país.")
+            + "A votação de mão erguida da AG/RES. 2 (XXXVII-E/09) (suspensão de Honduras, 4 de julho de 2009, 33 votos afirmativos) não individualiza os votos e não gera linha por país.")
     linhas += [
         "- Resolução sem chamada nominal na ata da sessão é registrada como adotada sem votação: `consenso` para o Brasil ou `consenso_com_nota` "
         "quando há nota de rodapé do país no texto certificado; os demais países só aparecem quando registraram nota. Votações na Comissão Geral "
@@ -235,7 +235,7 @@ def _linhas_oea(vm: pd.DataFrame) -> list[str]:
     if len(sem_ata):
         linhas.append("- Sem ata da sessão (download recusado pelo servidor da OEA: 2005, 2007, 2013, 2014 e 2015), não dá para dizer se houve votação; "
                       "estas resoluções incluídas ficam fora da base: " + ", ".join(sem_ata["simbolo"]) + ".")
-    linhas += ["- Volumes de resoluções de 2003, 2005 e 2006 e o segundo arquivo da sessão extraordinária de 2009 não foram obtidos; "
+    linhas += ["- Volumes de resoluções de 2003, 2005 e 2006 não foram obtidos (erro do servidor da OEA); o segundo arquivo da sessão extraordinária de 2009 veio do repositório de documentos da OEA, porque o link do índice recusa o acesso; "
                "resoluções do Conselho Permanente ainda não foram indexadas.", ""]
     return linhas
 

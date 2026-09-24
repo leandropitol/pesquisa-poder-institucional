@@ -36,3 +36,4 @@ data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
 2026-09-24,data/raw/oea/2026-09-24/atas_2023_LIII-O_AC04029T03.docx,http://scm.oas.org/doc_public/SPANISH/HIST_24/AC04029T03.docx,1,651602,ebcbac53b028ed69b284e1bdc69c7f6549f6b9a43324d154b6e95be45ddd1386
 2026-09-24,data/raw/oea/2026-09-24/atas_2024_LIV-O_AC04047T05.docx,http://scm.oas.org/doc_public/SPANISH/HIST_24/AC04047T05.docx,1,656421,f2f94c37225ca04acddbf4840ce0587467690245aa2698477d12e48a63eba02a
 2026-09-24,data/raw/oea/2026-09-24/atas_2009_XXXVII-E_ac01419t04.doc,http://www.oas.org/consejo/sp/AG/Documentos/ac01419t04.doc,1,865792,f9d309053ce8365bcd9a352e118ad4c410904f6b1fbcb1e77e0c605be639b18c
+2026-09-24,data/raw/oea/2026-09-24/2009_XXXVII-E_ag04682s02.doc,https://documentsearch.oas.org/legacydocument/es/ag04682s02.doc,1,55808,75832087a2ae2521a5396b1e3fef5478b9bd1aa83c42a6c31ebd0263b026dbd7

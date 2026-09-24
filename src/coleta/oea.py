@@ -33,8 +33,12 @@ def rotulo() -> tuple[str, str]:
     return "OEA, volumes de resoluções da Assembleia Geral", "volume"
 
 
+_filtro = [""]
+
+
 def volumes() -> list[dict]:
-    return list(csv.DictReader(LISTAS[_lista_ativa[0]].open(encoding="utf-8")))
+    """Itens da lista ativa; com --apenas, só os de URL que contém o trecho indicado."""
+    return [v for v in csv.DictReader(LISTAS[_lista_ativa[0]].open(encoding="utf-8")) if _filtro[0].lower() in v["url"].lower()]
 
 
 def nome_local(v: dict) -> str:
@@ -111,7 +115,9 @@ if __name__ == "__main__":
     ap.add_argument("--planejar", action="store_true")
     ap.add_argument("--registrar-manuais", metavar="DATA")
     ap.add_argument("--atas", action="store_true", help="usa a lista de atas (votos nominais) em vez da de volumes")
+    ap.add_argument("--apenas", default="", help="só os itens cuja URL contém este trecho (nova tentativa de um arquivo)")
     a = ap.parse_args()
+    _filtro[0] = a.apenas
     if a.atas:
         _lista_ativa[0] = "atas"
     if a.registrar_manuais:

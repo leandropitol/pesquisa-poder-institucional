@@ -127,7 +127,7 @@ def proposta(titulo: str) -> tuple[str, str]:
         return "exclui", "tema de cooperação, cultura, desastre natural ou institucional; sem tratar de situação política, eleitoral ou de direitos humanos"
     if re.search(r"golpe de estado|rep[uú]blica dominicana$", tl.strip(" ”\"/")):
         return "inclui", "ruptura da ordem constitucional em Estado membro (fato histórico); mesma regra para todos os casos históricos"
-    if re.search(r"estabilidad pol[ií]tica|resoluci[oó]n sobre cuba|declaraci[oó]n sobre hait[ií]", tl):
+    if re.search(r"estabilidad pol[ií]tica|resoluci[oó]n sobre cuba|declaraci[oó]n sobre hait[ií]|suspensi[oó]n del derecho de .* de participar", tl):
         return "inclui", "trata de estabilidade política, participação de Estado na OEA ou processo eleitoral em Estado membro"
     if not RE_TEMA.search(titulo):
         return "revisar", "cita Estado membro, mas o título não indica o tema; ler o texto"
@@ -141,7 +141,7 @@ def atualizar_curadoria(sel: pd.DataFrame) -> pd.DataFrame:
     pend = atual["decisao_final"] == ""
     if pend.any():  # propostas sem decisão do autor são recalculadas com as regras atuais
         atual.loc[pend, ["decisao_proposta", "motivo"]] = [proposta(t) for t in atual.loc[pend, "titulo"]]
-    novas = sel[~sel["simbolo"].isin(atual["simbolo"])].copy()
+    novas = sel[~sel["simbolo"].isin(atual["simbolo"])].drop_duplicates("simbolo").copy()
     novas["titulo"] = novas["titulo"].str.replace(r"(\[\d+\]|/)+$", "", regex=True).str.strip()
     novas[["decisao_proposta", "motivo"]] = [proposta(t) for t in novas["titulo"]] if len(novas) else []
     novas["decisao_final"] = ""
@@ -156,8 +156,8 @@ def run() -> None:
     linhas = []
     for reg in man:
         caminho = RAIZ / reg["arquivo"]
-        if not caminho.exists():
-            continue
+        if not caminho.exists() or caminho.name.startswith("atas_"):
+            continue  # as atas (votações nominais) são lidas por src.normalizacao.oea_votos
         texto = texto_docx(caminho) if caminho.suffix.lower() == ".docx" else texto_doc(caminho)
         for it in dividir(texto):
             c = criterio(it["titulo"], it["corpo"])

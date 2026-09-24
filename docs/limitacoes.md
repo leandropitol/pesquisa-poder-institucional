@@ -68,29 +68,29 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fases_processo` | 58 |
 | `eventos` | 2297 |
 | `relacoes` | 2409 |
-| `fontes` | 34 |
-| `fonte_oficial` | 31 |
+| `fontes` | 45 |
+| `fonte_oficial` | 42 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2409 |
-| `buscas` | 86 |
+| `buscas` | 87 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
-| `votos_multilaterais` | 19738 |
+| `votos_multilaterais` | 19746 |
 | `emendas_parlamentares` | 92364 |
 
 Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 86 buscas registradas; 14 com zero resultados.
+- 87 buscas registradas; 14 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
 - OEA, atas das sessões plenárias da Assembleia Geral: 22 buscas, coleta de 2026-09-24.
-- OEA, volumes de resoluções da Assembleia Geral: 24 buscas, coleta de 2026-09-24.
+- OEA, volumes de resoluções da Assembleia Geral: 25 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
@@ -155,13 +155,13 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - O critério "cita país da América Latina" é aplicado ao pé da letra e inclui resoluções de desenvolvimento; a análise separa pelo título.
 - Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) ainda não entraram.
 
-- Assembleia Geral da OEA: 23 resoluções ou votações na base (9 por votação registrada, 14 sem votação no plenário), de 2004 a 2024; curadoria item a item (`data/curadoria/oea_resolucoes_ag_curadoria.csv`): 24 incluídas, 23 excluídas e 19 aguardando decisão do autor (fora da base).
-- Votações incluídas, localizadas nas atas: 10 (`data/curadoria/oea_votacoes.csv`); em 8 das 9 chamadas nominais a contagem das respostas bate com o placar oficial e entra o voto de cada país. Não bate em: 2018-06-05 (AG/RES. 2929 (XLVIII-O/18): placar 19/4/11, lidos 20/3/11); nesses casos só entra o voto do Brasil, lido na fala da delegação. A votação de mão erguida (suspensão de Honduras, 4 de julho de 2009, 33 votos afirmativos) não individualiza os votos e não gera linha por país.
+- Assembleia Geral da OEA: 31 resoluções ou votações na base (9 por votação registrada, 22 sem votação no plenário), de 2004 a 2024; curadoria item a item (`data/curadoria/oea_resolucoes_ag_curadoria.csv`): 33 incluídas, 34 excluídas e 0 aguardando decisão do autor (fora da base).
+- Votações incluídas, localizadas nas atas: 10 (`data/curadoria/oea_votacoes.csv`); em 8 das 9 chamadas nominais a contagem das respostas bate com o placar oficial e entra o voto de cada país. Não bate em: 2018-06-05 (AG/RES. 2929 (XLVIII-O/18): placar 19/4/11, lidos 20/3/11); nesses casos só entra o voto do Brasil, lido na fala da delegação. A votação de mão erguida da AG/RES. 2 (XXXVII-E/09) (suspensão de Honduras, 4 de julho de 2009, 33 votos afirmativos) não individualiza os votos e não gera linha por país.
 - Resolução sem chamada nominal na ata da sessão é registrada como adotada sem votação: `consenso` para o Brasil ou `consenso_com_nota` quando há nota de rodapé do país no texto certificado; os demais países só aparecem quando registraram nota. Votações na Comissão Geral (antes do plenário) não constam das atas lidas.
 - A autoria da nota é o primeiro Estado membro citado no início dela; notas "Ídem" e "Véase nota N" herdam o autor. No volume de 2010 o leitor não traz as chamadas de nota, e a nota é ligada à resolução que cita o mesmo Estado no título.
 - Notas de rodapé do Brasil nas resoluções incluídas: 0.
 - Sem ata da sessão (download recusado pelo servidor da OEA: 2005, 2007, 2013, 2014 e 2015), não dá para dizer se houve votação; estas resoluções incluídas ficam fora da base: AG/DEC. 54 (XXXVII-O/07), AG/RES. 2306 (XXXVII-O/07), AG/RES. 2856 (XLIV-O/14), AG/RES. 2877 (XLV-O/15).
-- Volumes de resoluções de 2003, 2005 e 2006 e o segundo arquivo da sessão extraordinária de 2009 não foram obtidos; resoluções do Conselho Permanente ainda não foram indexadas.
+- Volumes de resoluções de 2003, 2005 e 2006 não foram obtidos (erro do servidor da OEA); o segundo arquivo da sessão extraordinária de 2009 veio do repositório de documentos da OEA, porque o link do índice recusa o acesso; resoluções do Conselho Permanente ainda não foram indexadas.
 
 ### Validador
 
