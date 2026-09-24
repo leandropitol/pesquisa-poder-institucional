@@ -21,12 +21,25 @@ LISTA = RAIZ / "data" / "curadoria" / "oea_volumes.csv"
 SCRIPT = "src.coleta.oea"
 
 
+LISTA_ATAS = RAIZ / "data" / "curadoria" / "oea_atas.csv"
+LISTAS = {"volumes": LISTA, "atas": LISTA_ATAS}
+_lista_ativa = ["volumes"]
+
+
+def rotulo() -> tuple[str, str]:
+    """(fonte de dados, tipo de documento) da lista ativa, para o registro de buscas."""
+    if _lista_ativa[0] == "atas":
+        return "OEA, atas das sessões plenárias da Assembleia Geral", "ata"
+    return "OEA, volumes de resoluções da Assembleia Geral", "volume"
+
+
 def volumes() -> list[dict]:
-    return list(csv.DictReader(LISTA.open(encoding="utf-8")))
+    return list(csv.DictReader(LISTAS[_lista_ativa[0]].open(encoding="utf-8")))
 
 
 def nome_local(v: dict) -> str:
-    return f"{v['ano']}_{v['sessao']}_{re.sub(r'[^A-Za-z0-9._-]', '_', v['url'].rsplit('/', 1)[1])}"
+    prefixo = "atas_" if _lista_ativa[0] == "atas" else ""
+    return f"{prefixo}{v['ano']}_{v['sessao']}_{re.sub(r'[^A-Za-z0-9._-]', '_', v['url'].rsplit('/', 1)[1])}"
 
 
 def planejar() -> list[tuple[str, int, int | None]]:
@@ -51,14 +64,13 @@ def coletar(data: str | None = None) -> None:
                 print(f"AVISO: {destino.name} passa de 50 MB")
             print(f"{v['ano']} {v['sessao']}: {destino.stat().st_size / 1e6:.1f} MB")
         except Exception as e:  # noqa: BLE001 — falha de um volume não interrompe os demais; fica registrada
-            falhas.append((v["sessao"], v["url"], f"{type(e).__name__}: {e}"[:200]))
+            falhas.append((nome_local(v), v["url"], f"{type(e).__name__}: {e}"[:200]))
             print(f"FALHA {v['ano']} {v['sessao']}: {e}")
+    fonte, tipo = rotulo()
     for reg in ex.fechar():
-        registrar_busca("OEA, volumes de resoluções da Assembleia Geral", f"volume {reg['arquivo'].rsplit('/', 1)[1]}", 1, SCRIPT, ex.data,
-                        {"url": reg["url_base"]}, reg, ids)
-    for sessao, url, erro in falhas:
-        registrar_busca("OEA, volumes de resoluções da Assembleia Geral", f"volume da sessão {sessao} (falha no download)", 0, SCRIPT, ex.data,
-                        {"url": url, "erro": erro}, None, ids)
+        registrar_busca(fonte, f"{tipo} {reg['arquivo'].rsplit('/', 1)[1]}", 1, SCRIPT, ex.data, {"url": reg["url_base"]}, reg, ids)
+    for nome, url, erro in falhas:  # o nome do arquivo entra na consulta: uma sessão pode ter mais de um arquivo
+        registrar_busca(fonte, f"{tipo} {nome} (falha no download)", 0, SCRIPT, ex.data, {"url": url, "erro": erro}, None, ids)
     ids.salvar()
     print(f"{len(volumes()) - len(falhas)} volumes baixados; {len(falhas)} falhas")
 
@@ -86,8 +98,9 @@ def registrar_manuais(data: str) -> None:
                      "bytes": destino.stat().st_size, "sha256": sha256(destino)})
     with (MANIFESTOS / "oea.csv").open("a", encoding="utf-8", newline="") as m:
         csv.DictWriter(m, fieldnames=["data_acesso", "arquivo", "url_base", "n_requisicoes", "bytes", "sha256"], lineterminator="\n").writerows(regs)
+    fonte, tipo = rotulo()
     for reg in regs:
-        registrar_busca("OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034)", f"volume {reg['arquivo'].rsplit('/', 1)[1]}",
+        registrar_busca(f"{fonte} (download manual do autor, D-034)", f"{tipo} {reg['arquivo'].rsplit('/', 1)[1]}",
                         1, SCRIPT, data, {"url": reg["url_base"]}, reg, ids)
     ids.salvar()
     print(f"{len(regs)} volumes registrados: {[r['arquivo'].rsplit('/', 1)[1] for r in regs]}")
@@ -97,7 +110,10 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--planejar", action="store_true")
     ap.add_argument("--registrar-manuais", metavar="DATA")
+    ap.add_argument("--atas", action="store_true", help="usa a lista de atas (votos nominais) em vez da de volumes")
     a = ap.parse_args()
+    if a.atas:
+        _lista_ativa[0] = "atas"
     if a.registrar_manuais:
         registrar_manuais(a.registrar_manuais)
     else:

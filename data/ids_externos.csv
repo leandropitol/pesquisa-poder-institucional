@@ -2880,6 +2880,29 @@ buscas,src.coleta.oea|2026-09-24|volume 2009_XXXVII-E_AG04665S04.doc,BSC-000060
 buscas,src.coleta.oea|2026-09-24|volume 2009_XXXIX-O_AG04688S10.doc,BSC-000061
 buscas,src.coleta.oea|2026-09-24|volume 2010_XL-O_AG05138S09.doc,BSC-000062
 buscas,src.coleta.oea|2026-09-24|volume 2011_XLI-O_AG05485S05.doc,BSC-000063
+buscas,src.coleta.oea|2026-09-24|ata atas_2003_XXXIII-O_33.pdf,BSC-000064
+buscas,src.coleta.oea|2026-09-24|ata atas_2004_XXXIV-O_34.pdf,BSC-000065
+buscas,src.coleta.oea|2026-09-24|ata atas_2006_XXXVI-O_AC01018T06.DOC,BSC-000066
+buscas,src.coleta.oea|2026-09-24|ata atas_2008_XXXVIII-O_ac01221t04.doc,BSC-000067
+buscas,src.coleta.oea|2026-09-24|ata atas_2009_XXXIX-O_AC01413T04.DOC,BSC-000068
+buscas,src.coleta.oea|2026-09-24|ata atas_2010_XL-O_AC01645T04.DOC,BSC-000069
+buscas,src.coleta.oea|2026-09-24|ata atas_2011_XLI-O_AC01733T04.DOC,BSC-000070
+buscas,src.coleta.oea|2026-09-24|ata atas_2016_XLVI-O_AC03216T03.doc,BSC-000071
+buscas,src.coleta.oea|2026-09-24|ata atas_2017_XLVII-O_AC03237T02.doc,BSC-000072
+buscas,src.coleta.oea|2026-09-24|ata atas_2018_XLVIII-O_AC03395T03.docx,BSC-000073
+buscas,src.coleta.oea|2026-09-24|ata atas_2019_XLIX-O_AC03409T03.docx,BSC-000074
+buscas,src.coleta.oea|2026-09-24|ata atas_2020_L-O_AC03697T03.DOC,BSC-000075
+buscas,src.coleta.oea|2026-09-24|ata atas_2021_LI-O_AC03908T03.docx,BSC-000076
+buscas,src.coleta.oea|2026-09-24|ata atas_2022_LII-O_AG08710T03.docx,BSC-000077
+buscas,src.coleta.oea|2026-09-24|ata atas_2023_LIII-O_AC04029T03.docx,BSC-000078
+buscas,src.coleta.oea|2026-09-24|ata atas_2024_LIV-O_AC04047T05.docx,BSC-000079
+buscas,src.coleta.oea|2026-09-24|ata atas_2009_XXXVII-E_ac01419t04.doc,BSC-000080
+buscas,src.coleta.oea|2026-09-24|ata atas_2007_XXXVII-O_AC01127T06.DOC (falha no download),BSC-000081
+buscas,src.coleta.oea|2026-09-24|ata atas_2013_XLIII-O_AC02252T04.doc (falha no download),BSC-000082
+buscas,src.coleta.oea|2026-09-24|ata atas_2014_XLIV-O_AC02573T04.doc (falha no download),BSC-000083
+buscas,src.coleta.oea|2026-09-24|ata atas_2015_XLV-O_AC03011T05.doc (falha no download),BSC-000084
+buscas,src.coleta.oea|2026-09-24|volume 2009_XXXVII-E_ag04682s02.doc (falha no download),BSC-000085
+buscas,src.coleta.oea|2026-09-24|ata atas_2005_XXXV-O_AC00917T04.DOC (falha no download),BSC-000086
 cargos,camara:3151:53,CRG-000001
 cargos,camara:3151:54,CRG-000002
 cargos,camara:3155:53,CRG-000003
@@ -110058,6 +110081,22 @@ fontes,raw:data/raw/transparencia/2026-09-24/cnep_20260923_CNEP.zip,FNT-000015
 fontes,raw:data/raw/transparencia/2026-09-24/ceis_20260923_CEIS.zip,FNT-000016
 fontes,raw:data/raw/transparencia/2026-09-24/emendas-parlamentares_EmendasParlamentares.zip,FNT-000017
 fontes,raw:data/raw/onu_ag/2026-09-24/2026_02_06_ga_voting.csv,FNT-000018
+fontes,raw:data/raw/oea/2026-09-24/2019_XLIX-O_AG07996S03.doc,FNT-000019
+fontes,raw:data/raw/oea/2026-09-24/atas_2019_XLIX-O_AC03409T03.docx,FNT-000020
+fontes,raw:data/raw/oea/2026-09-24/2004_XXXIV-O_AG02528S08.doc,FNT-000021
+fontes,raw:data/raw/oea/2026-09-24/atas_2004_XXXIV-O_34.pdf,FNT-000022
+fontes,raw:data/raw/oea/2026-09-24/2018_XLVIII-O_AG07745S03.doc,FNT-000023
+fontes,raw:data/raw/oea/2026-09-24/atas_2018_XLVIII-O_AC03395T03.docx,FNT-000024
+fontes,raw:data/raw/oea/2026-09-24/atas_2016_XLVI-O_AC03216T03.doc,FNT-000025
+fontes,raw:data/raw/oea/2026-09-24/atas_2022_LII-O_AG08710T03.docx,FNT-000026
+fontes,raw:data/raw/oea/2026-09-24/2021_LI-O_AG08489S07.docx,FNT-000027
+fontes,raw:data/raw/oea/2026-09-24/atas_2021_LI-O_AC03908T03.docx,FNT-000028
+fontes,raw:data/raw/oea/2026-09-24/2022_LII-O_AG08750S08.docx,FNT-000029
+fontes,raw:data/raw/oea/2026-09-24/atas_2020_L-O_AC03697T03.DOC,FNT-000030
+fontes,raw:data/raw/oea/2026-09-24/2023_LIII-O_AG08923S12.docx,FNT-000031
+fontes,raw:data/raw/oea/2026-09-24/atas_2023_LIII-O_AC04029T03.docx,FNT-000032
+fontes,raw:data/raw/oea/2026-09-24/2024_LIV-O_AG09324S06.docx,FNT-000033
+fontes,raw:data/raw/oea/2026-09-24/atas_2024_LIV-O_AC04047T05.docx,FNT-000034
 instituicoes,casa:camara,INS-000001
 instituicoes,casa:senado,INS-000002
 instituicoes,partido:PFL,INS-000003
@@ -111853,6 +111892,7 @@ instituicoes,cnpj14:24211090000128,INS-001520
 instituicoes,cnpj14:07744431000101,INS-001521
 instituicoes,cnpj14:04068632000148,INS-001522
 instituicoes,organismo:ONU_AG,INS-001523
+instituicoes,organismo:OEA_AG,INS-001524
 operacoes_exportacao_bndes,bndes:operacoes-exportacao-operacoes-de-exportacao-pos-embarque-servicos-de-engenharia.csv:2ddb0ea0bd13d982#1,BND-000001
 operacoes_exportacao_bndes,bndes:operacoes-exportacao-operacoes-de-exportacao-pos-embarque-servicos-de-engenharia.csv:96e794c315f52815#1,BND-000002
 operacoes_exportacao_bndes,bndes:operacoes-exportacao-operacoes-de-exportacao-pos-embarque-servicos-de-engenharia.csv:fdb3c581ec03ba16#1,BND-000003
@@ -136905,3 +136945,299 @@ votos_multilaterais,undl:4064910:VNM,VOT-019439
 votos_multilaterais,undl:4064910:YEM,VOT-019440
 votos_multilaterais,undl:4064910:ZMB,VOT-019441
 votos_multilaterais,undl:4064910:ZWE,VOT-019442
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):ATG,VOT-019443
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):BOL,VOT-019444
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):BRA,VOT-019445
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):BRB,VOT-019446
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):DMA,VOT-019447
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):MEX,VOT-019448
+votos_multilaterais,oea:AG/DEC. 100 (XLIX-O/19):SUR,VOT-019449
+votos_multilaterais,oea:AG/DEC. 37 (XXXIV-O/04):BRA,VOT-019450
+votos_multilaterais,oea:AG/DEC. 40 (XXXIV-O/04):BRA,VOT-019451
+votos_multilaterais,oea:AG/DEC. 97 (XLVIII-O/18):BRA,VOT-019452
+votos_multilaterais,oea:AG/RES. 2058 (XXXIV-O/04):BRA,VOT-019453
+votos_multilaterais,oea:AG/RES. 2929 (XLVIII-O/18):BRA,VOT-019454
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):ARG,VOT-019455
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):ATG,VOT-019456
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):BHS,VOT-019457
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):BLZ,VOT-019458
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):BOL,VOT-019459
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):BRA,VOT-019460
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):BRB,VOT-019461
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):CAN,VOT-019462
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):CHL,VOT-019463
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):COL,VOT-019464
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):CRI,VOT-019465
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):DMA,VOT-019466
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):DOM,VOT-019467
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):ECU,VOT-019468
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):GRD,VOT-019469
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):GTM,VOT-019470
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):GUY,VOT-019471
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):HND,VOT-019472
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):HTI,VOT-019473
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):JAM,VOT-019474
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):KNA,VOT-019475
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):LCA,VOT-019476
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):MEX,VOT-019477
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):NIC,VOT-019478
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):PAN,VOT-019479
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):PER,VOT-019480
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):PRY,VOT-019481
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):SLV,VOT-019482
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):SUR,VOT-019483
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):TTO,VOT-019484
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):USA,VOT-019485
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):VCT,VOT-019486
+votos_multilaterais,oea:AG/RES. 2943 (XLIX-O/19):VEN,VOT-019487
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):ARG,VOT-019488
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):ATG,VOT-019489
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):BHS,VOT-019490
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):BLZ,VOT-019491
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):BOL,VOT-019492
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):BRA,VOT-019493
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):BRB,VOT-019494
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):CAN,VOT-019495
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):CHL,VOT-019496
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):COL,VOT-019497
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):CRI,VOT-019498
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):DMA,VOT-019499
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):DOM,VOT-019500
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):ECU,VOT-019501
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):GRD,VOT-019502
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):GTM,VOT-019503
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):GUY,VOT-019504
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):HND,VOT-019505
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):HTI,VOT-019506
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):JAM,VOT-019507
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):KNA,VOT-019508
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):LCA,VOT-019509
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):MEX,VOT-019510
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):NIC,VOT-019511
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):PAN,VOT-019512
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):PER,VOT-019513
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):PRY,VOT-019514
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):SLV,VOT-019515
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):SUR,VOT-019516
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):TTO,VOT-019517
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):USA,VOT-019518
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):VCT,VOT-019519
+votos_multilaterais,oea:AG/RES. 2944 (XLIX-O/19):VEN,VOT-019520
+votos_multilaterais,oea:8b33e7b2a44b:ARG,VOT-019521
+votos_multilaterais,oea:8b33e7b2a44b:ATG,VOT-019522
+votos_multilaterais,oea:8b33e7b2a44b:BHS,VOT-019523
+votos_multilaterais,oea:8b33e7b2a44b:BOL,VOT-019524
+votos_multilaterais,oea:8b33e7b2a44b:BRA,VOT-019525
+votos_multilaterais,oea:8b33e7b2a44b:BRB,VOT-019526
+votos_multilaterais,oea:8b33e7b2a44b:CAN,VOT-019527
+votos_multilaterais,oea:8b33e7b2a44b:CHL,VOT-019528
+votos_multilaterais,oea:8b33e7b2a44b:COL,VOT-019529
+votos_multilaterais,oea:8b33e7b2a44b:CRI,VOT-019530
+votos_multilaterais,oea:8b33e7b2a44b:DMA,VOT-019531
+votos_multilaterais,oea:8b33e7b2a44b:DOM,VOT-019532
+votos_multilaterais,oea:8b33e7b2a44b:ECU,VOT-019533
+votos_multilaterais,oea:8b33e7b2a44b:GRD,VOT-019534
+votos_multilaterais,oea:8b33e7b2a44b:GTM,VOT-019535
+votos_multilaterais,oea:8b33e7b2a44b:GUY,VOT-019536
+votos_multilaterais,oea:8b33e7b2a44b:HND,VOT-019537
+votos_multilaterais,oea:8b33e7b2a44b:HTI,VOT-019538
+votos_multilaterais,oea:8b33e7b2a44b:JAM,VOT-019539
+votos_multilaterais,oea:8b33e7b2a44b:KNA,VOT-019540
+votos_multilaterais,oea:8b33e7b2a44b:MEX,VOT-019541
+votos_multilaterais,oea:8b33e7b2a44b:NIC,VOT-019542
+votos_multilaterais,oea:8b33e7b2a44b:PAN,VOT-019543
+votos_multilaterais,oea:8b33e7b2a44b:PER,VOT-019544
+votos_multilaterais,oea:8b33e7b2a44b:PRY,VOT-019545
+votos_multilaterais,oea:8b33e7b2a44b:SLV,VOT-019546
+votos_multilaterais,oea:8b33e7b2a44b:SUR,VOT-019547
+votos_multilaterais,oea:8b33e7b2a44b:TTO,VOT-019548
+votos_multilaterais,oea:8b33e7b2a44b:URY,VOT-019549
+votos_multilaterais,oea:8b33e7b2a44b:USA,VOT-019550
+votos_multilaterais,oea:8b33e7b2a44b:VCT,VOT-019551
+votos_multilaterais,oea:8b33e7b2a44b:VEN,VOT-019552
+votos_multilaterais,oea:967e498cf4ba:ARG,VOT-019553
+votos_multilaterais,oea:967e498cf4ba:ATG,VOT-019554
+votos_multilaterais,oea:967e498cf4ba:BHS,VOT-019555
+votos_multilaterais,oea:967e498cf4ba:BLZ,VOT-019556
+votos_multilaterais,oea:967e498cf4ba:BOL,VOT-019557
+votos_multilaterais,oea:967e498cf4ba:BRA,VOT-019558
+votos_multilaterais,oea:967e498cf4ba:BRB,VOT-019559
+votos_multilaterais,oea:967e498cf4ba:CAN,VOT-019560
+votos_multilaterais,oea:967e498cf4ba:CHL,VOT-019561
+votos_multilaterais,oea:967e498cf4ba:COL,VOT-019562
+votos_multilaterais,oea:967e498cf4ba:CRI,VOT-019563
+votos_multilaterais,oea:967e498cf4ba:DMA,VOT-019564
+votos_multilaterais,oea:967e498cf4ba:DOM,VOT-019565
+votos_multilaterais,oea:967e498cf4ba:ECU,VOT-019566
+votos_multilaterais,oea:967e498cf4ba:GRD,VOT-019567
+votos_multilaterais,oea:967e498cf4ba:GTM,VOT-019568
+votos_multilaterais,oea:967e498cf4ba:GUY,VOT-019569
+votos_multilaterais,oea:967e498cf4ba:HND,VOT-019570
+votos_multilaterais,oea:967e498cf4ba:HTI,VOT-019571
+votos_multilaterais,oea:967e498cf4ba:JAM,VOT-019572
+votos_multilaterais,oea:967e498cf4ba:KNA,VOT-019573
+votos_multilaterais,oea:967e498cf4ba:LCA,VOT-019574
+votos_multilaterais,oea:967e498cf4ba:MEX,VOT-019575
+votos_multilaterais,oea:967e498cf4ba:NIC,VOT-019576
+votos_multilaterais,oea:967e498cf4ba:PAN,VOT-019577
+votos_multilaterais,oea:967e498cf4ba:PER,VOT-019578
+votos_multilaterais,oea:967e498cf4ba:PRY,VOT-019579
+votos_multilaterais,oea:967e498cf4ba:SLV,VOT-019580
+votos_multilaterais,oea:967e498cf4ba:SUR,VOT-019581
+votos_multilaterais,oea:967e498cf4ba:TTO,VOT-019582
+votos_multilaterais,oea:967e498cf4ba:USA,VOT-019583
+votos_multilaterais,oea:967e498cf4ba:VCT,VOT-019584
+votos_multilaterais,oea:967e498cf4ba:VEN,VOT-019585
+votos_multilaterais,oea:ff35d2422bd5:ARG,VOT-019586
+votos_multilaterais,oea:ff35d2422bd5:ATG,VOT-019587
+votos_multilaterais,oea:ff35d2422bd5:BHS,VOT-019588
+votos_multilaterais,oea:ff35d2422bd5:BLZ,VOT-019589
+votos_multilaterais,oea:ff35d2422bd5:BOL,VOT-019590
+votos_multilaterais,oea:ff35d2422bd5:BRA,VOT-019591
+votos_multilaterais,oea:ff35d2422bd5:BRB,VOT-019592
+votos_multilaterais,oea:ff35d2422bd5:CAN,VOT-019593
+votos_multilaterais,oea:ff35d2422bd5:CHL,VOT-019594
+votos_multilaterais,oea:ff35d2422bd5:COL,VOT-019595
+votos_multilaterais,oea:ff35d2422bd5:CRI,VOT-019596
+votos_multilaterais,oea:ff35d2422bd5:DMA,VOT-019597
+votos_multilaterais,oea:ff35d2422bd5:DOM,VOT-019598
+votos_multilaterais,oea:ff35d2422bd5:ECU,VOT-019599
+votos_multilaterais,oea:ff35d2422bd5:GRD,VOT-019600
+votos_multilaterais,oea:ff35d2422bd5:GTM,VOT-019601
+votos_multilaterais,oea:ff35d2422bd5:GUY,VOT-019602
+votos_multilaterais,oea:ff35d2422bd5:HND,VOT-019603
+votos_multilaterais,oea:ff35d2422bd5:HTI,VOT-019604
+votos_multilaterais,oea:ff35d2422bd5:JAM,VOT-019605
+votos_multilaterais,oea:ff35d2422bd5:KNA,VOT-019606
+votos_multilaterais,oea:ff35d2422bd5:LCA,VOT-019607
+votos_multilaterais,oea:ff35d2422bd5:MEX,VOT-019608
+votos_multilaterais,oea:ff35d2422bd5:PAN,VOT-019609
+votos_multilaterais,oea:ff35d2422bd5:PER,VOT-019610
+votos_multilaterais,oea:ff35d2422bd5:PRY,VOT-019611
+votos_multilaterais,oea:ff35d2422bd5:SLV,VOT-019612
+votos_multilaterais,oea:ff35d2422bd5:SUR,VOT-019613
+votos_multilaterais,oea:ff35d2422bd5:TTO,VOT-019614
+votos_multilaterais,oea:ff35d2422bd5:URY,VOT-019615
+votos_multilaterais,oea:ff35d2422bd5:USA,VOT-019616
+votos_multilaterais,oea:ff35d2422bd5:VCT,VOT-019617
+votos_multilaterais,oea:AG/DEC. 105 (LI-O/21):ATG,VOT-019618
+votos_multilaterais,oea:AG/DEC. 105 (LI-O/21):BRA,VOT-019619
+votos_multilaterais,oea:AG/DEC. 105 (LI-O/21):MEX,VOT-019620
+votos_multilaterais,oea:AG/DEC. 105 (LI-O/21):NIC,VOT-019621
+votos_multilaterais,oea:AG/DEC. 105 (LI-O/21):VCT,VOT-019622
+votos_multilaterais,oea:AG/DEC. 108 (LII-O/22):BRA,VOT-019623
+votos_multilaterais,oea:AG/DEC. 109 (LII-O/22):BRA,VOT-019624
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):ARG,VOT-019625
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):ATG,VOT-019626
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):BHS,VOT-019627
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):BLZ,VOT-019628
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):BOL,VOT-019629
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):BRA,VOT-019630
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):BRB,VOT-019631
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):CAN,VOT-019632
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):CHL,VOT-019633
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):COL,VOT-019634
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):CRI,VOT-019635
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):DMA,VOT-019636
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):DOM,VOT-019637
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):ECU,VOT-019638
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):GRD,VOT-019639
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):GTM,VOT-019640
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):GUY,VOT-019641
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):HND,VOT-019642
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):HTI,VOT-019643
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):JAM,VOT-019644
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):KNA,VOT-019645
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):LCA,VOT-019646
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):MEX,VOT-019647
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):NIC,VOT-019648
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):PAN,VOT-019649
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):PER,VOT-019650
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):PRY,VOT-019651
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):SLV,VOT-019652
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):SUR,VOT-019653
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):TTO,VOT-019654
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):URY,VOT-019655
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):USA,VOT-019656
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):VCT,VOT-019657
+votos_multilaterais,oea:AG/RES. 2962 (L-O/20):VEN,VOT-019658
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):ARG,VOT-019659
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):ATG,VOT-019660
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):BHS,VOT-019661
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):BLZ,VOT-019662
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):BOL,VOT-019663
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):BRA,VOT-019664
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):BRB,VOT-019665
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):CAN,VOT-019666
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):CHL,VOT-019667
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):COL,VOT-019668
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):CRI,VOT-019669
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):DMA,VOT-019670
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):DOM,VOT-019671
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):ECU,VOT-019672
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):GRD,VOT-019673
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):GTM,VOT-019674
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):GUY,VOT-019675
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):HND,VOT-019676
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):HTI,VOT-019677
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):JAM,VOT-019678
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):KNA,VOT-019679
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):LCA,VOT-019680
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):MEX,VOT-019681
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):NIC,VOT-019682
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):PAN,VOT-019683
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):PER,VOT-019684
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):PRY,VOT-019685
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):SLV,VOT-019686
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):SUR,VOT-019687
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):TTO,VOT-019688
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):URY,VOT-019689
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):USA,VOT-019690
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):VCT,VOT-019691
+votos_multilaterais,oea:AG/RES. 2963 (L-O/20):VEN,VOT-019692
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):ARG,VOT-019693
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):ATG,VOT-019694
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):BHS,VOT-019695
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):BLZ,VOT-019696
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):BOL,VOT-019697
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):BRA,VOT-019698
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):BRB,VOT-019699
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):CAN,VOT-019700
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):CHL,VOT-019701
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):COL,VOT-019702
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):CRI,VOT-019703
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):DMA,VOT-019704
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):DOM,VOT-019705
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):ECU,VOT-019706
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):GRD,VOT-019707
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):GTM,VOT-019708
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):GUY,VOT-019709
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):HND,VOT-019710
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):HTI,VOT-019711
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):JAM,VOT-019712
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):LCA,VOT-019713
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):MEX,VOT-019714
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):NIC,VOT-019715
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):PAN,VOT-019716
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):PER,VOT-019717
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):PRY,VOT-019718
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):SLV,VOT-019719
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):SUR,VOT-019720
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):TTO,VOT-019721
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):URY,VOT-019722
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):USA,VOT-019723
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):VCT,VOT-019724
+votos_multilaterais,oea:AG/RES. 2978 (LI-O/21):VEN,VOT-019725
+votos_multilaterais,oea:AG/RES. 3006 (LIII-O/23):BRA,VOT-019726
+votos_multilaterais,oea:AG/RES. 3006 (LIII-O/23):SLV,VOT-019727
+votos_multilaterais,oea:AG/RES. 3007 (LIII-O/23):BRA,VOT-019728
+votos_multilaterais,oea:AG/RES. 3007 (LIII-O/23):MEX,VOT-019729
+votos_multilaterais,oea:AG/RES. 3008 (LIII-O/23):BRA,VOT-019730
+votos_multilaterais,oea:AG/RES. 3022 (LIV-O/24):BRA,VOT-019731
+votos_multilaterais,oea:AG/RES. 3022 (LIV-O/24):NIC,VOT-019732
+votos_multilaterais,oea:AG/RES. 3022 (LIV-O/24):SLV,VOT-019733
+votos_multilaterais,oea:AG/RES. 3022 (LIV-O/24):VCT,VOT-019734
+votos_multilaterais,oea:AG/RES. 3023 (LIV-O/24):ARG,VOT-019735
+votos_multilaterais,oea:AG/RES. 3023 (LIV-O/24):BRA,VOT-019736
+votos_multilaterais,oea:AG/RES. 3033 (LIV-O/24):BRA,VOT-019737
+votos_multilaterais,oea:AG/RES. 3033 (LIV-O/24):SLV,VOT-019738

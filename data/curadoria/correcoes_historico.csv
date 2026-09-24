@@ -1,0 +1,2 @@
+id_correcao,tabela,sha1_linha_antiga,id_novo,motivo,decisao
+C-001.1,buscas,b777f477773bd2ee50cfc3ef9de44231d86adaa1,BSC-000085,chave repetida BSC-000058 (consulta sem nome do arquivo); nova consulta: volume 2009_XXXVII-E_ag04682s02.doc (falha no download),D-035

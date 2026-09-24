@@ -74,7 +74,7 @@ def montar(ids: RegistroIds) -> dict:
         s = sel.loc[r["undl_id"]]
         votos.append({"id_voto": ids.obter("votos_multilaterais", f"undl:{r['undl_id']}:{r['ms_code']}"), "id_organismo": ag,
                       "resolucao": r["resolution"], "titulo": titulo_curto(r["title"]), "tema": s["agenda_title"], "criterio_inclusao": s["criterio"],
-                      "data": r["date"], "pais_iso3": r["ms_code"], "voto": VOTOS.get(r["ms_vote"], "ausente"), "link": r["undl_link"], "id_fonte": f})
+                      "data": r["date"], "pais_iso3": r["ms_code"], "voto": VOTOS.get(r["ms_vote"], "ausente"), "link": r["undl_link"], "modalidade": "votacao_registrada", "id_fonte": f})
     return {"instituicoes": inst, "fontes": fontes, "fonte_oficial": oficiais, "votos_multilaterais": votos,
             "n_resolucoes": len(res), "selecionadas": sel["criterio"].value_counts().to_dict()}
 

@@ -432,6 +432,8 @@ Voto de cada país em resoluções selecionadas de organismos multilaterais (Bra
 | `pais_iso3` | iso3 | sim |  |
 | `voto` | vocab (`voto_multilateral`) | sim |  |
 | `link` | url |  | Registro da votação na fonte |
+| `modalidade` | vocab (`modalidade_votacao`) |  |  |
+| `trecho` | texto |  | Trecho literal da fonte que registra o voto ou a nota do país (atas e volumes da OEA) |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
 ### `acordos_bilaterais`

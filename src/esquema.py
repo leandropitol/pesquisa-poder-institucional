@@ -259,7 +259,9 @@ TABELAS: list[Tabela] = [
         C("resolucao", "texto", True), C("titulo", "texto", True), C("tema", "texto", False, "Item de agenda, como publicado"),
         C("criterio_inclusao", "texto", True, "Regra de seleção que incluiu a resolução (docs/lista_e8_para_revisao.md)"),
         C("data", "data", True), C("pais_iso3", "iso3", True), C("voto", "vocab", True, vocab="voto_multilateral"),
-        C("link", "url", False, "Registro da votação na fonte"), FONTE,
+        C("link", "url", False, "Registro da votação na fonte"),
+        C("modalidade", "vocab", False, vocab="modalidade_votacao"),
+        C("trecho", "texto", False, "Trecho literal da fonte que registra o voto ou a nota do país (atas e volumes da OEA)"), FONTE,
     ), prefixo="VOT"),
     Tabela("acordos_bilaterais", "eixo_relacoes_externas", "Acordos bilaterais do Brasil (todos os países, para ter denominador).", ("id_acordo",), (
         C("id_acordo", "id", True), C("pais_iso3", "iso3", True), C("titulo", "texto", True), C("tema", "texto", True),

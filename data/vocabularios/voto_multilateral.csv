@@ -3,3 +3,5 @@ sim,Sim
 nao,Não
 abstencao,Abstenção
 ausente,Ausente
+consenso,"Adotada sem votação, conforme a ata; o país não registrou nota"
+consenso_com_nota,"Adotada sem votação, conforme a ata; o país registrou nota de rodapé no texto certificado"

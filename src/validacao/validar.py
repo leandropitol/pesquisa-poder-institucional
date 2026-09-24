@@ -11,7 +11,8 @@ Falhas (código de saída 1):
   - nível de confiança acima do que as fontes ligadas permitem, ou acima do teto do vocabulário;
   - verificação de simetria com menos de dois grupos, "sem evidência" sem busca de zero resultados,
     "encontrado" sem casos, "não verificado" sem justificativa, ou universo de partidos incompleto;
-  - tabelas de histórico (só crescem) com linha apagada ou alterada em relação ao último commit.
+  - tabelas de histórico (só crescem) com linha apagada ou alterada em relação ao último commit, salvo
+    correção documentada em data/curadoria/correcoes_historico.csv.
 
 Avisos (não bloqueiam a base, bloqueiam relatório):
   - achado com ator filiado sem verificação de simetria;
@@ -23,6 +24,7 @@ Uso:
 """
 
 import argparse
+import hashlib
 import io
 import re
 import subprocess
@@ -272,6 +274,20 @@ def checar_indices(dados: dict[str, pd.DataFrame]) -> list[str]:
     return falhas
 
 
+def sha1_linha(valores) -> str:
+    return hashlib.sha1("\x1f".join(map(str, valores)).encode("utf-8")).hexdigest()
+
+
+def correcoes_documentadas(raiz: Path = RAIZ) -> dict[str, set[str]]:
+    """Linhas de histórico alteradas por correção documentada (data/curadoria/correcoes_historico.csv)."""
+    caminho = raiz / "data" / "curadoria" / "correcoes_historico.csv"
+    saida: dict[str, set[str]] = {}
+    if caminho.exists():
+        for l in pd.read_csv(caminho, dtype=str, keep_default_na=False).itertuples(index=False):
+            saida.setdefault(l.tabela, set()).add(l.sha1_linha_antiga)
+    return saida
+
+
 def checar_historico(dados: dict[str, pd.DataFrame], raiz: Path = RAIZ, base: Path = BASE) -> list[str]:
     """Tabelas que só crescem: toda linha do último commit precisa continuar igual."""
     falhas = []
@@ -284,7 +300,8 @@ def checar_historico(dados: dict[str, pd.DataFrame], raiz: Path = RAIZ, base: Pa
             continue  # sem commit anterior
         antes = pd.read_csv(io.BytesIO(r.stdout), dtype=str, keep_default_na=False)
         atual = set(map(tuple, dados[t.nome].astype(str).itertuples(index=False)))
-        perdidas = [l for l in map(tuple, antes.astype(str).itertuples(index=False)) if l not in atual]
+        corrigidas = correcoes_documentadas(raiz).get(t.nome, set())
+        perdidas = [l for l in map(tuple, antes.astype(str).itertuples(index=False)) if l not in atual and sha1_linha(l) not in corrigidas]
         if perdidas:
             falhas.append(f"{t.nome}: {len(perdidas)} linha(s) do último commit apagada(s) ou alterada(s); o histórico só cresce")
     return falhas

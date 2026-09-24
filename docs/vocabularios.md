@@ -280,6 +280,16 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `nao` | Não |
 | `abstencao` | Abstenção |
 | `ausente` | Ausente |
+| `consenso` | Adotada sem votação, conforme a ata; o país não registrou nota |
+| `consenso_com_nota` | Adotada sem votação, conforme a ata; o país registrou nota de rodapé no texto certificado |
+
+## `modalidade_votacao`
+
+| Código | Rótulo |
+|---|---|
+| `votacao_registrada` | Votação registrada ou nominal, com voto de cada país |
+| `votacao_mao_erguida` | Votação de mão erguida, só com o total |
+| `sem_votacao` | Adotada sem votação (consenso ou aclamação) |
 
 ## `indice_democracia`
 

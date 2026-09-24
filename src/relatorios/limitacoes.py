@@ -172,7 +172,9 @@ def texto(base: Path = BASE) -> str:
             "",
         ]
 
-    vm = ler("votos_multilaterais", base)
+    vm_todos = ler("votos_multilaterais", base)
+    siglas = dict(zip(ler("instituicoes", base)["id_instituicao"], ler("instituicoes", base)["sigla"]))
+    vm = vm_todos[vm_todos["id_organismo"].map(siglas) == "AGNU"]
     if len(vm):
         res = vm.drop_duplicates("resolucao")
         linhas += [
@@ -182,9 +184,10 @@ def texto(base: Path = BASE) -> str:
             + "; ".join(f"{k}: {n}" for k, n in res["criterio_inclusao"].value_counts().items()) + ".",
             "- Resoluções adotadas sem votação (por consenso) e votos sobre parágrafos isolados não constam do conjunto da ONU.",
             "- O critério \"cita país da América Latina\" é aplicado ao pé da letra e inclui resoluções de desenvolvimento; a análise separa pelo título.",
-            "- Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) e na OEA (bloco A3) ainda não entraram.",
+            "- Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) ainda não entraram.",
             "",
         ]
+    linhas += _linhas_oea(vm_todos[vm_todos["id_organismo"].map(siglas) == "AG/OEA"])
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -192,6 +195,49 @@ def texto(base: Path = BASE) -> str:
         linhas.append(f"- … e mais {len(avisos) - 20} avisos.")
     linhas += ["", FIM]
     return "\n".join(linhas)
+
+
+def _linhas_oea(vm: pd.DataFrame) -> list[str]:
+    """Bloco A3: Assembleia Geral da OEA (D-036)."""
+    if not len(vm):
+        return []
+    stg = RAIZ / "data" / "staging" / "oea"
+    cur = pd.read_csv(CURADORIA / "oea_resolucoes_ag_curadoria.csv", dtype=str, keep_default_na=False)
+    vot = pd.read_csv(stg / "votacoes_resumo.csv", dtype=str, keep_default_na=False) if (stg / "votacoes_resumo.csv").exists() else pd.DataFrame()
+    sem_ata = pd.read_csv(stg / "resolucoes_sem_ata.csv", dtype=str, keep_default_na=False) if (stg / "resolucoes_sem_ata.csv").exists() else pd.DataFrame()
+    reg = vm[vm["modalidade"] == "votacao_registrada"]
+    cons = vm[vm["modalidade"] == "sem_votacao"]
+    linhas = [
+        "- Assembleia Geral da OEA: " + f"{vm['resolucao'].nunique()} resoluções ou votações na base ({reg['resolucao'].nunique()} por votação registrada, "
+        f"{cons['resolucao'].nunique()} sem votação no plenário), de {vm['data'].min()[:4]} a {vm['data'].max()[:4]}; curadoria item a item "
+        f"(`data/curadoria/oea_resolucoes_ag_curadoria.csv`): {int((cur['decisao_final'] == 'inclui').sum())} incluídas, "
+        f"{int((cur['decisao_final'] == 'exclui').sum())} excluídas e {int((cur['decisao_final'] == '').sum())} aguardando decisão do autor (fora da base).",
+    ]
+    if len(vot):
+        vot = vot[vot["decisao"] == "inclui"]
+        nominais = vot[vot["lidos_sim"].astype(int) + vot["lidos_nao"].astype(int) + vot["lidos_abstencao"].astype(int) > 0]
+        nao = nominais[nominais["confere"] != "True"]
+        linhas.append(
+            f"- Votações incluídas, localizadas nas atas: {len(vot)} (`data/curadoria/oea_votacoes.csv`); em {int((nominais['confere'] == 'True').sum())} das "
+            f"{len(nominais)} chamadas nominais a contagem das respostas bate com o placar oficial e entra o voto de cada país. "
+            + ("Não bate em: " + "; ".join(f"{r.data} ({r.simbolo or r.descricao[:60]}: placar {r.placar_sim}/{r.placar_nao}/{r.placar_abstencao}, "
+                                           f"lidos {r.lidos_sim}/{r.lidos_nao}/{r.lidos_abstencao})" for r in nao.itertuples())
+               + "; nesses casos só entra o voto do Brasil, lido na fala da delegação. " if len(nao) else "")
+            + "A votação de mão erguida (suspensão de Honduras, 4 de julho de 2009, 33 votos afirmativos) não individualiza os votos e não gera linha por país.")
+    linhas += [
+        "- Resolução sem chamada nominal na ata da sessão é registrada como adotada sem votação: `consenso` para o Brasil ou `consenso_com_nota` "
+        "quando há nota de rodapé do país no texto certificado; os demais países só aparecem quando registraram nota. Votações na Comissão Geral "
+        "(antes do plenário) não constam das atas lidas.",
+        "- A autoria da nota é o primeiro Estado membro citado no início dela; notas \"Ídem\" e \"Véase nota N\" herdam o autor. No volume de 2010 "
+        "o leitor não traz as chamadas de nota, e a nota é ligada à resolução que cita o mesmo Estado no título.",
+        f"- Notas de rodapé do Brasil nas resoluções incluídas: {int((cons['pais_iso3'].eq('BRA') & cons['voto'].eq('consenso_com_nota')).sum())}.",
+    ]
+    if len(sem_ata):
+        linhas.append("- Sem ata da sessão (download recusado pelo servidor da OEA: 2005, 2007, 2013, 2014 e 2015), não dá para dizer se houve votação; "
+                      "estas resoluções incluídas ficam fora da base: " + ", ".join(sem_ata["simbolo"]) + ".")
+    linhas += ["- Volumes de resoluções de 2003, 2005 e 2006 e o segundo arquivo da sessão extraordinária de 2009 não foram obtidos; "
+               "resoluções do Conselho Permanente ainda não foram indexadas.", ""]
+    return linhas
 
 
 def run() -> None:

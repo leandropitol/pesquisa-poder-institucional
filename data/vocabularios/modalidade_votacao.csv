@@ -1,0 +1,4 @@
+codigo,rotulo
+votacao_registrada,"Votação registrada ou nominal, com voto de cada país"
+votacao_mao_erguida,"Votação de mão erguida, só com o total"
+sem_votacao,Adotada sem votação (consenso ou aclamação)

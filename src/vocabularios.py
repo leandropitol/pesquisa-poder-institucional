@@ -139,7 +139,12 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("congresso_nacional", "Congresso Nacional"), ("outra", "Outra"),
     ),
     "tipo_decisao": _v(("monocratica", "Monocrática"), ("colegiada", "Colegiada")),
-    "voto_multilateral": _v(("sim", "Sim"), ("nao", "Não"), ("abstencao", "Abstenção"), ("ausente", "Ausente")),
+    "voto_multilateral": _v(("sim", "Sim"), ("nao", "Não"), ("abstencao", "Abstenção"), ("ausente", "Ausente"),
+                            ("consenso", "Adotada sem votação, conforme a ata; o país não registrou nota"),
+                            ("consenso_com_nota", "Adotada sem votação, conforme a ata; o país registrou nota de rodapé no texto certificado")),
+    "modalidade_votacao": _v(("votacao_registrada", "Votação registrada ou nominal, com voto de cada país"),
+                             ("votacao_mao_erguida", "Votação de mão erguida, só com o total"),
+                             ("sem_votacao", "Adotada sem votação (consenso ou aclamação)")),
     "indice_democracia": _v(
         ("vdem_row", "V-Dem Regimes of the World (0 a 3)"),
         ("vdem_ldi", "V-Dem Liberal Democracy Index (0 a 1)"),
