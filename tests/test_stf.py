@@ -44,3 +44,8 @@ def test_categoria_excluida_e_residual():
 def test_numero_cnj():
     assert numero_cnj("99326980620111000000") == "9932698-06.2011.1.00.0000"
     assert numero_cnj("123") == ""
+
+
+def test_assunto_processual_vai_para_revisao():
+    assert d("DIREITO PROCESSUAL PENAL | MEDIDAS ASSECURATÓRIAS | BUSCA E APREENSÃO DE BENS") == "indeterminado"
+    assert d("DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO BANCÁRIO") == "indeterminado"

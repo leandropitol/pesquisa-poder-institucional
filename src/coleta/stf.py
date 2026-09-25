@@ -21,16 +21,31 @@ from src.coleta.comum import MANIFESTOS, RAW, registrar_busca, sha256
 
 SCRIPT = "src.coleta.stf"
 FONTE_DADOS = "STF, Corte Aberta (exportação feita pelo autor no navegador, D-037)"
-# cabeçalho que identifica o painel -> (nome no bruto, URL do painel, filtros aplicados, total mostrado no painel)
+# (coluna que identifica o painel, classes presentes) -> (nome no bruto, URL do painel, filtros aplicados, total mostrado no painel)
+URL_DECISOES = "https://transparencia.stf.jus.br/extensions/decisoes/decisoes.html"
+URL_ACERVO = "https://transparencia.stf.jus.br/extensions/acervo/acervo.html"
 EXPORTACOES = {
-    "idFatoDecisao": ("stf_corte_aberta_decisoes_AP_Inq_2003-01-08_a_2026-09-23.xlsx", "https://transparencia.stf.jus.br/extensions/decisoes/decisoes.html",
-                      {"classe": ["AP", "Inq"], "data_decisao": ["2003-01-08", "2026-09-23"], "botao": "Decisões"}, 17202),
-    "Link do processo": ("stf_corte_aberta_acervo_AP_Inq.xlsx", "https://transparencia.stf.jus.br/extensions/acervo/acervo.html",
-                         {"classe": ["AP", "Inq"], "recorte": "acervo em tramitação na data da exportação", "botao": "Processos"}, 1331),
+    ("idFatoDecisao", ("AP", "Inq")): ("stf_corte_aberta_decisoes_AP_Inq_2003-01-08_a_2026-09-23.xlsx", URL_DECISOES,
+                                       {"classe": ["AP", "Inq"], "data_decisao": ["2003-01-08", "2026-09-23"], "botao": "Decisões"}, 17202),
+    ("Link do processo", ("AP", "Inq")): ("stf_corte_aberta_acervo_AP_Inq.xlsx", URL_ACERVO,
+                                          {"classe": ["AP", "Inq"], "recorte": "acervo em tramitação na data da exportação", "botao": "Processos"}, 1331),
+    ("idFatoDecisao", ("Pet",)): ("stf_corte_aberta_decisoes_Pet_penal_2003-02-05_a_2026-09-24.xlsx", URL_DECISOES,
+                                  {"classe": ["Pet"], "ramo_direito": ["DIREITO PENAL", "DIREITO PENAL MILITAR", "DIREITO PROCESSUAL PENAL"],
+                                   "data_decisao": ["2003-02-05", "2026-09-24"], "botao": "Decisões"}, 10994),
+    ("Link do processo", ("Pet",)): ("stf_corte_aberta_acervo_Pet_criminal.xlsx", URL_ACERVO,
+                                     {"classe": ["Pet"], "processo_criminal": "Criminal", "recorte": "acervo em tramitação na data da exportação",
+                                      "botao": "Processos"}, 719),
 }
+
+
+def identificar(d: pd.DataFrame) -> tuple | None:
+    """Chave de EXPORTACOES pela coluna característica do painel e pelas classes presentes na planilha."""
+    classes = tuple(sorted(d["Processo"].str.split().str[0].unique())) if "Processo" in d else ()
+    return next(((c, k) for c, k in EXPORTACOES if c in d.columns and tuple(sorted(k)) == classes), None)
 URL_DADOS_ABERTOS = "https://transparencia.stf.jus.br/extensions/dados_abertos/dados_abertos.html"
 LIMITE_CELULAS = 5_000_000
-RELATORIO = ("relatorio_stf_pesquisa_documental.md", "stf_relatorio_navegacao.md")
+RELATORIOS = {"relatorio_stf_pesquisa_documental.md": "stf_relatorio_navegacao.md",
+              "relatorio_corte_aberta.md": "stf_relatorio_navegacao_peticoes.md"}
 
 
 def registrar_manuais(data: str) -> None:
@@ -40,13 +55,17 @@ def registrar_manuais(data: str) -> None:
     ids, regs = RegistroIds(), []
     for f in sorted(p for p in raiz.iterdir() if p.is_file()):
         if f.suffix.lower() == ".xlsx":
-            colunas = list(pd.read_excel(f, nrows=0).columns)
-            chave = next((k for k in EXPORTACOES if k in colunas), None)
+            d = pd.read_excel(f, dtype=str)
+            chave = identificar(d)
             if chave is None:
                 print(f"não identificado, fica onde está: {f.name}")
                 continue
             nome, url, filtros, total = EXPORTACOES[chave]
-            linhas = len(pd.read_excel(f, dtype=str))
+            if (pasta / nome).exists():
+                igual = d.equals(pd.read_excel(pasta / nome, dtype=str))
+                print(f"{'cópia idêntica' if igual else 'ATENÇÃO: conteúdo diferente'} de {nome} já registrado; fica onde está: {f.name}")
+                continue
+            linhas = len(d)
             if linhas != total:
                 raise ValueError(f"{f.name}: {linhas} linhas, o painel mostrava {total}")
             consulta = f"exportação {nome} (painel com {total} registros)"
@@ -66,8 +85,8 @@ def registrar_manuais(data: str) -> None:
         elif f.name.startswith("dicionario_") and f.suffix.lower() == ".ods":
             nome, url, linhas = f"stf_dados_abertos_{f.name}", URL_DADOS_ABERTOS, 1
             consulta, parametros = f"dados abertos: {f.name}", {"url": url, "arquivo_original": f.name}
-        elif f.name == RELATORIO[0]:
-            nome, url = RELATORIO[1], "https://portal.stf.jus.br"
+        elif f.name in RELATORIOS:
+            nome, url = RELATORIOS[f.name], "https://portal.stf.jus.br"
             consulta, linhas = "relatório de navegação do Claude in Chrome no portal do STF (registro auxiliar, não é fonte primária)", 1
             parametros = {"url": url, "arquivo_original": f.name}
         else:

@@ -1,307 +1,455 @@
 caminho_stf,n_processos,decisao,fundamento,origem_regra
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS,211,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
-DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIDADE IDEOLÓGICA,41,conexo,CP art. 299; entra só com assunto incluído,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | QUADRILHA OU BANDO,26,conexo,CP art. 288; entra só com assunto incluído (associação criminosa conexa),tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | FALSO ELEITORAL,14,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS,273,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIDADE IDEOLÓGICA,57,conexo,CP art. 299; entra só com assunto incluído,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | QUADRILHA OU BANDO,27,conexo,CP art. 288; entra só com assunto incluído (associação criminosa conexa),tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | FALSO ELEITORAL,16,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
 DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL |FALSIDADE IDEOLÓGICA,7,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
 DIREITO ELEITORAL |CRIMES ELEITORAIS,4,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
 CRIME ELEITORAL | FALSIDADE IDEOLÓGICA,2,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
 DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL | FALSIDADE IDEOLÓGICA,1,conexo,Código Eleitoral; o protocolo inclui o art. 350 conexo aos demais tipos,eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO,194,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A ORDEM TRIBUTÁRIA,111,exclui,Lei 8.137/1990; fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A HONRA | CALÚNIA,100,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | CAPTAÇÃO ILÍCITA DE VOTOS OU CORRUPÇÃO ELEITORAL,94,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE IMPRENSA,62,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O SISTEMA FINANCEIRO NACIONAL,55,exclui,Lei 7.492/1986; fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A HONRA | DIFAMAÇÃO,45,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A HONRA | INJÚRIA,43,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | APROPRIAÇÃO INDÉBITA PREVIDENCIÁRIA,42,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ESTELIONATO,36,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A HONRA,21,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO | CRIMES CONTRA A FLORA,18,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | USO DE DOCUMENTO FALSO,17,exclui,CP Título X (fé pública); fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | BOCA DE URNA,17,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DE DOCUMENTO PÚBLICO,16,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | AMEAÇA,14,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | REDUÇÃO A CONDIÇÃO ANÁLOGA À DE ESCRAVO,14,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | CALÚNIA,12,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A HONRA | CALÚNIA,243,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO,205,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A ORDEM TRIBUTÁRIA,132,exclui,Lei 8.137/1990; fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A HONRA,125,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | CAPTAÇÃO ILÍCITA DE VOTOS OU CORRUPÇÃO ELEITORAL,115,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A HONRA | DIFAMAÇÃO,114,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A HONRA | INJÚRIA,90,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE IMPRENSA,80,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | APLICAÇÃO DA PENA,62,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O SISTEMA FINANCEIRO NACIONAL,61,exclui,Lei 7.492/1986; fora dos tipos do protocolo,tpu_nome
+"DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A SEGURANÇA NACIONAL, A ORDEM POLÍTICA E SOCIAL",50,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | APROPRIAÇÃO INDÉBITA PREVIDENCIÁRIA,47,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ESTELIONATO,46,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS | TRÁFICO DE DROGAS E CONDUTAS AFINS,43,exclui,categoria fora dos tipos do protocolo (Crimes De Trafico Ilicito E Uso Indevido De Drogas),categoria_tpu
+DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | AMEAÇA,40,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | BOCA DE URNA,29,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE ABUSO DE AUTORIDADE,23,exclui,Lei 13.869/2019; fora do eixo 1 (pode interessar ao eixo 3),tpu_nome
+DIREITO PENAL | PARTE GERAL | EXTINÇÃO DA PUNIBILIDADE | PRESCRIÇÃO,23,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | CALÚNIA,22,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | INCITAÇÃO AO CRIME,22,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO | CRIMES CONTRA A FLORA,21,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ROUBO MAJORADO,19,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | USO DE DOCUMENTO FALSO,18,exclui,CP Título X (fé pública); fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DE DOCUMENTO PÚBLICO,18,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | APLICAÇÃO DA PENA | REGIME INICIAL,18,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DESOBEDIÊNCIA À DETERMINAÇÕES DA JUSTIÇA ELEITORAL,15,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | LESÃO CORPORAL,15,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | REDUÇÃO A CONDIÇÃO ANÁLOGA À DE ESCRAVO,15,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | TIPICIDADE,14,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | INJÚRIA,14,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DIFAMAÇÃO,13,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | APROPRIAÇÃO INDÉBITA,11,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | INFRAÇÃO DE MEDIDA SANITÁRIA PREVENTIVA,11,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A VIDA | HOMICÍDIO QUALIFICADO,11,exclui,fora dos tipos do protocolo,residual
 DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL | PROPAGANDA ELEITORAL,11,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | APROPRIAÇÃO INDÉBITA,10,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DESOBEDIÊNCIA À DETERMINAÇÕES DA JUSTIÇA ELEITORAL,10,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | LESÃO CORPORAL,9,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | INJÚRIA,8,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA O SIGILO OU O EXERCÍCIO DO VOTO |CORRUPÇÃO ELEITORAL,6,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | RACISMO,10,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | APOLOGIA DE CRIME OU CRIMINOSO,9,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES RESULTANTE DE PRECONCEITO DE RAÇA OU DE COR,9,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL | ESTUPRO DE VULNERÁVEL,9,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | EXTORSÃO,9,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | CONSTRANGIMENTO ILEGAL,8,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DANO,8,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PERICLITAÇÃO DA VIDA E DA SAÚDE | PERIGO PARA A VIDA OU SAÚDE DE OUTREM,8,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO,8,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DO SISTEMA NACIONAL DE ARMAS,8,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | RECEPTAÇÃO,7,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | FURTO,7,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A VIDA | HOMICÍDIO SIMPLES,7,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL | ESTUPRO,6,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | INCÊNDIO,6,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | ELEIÇÕES | PROPAGANDA POLÍTICA - PROPAGANDA ELEITORAL | PROPAGANDA POLÍTICA - PROPAGANDA ELEITORAL - DIVULGAÇÃO DE NOTÍCIA SABIDAMENTE FALSA,6,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÂNSITO,6,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A VIDA | HOMICÍDIO SIMPLES,6,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | EXTORSÃO,5,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | INCÊNDIO,5,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DANO,5,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA O SIGILO OU O EXERCÍCIO DO VOTO |CORRUPÇÃO ELEITORAL,6,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA,5,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | USO DE DOCUMENTO FALSO,5,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
 DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DO SELO OU SINAL PÚBLICO,5,exclui,CP Título X (fé pública); fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ESTELIONATO MAJORADO,5,exclui,fora dos tipos do protocolo,tpu_nome
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO | CRIMES CONTRA A FAUNA,5,exclui,categoria fora dos tipos do protocolo (Crimes Contra O Meio Ambiente E O Patrimonio Genetico),categoria_tpu
-CRIME ELEITORAL | DESVIO DE VERBA,4,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | CONSTRANGIMENTO ILEGAL,4,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DIFAMAÇÃO,4,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO,4,exclui,fora dos tipos do protocolo,residual
-DIREITO AMBIENTAL,4,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | USO DE DOCUMENTO FALSO,4,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | LICITAÇÃO PÚBLICA | FRUSTRAÇÃO,4,exclui,fora dos tipos do protocolo,residual
-CRIME ELEITORAL | DESCUMPRIMENTO DE ORDEM JUDICIAL,4,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES RESULTANTE DE PRECONCEITO DE RAÇA OU DE COR,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO,5,exclui,fora dos tipos do protocolo,residual
 DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL | PRESTAÇÃO DE CONTAS,4,exclui,fora dos tipos do protocolo,residual
-"DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A SEGURANÇA NACIONAL, A ORDEM POLÍTICA E SOCIAL",3,exclui,fora dos tipos do protocolo,residual
-DIREITO PROCESSUAL PENAL | AÇÃO PENA,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TORTURA,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | EXTINÇÃO DA PUNIBILIDADE,4,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | DESVIO DE VERBA,4,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | PARTE GERAL | APLICAÇÃO DA PENA | SUBSTITUIÇÃO DA PENA,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS | ASSOCIAÇÃO PARA A PRODUÇÃO E TRÁFICO E CONDUTAS AFINS,4,exclui,categoria fora dos tipos do protocolo (Crimes De Trafico Ilicito E Uso Indevido De Drogas),categoria_tpu
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | EPIDEMIA,4,exclui,fora dos tipos do protocolo,residual
+DIREITO AMBIENTAL,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A VIDA,4,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | DESCUMPRIMENTO DE ORDEM JUDICIAL,4,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+"DIREITO PENAL | CRIMES CONTRA A INVIOLABILIDADE DE CORRESPONDÊNCIA | VIOLAÇÃO DE COMUNICAÇÃO TELEGRÁFICA, RADIOELÉTRICA OU TELEFÔNICA",4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A INVIOLABILIDADE DE SEGREDO | DIVULGAÇÃO DE SEGREDO,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ROUBO,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | EXTINÇÃO DA PUNIBILIDADE | INDULTO,4,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | LICITAÇÃO PÚBLICA | FRUSTRAÇÃO,4,exclui,fora dos tipos do protocolo,residual
+DIREITO PROCESSUAL CIVIL E DO TRABALHO | PROCESSO E PROCEDIMENTO | ANTECIPAÇÃO DE TUTELA / TUTELA ESPECÍFICA | BLOQUEIO / DESBLOQUEIO DE VALORES,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | TIPICIDADE | PRINCÍPIO DA INSIGNIFICÂNCIA,3,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | OBTENÇÃO DE FINANCIAMENTO MEDIANTE FRAUDE,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL || CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DANO QUALIFICADO,3,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL | SEQÜESTRO E CÁRCERE PRIVADO,3,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | FALSIFICAÇÃO DE DOCUMENTO PÚBLICO PARA FINS ELEITORAIS,3,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DO SISTEMA NACIONAL DE ARMAS,3,exclui,fora dos tipos do protocolo,tpu_nome
-"DIREITO PENAL | CRIMES CONTRA A INVIOLABILIDADE DE CORRESPONDÊNCIA | VIOLAÇÃO DE COMUNICAÇÃO TELEGRÁFICA, RADIOELÉTRICA OU TELEFÔNICA",3,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF,3,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A VIDA,3,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | USO DE SÍMBOLOS GOVERNAMENTAIS EM PROPAGANDA ELEITORAL,3,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TORTURA,3,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A VIDA | HOMICÍDIO QUALIFICADO,3,exclui,fora dos tipos do protocolo,residual
-DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO BANCÁRIO,3,exclui,fora dos tipos do protocolo,residual
-CRIME DE ABUSO DE AUTORIDADE,3,exclui,fora dos tipos do protocolo,residual
-DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A HONRA,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | FURTO QUALIFICADO,3,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA O SERVIÇO DA JUSTIÇA ELEITORAL |DESOBEDIÊNCIA A ORDENS OU INSTRUÇÕES DA JUSTIÇA ELEITORAL,3,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
 CRIME DE RESPONSABILIDADE | PREFEITO MUNICIPAL | NOMEAÇÃO DE SERVIDOR - PROIBIÇÃO POR LEI,3,exclui,fora dos tipos do protocolo,residual
 CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | COBRANÇA IRREGULAR - HOSPITAL,3,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
+DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | VIOLÊNCIA DOMÉSTICA CONTRA A MULHER,3,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ESBULHO POSSESSÓRIO,3,exclui,fora dos tipos do protocolo,residual
 CRIME CONTRA A HONRA | DIFAMAÇÃO,3,exclui,fora dos tipos do protocolo,tpu_nome
+CRIME DE ABUSO DE AUTORIDADE,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A HONRA | INJÚRIA | PRECONCEITUOSA,3,exclui,categoria fora dos tipos do protocolo (Injuria),categoria_tpu
+DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A HONRA,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | USO DE SÍMBOLOS GOVERNAMENTAIS EM PROPAGANDA ELEITORAL,3,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES MILITARES,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | FATO ATÍPICO,3,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | FALSIFICAÇÃO DE DOCUMENTO PÚBLICO PARA FINS ELEITORAIS,3,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES PRATICADOS CONTRA OS ÍNDIOS E A CULTURA INDÍGENA,3,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO | DA POLUIÇÃO,3,exclui,categoria fora dos tipos do protocolo (Crimes Contra O Meio Ambiente E O Patrimonio Genetico),categoria_tpu
-CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | OBTENÇÃO DE FINANCIAMENTO MEDIANTE FRAUDE,3,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | INCITAÇÃO AO CRIME,3,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA O SERVIÇO DA JUSTIÇA ELEITORAL |DESOBEDIÊNCIA A ORDENS OU INSTRUÇÕES DA JUSTIÇA ELEITORAL,3,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO,3,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL,2,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL | ABUSO DO PODER ECONÔMICO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL | CALÚNIA NA PROPAGANDA ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
 DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |DIFAMAÇÃO NA PROPAGANDA ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | VIOLÊNCIA DOMÉSTICA CONTRA A MULHER,2,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL |FALSIFICAÇÃO OU ALTERAÇÃO DE DOCUMENTO PÚBLICO PARA FINS ELEITORAIS,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |PESQUISA FRAUDULENTA,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO |CRIME CONTRA A ADMINISTRAÇÃO AMBIENTAL,2,exclui,categoria fora dos tipos do protocolo (Crimes Contra O Meio Ambiente E O Patrimonio Genetico),categoria_tpu
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DANO QUALIFICADO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | COMPETÊNCIA DO MP,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA,2,exclui,fora dos tipos do protocolo,residual
-CRIME ELEITORAL | DIFAMAÇÃO,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-CRIME CONTRA A PESSOA | HONRA | DIFAMAÇÃO E INJÚRIA,2,exclui,fora dos tipos do protocolo,residual
-"DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | INVASÃO DE ESTABELECIMENTO INDUSTRIAL, COMERCIAL OU AGRÍCOLA. SABOTAGEM",2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | FRUSTRAÇÃO DE DIREITOS ASSEGURADOS POR LEI TRABALHISTA,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | SIGILO TELEFÔNICO,2,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A FÉ PÚBLICA | EMISSÃO DE LETRAS FINANCEIRAS,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DE DOCUMENTO PARTICULAR,2,exclui,CP Título X (fé pública); fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | ALICIAMENTO DE TRABALHADORES DE UM LOCAL PARA OUTRO DO TERRITÓRIO NACIONAL,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | EFEITOS DA CONDENAÇÃO,2,exclui,fora dos tipos do protocolo,residual
 DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | MANDATO | PRESTAÇÃO DE CONTAS,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE ABUSO DE AUTORIDADE,2,exclui,Lei 13.869/2019; fora do eixo 1 (pode interessar ao eixo 3),tpu_nome
-CRIME ELEITORAL | PROPAGANDA | ALICIAMENTO ELEITORAL - DIVULGAÇÃO DE DOAÇÃO,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
 DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL | USO DE BEM PÚBLICO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PROCESSUAL CIVIL E DO TRABALHO | OBJETOS DE CARTAS PRECATÓRIAS CÍVEIS/DE ORDEM | ATOS EXECUTÓRIOS | EMBARGOS DE TERCEIRO,2,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PESSOA | HONRA | DIFAMAÇÃO E INJÚRIA,2,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | DIFAMAÇÃO,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+CRIME CONTRA A FÉ PÚBLICA | EMISSÃO DE LETRAS FINANCEIRAS,2,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL | ABUSO DO PODER ECONÔMICO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA AS TELECOMUNICAÇÕES,2,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A HONRA,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS,2,exclui,fora dos tipos do protocolo,tpu_nome
 "DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | RECUSA, RETARDAMENTO OU OMISSÃO DE DADOS TÉCNICOS INDISPENSÁVEIS À PROPOSITURA DE AÇÃO CIVIL PÚBLICA",2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | ALICIAMENTO ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO TELEFÔNICO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES MILITARES,2,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | EMISSÃO DE CHEQUE SEM FUNDO,2,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
-DIREITO PROCESSUAL PENAL | DENÚNCIA/QUEIXA | RECEBIMENTO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A ORDEM ECONÔMICA,2,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | ALICIAMENTO DE TRABALHADORES DE UM LOCAL PARA OUTRO DO TERRITÓRIO NACIONAL,2,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | PROPAGANDA | ALICIAMENTO ELEITORAL - DIVULGAÇÃO DE DOAÇÃO,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
 DIREITO TRIBUTÁRIO | CONTRIBUIÇÕES | CONTRIBUIÇÕES SOCIAIS,2,exclui,fora dos tipos do protocolo,residual
-CRIME DE IMPRENSA,2,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | EMISSÃO DE CHEQUE SEM FUNDO,2,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
+CRIME ELEITORAL | HONRA | CALÚNIA,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES FALIMENTARES,2,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS |CRIMES CONTRA A FÉ PÚBLICA ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |PESQUISA FRAUDULENTA,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL | ELEIÇÕES | CANDIDATOS |PRESTAÇÃO DE CONTAS - DE CANDIDATO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MERCADO DE CAPITAIS,2,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS |CRIMES CONTRA A PROPAGANDA ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | CAMPANHA ELEITORAL,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DESORDEM ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | PLEITO | TRANSPORTE EM DIA DE ELEIÇÃO,2,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | TÍTULO ELEITORAL | TRANSFERÊNCIA - ENDEREÇO FALSO,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
 DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL | ASSÉDIO SEXUAL,2,exclui,fora dos tipos do protocolo,residual
 CRIME CONTRA A PESSOA | HONRA | CALÚNIA E DIFAMAÇÃO,2,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA AS RELAÇÕES DE CONSUMO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | PLEITO | TRANSPORTE EM DIA DE ELEIÇÃO,2,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A HONRA,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | RECEPTAÇÃO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | APOLOGIA DE CRIME OU CRIMINOSO,2,exclui,fora dos tipos do protocolo,residual
-CRIME ELEITORAL | HONRA | CALÚNIA,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-CRIME ELEITORAL | TÍTULO ELEITORAL | TRANSFERÊNCIA - ENDEREÇO FALSO,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL | CRIMES ELEITORAIS |CRIMES CONTRA A FÉ PÚBLICA ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL | CRIMES ELEITORAIS |CRIMES CONTRA A PROPAGANDA ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL | ESTUPRO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | ELEIÇÕES | CANDIDATOS |PRESTAÇÃO DE CONTAS - DE CANDIDATO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A INVIOLABILIDADE DE SEGREDO | DIVULGAÇÃO DE SEGREDO,2,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | LESÃO CORPORAL | GRAVE,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL,1,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |CALÚNIA NA PROPAGANDA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL | ELEIÇÕES | RECURSOS FINANCEIROS DE CAMPANHA ELEITORAL |CAPTAÇÃO OU GASTO ILÍCITO DE RECURSOS FINANCEIROS DE CAMPANHA ELEITORAL,1,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |DIVULGAÇÃO DE FATOS INVERÍDICOS NA PROPAGANDA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DISPOSIÇÃO DE COISA ALHEIA COMO PRÓPRIA,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A HONRA | INJÚRIA | PRECONCEITUOSA,1,exclui,categoria fora dos tipos do protocolo (Injuria),categoria_tpu
-DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | INFRAÇÃO DE MEDIDA SANITÁRIA PREVENTIVA,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO FISCAL,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MERCADO DE CAPITAIS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PROCESSUAL PENAL | MEDIDAS ASSECURATÓRIAS | BUSCA E APREENSÃO DE BENS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | ELEIÇÕES | TRANSGRESSÕES ELEITORAIS |CAPTAÇÃO ILÍCITA DE SUFRÁGIO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ROUBO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | ELEIÇÕES | CARGOS |CARGO - DEPUTADO FEDERAL,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ESTELIONATO MAJORADO,1,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES FALIMENTARES,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | LICITAÇÃO PÚBLICA | PAGAMENTO DE FATURA - ORDEM CRONOLÓGICA,1,exclui,fora dos tipos do protocolo,residual
-CRIME ELEITORAL | REUNIÕES PÚBLICAS | PERÍODO - VEDAÇÃO,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-CRIME CONTRA O PATRIMÔNIO | FRAUDE À EXECUÇÃO,1,exclui,fora dos tipos do protocolo,residual
-PROCESSO PENAL | EXCEÇÃO,1,exclui,fora dos tipos do protocolo,residual
-ELEIÇÃO | PROPAGANDA ELEITORAL | NOME DO CANDIDATO SEM INDICAÇÃO DOS SUPLENTES - IRREGULARIDADE,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O PLANEJAMENTO FAMILIAR | ESTERELIZAÇÃO CIRÚRGICA | CONTRA A COLETIVIDADE - GENOCÍDIO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A PROPRIEDADE INTELECTUAL | VIOLAÇÃO DE DIREITO AUTORAL | PROJETO - USO SEM AUTORIZAÇÃO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | VIOLAÇÃO DE SIGILO FUNCIONAL | PAINEL ELETRÔNICO DO SENADO FEDERAL,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | ADMISSÃO DE SERVIDORES | AUSÊNCIA DE CONCURSO,1,exclui,fora dos tipos do protocolo,residual
-"CRIME CONTRA A ORDEM ECONÔMICA | DOMÍNIO DE MERCADO | CARTEL - TRANSPORTE DE  VEÍCULOS - ""CEGONHEIROS""",1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESOBEDIÊNCIA | PRECATÓRIO - CRÉDITO ALIMENTAR - PAGAMENTO,1,exclui,fora dos tipos do protocolo,residual
-CRIME DE RESPONSABILIDADE,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A PESSOA | HONRA | CALÚNIA,1,exclui,fora dos tipos do protocolo,tpu_nome
-CRIME CONTRA A PESSOA | HONRA | CALÚNIA E INJÚRIA,1,exclui,fora dos tipos do protocolo,residual
-CRIME ELEITORAL | ATIVIDADES PARTIDÁRIAS - PARTICIPAR - PERÍODO DE SUSPENSÃO DE DIREITOS POÍTICOS,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-CRIME ELEITORAL | INSCRIÇÃO - FRAUDE | DOMICÍLIO ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-CRIME ELEITORAL | CORRUPÇÃO | DISTRIBUIÇÃO DE REMÉDIOS DA CEME,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | ESBULHO POSSESSÓRIO,1,exclui,fora dos tipos do protocolo,residual
-CRIME ELEITORAL | TÍTULO ELEITORAL | RETENÇÃO - CANDIDATO - VANTAGEM ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | MOEDA FALSA / ASSIMILADOS,1,exclui,fora dos tipos do protocolo,residual
-MANDATO ELETIVO | DEPUTADO FEDERAL | SIGILO BANCÁRIO - QUEBRA - COMPETÊNCIA - SUPREMO TRIBUNAL,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA AS RELAÇÕES DE CONSUMO | MERCADORIA IMPRÓPRIA AO CONSUMO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A LIBERDADE PESSOAL  | CONSTRANGIMENTO ILEGAL,1,exclui,fora dos tipos do protocolo,residual
-BENS PÚBLICOS | CESSÃO DE USO | CONTRATO - REGULARIDADE - DANO AO ERÁRIO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A PESSOA | VIDA | ABORTO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA Á SAÚDE PÚBLICA | CORRUPÇÃO DE SUBSTÂNCIA ALIMENTÍCIA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A FÉ PÚBLICA | FALSIDADE IDEOLÓGICA E CONTRA  A ORDEM TRIBUTÁRIA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESVIO DE VERBAS | QUEBRA DE SIGILO BANCÁRIO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | FRAUDE - SEGURO DESEMPREGO,1,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
-CRIME CONTRA O PLANEJAMENTO FAMILIAR | ESTERILIZAÇÃO CIRÚRGICA - LAQUEADURA DE TROMPAS,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | EVASÃO DE DIVISAS DO PAÍS | CRIME ELEITORAL - DOCUMENTO PÚBLICO OU PARTICULAR - OMISSÃO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS | ASSOCIAÇÃO PARA A PRODUÇÃO E TRÁFICO E CONDUTAS AFINS,1,exclui,categoria fora dos tipos do protocolo (Crimes De Trafico Ilicito E Uso Indevido De Drogas),categoria_tpu
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESOBEDIÊNCIA | PRECATÓRIO - PAGAMENTO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O PATRIMÔNIO | ESTELIONATO,1,exclui,fora dos tipos do protocolo,tpu_nome
-CRIME DE IMPRENSA | HONRA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ORDEM TRIBUTÁRIA | IMPOSTO SOBRE CIRCULAÇÃO DE MERCADORIAS E SERVIÇOS - ICMS,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO | ATIVA E PASSIVA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CONTRAVENÇÕES PENAIS,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DE DOCUMENTO PARTICULAR,2,exclui,CP Título X (fé pública); fora dos tipos do protocolo,tpu_nome
+"DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | INVASÃO DE ESTABELECIMENTO INDUSTRIAL, COMERCIAL OU AGRÍCOLA. SABOTAGEM",2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | FRUSTRAÇÃO DE DIREITOS ASSEGURADOS POR LEI TRABALHISTA,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | SIGILO TELEFÔNICO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL |FALSIFICAÇÃO OU ALTERAÇÃO DE DOCUMENTO PÚBLICO PARA FINS ELEITORAIS,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO |CRIME CONTRA A ADMINISTRAÇÃO AMBIENTAL,2,exclui,categoria fora dos tipos do protocolo (Crimes Contra O Meio Ambiente E O Patrimonio Genetico),categoria_tpu
+DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | ALICIAMENTO ELEITORAL,2,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO | PESCA,2,exclui,categoria fora dos tipos do protocolo (Crimes Contra O Meio Ambiente E O Patrimonio Genetico),categoria_tpu
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE GENOCÍDIO,2,exclui,fora dos tipos do protocolo,residual
+CRIME DE IMPRENSA,2,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | GARANTIAS PROCESSUAIS | CAUTELAR INOMINADA | CAUTELAR INOMINADA - DE BUSCA E APREENSÃO,2,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | SUPRESSÃO DE DOCUMENTO,1,exclui,CP art. 305 (Título X); fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL MILITAR | CRIMES CONTRA A PESSOA |CRIMES CONTRA A HONRA,1,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | CHARLATANISMO,1,exclui,fora dos tipos do protocolo,residual
 CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESVIO DE VERBAS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS,1,exclui,fora dos tipos do protocolo,tpu_nome
-CRIME CONTRA A PESSOA | VIDA | TENTATIVA DE HOMICÍDIO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO ATIVA | PREFEITO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | DESVIO DE RECURSOS,1,exclui,fora dos tipos do protocolo,residual
-ADICIONAL AO FRETE DE RENOVAÇÃO DA MARINHA MERCANTE,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ORGANIZAÇÃO DO TRABALHO | INVASÃO DE ESTABELECIMENTO,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A PESSOA | LESÃO CORPORAL | CULPOSA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A HONRA | DIFAMAÇÃO - CALÚNIA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CONCORRÊNCIA PÚBLICA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | FUGA DE PRESO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A FAMÍLIA | CRIMES CONTRA O ESTADO DE FILIAÇÃO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | USURPAÇÃO DE ÁGUAS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | COAÇÃO ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DUPLICATA SIMULADA,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | DESABAMENTO OU DESMORONAMENTO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A FÉ PÚBLICA | FALSIDADE IDEOLÓGICA (ART. 299),1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O SENTIMENTO RELIGIOSO E CONTRA O RESPEITO AOS MORTOS | DESTRUIÇÃO / SUBRAÇÃO / OCULTAÇÃO DE CADÁVER,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL MILITAR | CRIMES CONTRA A AUTORIDADE OU DISCIPLINA MILITAR |MOTIM E REVOLTA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | LOTERIA ESPORTIVA,1,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO,1,exclui,fora dos tipos do protocolo,residual
-CRIME DE PRECONCEITO DE RAÇA OU DE COR,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ORDEM TRIBUTÁRIA | IMPOSTO SOBRE SERVIÇO - ISS,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ECONOMIA POPULAR,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO | GOLPE DE ESTADO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | PERICLITAÇÃO DA VIDA E DA SAÚDE | PERIGO PARA A VIDA OU SAÚDE DE OUTREM,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS | PRESCRIÇÃO CULPOSA DE DROGAS,1,exclui,categoria fora dos tipos do protocolo (Crimes De Trafico Ilicito E Uso Indevido De Drogas),categoria_tpu
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A ORDEM ECONÔMICA,1,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS | TRÁFICO DE DROGAS E CONDUTAS AFINS,1,exclui,categoria fora dos tipos do protocolo (Crimes De Trafico Ilicito E Uso Indevido De Drogas),categoria_tpu
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES PRATICADOS CONTRA OS ÍNDIOS E A CULTURA INDÍGENA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO | ATIVA E PASSIVA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ORDEM TRIBUTÁRIA | IMPOSTO SOBRE CIRCULAÇÃO DE MERCADORIAS E SERVIÇOS - ICMS,1,exclui,fora dos tipos do protocolo,residual
+CRIME DE IMPRENSA | HONRA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | SUSPENSÃO CONDICIONAL DA PENA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | VIOLAÇÃO DE SIGILO PROCESSUAL (LEI Nº 13.431/2017),1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL MILITAR | CRIMES CONTRA A PESSOA | CRIMES CONTRA A HONRA |CALÚNIA,1,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL MILITAR | PARTE GERAL | EXTINÇÃO DA PUNIBILIDADE |REABILITAÇÃO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | EFEITOS DA CONDENAÇÃO | PERDA DE BENS E VALORES,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A ORGANIZAÇÃO DO TRABALHO | ATENTADO CONTRA A LIBERDADE DE TRABALHO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | FRAUDES E ABUSOS NA FUNDAÇÃO OU ADMINISTRAÇÃO DE SOCIEDADE POR AÇÕES,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA O MEIO AMBIENTE E O PATRIMÔNIO GENÉTICO | AGROTÓXICOS,1,exclui,categoria fora dos tipos do protocolo (Crimes Contra O Meio Ambiente E O Patrimonio Genetico),categoria_tpu
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DIVULGAÇÃO DE PESQUISA DE FRAUDULENTA,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A PROPRIEDADE INTELECTUAL | VIOLAÇÃO DE DIREITO AUTORAL,1,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | ALICIAMENTO COMERCIAL DE ELEITORES,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | ELEITOR | ALISTAMENTO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO TRIBUTÁRIO | IMPOSTOS | IPTU/ IMPOSTO PREDIAL E TERRITORIAL URBANO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO TRIBUTÁRIO | PROCEDIMENTOS FISCAIS | QUEBRA DE SIGILO BANCÁRIO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA OS PARTIDOS POLÍTICOS |ARGUIÇÃO DE INELIGIBILIDADE TEMERÁRIA OU DE MÁ-FÉ,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | FRAUDE À EXECUÇÃO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO TRIBUTÁRIO | IMPOSTOS | ITCD - IMPOSTO DE TRANSMISSÃO CAUSA MORTIS,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | ALICIAMENTO DE ELEITORES,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL | ELEIÇÕES | TRANSGRESSÕES ELEITORAIS |CAPTAÇÃO ILÍCITA DE SUFRÁGIO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A LIBERDADE PESSOAL  | CONSTRANGIMENTO ILEGAL,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA AS RELAÇÕES DE CONSUMO | MERCADORIA IMPRÓPRIA AO CONSUMO,1,exclui,fora dos tipos do protocolo,residual
+MANDATO ELETIVO | DEPUTADO FEDERAL | SIGILO BANCÁRIO - QUEBRA - COMPETÊNCIA - SUPREMO TRIBUNAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | MOEDA FALSA / ASSIMILADOS,1,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | TÍTULO ELEITORAL | RETENÇÃO - CANDIDATO - VANTAGEM ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | OUTRAS FRAUDES,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | PARCELAMENTO DO SOLO URBANO,1,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | FALSIFICAÇÃO / CORRUPÇÃO / ADULTERAÇÃO / ALTERAÇÃO DE SUBSTÂNCIA OU PRODUTOS ALIMENTÍCIOS,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES AGRÁRIOS,1,exclui,fora dos tipos do protocolo,residual
 DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | EXPLOSÃO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CONTRA O MEIO AMBIENTE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO TRIBUTÁRIO | IMPOSTOS | IPTU/ IMPOSTO PREDIAL E TERRITORIAL URBANO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL E PROCESSO ELEITORAL DO STF | ELEIÇÃO | ELEITOR | ALISTAMENTO,1,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | CORRUPÇÃO | DISTRIBUIÇÃO DE REMÉDIOS DA CEME,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |DIVULGAÇÃO DE FATOS INVERÍDICOS NA PROPAGANDA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO ELEITORAL | ELEIÇÕES | RECURSOS FINANCEIROS DE CAMPANHA ELEITORAL |CAPTAÇÃO OU GASTO ILÍCITO DE RECURSOS FINANCEIROS DE CAMPANHA ELEITORAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A PROPAGANDA ELEITORAL |CALÚNIA NA PROPAGANDA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | LESÃO CORPORAL | GRAVE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | ELEIÇÕES | TRANSGRESSÕES ELEITORAIS | CORRUPÇÃO OU FRAUDE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA O SERVIÇO DA JUSTIÇA ELEITORAL |DESCUMPRIMENTO DA PROIBIÇÃO DE FORNECIMENTO DE TRANSPORTE OU REFEIÇÕES A ELEITORES,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | ELEIÇÕES | CARGOS |CARGO - DEPUTADO FEDERAL,1,exclui,fora dos tipos do protocolo,residual
+CRIME DE RESPONSABILIDADE,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESOBEDIÊNCIA | PRECATÓRIO - CRÉDITO ALIMENTAR - PAGAMENTO,1,exclui,fora dos tipos do protocolo,residual
+"CRIME CONTRA A ORDEM ECONÔMICA | DOMÍNIO DE MERCADO | CARTEL - TRANSPORTE DE  VEÍCULOS - ""CEGONHEIROS""",1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | ADMISSÃO DE SERVIDORES | AUSÊNCIA DE CONCURSO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | VIOLAÇÃO DE SIGILO FUNCIONAL | PAINEL ELETRÔNICO DO SENADO FEDERAL,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PROPRIEDADE INTELECTUAL | VIOLAÇÃO DE DIREITO AUTORAL | PROJETO - USO SEM AUTORIZAÇÃO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PLANEJAMENTO FAMILIAR | ESTERELIZAÇÃO CIRÚRGICA | CONTRA A COLETIVIDADE - GENOCÍDIO,1,exclui,fora dos tipos do protocolo,residual
+ELEIÇÃO | PROPAGANDA ELEITORAL | NOME DO CANDIDATO SEM INDICAÇÃO DOS SUPLENTES - IRREGULARIDADE,1,exclui,fora dos tipos do protocolo,residual
+ASSUNTOS DIVERSOS,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PAZ PÚBLICA | QUADRILHA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | OPERAÇÃO DE CÂMBIO NÃO AUTORIZADA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DISPOSIÇÃO DE COISA ALHEIA COMO PRÓPRIA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CONCORRÊNCIA PÚBLICA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A HONRA | DIFAMAÇÃO - CALÚNIA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PESSOA | LESÃO CORPORAL | CULPOSA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ORGANIZAÇÃO DO TRABALHO | INVASÃO DE ESTABELECIMENTO,1,exclui,fora dos tipos do protocolo,residual
+ADICIONAL AO FRETE DE RENOVAÇÃO DA MARINHA MERCANTE,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | DESVIO DE RECURSOS,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | PARTE GERAL | EXTINÇÃO DA PUNIBILIDADE | PERDÃO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A HONRA | INJÚRIA | PRECONCEITUOSA | ORIGEM,1,exclui,categoria fora dos tipos do protocolo (Injuria),categoria_tpu
+CRIME ELEITORAL | INSCRIÇÃO - FRAUDE | DOMICÍLIO ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+CRIME ELEITORAL | ATIVIDADES PARTIDÁRIAS - PARTICIPAR - PERÍODO DE SUSPENSÃO DE DIREITOS POÍTICOS,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+CRIME CONTRA A PESSOA | HONRA | CALÚNIA E INJÚRIA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PESSOA | HONRA | CALÚNIA,1,exclui,fora dos tipos do protocolo,tpu_nome
+CRIME DE PRECONCEITO DE RAÇA OU DE COR,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | LOTERIA ESPORTIVA,1,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES PREVISTOS NA LEI MARIA DA PENHA,1,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES CONTRA A DIGNIDADE SEXUAL |FAVORECIMENTO DA PROSTITUIÇÃO OU OUTRA FORMA DE EXPLORAÇÃO SEXUAL DE VULNERÁVEL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | LATROCÍNIO,1,exclui,fora dos tipos do protocolo,residual
+PROCESSO PENAL | EXCEÇÃO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PATRIMÔNIO | FRAUDE À EXECUÇÃO,1,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | REUNIÕES PÚBLICAS | PERÍODO - VEDAÇÃO,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | LICITAÇÃO PÚBLICA | PAGAMENTO DE FATURA - ORDEM CRONOLÓGICA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | FUGA DE PRESO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A PAZ PÚBLICA | CONSTITUIÇÃO DE MILÍCIA PRIVADA,1,exclui,fora dos tipos do protocolo,residual
+"DIREITO PENAL | CRIMES PREVISTOS NA LEI DA ORGANIZAÇÃO CRIMINOSA | CRIMES OCORRIDOS NA INVESTIGAÇÃO DA PROVA | RECUSA OU OMISSÃO DE DADOS CADASTRAIS, REGISTROS, DOCUMENTOS E INFORMAÇÕES",1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL MILITAR | PARTE GERAL |APLICAÇÃO DA PENA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO | ABOLIÇÃO VIOLENTA DO ESTADO DEMOCRÁTICO DE DIREITO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE |CRIMES CONTRA PORTADORES DE DEFICIÊNCIA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL || CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO || ATENTADO À SOBERANIA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO ATIVA | PREFEITO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PESSOA | VIDA | TENTATIVA DE HOMICÍDIO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PATRIMÔNIO | ESTELIONATO,1,exclui,fora dos tipos do protocolo,tpu_nome
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESOBEDIÊNCIA | PRECATÓRIO - PAGAMENTO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | EVASÃO DE DIVISAS DO PAÍS | CRIME ELEITORAL - DOCUMENTO PÚBLICO OU PARTICULAR - OMISSÃO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PLANEJAMENTO FAMILIAR | ESTERILIZAÇÃO CIRÚRGICA - LAQUEADURA DE TROMPAS,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA O PATRIMÔNIO | ESTELIONATO | FRAUDE - SEGURO DESEMPREGO,1,exclui,categoria fora dos tipos do protocolo (Estelionato),categoria_tpu
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | DESVIO DE VERBAS | QUEBRA DE SIGILO BANCÁRIO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A FÉ PÚBLICA | FALSIDADE IDEOLÓGICA E CONTRA  A ORDEM TRIBUTÁRIA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA Á SAÚDE PÚBLICA | CORRUPÇÃO DE SUBSTÂNCIA ALIMENTÍCIA,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A PESSOA | VIDA | ABORTO,1,exclui,fora dos tipos do protocolo,residual
+BENS PÚBLICOS | CESSÃO DE USO | CONTRATO - REGULARIDADE - DANO AO ERÁRIO,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ECONOMIA POPULAR,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ORDEM TRIBUTÁRIA | IMPOSTO SOBRE SERVIÇO - ISS,1,exclui,fora dos tipos do protocolo,residual
+CRIME ELEITORAL | PECULATO E CONCUSSÃO | DOAÇÃO DE CAMPANHA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+CRIME CONTRA A PESSOA | HONRA | INJÚRIA,1,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL || CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO || ABOLIÇÃO VIOLENTA DO ESTADO DEMOCRÁTICO DE DIREITO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | ATENTADO CONTRA A SEGURANÇA DE TRANSPORTE PÚBLICO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | EXTORSÃO MEDIANTE SEQÜESTRO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL MILITAR | CRIMES CONTRA A AUTORIDADE OU DISCIPLINA MILITAR | ALICIAÇÃO E INCITAMENTO |INCITAMENTO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | LESÃO CORPORAL | DECORRENTE DE VIOLÊNCIA DOMÉSTICA | CONTRA A MULHER,1,exclui,categoria fora dos tipos do protocolo (Decorrente De Violencia Domestica),categoria_tpu
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE TRÁFICO ILÍCITO E USO INDEVIDO DE DROGAS | PRESCRIÇÃO CULPOSA DE DROGAS,1,exclui,categoria fora dos tipos do protocolo (Crimes De Trafico Ilicito E Uso Indevido De Drogas),categoria_tpu
 DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A HONRA | INJÚRIA,1,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | PARTE GERAL | APLICAÇÃO DA PENA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CONTRA O MEIO AMBIENTE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL MILITAR | CRIMES CONTRA A AUTORIDADE OU DISCIPLINA MILITAR |MOTIM E REVOLTA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | GARANTIAS PROCESSUAIS | CAUTELAR INOMINADA,1,exclui,fora dos tipos do protocolo,residual
 CRIME MILITAR | REVOLTA,1,exclui,fora dos tipos do protocolo,residual
 DIREITO CIVIL | COISAS | PROPRIEDADE | DIVISÃO E DEMARCAÇÃO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA AS TELECOMUNICAÇÕES,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES AGRÁRIOS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | FALSIFICAÇÃO / CORRUPÇÃO / ADULTERAÇÃO / ALTERAÇÃO DE SUBSTÂNCIA OU PRODUTOS ALIMENTÍCIOS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | PARCELAMENTO DO SOLO URBANO,1,exclui,fora dos tipos do protocolo,tpu_nome
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | DESORDEM ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | OUTRAS FRAUDES,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CONTRAVENÇÕES PENAIS,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | OPERAÇÃO DE CÂMBIO NÃO AUTORIZADA,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A PESSOA | HONRA | INJÚRIA,1,exclui,fora dos tipos do protocolo,tpu_nome
-CRIME ELEITORAL | PECULATO E CONCUSSÃO | DOAÇÃO DE CAMPANHA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A FÉ PÚBLICA | ADULTERAÇÃO DE SINAL IDENTIFICADOR DE VEÍCULO AUTOMOTOR,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CONCUSSÃO | EXCESSO DE EXAÇÃO,1,exclui,fora dos tipos do protocolo,residual
 CRIME CONTRA O SISTEMA FINANCEIRO NACIONAL | APLICAÇÃO DE RECURSOS | FINANCIAMENTO CONCEDIDO PELO BNDES,1,exclui,fora dos tipos do protocolo,residual
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CONCUSSÃO | EXCESSO DE EXAÇÃO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A FÉ PÚBLICA | ADULTERAÇÃO DE SINAL IDENTIFICADOR DE VEÍCULO AUTOMOTOR,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PROCESSUAL CIVIL E DO TRABALHO | LIQUIDAÇÃO / CUMPRIMENTO / EXECUÇÃO | PENHORA / DEPÓSITO/ AVALIAÇÃO | SEGURO-GARANTIA JUDICIAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIME / CONTRAVENÇÃO CONTRA CRIANÇA / ADOLESCENTE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FÉ PÚBLICA | ADULTERAÇÃO DE SINAL IDENTIFICADOR DE VEÍCULO AUTOMOTOR,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE PRECONCEITO | INTOLERÂNCIA RELIGIOSA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PROCESSUAL CIVIL E DO TRABALHO | ATOS PROCESSUAIS | NULIDADE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A INVIOLABILIDADE DE SEGREDO | VIOLAÇÃO DO SEGREDO PROFISSIONAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES CONTRA A PROPRIEDADE INDUSTRIAL | CRIMES CONTRA PATENTE DE INVENÇÃO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES MILITARES | HOMICÍDIO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O SENTIMENTO RELIGIOSO E CONTRA O RESPEITO AOS MORTOS | DESTRUIÇÃO / SUBRAÇÃO / OCULTAÇÃO DE CADÁVER,1,exclui,fora dos tipos do protocolo,residual
+DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | CONTRA A FÉ PÚBLICA | FALSIDADE IDEOLÓGICA (ART. 299),1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A INCOLUMIDADE PÚBLICA | DESABAMENTO OU DESMORONAMENTO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | DUPLICATA SIMULADA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | COAÇÃO ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | USURPAÇÃO DE ÁGUAS,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES CONTRA A FAMÍLIA | CRIMES CONTRA O ESTADO DE FILIAÇÃO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO CIVIL | COISAS | PROPRIEDADE,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | CRIMES PREVISTOS NA LEI DA ORGANIZAÇÃO CRIMINOSA | CRIMES OCORRIDOS NA INVESTIGAÇÃO DA PROVA | DESCUMPRIMENTO DE DETERMINAÇÃO DE SIGILO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO CIVIL | EMPRESAS | SOCIEDADE | DISSOLUÇÃO,1,exclui,fora dos tipos do protocolo,residual
 CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO | PRESIDENTE DA REPÚBLICA E OUTROS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS | ALICIAMENTO DE ELEITORES,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO TRIBUTÁRIO | IMPOSTOS | ITCD - IMPOSTO DE TRANSMISSÃO CAUSA MORTIS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA O PATRIMÔNIO | FRAUDE À EXECUÇÃO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA OS PARTIDOS POLÍTICOS |ARGUIÇÃO DE INELIGIBILIDADE TEMERÁRIA OU DE MÁ-FÉ,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO TRIBUTÁRIO | PROCEDIMENTOS FISCAIS | QUEBRA DE SIGILO BANCÁRIO,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES CONTRA A LIBERDADE PESSOAL,1,exclui,fora dos tipos do protocolo,residual
-DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA O SERVIÇO DA JUSTIÇA ELEITORAL |DESCUMPRIMENTO DA PROIBIÇÃO DE FORNECIMENTO DE TRANSPORTE OU REFEIÇÕES A ELEITORES,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
-DIREITO ELEITORAL | ELEIÇÕES | TRANSGRESSÕES ELEITORAIS | CORRUPÇÃO OU FRAUDE,1,exclui,fora dos tipos do protocolo,residual
-CRIME CONTRA A PAZ PÚBLICA | QUADRILHA,1,exclui,fora dos tipos do protocolo,residual
-ASSUNTOS DIVERSOS,1,exclui,fora dos tipos do protocolo,residual
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DA LEI DE LICITAÇÕES,225,inclui,"Lei 8.666/1993, arts. 89 a 99; desde a Lei 14.133/2021, CP arts. 337-E a 337-P (Título XI); D-024",tpu_nome
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PECULATO,224,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE RESPONSABILIDADE,218,inclui,Decreto-Lei 201/1967 (crimes de responsabilidade de prefeitos e vereadores); incluído por emenda ao protocolo (D-039),tpu_nome
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | CORRUPÇÃO PASSIVA,118,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-"DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE ""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES",105,inclui,Lei 9.613/1998,tpu_nome
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL,73,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | CORRUPÇÃO ATIVA,38,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | EMPREGO IRREGULAR DE VERBAS OU RENDAS PÚBLICAS,21,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | DESOBEDIÊNCIA,18,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PREVARICAÇÃO,18,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | DESACATO,14,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | TRÁFICO DE INFLUÊNCIA,13,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA O ESTADO DEMOCRÁTICO DE DIREITO | GOLPE DE ESTADO,1,exclui,fora dos tipos do protocolo,residual
+DIREITO ELEITORAL | CRIMES ELEITORAIS | CRIMES CONTRA A FÉ PÚBLICA ELEITORAL | APROPRIAÇÃO INDÉBITA ELEITORAL,1,exclui,"tipo eleitoral fora do protocolo (só o art. 350 entra, conexo)",eleitoral
+DIREITO PENAL | PARTE GERAL,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PROCESSUAL CIVIL E DO TRABALHO | PROCESSO E PROCEDIMENTO | ANTECIPAÇÃO DE TUTELA / TUTELA ESPECÍFICA,1,exclui,fora dos tipos do protocolo,residual
+DIREITO PENAL | LESÃO CORPORAL | DECORRENTE DE VIOLÊNCIA DOMÉSTICA,1,exclui,fora dos tipos do protocolo,tpu_nome
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE RESPONSABILIDADE,301,inclui,Decreto-Lei 201/1967 (crimes de responsabilidade de prefeitos e vereadores); incluído por emenda ao protocolo (D-039),tpu_nome
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PECULATO,259,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DA LEI DE LICITAÇÕES,236,inclui,"Lei 8.666/1993, arts. 89 a 99; desde a Lei 14.133/2021, CP arts. 337-E a 337-P (Título XI); D-024",tpu_nome
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | CORRUPÇÃO PASSIVA,138,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+"DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES DE ""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES",124,inclui,Lei 9.613/1998,tpu_nome
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL,90,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PREVARICAÇÃO,60,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | CORRUPÇÃO ATIVA,44,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | EMPREGO IRREGULAR DE VERBAS OU RENDAS PÚBLICAS,27,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | DESOBEDIÊNCIA,26,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | ADVOCACIA ADMINISTRATIVA,25,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | DENUNCIAÇÃO CALUNIOSA,18,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | DESACATO,16,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | TRÁFICO DE INFLUÊNCIA,15,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | VIOLAÇÃO DO SIGILO FUNCIONAL,12,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
 DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | SONEGAÇÃO DE CONTRIBUIÇÃO PREVIDENCIÁRIA,11,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | DENUNCIAÇÃO CALUNIOSA,8,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | COAÇÃO NO CURSO DO PROCESSO,9,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
 DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | CONCUSSÃO,8,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | COAÇÃO NO CURSO DO PROCESSO,6,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | FALSO TESTEMUNHO OU FALSA PERÍCIA,6,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA,5,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | VIOLAÇÃO DO SIGILO FUNCIONAL,5,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL,4,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | FALSO TESTEMUNHO OU FALSA PERÍCIA,8,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA,7,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL,5,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+"DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | ""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES ORIUNDOS DE CORRUPÇÃO",4,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
 DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS | ASSUNÇÃO DE OBRIGAÇÃO NO ÚLTIMO ANO DO MANDATO OU LEGISLATURA,4,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | INSERÇÃO DE DADOS FALSOS EM SISTEMA DE INFORMAÇÕES,4,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+"DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL |""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES ORIUNDOS DE CORRUPÇÃO",4,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES MILITARES | PECULATO,3,inclui,CP art. 312 (Título XI),tpu_nome
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | INSERÇÃO DE DADOS FALSOS EM SISTEMA DE INFORMAÇÕES,3,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | ADVOCACIA ADMINISTRATIVA,3,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS,2,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | CONTRABANDO OU DESCAMINHO,2,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+"DIREITO PENAL | CRIMES PREVISTOS NA LEI DA ORGANIZAÇÃO CRIMINOSA | PROMOÇÃO, CONSTITUIÇÃO, FINANCIAMENTO OU INTEGRAÇÃO DE ORGANIZAÇÃO CRIMINOSA",2,inclui,"Lei 12.850/2013, art. 2º",tpu_nome
 CRIME CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | DENUNCIAÇÃO CALUNIOSA,2,inclui,CP art. 339 (Título XI),tpu_nome
 CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | CORRUPÇÃO PASSIVA | ADVOCACIA ADMINISTRATIVA,2,inclui,CP art. 321 (Título XI),tpu_nome
-DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | DA LEI DE LICITAÇÕES,1,inclui,tipo do protocolo citado no assunto,palavra_chave
-"DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL |""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES ORIUNDOS DE CORRUPÇÃO",1,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | RESISTÊNCIA,1,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | USURPAÇÃO DE FUNÇÃO PÚBLICA,2,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS,2,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | EXERCÍCIO ARBITRÁRIO DAS PRÓPRIAS RAZÕES,1,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | EXERCÍCIO ARBITRÁRIO OU ABUSO DE PODER,1,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
 "DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL |""LAVAGEM"" OU OCULTAÇÃO DE BENS, DIREITOS OU VALORES ORIUNDOS DE CORRUPÇÃO",1,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PECULATO MEDIANTE ERRO DE OUTREM,1,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL MILITAR | CRIMES CONTRA A ADMINISTRAÇÃO MILITAR |PECULATO,1,inclui,CP art. 312 (Título XI),tpu_nome
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | LICITAÇÃO PÚBLICA,1,inclui,tipo do protocolo citado no assunto,palavra_chave
-CRIME CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | CORRUPÇÃO ATIVA DE TESTEMUNHA OU PERITO,1,inclui,tipo do protocolo citado no assunto,palavra_chave
-CRIME CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DE DOCUMENTO PÚBLICO | CORRUPÇÃO PASSIVA E QUADRILHA,1,inclui,tipo do protocolo citado no assunto,palavra_chave
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | CONTRABANDO OU DESCAMINHO,1,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | FAVORECIMENTO PESSOAL,1,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
-CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | EMPREGO IRREGULAR DE VERBAS,1,inclui,tipo do protocolo citado no assunto,palavra_chave
-DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS | AUMENTO DE DESPESA COM PESSOAL NO ÚLTIMO ANO DO MANDATO OU LEGISLATURA,1,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS | ORDENAÇÃO DE DESPESA NÃO AUTORIZADA,1,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | USURPAÇÃO DE FUNÇÃO PÚBLICA,1,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PENAL | CRIMES PREVISTOS NA LEI DA ORGANIZAÇÃO CRIMINOSA,1,inclui,Lei 12.850/2013,tpu_nome
 DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS |MÁ-GESTÃO PRATICADA POR PREFEITOS E VEREADORES,1,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
-DIREITO PROCESSUAL PENAL | AÇÃO PENAL,1774,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
-DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL,268,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+CRIME CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | CORRUPÇÃO ATIVA DE TESTEMUNHA OU PERITO,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+DIREITO PENAL | CRIMES PRATICADOS POR PARTICULAR CONTRA A ADMINISTRAÇÃO EM GERAL | RESISTÊNCIA,1,inclui,"CP Título XI, Capítulo II (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL MILITAR | CRIMES CONTRA A ADMINISTRAÇÃO MILITAR |PECULATO,1,inclui,CP art. 312 (Título XI),tpu_nome
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | PECULATO MEDIANTE ERRO DE OUTREM,1,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PREVISTOS NA LEI DA ORGANIZAÇÃO CRIMINOSA,1,inclui,Lei 12.850/2013,tpu_nome
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | EMPREGO IRREGULAR DE VERBAS,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+CRIME CONTRA A ADMINISTRAÇÃO PÚBLICA | LICITAÇÃO PÚBLICA,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+DIREITO PENAL MILITAR | CRIMES CONTRA A ADMINISTRAÇÃO MILITAR | CORRUPÇÃO |CORRUPÇÃO ATIVA,1,inclui,CP art. 333 (Título XI),tpu_nome
+DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS | AUMENTO DE DESPESA COM PESSOAL NO ÚLTIMO ANO DO MANDATO OU LEGISLATURA,1,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES PRATICADOS POR FUNCIONÁRIOS PÚBLICOS CONTRA A ADMINISTRAÇÃO EM GERAL | VIOLÊNCIA ARBITRÁRIA,1,inclui,"CP Título XI, Capítulo I (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | FAVORECIMENTO PESSOAL,1,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+CRIME CONTRA A FÉ PÚBLICA | FALSIFICAÇÃO DE DOCUMENTO PÚBLICO | CORRUPÇÃO PASSIVA E QUADRILHA,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+DIREITO PENAL | CRIMES CONTRA AS FINANÇAS PÚBLICAS | ORDENAÇÃO DE DESPESA NÃO AUTORIZADA,1,inclui,"CP Título XI, Capítulo IV (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO PENAL | CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS | FRAUDE EM LICITAÇÃO OU CONTRATO,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+DIREITO PENAL | CRIMES EM LICITAÇÕES E CONTRATOS ADMINISTRATIVOS,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+DIREITO PENAL | CRIMES CONTRA A ADMINISTRAÇÃO DA JUSTIÇA | COMUNICAÇÃO FALSA DE CRIME OU DE CONTRAVENÇÃO,1,inclui,"CP Título XI, Capítulo III (protocolo: arts. 312 a 359-H)",titulo_xi
+DIREITO DA CRIANÇA E DO ADOLESCENTE | ATO INFRACIONAL | PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | DA LEI DE LICITAÇÕES,1,inclui,tipo do protocolo citado no assunto,palavra_chave
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL,1868,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL,1850,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL,475,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | RECURSO,160,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE,109,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | MEDIDAS ASSECURATÓRIAS | BUSCA E APREENSÃO DE BENS,107,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA,82,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | PRISÃO PREVENTIVA | REVOGAÇÃO,68,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE | CERCEAMENTO DE DEFESA,55,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | DENÚNCIA/QUEIXA,51,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | LIBERDADE PROVISÓRIA,49,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | MEDIDAS ASSECURATÓRIAS,48,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | MEDIDAS ASSECURATÓRIAS | INDISPONIBILIDADE / SEQÜESTRO DE BENS,45,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | QUESTÕES INCIDENTES | DESTINAÇÃO DE BENS E MERCADORIAS/COISAS APREENDIDAS | RESTITUIÇÃO DE COISAS APREENDIDAS,39,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | COMPETÊNCIA DO MP,34,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA | COMPETÊNCIA POR PRERROGATIVA DE FUNÇÃO,33,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
 *NI*,30,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | PROVAS,29,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | SUSPENSÃO,29,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | PREFEITO,28,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA,28,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | RECURSO | DENEGAÇÃO,28,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE,25,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | TRANCAMENTO,24,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | PRISÃO PREVENTIVA,24,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | LICITAÇÕES,24,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE,19,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | PROGRESSÃO DE REGIME,22,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PENAL,19,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | ATOS ADMINISTRATIVOS | IMPROBIDADE ADMINISTRATIVA,18,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO PROCESSUAL PENAL | DENÚNCIA/QUEIXA,13,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
-DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA | COMPETÊNCIA POR PRERROGATIVA DE FUNÇÃO,13,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO BANCÁRIO,18,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | TRANCAMENTO,14,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | DENÚNCIA/QUEIXA | DESCLASSIFICAÇÃO,13,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO TELEFÔNICO,12,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | PRISÃO DOMICILIAR / ESPECIAL,11,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | PROVAS | PROVA ILÍCITA,10,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS,10,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | REMIÇÃO,9,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | FALTA GRAVE,9,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE | SUSPEIÇÃO,9,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE | AUSÊNCIA DE FUNDAMENTAÇÃO,8,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | EXCESSO DE PRAZO PARA INSTRUÇÃO / JULGAMENTO,7,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | EXECUÇÃO PENAL PROVISÓRIA - CABIMENTO,7,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | CERCEAMENTO DE DEFESA,7,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | ATOS ADMINISTRATIVOS | IMPROBIDADE ADMINISTRATIVA | DANO AO ERÁRIO,6,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO PENAL,5,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | PARLAMENTARES,3,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | COLABORAÇÃO PREMIADA,6,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE,6,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | CONTAGEM DE PRAZO PARA OS BENEFÍCIOS,5,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | TRANSFERÊNCIA DE PRESO,5,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | PRISÃO DECORRENTE DE SENTENÇA CONDENATÓRIA,4,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | MONITORAÇÃO ELETRÔNICA,4,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DO SIGILO FISCAL,4,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENA,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | PRISÃO TEMPORÁRIA,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | PRISÃO PREVENTIVA | INDEFERIMENTO,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | LIVRAMENTO CONDICIONAL,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE | AUSÊNCIA DE PUBLICIDADE,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA | COMPETÊNCIA DA JUSTIÇA FEDERAL,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | TRANSAÇÃO,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | DENÚNCIA/QUEIXA | RECEBIMENTO,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | QUEBRA DE SIGILO TELEMÁTICO,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | ACORDO DE NÃO PERSECUÇÃO PENAL,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | LICITAÇÕES  | MODALIDADE / LIMITE,3,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO | RADIODIFUSÃO,2,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | QUESTÕES INCIDENTES,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | COOPERAÇÃO ENTRE INSTITUIÇÕES E ÓRGÃOS PÚBLICOS NA BUSCA DE PROVAS/INFORMAÇÕES,3,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | PARLAMENTARES,3,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | PREFEITO | PRESTAÇÃO DE CONTAS,2,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE | IMPEDIMENTO,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL || ACORDO DE NÃO PERSECUÇÃO PENAL,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | FIANÇA,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | REGRESSÃO DE REGIME,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO | RADIODIFUSÃO,2,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | INVESTIGAÇÃO PENAL | ARQUIVAMENTO DE PROCEDIMENTO INVESTIGATÓRIO CRIMINAL - PIC-MP,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | LICITAÇÕES  | SANÇÕES ADMINISTRATIVAS,2,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | PARLAMENTARES | PRESTAÇÃO DE CONTAS,2,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | PROGRESSÃO DE REGIME | CRIMES HEDIONDOS,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA DE MULTA,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | HABEAS CORPUS - CABIMENTO,2,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA RESTRITIVA DE DIREITOS,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | MEDIDAS ASSECURATÓRIAS | MEDIDAS PROTETIVAS,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA RESTRITIVA DE DIREITOS | PERDA DE BENS E VALORES,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | SUSPENSÃO | PARCELAMENTO DE CRÉDITO TRIBUTÁRIO,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA | DESAFORAMENTO,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | JURISDIÇÃO E COMPETÊNCIA | COMPETÊNCIA DA JUSTIÇA ESTADUAL,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO | SERVIÇO POSTAL,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | MAGISTRATURA | PROCESSO DISCIPLINAR / SINDICÂNCIA,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIDOR PÚBLICO CIVIL | REGIME ESTATUTÁRIO | NEPOTISMO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | LICITAÇÕES  | ADJUDICAÇÃO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | LICITAÇÕES  | CONVÊNIO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | PARLAMENTARES | PRESTAÇÃO DE CONTAS,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
-DIREITO PROCESSUAL PENAL | PRISÃO PREVENTIVA,1,indeterminado,assunto genérico (o Corte Aberta traz um só assunto por processo): revisar pela fonte primária,generico
-DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO | TRANSPORTE TERRESTRE,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | SAÚDE | CONVÊNIO MÉDICO COM O SUS,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO | TRANSPORTE TERRESTRE,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
 DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | COMISSÃO PARLAMENTAR DE INQUÉRITO - CPI,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | PRISÃO EM FLAGRANTE,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIÇOS | CONCESSÃO / PERMISSÃO / AUTORIZAÇÃO | SERVIÇO POSTAL,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDAD,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | DENÚNCIA/QUEIXA | REJEIÇÃO,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | OBJETOS DE CARTAS PRECATÓRIAS CRIMINAIS | PRISÃO PREVENTIVA,1,indeterminado,assunto genérico: revisar pela fonte primária,generico
+DIREITO PROCESSUAL PENAL | MONITORAÇÃO ELETRÔNICA - MEDIDA CAUTELAR,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | PROVAS | PRODUÇÃO ANTECIPADA DE PROVAS,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | AÇÃO PENAL | NULIDADE | VÍCIO FORMAL DO JULGAMENTO,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | ACORDO DE NÃO PERSECUÇÃO PENAL,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | GARANTIAS CONSTITUCIONAIS | DIREITO DE ACESSO À INFORMAÇÃO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | QUESTÕES INCIDENTES | DESTINAÇÃO DE BENS E MERCADORIAS/COISAS APREENDIDAS,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIDOR PÚBLICO CIVIL | REGIME ESTATUTÁRIO | DESVIO DE FUNÇÃO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | LICITAÇÕES  | ADJUDICAÇÃO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SERVIDOR PÚBLICO CIVIL | REGIME ESTATUTÁRIO | NEPOTISMO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | AGENTES POLÍTICOS | MAGISTRATURA | PROCESSO DISCIPLINAR / SINDICÂNCIA,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | SISTEMA NACIONAL DE TRÂNSITO | LIBERAÇÃO DE VEÍCULO APREENDIDO,1,indeterminado,assunto de direito administrativo em ação penal ou inquérito: revisar pela fonte primária,administrativo
+DIREITO PROCESSUAL PENAL | EXECUÇÃO PENAL E DE MEDIDAS ALTERNATIVAS | PENA PRIVATIVA DE LIBERDADE | UNIFICAÇÃO DE PENA,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PROCESSUAL PENAL | QUESTÕES INCIDENTES | DESTINAÇÃO DE BENS E MERCADORIAS/COISAS APREENDIDAS | AVALIAÇÃO E VENDA EM LEILÃO PÚBLICO,1,indeterminado,"assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária",processual
+DIREITO PENAL | LESÃO CORPORAL | LEVE,3,qualificador,"qualificador, não é tipo penal",tpu_nome
 DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES MILITARES | LESÕES CORPORAIS | LEVE,1,qualificador,"qualificador, não é tipo penal",tpu_nome

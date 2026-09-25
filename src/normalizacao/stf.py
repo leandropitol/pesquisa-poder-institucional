@@ -31,7 +31,7 @@ CURADORIA = RAIZ / "data" / "curadoria"
 CUR_ASSUNTOS = CURADORIA / "assuntos_stf_eixo1.csv"
 SAIDA = RAIZ / "data" / "staging" / "stf"
 URL_PROCESSO = "https://portal.stf.jus.br/processos/listarProcessos.asp?classe={classe}&numeroProcesso={numero}"
-CLASSES = {"AP": "acao_penal", "Inq": "inquerito"}
+CLASSES = {"AP": "acao_penal", "Inq": "inquerito", "Pet": "peticao"}
 
 # Capítulos do Título XI do Código Penal (protocolo: arts. 312 a 359-H), como aparecem na classificação do STF
 TITULO_XI = {
@@ -61,7 +61,7 @@ MAPA_FASES = {
     "DECLARADA A EXTINCAO DA PUNIBILIDADE": "extincao_punibilidade", "DECISAO DO(A) RELATOR(A) - EXTINCAO DA PUNIBILIDADE": "extincao_punibilidade",
     "JULG. POR DESP.-EXTINCAO DA PUNIBILIDADE": "extincao_punibilidade",
 }
-MAPA_FASES_INQ = {  # arquivamento só é fase de inquérito
+MAPA_FASES_INQ = {  # arquivamento só é fase de procedimento investigatório (inquérito ou petição criminal)
     "DETERMINADO ARQUIVAMENTO": "arquivamento_inquerito", "DECISAO DO(A) RELATOR(A) - ARQUIVADO": "arquivamento_inquerito",
     "JULGAMENTO DO PLENO - ARQUIVADO": "arquivamento_inquerito", "DECISAO DA PRESIDENCIA - ARQUIVADO": "arquivamento_inquerito",
 }
@@ -113,6 +113,8 @@ def regra_caminho(caminho: str, tpu: dict) -> tuple[str, str, str]:
         return "inclui", "tipo do protocolo citado no assunto", "palavra_chave"
     if folha in GENERICOS:
         return "indeterminado", "assunto genérico: revisar pela fonte primária", "generico"
+    if seg[0] == "DIREITO PROCESSUAL PENAL":
+        return "indeterminado", "assunto processual (prisão, busca, sigilo, recurso) sem o tipo penal: revisar pela fonte primária", "processual"
     for s in reversed(seg[:-1]):
         if s in tpu and tpu[s][0] == "exclui" and s not in GENERICOS:
             return "exclui", f"categoria fora dos tipos do protocolo ({s.title()})", "categoria_tpu"
@@ -133,13 +135,24 @@ def atualizar_curadoria(contagem: pd.Series) -> pd.DataFrame:
     return saida
 
 
-def ler_exportacoes() -> tuple[dict, pd.DataFrame, dict, pd.DataFrame]:
-    man = list(csv.DictReader(MANIFESTO.open(encoding="utf-8")))
-    reg_dec = max((m for m in man if "decisoes" in m["arquivo"]), key=lambda m: m["data_acesso"])
-    reg_ace = max((m for m in man if "acervo" in m["arquivo"]), key=lambda m: m["data_acesso"])
-    dec = pd.read_excel(RAIZ / reg_dec["arquivo"], dtype=str).fillna("")
-    ace = pd.read_excel(RAIZ / reg_ace["arquivo"], dtype=str).fillna("")
-    return reg_dec, dec, reg_ace, ace
+TITULOS = {"decisoes_AP_Inq": "decisões em ações penais e inquéritos, 08/01/2003 a 23/09/2026",
+           "acervo_AP_Inq": "acervo de ações penais e inquéritos em tramitação",
+           "decisoes_Pet": "decisões em petições de ramo penal, 05/02/2003 a 24/09/2026",
+           "acervo_Pet": "acervo de petições criminais em tramitação"}
+
+
+def ler_exportacoes() -> tuple[list, list]:
+    """(registro do manifesto, planilha) das exportações de decisões e de acervo; a mais recente de cada recorte."""
+    man = [m for m in csv.DictReader(MANIFESTO.open(encoding="utf-8")) if m["arquivo"].endswith(".xlsx")]
+    ultimos = {}
+    for m in man:
+        recorte = next((k for k in TITULOS if k in m["arquivo"]), None)
+        if recorte and (recorte not in ultimos or m["data_acesso"] > ultimos[recorte]["data_acesso"]):
+            ultimos[recorte] = m
+    ler_x = lambda m: pd.read_excel(RAIZ / m["arquivo"], dtype=str).fillna("")
+    dec = [(ultimos[k], ler_x(ultimos[k])) for k in sorted(ultimos) if k.startswith("decisoes")]
+    ace = [(ultimos[k], ler_x(ultimos[k])) for k in sorted(ultimos) if k.startswith("acervo")]
+    return dec, ace
 
 
 def indicios_no_texto(dec: pd.DataFrame, regex: re.Pattern = RE_INDICIO) -> dict[str, str]:
@@ -153,12 +166,13 @@ def indicios_no_texto(dec: pd.DataFrame, regex: re.Pattern = RE_INDICIO) -> dict
 
 
 def montar(ids: RegistroIds) -> dict:
-    reg_dec, dec, reg_ace, ace = ler_exportacoes()
+    decs, aces = ler_exportacoes()
     stf = ids.obter("instituicoes", "orgao:STF")
     inst = [{"id_instituicao": stf, "nome": "Supremo Tribunal Federal", "sigla": "STF", "tipo_instituicao": "tribunal", "poder": "judiciario",
              "esfera": "federal", "pais_iso3": "BRA"}]
     fontes, oficiais, f_de = [], [], {}
-    for reg, titulo in ((reg_dec, "decisões em ações penais e inquéritos, 08/01/2003 a 23/09/2026"), (reg_ace, "acervo de ações penais e inquéritos em tramitação")):
+    for reg, _ in decs + aces:
+        titulo = next(t for k, t in TITULOS.items() if k in reg["arquivo"])
         f = ids.obter("fontes", f"raw:{reg['arquivo']}")
         f_de[reg["arquivo"]] = f
         fontes.append({"id_fonte": f, "tipo_fonte": "oficial", "titulo": f"STF, Corte Aberta: {titulo} (exportação do painel)", "data_publicacao": reg["data_acesso"],
@@ -166,14 +180,16 @@ def montar(ids: RegistroIds) -> dict:
                        "licenca": "Dados públicos do STF; licença não informada no painel", "observacao": "Exportação feita pelo autor no navegador (D-037)"})
         oficiais.append({"id_fonte": f, "id_orgao": stf, "tipo_documento": "Exportação de painel estatístico (XLSX)", "data_documento": reg["data_acesso"],
                          "link": reg["url_base"]})
-    f_dec, f_ace = f_de[reg_dec["arquivo"]], f_de[reg_ace["arquivo"]]
+    dec = pd.concat([d.assign(_fonte=f_de[reg["arquivo"]]) for reg, d in decs], ignore_index=True)
 
     por_proc = {}
     for _, r in dec.drop_duplicates("Processo").iterrows():
-        por_proc[r["Processo"]] = {"assunto": r["Assuntos do processo"], "autuacao": r["Data de autuação"][:10], "cnj": "", "fonte": f_dec}
-    for _, r in ace.iterrows():
-        base = por_proc.setdefault(r["Processo"], {"assunto": r["Assuntos"], "autuacao": r["Data autuação"][:10], "cnj": "", "fonte": f_ace})
-        base["cnj"] = numero_cnj(r["Número único"])
+        por_proc[r["Processo"]] = {"assunto": r["Assuntos do processo"], "autuacao": r["Data de autuação"][:10], "cnj": "", "fonte": r["_fonte"]}
+    for reg, ace in aces:
+        for _, r in ace.iterrows():
+            base = por_proc.setdefault(r["Processo"], {"assunto": r["Assuntos"], "autuacao": r["Data autuação"][:10], "cnj": "",
+                                                       "fonte": f_de[reg["arquivo"]]})
+            base["cnj"] = numero_cnj(r["Número único"])
     processos, id_de = [], {}
     for proc, x in sorted(por_proc.items()):
         classe, numero = proc.split(" ", 1)
@@ -186,13 +202,13 @@ def montar(ids: RegistroIds) -> dict:
     for _, r in dec.iterrows():
         classe = r["Processo"].split(" ", 1)[0]
         andamento = norm(r["Andamento decisão"])
-        fase = MAPA_FASES.get(andamento) or (MAPA_FASES_INQ.get(andamento) if classe == "Inq" else None) \
+        fase = MAPA_FASES.get(andamento) or (MAPA_FASES_INQ.get(andamento) if classe in ("Inq", "Pet") else None) \
             or (MAPA_FASES_AP.get(andamento) if classe == "AP" and r["Tipo decisão"] == "Decisão Final" else None)
         if not fase:
             continue
         fases.append({"id_fase": ids.obter("fases_processo", f"stf:decisao:{r['idFatoDecisao']}"), "id_processo": id_de[r["Processo"]],
                       "data": r["Data da decisão"][:10], "fase": fase, "id_orgao_julgador": stf,
-                      "resumo": f"{r['Andamento decisão']} ({r['Órgão julgador'].lower()})", "id_fonte": f_dec})
+                      "resumo": f"{r['Andamento decisão']} ({r['Órgão julgador'].lower()})", "id_fonte": r["_fonte"]})
     return {"instituicoes": inst, "fontes": fontes, "fonte_oficial": oficiais, "processos": processos, "fases_processo": fases, "decisoes": dec}
 
 

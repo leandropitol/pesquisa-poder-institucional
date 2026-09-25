@@ -283,8 +283,9 @@ def _linhas_stf(proc: pd.DataFrame, base: Path) -> list[str]:
     sim = proc[u == "sim"]
     return [
         "### STF pelo Corte Aberta (etapa E5)", "",
-        f"- {len(proc)} ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação "
-        f"(D-037). No universo do eixo 1: {len(sim)} (tipos do protocolo pelo assunto); {int((u == 'revisar').sum())} a revisar; "
+        f"- {len(proc)} processos ({', '.join(f'{k}: {n}' for k, n in proc['classe'].value_counts().items())}): ações penais e inquéritos com "
+        "decisão de 08/01/2003 a 23/09/2026, petições de ramo penal com decisão de 05/02/2003 a 24/09/2026, e os em tramitação nas datas das "
+        f"exportações (D-037, D-045). No universo do eixo 1: {len(sim)} (tipos do protocolo pelo assunto); {int((u == 'revisar').sum())} a revisar; "
         f"{int((u == 'nao').sum())} fora; {int((u == 'antes_de_2003').sum())} autuados antes de 2003.",
         "- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico \"Direito Processual Penal | Ação Penal\", "
         "e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): "
@@ -296,6 +297,9 @@ def _linhas_stf(proc: pd.DataFrame, base: Path) -> list[str]:
         f"- Fases: {len(fases)} registros de decisões com correspondência inequívoca ("
         + "; ".join(f"{k}: {n}" for k, n in fases["fase"].value_counts().items()) + "). O julgamento de mérito da ação penal "
         "(procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.",
+        "- Petições criminais: o assunto costuma ser processual (investigação, prisão, busca e apreensão, quebra de sigilo) e não diz o crime; "
+        "por isso a maioria fica a revisar. O arquivamento de petição investigativa é registrado com a fase de arquivamento de procedimento "
+        "investigatório (vocabulário: arquivamento de inquérito).",
         "- Decisões em segredo de justiça aparecem só como \"Decisão (segredo de justiça)\" e não geram fase. O campo de sigilo do processo não vem na exportação.",
         "- A página de dados abertos do STF (bases de processos recebidos e baixados, com todos os assuntos de cada processo) corta as "
         "exportações em 5 milhões de células: os arquivos de cinco anos (2006 a 2025) chegam incompletos, em ordem alfabética de classe, "

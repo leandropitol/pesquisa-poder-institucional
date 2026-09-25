@@ -5255,3 +5255,1359 @@ FAS-005564,PRC-005214,2026-05-25,recebimento_denuncia,INS-001525,Recebida denún
 FAS-005565,PRC-005217,2026-04-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000046
 FAS-005566,PRC-005219,2025-11-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000046
 FAS-005567,PRC-005220,2026-02-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000046
+FAS-005568,PRC-007882,2004-05-13,arquivamento_inquerito,INS-001525,DECISÃO DO(A) RELATOR(A) - ARQUIVADO (monocrática),FNT-000231
+FAS-005569,PRC-007893,2008-02-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005570,PRC-007894,2004-03-01,arquivamento_inquerito,INS-001525,DECISÃO DO(A) RELATOR(A) - ARQUIVADO (monocrática),FNT-000231
+FAS-005571,PRC-007895,2005-10-17,declinio_competencia,INS-001525,DECISÃO DO(A) RELATOR(A) - DECLINANDO DA COMPETÊNCIA (monocrática),FNT-000231
+FAS-005572,PRC-007908,2005-03-31,arquivamento_inquerito,INS-001525,JULGAMENTO DO PLENO - ARQUIVADO (tribunal pleno),FNT-000231
+FAS-005573,PRC-007918,2008-04-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005574,PRC-007929,2008-09-26,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005575,PRC-007936,2008-10-23,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005576,PRC-007940,2005-10-11,declinio_competencia,INS-001525,DECISÃO DO(A) RELATOR(A) - DECLINANDO DA COMPETÊNCIA (monocrática),FNT-000231
+FAS-005577,PRC-007944,2008-08-04,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005578,PRC-007954,2006-10-09,extincao_punibilidade,INS-001525,DECISÃO DO(A) RELATOR(A) - EXTINÇÃO DA PUNIBILIDADE (monocrática),FNT-000231
+FAS-005579,PRC-007961,2008-04-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005580,PRC-007987,2006-09-21,extincao_punibilidade,INS-001525,DECISÃO DO(A) RELATOR(A) - EXTINÇÃO DA PUNIBILIDADE (monocrática),FNT-000231
+FAS-005581,PRC-008002,2008-08-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005582,PRC-008023,2007-03-14,declinio_competencia,INS-001525,DECISÃO DO(A) RELATOR(A) - DECLINANDO DA COMPETÊNCIA (monocrática),FNT-000231
+FAS-005583,PRC-008028,2009-12-18,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005584,PRC-008039,2008-02-20,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005585,PRC-008041,2009-06-16,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005586,PRC-008042,2009-06-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005587,PRC-008047,2009-08-28,recebimento_denuncia,INS-001525,Recebida denúncia em parte (tribunal pleno),FNT-000231
+FAS-005588,PRC-008051,2010-03-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005589,PRC-008056,2008-06-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (tribunal pleno),FNT-000231
+FAS-005590,PRC-008060,2008-02-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005591,PRC-008063,2008-04-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (tribunal pleno),FNT-000231
+FAS-005592,PRC-008069,2008-05-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005593,PRC-008070,2008-09-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005594,PRC-008072,2008-12-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005595,PRC-008083,2008-06-11,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005596,PRC-008084,2008-11-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005597,PRC-008112,2008-06-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005598,PRC-008113,2008-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005599,PRC-008119,2008-08-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005600,PRC-008121,2007-12-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005601,PRC-008123,2009-05-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005602,PRC-008126,2008-05-28,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005603,PRC-008128,2008-05-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005604,PRC-008129,2007-12-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005605,PRC-008132,2011-05-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005606,PRC-008133,2008-10-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (tribunal pleno),FNT-000231
+FAS-005607,PRC-008134,2008-04-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005608,PRC-008135,2008-02-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005609,PRC-008136,2008-02-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005610,PRC-008141,2010-03-22,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005611,PRC-008142,2009-12-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005612,PRC-008143,2009-11-04,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005613,PRC-008145,2010-04-30,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005614,PRC-008146,2008-04-30,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005615,PRC-008153,2008-09-03,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005616,PRC-008154,2011-05-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005617,PRC-008154,2013-08-15,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005618,PRC-008155,2009-02-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005619,PRC-008156,2011-06-07,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005620,PRC-008157,2008-05-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005621,PRC-008158,2008-09-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005622,PRC-008159,2009-02-16,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005623,PRC-008160,2008-06-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005624,PRC-008161,2009-02-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005625,PRC-008162,2008-12-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005626,PRC-008163,2008-09-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005627,PRC-008164,2009-08-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005628,PRC-008166,2009-07-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005629,PRC-008168,2008-08-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005630,PRC-008169,2008-09-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005631,PRC-008170,2008-08-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005632,PRC-008171,2009-05-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005633,PRC-008172,2009-06-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005634,PRC-008178,2009-12-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005635,PRC-008179,2008-09-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005636,PRC-008180,2008-09-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005637,PRC-008181,2012-10-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005638,PRC-008182,2009-02-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005639,PRC-008184,2008-10-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005640,PRC-008185,2008-11-24,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005641,PRC-008186,2008-09-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005642,PRC-008187,2008-12-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (tribunal pleno),FNT-000231
+FAS-005643,PRC-008188,2008-11-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005644,PRC-008190,2009-01-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005645,PRC-008191,2008-12-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005646,PRC-008192,2009-08-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005647,PRC-008193,2009-07-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005648,PRC-008194,2009-02-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005649,PRC-008196,2008-12-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005650,PRC-008197,2009-08-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005651,PRC-008199,2009-04-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005652,PRC-008200,2009-03-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005653,PRC-008202,2009-02-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005654,PRC-008207,2009-10-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005655,PRC-008209,2009-04-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005656,PRC-008210,2009-04-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005657,PRC-008217,2009-08-12,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005658,PRC-008219,2009-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005659,PRC-008223,2011-02-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005660,PRC-008224,2009-08-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005661,PRC-008225,2009-12-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005662,PRC-008226,2009-08-12,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005663,PRC-008227,2011-02-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005664,PRC-008228,2009-07-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005665,PRC-008230,2012-06-12,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005666,PRC-008232,2009-08-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005667,PRC-008233,2009-11-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005668,PRC-008234,2009-11-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005669,PRC-008236,2009-11-13,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005670,PRC-008239,2009-10-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005671,PRC-008240,2010-01-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005672,PRC-008241,2010-01-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005673,PRC-008242,2009-09-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005674,PRC-008243,2009-11-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005675,PRC-008244,2009-10-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005676,PRC-008245,2009-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005677,PRC-008248,2009-11-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005678,PRC-008251,2010-02-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005679,PRC-008253,2010-05-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005680,PRC-008255,2010-05-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005681,PRC-008258,2010-04-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005682,PRC-008260,2013-09-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005683,PRC-008261,2013-05-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005684,PRC-008262,2013-11-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005685,PRC-008271,2012-02-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005686,PRC-008275,2013-03-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005687,PRC-008277,2012-09-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005688,PRC-008279,2012-03-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005689,PRC-008280,2011-11-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005690,PRC-008281,2012-02-01,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005691,PRC-008282,2012-09-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005692,PRC-008283,2012-11-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005693,PRC-008284,2011-12-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005694,PRC-008293,2015-06-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (1ª turma),FNT-000231
+FAS-005695,PRC-008295,2013-08-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005696,PRC-008296,2013-03-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005697,PRC-008297,2014-05-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005698,PRC-008298,2013-11-11,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005699,PRC-008300,2015-02-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005700,PRC-008301,2013-05-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005701,PRC-008303,2013-02-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005702,PRC-008303,2013-03-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005703,PRC-008305,2013-05-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005704,PRC-008307,2023-09-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005705,PRC-008308,2013-10-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005706,PRC-008309,2021-02-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005707,PRC-008310,2013-12-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005708,PRC-008312,2013-12-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005709,PRC-008316,2013-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005710,PRC-008317,2013-08-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005711,PRC-008320,2015-10-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005712,PRC-008320,2015-11-11,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005713,PRC-008322,2013-09-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005714,PRC-008326,2023-10-18,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005715,PRC-008330,2013-10-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005716,PRC-008332,2014-04-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005717,PRC-008337,2014-02-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005718,PRC-008338,2014-05-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005719,PRC-008339,2014-02-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005720,PRC-008348,2016-05-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005721,PRC-008349,2016-05-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005722,PRC-008350,2015-08-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005723,PRC-008354,2014-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005724,PRC-008357,2022-04-22,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005725,PRC-008360,2017-05-08,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005726,PRC-008361,2014-05-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005727,PRC-008364,2014-05-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005728,PRC-008365,2014-05-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005729,PRC-008374,2014-09-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005730,PRC-008376,2015-02-12,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005731,PRC-008377,2015-02-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005732,PRC-008378,2021-02-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005733,PRC-008380,2015-05-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005734,PRC-008381,2014-10-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005735,PRC-008382,2014-12-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005736,PRC-008384,2015-02-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005737,PRC-008385,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005738,PRC-008386,2015-04-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005739,PRC-008387,2016-08-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005740,PRC-008390,2014-11-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005741,PRC-008391,2015-08-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005742,PRC-008392,2015-08-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005743,PRC-008393,2015-09-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005744,PRC-008395,2017-09-08,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005745,PRC-008397,2015-05-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005746,PRC-008398,2015-05-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005747,PRC-008400,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005748,PRC-008400,2021-12-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005749,PRC-008401,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005750,PRC-008402,2015-03-18,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005751,PRC-008403,2015-05-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005752,PRC-008404,2015-05-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005753,PRC-008405,2015-05-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005754,PRC-008406,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005755,PRC-008407,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005756,PRC-008408,2015-03-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005757,PRC-008409,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005758,PRC-008410,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005759,PRC-008411,2015-03-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005760,PRC-008412,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005761,PRC-008413,2015-03-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005762,PRC-008414,2015-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005763,PRC-008418,2015-03-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005764,PRC-008419,2015-03-31,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005765,PRC-008422,2015-03-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005766,PRC-008422,2015-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005767,PRC-008423,2016-04-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005768,PRC-008424,2015-03-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005769,PRC-008427,2015-03-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005770,PRC-008427,2015-04-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005771,PRC-008428,2016-12-19,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005772,PRC-008433,2017-03-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005773,PRC-008436,2015-05-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005774,PRC-008437,2016-03-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005775,PRC-008438,2016-03-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005776,PRC-008442,2016-11-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005777,PRC-008444,2016-09-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005778,PRC-008448,2016-02-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005779,PRC-008449,2015-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005780,PRC-008451,2015-11-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005781,PRC-008453,2015-08-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005782,PRC-008459,2015-08-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005783,PRC-008462,2015-08-04,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005784,PRC-008463,2020-09-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005785,PRC-008466,2016-05-11,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005786,PRC-008467,2015-07-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005787,PRC-008469,2016-03-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005788,PRC-008473,2016-03-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005789,PRC-008478,2017-08-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (1ª turma),FNT-000231
+FAS-005790,PRC-008493,2017-04-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005791,PRC-008495,2016-03-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005792,PRC-008496,2016-02-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005793,PRC-008501,2015-09-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005794,PRC-008505,2020-03-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005795,PRC-008511,2015-09-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005796,PRC-008513,2015-09-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005797,PRC-008514,2016-04-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005798,PRC-008515,2016-02-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005799,PRC-008517,2016-08-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005800,PRC-008519,2016-10-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005801,PRC-008522,2016-02-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005802,PRC-008526,2015-12-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005803,PRC-008527,2016-02-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005804,PRC-008539,2016-04-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005805,PRC-008542,2016-03-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005806,PRC-008543,2016-03-31,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005807,PRC-008547,2016-06-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005808,PRC-008547,2017-12-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005809,PRC-008548,2015-12-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005810,PRC-008557,2016-03-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005811,PRC-008561,2016-05-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005812,PRC-008563,2016-05-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005813,PRC-008564,2016-05-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005814,PRC-008567,2016-03-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005815,PRC-008569,2016-04-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005816,PRC-008574,2016-05-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005817,PRC-008578,2016-08-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005818,PRC-008579,2016-08-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005819,PRC-008591,2016-05-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005820,PRC-008592,2016-05-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005821,PRC-008593,2016-06-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005822,PRC-008595,2016-05-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005823,PRC-008605,2016-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005824,PRC-008606,2016-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005825,PRC-008607,2016-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005826,PRC-008608,2016-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005827,PRC-008609,2016-10-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005828,PRC-008610,2016-05-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005829,PRC-008612,2017-02-16,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005830,PRC-008613,2016-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005831,PRC-008614,2016-04-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005832,PRC-008622,2016-08-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005833,PRC-008624,2016-05-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005834,PRC-008625,2016-05-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005835,PRC-008626,2016-08-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005836,PRC-008628,2016-05-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005837,PRC-008629,2017-09-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005838,PRC-008631,2016-11-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005839,PRC-008633,2016-06-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005840,PRC-008648,2016-07-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005841,PRC-008651,2017-02-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005842,PRC-008654,2018-04-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005843,PRC-008662,2016-09-16,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005844,PRC-008668,2016-09-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005845,PRC-008669,2017-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005846,PRC-008671,2017-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005847,PRC-008678,2016-11-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005848,PRC-008679,2017-04-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005849,PRC-008680,2016-09-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005850,PRC-008681,2017-03-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005851,PRC-008683,2016-12-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005852,PRC-008686,2017-07-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005853,PRC-008688,2017-02-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005854,PRC-008690,2020-09-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005855,PRC-008691,2016-09-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005856,PRC-008696,2017-03-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005857,PRC-008704,2017-10-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005858,PRC-008706,2018-06-08,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005859,PRC-008708,2017-06-30,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005860,PRC-008712,2017-05-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005861,PRC-008716,2018-08-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005862,PRC-008717,2017-04-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005863,PRC-008746,2024-05-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005864,PRC-008748,2025-05-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005865,PRC-008751,2024-11-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005866,PRC-008758,2024-08-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005867,PRC-008761,2024-11-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005868,PRC-008764,2025-01-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005869,PRC-008766,2025-04-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005870,PRC-008769,2017-04-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005871,PRC-008773,2017-03-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005872,PRC-008776,2017-05-31,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005873,PRC-008814,2017-08-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005874,PRC-008817,2018-02-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005875,PRC-008854,2017-11-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005876,PRC-008885,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005877,PRC-008886,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005878,PRC-008888,2021-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005879,PRC-008892,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005880,PRC-008893,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005881,PRC-008895,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005882,PRC-008896,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005883,PRC-008939,2018-02-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005884,PRC-008949,2021-05-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005885,PRC-008950,2019-08-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005886,PRC-008956,2017-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005887,PRC-008964,2017-09-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005888,PRC-008970,2022-09-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005889,PRC-008984,2018-09-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005890,PRC-009004,2017-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005891,PRC-009006,2017-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005892,PRC-009009,2017-06-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005893,PRC-009011,2017-06-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005894,PRC-009012,2018-02-07,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005895,PRC-009014,2017-06-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005896,PRC-009015,2017-06-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005897,PRC-009027,2018-08-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005898,PRC-009030,2017-06-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005899,PRC-009033,2017-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005900,PRC-009038,2017-12-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005901,PRC-009045,2017-06-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005902,PRC-009046,2018-05-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005903,PRC-009047,2018-03-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005904,PRC-009049,2018-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005905,PRC-009050,2018-09-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005906,PRC-009051,2019-02-13,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005907,PRC-009056,2018-02-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005908,PRC-009066,2021-05-31,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005909,PRC-009067,2023-09-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005910,PRC-009077,2023-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005911,PRC-009081,2018-09-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005912,PRC-009085,2019-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005913,PRC-009087,2019-04-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005914,PRC-009090,2017-08-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005915,PRC-009105,2019-02-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005916,PRC-009106,2017-08-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005917,PRC-009107,2018-02-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005918,PRC-009109,2017-12-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005919,PRC-009112,2017-11-24,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005920,PRC-009119,2019-06-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005921,PRC-009121,2017-12-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005922,PRC-009126,2017-12-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005923,PRC-009139,2018-05-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005924,PRC-009141,2018-05-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005925,PRC-009148,2018-02-06,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005926,PRC-009153,2023-11-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005927,PRC-009154,2022-12-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005928,PRC-009161,2018-04-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005929,PRC-009162,2018-08-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005930,PRC-009164,2020-05-06,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005931,PRC-009180,2018-04-23,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005932,PRC-009183,2018-02-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005933,PRC-009188,2018-08-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005934,PRC-009204,2018-05-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005935,PRC-009207,2018-11-30,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005936,PRC-009207,2019-04-12,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005937,PRC-009207,2019-05-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005938,PRC-009212,2019-05-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005939,PRC-009212,2019-08-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005940,PRC-009216,2018-08-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005941,PRC-009219,2018-08-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005942,PRC-009220,2018-05-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005943,PRC-009227,2018-06-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005944,PRC-009228,2018-08-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005945,PRC-009229,2018-08-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005946,PRC-009230,2018-08-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005947,PRC-009233,2019-03-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005948,PRC-009245,2020-05-06,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005949,PRC-009247,2018-09-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005950,PRC-009248,2018-05-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005951,PRC-009253,2018-11-16,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005952,PRC-009256,2023-09-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005953,PRC-009265,2018-05-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005954,PRC-009266,2018-06-07,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005955,PRC-009280,2019-03-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005956,PRC-009291,2018-09-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005957,PRC-009294,2019-05-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005958,PRC-009297,2019-04-11,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005959,PRC-009299,2019-04-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005960,PRC-009302,2019-10-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005961,PRC-009303,2019-02-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005962,PRC-009303,2019-02-14,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005963,PRC-009303,2019-02-26,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-005964,PRC-009304,2019-04-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005965,PRC-009305,2018-10-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005966,PRC-009306,2019-02-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005967,PRC-009307,2019-09-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005968,PRC-009324,2020-05-06,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005969,PRC-009325,2019-02-08,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005970,PRC-009328,2019-02-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005971,PRC-009330,2018-11-12,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005972,PRC-009335,2018-10-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005973,PRC-009337,2021-03-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005974,PRC-009342,2020-08-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005975,PRC-009343,2019-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005976,PRC-009344,2019-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005977,PRC-009345,2019-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005978,PRC-009346,2019-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005979,PRC-009348,2019-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005980,PRC-009349,2019-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005981,PRC-009351,2019-11-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005982,PRC-009359,2019-08-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005983,PRC-009360,2019-02-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005984,PRC-009373,2020-02-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005985,PRC-009374,2024-07-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005986,PRC-009376,2019-03-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005987,PRC-009382,2019-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005988,PRC-009383,2021-08-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005989,PRC-009384,2019-02-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005990,PRC-009385,2019-03-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005991,PRC-009388,2019-02-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005992,PRC-009389,2019-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005993,PRC-009396,2019-05-24,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005994,PRC-009398,2020-02-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005995,PRC-009401,2020-10-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005996,PRC-009404,2019-03-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-005997,PRC-009408,2020-11-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005998,PRC-009410,2019-03-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-005999,PRC-009411,2019-04-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006000,PRC-009425,2025-01-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006001,PRC-009431,2019-05-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006002,PRC-009434,2021-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006003,PRC-009437,2019-08-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006004,PRC-009439,2019-08-07,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006005,PRC-009440,2025-03-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006006,PRC-009444,2019-08-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006007,PRC-009452,2022-03-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006008,PRC-009468,2019-12-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006009,PRC-009469,2019-12-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006010,PRC-009471,2020-03-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006011,PRC-009478,2019-08-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006012,PRC-009484,2019-08-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006013,PRC-009485,2019-09-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006014,PRC-009495,2019-10-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006015,PRC-009496,2023-02-08,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006016,PRC-009497,2019-10-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006017,PRC-009504,2020-06-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006018,PRC-009508,2019-11-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006019,PRC-009509,2019-12-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006020,PRC-009510,2019-11-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006021,PRC-009514,2024-11-18,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006022,PRC-009518,2022-12-14,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006023,PRC-009520,2019-12-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006024,PRC-009534,2020-11-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006025,PRC-009537,2019-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006026,PRC-009539,2021-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006027,PRC-009542,2019-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006028,PRC-009544,2020-02-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006029,PRC-009550,2020-05-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006030,PRC-009565,2021-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006031,PRC-009570,2020-02-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006032,PRC-009576,2020-02-07,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006033,PRC-009579,2020-03-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006034,PRC-009580,2022-08-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006035,PRC-009585,2020-03-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006036,PRC-009586,2020-04-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006037,PRC-009594,2021-03-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006038,PRC-009595,2020-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006039,PRC-009598,2023-11-10,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006040,PRC-009602,2020-06-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006041,PRC-009602,2021-02-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006042,PRC-009605,2020-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006043,PRC-009606,2020-04-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006044,PRC-009609,2020-04-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006045,PRC-009610,2020-04-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006046,PRC-009611,2020-04-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006047,PRC-009612,2020-04-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006048,PRC-009616,2024-09-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006049,PRC-009618,2023-06-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006050,PRC-009626,2020-04-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006051,PRC-009632,2021-04-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006052,PRC-009649,2020-05-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006053,PRC-009650,2020-06-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006054,PRC-009651,2020-06-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006055,PRC-009653,2021-04-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006056,PRC-009654,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006057,PRC-009659,2020-06-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006058,PRC-009660,2020-06-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006059,PRC-009662,2020-12-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006060,PRC-009663,2021-03-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006061,PRC-009669,2020-12-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006062,PRC-009671,2021-07-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006063,PRC-009672,2020-08-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006064,PRC-009684,2020-06-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006065,PRC-009686,2020-06-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006066,PRC-009689,2020-11-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006067,PRC-009699,2021-03-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006068,PRC-009700,2021-04-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006069,PRC-009701,2021-03-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006070,PRC-009705,2020-06-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006071,PRC-009706,2020-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006072,PRC-009709,2020-08-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006073,PRC-009710,2020-11-13,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006074,PRC-009711,2021-03-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006075,PRC-009717,2020-07-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006076,PRC-009721,2021-02-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006077,PRC-009724,2020-12-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006078,PRC-009726,2021-05-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006079,PRC-009729,2020-07-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006080,PRC-009735,2020-09-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006081,PRC-009736,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006082,PRC-009739,2020-10-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006083,PRC-009739,2021-07-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006084,PRC-009744,2021-07-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006085,PRC-009748,2021-02-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006086,PRC-009749,2024-03-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006087,PRC-009751,2021-04-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006088,PRC-009754,2023-06-29,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006089,PRC-009761,2020-07-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006090,PRC-009762,2020-11-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006091,PRC-009763,2021-01-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006092,PRC-009766,2021-03-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006093,PRC-009767,2020-08-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006094,PRC-009769,2020-08-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006095,PRC-009775,2021-05-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006096,PRC-009776,2020-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006097,PRC-009778,2021-03-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006098,PRC-009794,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006099,PRC-009796,2021-01-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006100,PRC-009813,2022-06-13,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006101,PRC-009815,2021-02-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006102,PRC-009816,2026-03-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006103,PRC-009818,2021-04-29,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006104,PRC-009819,2022-04-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006105,PRC-009820,2021-12-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006106,PRC-009821,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006107,PRC-009822,2021-10-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006108,PRC-009827,2020-11-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006109,PRC-009848,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006110,PRC-009851,2022-10-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006111,PRC-009852,2021-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006112,PRC-009864,2021-03-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006113,PRC-009866,2021-02-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006114,PRC-009868,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006115,PRC-009869,2021-03-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006116,PRC-009870,2021-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006117,PRC-009873,2021-03-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006118,PRC-009881,2022-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006119,PRC-009882,2022-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006120,PRC-009883,2022-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006121,PRC-009885,2022-02-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006122,PRC-009886,2021-07-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006123,PRC-009887,2021-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006124,PRC-009888,2021-04-28,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006125,PRC-009889,2021-03-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006126,PRC-009891,2021-05-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006127,PRC-009900,2021-07-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006128,PRC-009902,2021-06-18,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006129,PRC-009904,2021-06-18,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006130,PRC-009906,2024-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006131,PRC-009907,2024-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006132,PRC-009908,2024-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006133,PRC-009917,2022-02-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006134,PRC-009920,2021-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006135,PRC-009921,2021-05-18,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006136,PRC-009935,2021-05-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006137,PRC-009937,2021-10-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006138,PRC-009937,2022-02-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006139,PRC-009940,2022-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006140,PRC-009942,2022-04-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006141,PRC-009946,2022-03-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006142,PRC-009948,2022-06-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006143,PRC-009949,2021-06-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006144,PRC-009951,2022-02-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006145,PRC-009955,2021-10-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006146,PRC-009957,2022-02-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006147,PRC-009965,2023-10-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006148,PRC-009968,2021-06-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006149,PRC-009972,2021-10-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006150,PRC-009973,2021-10-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006151,PRC-009976,2022-02-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006152,PRC-009978,2021-11-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006153,PRC-009980,2022-03-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006154,PRC-009981,2021-10-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006155,PRC-009984,2021-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006156,PRC-009990,2022-03-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006157,PRC-009993,2021-11-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006158,PRC-009995,2021-12-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006159,PRC-010001,2021-08-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006160,PRC-010005,2021-11-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006161,PRC-010006,2023-02-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006162,PRC-010013,2021-08-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006163,PRC-010021,2022-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006164,PRC-010021,2022-11-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006165,PRC-010023,2021-08-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006166,PRC-010025,2022-10-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006167,PRC-010030,2024-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006168,PRC-010034,2021-10-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006169,PRC-010040,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006170,PRC-010041,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006171,PRC-010043,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006172,PRC-010044,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006173,PRC-010045,2023-02-13,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006174,PRC-010047,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006175,PRC-010049,2021-10-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006176,PRC-010051,2021-09-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006177,PRC-010055,2024-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006178,PRC-010060,2022-05-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006179,PRC-010060,2022-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006180,PRC-010063,2021-10-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006181,PRC-010066,2022-12-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006182,PRC-005252,2022-05-04,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006183,PRC-005253,2024-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006184,PRC-005258,2023-06-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006185,PRC-005263,2021-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006186,PRC-005264,2021-12-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006187,PRC-005265,2023-12-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006188,PRC-005268,2022-06-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006189,PRC-005272,2022-08-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006190,PRC-005273,2023-06-16,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006191,PRC-005286,2025-03-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006192,PRC-005296,2022-05-16,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006193,PRC-005299,2022-01-18,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006194,PRC-005299,2024-10-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006195,PRC-005300,2024-08-07,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006196,PRC-005301,2022-05-16,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006197,PRC-005303,2024-11-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006198,PRC-005304,2022-05-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006199,PRC-005306,2022-05-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006200,PRC-005307,2022-02-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006201,PRC-005308,2023-12-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006202,PRC-005309,2022-04-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006203,PRC-005312,2022-05-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006204,PRC-005328,2022-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006205,PRC-005329,2022-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006206,PRC-005331,2022-03-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006207,PRC-005332,2022-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006208,PRC-005333,2022-05-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006209,PRC-005340,2022-05-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006210,PRC-005343,2022-12-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006211,PRC-005344,2022-04-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006212,PRC-005353,2022-06-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006213,PRC-005354,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006214,PRC-005355,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006215,PRC-005356,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006216,PRC-005357,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006217,PRC-005358,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006218,PRC-005359,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006219,PRC-005360,2022-08-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006220,PRC-005361,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006221,PRC-005362,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006222,PRC-005364,2022-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006223,PRC-005367,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006224,PRC-005368,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006225,PRC-005371,2022-08-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006226,PRC-005377,2023-02-24,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006227,PRC-005380,2025-03-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006228,PRC-005381,2023-02-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006229,PRC-005385,2022-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006230,PRC-005386,2022-06-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006231,PRC-005387,2022-06-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006232,PRC-005388,2022-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006233,PRC-005390,2022-11-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006234,PRC-005391,2022-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006235,PRC-005393,2022-08-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006236,PRC-005400,2022-08-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006237,PRC-005405,2024-10-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006238,PRC-005406,2023-03-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006239,PRC-005409,2023-08-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006240,PRC-005410,2023-03-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006241,PRC-005423,2023-03-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006242,PRC-005425,2023-11-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006243,PRC-005434,2024-04-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006244,PRC-005436,2023-03-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006245,PRC-005437,2022-12-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006246,PRC-005445,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006247,PRC-005445,2024-06-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006248,PRC-005445,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006249,PRC-005448,2023-02-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006250,PRC-005453,2022-10-13,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006251,PRC-005454,2022-10-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006252,PRC-005455,2022-10-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006253,PRC-005464,2023-03-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006254,PRC-005472,2023-03-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006255,PRC-005475,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006256,PRC-005479,2023-01-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006257,PRC-005482,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006258,PRC-005483,2023-10-31,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006259,PRC-005492,2023-02-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006260,PRC-005493,2023-02-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006261,PRC-005497,2024-09-30,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006262,PRC-005498,2022-12-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006263,PRC-005499,2022-12-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006264,PRC-005501,2024-09-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006265,PRC-005505,2023-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006266,PRC-005506,2023-06-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006267,PRC-005507,2022-12-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006268,PRC-005508,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006269,PRC-005512,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006270,PRC-005514,2023-03-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006271,PRC-005516,2026-08-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006272,PRC-005519,2023-12-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006273,PRC-005521,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006274,PRC-005524,2023-02-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006275,PRC-005528,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006276,PRC-005528,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006277,PRC-005528,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006278,PRC-005528,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006279,PRC-005530,2023-02-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006280,PRC-005531,2023-02-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006281,PRC-005534,2023-03-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006282,PRC-005536,2023-08-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006283,PRC-005536,2026-07-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006284,PRC-005537,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006285,PRC-005538,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006286,PRC-005539,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006287,PRC-005540,2024-11-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006288,PRC-005541,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006289,PRC-005542,2025-06-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006290,PRC-005544,2023-01-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006291,PRC-005547,2024-09-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006292,PRC-005548,2024-03-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006293,PRC-005549,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006294,PRC-005550,2023-02-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006295,PRC-005551,2023-03-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006296,PRC-005552,2023-02-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006297,PRC-005553,2023-03-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006298,PRC-005556,2025-03-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006299,PRC-005557,2025-03-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006300,PRC-005558,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006301,PRC-005559,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006302,PRC-005560,2024-03-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006303,PRC-005561,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006304,PRC-005562,2023-08-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006305,PRC-005563,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006306,PRC-005564,2024-06-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006307,PRC-005565,2024-03-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006308,PRC-005566,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006309,PRC-005567,2024-06-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006310,PRC-005567,2024-06-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006311,PRC-005567,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006312,PRC-005567,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006313,PRC-005567,2025-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006314,PRC-005567,2026-06-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006315,PRC-005572,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006316,PRC-005572,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006317,PRC-005572,2026-04-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006318,PRC-005573,2023-02-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006319,PRC-005579,2026-07-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006320,PRC-005596,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006321,PRC-005596,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006322,PRC-005596,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006323,PRC-005596,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006324,PRC-005596,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006325,PRC-005596,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006326,PRC-005596,2025-05-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006327,PRC-005596,2025-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006328,PRC-005605,2023-01-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006329,PRC-005606,2024-06-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006330,PRC-005612,2023-04-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006331,PRC-005613,2023-03-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006332,PRC-005614,2023-06-27,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006333,PRC-005619,2023-03-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006334,PRC-005620,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006335,PRC-005620,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006336,PRC-005621,2024-04-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006337,PRC-005627,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006338,PRC-005628,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006339,PRC-005628,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006340,PRC-005628,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006341,PRC-005629,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006342,PRC-005629,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006343,PRC-005631,2024-03-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006344,PRC-005631,2025-09-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006345,PRC-005632,2024-06-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006346,PRC-005634,2023-05-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006347,PRC-005639,2023-08-21,recebimento_denuncia,INS-001525,Recebida denúncia (tribunal pleno),FNT-000231
+FAS-006348,PRC-005639,2024-03-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006349,PRC-005639,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006350,PRC-005640,2024-09-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006351,PRC-005643,2023-09-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006352,PRC-005644,2023-08-14,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006353,PRC-005646,2023-03-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006354,PRC-005650,2024-09-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006355,PRC-005653,2023-03-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006356,PRC-005657,2024-08-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006357,PRC-005659,2024-10-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006358,PRC-005659,2024-11-06,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006359,PRC-005659,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006360,PRC-005659,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006361,PRC-005659,2025-02-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006362,PRC-005660,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006363,PRC-005660,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006364,PRC-005662,2023-03-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006365,PRC-005666,2023-12-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006366,PRC-005667,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006367,PRC-005670,2024-03-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006368,PRC-005672,2025-09-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006369,PRC-005676,2023-11-06,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006370,PRC-005677,2025-02-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006371,PRC-005677,2026-04-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006372,PRC-005677,2026-06-10,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006373,PRC-005678,2026-07-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006374,PRC-005679,2023-03-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006375,PRC-005680,2023-03-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006376,PRC-005688,2024-05-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006377,PRC-005693,2026-07-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006378,PRC-005694,2023-06-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006379,PRC-005698,2026-07-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006380,PRC-005701,2024-06-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006381,PRC-005703,2023-08-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006382,PRC-005705,2024-04-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006383,PRC-005707,2023-08-04,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006384,PRC-005708,2023-06-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006385,PRC-005710,2025-09-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006386,PRC-005717,2023-06-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006387,PRC-005718,2024-08-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006388,PRC-005727,2024-06-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006389,PRC-005730,2023-07-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006390,PRC-005735,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006391,PRC-005767,2023-10-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006392,PRC-005773,2023-10-31,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006393,PRC-005774,2025-02-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006394,PRC-005775,2023-12-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006395,PRC-005779,2023-06-07,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006396,PRC-005786,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006397,PRC-005786,2026-03-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006398,PRC-005786,2026-03-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006399,PRC-005786,2026-03-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006400,PRC-005786,2026-04-29,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006401,PRC-005789,2025-06-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006402,PRC-005794,2023-10-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006403,PRC-005797,2024-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006404,PRC-005802,2023-09-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006405,PRC-005805,2025-03-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006406,PRC-005806,2023-10-31,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006407,PRC-005807,2025-04-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006408,PRC-005808,2023-10-10,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006409,PRC-005809,2024-06-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006410,PRC-005810,2023-09-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006411,PRC-005811,2023-10-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006412,PRC-005815,2024-10-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006413,PRC-005817,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006414,PRC-005817,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006415,PRC-005817,2024-09-30,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006416,PRC-005817,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006417,PRC-005817,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006418,PRC-005817,2024-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006419,PRC-005817,2024-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006420,PRC-005817,2024-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006421,PRC-005817,2025-02-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006422,PRC-005819,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006423,PRC-005822,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006424,PRC-005823,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006425,PRC-005829,2026-07-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006426,PRC-005834,2026-02-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006427,PRC-005842,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006428,PRC-005845,2024-05-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006429,PRC-005846,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006430,PRC-005847,2024-10-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006431,PRC-005851,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006432,PRC-005854,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006433,PRC-005856,2025-11-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006434,PRC-005869,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006435,PRC-005870,2025-02-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006436,PRC-005874,2024-06-10,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006437,PRC-005878,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006438,PRC-005879,2024-07-01,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006439,PRC-005883,2023-12-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006440,PRC-005884,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006441,PRC-005885,2023-08-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006442,PRC-005888,2024-06-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006443,PRC-005897,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006444,PRC-005897,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006445,PRC-005897,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006446,PRC-005900,2024-08-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006447,PRC-005901,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006448,PRC-005902,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006449,PRC-005904,2024-03-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006450,PRC-005906,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006451,PRC-005908,2024-03-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006452,PRC-005925,2024-08-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006453,PRC-005925,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006454,PRC-005925,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006455,PRC-005925,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006456,PRC-005925,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006457,PRC-005925,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006458,PRC-005925,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006459,PRC-005925,2025-06-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006460,PRC-005926,2024-09-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006461,PRC-005932,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006462,PRC-005932,2025-06-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006463,PRC-005940,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006464,PRC-005941,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006465,PRC-005948,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006466,PRC-005956,2024-11-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006467,PRC-005966,2024-06-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006468,PRC-005970,2023-12-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006469,PRC-005971,2024-06-28,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006470,PRC-005972,2024-06-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006471,PRC-005974,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006472,PRC-005981,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006473,PRC-005982,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006474,PRC-005982,2026-08-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006475,PRC-005984,2024-11-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006476,PRC-005984,2025-02-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006477,PRC-005987,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006478,PRC-005988,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006479,PRC-005989,2024-03-11,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006480,PRC-005990,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006481,PRC-005991,2025-06-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006482,PRC-005992,2024-10-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006483,PRC-005995,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006484,PRC-005996,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006485,PRC-005997,2024-09-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006486,PRC-006001,2024-05-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006487,PRC-006003,2024-04-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006488,PRC-006005,2024-02-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006489,PRC-006006,2024-09-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006490,PRC-006007,2026-06-11,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006491,PRC-006007,2026-08-31,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006492,PRC-006011,2026-06-09,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006493,PRC-006015,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006494,PRC-006017,2025-03-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006495,PRC-006018,2025-03-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006496,PRC-006019,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006497,PRC-006021,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006498,PRC-006021,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006499,PRC-006022,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006500,PRC-006028,2024-10-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006501,PRC-006029,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006502,PRC-006035,2025-03-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006503,PRC-006035,2025-04-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006504,PRC-006035,2025-05-06,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006505,PRC-006035,2025-05-20,recebimento_denuncia,INS-001525,Recebida denúncia em parte (1ª turma),FNT-000231
+FAS-006506,PRC-006038,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006507,PRC-006039,2024-09-18,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006508,PRC-006040,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006509,PRC-006041,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006510,PRC-006042,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006511,PRC-006044,2024-02-26,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006512,PRC-006046,2025-10-30,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006513,PRC-006046,2025-11-13,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006514,PRC-006047,2026-03-30,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006515,PRC-006048,2025-03-05,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006516,PRC-006049,2024-01-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006517,PRC-006050,2024-10-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006518,PRC-006051,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006519,PRC-006052,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006520,PRC-006053,2024-05-20,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006521,PRC-006054,2025-10-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006522,PRC-006054,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006523,PRC-006055,2024-02-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006524,PRC-006058,2025-03-31,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006525,PRC-006062,2026-07-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006526,PRC-006071,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006527,PRC-006078,2026-03-30,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006528,PRC-006078,2026-04-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006529,PRC-006085,2025-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006530,PRC-006086,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006531,PRC-006090,2024-06-11,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006532,PRC-006093,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006533,PRC-006098,2024-03-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006534,PRC-006099,2024-03-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006535,PRC-006103,2024-03-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006536,PRC-006104,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006537,PRC-006104,2026-05-27,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006538,PRC-006128,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006539,PRC-006129,2025-08-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006540,PRC-006133,2024-09-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006541,PRC-006136,2025-02-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006542,PRC-006141,2024-09-18,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006543,PRC-006142,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006544,PRC-006144,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006545,PRC-006147,2024-08-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006546,PRC-006149,2024-09-30,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006547,PRC-006150,2026-04-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006548,PRC-006155,2024-06-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006549,PRC-006156,2026-01-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006550,PRC-006174,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006551,PRC-006175,2024-06-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006552,PRC-006178,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006553,PRC-006182,2024-04-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006554,PRC-006185,2024-04-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006555,PRC-006192,2025-06-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006556,PRC-006194,2025-02-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006557,PRC-006195,2024-06-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006558,PRC-006196,2024-09-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006559,PRC-006201,2024-04-30,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006560,PRC-006203,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006561,PRC-006205,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006562,PRC-006205,2026-08-31,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006563,PRC-006205,2026-08-31,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006564,PRC-006207,2025-11-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006565,PRC-006208,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006566,PRC-006217,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006567,PRC-006220,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006568,PRC-006220,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006569,PRC-006222,2025-09-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006570,PRC-006222,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006571,PRC-006224,2025-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006572,PRC-006227,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006573,PRC-006227,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006574,PRC-006227,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006575,PRC-006227,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006576,PRC-006229,2025-08-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006577,PRC-006229,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006578,PRC-006230,2024-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006579,PRC-006232,2025-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006580,PRC-006233,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006581,PRC-006235,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006582,PRC-006236,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006583,PRC-006237,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006584,PRC-006238,2024-11-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006585,PRC-006239,2025-10-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006586,PRC-006239,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006587,PRC-006242,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006588,PRC-006243,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006589,PRC-006244,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006590,PRC-006246,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006591,PRC-006247,2024-09-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006592,PRC-006248,2024-08-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006593,PRC-006255,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006594,PRC-006257,2025-02-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006595,PRC-006258,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006596,PRC-006260,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006597,PRC-006261,2025-02-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006598,PRC-006270,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006599,PRC-006271,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006600,PRC-006272,2024-10-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006601,PRC-006273,2024-09-30,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006602,PRC-006274,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006603,PRC-006278,2026-01-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006604,PRC-006278,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006605,PRC-006279,2024-10-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006606,PRC-006279,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006607,PRC-006280,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006608,PRC-006285,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006609,PRC-006287,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006610,PRC-006288,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006611,PRC-006291,2024-06-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006612,PRC-006292,2024-09-18,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006613,PRC-006293,2025-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006614,PRC-006294,2024-08-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006615,PRC-006298,2025-06-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006616,PRC-006299,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006617,PRC-006299,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006618,PRC-006299,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006619,PRC-006302,2024-06-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006620,PRC-006303,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006621,PRC-006311,2024-06-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006622,PRC-006313,2025-06-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006623,PRC-006323,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006624,PRC-006324,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006625,PRC-006324,2024-09-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006626,PRC-006325,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006627,PRC-006326,2024-10-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006628,PRC-006327,2024-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006629,PRC-006328,2024-09-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006630,PRC-006329,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006631,PRC-006331,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006632,PRC-006334,2026-04-29,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006633,PRC-006335,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006634,PRC-006336,2024-09-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006635,PRC-006337,2024-08-26,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006636,PRC-006338,2024-10-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006637,PRC-006339,2024-09-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006638,PRC-006340,2024-09-18,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006639,PRC-006341,2025-04-07,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006640,PRC-006342,2024-09-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006641,PRC-006343,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006642,PRC-006343,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006643,PRC-006344,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006644,PRC-006346,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006645,PRC-006350,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006646,PRC-006354,2024-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006647,PRC-006355,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006648,PRC-006356,2026-04-29,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006649,PRC-006357,2024-10-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006650,PRC-006361,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006651,PRC-006362,2024-09-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006652,PRC-006362,2024-12-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006653,PRC-006363,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006654,PRC-006364,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006655,PRC-006365,2024-10-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006656,PRC-006366,2026-03-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006657,PRC-006367,2024-09-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006658,PRC-006371,2024-10-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006659,PRC-006375,2024-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006660,PRC-006375,2024-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006661,PRC-006377,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006662,PRC-006383,2025-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006663,PRC-006384,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006664,PRC-006385,2024-10-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006665,PRC-006386,2024-10-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006666,PRC-006388,2025-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006667,PRC-006390,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006668,PRC-006391,2026-06-10,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006669,PRC-006394,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006670,PRC-006399,2024-10-14,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006671,PRC-006400,2024-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006672,PRC-006401,2024-10-21,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006673,PRC-006405,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006674,PRC-006406,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006675,PRC-006407,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006676,PRC-006408,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006677,PRC-006409,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006678,PRC-006410,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006679,PRC-006411,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006680,PRC-006412,2024-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006681,PRC-006413,2024-09-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006682,PRC-006416,2024-11-06,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006683,PRC-006418,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006684,PRC-006419,2024-10-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006685,PRC-006420,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006686,PRC-006422,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006687,PRC-006426,2025-08-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006688,PRC-006427,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006689,PRC-006432,2024-10-28,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006690,PRC-006433,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006691,PRC-006434,2024-11-27,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006692,PRC-006435,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006693,PRC-006436,2026-04-29,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006694,PRC-006437,2024-09-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006695,PRC-006441,2024-09-16,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006696,PRC-006442,2025-02-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006697,PRC-006444,2024-09-16,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006698,PRC-006445,2025-11-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006699,PRC-006451,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006700,PRC-006452,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006701,PRC-006453,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006702,PRC-006454,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006703,PRC-006458,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006704,PRC-006460,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006705,PRC-006462,2024-11-19,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006706,PRC-006467,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006707,PRC-006477,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006708,PRC-006480,2025-02-04,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006709,PRC-006483,2026-07-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006710,PRC-006485,2025-02-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006711,PRC-006503,2025-05-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006712,PRC-006505,2026-08-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006713,PRC-006510,2026-08-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006714,PRC-006515,2024-11-05,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006715,PRC-006516,2024-10-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006716,PRC-006517,2024-10-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006717,PRC-006518,2024-10-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006718,PRC-006519,2024-10-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006719,PRC-006521,2025-02-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006720,PRC-006522,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006721,PRC-006523,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006722,PRC-006524,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006723,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006724,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006725,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006726,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006727,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006728,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006729,PRC-006530,2025-03-17,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006730,PRC-006530,2025-03-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006731,PRC-006531,2026-07-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006732,PRC-006532,2026-07-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006733,PRC-006533,2026-07-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006734,PRC-006538,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006735,PRC-006543,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006736,PRC-006546,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006737,PRC-006547,2025-05-20,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006738,PRC-006553,2025-09-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006739,PRC-006555,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006740,PRC-006559,2024-12-19,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006741,PRC-006562,2025-03-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006742,PRC-006564,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006743,PRC-006566,2026-05-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006744,PRC-006567,2026-03-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006745,PRC-006569,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006746,PRC-006569,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006747,PRC-006569,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006748,PRC-006569,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006749,PRC-006575,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006750,PRC-006580,2025-02-03,extincao_punibilidade,INS-001525,Declarada a extinção da punibilidade (monocrática),FNT-000231
+FAS-006751,PRC-006581,2025-03-12,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006752,PRC-006582,2025-08-06,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006753,PRC-006583,2025-02-03,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006754,PRC-006588,2025-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006755,PRC-006589,2025-10-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006756,PRC-006589,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006757,PRC-006590,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006758,PRC-006595,2025-05-12,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006759,PRC-006600,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006760,PRC-006604,2025-06-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006761,PRC-006605,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006762,PRC-006606,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006763,PRC-006614,2025-02-05,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006764,PRC-006621,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006765,PRC-006622,2025-07-01,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006766,PRC-006627,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006767,PRC-006628,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006768,PRC-006628,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006769,PRC-006628,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006770,PRC-006628,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006771,PRC-006635,2025-03-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006772,PRC-006636,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006773,PRC-006638,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006774,PRC-006660,2026-03-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006775,PRC-006663,2025-12-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006776,PRC-006664,2025-04-14,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006777,PRC-006671,2026-08-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006778,PRC-006680,2025-03-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006779,PRC-006683,2025-03-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006780,PRC-006684,2025-03-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006781,PRC-006685,2025-03-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006782,PRC-006690,2025-03-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006783,PRC-006697,2025-04-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006784,PRC-006698,2025-05-20,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006785,PRC-006704,2025-06-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006786,PRC-006707,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006787,PRC-006712,2025-03-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006788,PRC-006718,2025-05-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006789,PRC-006723,2025-10-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006790,PRC-006723,2025-11-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006791,PRC-006723,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006792,PRC-006723,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006793,PRC-006723,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006794,PRC-006741,2026-06-10,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006795,PRC-006746,2025-10-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006796,PRC-006748,2025-05-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006797,PRC-006751,2025-05-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006798,PRC-006767,2025-05-08,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006799,PRC-006777,2025-08-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006800,PRC-006788,2025-08-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006801,PRC-006806,2025-08-18,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006802,PRC-006809,2026-07-06,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006803,PRC-006810,2026-06-10,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006804,PRC-006811,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006805,PRC-006812,2026-06-10,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006806,PRC-006813,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006807,PRC-006815,2026-06-24,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006808,PRC-006816,2026-07-02,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006809,PRC-006816,2026-08-31,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006810,PRC-006817,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006811,PRC-006844,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006812,PRC-006852,2025-11-24,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006813,PRC-006857,2025-09-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006814,PRC-006879,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006815,PRC-006894,2025-08-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006816,PRC-006900,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006817,PRC-006901,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006818,PRC-006902,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006819,PRC-006903,2026-03-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006820,PRC-006919,2025-09-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006821,PRC-006920,2025-08-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006822,PRC-006964,2026-07-02,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006823,PRC-006966,2025-09-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006824,PRC-006968,2025-09-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006825,PRC-006969,2025-12-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006826,PRC-006970,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006827,PRC-006971,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006828,PRC-006972,2025-09-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006829,PRC-006989,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006830,PRC-006993,2025-12-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006831,PRC-006994,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006832,PRC-007006,2026-02-25,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006833,PRC-007012,2025-10-16,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006834,PRC-007038,2025-10-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006835,PRC-007065,2026-03-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006836,PRC-007069,2026-03-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006837,PRC-007070,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006838,PRC-007076,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006839,PRC-007077,2026-01-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006840,PRC-007078,2026-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006841,PRC-007081,2026-07-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006842,PRC-007092,2026-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006843,PRC-007093,2026-06-25,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006844,PRC-007098,2025-12-22,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006845,PRC-007102,2026-03-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006846,PRC-007104,2026-04-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006847,PRC-007115,2026-04-08,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006848,PRC-007118,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006849,PRC-007128,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006850,PRC-007130,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006851,PRC-007131,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006852,PRC-007132,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006853,PRC-007134,2026-03-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006854,PRC-007134,2026-08-24,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006855,PRC-007137,2026-04-29,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006856,PRC-007145,2025-12-24,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006857,PRC-007148,2026-05-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006858,PRC-007155,2026-04-29,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006859,PRC-007162,2026-05-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006860,PRC-007169,2026-05-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006861,PRC-007172,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006862,PRC-007173,2026-01-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006863,PRC-007201,2026-04-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006864,PRC-007204,2026-03-16,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006865,PRC-007207,2026-05-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006866,PRC-007209,2026-03-02,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006867,PRC-007214,2026-04-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006868,PRC-007220,2026-04-15,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006869,PRC-007221,2026-03-23,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006870,PRC-007222,2026-04-29,recebimento_denuncia,INS-001525,Recebida denúncia em parte (1ª turma),FNT-000231
+FAS-006871,PRC-007235,2026-04-27,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006872,PRC-007238,2026-03-09,recebimento_denuncia,INS-001525,Recebida denúncia (1ª turma),FNT-000231
+FAS-006873,PRC-007262,2026-07-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006874,PRC-007271,2026-09-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006875,PRC-007282,2026-07-10,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006876,PRC-007283,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006877,PRC-007287,2026-08-03,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006878,PRC-007291,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006879,PRC-007301,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006880,PRC-007309,2026-03-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006881,PRC-007310,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006882,PRC-007311,2026-03-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006883,PRC-007315,2026-03-20,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006884,PRC-007317,2026-06-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006885,PRC-007318,2026-06-25,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006886,PRC-007319,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006887,PRC-007320,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006888,PRC-007321,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006889,PRC-007322,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006890,PRC-007324,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006891,PRC-007325,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006892,PRC-007326,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006893,PRC-007327,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006894,PRC-007330,2026-03-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006895,PRC-007333,2026-04-23,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006896,PRC-007339,2026-04-22,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006897,PRC-007357,2026-06-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006898,PRC-007372,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006899,PRC-007390,2026-04-09,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006900,PRC-007407,2026-04-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006901,PRC-007417,2026-04-17,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006902,PRC-007454,2026-05-13,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006903,PRC-007456,2026-07-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006904,PRC-007460,2026-04-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006905,PRC-007475,2026-07-15,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006906,PRC-007481,2026-04-22,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006907,PRC-007485,2026-09-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006908,PRC-007504,2026-04-27,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006909,PRC-007509,2026-04-28,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006910,PRC-007510,2026-09-01,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006911,PRC-007512,2026-04-23,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006912,PRC-007513,2026-07-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006913,PRC-007522,2026-06-30,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006914,PRC-007525,2026-06-12,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006915,PRC-007529,2026-05-26,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006916,PRC-007531,2026-05-04,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006917,PRC-007554,2026-05-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006918,PRC-007578,2026-09-21,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006919,PRC-007598,2026-08-17,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006920,PRC-007649,2026-09-21,declinio_competencia,INS-001525,Declinada a competência (monocrática),FNT-000231
+FAS-006921,PRC-007668,2026-07-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006922,PRC-007723,2026-08-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006923,PRC-007763,2026-08-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231

@@ -64,16 +64,16 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `cargos` | 4628 |
 | `instituicoes` | 1484 |
 | `denominacoes_partido` | 67 |
-| `processos` | 5250 |
-| `fases_processo` | 5256 |
+| `processos` | 10067 |
+| `fases_processo` | 6612 |
 | `eventos` | 2297 |
 | `relacoes` | 2429 |
-| `fontes` | 230 |
-| `fonte_oficial` | 227 |
+| `fontes` | 232 |
+| `fonte_oficial` | 229 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 279 |
+| `buscas` | 282 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -86,7 +86,7 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### Buscas
 
-- 279 buscas registradas; 45 com zero resultados.
+- 282 buscas registradas; 45 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -109,7 +109,7 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
-- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 7 buscas, coleta de 2026-09-24.
+- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 10 buscas, coleta de 2026-09-25.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -159,10 +159,11 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### STF pelo Corte Aberta (etapa E5)
 
-- 5045 ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação (D-037). No universo do eixo 1: 1127 (tipos do protocolo pelo assunto); 2556 a revisar; 1315 fora; 47 autuados antes de 2003.
-- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico "Direito Processual Penal | Ação Penal", e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): sem_indicio: 1357; indicio_fora_do_protocolo: 911; indicio_do_protocolo: 288. Os indícios de fora do protocolo vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).
+- 9862 processos (peticao: 4817, inquerito: 2598, acao_penal: 2447): ações penais e inquéritos com decisão de 08/01/2003 a 23/09/2026, petições de ramo penal com decisão de 05/02/2003 a 24/09/2026, e os em tramitação nas datas das exportações (D-037, D-045). No universo do eixo 1: 1441 (tipos do protocolo pelo assunto); 6043 a revisar; 2328 fora; 50 autuados antes de 2003.
+- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico "Direito Processual Penal | Ação Penal", e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): sem_indicio: 4625; indicio_fora_do_protocolo: 1071; indicio_do_protocolo: 347. Os indícios de fora do protocolo vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).
 - Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como conexos (art. 350); crimes de responsabilidade de prefeitos (Decreto-Lei 201/1967) entram por emenda ao protocolo (D-039), também no STJ.
-- Fases: 5198 registros de decisões com correspondência inequívoca (recebimento_denuncia: 1630; acordao_tribunal_superior: 1073; declinio_competencia: 1052; extincao_punibilidade: 699; arquivamento_inquerito: 653; rejeicao_denuncia: 91). O julgamento de mérito da ação penal (procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.
+- Fases: 6554 registros de decisões com correspondência inequívoca (recebimento_denuncia: 2030; declinio_competencia: 1329; arquivamento_inquerito: 1286; acordao_tribunal_superior: 1073; extincao_punibilidade: 745; rejeicao_denuncia: 91). O julgamento de mérito da ação penal (procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.
+- Petições criminais: o assunto costuma ser processual (investigação, prisão, busca e apreensão, quebra de sigilo) e não diz o crime; por isso a maioria fica a revisar. O arquivamento de petição investigativa é registrado com a fase de arquivamento de procedimento investigatório (vocabulário: arquivamento de inquérito).
 - Decisões em segredo de justiça aparecem só como "Decisão (segredo de justiça)" e não geram fase. O campo de sigilo do processo não vem na exportação.
 - A página de dados abertos do STF (bases de processos recebidos e baixados, com todos os assuntos de cada processo) corta as exportações em 5 milhões de células: os arquivos de cinco anos (2006 a 2025) chegam incompletos, em ordem alfabética de classe, sem inquéritos. Só os de 2026 estão completos e foram registrados; neles, 22 de 140 AP e Inq trazem mais de um assunto.
 - Número único CNJ só para os processos em tramitação (planilha do acervo). A URL gravada é a consulta por classe e número do portal, conferida no navegador para a AP 470.
