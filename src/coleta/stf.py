@@ -45,7 +45,8 @@ def identificar(d: pd.DataFrame) -> tuple | None:
 URL_DADOS_ABERTOS = "https://transparencia.stf.jus.br/extensions/dados_abertos/dados_abertos.html"
 LIMITE_CELULAS = 5_000_000
 RELATORIOS = {"relatorio_stf_pesquisa_documental.md": "stf_relatorio_navegacao.md",
-              "relatorio_corte_aberta.md": "stf_relatorio_navegacao_peticoes.md"}
+              "relatorio_corte_aberta.md": "stf_relatorio_navegacao_peticoes.md",
+              "relatorio_status_processual_reus.md": "stf_relatorio_navegacao_reus_ap470_ap536.md"}
 
 
 def registrar_manuais(data: str) -> None:
