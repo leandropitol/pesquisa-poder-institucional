@@ -68,12 +68,12 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fases_processo` | 5256 |
 | `eventos` | 2297 |
 | `relacoes` | 2429 |
-| `fontes` | 69 |
-| `fonte_oficial` | 66 |
+| `fontes` | 70 |
+| `fonte_oficial` | 67 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 135 |
+| `buscas` | 170 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -85,7 +85,7 @@ Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### Buscas
 
-- 135 buscas registradas; 17 com zero resultados.
+- 170 buscas registradas; 17 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -101,7 +101,7 @@ Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Internet Archive (Wayback Machine): International Democrat Union: 6 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): Organização Democrata Cristã da América: 4 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): União de Partidos Latino-Americanos: 3 buscas, coleta de 2026-09-24.
-- Itamaraty, Concórdia (atos internacionais), interface pública do site: 2 buscas, coleta de 2026-09-25.
+- Itamaraty, Concórdia (atos internacionais), interface pública do site: 3 buscas, coleta de 2026-09-25.
 - OEA, atas das sessões plenárias da Assembleia Geral: 22 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral: 25 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
@@ -109,6 +109,7 @@ Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
 - STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 7 buscas, coleta de 2026-09-24.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
+- TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
 - V-Dem Institute, pacote vdemdata (GitHub, tag V16): 1 buscas, coleta de 2026-09-24.
 
@@ -199,7 +200,7 @@ Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 - 7720 atos bilaterais com um país como outra parte, de 1823 a 2026, com 190 países; 3101 celebrados de 2003 em diante (Concórdia, D-041).
 - Fora da tabela: 576 atos bilaterais com organismos internacionais, 4 sem outra parte informada e 4191 atos trilaterais ou multilaterais.
-- Data de entrada em vigor: 0 dos 3101 atos de 2003 em diante (do detalhe de cada ato); atos anteriores a 2003 não tiveram o detalhe coletado. Ato sem data de vigência pode estar em tramitação, sem vigência registrada ou sem o campo preenchido no Concórdia.
+- Data de entrada em vigor: 2575 dos 3101 atos de 2003 em diante (do detalhe de cada ato); atos anteriores a 2003 não tiveram o detalhe coletado. Ato sem data de vigência pode estar em tramitação, sem vigência registrada ou sem o campo preenchido no Concórdia.
 - O Concórdia registra atos de naturezas diferentes (tratados, acordos, memorandos, ajustes complementares, troca de notas); a base guarda o título como publicado e não classifica relevância. Contagem de atos não mede intensidade de relação.
 - Estados extintos entram com o código de antigo Estado (Iugoslávia, Alemanha Oriental). Nomes de signatários ficam só no dado bruto.
 

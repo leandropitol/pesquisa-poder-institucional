@@ -10767,6 +10767,7 @@ buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_candida
 buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_orgaos_partidarios_2018.zip,BSC-000171
 buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_orgaos_partidarios_2022.zip,BSC-000172
 buscas,src.coleta.tse|2026-09-25|conjunto prestacao_final_2014.zip,BSC-000173
+buscas,src.coleta.concordia|2026-09-25|detalhe dos atos bilaterais celebrados de 2003 em diante,BSC-000174
 cargos,camara:3151:53,CRG-000001
 cargos,camara:3151:54,CRG-000002
 cargos,camara:3155:53,CRG-000003
@@ -123194,6 +123195,7 @@ fontes,raw:data/raw/redes/2026-09-24/IS/20260702183939_www.socialistinternationa
 fontes,raw:data/raw/redes/2026-09-24/ODCA/20080714033103_www.odca.org.mx_80_miembros.html.html,FNT-000067
 fontes,raw:data/raw/redes/2026-09-24/ODCA/20160315122301_www.odca.org.mx_partidos2.php.html,FNT-000068
 fontes,raw:data/raw/concordia/2026-09-25/lista_atos.jsonl,FNT-000069
+fontes,raw:data/raw/concordia/2026-09-25/detalhes_bilaterais.jsonl,FNT-000070
 instituicoes,casa:camara,INS-000001
 instituicoes,casa:senado,INS-000002
 instituicoes,partido:PFL,INS-000003
