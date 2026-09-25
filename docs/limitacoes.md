@@ -59,8 +59,8 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 
 | Tabela | Registros |
 |---|---:|
-| `atores` | 2703 |
-| `filiacoes` | 6329 |
+| `atores` | 2790 |
+| `filiacoes` | 6553 |
 | `cargos` | 4628 |
 | `instituicoes` | 1483 |
 | `denominacoes_partido` | 67 |
@@ -68,8 +68,8 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fases_processo` | 5256 |
 | `eventos` | 2297 |
 | `relacoes` | 2429 |
-| `fontes` | 70 |
-| `fonte_oficial` | 67 |
+| `fontes` | 82 |
+| `fonte_oficial` | 79 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
@@ -80,8 +80,9 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `votos_multilaterais` | 19746 |
 | `acordos_bilaterais` | 7720 |
 | `emendas_parlamentares` | 92364 |
+| `doacoes_campanha` | 12613 |
 
-Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `decisoes_judiciais`.
 
 ### Buscas
 
@@ -116,7 +117,7 @@ Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 ### Lacunas medidas na etapa E1 (Câmara e Senado)
 
 - Mandatos de suplente: 1132 de 4628 cargos. No Senado, o mandato de suplente não indica que houve exercício; na Câmara, o cargo de suplente só aparece quando há registro no histórico.
-- Atores sem nenhuma filiação registrada: 210 de 2703; 209 deles só têm mandato de suplente no Senado, e o Senado não publica filiação para quem não exerceu.
+- Atores sem nenhuma filiação registrada: 210 de 2790; 209 deles só têm mandato de suplente no Senado, e o Senado não publica filiação para quem não exerceu.
 - Filiações da Câmara cobrem só o período de mandato (fonte: histórico do deputado); fora do mandato, a filiação não é observada.
 - Pares Câmara e Senado identificados como a mesma pessoa automaticamente: 115; pares ambíguos aguardando revisão: 0 (`data/curadoria/equivalencias_atores_pendentes.csv`). Até a revisão, cada lado é um ator separado.
 - Partidos: 47 registros no TSE, com 67 denominações e 17 fusões ou incorporações (fonte: página de partidos do TSE, lida no navegador; D-015). A página cobre mudanças a partir da Lei 9.096/1995.
@@ -203,6 +204,16 @@ Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Data de entrada em vigor: 2575 dos 3101 atos de 2003 em diante (do detalhe de cada ato); atos anteriores a 2003 não tiveram o detalhe coletado. Ato sem data de vigência pode estar em tramitação, sem vigência registrada ou sem o campo preenchido no Concórdia.
 - O Concórdia registra atos de naturezas diferentes (tratados, acordos, memorandos, ajustes complementares, troca de notas); a base guarda o título como publicado e não classifica relevância. Contagem de atos não mede intensidade de relação.
 - Estados extintos entram com o código de antigo Estado (Iugoslávia, Alemanha Oriental). Nomes de signatários ficam só no dado bruto.
+
+### TSE: candidatos e receitas de campanha (etapa E7)
+
+- 12613 linhas de receita, somadas por candidato, eleição e tipo de doador, de 2002 a 2022 (eleições gerais ordinárias; presidente, governador eleito, senador eleito e deputado federal eleito; D-043).
+- Deputados e senadores eleitos sem ligação única com o parlamentar da base, e por isso sem receitas na base, por eleição: 2002: 11, 2006: 10, 2010: 15, 2014: 11, 2018: 22, 2022: 10. A ligação é por nome, sem CPF; nomes de urna muito diferentes do nome parlamentar ficam de fora.
+- Candidatos não eleitos a governador, senador e deputado federal, e todos os candidatos a cargos estaduais e municipais, ficam fora.
+- Empresas: linha própria só para as 128 empresas já presentes na base (BNDES, CGU); as demais aparecem somadas por candidato. Pessoas físicas só em total por candidato. Doações de empresas foram proibidas a partir de 2015 (STF, ADI 4650).
+- 2002: o arquivo não traz o tipo de receita; o tipo é deduzido do documento do doador (CPF ou CNPJ) e do nome (partido, comitê, próprio candidato). Até 2010, repasses de comitês e de outros candidatos aparecem como "partido", sem o doador originário.
+- 2014: linhas `originario_via_partido` identificam o doador originário de recursos repassados por partido ou comitê; o valor já está contado na linha do repasse e não deve ser somado de novo.
+- Receitas registradas são doações legais declaradas à Justiça Eleitoral; o registro não indica irregularidade.
 
 ### Validador
 

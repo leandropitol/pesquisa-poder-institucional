@@ -194,6 +194,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_oea(vm_todos[vm_todos["id_organismo"].map(siglas) == "AG/OEA"])
     linhas += _linhas_redes(base)
     linhas += _linhas_acordos(base)
+    linhas += _linhas_tse(base)
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -333,6 +334,33 @@ def _linhas_acordos(base: Path) -> list[str]:
         "- O Concórdia registra atos de naturezas diferentes (tratados, acordos, memorandos, ajustes complementares, troca de notas); a base "
         "guarda o título como publicado e não classifica relevância. Contagem de atos não mede intensidade de relação.",
         "- Estados extintos entram com o código de antigo Estado (Iugoslávia, Alemanha Oriental). Nomes de signatários ficam só no dado bruto.",
+        "",
+    ]
+
+
+def _linhas_tse(base: Path) -> list[str]:
+    """Etapa E7: candidatos e receitas de campanha (D-042, D-043)."""
+    d = ler("doacoes_campanha", base)
+    if not len(d):
+        return []
+    res = RAIZ / "data" / "staging" / "tse" / "resumo.csv"
+    r = pd.read_csv(res, dtype=str, keep_default_na=False) if res.exists() else pd.DataFrame()
+    sem = ", ".join(f"{x.ano}: {x.sem_ligacao}" for x in r.itertuples()) if len(r) else "n/d"
+    emp = d[d["id_doador"] != ""]
+    return [
+        "### TSE: candidatos e receitas de campanha (etapa E7)", "",
+        f"- {len(d)} linhas de receita, somadas por candidato, eleição e tipo de doador, de {d['ano_eleicao'].min()} a {d['ano_eleicao'].max()} "
+        "(eleições gerais ordinárias; presidente, governador eleito, senador eleito e deputado federal eleito; D-043).",
+        f"- Deputados e senadores eleitos sem ligação única com o parlamentar da base, e por isso sem receitas na base, por eleição: {sem}. "
+        "A ligação é por nome, sem CPF; nomes de urna muito diferentes do nome parlamentar ficam de fora.",
+        "- Candidatos não eleitos a governador, senador e deputado federal, e todos os candidatos a cargos estaduais e municipais, ficam fora.",
+        f"- Empresas: linha própria só para as {emp['id_doador'].nunique()} empresas já presentes na base (BNDES, CGU); as demais aparecem somadas "
+        "por candidato. Pessoas físicas só em total por candidato. Doações de empresas foram proibidas a partir de 2015 (STF, ADI 4650).",
+        "- 2002: o arquivo não traz o tipo de receita; o tipo é deduzido do documento do doador (CPF ou CNPJ) e do nome (partido, comitê, "
+        "próprio candidato). Até 2010, repasses de comitês e de outros candidatos aparecem como \"partido\", sem o doador originário.",
+        "- 2014: linhas `originario_via_partido` identificam o doador originário de recursos repassados por partido ou comitê; o valor já está "
+        "contado na linha do repasse e não deve ser somado de novo.",
+        "- Receitas registradas são doações legais declaradas à Justiça Eleitoral; o registro não indica irregularidade.",
         "",
     ]
 

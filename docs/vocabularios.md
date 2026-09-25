@@ -302,6 +302,13 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `fh_status` | Freedom House, status (F, PF, NF) |
 | `fh_total` | Freedom House, pontuação total (-4 a 100; direitos políticos podem ficar negativos) |
 
+## `via_doacao`
+
+| Código | Rótulo |
+|---|---|
+| `direta` | Receita lançada pelo candidato com este doador |
+| `originario_via_partido` | Doador originário de recurso repassado por partido, comitê ou outro candidato (2014); parte do valor já contado na linha do repasse |
+
 ## `doador_tipo`
 
 | Código | Rótulo |

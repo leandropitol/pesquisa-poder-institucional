@@ -152,6 +152,10 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("fh_status", "Freedom House, status (F, PF, NF)"),
         ("fh_total", "Freedom House, pontuação total (-4 a 100; direitos políticos podem ficar negativos)"),
     ),
+    "via_doacao": _v(
+        ("direta", "Receita lançada pelo candidato com este doador"),
+        ("originario_via_partido", "Doador originário de recurso repassado por partido, comitê ou outro candidato (2014); parte do valor já contado na linha do repasse"),
+    ),
     "doador_tipo": _v(
         ("pessoa_juridica", "Pessoa jurídica"), ("pessoa_fisica_agregado", "Pessoas físicas, agregado"),
         ("partido", "Partido"), ("recursos_proprios", "Recursos próprios"), ("fundo_publico", "Fundo público (FEFC ou Fundo Partidário)"),

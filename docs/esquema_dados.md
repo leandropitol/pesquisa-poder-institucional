@@ -508,4 +508,6 @@ Receitas de campanha (TSE). Pessoas físicas só em agregado. Chave: `id_doacao`
 | `doador_tipo` | vocab (`doador_tipo`) | sim |  |
 | `id_doador` | ref → `instituicoes.id_instituicao` |  | Só para pessoa jurídica ou partido |
 | `valor` | decimal | sim |  |
+| `via` | vocab (`via_doacao`) | sim |  |
+| `n_registros` | inteiro |  | Quantidade de lançamentos somados na linha |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |

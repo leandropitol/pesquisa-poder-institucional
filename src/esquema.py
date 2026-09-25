@@ -295,7 +295,9 @@ TABELAS: list[Tabela] = [
         C("id_ator", "ref", True, "Candidato", fk="atores.id_ator"),
         C("doador_tipo", "vocab", True, vocab="doador_tipo"),
         C("id_doador", "ref", False, "Só para pessoa jurídica ou partido", fk="instituicoes.id_instituicao"),
-        C("valor", "decimal", True), FONTE,
+        C("valor", "decimal", True),
+        C("via", "vocab", True, vocab="via_doacao"),
+        C("n_registros", "inteiro", False, "Quantidade de lançamentos somados na linha"), FONTE,
     ), prefixo="DOA"),
 ]
 
