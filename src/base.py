@@ -50,6 +50,7 @@ class RegistroIds:
             for l in csv.DictReader(caminho.open(encoding="utf-8")):
                 self.mapa[(l["tabela"], l["chave_externa"])] = l["id"]
         self._ultimo: dict[str, int] = {}
+        self._removidas: set[tuple[str, str]] = set()
 
     def _proximo(self, tabela: str) -> str:
         prefixo = POR_NOME[tabela].prefixo
@@ -68,10 +69,21 @@ class RegistroIds:
     def vincular(self, tabela: str, chave: str, ident: str) -> None:
         self.mapa[(tabela, chave)] = ident
 
+    def remover(self, tabela: str, chave: str) -> None:
+        """Retira uma chave (troca de chave de um mesmo registro); a remoção vale também na mescla ao salvar."""
+        self.mapa.pop((tabela, chave), None)
+        self._removidas.add((tabela, chave))
+
     def existe(self, tabela: str, chave: str) -> bool:
         return (tabela, chave) in self.mapa
 
     def salvar(self) -> None:
+        """Grava o registro mesclado com o arquivo em disco: outro processo pode ter gravado ids novos desde a leitura."""
+        if self.caminho.exists():
+            for l in csv.DictReader(self.caminho.open(encoding="utf-8")):
+                chave = (l["tabela"], l["chave_externa"])
+                if chave not in self.mapa and (l["tabela"], l["chave_externa"]) not in self._removidas:
+                    self.mapa[chave] = l["id"]
         linhas = sorted(({"tabela": t, "chave_externa": c, "id": i} for (t, c), i in self.mapa.items()), key=lambda l: (l["tabela"], l["id"], l["chave_externa"]))
         with self.caminho.open("w", encoding="utf-8", newline="") as f:
             w = csv.DictWriter(f, fieldnames=["tabela", "chave_externa", "id"], lineterminator="\n")

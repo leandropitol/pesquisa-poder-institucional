@@ -82,7 +82,7 @@ def run() -> None:
         else:
             ids.vincular("buscas", chave_nova, novo)
             if ids.mapa.get(("buscas", chave_antiga)) == novo and chave_antiga != chave_nova:
-                del ids.mapa[("buscas", chave_antiga)]
+                ids.remover("buscas", chave_antiga)
         b.loc[i, ["id_busca", "consulta", "fonte_dados"]] = [novo, consulta, fonte]
         if linha in no_head:
             correcoes.append({"id_correcao": f"C-001.{len(correcoes) + 1}", "tabela": "buscas", "sha1_linha_antiga": sha1_linha(linha), "id_novo": novo,
