@@ -10729,6 +10729,44 @@ buscas,src.coleta.redes|2026-09-24|cópias anuais de https://foromadrid.org/que-
 buscas,src.coleta.redes|2026-09-24|cópias anuais de https://www.grupodepuebla.org/,BSC-000133
 buscas,src.coleta.concordia|2026-09-25|todos os atos (pesquisa simples sem filtro),BSC-000134
 buscas,src.coleta.concordia|2026-09-25|lista de países (nome e sigla),BSC-000135
+buscas,src.coleta.conselho_dh|2026-09-25|resoluções da sessão 1 (A/HRC/RES/1/n),BSC-000136
+buscas,src.coleta.conselho_dh|2026-09-25|resoluções da sessão 2 (A/HRC/RES/2/n),BSC-000137
+buscas,src.coleta.conselho_dh|2026-09-25|resoluções da sessão S-1 (A/HRC/RES/S-1/n),BSC-000138
+buscas,src.coleta.conselho_dh|2026-09-25|resoluções da sessão S-2 (A/HRC/RES/S-2/n),BSC-000139
+buscas,src.coleta.tse|2026-09-25|conjunto CNPJ_campanha_2018.zip,BSC-000140
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_2002.zip,BSC-000141
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_2006.zip,BSC-000142
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_2010.zip,BSC-000143
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_2014.zip,BSC-000144
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_2018.zip,BSC-000145
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_2022.zip,BSC-000146
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_cand_complementar_2022.zip,BSC-000147
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_coligacao_2002.zip,BSC-000148
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_coligacao_2006.zip,BSC-000149
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_coligacao_2010.zip,BSC-000150
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_coligacao_2014.zip,BSC-000151
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_coligacao_2018.zip,BSC-000152
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_coligacao_2022.zip,BSC-000153
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_vagas_2002.zip,BSC-000154
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_vagas_2010.zip,BSC-000155
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_vagas_2014.zip,BSC-000156
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_vagas_2018.zip,BSC-000157
+buscas,src.coleta.tse|2026-09-25|conjunto consulta_vagas_2022.zip,BSC-000158
+buscas,src.coleta.tse|2026-09-25|conjunto fefc_fp_2022.zip,BSC-000159
+buscas,src.coleta.tse|2026-09-25|conjunto motivo_cassacao_2014.zip,BSC-000160
+buscas,src.coleta.tse|2026-09-25|conjunto motivo_cassacao_2018.zip,BSC-000161
+buscas,src.coleta.tse|2026-09-25|conjunto motivo_cassacao_2022.zip,BSC-000162
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_contas_2002.zip,BSC-000163
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_contas_2006.zip,BSC-000164
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_contas_2010.zip,BSC-000165
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_contas_anual_partidaria_2018.zip,BSC-000166
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_contas_anual_partidaria_2022.zip,BSC-000167
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_contas_final_sup_2014.zip,BSC-000168
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_candidatos_2018.zip,BSC-000169
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_candidatos_2022.zip,BSC-000170
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_orgaos_partidarios_2018.zip,BSC-000171
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_de_contas_eleitorais_orgaos_partidarios_2022.zip,BSC-000172
+buscas,src.coleta.tse|2026-09-25|conjunto prestacao_final_2014.zip,BSC-000173
 cargos,camara:3151:53,CRG-000001
 cargos,camara:3151:54,CRG-000002
 cargos,camara:3155:53,CRG-000003
