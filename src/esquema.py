@@ -265,7 +265,9 @@ TABELAS: list[Tabela] = [
     ), prefixo="VOT"),
     Tabela("acordos_bilaterais", "eixo_relacoes_externas", "Acordos bilaterais do Brasil (todos os países, para ter denominador).", ("id_acordo",), (
         C("id_acordo", "id", True), C("pais_iso3", "iso3", True), C("titulo", "texto", True), C("tema", "texto", True),
-        C("data_assinatura", "data", True), C("data_vigencia", "data", False), FONTE,
+        C("data_assinatura", "data", True), C("data_vigencia", "data", False),
+        C("situacao", "texto", False, "Situação no Concórdia (em vigor, expirado, em tramitação etc.)"),
+        C("id_concordia", "texto", False, "Identificador do ato no Concórdia (Itamaraty)"), C("link", "url", False), FONTE,
     ), prefixo="ACO"),
 
     # ------------------------------------------------------------------ eixo 3

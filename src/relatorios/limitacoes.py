@@ -193,6 +193,7 @@ def texto(base: Path = BASE) -> str:
         ]
     linhas += _linhas_oea(vm_todos[vm_todos["id_organismo"].map(siglas) == "AG/OEA"])
     linhas += _linhas_redes(base)
+    linhas += _linhas_acordos(base)
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -307,6 +308,31 @@ def _linhas_redes(base: Path) -> list[str]:
         "- Sem partido brasileiro nas listas lidas: " + (", ".join(sorted(sem["nome"])) if len(sem) else "nenhuma rede") + ". O Grupo de "
         "Puebla e o Foro de Madri reúnem pessoas; a participação de pessoas fica para etapa própria.",
         "- Filiação a rede é relação política pública; o relatório não a liga a registros dos eixos 1 e 3.",
+        "",
+    ]
+
+
+def _linhas_acordos(base: Path) -> list[str]:
+    """Bloco B: atos bilaterais do Concórdia (D-041)."""
+    a = ler("acordos_bilaterais", base)
+    if not len(a):
+        return []
+    from src.normalizacao.concordia import montar
+    from src.base import RegistroIds
+    c = montar(RegistroIds())["contagem"]
+    desde = a[a["data_assinatura"] >= "2003"]
+    return [
+        "### Atos bilaterais do Brasil (etapa E8, bloco B)", "",
+        f"- {len(a)} atos bilaterais com um país como outra parte, de {a['data_assinatura'].min()[:4]} a {a['data_assinatura'].max()[:4]}, "
+        f"com {a['pais_iso3'].nunique()} países; {len(desde)} celebrados de 2003 em diante (Concórdia, D-041).",
+        f"- Fora da tabela: {c['organismo']} atos bilaterais com organismos internacionais, {c['sem_parte']} sem outra parte informada e "
+        f"{c['nao_bilateral']} atos trilaterais ou multilaterais.",
+        f"- Data de entrada em vigor: {int((desde['data_vigencia'] != '').sum())} dos {len(desde)} atos de 2003 em diante (do detalhe de cada ato); "
+        "atos anteriores a 2003 não tiveram o detalhe coletado. Ato sem data de vigência pode estar em tramitação, sem vigência "
+        "registrada ou sem o campo preenchido no Concórdia.",
+        "- O Concórdia registra atos de naturezas diferentes (tratados, acordos, memorandos, ajustes complementares, troca de notas); a base "
+        "guarda o título como publicado e não classifica relevância. Contagem de atos não mede intensidade de relação.",
+        "- Estados extintos entram com o código de antigo Estado (Iugoslávia, Alemanha Oriental). Nomes de signatários ficam só no dado bruto.",
         "",
     ]
 

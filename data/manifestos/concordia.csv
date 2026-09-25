@@ -1,0 +1,3 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-25,data/raw/concordia/2026-09-25/lista_atos.jsonl,https://aplicacao.itamaraty.gov.br/ApiConcordia/Acordo/pesquisar-acordos-simples,25,10296582,864685be0a3813c98faf7f1644a935a8939643c92ee64f72dd4318ef6daa8e71
+2026-09-25,data/raw/concordia/2026-09-25/paises.jsonl,https://aplicacao.itamaraty.gov.br/ApiConcordia/Acordo/listar-paises,1,11642,f6ec63d0667c0ba317f53d800c8a4170967bfcbfa85a917405f707354e724c72

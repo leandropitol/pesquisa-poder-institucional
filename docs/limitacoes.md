@@ -62,29 +62,30 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2703 |
 | `filiacoes` | 6329 |
 | `cargos` | 4628 |
-| `instituicoes` | 1482 |
+| `instituicoes` | 1483 |
 | `denominacoes_partido` | 67 |
 | `processos` | 5250 |
 | `fases_processo` | 5256 |
 | `eventos` | 2297 |
 | `relacoes` | 2429 |
-| `fontes` | 68 |
-| `fonte_oficial` | 65 |
+| `fontes` | 69 |
+| `fonte_oficial` | 66 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 133 |
+| `buscas` | 135 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
 | `votos_multilaterais` | 19746 |
+| `acordos_bilaterais` | 7720 |
 | `emendas_parlamentares` | 92364 |
 
-Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `acordos_bilaterais`, `decisoes_judiciais`, `doacoes_campanha`.
+Tabelas ainda vazias (12): `casos`, `status_pessoa_processo`, `afirmacoes`, `fonte_judicial`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `decisoes_judiciais`, `doacoes_campanha`.
 
 ### Buscas
 
-- 133 buscas registradas; 17 com zero resultados.
+- 135 buscas registradas; 17 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -100,6 +101,7 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Internet Archive (Wayback Machine): International Democrat Union: 6 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): Organização Democrata Cristã da América: 4 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): União de Partidos Latino-Americanos: 3 buscas, coleta de 2026-09-24.
+- Itamaraty, Concórdia (atos internacionais), interface pública do site: 2 buscas, coleta de 2026-09-25.
 - OEA, atas das sessões plenárias da Assembleia Geral: 22 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral: 25 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
@@ -192,6 +194,14 @@ Tabelas ainda vazias (13): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Listas desatualizadas pela própria rede são registradas como estão (por exemplo, "PPS" no Foro de São Paulo depois da mudança para Cidadania; "Democratas" na International Democrat Union depois da fusão no União Brasil); a sigla é ligada ao partido do registro no TSE.
 - Sem partido brasileiro nas listas lidas: Foro de Madri, Grupo de Puebla, União de Partidos Latino-Americanos. O Grupo de Puebla e o Foro de Madri reúnem pessoas; a participação de pessoas fica para etapa própria.
 - Filiação a rede é relação política pública; o relatório não a liga a registros dos eixos 1 e 3.
+
+### Atos bilaterais do Brasil (etapa E8, bloco B)
+
+- 7720 atos bilaterais com um país como outra parte, de 1823 a 2026, com 190 países; 3101 celebrados de 2003 em diante (Concórdia, D-041).
+- Fora da tabela: 576 atos bilaterais com organismos internacionais, 4 sem outra parte informada e 4191 atos trilaterais ou multilaterais.
+- Data de entrada em vigor: 0 dos 3101 atos de 2003 em diante (do detalhe de cada ato); atos anteriores a 2003 não tiveram o detalhe coletado. Ato sem data de vigência pode estar em tramitação, sem vigência registrada ou sem o campo preenchido no Concórdia.
+- O Concórdia registra atos de naturezas diferentes (tratados, acordos, memorandos, ajustes complementares, troca de notas); a base guarda o título como publicado e não classifica relevância. Contagem de atos não mede intensidade de relação.
+- Estados extintos entram com o código de antigo Estado (Iugoslávia, Alemanha Oriental). Nomes de signatários ficam só no dado bruto.
 
 ### Validador
 

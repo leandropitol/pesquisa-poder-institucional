@@ -448,6 +448,9 @@ Acordos bilaterais do Brasil (todos os países, para ter denominador). Chave: `i
 | `tema` | texto | sim |  |
 | `data_assinatura` | data | sim |  |
 | `data_vigencia` | data |  |  |
+| `situacao` | texto |  | Situação no Concórdia (em vigor, expirado, em tramitação etc.) |
+| `id_concordia` | texto |  | Identificador do ato no Concórdia (Itamaraty) |
+| `link` | url |  |  |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
 ## Eixo poder institucional

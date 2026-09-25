@@ -1,0 +1,10 @@
+parte,decisao,pais_iso3,justificativa
+Iugoslávia,pais,YUG,Estado extinto; código de antigo Estado (ISO 3166-3)
+Alemanha Oriental,pais,DDR,Estado extinto (República Democrática Alemã); código de antigo Estado (ISO 3166-3)
+República do Congo,pais,COG,República do Congo (Brazzaville); a lista de países do Concórdia não traz esta grafia
+Bahrein,pais,BHR,nome com espaço no fim no Concórdia
+SANTA - Santa Sé,pais,VAT,Santa Sé
+Hong Kong,pais,HKG,região administrativa especial da China com código próprio (ISO 3166-1)
+Jersey,pais,JEY,dependência da Coroa britânica com código próprio (ISO 3166-1)
+,sem_parte,,ato sem outra parte informada no Concórdia
+União Europeia,organismo,,organização supranacional; a lista de países do Concórdia a traz com a sigla UE
