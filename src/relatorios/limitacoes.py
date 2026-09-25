@@ -188,9 +188,9 @@ def texto(base: Path = BASE) -> str:
             + "; ".join(f"{k}: {n}" for k, n in res["criterio_inclusao"].value_counts().items()) + ".",
             "- Resoluções adotadas sem votação (por consenso) e votos sobre parágrafos isolados não constam do conjunto da ONU.",
             "- O critério \"cita país da América Latina\" é aplicado ao pé da letra e inclui resoluções de desenvolvimento; a análise separa pelo título.",
-            "- Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) ainda não entraram.",
             "",
         ]
+    linhas += _linhas_cdh(vm_todos[vm_todos["id_organismo"].map(siglas) == "CDH"])
     linhas += _linhas_oea(vm_todos[vm_todos["id_organismo"].map(siglas) == "AG/OEA"])
     linhas += _linhas_redes(base)
     linhas += _linhas_acordos(base)
@@ -202,6 +202,28 @@ def texto(base: Path = BASE) -> str:
         linhas.append(f"- … e mais {len(avisos) - 20} avisos.")
     linhas += ["", FIM]
     return "\n".join(linhas)
+
+
+def _linhas_cdh(vm: pd.DataFrame) -> list[str]:
+    """Bloco A2: Conselho de Direitos Humanos da ONU (D-044)."""
+    if not len(vm):
+        return []
+    res = RAIZ / "data" / "staging" / "conselho_dh" / "resolucoes.csv"
+    r = pd.read_csv(res, dtype=str, keep_default_na=False) if res.exists() else pd.DataFrame(columns=["criterio", "estado", "confere"])
+    sel = r[r["criterio"] != ""]
+    nao_confere = sel[(sel["estado"] == "votacao") & (sel["confere"] != "True")]
+    bra = vm[vm["pais_iso3"] == "BRA"]
+    return [
+        f"- Conselho de Direitos Humanos: {vm['resolucao'].nunique()} resoluções adotadas por votação registrada de {vm['data'].min()[:4]} a "
+        f"{vm['data'].max()[:4]}, com o voto de todos os membros ({len(vm)} votos); o Brasil votou em {bra['resolucao'].nunique()} (nos demais anos "
+        "não era membro). Mesmo critério da Assembleia Geral; voto de cada país conferido com o placar escrito na resolução (D-044).",
+        f"- Das {len(sel)} resoluções selecionadas, {int((sel['estado'] == 'sem_votacao').sum())} foram adotadas sem votação e não geram voto por país; "
+        f"{int((sel['estado'] == 'sem_registro_de_adocao').sum())} não trazem o registro de adoção no texto lido; "
+        f"{len(nao_confere)} com lista de votos que não bate com o placar do próprio documento ficam fora (" + ", ".join(nao_confere["simbolo"]) + ").",
+        "- Lacunas de fonte: o relatório da 1ª sessão (2006, A/61/53) e as resoluções das sessões especiais S-13 e S-17 não estão no repositório "
+        "de documentos da ONU; as sessões especiais S-1 a S-11 só entram quando estão nos relatórios anuais.",
+        "",
+    ]
 
 
 def _linhas_oea(vm: pd.DataFrame) -> list[str]:

@@ -62,22 +62,22 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2790 |
 | `filiacoes` | 6553 |
 | `cargos` | 4628 |
-| `instituicoes` | 1483 |
+| `instituicoes` | 1484 |
 | `denominacoes_partido` | 67 |
 | `processos` | 5250 |
 | `fases_processo` | 5256 |
 | `eventos` | 2297 |
 | `relacoes` | 2429 |
-| `fontes` | 82 |
-| `fonte_oficial` | 79 |
+| `fontes` | 230 |
+| `fonte_oficial` | 227 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 170 |
+| `buscas` | 279 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
-| `votos_multilaterais` | 19746 |
+| `votos_multilaterais` | 26696 |
 | `acordos_bilaterais` | 7720 |
 | `emendas_parlamentares` | 92364 |
 | `doacoes_campanha` | 12613 |
@@ -86,7 +86,7 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 
 ### Buscas
 
-- 170 buscas registradas; 17 com zero resultados.
+- 279 buscas registradas; 45 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -103,6 +103,7 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Internet Archive (Wayback Machine): Organização Democrata Cristã da América: 4 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): União de Partidos Latino-Americanos: 3 buscas, coleta de 2026-09-24.
 - Itamaraty, Concórdia (atos internacionais), interface pública do site: 3 buscas, coleta de 2026-09-25.
+- Nações Unidas, repositório oficial de documentos (resoluções do Conselho de Direitos Humanos): 109 buscas, coleta de 2026-09-25.
 - OEA, atas das sessões plenárias da Assembleia Geral: 22 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral: 25 buscas, coleta de 2026-09-24.
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
@@ -159,7 +160,7 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 ### STF pelo Corte Aberta (etapa E5)
 
 - 5045 ações penais e inquéritos: os que tiveram decisão de 08/01/2003 a 23/09/2026 e os em tramitação na data da exportação (D-037). No universo do eixo 1: 1127 (tipos do protocolo pelo assunto); 2556 a revisar; 1315 fora; 47 autuados antes de 2003.
-- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico "Direito Processual Penal | Ação Penal", e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): sem_indicio: 1358; indicio_fora_do_protocolo: 910; indicio_do_protocolo: 288. Os indícios de fora do protocolo vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).
+- O Corte Aberta traz um só assunto por processo. Em 1.774 ações penais o assunto é o genérico "Direito Processual Penal | Ação Penal", e o tipo penal só aparece na fonte primária. Triagem pelo texto das decisões (não decide nada): sem_indicio: 1357; indicio_fora_do_protocolo: 911; indicio_do_protocolo: 288. Os indícios de fora do protocolo vêm sobretudo das ações penais de 2023 a 2026 sobre crimes contra o Estado Democrático de Direito (CP, Título XII).
 - Regra de assuntos em `data/curadoria/assuntos_stf_eixo1.csv` (D-038): capítulos do Título XI do Código Penal entram inteiros, como diz o protocolo (inclusive desobediência, desacato e sonegação de contribuição previdenciária); crimes eleitorais só entram como conexos (art. 350); crimes de responsabilidade de prefeitos (Decreto-Lei 201/1967) entram por emenda ao protocolo (D-039), também no STJ.
 - Fases: 5198 registros de decisões com correspondência inequívoca (recebimento_denuncia: 1630; acordao_tribunal_superior: 1073; declinio_competencia: 1052; extincao_punibilidade: 699; arquivamento_inquerito: 653; rejeicao_denuncia: 91). O julgamento de mérito da ação penal (procedente ou improcedente) é registrado sem distinguir réus; o status de cada pessoa depende da fonte primária.
 - Decisões em segredo de justiça aparecem só como "Decisão (segredo de justiça)" e não geram fase. O campo de sigilo do processo não vem na exportação.
@@ -179,7 +180,10 @@ Tabelas ainda vazias (11): `casos`, `status_pessoa_processo`, `afirmacoes`, `fon
 - Assembleia Geral da ONU: 101 resoluções adotadas por voto nominal de 2003 a 2025, com o voto de todos os países (19442 votos); critério em `docs/lista_e8_para_revisao.md`. direitos_humanos_pais: 77; cita_america_latina: 24.
 - Resoluções adotadas sem votação (por consenso) e votos sobre parágrafos isolados não constam do conjunto da ONU.
 - O critério "cita país da América Latina" é aplicado ao pé da letra e inclui resoluções de desenvolvimento; a análise separa pelo título.
-- Resoluções sobre países da América Latina no Conselho de Direitos Humanos (bloco A2) ainda não entraram.
+
+- Conselho de Direitos Humanos: 149 resoluções adotadas por votação registrada de 2006 a 2026, com o voto de todos os membros (6950 votos); o Brasil votou em 122 (nos demais anos não era membro). Mesmo critério da Assembleia Geral; voto de cada país conferido com o placar escrito na resolução (D-044).
+- Das 269 resoluções selecionadas, 111 foram adotadas sem votação e não geram voto por país; 8 não trazem o registro de adoção no texto lido; 1 com lista de votos que não bate com o placar do próprio documento ficam fora (A/HRC/RES/19/22).
+- Lacunas de fonte: o relatório da 1ª sessão (2006, A/61/53) e as resoluções das sessões especiais S-13 e S-17 não estão no repositório de documentos da ONU; as sessões especiais S-1 a S-11 só entram quando estão nos relatórios anuais.
 
 - Assembleia Geral da OEA: 31 resoluções ou votações na base (9 por votação registrada, 22 sem votação no plenário), de 2004 a 2024; curadoria item a item (`data/curadoria/oea_resolucoes_ag_curadoria.csv`): 33 incluídas, 34 excluídas e 0 aguardando decisão do autor (fora da base).
 - Votações incluídas, localizadas nas atas: 10 (`data/curadoria/oea_votacoes.csv`); em 8 das 9 chamadas nominais a contagem das respostas bate com o placar oficial e entra o voto de cada país. Não bate em: 2018-06-05 (AG/RES. 2929 (XLVIII-O/18): placar 19/4/11, lidos 20/3/11); nesses casos só entra o voto do Brasil, lido na fala da delegação. A votação de mão erguida da AG/RES. 2 (XXXVII-E/09) (suspensão de Honduras, 4 de julho de 2009, 33 votos afirmativos) não individualiza os votos e não gera linha por país.

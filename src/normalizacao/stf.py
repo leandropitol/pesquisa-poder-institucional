@@ -52,7 +52,7 @@ RE_INDICIO = re.compile(r"PECULATO|CONCUSSAO|CORRUPCAO PASSIVA|CORRUPCAO ATIVA|P
                         r"LAVAGEM DE (?:DINHEIRO|CAPITAIS|BENS)|LEI N?[º°O.]*\s*9\.?613|LEI N?[º°O.]*\s*8\.?666|LEI N?[º°O.]*\s*12\.?850|"
                         r"ORGANIZACAO CRIMINOSA|ARTS?\.?\s*(?:312|313|316|317|319|321|332|333)\b|DISPENSA (?:INDEVIDA )?DE LICITACAO|FRAUDE A LICITACAO")
 # Tipos fora do protocolo citados no texto (Título XII do CP, crimes contra o Estado Democrático de Direito, entre outros)
-RE_FORA = re.compile(r"ESTADO DEMOCRATICO DE DIREITO|ARTS?\.?\s*359-[L-R]|GOLPE DE ESTADO|DANO QUALIFICADO|DETERIORACAO DE PATRIMONIO TOMBADO")
+RE_FORA = re.compile(r"ESTADO DEMOCRATICO DE DIREITO|ARTS?\.?\s*359-[L-R]\b|GOLPE DE ESTADO|DANO QUALIFICADO|DETERIORACAO DE PATRIMONIO TOMBADO")
 MAPA_FASES = {
     "RECEBIDA DENUNCIA": "recebimento_denuncia", "RECEBIDA DENUNCIA EM PARTE": "recebimento_denuncia",
     "JULG. DO PLENO - RECEBIDA A DENUNCIA": "recebimento_denuncia",
