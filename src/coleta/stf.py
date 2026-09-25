@@ -88,7 +88,8 @@ def registrar_manuais(data: str) -> None:
             consulta, parametros = f"dados abertos: {f.name}", {"url": url, "arquivo_original": f.name}
         elif f.name in RELATORIOS:
             nome, url = RELATORIOS[f.name], "https://portal.stf.jus.br"
-            consulta, linhas = "relatório de navegação do Claude in Chrome no portal do STF (registro auxiliar, não é fonte primária)", 1
+            consulta = f"relatório de navegação do Claude in Chrome no portal do STF (arquivo {nome}; registro auxiliar, não é fonte primária)"
+            linhas = 1
             parametros = {"url": url, "arquivo_original": f.name}
         else:
             print(f"não identificado, fica onde está: {f.name}")
