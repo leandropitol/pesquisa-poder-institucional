@@ -228,6 +228,7 @@ def gravar_resultado(r: dict, ids: RegistroIds, base: Path = BASE) -> None:
     gravar("instituicoes", pd.concat([atual[~atual["id_instituicao"].isin(novas["id_instituicao"])], novas], ignore_index=True), base)
     atual = ler("processos", base)
     novos = pd.DataFrame(r["processos"], dtype=str)
+    novos["id_caso"] = novos["id_processo"].map(dict(zip(atual["id_processo"], atual["id_caso"]))).fillna("")  # o caso vem da E9; não se perde
     gravar("processos", pd.concat([atual[~atual["id_processo"].isin(novos["id_processo"])], novos], ignore_index=True), base)
     existentes = set(ler("fases_processo", base)["id_fase"])
     acrescentar("fases_processo", [x for x in r["fases_processo"] if x["id_fase"] not in existentes], base)  # histórico só cresce

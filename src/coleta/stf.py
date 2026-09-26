@@ -46,7 +46,8 @@ URL_DADOS_ABERTOS = "https://transparencia.stf.jus.br/extensions/dados_abertos/d
 LIMITE_CELULAS = 5_000_000
 RELATORIOS = {"relatorio_stf_pesquisa_documental.md": "stf_relatorio_navegacao.md",
               "relatorio_corte_aberta.md": "stf_relatorio_navegacao_peticoes.md",
-              "relatorio_status_processual_reus.md": "stf_relatorio_navegacao_reus_ap470_ap536.md"}
+              "relatorio_status_processual_reus.md": "stf_relatorio_navegacao_reus_ap470_ap536.md",
+              "AP470_relatorio_final.md": "stf_relatorio_navegacao_ap470_embargos_noticias.md"}
 
 
 def registrar_manuais(data: str) -> None:
@@ -62,8 +63,9 @@ def registrar_manuais(data: str) -> None:
                 print(f"não identificado, fica onde está: {f.name}")
                 continue
             nome, url, filtros, total = EXPORTACOES[chave]
-            if (pasta / nome).exists():
-                igual = d.equals(pd.read_excel(pasta / nome, dtype=str))
+            anteriores = sorted(raiz.glob(f"*/{nome}"))  # já registrado em qualquer data
+            if anteriores:
+                igual = d.equals(pd.read_excel(anteriores[-1], dtype=str))
                 print(f"{'cópia idêntica' if igual else 'ATENÇÃO: conteúdo diferente'} de {nome} já registrado; fica onde está: {f.name}")
                 continue
             linhas = len(d)

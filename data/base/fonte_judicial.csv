@@ -1,1 +1,4 @@
 id_fonte,numero_processo,id_orgao,data_documento,fase_processual,tipo_documento,link_publico
+FNT-000233,AP 470,INS-001525,2026-09-25,outra,Página de acompanhamento processual,https://portal.stf.jus.br/processos/detalhe.asp?incidente=11541
+FNT-000234,AP 470,INS-001525,2012-10-23,acordao_tribunal_superior,Decisão de julgamento (texto do andamento),https://portal.stf.jus.br/processos/detalhe.asp?incidente=11541
+FNT-000235,AP 470 EI,INS-001525,2014-02-27,acordao_tribunal_superior,Acórdão,https://jurisprudencia.stf.jus.br/pages/search/sjur273411/false

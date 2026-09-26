@@ -1,0 +1,27 @@
+processo,nome_partes,data,status,tipificacao,fonte,observacao
+AP 470,*,2007-11-12,reu,,portal_ap470,todos os nomes listados como réu na aba Partes; data de autuação da ação penal
+AP 470,JOSÉ DIRCEU DE OLIVEIRA E SILVA,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,
+AP 470,DELÚBIO SOARES DE CASTRO,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,
+AP 470,JOSÉ GENOÍNO NETO,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,
+AP 470,RAMON HOLLERBACH CARDOSO,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,
+AP 470,CRISTIANO DE MELLO PAZ,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,
+AP 470,ROGÉRIO LANZA TOLENTINO,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,
+AP 470,SIMONE REIS LOBO DE VASCONCELOS,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),andamento_2012_10_23,o trecho visível termina no nome dela; os demais nomes da lista não aparecem
+AP 470,JOSÉ DIRCEU DE OLIVEIRA E SILVA,2012-11-12,condenado_tribunal_superior,corrupção ativa (pena de 7 anos e 11 meses e 260 dias-multa fixada nesta sessão),noticia_2012_11_12,
+AP 470,JOSÉ GENOÍNO NETO,2012-11-12,condenado_tribunal_superior,corrupção ativa (pena de 4 anos e 8 meses e 180 dias-multa fixada nesta sessão),noticia_2012_11_12,
+AP 470,DELÚBIO SOARES DE CASTRO,2012-11-12,condenado_tribunal_superior,corrupção ativa (pena de 6 anos e 8 meses e 250 dias-multa fixada nesta sessão),noticia_2012_11_12,
+AP 470,KÁTIA RABELLO,2012-11-12,condenado_tribunal_superior,formação de quadrilha (pena de 2 anos e 3 meses fixada nesta sessão),noticia_2012_11_12,
+AP 470,KÁTIA RABELLO,2012-11-12,condenado_tribunal_superior,lavagem de dinheiro (pena de 5 anos e 10 meses e 166 dias-multa fixada nesta sessão),noticia_2012_11_12,
+AP 470,KÁTIA RABELLO,2012-11-12,condenado_tribunal_superior,gestão fraudulenta de instituição financeira (pena de 4 anos e 120 dias-multa fixada nesta sessão),noticia_2012_11_12,
+AP 470,KÁTIA RABELLO,2012-11-12,condenado_tribunal_superior,evasão de divisas (pena de 4 anos e 7 meses e 100 dias-multa fixada nesta sessão),noticia_2012_11_12,
+AP 470,ROGÉRIO LANZA TOLENTINO,2012-11-21,condenado_tribunal_superior,lavagem de dinheiro (pena de 3 anos 8 meses e 10 dias fixada por maioria),noticia_2012_11_21,
+AP 470,VINÍCIUS SAMARANE,2012-11-21,condenado_tribunal_superior,lavagem de dinheiro (pena de 5 anos 3 meses e 10 dias e 130 dias-multa fixada nesta sessão),noticia_2012_11_21,
+AP 470,VINÍCIUS SAMARANE,2012-11-21,condenado_tribunal_superior,gestão fraudulenta (pena de 3 anos e 6 meses e 100 dias-multa fixada nesta sessão),noticia_2012_11_21,
+AP 470,DELÚBIO SOARES DE CASTRO,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,embargante nomeado na notícia oficial de 26/02/2014; os oito embargos sobre quadrilha foram julgados em conjunto (questão de ordem de 20/02/2014) e todos acolhidos
+AP 470,JOSÉ DIRCEU DE OLIVEIRA E SILVA,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem
+AP 470,JOSÉ GENOÍNO NETO,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem
+AP 470,JOSE ROBERTO SALGADO,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem
+AP 470,KÁTIA RABELLO,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem
+AP 470,MARCOS VALÉRIO FERNANDES DE SOUZA,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem
+AP 470,RAMON HOLLERBACH CARDOSO,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem
+AP 470,CRISTIANO DE MELLO PAZ,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),acordao_ei_2014_02_27,idem

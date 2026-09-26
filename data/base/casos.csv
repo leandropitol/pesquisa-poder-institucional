@@ -1,1 +1,3 @@
 id_caso,nome,tipo_caso,eixo,data_inicio,criterio_inclusao,id_fonte
+CAS-000001,Ação Penal 470 (caso conhecido como Mensalão),acao_penal,esquemas_ilicitos,2007-11-12,Caso-teste da etapa E9 (docs/plano_coleta.md); processo no universo do STF (E5),FNT-000233
+CAS-000002,Ação Penal 536 (caso conhecido como Mensalão mineiro),acao_penal,esquemas_ilicitos,2010-05-13,Caso-teste da etapa E9 (docs/plano_coleta.md); processo no universo do STF (E5),FNT-000233

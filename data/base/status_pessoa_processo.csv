@@ -1,1 +1,66 @@
 id_status,id_ator,id_processo,data,status,tipificacao,id_fonte
+STA-000001,ATR-000642,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000002,ATR-000075,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000003,ATR-002791,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000004,ATR-002792,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000005,ATR-002793,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000006,ATR-002794,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000007,ATR-002795,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000008,ATR-002796,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000009,ATR-002797,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000010,ATR-002798,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000011,ATR-002799,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000012,ATR-002800,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000013,ATR-002801,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000014,ATR-002802,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000015,ATR-000072,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000016,ATR-002803,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000017,ATR-000488,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000018,ATR-000143,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000019,ATR-002804,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000020,ATR-002805,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000021,ATR-002806,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000022,ATR-002807,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000023,ATR-000090,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000024,ATR-002808,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000025,ATR-002809,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000026,ATR-000603,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000027,ATR-000027,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000028,ATR-002810,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000029,ATR-000581,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000030,ATR-000142,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000031,ATR-000272,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000032,ATR-002811,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000033,ATR-000649,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000034,ATR-000094,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000035,ATR-000299,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000036,ATR-002812,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000037,ATR-002813,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000038,ATR-002814,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000039,ATR-002815,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000040,ATR-000285,PRC-002186,2007-11-12,reu,,FNT-000233
+STA-000041,ATR-000642,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000042,ATR-002791,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000043,ATR-000075,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000044,ATR-002794,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000045,ATR-002795,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000046,ATR-002796,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000047,ATR-002797,PRC-002186,2012-10-23,condenado_tribunal_superior,formação de quadrilha (art. 288 do Código Penal),FNT-000234
+STA-000048,ATR-000642,PRC-002186,2012-11-12,condenado_tribunal_superior,corrupção ativa (pena de 7 anos e 11 meses e 260 dias-multa fixada nesta sessão),FNT-000236
+STA-000049,ATR-000075,PRC-002186,2012-11-12,condenado_tribunal_superior,corrupção ativa (pena de 4 anos e 8 meses e 180 dias-multa fixada nesta sessão),FNT-000236
+STA-000050,ATR-002791,PRC-002186,2012-11-12,condenado_tribunal_superior,corrupção ativa (pena de 6 anos e 8 meses e 250 dias-multa fixada nesta sessão),FNT-000236
+STA-000051,ATR-002799,PRC-002186,2012-11-12,condenado_tribunal_superior,formação de quadrilha (pena de 2 anos e 3 meses fixada nesta sessão),FNT-000236
+STA-000052,ATR-002799,PRC-002186,2012-11-12,condenado_tribunal_superior,lavagem de dinheiro (pena de 5 anos e 10 meses e 166 dias-multa fixada nesta sessão),FNT-000236
+STA-000053,ATR-002799,PRC-002186,2012-11-12,condenado_tribunal_superior,gestão fraudulenta de instituição financeira (pena de 4 anos e 120 dias-multa fixada nesta sessão),FNT-000236
+STA-000054,ATR-002799,PRC-002186,2012-11-12,condenado_tribunal_superior,evasão de divisas (pena de 4 anos e 7 meses e 100 dias-multa fixada nesta sessão),FNT-000236
+STA-000055,ATR-002796,PRC-002186,2012-11-21,condenado_tribunal_superior,lavagem de dinheiro (pena de 3 anos 8 meses e 10 dias fixada por maioria),FNT-000237
+STA-000056,ATR-002801,PRC-002186,2012-11-21,condenado_tribunal_superior,lavagem de dinheiro (pena de 5 anos 3 meses e 10 dias e 130 dias-multa fixada nesta sessão),FNT-000237
+STA-000057,ATR-002801,PRC-002186,2012-11-21,condenado_tribunal_superior,gestão fraudulenta (pena de 3 anos e 6 meses e 100 dias-multa fixada nesta sessão),FNT-000237
+STA-000058,ATR-002791,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000059,ATR-000642,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000060,ATR-000075,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000061,ATR-002800,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000062,ATR-002799,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000063,ATR-002793,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000064,ATR-002794,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235
+STA-000065,ATR-002795,PRC-002186,2014-02-27,absolvido,formação de quadrilha (art. 288 do Código Penal): embargos infringentes acolhidos (art. 386 III do CPP),FNT-000235

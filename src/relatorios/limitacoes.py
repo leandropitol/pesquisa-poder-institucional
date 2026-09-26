@@ -195,6 +195,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_redes(base)
     linhas += _linhas_acordos(base)
     linhas += _linhas_tse(base)
+    linhas += _linhas_e9(base)
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -387,6 +388,32 @@ def _linhas_tse(base: Path) -> list[str]:
         "- 2014: linhas `originario_via_partido` identificam o doador originário de recursos repassados por partido ou comitê; o valor já está "
         "contado na linha do repasse e não deve ser somado de novo.",
         "- Receitas registradas são doações legais declaradas à Justiça Eleitoral; o registro não indica irregularidade.",
+        "",
+    ]
+
+
+def _linhas_e9(base: Path) -> list[str]:
+    """Casos-teste da E9 (D-046)."""
+    st = ler("status_pessoa_processo", base)
+    casos = ler("casos", base)
+    if not len(st):
+        return []
+    return [
+        "### Casos-teste (etapa E9)", "",
+        f"- Casos: {', '.join(casos['nome'])}. Status formais registrados: {len(st)} "
+        f"({'; '.join(f'{k}: {n}' for k, n in st['status'].value_counts().items())}), com fonte judicial ou oficial do STF (D-046).",
+        "- AP 470: o texto da decisão de 17/12/2012 vem cortado no portal, e o resultado por réu e por crime está espalhado em andamentos de "
+        "agosto a dezembro de 2012, em trechos também cortados. Entraram só as condenações nomeadas em decisão do Tribunal (23/10/2012, "
+        "quadrilha) ou em notícia oficial da fixação das penas (12 e 21/11/2012), e as absolvições por quadrilha nos embargos infringentes de "
+        "27/02/2014. Os demais resultados de 2012 ficam pendentes de leitura da fonte primária completa.",
+        "- Pendências conhecidas: condenação por quadrilha de Marcos Valério e José Roberto Salgado (a absolvição de 2014 está registrada, a "
+        "condenação de 2012 não tem trecho com data); embargos infringentes sobre lavagem de 13/03/2014 (duas absolvições e uma rejeição) sem "
+        "fonte oficial que nomeie cada embargante; extinção de punibilidade de 16/09/2010 sem o nome do réu; trânsitos em julgado por réu.",
+        "- AP 536 (Mensalão mineiro): o STF declinou da competência em 27/03/2014 e enviou o processo à Justiça estadual de Belo Horizonte "
+        "sem julgamento de mérito; o desfecho está no TJMG e ainda não foi lido. O recebimento da denúncia não aparece nos andamentos do STF.",
+        "- Réus sem correspondência única com a base entram como ator novo, com tipo provisório; a ligação do réu Carlos Alberto Rodrigues Pinto "
+        "ao deputado Carlos Rodrigues é decisão manual a conferir.",
+        "- Status de pessoas filiadas ainda sem verificação de simetria: aparecem como aviso do validador e não vão a relatório (D-007).",
         "",
     ]
 
