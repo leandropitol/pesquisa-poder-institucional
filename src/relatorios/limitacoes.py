@@ -196,6 +196,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_acordos(base)
     linhas += _linhas_tse(base)
     linhas += _linhas_e9(base)
+    linhas += _linhas_simetria(base)
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -422,6 +423,34 @@ def _linhas_e9(base: Path) -> list[str]:
         "- Réus sem correspondência única com a base entram como ator novo, com tipo provisório; a ligação do réu Carlos Alberto Rodrigues Pinto "
         "ao deputado Carlos Rodrigues é decisão manual a conferir.",
         "- Status de pessoas filiadas ainda sem verificação de simetria: aparecem como aviso do validador e não vão a relatório (D-007).",
+        "",
+    ]
+
+
+def _linhas_simetria(base: Path) -> list[str]:
+    """Verificação de simetria dos status da E9 (D-048)."""
+    vs, vr = ler("verificacoes_simetria", base), ler("verificacao_resultado", base)
+    if not len(vs):
+        return []
+    cont = vr["resultado"].value_counts().to_dict()
+    return [
+        "### Verificação de simetria dos status da E9", "",
+        f"- {len(vs)} verificações, {len(vr)} resultados por grupo ({'; '.join(f'{k}: {n}' for k, n in cont.items())}).",
+        "- Universo lido: lote 1 de D-048, as 99 ações penais do STF julgadas no mérito (fora 8 de janeiro); os réus vêm da aba Partes "
+        "lida no navegador. As outras 561 ações (lotes 2 a 7) não foram lidas; por isso os status de réu e de denunciado ainda não têm "
+        "verificação e seguem como aviso do validador.",
+        "- Contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em "
+        "parte). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto "
+        "classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em \"revisar\", conforme a regra "
+        "da E5; partido só com ações em \"revisar\" fica `nao_verificado`, com a lista das ações.",
+        "- Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que "
+        "também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em "
+        "`data/curadoria/simetria_stf_ap_ligacoes.csv`. Seis ligações se apoiam só no prenome (`aceita_a_conferir`), e dois réus "
+        "ficaram sem ligação (`pendente`).",
+        "- Partido é a filiação na data do primeiro julgamento de mérito, contada pela instituição exata; fusões e incorporações (por "
+        "exemplo, PL antigo e PL atual) não são somadas.",
+        "- Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data.",
+        "- O status de Eduardo Azeredo no TJMG fica `nao_verificado` em todos os grupos: não há universo lido de ações penais estaduais.",
         "",
     ]
 

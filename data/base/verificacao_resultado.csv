@@ -1,1 +1,129 @@
 id_resultado,id_verificacao,grupo_tipo,grupo_id,resultado,n_casos,ids_encontrados,id_busca,justificativa
+VRS-000001,VSM-000001,partido,INS-000059,encontrado,3,PRC-002186;PRC-002264;PRC-002651,BSC-000291,
+VRS-000002,VSM-000001,partido,INS-000060,sem_evidencia,0,,BSC-000292,
+VRS-000003,VSM-000001,partido,INS-000061,sem_evidencia,0,,BSC-000293,
+VRS-000004,VSM-000001,partido,INS-000062,encontrado,3,PRC-000230;PRC-002186;PRC-002330,BSC-000294,
+VRS-000005,VSM-000001,partido,INS-000068,encontrado,2,PRC-002186;PRC-002365,BSC-000297,
+VRS-000006,VSM-000001,partido,INS-000070,encontrado,3,PRC-000208;PRC-002152;PRC-002610,BSC-000299,
+VRS-000007,VSM-000001,partido,INS-000071,sem_evidencia,0,,BSC-000300,
+VRS-000008,VSM-000001,partido,INS-000073,sem_evidencia,0,,BSC-000302,
+VRS-000009,VSM-000001,partido,INS-000075,encontrado,5,PRC-000221;PRC-000234;PRC-002120;PRC-002132;PRC-002186,BSC-000304,
+VRS-000010,VSM-000001,partido,INS-000078,sem_evidencia,0,,BSC-000307,
+VRS-000011,VSM-000001,partido,INS-000079,sem_evidencia,0,,BSC-000308,
+VRS-000012,VSM-000001,partido,INS-000081,sem_evidencia,0,,BSC-000310,
+VRS-000013,VSM-000001,partido,INS-000082,sem_evidencia,0,,BSC-000311,
+VRS-000014,VSM-000001,partido,INS-000085,encontrado,1,PRC-002632,BSC-000314,
+VRS-000015,VSM-000001,partido,INS-000087,sem_evidencia,0,,BSC-000316,
+VRS-000016,VSM-000001,partido,INS-000089,encontrado,2,PRC-002581;PRC-002641,BSC-000318,
+VRS-000017,VSM-000001,partido,INS-000090,encontrado,1,PRC-002186,BSC-000319,
+VRS-000018,VSM-000001,partido,INS-000091,nao_verificado,,,BSC-000320,"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: PRC-001532"
+VRS-000019,VSM-000001,partido,INS-000092,encontrado,1,PRC-002256,BSC-000321,
+VRS-000020,VSM-000001,partido,INS-000093,sem_evidencia,0,,BSC-000322,
+VRS-000021,VSM-000001,partido,INS-000096,sem_evidencia,0,,BSC-000323,
+VRS-000022,VSM-000001,partido,INS-000098,sem_evidencia,0,,BSC-000324,
+VRS-000023,VSM-000001,partido,INS-000099,sem_evidencia,0,,BSC-000325,
+VRS-000024,VSM-000001,governo,governo,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000025,VSM-000001,oposicao,oposicao,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000026,VSM-000002,partido,INS-000059,encontrado,3,PRC-002186;PRC-002264;PRC-002651,BSC-000291,
+VRS-000027,VSM-000002,partido,INS-000060,sem_evidencia,0,,BSC-000292,
+VRS-000028,VSM-000002,partido,INS-000061,sem_evidencia,0,,BSC-000293,
+VRS-000029,VSM-000002,partido,INS-000062,encontrado,3,PRC-000230;PRC-002186;PRC-002330,BSC-000294,
+VRS-000030,VSM-000002,partido,INS-000068,encontrado,2,PRC-002186;PRC-002365,BSC-000297,
+VRS-000031,VSM-000002,partido,INS-000070,encontrado,3,PRC-000208;PRC-002152;PRC-002610,BSC-000299,
+VRS-000032,VSM-000002,partido,INS-000071,sem_evidencia,0,,BSC-000300,
+VRS-000033,VSM-000002,partido,INS-000073,sem_evidencia,0,,BSC-000302,
+VRS-000034,VSM-000002,partido,INS-000075,encontrado,5,PRC-000221;PRC-000234;PRC-002120;PRC-002132;PRC-002186,BSC-000304,
+VRS-000035,VSM-000002,partido,INS-000078,sem_evidencia,0,,BSC-000307,
+VRS-000036,VSM-000002,partido,INS-000079,sem_evidencia,0,,BSC-000308,
+VRS-000037,VSM-000002,partido,INS-000081,sem_evidencia,0,,BSC-000310,
+VRS-000038,VSM-000002,partido,INS-000082,sem_evidencia,0,,BSC-000311,
+VRS-000039,VSM-000002,partido,INS-000085,encontrado,1,PRC-002632,BSC-000314,
+VRS-000040,VSM-000002,partido,INS-000087,sem_evidencia,0,,BSC-000316,
+VRS-000041,VSM-000002,partido,INS-000089,encontrado,2,PRC-002581;PRC-002641,BSC-000318,
+VRS-000042,VSM-000002,partido,INS-000090,encontrado,1,PRC-002186,BSC-000319,
+VRS-000043,VSM-000002,partido,INS-000091,nao_verificado,,,BSC-000320,"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: PRC-001532"
+VRS-000044,VSM-000002,partido,INS-000092,encontrado,1,PRC-002256,BSC-000321,
+VRS-000045,VSM-000002,partido,INS-000093,sem_evidencia,0,,BSC-000322,
+VRS-000046,VSM-000002,partido,INS-000096,sem_evidencia,0,,BSC-000323,
+VRS-000047,VSM-000002,partido,INS-000098,sem_evidencia,0,,BSC-000324,
+VRS-000048,VSM-000002,partido,INS-000099,sem_evidencia,0,,BSC-000325,
+VRS-000049,VSM-000002,governo,governo,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000050,VSM-000002,oposicao,oposicao,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000051,VSM-000003,partido,INS-000059,encontrado,3,PRC-002186;PRC-002264;PRC-002651,BSC-000291,
+VRS-000052,VSM-000003,partido,INS-000060,sem_evidencia,0,,BSC-000292,
+VRS-000053,VSM-000003,partido,INS-000061,sem_evidencia,0,,BSC-000293,
+VRS-000054,VSM-000003,partido,INS-000062,encontrado,3,PRC-000230;PRC-002186;PRC-002330,BSC-000294,
+VRS-000055,VSM-000003,partido,INS-000068,encontrado,2,PRC-002186;PRC-002365,BSC-000297,
+VRS-000056,VSM-000003,partido,INS-000070,encontrado,3,PRC-000208;PRC-002152;PRC-002610,BSC-000299,
+VRS-000057,VSM-000003,partido,INS-000071,sem_evidencia,0,,BSC-000300,
+VRS-000058,VSM-000003,partido,INS-000073,sem_evidencia,0,,BSC-000302,
+VRS-000059,VSM-000003,partido,INS-000075,encontrado,5,PRC-000221;PRC-000234;PRC-002120;PRC-002132;PRC-002186,BSC-000304,
+VRS-000060,VSM-000003,partido,INS-000078,sem_evidencia,0,,BSC-000307,
+VRS-000061,VSM-000003,partido,INS-000079,sem_evidencia,0,,BSC-000308,
+VRS-000062,VSM-000003,partido,INS-000081,sem_evidencia,0,,BSC-000310,
+VRS-000063,VSM-000003,partido,INS-000082,sem_evidencia,0,,BSC-000311,
+VRS-000064,VSM-000003,partido,INS-000085,encontrado,1,PRC-002632,BSC-000314,
+VRS-000065,VSM-000003,partido,INS-000087,sem_evidencia,0,,BSC-000316,
+VRS-000066,VSM-000003,partido,INS-000089,encontrado,2,PRC-002581;PRC-002641,BSC-000318,
+VRS-000067,VSM-000003,partido,INS-000090,encontrado,1,PRC-002186,BSC-000319,
+VRS-000068,VSM-000003,partido,INS-000091,nao_verificado,,,BSC-000320,"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: PRC-001532"
+VRS-000069,VSM-000003,partido,INS-000092,encontrado,1,PRC-002256,BSC-000321,
+VRS-000070,VSM-000003,partido,INS-000093,sem_evidencia,0,,BSC-000322,
+VRS-000071,VSM-000003,partido,INS-000096,sem_evidencia,0,,BSC-000323,
+VRS-000072,VSM-000003,partido,INS-000098,sem_evidencia,0,,BSC-000324,
+VRS-000073,VSM-000003,partido,INS-000099,sem_evidencia,0,,BSC-000325,
+VRS-000074,VSM-000003,governo,governo,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000075,VSM-000003,oposicao,oposicao,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000076,VSM-000004,partido,INS-000059,encontrado,3,PRC-002186;PRC-002264;PRC-002651,BSC-000291,
+VRS-000077,VSM-000004,partido,INS-000060,sem_evidencia,0,,BSC-000292,
+VRS-000078,VSM-000004,partido,INS-000061,sem_evidencia,0,,BSC-000293,
+VRS-000079,VSM-000004,partido,INS-000062,encontrado,3,PRC-000230;PRC-002186;PRC-002330,BSC-000294,
+VRS-000080,VSM-000004,partido,INS-000068,encontrado,2,PRC-002186;PRC-002365,BSC-000297,
+VRS-000081,VSM-000004,partido,INS-000070,encontrado,3,PRC-000208;PRC-002152;PRC-002610,BSC-000299,
+VRS-000082,VSM-000004,partido,INS-000071,sem_evidencia,0,,BSC-000300,
+VRS-000083,VSM-000004,partido,INS-000073,sem_evidencia,0,,BSC-000302,
+VRS-000084,VSM-000004,partido,INS-000075,encontrado,5,PRC-000221;PRC-000234;PRC-002120;PRC-002132;PRC-002186,BSC-000304,
+VRS-000085,VSM-000004,partido,INS-000078,sem_evidencia,0,,BSC-000307,
+VRS-000086,VSM-000004,partido,INS-000079,sem_evidencia,0,,BSC-000308,
+VRS-000087,VSM-000004,partido,INS-000081,sem_evidencia,0,,BSC-000310,
+VRS-000088,VSM-000004,partido,INS-000082,sem_evidencia,0,,BSC-000311,
+VRS-000089,VSM-000004,partido,INS-000085,encontrado,1,PRC-002632,BSC-000314,
+VRS-000090,VSM-000004,partido,INS-000087,sem_evidencia,0,,BSC-000316,
+VRS-000091,VSM-000004,partido,INS-000089,encontrado,2,PRC-002581;PRC-002641,BSC-000318,
+VRS-000092,VSM-000004,partido,INS-000090,encontrado,1,PRC-002186,BSC-000319,
+VRS-000093,VSM-000004,partido,INS-000091,nao_verificado,,,BSC-000320,"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: PRC-001532"
+VRS-000094,VSM-000004,partido,INS-000092,encontrado,1,PRC-002256,BSC-000321,
+VRS-000095,VSM-000004,partido,INS-000093,sem_evidencia,0,,BSC-000322,
+VRS-000096,VSM-000004,partido,INS-000096,sem_evidencia,0,,BSC-000323,
+VRS-000097,VSM-000004,partido,INS-000098,sem_evidencia,0,,BSC-000324,
+VRS-000098,VSM-000004,partido,INS-000099,sem_evidencia,0,,BSC-000325,
+VRS-000099,VSM-000004,governo,governo,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000100,VSM-000004,oposicao,oposicao,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000101,VSM-000005,partido,INS-000059,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000102,VSM-000005,partido,INS-000060,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000103,VSM-000005,partido,INS-000062,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000104,VSM-000005,partido,INS-000068,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000105,VSM-000005,partido,INS-000070,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000106,VSM-000005,partido,INS-000071,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000107,VSM-000005,partido,INS-000072,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000108,VSM-000005,partido,INS-000073,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000109,VSM-000005,partido,INS-000074,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000110,VSM-000005,partido,INS-000075,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000111,VSM-000005,partido,INS-000077,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000112,VSM-000005,partido,INS-000078,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000113,VSM-000005,partido,INS-000079,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000114,VSM-000005,partido,INS-000081,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000115,VSM-000005,partido,INS-000082,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000116,VSM-000005,partido,INS-000084,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000117,VSM-000005,partido,INS-000085,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000118,VSM-000005,partido,INS-000088,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000119,VSM-000005,partido,INS-000089,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000120,VSM-000005,partido,INS-000090,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000121,VSM-000005,partido,INS-000091,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000122,VSM-000005,partido,INS-000092,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000123,VSM-000005,partido,INS-000093,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000124,VSM-000005,partido,INS-000098,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000125,VSM-000005,partido,INS-000099,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000126,VSM-000005,partido,INS-000101,nao_verificado,,,,Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para comparar partidos (D-048)
+VRS-000127,VSM-000005,governo,governo,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado
+VRS-000128,VSM-000005,oposicao,oposicao,nao_verificado,,,,A base não tem a composição da base do governo e da oposição por data; grupo não verificado

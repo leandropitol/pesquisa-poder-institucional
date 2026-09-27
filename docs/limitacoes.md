@@ -76,7 +76,9 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 286 |
+| `buscas` | 324 |
+| `verificacoes_simetria` | 5 |
+| `verificacao_resultado` | 128 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -85,11 +87,11 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `emendas_parlamentares` | 92364 |
 | `doacoes_campanha` | 12613 |
 
-Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `verificacoes_simetria`, `verificacao_resultado`, `decisoes_judiciais`.
+Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `decisoes_judiciais`.
 
 ### Buscas
 
-- 286 buscas registradas; 45 com zero resultados.
+- 324 buscas registradas; 72 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -112,7 +114,8 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
-- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 14 buscas, coleta de 2026-09-26.
+- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 15 buscas, coleta de 2026-09-26.
+- STF, portal (aba Partes) e Corte Aberta (decisões): 37 buscas, coleta de 2026-09-26.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -234,9 +237,19 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Réus sem correspondência única com a base entram como ator novo, com tipo provisório; a ligação do réu Carlos Alberto Rodrigues Pinto ao deputado Carlos Rodrigues é decisão manual a conferir.
 - Status de pessoas filiadas ainda sem verificação de simetria: aparecem como aviso do validador e não vão a relatório (D-007).
 
+### Verificação de simetria dos status da E9
+
+- 5 verificações, 128 resultados por grupo (sem_evidencia: 52; nao_verificado: 40; encontrado: 36).
+- Universo lido: lote 1 de D-048, as 99 ações penais do STF julgadas no mérito (fora 8 de janeiro); os réus vêm da aba Partes lida no navegador. As outras 561 ações (lotes 2 a 7) não foram lidas; por isso os status de réu e de denunciado ainda não têm verificação e seguem como aviso do validador.
+- Contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em parte). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em "revisar", conforme a regra da E5; partido só com ações em "revisar" fica `nao_verificado`, com a lista das ações.
+- Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em `data/curadoria/simetria_stf_ap_ligacoes.csv`. Seis ligações se apoiam só no prenome (`aceita_a_conferir`), e dois réus ficaram sem ligação (`pendente`).
+- Partido é a filiação na data do primeiro julgamento de mérito, contada pela instituição exata; fusões e incorporações (por exemplo, PL antigo e PL atual) não são somadas.
+- Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data.
+- O status de Eduardo Azeredo no TJMG fica `nao_verificado` em todos os grupos: não há universo lido de ações penais estaduais.
+
 ### Validador
 
-- 0 falha(s) e 20 aviso(s) na última geração.
+- 0 falha(s) e 15 aviso(s) na última geração.
 - Aviso: status_pessoa_processo: STA-000001 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000002 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000015 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
@@ -252,10 +265,5 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Aviso: status_pessoa_processo: STA-000034 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000035 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000040 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
-- Aviso: status_pessoa_processo: STA-000041 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
-- Aviso: status_pessoa_processo: STA-000043 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
-- Aviso: status_pessoa_processo: STA-000048 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
-- Aviso: status_pessoa_processo: STA-000049 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
-- Aviso: status_pessoa_processo: STA-000066 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 
 <!-- FIM-GERADO -->

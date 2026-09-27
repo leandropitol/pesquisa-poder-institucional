@@ -50,6 +50,7 @@ RELATORIOS = {"relatorio_stf_pesquisa_documental.md": ("stf_relatorio_navegacao.
               "relatorio_corte_aberta.md": ("stf_relatorio_navegacao_peticoes.md", PORTAL_STF, "Claude in Chrome"),
               "relatorio_status_processual_reus.md": ("stf_relatorio_navegacao_reus_ap470_ap536.md", PORTAL_STF, "Claude in Chrome"),
               "AP470_relatorio_final.md": ("stf_relatorio_navegacao_ap470_embargos_noticias.md", PORTAL_STF, "Claude in Chrome"),
+              "relatorio_partes_ap_lote1.md": ("stf_relatorio_navegacao_partes_ap_lote1.md", PORTAL_STF, "Claude in Chrome"),
               "relatorio_eduardo_azeredo_tjmg.md": ("tjmg_relatorio_navegacao_ap536_azeredo.md", PORTAL_TJMG, "Claude in Chrome"),
               "verificacao_claude_tjmg_acordaos.md": ("tjmg_verificacao_navegacao_acordaos_azeredo.md", PORTAL_TJMG,
                                                       "Claude Code no navegador embutido")}
