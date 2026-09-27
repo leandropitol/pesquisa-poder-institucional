@@ -410,7 +410,15 @@ def _linhas_e9(base: Path) -> list[str]:
         "condenação de 2012 não tem trecho com data); embargos infringentes sobre lavagem de 13/03/2014 (duas absolvições e uma rejeição) sem "
         "fonte oficial que nomeie cada embargante; extinção de punibilidade de 16/09/2010 sem o nome do réu; trânsitos em julgado por réu.",
         "- AP 536 (Mensalão mineiro): o STF declinou da competência em 27/03/2014 e enviou o processo à Justiça estadual de Belo Horizonte "
-        "sem julgamento de mérito; o desfecho está no TJMG e ainda não foi lido. O recebimento da denúncia não aparece nos andamentos do STF.",
+        "sem julgamento de mérito. O recebimento da denúncia não aparece nos andamentos do STF.",
+        "- AP 536 no TJMG (ação penal 2378231-34.2014.8.13.0024, 9ª Vara Criminal de Belo Horizonte): o processo é sigiloso na consulta "
+        "processual (\"Processo sigiloso — acesso restrito\"); as fases vêm de acórdãos públicos de outros processos que o citam e do agravo "
+        "interno de 2019, que nomeia o réu. Duas notícias oficiais do TJMG divergem sobre a data da sentença de primeira instância "
+        "(dezembro de 2015 na notícia de 01/08/2017; abril de 2016 na de 07/04/2017); por isso a condenação em primeira instância não tem "
+        "status próprio, e o primeiro status registrado é a confirmação em segunda instância (22/08/2017). Os embargos infringentes citados "
+        "no agravo interno não têm número nem data nas páginas lidas. Trânsito em julgado, execução da pena e fatos após 10/07/2019 não "
+        "aparecem nas páginas públicas do TJMG; a pesquisa antiga de jurisprudência pede CAPTCHA, que não foi resolvido.",
+        "- Os processos da AP 536 dos demais réus, desmembrados no TJMG, não foram levantados.",
         "- Réus sem correspondência única com a base entram como ator novo, com tipo provisório; a ligação do réu Carlos Alberto Rodrigues Pinto "
         "ao deputado Carlos Rodrigues é decisão manual a conferir.",
         "- Status de pessoas filiadas ainda sem verificação de simetria: aparecem como aviso do validador e não vão a relatório (D-007).",
