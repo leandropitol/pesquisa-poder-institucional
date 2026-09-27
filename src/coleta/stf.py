@@ -44,10 +44,15 @@ def identificar(d: pd.DataFrame) -> tuple | None:
     return next(((c, k) for c, k in EXPORTACOES if c in d.columns and tuple(sorted(k)) == classes), None)
 URL_DADOS_ABERTOS = "https://transparencia.stf.jus.br/extensions/dados_abertos/dados_abertos.html"
 LIMITE_CELULAS = 5_000_000
-RELATORIOS = {"relatorio_stf_pesquisa_documental.md": "stf_relatorio_navegacao.md",
-              "relatorio_corte_aberta.md": "stf_relatorio_navegacao_peticoes.md",
-              "relatorio_status_processual_reus.md": "stf_relatorio_navegacao_reus_ap470_ap536.md",
-              "AP470_relatorio_final.md": "stf_relatorio_navegacao_ap470_embargos_noticias.md"}
+PORTAL_STF, PORTAL_TJMG = "https://portal.stf.jus.br", "https://www.tjmg.jus.br"
+# arquivo entregue -> (nome no bruto, portal, quem navegou); o desfecho da AP 536 está no TJMG, para onde o STF declinou
+RELATORIOS = {"relatorio_stf_pesquisa_documental.md": ("stf_relatorio_navegacao.md", PORTAL_STF, "Claude in Chrome"),
+              "relatorio_corte_aberta.md": ("stf_relatorio_navegacao_peticoes.md", PORTAL_STF, "Claude in Chrome"),
+              "relatorio_status_processual_reus.md": ("stf_relatorio_navegacao_reus_ap470_ap536.md", PORTAL_STF, "Claude in Chrome"),
+              "AP470_relatorio_final.md": ("stf_relatorio_navegacao_ap470_embargos_noticias.md", PORTAL_STF, "Claude in Chrome"),
+              "relatorio_eduardo_azeredo_tjmg.md": ("tjmg_relatorio_navegacao_ap536_azeredo.md", PORTAL_TJMG, "Claude in Chrome"),
+              "verificacao_claude_tjmg_acordaos.md": ("tjmg_verificacao_navegacao_acordaos_azeredo.md", PORTAL_TJMG,
+                                                      "Claude Code no navegador embutido")}
 
 
 def registrar_manuais(data: str) -> None:
@@ -89,8 +94,9 @@ def registrar_manuais(data: str) -> None:
             nome, url, linhas = f"stf_dados_abertos_{f.name}", URL_DADOS_ABERTOS, 1
             consulta, parametros = f"dados abertos: {f.name}", {"url": url, "arquivo_original": f.name}
         elif f.name in RELATORIOS:
-            nome, url = RELATORIOS[f.name], "https://portal.stf.jus.br"
-            consulta = f"relatório de navegação do Claude in Chrome no portal do STF (arquivo {nome}; registro auxiliar, não é fonte primária)"
+            nome, url, quem = RELATORIOS[f.name]
+            portal = "STF" if url == PORTAL_STF else "TJMG"
+            consulta = f"relatório de navegação do {quem} no portal do {portal} (arquivo {nome}; registro auxiliar, não é fonte primária)"
             linhas = 1
             parametros = {"url": url, "arquivo_original": f.name}
         else:

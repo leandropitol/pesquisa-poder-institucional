@@ -6611,3 +6611,6 @@ FAS-006920,PRC-007649,2026-09-21,declinio_competencia,INS-001525,Declinada a com
 FAS-006921,PRC-007668,2026-07-13,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
 FAS-006922,PRC-007723,2026-08-07,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
 FAS-006923,PRC-007763,2026-08-19,arquivamento_inquerito,INS-001525,Determinado arquivamento (monocrática),FNT-000231
+FAS-006924,PRC-010068,2017-08-22,acordao_2a_instancia,INS-001539,"5ª Câmara Criminal, Apelação Criminal /001: por maioria, confirmou a sentença condenatória; pena de 20 anos e 1 mês de reclusão e 88 dias-multa",FNT-000239
+FAS-006925,PRC-010068,2018-05-24,outra,INS-001539,"5ª Câmara Criminal, Embargos de Declaração-Cr /006: embargos não acolhidos; determinada a expedição de mandado de prisão",FNT-000240
+FAS-006926,PRC-010068,2019-07-10,outra,INS-001539,"Órgão Especial, Agravo Interno /012: negou provimento ao agravo contra a decisão que negou seguimento ao recurso extraordinário",FNT-000241

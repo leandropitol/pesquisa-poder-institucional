@@ -2,3 +2,7 @@ id_fonte,numero_processo,id_orgao,data_documento,fase_processual,tipo_documento,
 FNT-000233,AP 470,INS-001525,2026-09-25,outra,Página de acompanhamento processual,https://portal.stf.jus.br/processos/detalhe.asp?incidente=11541
 FNT-000234,AP 470,INS-001525,2012-10-23,acordao_tribunal_superior,Decisão de julgamento (texto do andamento),https://portal.stf.jus.br/processos/detalhe.asp?incidente=11541
 FNT-000235,AP 470 EI,INS-001525,2014-02-27,acordao_tribunal_superior,Acórdão,https://jurisprudencia.stf.jus.br/pages/search/sjur273411/false
+FNT-000239,1.0604.16.000505-3/001,INS-001539,2017-09-26,acordao_2a_instancia,Acórdão (inteiro teor),https://consulta-jurisprudencia.tjmg.jus.br/inteiro-teor?documentoId=10604160000505001-0&publicacaoData=2017-10-06
+FNT-000240,1.0000.25.033497-6/002,INS-001539,2025-05-27,outra,Acórdão (inteiro teor),https://consulta-jurisprudencia.tjmg.jus.br/inteiro-teor?documentoId=10000250033497002-0&publicacaoData=2025-05-28
+FNT-000241,1.0024.14.237823-1/012,INS-001539,2019-07-10,outra,Acórdão (inteiro teor),https://consulta-jurisprudencia.tjmg.jus.br/inteiro-teor?documentoId=10024140237823012-0&publicacaoData=2019-07-19
+FNT-000242,2378231-34.2014.8.13.0024,INS-001539,2026-09-26,outra,Página de consulta processual (sigilosa),https://consulta.tjmg.jus.br/pesquisa?q=%7B%22numeroProcesso%22%3A%5B%222378231-34.2014.8.13.0024%22%5D%7D

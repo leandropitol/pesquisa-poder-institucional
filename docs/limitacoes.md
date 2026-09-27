@@ -62,21 +62,21 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2815 |
 | `filiacoes` | 6553 |
 | `cargos` | 4628 |
-| `instituicoes` | 1484 |
+| `instituicoes` | 1485 |
 | `denominacoes_partido` | 67 |
 | `casos` | 2 |
-| `processos` | 10067 |
-| `fases_processo` | 6612 |
-| `status_pessoa_processo` | 65 |
+| `processos` | 10068 |
+| `fases_processo` | 6615 |
+| `status_pessoa_processo` | 66 |
 | `eventos` | 2297 |
 | `relacoes` | 2429 |
-| `fontes` | 238 |
-| `fonte_judicial` | 3 |
-| `fonte_oficial` | 232 |
+| `fontes` | 244 |
+| `fonte_judicial` | 7 |
+| `fonte_oficial` | 234 |
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 284 |
+| `buscas` | 286 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -89,7 +89,7 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Buscas
 
-- 284 buscas registradas; 45 com zero resultados.
+- 286 buscas registradas; 45 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -112,7 +112,7 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
-- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 12 buscas, coleta de 2026-09-26.
+- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 14 buscas, coleta de 2026-09-26.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -225,7 +225,7 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Casos-teste (etapa E9)
 
-- Casos: Ação Penal 470 (caso conhecido como Mensalão), Ação Penal 536 (caso conhecido como Mensalão mineiro). Status formais registrados: 65 (reu: 40; condenado_tribunal_superior: 17; absolvido: 8), com fonte judicial ou oficial do STF (D-046).
+- Casos: Ação Penal 470 (caso conhecido como Mensalão), Ação Penal 536 (caso conhecido como Mensalão mineiro). Status formais registrados: 66 (reu: 40; condenado_tribunal_superior: 17; absolvido: 8; condenado_2a_instancia: 1), com fonte judicial ou oficial do STF (D-046).
 - AP 470: o texto da decisão de 17/12/2012 vem cortado no portal, e o resultado por réu e por crime está espalhado em andamentos de agosto a dezembro de 2012, em trechos também cortados. Entraram só as condenações nomeadas em decisão do Tribunal (23/10/2012, quadrilha) ou em notícia oficial da fixação das penas (12 e 21/11/2012), e as absolvições por quadrilha nos embargos infringentes de 27/02/2014. Os demais resultados de 2012 ficam pendentes de leitura da fonte primária completa.
 - Pendências conhecidas: condenação por quadrilha de Marcos Valério e José Roberto Salgado (a absolvição de 2014 está registrada, a condenação de 2012 não tem trecho com data); embargos infringentes sobre lavagem de 13/03/2014 (duas absolvições e uma rejeição) sem fonte oficial que nomeie cada embargante; extinção de punibilidade de 16/09/2010 sem o nome do réu; trânsitos em julgado por réu.
 - AP 536 (Mensalão mineiro): o STF declinou da competência em 27/03/2014 e enviou o processo à Justiça estadual de Belo Horizonte sem julgamento de mérito; o desfecho está no TJMG e ainda não foi lido. O recebimento da denúncia não aparece nos andamentos do STF.
@@ -234,7 +234,7 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Validador
 
-- 0 falha(s) e 19 aviso(s) na última geração.
+- 0 falha(s) e 20 aviso(s) na última geração.
 - Aviso: status_pessoa_processo: STA-000001 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000002 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000015 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
@@ -254,5 +254,6 @@ Tabelas ainda vazias (8): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Aviso: status_pessoa_processo: STA-000043 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000048 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 - Aviso: status_pessoa_processo: STA-000049 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
+- Aviso: status_pessoa_processo: STA-000066 envolve ator filiado e não tem verificação de simetria (bloqueia relatório)
 
 <!-- FIM-GERADO -->

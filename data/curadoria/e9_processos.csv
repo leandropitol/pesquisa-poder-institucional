@@ -1,0 +1,2 @@
+processo,tribunal,numero_cnj,classe,data_autuacao,caso,sigilo,url,fonte,observacao
+1.0024.14.237823-1,TJMG,23782313420148130024,acao_penal,2014,AP 536,true,https://consulta.tjmg.jus.br/pesquisa?q=%7B%22numeroProcesso%22%3A%5B%222378231-34.2014.8.13.0024%22%5D%7D,tjmg_consulta_2378231,9ª Vara Criminal de Belo Horizonte; parte da AP 536 enviada pelo STF em 2014; data de autuação só com o ano (o da numeração CNJ)
