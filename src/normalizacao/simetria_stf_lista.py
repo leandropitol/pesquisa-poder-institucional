@@ -33,7 +33,8 @@ def lista(d: pd.DataFrame) -> pd.DataFrame:
     for c in ("Data de autuação", "Data da decisão"):
         ap[c] = ap[c].str[:10]  # a exportação traz "AAAA-MM-DD 00:00:00"
     m = ap[ap["merito"]]
-    g = ap.groupby("Processo").agg(data_autuacao=("Data de autuação", "first"), assunto=("Assuntos do processo", "first")).reset_index()
+    g = ap.groupby("Processo").agg(data_autuacao=("Data de autuação", "first"), data_ultima_decisao=("Data da decisão", "max"),
+                                   assunto=("Assuntos do processo", "first")).reset_index()
     j = m.groupby("Processo").agg(
         data_primeiro_julgamento=("Data da decisão", "min"), data_ultimo_julgamento=("Data da decisão", "max"),
         resultados=("Andamento decisão", lambda s: "; ".join(sorted(set(s)))),

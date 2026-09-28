@@ -8,7 +8,7 @@ Entradas:
 - data/curadoria/e9_ap470_reus.csv: ligações da AP 470, já decididas na E9.
 
 Ligação automática (sem decisão na curadoria): parlamentar com mandato entre a autuação e o último julgamento de
-mérito, com nome igual ao da aba Partes, ou com todas as palavras do nome parlamentar (pelo menos duas) no nome
+mérito (ou a última decisão, na ação sem julgamento de mérito), com nome igual ao da aba Partes, ou com todas as palavras do nome parlamentar (pelo menos duas) no nome
 civil, correspondência única, e com o primeiro e o último nome coincidentes. Correspondência mais fraca só entra
 por decisão na curadoria; sem decisão, fica pendente e é contada.
 
@@ -41,7 +41,8 @@ from src.normalizacao.tse import PALAVRAS_VAZIAS, norm, palavras
 from src.validacao.validar import STATUS_COM_SIMETRIA
 
 CUR = RAIZ / "data" / "curadoria"
-RELATORIO = RAIZ / "data" / "raw" / "stf" / "2026-09-26" / "stf_relatorio_navegacao_partes_ap_lote1.md"
+RAW_STF = RAIZ / "data" / "raw" / "stf"
+NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$)")
 SCRIPT = "src.normalizacao.simetria_stf"
 FONTE_DADOS = "STF, portal (aba Partes) e Corte Aberta (decisões)"
 STATUS_ADIADOS = {"reu", "denunciado"}
@@ -56,10 +57,25 @@ SEM_UNIVERSO = ("Status em tribunal estadual (TJMG): não há universo lido de a
                 "comparar partidos (D-048)")
 
 
+def relatorios() -> list:
+    return sorted(RAW_STF.glob("*/stf_relatorio_navegacao_partes_ap_lote*.md"))
+
+
+def so_iniciais(nome: str) -> bool:
+    return all(len(p.strip(".")) <= 1 for p in nome.split())
+
+
 def ler_reus() -> list[dict]:
-    t = RELATORIO.read_text(encoding="utf-8")
-    linhas = [[c.strip() for c in l.split("|")[1:-1]] for l in t.splitlines() if re.match(r"^\| \d+ \|", l)]
-    return [{"ap": f"AP {c[0]}", "incidente": c[1], "nome": c[2]} for c in linhas]
+    """Réus de todos os lotes lidos. Fica de fora o que não é nome de pessoa: órgão do Ministério Público no campo de
+    réu, o texto "OS MESMOS" e nomes só com iniciais (processos em segredo de justiça)."""
+    saida = []
+    for f in relatorios():
+        for l in f.read_text(encoding="utf-8").splitlines():
+            if re.match(r"^\| \d+ \|", l):
+                c = [x.strip() for x in l.split("|")[1:-1]]
+                if c[2] and not NAO_PESSOA.match(c[2]) and not so_iniciais(c[2]):
+                    saida.append({"ap": f"AP {c[0]}", "incidente": c[1], "nome": c[2]})
+    return saida
 
 
 def sig(nome: str) -> list[str]:
@@ -73,7 +89,8 @@ def propor(reus: list[dict], lista: pd.DataFrame, atores: pd.DataFrame, cargos: 
     saida = []
     for r in reus:
         l = lista.loc[r["ap"]]
-        c = parl[(parl["data_inicio"] <= l["data_ultimo_julgamento"]) & ((parl["data_fim"] == "") | (parl["data_fim"] >= l["data_autuacao"]))]
+        fim = l["data_ultimo_julgamento"] or l["data_ultima_decisao"]  # ação sem julgamento de mérito: última decisão
+        c = parl[(parl["data_inicio"] <= fim) & ((parl["data_fim"] == "") | (parl["data_fim"] >= l["data_autuacao"]))]
         ok = set(c["id_ator"])
         formas = [v.strip() for v in re.split(r"\s+OU\s+", r["nome"])]
         iguais = {a for a in ok if nome[a] in {norm(v) for v in formas}}
@@ -137,7 +154,8 @@ def run() -> None:
     ids = RegistroIds()
     hoje = dt.date.today().isoformat()
     lista = pd.read_csv(CUR / "simetria_stf_ap_lista.csv", dtype=str).fillna("")
-    lista = lista[lista["lote"] == "1"].set_index("processo")
+    lotes = [re.search(r"lote(\d+)", f.name).group(1) for f in relatorios()]
+    lista = lista[lista["lote"].isin(lotes)].set_index("processo")
     atores, cargos, filiacoes = ler("atores").fillna(""), ler("cargos").fillna(""), ler("filiacoes").fillna("")
     proc = ler("processos")
     id_proc = dict(zip(proc["numero_originario"], proc["id_processo"]))
@@ -151,7 +169,8 @@ def run() -> None:
     inst = ler("instituicoes")
     sigla = dict(zip(inst["id_instituicao"], inst["sigla"]))
     universo = ler("universo_partidos")
-    reg = {"arquivo": RELATORIO.relative_to(RAIZ).as_posix(), "sha256": sha256(RELATORIO)}
+    lote1 = next(f for f in relatorios() if f.name.endswith("lote1.md"))  # as ações julgadas no mérito estão no lote 1
+    reg = {"arquivo": lote1.relative_to(RAIZ).as_posix(), "sha256": sha256(lote1)}
     existentes_b = set(ler("buscas")["id_busca"])
     buscas, busca_de = [], {}
     for p in sorted(set(universo["id_partido"])):

@@ -37,3 +37,10 @@ def test_partido_na_data():
     assert partido_na_data(f, "A1", "2012-05-01") == {"P2"}
     assert partido_na_data(f, "A1", "2009-05-01") == {"P1"}  # sem filiação vigente: a última iniciada antes
     assert partido_na_data(f, "A1", "2001-01-01") == set()
+
+
+def test_linhas_que_nao_sao_pessoa():
+    from src.normalizacao.simetria_stf import NAO_PESSOA, so_iniciais
+    assert NAO_PESSOA.match("MINISTÉRIO PÚBLICO FEDERAL") and NAO_PESSOA.match("OS MESMOS")
+    assert not NAO_PESSOA.match("OSMAR MESMOS SILVA")
+    assert so_iniciais("J. A. G. C.") and so_iniciais("S A S") and not so_iniciais("JOÃO A. SILVA")

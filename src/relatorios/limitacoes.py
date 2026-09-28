@@ -7,6 +7,7 @@ Uso:
 """
 
 import csv
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -433,20 +434,25 @@ def _linhas_simetria(base: Path) -> list[str]:
     if not len(vs):
         return []
     cont = vr["resultado"].value_counts().to_dict()
+    lotes = sorted({re.search(r"lote(\d+)", f.name).group(1) for f in (RAIZ / "data" / "raw" / "stf").glob("*/stf_relatorio_navegacao_partes_ap_lote*.md")})
+    lista = pd.read_csv(RAIZ / "data" / "curadoria" / "simetria_stf_ap_lista.csv", dtype=str)
+    n_lidas = int(lista["lote"].isin(lotes).sum())
     return [
         "### Verificação de simetria dos status da E9", "",
         f"- {len(vs)} verificações, {len(vr)} resultados por grupo ({'; '.join(f'{k}: {n}' for k, n in cont.items())}).",
-        "- Universo lido: lote 1 de D-048, as 99 ações penais do STF julgadas no mérito (fora 8 de janeiro); os réus vêm da aba Partes "
-        "lida no navegador. As outras 561 ações (lotes 2 a 7) não foram lidas; por isso os status de réu e de denunciado ainda não têm "
-        "verificação e seguem como aviso do validador.",
+        f"- Universo lido: lotes {', '.join(lotes)} de D-048 ({n_lidas} de {len(lista)} ações penais do STF, fora 8 de janeiro; o lote 1 "
+        "reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do "
+        "Ministério Público no campo de réu, \"OS MESMOS\") e nomes só com iniciais ficam fora. Enquanto houver lote não lido, os "
+        "status de réu e de denunciado não têm verificação e seguem como aviso do validador.",
         "- Contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em "
         "parte). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto "
         "classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em \"revisar\", conforme a regra "
         "da E5; partido só com ações em \"revisar\" fica `nao_verificado`, com a lista das ações.",
         "- Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que "
         "também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em "
-        "`data/curadoria/simetria_stf_ap_ligacoes.csv`. Seis ligações se apoiam só no prenome (`aceita_a_conferir`), e dois réus "
-        "ficaram sem ligação (`pendente`).",
+        "`data/curadoria/simetria_stf_ap_ligacoes.csv`. Ligação que se apoia só no prenome, ou no prenome e num nome do meio, entra "
+        "como `aceita_a_conferir` quando nenhum outro parlamentar da base tem esse nome; prenome compartilhado é rejeitado; nome comum em "
+        "ação com muitos réus fica `pendente`.",
         "- Partido é a filiação na data do primeiro julgamento de mérito, contada pela instituição exata; fusões e incorporações (por "
         "exemplo, PL antigo e PL atual) não são somadas.",
         "- Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data.",

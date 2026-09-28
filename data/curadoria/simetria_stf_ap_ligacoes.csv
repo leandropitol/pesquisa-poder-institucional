@@ -1,16 +1,74 @@
 ap,nome_partes,id_ator,decisao,motivo
+313,FERNANDO OROTAVO LOPES DA SILVA JÚNIOR,ATR-000668,aceita_a_conferir,"Fernando Lopes: prenome e sobrenome Lopes coincidem, o último sobrenome (Silva Júnior) não; único com esse nome na base"
+322,JOSÉ ANTÔNIO FERREIRA LOBATO,ATR-002098,rejeitada,Antonio Ferreira: o prenome José falta
+323,ITAMAR SERPA FERNANDES,ATR-000670,aceita,Itamar Serpa: prenome e sobrenome pouco comum do nome civil; mandato no período
+332,JÚLIO CÉSAR GOMES DOS SANTOS,ATR-000410,rejeitada,"Júlio Cesar: só prenomes, compartilhados por mais de um parlamentar da base"
+336,ANTÔNIO ALVES DE OLIVEIRA FILHO,ATR-000052,rejeitada,"Oliveira Filho: só sobrenome e sufixo, sem o prenome"
+336,ANTÔNIO DOS SANTOS FERREIRA,ATR-002098,pendente,"Antonio Ferreira: prenome e sobrenome comuns em ação com 61 réus, sem outro elemento; ligação não feita"
+336,ARMANDO LUIZ SOARES MOURA,ATR-002205,rejeitada,Luiz Soares: o prenome Armando falta
+336,CARLOS DE SOUZA DE FIGUEIREDO,ATR-000192,pendente,"Carlos Souza: prenome e sobrenome comuns em ação com 61 réus, sem outro elemento; ligação não feita"
+336,JOSÉ MARIA DE HOLANDA BEZERRA,ATR-002172,pendente,"José Bezerra: prenome e sobrenome comuns em ação com 61 réus, sem outro elemento; ligação não feita"
+336,LUIZ CARLOS DE ALMEIDA E SILVA,ATR-002200,rejeitada,"Luiz Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+336,PEDRO ANDRADE RIBEIRO,ATR-000231,pendente,"Pastor Pedro Ribeiro: prenome e sobrenome comuns em ação com 61 réus, sem outro elemento; ligação não feita"
+337,JULIO CÉSAR REDECKER,ATR-000215,aceita,Júlio Redecker: prenome e sobrenome pouco comum do nome civil; mandato no período
+337,JULIO CÉSAR REDECKER,ATR-000410,rejeitada,"Júlio Cesar: só prenomes, compartilhados por mais de um parlamentar da base"
+338,JOVINO CÂNDIDO DA SILVA,ATR-000380,aceita,Jovino Cândido: prenome e nome do meio do nome civil; único com esse prenome na base; mandato no período
+340,MARIA DO ROSÁRIO NUNES,ATR-000469,aceita_a_conferir,Maria do Rosário: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+343,JORGE LUIZ TRINDADE DE CASTRO,ATR-002168,aceita_a_conferir,Jorge Luiz: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+345,FERNANDO LÚCIO GIACOBO,ATR-000455,aceita,nome parlamentar de uma palavra igual ao sobrenome pouco comum Giacobo; mandato no período
+351,PAULO AFONSO EVANGELISTA VIEIRA,ATR-000461,aceita_a_conferir,Paulo Afonso: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+353,SÉRGIO LUIZ FERREIRA GARCIA,ATR-000607,rejeitada,Luiz Sérgio: prenomes em outra ordem; o prenome do réu é Sérgio
+355,PAULO CÉSAR BALTAZAR DA NÓBREGA,ATR-000609,aceita,Paulo Baltazar: prenome e sobrenome pouco comum do nome civil; mandato no período
+357,ANTÔNIO CARLOS NASCIMENTO SANTOS,ATR-001054,rejeitada,"Antonio Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+357,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+359,JOÃO CORREIA LIMA SOBRINHO,ATR-000199,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+360,FERNANDO LÚCIO GIACOBO,ATR-000455,aceita,nome parlamentar de uma palavra igual ao sobrenome pouco comum Giacobo; mandato no período
+361,EDISON ADRIÃO ANDRINO DE OLIVEIRA,ATR-000153,aceita,Edison Andrino: prenome e sobrenome pouco comum do nome civil; mandato no período
+362,JOÃO CORREIA LIMA SOBRINHO,ATR-000199,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+364,ETIVALDO VADÃO GOMES,ATR-000089,aceita,Vadão Gomes: as duas palavras do nome parlamentar estão no nome civil; mandato no período
+365,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+370,JOSÉ EDIMAR RONIVON SANTIAGO DE MELO,ATR-000332,aceita,"Ronivon Santiago: nas APs 356, 366 e 378 o mesmo nome civil vem com a forma ""OU RONIVON SANTIAGO"""
 372,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome Barreto do nome parlamentar estão no nome civil; mandato no período da ação
+373,EVILÁSIO CAVALCANTE DE FARIAS,ATR-000616,aceita,"Dr. Evilásio: Dr. é título; prenome pouco comum, único na base; mandato no período"
+375,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+383,VALDIR RAUPP DE MATTOS OU VALDIR RAUPP DE MATOS,ATR-002285,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+386,WLADIMIR AFONSO DA COSTA RABELO,ATR-000188,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+387,CARLOS EDUARDO BENEVIDES NETO,ATR-002109,rejeitada,"Carlos Eduardo: só prenomes, compartilhados por mais de um parlamentar da base"
+390,LUIZ OTÁVIO OLIVEIRA CAMPOS,ATR-001238,aceita_a_conferir,Luiz Otávio: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+393,MARIA DE FÁTIMA JORGE KATER KARA JOSÉ,ATR-002176,rejeitada,José Jorge: palavras fora de ordem; o prenome da ré é Maria de Fátima
+393,MARIA DE FÁTIMA JORGE KATER KARA JOSÉ,ATR-002216,aceita_a_conferir,Maria de Fátima: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+399,JOÃO BATISTA DE JESUS RIBEIRO,ATR-000365,rejeitada,"João Batista: só prenomes, compartilhados por mais de um parlamentar da base"
+399,JOÃO BATISTA DE JESUS RIBEIRO,ATR-001059,rejeitada,"João Batista: só prenomes, compartilhados por mais de um parlamentar da base"
+399,JOÃO BATISTA DE JESUS RIBEIRO,ATR-002189,rejeitada,"João Batista: só prenomes, compartilhados por mais de um parlamentar da base"
+399,JOÃO BATISTA DE JESUS RIBEIRO,ATR-002193,aceita,João Ribeiro: prenome e último sobrenome do nome civil; único com esse nome na base; mandato no período
+400,ALEXANDRE MAIA LEMOS,ATR-000778,aceita_a_conferir,"Alexandre Maia: prenome e nome do meio coincidem, o último sobrenome (Lemos) não; único com esse nome na base"
+400,JOÃO DE FREITAS CAMPOS,ATR-000438,pendente,"João Campos: prenome e sobrenome comuns em ação com 7 réus, sem outro elemento; ligação não feita"
+404,ADEMIR CAMILO PRATES RODRIGUES,ATR-000762,aceita_a_conferir,"Ademir Camilo: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
+408,MARIA SUELY SILVA CAMPOS,ATR-000180,aceita,Suely Campos: nome do meio e último sobrenome do nome civil; mandato no período
 409,JOSÉ GERARDO OLIVEIRA DE ARRUDA FILHO,ATR-000052,rejeitada,"o nome da base (Oliveira Filho) usa só sobrenome e sufixo, sem o prenome"
 409,JOSÉ GERARDO OLIVEIRA DE ARRUDA FILHO,ATR-000406,aceita,Zé Gerardo: Zé é forma usual de José e Gerardo está no nome civil; mandato no período
+411,RONALDO DIMAS NOGUEIRA PEREIRA,ATR-000206,aceita_a_conferir,"Ronaldo Dimas: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
+415,WLADIMIR AFONSO DA COSTA RABELO,ATR-000188,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+417,JOSÉ ABELARDO GUIMARÃES CAMARINHA,ATR-000894,aceita,Abelardo Camarinha: prenome e último sobrenome do nome civil; mandato no período
+417,JOSÉ ABELARDO GUIMARÃES CAMARINHA,ATR-000901,rejeitada,"José Guimarães: o último sobrenome (Camarinha) coincide com outro parlamentar, que fica com a ligação"
+418,ANTÔNIO CARLOS ALBERTTI,ATR-001054,rejeitada,"Antonio Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+420,JOÃO BATISTA DE ABREU,ATR-001059,rejeitada,"João Batista: só prenomes, compartilhados por mais de um parlamentar da base"
+420,JOÃO BATISTA DE ABREU,ATR-002189,rejeitada,"João Batista: só prenomes, compartilhados por mais de um parlamentar da base"
 421,PAULO PEREIRA DA SILVA,ATR-000949,aceita_a_conferir,Paulinho da Força: Paulinho é forma usual de Paulo; nenhum sobrenome coincide
+431,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
 432,JAIRO ATAÍDE VIEIRA,ATR-000001,aceita,prenome e sobrenome Ataíde do nome parlamentar estão no nome civil; mandato no período
 433,FERNANDO LÚCIO GIACOBO,ATR-000455,aceita,nome parlamentar de uma palavra igual ao sobrenome pouco comum Giacobo; mandato no período
+434,JOSÉ GERARDO OLIVEIRA DE ARRUDA FILHO,ATR-000406,aceita,Zé Gerardo: Zé é forma usual de José e Gerardo está no nome civil; mandato no período
+438,CLODOVIL HERNANDEZ,ATR-000840,aceita,Clodovil Hernandes: mesmo nome com grafia Hernandez/Hernandes (as APs 424 e 437 trazem as duas formas); mandato no período
+442,LEANDRO JOSÉ MENDES SAMPAIO FERNANDES,ATR-000912,aceita_a_conferir,"Leandro Sampaio: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
+443,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
 450,JAIRO ATAÍDE VIEIRA,ATR-000001,aceita,prenome e sobrenome Ataíde do nome parlamentar estão no nome civil; mandato no período
 462,LINDOMAR BARBOSA ALVES,ATR-000914,aceita_a_conferir,Lindomar Garçon: só o prenome pouco comum coincide (Garçon não está no nome civil); único Lindomar com mandato no período
 465,FERNANDO AFFONSO COLLOR DE MELLO,ATR-002320,aceita,prenome e sobrenome Collor do nome parlamentar estão no nome civil; mandato no período
 474,WLADIMIR AFONSO DA COSTA RABELO,ATR-000188,aceita,prenome e sobrenome Costa do nome parlamentar estão no nome civil; mandato no período
 497,CLEBER CORDEIRO MENDES OU CLEBER VERDE CORDEIRO MENDES,ATR-000839,aceita,a segunda forma do nome na aba Partes contém Cleber Verde; mandato no período
-516,JOSÉ FUSCALDI CESÍLIO,,pendente,nenhuma palavra do nome civil coincide com nome parlamentar de quem tinha mandato no período; ligação não feita
+516,JOSÉ FUSCALDI CESÍLIO,ATR-000393,aceita,"a aba Partes da AP 392 traz o mesmo nome civil com a forma ""OU TATICO"" (revisto no lote 2)"
+524,JOAQUIM DE LIRA MAIA,ATR-000893,aceita,Lira Maia: nome do meio e último sobrenome do nome civil; mandato no período
 528,WLADIMIR AFONSO COSTA RABELO OU WLADIMIR AFONSO DA COSTA RABELO,ATR-000188,aceita,prenome e sobrenome Costa do nome parlamentar estão no nome civil; mandato no período
 541,JOSÉ ABELARDO GUIMARÃES CAMARINHA,ATR-000894,aceita,Abelardo Camarinha: prenome e último sobrenome do nome civil; mandato no período
 541,JOSÉ ABELARDO GUIMARÃES CAMARINHA,ATR-000901,rejeitada,"José Guimarães: palavras contidas no nome civil, mas o último sobrenome (Camarinha) coincide com outro parlamentar, que fica com a ligação"
@@ -19,12 +77,12 @@ ap,nome_partes,id_ator,decisao,motivo
 555,MARCO ANTÔNIO TEBALDI,ATR-002338,rejeitada,"Marco Antonio: só prenomes, sem o sobrenome Tebaldi, que coincide com outro parlamentar"
 556,MARCO ANTÔNIO TEBALDI,ATR-001086,aceita,Marco Tebaldi: prenome e último sobrenome do nome civil; mandato no período
 556,MARCO ANTÔNIO TEBALDI,ATR-002338,rejeitada,"Marco Antonio: só prenomes, sem o sobrenome Tebaldi, que coincide com outro parlamentar"
+559,JOÃO PAULO LIMA E SILVA,ATR-000082,rejeitada,Paulo Lima: o prenome João falta; outro parlamentar tem as três palavras
 559,JOÃO PAULO LIMA E SILVA,ATR-001099,aceita,João Paulo Lima: três palavras seguidas do nome civil; mandato no período
-559,JOÃO PAULO LIMA E SILVA,ATR-000082,rejeitada,"Paulo Lima: o prenome João falta; outro parlamentar tem as três palavras"
+560,LUIZ CLÁUDIO GUBERT,ATR-001433,aceita_a_conferir,Luiz Cláudio: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período (revisto no lote 2: mesma regra para todos os casos)
 560,MARCO ANTÔNIO TEBALDI,ATR-001086,aceita,Marco Tebaldi: prenome e último sobrenome do nome civil; mandato no período
 560,MARCO ANTÔNIO TEBALDI,ATR-002338,rejeitada,"Marco Antonio: só prenomes, sem o sobrenome Tebaldi, que coincide com outro parlamentar"
-560,LUIZ CLÁUDIO GUBERT,ATR-001433,rejeitada,"Luiz Cláudio: só prenomes, sem o sobrenome Gubert"
-565,ANÍBAL DE JESUS RODRIGUES,ATR-001220,rejeitada,"Jesus Rodrigues: o prenome Aníbal falta; Jesus é nome do meio"
+565,ANÍBAL DE JESUS RODRIGUES,ATR-001220,rejeitada,Jesus Rodrigues: o prenome Aníbal falta; Jesus é nome do meio
 580,PAULO ROBERTO GOMES MANSUR,ATR-000037,aceita,Beto Mansur: Beto é forma usual de Roberto e Mansur é sobrenome pouco comum do nome civil; mandato no período
 611,BERNARDO DE VASCONCELLOS MOREIRA,ATR-000725,aceita,Bernardo Santana de Vasconcellos: prenome e sobrenome Vasconcellos do nome civil; único com mandato no período
 612,MARCO ANTÔNIO FELICIANO,ATR-001150,aceita,Pr. Marco Feliciano: Pr. é título (pastor); prenome e último sobrenome do nome civil; mandato no período
@@ -36,7 +94,7 @@ ap,nome_partes,id_ator,decisao,motivo
 683,WEVERTON ROCHA MARQUES DE SOUSA,ATR-001259,aceita,prenome e sobrenome Rocha do nome parlamentar estão no nome civil; mandato no período
 689,ALINE LEMOS CORRÊA DE OLIVEIRA ANDRADE,ATR-000806,aceita,prenome e sobrenome Corrêa do nome parlamentar estão no nome civil; mandato no período
 694,PAULO FERNANDO FEIJÓ TORRES,ATR-000221,aceita,Paulo Feijó: prenome e sobrenome pouco comum do nome civil; mandato no período
-694,PAULO FERNANDO FEIJÓ TORRES,ATR-001225,rejeitada,"Fernando Torres: o prenome Paulo falta; outro parlamentar tem prenome e sobrenome pouco comum"
+694,PAULO FERNANDO FEIJÓ TORRES,ATR-001225,rejeitada,Fernando Torres: o prenome Paulo falta; outro parlamentar tem prenome e sobrenome pouco comum
 700,WEVERTON ROCHA MARQUES DE SOUSA,ATR-001259,aceita,prenome e sobrenome Rocha do nome parlamentar estão no nome civil; mandato no período
 880,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,aceita_a_conferir,Professor Sérgio de Oliveira: prenome e sobrenome Oliveira coincidem (Cunha não está no nome parlamentar); mandato no período
 883,IZALCI LUCAS FERREIRA,ATR-000007,aceita,nome parlamentar de uma palavra igual ao prenome pouco comum Izalci; mandato no período
@@ -46,7 +104,7 @@ ap,nome_partes,id_ator,decisao,motivo
 931,MARX BELTRÃO LIMA SIQUEIRA,ATR-001321,aceita,prenome e sobrenome Beltrão do nome parlamentar estão no nome civil; mandato no período
 932,TELMARIO MOTA DE OLIVEIRA,ATR-002521,aceita,prenome e sobrenome Mota do nome parlamentar estão no nome civil; mandato no período
 946,MARIA AUXILIADORA SEABRA REZENDE,ATR-001188,aceita,Professora Dorinha Seabra Rezende: os dois sobrenomes do nome civil; mandato no período
-954,WHERLES FERNANDES DA ROCHA,ATR-001318,pendente,"nome parlamentar de uma palavra (Rocha) é sobrenome comum; ligação não feita"
+954,WHERLES FERNANDES DA ROCHA,ATR-001318,pendente,nome parlamentar de uma palavra (Rocha) é sobrenome comum; ligação não feita
 958,NILTON BALBINO,ATR-000434,aceita_a_conferir,Nilton Capixaba: só o prenome coincide (Capixaba não está no nome civil); único Nilton com mandato no período
 962,MARIA AUXILIADORA SEABRA REZENDE,ATR-001188,aceita,Professora Dorinha Seabra Rezende: os dois sobrenomes do nome civil; mandato no período
 965,PAULO PEREIRA DA SILVA,ATR-000949,aceita_a_conferir,Paulinho da Força: Paulinho é forma usual de Paulo; nenhum sobrenome coincide
@@ -56,11 +114,11 @@ ap,nome_partes,id_ator,decisao,motivo
 987,NEWTON CARDOSO JÚNIOR,ATR-001374,aceita,Newton Cardoso Jr: Jr é abreviação de Júnior; mandato no período
 1006,CARLOS CESAR CORREIA DE MESSIAS,ATR-001316,aceita,César Messias: nome do meio e sobrenome do nome civil; mandato no período
 1014,MARIA LAURA MONTEZA DE SOUZA CARNEIRO,ATR-000673,aceita,Laura Carneiro: nome do meio e sobrenome do nome civil; mandato no período
+1015,PEDRO ROBERTO ROCHA,ATR-000343,rejeitada,Roberto Rocha: o prenome Pedro falta; Roberto é nome do meio
 1015,VALDIR RAUPP DE MATOS,ATR-002285,aceita,prenome e sobrenome Raupp do nome parlamentar estão no nome civil; mandato no período
-1015,PEDRO ROBERTO ROCHA,ATR-000343,rejeitada,"Roberto Rocha: o prenome Pedro falta; Roberto é nome do meio"
 1019,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000741,rejeitada,"Pedro Paulo: só prenomes, sem nenhum sobrenome do nome civil"
-1019,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000771,rejeitada,"Paulo Ramos: o prenome Pedro falta"
+1019,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000771,rejeitada,Paulo Ramos: o prenome Pedro falta
 1025,FERNANDO AFFONSO COLLOR DE MELLO,ATR-002320,aceita,prenome e sobrenome Collor do nome parlamentar estão no nome civil; mandato no período
 1025,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000741,rejeitada,"Pedro Paulo: só prenomes, sem nenhum sobrenome do nome civil"
-1025,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000771,rejeitada,"Paulo Ramos: o prenome Pedro falta"
+1025,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000771,rejeitada,Paulo Ramos: o prenome Pedro falta
 1032,EDUARDO HENRIQUE DA FONTE DE ALBUQUERQUE SILVA,ATR-000852,aceita,Eduardo da Fonte: prenome e sobrenome do nome civil; mandato no período

@@ -14,3 +14,4 @@ data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
 2026-09-26,data/raw/stf/2026-09-26/tjmg_relatorio_navegacao_ap536_azeredo.md,https://www.tjmg.jus.br,1,12582,b6879824bdaa6fbc9179d7c5949d42c24d9cf6a12776e45facddac75734354e0
 2026-09-26,data/raw/stf/2026-09-26/tjmg_verificacao_navegacao_acordaos_azeredo.md,https://www.tjmg.jus.br,1,4055,732c3b5f291385460633dbbda931b19874ca1f8f9614d6d3ba675a122aac5489
 2026-09-26,data/raw/stf/2026-09-26/stf_relatorio_navegacao_partes_ap_lote1.md,https://portal.stf.jus.br,1,15847,ecdb7964e4e44dcccaa075df3ea03497474eb325d975d916f2d74588803bae0e
+2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote2.md,https://portal.stf.jus.br,1,21549,d3bc4af1efaf80c4f3b21f2b1c6a0e411910891e93513f42434732cb5386d4af
