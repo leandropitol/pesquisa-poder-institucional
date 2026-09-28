@@ -62,7 +62,11 @@ def relatorios() -> list:
 
 
 def so_iniciais(nome: str) -> bool:
-    return all(len(p.strip(".")) <= 1 for p in nome.split())
+    """Nome abreviado em processo sigiloso: só letras soltas, com ou sem pontos e conectivos ("J. A. G. C.", "N.R.C.",
+    "C DE L F"), ou uma sigla curta ("PSM")."""
+    partes = nome.split()
+    letras = [x for x in re.split(r"[\s.]+", nome) if x and x.lower() not in {"de", "da", "do", "das", "dos"}]
+    return all(len(x) <= 1 for x in letras) or (len(partes) == 1 and len(partes[0].strip(".")) <= 4)
 
 
 def ler_reus() -> list[dict]:
@@ -99,6 +103,10 @@ def propor(reus: list[dict], lista: pd.DataFrame, atores: pd.DataFrame, cargos: 
         for a in achados:
             forte = len(achados) == 1 and (a in iguais or any(sig(nome[a])[:1] == sig(v)[:1] and sig(nome[a])[-1:] == sig(v)[-1:] for v in formas))
             saida.append({**r, "id_ator": a, "forte": forte})
+    repetidos = pd.Series([(x["ap"], x["id_ator"]) for x in saida]).value_counts()
+    for x in saida:  # dois réus da mesma ação com o mesmo parlamentar: nenhum fica automático
+        if repetidos[(x["ap"], x["id_ator"])] > 1:
+            x["forte"] = False
     return saida
 
 

@@ -43,4 +43,6 @@ def test_linhas_que_nao_sao_pessoa():
     from src.normalizacao.simetria_stf import NAO_PESSOA, so_iniciais
     assert NAO_PESSOA.match("MINISTÉRIO PÚBLICO FEDERAL") and NAO_PESSOA.match("OS MESMOS")
     assert not NAO_PESSOA.match("OSMAR MESMOS SILVA")
-    assert so_iniciais("J. A. G. C.") and so_iniciais("S A S") and not so_iniciais("JOÃO A. SILVA")
+    assert so_iniciais("J. A. G. C.") and so_iniciais("S A S") and so_iniciais("PSM")
+    assert so_iniciais("N.R.C.") and so_iniciais("C DE L F") and so_iniciais("E DE O DA F U DE A") and so_iniciais("D. R. DO V.")
+    assert not so_iniciais("JOÃO A. SILVA") and not so_iniciais("GIACOBO")
