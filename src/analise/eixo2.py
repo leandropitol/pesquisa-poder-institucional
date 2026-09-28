@@ -16,6 +16,7 @@ Uso:
     python -m src.analise.eixo2
 """
 
+import json
 import re
 
 import pandas as pd
@@ -169,6 +170,48 @@ def acordos(a: pd.DataFrame, fh: dict, vd: dict, pres: pd.DataFrame) -> pd.DataF
     return pd.DataFrame(linhas)
 
 
+def ler_comexstat() -> tuple[pd.DataFrame, dict]:
+    """Última coleta do ComexStat: exportações por país e mês, e nome do país -> ISO3 pela tabela oficial."""
+    pastas = sorted((RAIZ / "data" / "raw" / "comexstat").glob("*/export_pais_mes.jsonl"))
+    if not pastas:
+        return pd.DataFrame(), {}
+    arq = pastas[-1]
+    paises = pd.read_csv(arq.parent / "PAIS.csv", sep=";", dtype=str, encoding="latin-1")
+    iso = dict(zip(paises["NO_PAIS"], paises["CO_PAIS_ISOA3"]))
+    linhas = []
+    for l in arq.read_text(encoding="utf-8").splitlines():
+        for x in json.loads(l)["corpo"]["data"]["list"]:
+            mes = next(v for k, v in x.items() if "month" in k.lower())
+            linhas.append({"ano": x["year"], "mes": f"{int(mes):02d}", "pais": x["country"], "fob": float(x["metricFOB"])})
+    return pd.DataFrame(linhas), iso
+
+
+def comercio(fh: dict, vd: dict, pres: pd.DataFrame, bn: pd.DataFrame) -> pd.DataFrame:
+    """D-054: parcela das exportações (FOB) para país BQD, por governo (mês no governo em exercício no dia 15), ao lado
+    da parcela do BNDES para os mesmos países."""
+    x, iso = ler_comexstat()
+    if not len(x):
+        return pd.DataFrame()
+    x["iso3"] = x["pais"].map(iso).fillna("")
+    x["governo"] = [governo(f"{a}-{m}-15", pres) for a, m in zip(x["ano"], x["mes"])]
+    x[["bqd_fh", "bqd_vdem"]] = [rotulo_bqd(p, a, fh, vd) for p, a in zip(x["iso3"], x["ano"])]
+    linhas = []
+    for gov, g in x.groupby("governo", sort=False):
+        tot = g["fob"].sum()
+        cl = g[g["bqd_fh"] != "sem_classificacao"]
+        clv = g[g["bqd_vdem"] != "sem_classificacao"]
+        linhas.append({"governo": gov, "meses": g[["ano", "mes"]].drop_duplicates().shape[0], "exportacoes_fob_usd": round(tot, 0),
+                       "parcela_exportacoes_bqd_fh": round(cl.loc[cl["bqd_fh"] == "BQD", "fob"].sum() / cl["fob"].sum(), 4) if len(cl) else None,
+                       "parcela_exportacoes_sem_classificacao_fh": round(g.loc[g["bqd_fh"] == "sem_classificacao", "fob"].sum() / tot, 4),
+                       "parcela_exportacoes_bqd_vdem": round(clv.loc[clv["bqd_vdem"] == "BQD", "fob"].sum() / clv["fob"].sum(), 4) if len(clv) else None,
+                       # descritivo: quais países BQD pesam na parcela (fração do total exportado com índice)
+                       "principais_destinos_bqd_fh": "; ".join(f"{p} {v / cl['fob'].sum():.1%}" for p, v in
+                                                               cl[cl["bqd_fh"] == "BQD"].groupby("iso3")["fob"].sum().sort_values(ascending=False).head(4).items())})
+    c = pd.DataFrame(linhas)
+    return c.merge(bn[["governo", "parcela_operacoes_bqd_fh", "parcela_valor_servicos_bqd_fh"]], on="governo", how="left").rename(
+        columns={"parcela_operacoes_bqd_fh": "bndes_parcela_operacoes_bqd_fh", "parcela_valor_servicos_bqd_fh": "bndes_parcela_valor_servicos_bqd_fh"})
+
+
 def redes(rel: pd.DataFrame, sigla: dict, nome: dict) -> pd.DataFrame:
     x = rel[rel["tipo_relacao"].isin(["membro_de", "observador_de"])]
     return pd.DataFrame({"partido": x["origem_id"].map(sigla), "rede": x["destino_id"].map(nome), "tipo": x["tipo_relacao"],
@@ -190,6 +233,9 @@ def run() -> None:
     rv.to_csv(SAIDA / "eixo2_votos_por_governo.csv", index=False, lineterminator="\n")
     bn = bndes(ler("operacoes_exportacao_bndes"), fh, vd, pres)
     bn.to_csv(SAIDA / "eixo2_bndes_por_governo.csv", index=False, lineterminator="\n")
+    co = comercio(fh, vd, pres, bn)
+    if len(co):
+        co.to_csv(SAIDA / "eixo2_comercio_por_governo.csv", index=False, lineterminator="\n")
     ac = acordos(ler("acordos_bilaterais"), fh, vd, pres)
     ac.to_csv(SAIDA / "eixo2_acordos_por_governo.csv", index=False, lineterminator="\n")
     rd = redes(ler("relacoes"), sigla, nome)

@@ -1,0 +1,4 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-28,data/raw/comexstat/2026-09-28/PAIS.csv,https://balanca.economia.gov.br/balanca/bd/tabelas/PAIS.csv,1,17404,da1c1aab0061173d4b5c8f51f79dd9c1083259b1a9ab17b818127d6be3eda07d
+2026-09-28,data/raw/comexstat/2026-09-28/export_pais_mes.jsonl,https://api-comexstat.mdic.gov.br/general?language=pt,24,5188605,2e9799f4f14011d150ba8c756d5ff6a34432a0924129ffca7a5fa26027173b03
+2026-09-28,data/raw/comexstat/2026-09-28/import_pais_mes.jsonl,https://api-comexstat.mdic.gov.br/general?language=pt,24,4164574,922c6fda0b30f8ef3393137a4ed61232edabcc020e9f3477ef5c8ae6855de309

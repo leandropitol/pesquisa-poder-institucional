@@ -461,6 +461,10 @@ def _linhas_eixo2() -> list[str]:
         "em dólar) têm valor, e não há operação desse tipo depois de 2015. A comparação por valor cobre só os governos de 2003 a 2016; "
         "a comparação entre todos os governos usa a contagem de operações. Parte das operações antigas não tem país de destino "
         "identificado.",
+        "- Linha de base comercial (D-054): exportações do ComexStat por país e mês (cada mês no governo em exercício no dia 15). A parcela "
+        "exportada para países BQD é dominada pela China (de 6% a 30% das exportações), e a tendência reflete sobretudo o crescimento desse "
+        "comércio; no governo iniciado em 2023, 47% do valor exportado fica sem classificação porque a Freedom House vai só até 2024. A "
+        "comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.",
         "- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as "
         "datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.",
         "",

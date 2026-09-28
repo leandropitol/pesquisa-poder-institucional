@@ -76,7 +76,7 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 420 |
+| `buscas` | 423 |
 | `verificacoes_simetria` | 42 |
 | `verificacao_resultado` | 975 |
 | `universo_partidos` | 521 |
@@ -91,8 +91,9 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Buscas
 
-- 420 buscas registradas; 87 com zero resultados.
+- 423 buscas registradas; 87 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
+- ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
 - Câmara dos Deputados, dados abertos (arquivos anuais): 48 buscas, coleta de 2026-09-28.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -258,6 +259,7 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Votos: o Brasil só vota no Conselho de Direitos Humanos quando é membro, e o número de resoluções por governo varia com isso e com a agenda de cada ano. O país-alvo sai do título por regra; nas resoluções sobre território ocupado, o alvo é a potência ocupante ou agressora (Rússia na Ucrânia, Israel no Território Palestino Ocupado). A comparação com democracias e com a América Latina é a média do voto desses países nas mesmas resoluções. Voto em organismo multilateral é posição do Estado (Poder Executivo), não de partido.
 - Baixa qualidade democrática: Freedom House até 2024 e V-Dem até 2025; atos e operações de 2025-2026 ficam sem classificação pela Freedom House (136 dos 314 acordos do governo iniciado em 2023).
 - BNDES: o arquivo aberto não publica valor nas operações de exportação de bens (2.344); só as de serviços de engenharia (652, em dólar) têm valor, e não há operação desse tipo depois de 2015. A comparação por valor cobre só os governos de 2003 a 2016; a comparação entre todos os governos usa a contagem de operações. Parte das operações antigas não tem país de destino identificado.
+- Linha de base comercial (D-054): exportações do ComexStat por país e mês (cada mês no governo em exercício no dia 15). A parcela exportada para países BQD é dominada pela China (de 6% a 30% das exportações), e a tendência reflete sobretudo o crescimento desse comércio; no governo iniciado em 2023, 47% do valor exportado fica sem classificação porque a Freedom House vai só até 2024. A comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.
 - Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.
 
 ### Validador
