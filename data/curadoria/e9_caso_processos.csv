@@ -1,0 +1,11 @@
+caso,processo,motivo
+AP 470,AP 470,o próprio processo
+AP 536,AP 536,o próprio processo
+Banco Master,Inq 5026,processo que justifica a prevenção dos demais
+Banco Master,Inq 5035,distribuído por prevenção (andamentos no portal do STF) ao Inq 5026
+Banco Master,Pet 15478,distribuído por prevenção (andamentos no portal do STF) ao Inq 5026
+Banco Master,Pet 15556,distribuído por prevenção (andamentos no portal do STF) ao Inq 5026
+Banco Master,Pet 15198,processo relacionado na distribuição da Pet 15556
+Banco Master,Pet 15499,processo relacionado na distribuição da Pet 15556
+Banco Master,Pet 15504,processo relacionado na distribuição da Pet 15556
+Banco Master,Pet 16662,distribuído por prevenção (andamentos no portal do STF) à Pet 15556

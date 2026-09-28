@@ -2,3 +2,24 @@ processo,data,fase,orgao,resumo,fonte
 1.0024.14.237823-1,2017-08-22,acordao_2a_instancia,TJMG,"5ª Câmara Criminal, Apelação Criminal /001: por maioria, confirmou a sentença condenatória; pena de 20 anos e 1 mês de reclusão e 88 dias-multa",tjmg_ac_2017_09_26
 1.0024.14.237823-1,2018-05-24,outra,TJMG,"5ª Câmara Criminal, Embargos de Declaração-Cr /006: embargos não acolhidos; determinada a expedição de mandado de prisão",tjmg_ed_2025_05_27
 1.0024.14.237823-1,2019-07-10,outra,TJMG,"Órgão Especial, Agravo Interno /012: negou provimento ao agravo contra a decisão que negou seguimento ao recurso extraordinário",tjmg_agint_2019_07_10
+5046512-94.2016.4.04.7000,2017-07-12,sentenca,JFPR,"13ª Vara Federal de Curitiba: sentença condenatória por corrupção passiva e lavagem de dinheiro, pena de 9 anos e 6 meses (segundo a notícia do TRF4)",trf4_2018_01_24
+5046512-94.2016.4.04.7000,2018-01-24,acordao_2a_instancia,TRF4,"8ª Turma, por unanimidade, confirmou a condenação e elevou a pena para 12 anos e 1 mês de reclusão e 280 dias-multa",trf4_2018_01_24
+5046512-94.2016.4.04.7000,2019-04-23,acordao_tribunal_superior,STJ,"Quinta Turma, por unanimidade, fixou a pena em 8 anos, 10 meses e 20 dias (REsp 1.765.139)",stj_2019_04_23
+5046512-94.2016.4.04.7000,2021-03-23,anulacao,STF,"2ª Turma, no HC 164493: suspeição do juiz; anulação de todas as decisões do caso, inclusive da fase pré-processual",stf_2021_03_23
+5046512-94.2016.4.04.7000,2021-06-23,outra,STF,"Plenário, por 7 votos a 4, manteve a suspeição declarada pela 2ª Turma",stf_2021_06_23
+HC 193726,2021-03-08,outra,STF,Decisão monocrática (Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; anuladas as decisões em quatro ações penais,stf_2021_03_08
+HC 193726,2021-04-15,outra,STF,"Plenário, por 8 votos a 3, rejeitou o agravo da PGR e manteve a incompetência",stf_2021_04_15
+HC 193726,2021-04-22,outra,STF,Plenário fixou a competência da Justiça Federal do Distrito Federal,stf_2021_04_22
+HC 164493,2021-03-23,outra,STF,"2ª Turma, por maioria, concedeu a ordem e reconheceu a suspeição do juiz na ação do triplex",stf_2021_03_23
+Rcl 43007,2023-09-06,anulacao,STF,"Decisão (Min. Dias Toffoli) em pedido de extensão: provas dos sistemas Drousys e My Web Day B do acordo de leniência da Odebrecht declaradas imprestáveis, com efeito erga omnes",stf_2023_09_06
+Pet 15556,2026-03-04,outra,STF,Decisão monocrática (Min. André Mendonça): prisão preventiva de quatro investigados e medidas cautelares diversas da prisão,stf_master_2026_03_04
+Pet 15556,2026-03-23,outra,STF,"2ª Turma, por unanimidade, referendou a liminar, exceto quanto a investigado que faleceu",stf_master_2026_03_23
+Pet 15556,2026-04-03,outra,STF,"Decisão monocrática: comparecimento de Ibaneis Rocha Barros Júnior à CPI do Crime Organizado passa a facultativo, reconhecida a condição de investigado atribuída pela justificativa da comissão parlamentar (não informa inclusão no inquérito do STF)",stf_master_2026_04_03
+5046512-94.2016.4.04.7000,2021-04-22,remessa_outra_instancia,STF,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,stf_2021_04_22
+5021365-32.2017.4.04.7000,2021-03-08,anulacao,STF,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões anuladas",stf_2021_03_08
+5021365-32.2017.4.04.7000,2021-04-22,remessa_outra_instancia,STF,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,stf_2021_04_22
+5063130-17.2018.4.04.7000,2021-03-08,anulacao,STF,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões anuladas",stf_2021_03_08
+5063130-17.2018.4.04.7000,2021-04-22,remessa_outra_instancia,STF,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,stf_2021_04_22
+5044305-83.2020.4.04.7000,2021-03-08,anulacao,STF,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões anuladas",stf_2021_03_08
+5044305-83.2020.4.04.7000,2021-04-22,remessa_outra_instancia,STF,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,stf_2021_04_22
+5046512-94.2016.4.04.7000,2021-03-08,anulacao,STF,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões e condenação anuladas",stf_2021_03_08

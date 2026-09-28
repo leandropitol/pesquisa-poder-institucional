@@ -53,6 +53,8 @@ RELATORIOS = {"relatorio_stf_pesquisa_documental.md": ("stf_relatorio_navegacao.
               **{f"relatorio_partes_ap_lote{n}.md": (f"stf_relatorio_navegacao_partes_ap_lote{n}.md", PORTAL_STF, "Claude in Chrome")
                  for n in range(1, 8)},  # lotes de D-048
               "relatorio_eduardo_azeredo_tjmg.md": ("tjmg_relatorio_navegacao_ap536_azeredo.md", PORTAL_TJMG, "Claude in Chrome"),
+              "verificacao_claude_e9_lavajato_master.md": ("stf_verificacao_navegacao_e9_lavajato_master.md", PORTAL_STF,
+                                                           "Claude Code no navegador embutido"),
               "verificacao_claude_tjmg_acordaos.md": ("tjmg_verificacao_navegacao_acordaos_azeredo.md", PORTAL_TJMG,
                                                       "Claude Code no navegador embutido")}
 

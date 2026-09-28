@@ -1,2 +1,7 @@
-nome_partes,id_ator,metodo,observacao
-EDUARDO BRANDAO AZEREDO,ATR-001196,palavras_unico,"nome como no Agravo Interno /012 (TJMG); único parlamentar da base com as palavras Eduardo e Azeredo (senador 2003-2011, deputado 2011-2014)"
+nome_partes,id_ator,metodo,observacao,tipo_ator
+EDUARDO BRANDAO AZEREDO,ATR-001196,palavras_unico,"nome como no Agravo Interno /012 (TJMG); único parlamentar da base com as palavras Eduardo e Azeredo (senador 2003-2011, deputado 2011-2014)",
+LUIZ INÁCIO LULA DA SILVA,ATR-002716,nome_igual,nome igual ao do candidato do TSE na base (E7),
+DANIEL BUENO VORCARO,,novo,Investigado nomeado em decisão da Pet 15556 (STF); tipo provisório: sem cargo público registrado na base,agente_privado
+FABIANO CAMPOS ZETTEL,,novo,Investigado nomeado em decisão da Pet 15556 (STF); tipo provisório: sem cargo público registrado na base,agente_privado
+LUIZ PHILLIPI MACHADO DE MORAES MOURÃO,,novo,Investigado nomeado em decisão da Pet 15556 (STF); tipo provisório: sem cargo público registrado na base,agente_privado
+MARILSON ROSENO DA SILVA,,novo,Investigado nomeado em decisão da Pet 15556 (STF); tipo provisório: sem cargo público registrado na base,agente_privado

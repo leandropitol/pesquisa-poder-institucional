@@ -62,6 +62,12 @@ PADRAO_GRUPOS = ("; governo e oposição = classificação do partido do réu na
 SEM_GOVERNO = "A base não tem a composição da base do governo e da oposição por data; grupo não verificado"
 SEM_UNIVERSO = ("Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para "
                 "comparar partidos (D-048)")
+SEM_UNIVERSO_DE = {"INS-001539": SEM_UNIVERSO}  # TJMG: texto já gravado na primeira versão
+
+
+def sem_universo(tribunal: str, sigla: dict) -> str:
+    return SEM_UNIVERSO_DE.get(tribunal) or (f"Status em processo fora do STF ({sigla.get(tribunal, tribunal)}): não há universo lido de ações "
+                                             "penais desse tribunal ou grau com réu político para comparar partidos (D-048)")
 
 
 def relatorios() -> list:
@@ -268,9 +274,9 @@ def run() -> None:
             linha = {"id_resultado": ids.obter("verificacao_resultado", f"{v}|{g}"), "id_verificacao": v, "grupo_tipo": tipo, "grupo_id": g}
             c_g, r_g = (casos, revisar) if tipo == "partido" else (por_grupo[nome]["sim"], por_grupo[nome]["revisar"]) if v2 else ({}, {})
             if tipo != "partido" and not v2:
-                linha.update(resultado="nao_verificado", justificativa=SEM_GOVERNO if no_stf else SEM_UNIVERSO)
+                linha.update(resultado="nao_verificado", justificativa=SEM_GOVERNO if no_stf else sem_universo(trib.get(s["id_processo"]), sigla))
             elif not no_stf:
-                linha.update(resultado="nao_verificado", justificativa=SEM_UNIVERSO)
+                linha.update(resultado="nao_verificado", justificativa=sem_universo(trib.get(s["id_processo"]), sigla))
             elif c_g.get(g):
                 linha.update(resultado="encontrado", n_casos=str(len(c_g[g])), ids_encontrados=";".join(sorted(c_g[g])), id_busca=busca_de[(nome, g)])
             elif r_g.get(g):

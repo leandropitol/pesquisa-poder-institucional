@@ -6614,3 +6614,24 @@ FAS-006923,PRC-007763,2026-08-19,arquivamento_inquerito,INS-001525,Determinado a
 FAS-006924,PRC-010068,2017-08-22,acordao_2a_instancia,INS-001539,"5ª Câmara Criminal, Apelação Criminal /001: por maioria, confirmou a sentença condenatória; pena de 20 anos e 1 mês de reclusão e 88 dias-multa",FNT-000239
 FAS-006925,PRC-010068,2018-05-24,outra,INS-001539,"5ª Câmara Criminal, Embargos de Declaração-Cr /006: embargos não acolhidos; determinada a expedição de mandado de prisão",FNT-000240
 FAS-006926,PRC-010068,2019-07-10,outra,INS-001539,"Órgão Especial, Agravo Interno /012: negou provimento ao agravo contra a decisão que negou seguimento ao recurso extraordinário",FNT-000241
+FAS-006927,PRC-010069,2017-07-12,sentenca,INS-001541,"13ª Vara Federal de Curitiba: sentença condenatória por corrupção passiva e lavagem de dinheiro, pena de 9 anos e 6 meses (segundo a notícia do TRF4)",FNT-000245
+FAS-006928,PRC-010069,2018-01-24,acordao_2a_instancia,INS-001540,"8ª Turma, por unanimidade, confirmou a condenação e elevou a pena para 12 anos e 1 mês de reclusão e 280 dias-multa",FNT-000245
+FAS-006929,PRC-010069,2019-04-23,acordao_tribunal_superior,INS-000378,"Quinta Turma, por unanimidade, fixou a pena em 8 anos, 10 meses e 20 dias (REsp 1.765.139)",FNT-000246
+FAS-006930,PRC-010069,2021-03-23,anulacao,INS-001525,"2ª Turma, no HC 164493: suspeição do juiz; anulação de todas as decisões do caso, inclusive da fase pré-processual",FNT-000248
+FAS-006931,PRC-010069,2021-06-23,outra,INS-001525,"Plenário, por 7 votos a 4, manteve a suspeição declarada pela 2ª Turma",FNT-000251
+FAS-006932,PRC-010073,2021-03-08,outra,INS-001525,Decisão monocrática (Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; anuladas as decisões em quatro ações penais,FNT-000247
+FAS-006933,PRC-010073,2021-04-15,outra,INS-001525,"Plenário, por 8 votos a 3, rejeitou o agravo da PGR e manteve a incompetência",FNT-000249
+FAS-006934,PRC-010073,2021-04-22,outra,INS-001525,Plenário fixou a competência da Justiça Federal do Distrito Federal,FNT-000250
+FAS-006935,PRC-010074,2021-03-23,outra,INS-001525,"2ª Turma, por maioria, concedeu a ordem e reconheceu a suspeição do juiz na ação do triplex",FNT-000248
+FAS-006936,PRC-010075,2023-09-06,anulacao,INS-001525,"Decisão (Min. Dias Toffoli) em pedido de extensão: provas dos sistemas Drousys e My Web Day B do acordo de leniência da Odebrecht declaradas imprestáveis, com efeito erga omnes",FNT-000252
+FAS-006937,PRC-007347,2026-03-04,outra,INS-001525,Decisão monocrática (Min. André Mendonça): prisão preventiva de quatro investigados e medidas cautelares diversas da prisão,FNT-000256
+FAS-006938,PRC-007347,2026-03-23,outra,INS-001525,"2ª Turma, por unanimidade, referendou a liminar, exceto quanto a investigado que faleceu",FNT-000257
+FAS-006939,PRC-007347,2026-04-03,outra,INS-001525,"Decisão monocrática: comparecimento de Ibaneis Rocha Barros Júnior à CPI do Crime Organizado passa a facultativo, reconhecida a condição de investigado atribuída pela justificativa da comissão parlamentar (não informa inclusão no inquérito do STF)",FNT-000258
+FAS-006940,PRC-010069,2021-04-22,remessa_outra_instancia,INS-001525,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,FNT-000250
+FAS-006941,PRC-010070,2021-03-08,anulacao,INS-001525,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões anuladas",FNT-000247
+FAS-006942,PRC-010070,2021-04-22,remessa_outra_instancia,INS-001525,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,FNT-000250
+FAS-006943,PRC-010071,2021-03-08,anulacao,INS-001525,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões anuladas",FNT-000247
+FAS-006944,PRC-010071,2021-04-22,remessa_outra_instancia,INS-001525,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,FNT-000250
+FAS-006945,PRC-010072,2021-03-08,anulacao,INS-001525,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões anuladas",FNT-000247
+FAS-006946,PRC-010072,2021-04-22,remessa_outra_instancia,INS-001525,Plenário do STF fixou a competência da Justiça Federal do Distrito Federal,FNT-000250
+FAS-006947,PRC-010069,2021-03-08,anulacao,INS-001525,"HC 193726 (decisão monocrática, Min. Edson Fachin): incompetência da 13ª Vara Federal de Curitiba; decisões e condenação anuladas",FNT-000247

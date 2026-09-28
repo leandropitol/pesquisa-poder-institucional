@@ -1,4 +1,4 @@
-"""Casos-teste da etapa E9: Mensalão (AP 470) e Mensalão mineiro (AP 536), status formal das pessoas.
+"""Casos-teste da etapa E9: Mensalão (AP 470), Mensalão mineiro (AP 536), Lava Jato e Banco Master; status formal das pessoas (D-046, D-052).
 
 Entradas (curadoria revisável):
 - data/curadoria/e9_ap470_reus.csv: réus da AP 470 como aparecem na aba Partes do portal do STF e a ligação
@@ -10,7 +10,9 @@ Entradas (curadoria revisável):
   TJMG) e o relatório de navegação do bruto que registrou a leitura;
 - data/curadoria/e9_processos.csv: processos fora do universo do STF (a parte da AP 536 enviada ao TJMG em 2014);
 - data/curadoria/e9_fases.csv: fases desses processos, cada uma com fonte;
-- data/curadoria/e9_pessoas.csv: pessoas que não estão na aba Partes da AP 470, com a ligação a um ator da base.
+- data/curadoria/e9_pessoas.csv: pessoas que não estão na aba Partes da AP 470, com a ligação a um ator da base ou, sem ligação, o
+  tipo do ator novo;
+- data/curadoria/e9_casos.csv e e9_caso_processos.csv: os casos e os processos já na base ligados a cada um.
 
 O que não está nas fontes lidas fica de fora e vai para as limitações (condenações por quadrilha de Marcos
 Valério e José Roberto Salgado sem data documentada; embargos sobre lavagem de 13/03/2014 sem o nome do
@@ -29,12 +31,11 @@ import pandas as pd
 from src.base import BASE, RAIZ, RegistroIds, acrescentar, gravar, ler
 
 CUR = RAIZ / "data" / "curadoria"
-ORGAOS = {"STF": ("Supremo Tribunal Federal", "federal"), "TJMG": ("Tribunal de Justiça do Estado de Minas Gerais", "estadual")}
-PORTAL = {"STF": "Página pública do STF", "TJMG": "Página pública do TJMG"}
-CASOS = {
-    "AP 470": ("Ação Penal 470 (caso conhecido como Mensalão)", "2007-11-12"),
-    "AP 536": ("Ação Penal 536 (caso conhecido como Mensalão mineiro)", "2010-05-13"),
-}
+ORGAOS = {"STF": ("Supremo Tribunal Federal", "federal"), "TJMG": ("Tribunal de Justiça do Estado de Minas Gerais", "estadual"),
+          "STJ": ("Superior Tribunal de Justiça", "federal"), "TRF4": ("Tribunal Regional Federal da 4ª Região", "federal"),
+          "JFPR": ("Justiça Federal do Paraná (Seção Judiciária)", "federal")}
+JA_NA_BASE = {"STF", "STJ"}  # vêm da E5 e da E4
+PORTAL = {o: f"Página pública do {o}" for o in ORGAOS}
 
 
 def norm(s: str) -> str:
@@ -50,7 +51,7 @@ def montar(ids: RegistroIds) -> dict:
     id_proc = dict(zip(proc["numero_originario"], proc["id_processo"]))
     orgao = {o: ids.obter("instituicoes", f"orgao:{o}") for o in ORGAOS}
     inst = [{"id_instituicao": orgao[o], "nome": n, "sigla": o, "tipo_instituicao": "tribunal", "poder": "judiciario", "esfera": e, "pais_iso3": "BRA"}
-            for o, (n, e) in ORGAOS.items() if o != "STF"]  # o STF vem da E5
+            for o, (n, e) in ORGAOS.items() if o not in JA_NA_BASE]
     fontes, judiciais, oficiais, f_de = [], [], [], {}
     for f in ler_csv("e9_fontes.csv"):
         i = ids.obter("fontes", f"e9:{f['chave']}")
@@ -76,13 +77,21 @@ def montar(ids: RegistroIds) -> dict:
     fases = [{"id_fase": ids.obter("fases_processo", f"e9:{x['processo']}:{x['data']}:{x['fase']}"), "id_processo": id_proc[x["processo"]],
               "data": x["data"], "fase": x["fase"], "id_orgao_julgador": orgao[x["orgao"]], "resumo": x["resumo"], "id_fonte": f_de[x["fonte"]]}
              for x in ler_csv("e9_fases.csv")]
-    casos = []
-    for numero, (nome, inicio) in CASOS.items():
-        casos.append({"id_caso": ids.obter("casos", f"e9:{numero}"), "nome": nome, "tipo_caso": "acao_penal", "eixo": "esquemas_ilicitos",
-                      "data_inicio": inicio, "criterio_inclusao": "Caso-teste da etapa E9 (docs/plano_coleta.md); processo no universo do STF (E5)",
-                      "id_fonte": f_de["portal_ap470"]})
+    casos = [{"id_caso": ids.obter("casos", f"e9:{c['chave']}"), "nome": c["nome"], "tipo_caso": c["tipo_caso"], "eixo": c["eixo"],
+              "data_inicio": c["data_inicio"], "criterio_inclusao": c["criterio_inclusao"], "id_fonte": f_de[c["fonte"]]}
+             for c in ler_csv("e9_casos.csv")]
+    for c in ler_csv("e9_caso_processos.csv"):  # processos já na base (universo do STF) ligados a um caso
+        caso_de_processo[id_proc[c["processo"]]] = ids.obter("casos", f"e9:{c['caso']}")
     reus = ler_csv("e9_ap470_reus.csv")
-    novos, ator_de = [], {r["nome_partes"]: r["id_ator"] for r in ler_csv("e9_pessoas.csv")}
+    novos, ator_de = [], {}
+    for p in ler_csv("e9_pessoas.csv"):
+        if p["id_ator"]:
+            ator_de[p["nome_partes"]] = p["id_ator"]
+            continue
+        a = ids.obter("atores", f"e9_parte:{norm(p['nome_partes'])}")
+        ator_de[p["nome_partes"]] = a
+        novos.append({"id_ator": a, "nome": p["nome_partes"], "nome_normalizado": norm(p["nome_partes"]), "tipo_ator": p["tipo_ator"] or "agente_privado",
+                      "observacao": p["observacao"]})
     for r in reus:
         if r["id_ator"]:
             ator_de[r["nome_partes"]] = r["id_ator"]
@@ -100,7 +109,7 @@ def montar(ids: RegistroIds) -> dict:
                            "tipificacao": s["tipificacao"], "id_fonte": f_de[s["fonte"]]})
     return {"instituicoes": inst, "fontes": fontes, "fonte_judicial": judiciais, "fonte_oficial": oficiais, "casos": casos, "atores": novos,
             "processos": processos, "fases_processo": fases, "status_pessoa_processo": status,
-            "caso_de_processo": {**{id_proc[n]: ids.obter("casos", f"e9:{n}") for n in CASOS}, **caso_de_processo}}
+            "caso_de_processo": caso_de_processo}
 
 
 def gravar_resultado(r: dict, ids: RegistroIds, base: Path = BASE) -> None:
@@ -129,7 +138,7 @@ def run() -> None:
     r = montar(ids)
     gravar_resultado(r, ids)
     s = pd.DataFrame(r["status_pessoa_processo"])
-    print(f"casos: {len(r['casos'])}; atores novos: {len(r['atores'])}; processos fora do STF: {len(r['processos'])}; "
+    print(f"casos: {len(r['casos'])}; atores novos: {len(r['atores'])}; processos carregados pela E9: {len(r["processos"])}; "
           f"fases: {len(r['fases_processo'])}; status: {len(s)} {s['status'].value_counts().to_dict()}")
 
 

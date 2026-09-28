@@ -403,7 +403,22 @@ def _linhas_e9(base: Path) -> list[str]:
     return [
         "### Casos-teste (etapa E9)", "",
         f"- Casos: {', '.join(casos['nome'])}. Status formais registrados: {len(st)} "
-        f"({'; '.join(f'{k}: {n}' for k, n in st['status'].value_counts().items())}), com fonte judicial ou oficial do STF (D-046).",
+        f"({'; '.join(f'{k}: {n}' for k, n in st['status'].value_counts().items())}), com fonte judicial ou oficial (STF, STJ, TRF4, TJMG; D-046).",
+        "- Lava Jato (D-052): os processos-âncora ficam fora do universo coletado (primeira instância federal não foi coletada; HC e Rcl não "
+        "entram na E5) e entram pela E9. Carregados: a ação do triplex (5046512-94.2016.4.04.7000), com os status de Luiz Inácio Lula da Silva "
+        "de condenação (primeira e segunda instâncias e STJ) seguidos da condenação anulada (HC 193726, 08/03/2021) e do processo anulado "
+        "(HC 164493, 23/03/2021); as outras três ações de Curitiba só com a anulação e a remessa à Justiça Federal do DF (sentenças não "
+        "lidas); a Rcl 43007 com a decisão de 06/09/2023 sobre as provas da Odebrecht. O desfecho na Justiça Federal do DF depois de abril "
+        "de 2021 não foi localizado em página oficial. Fontes: notícias oficiais do TRF4, do STJ e do STF; a consulta processual do eproc "
+        "não foi usada. A data do julgamento do Plenário de 15/04/2021 diverge no próprio texto da notícia (\"quinta-feira (14)\").",
+        "- A anulação de provas da Rcl 43007 foi estendida a pessoas de partidos diferentes (Paulo Bernardo, 19/06/2023; Sérgio Cabral e "
+        "Gilberto Kassab, 02/08/2023; fontes registradas); as ações penais dessas pessoas não foram carregadas. A Lava Jato que correu "
+        "no próprio STF está no universo da E5 (por exemplo, AP 996 e AP 1003) e entrou na verificação de simetria.",
+        "- Banco Master (D-052): Inq 5026 e processos distribuídos por prevenção estão no universo do STF, com assunto processual (\"revisar\" "
+        "no eixo 1); no Inq 5026 os investigados não aparecem na aba Partes. Entraram como investigados os quatro nomes da decisão de "
+        "04/03/2026 que decretou prisões preventivas (pessoas sem cargo público na base). A decisão de 03/04/2026 sobre Ibaneis Rocha Barros "
+        "Júnior trata da condição de investigado atribuída pela CPI do Crime Organizado e não informa inclusão no inquérito do STF: entrou "
+        "como fase do processo, não como status. Decisões sigilosas e petições sem partes não foram lidas.",
         "- AP 470: o texto da decisão de 17/12/2012 vem cortado no portal, e o resultado por réu e por crime está espalhado em andamentos de "
         "agosto a dezembro de 2012, em trechos também cortados. Entraram só as condenações nomeadas em decisão do Tribunal (23/10/2012, "
         "quadrilha) ou em notícia oficial da fixação das penas (12 e 21/11/2012), e as absolvições por quadrilha nos embargos infringentes de "
