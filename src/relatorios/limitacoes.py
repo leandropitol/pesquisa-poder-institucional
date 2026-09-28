@@ -461,6 +461,12 @@ def _linhas_simetria(base: Path) -> list[str]:
         "- Partido é contado pela instituição exata da filiação na data; fusões e incorporações (por "
         "exemplo, PL antigo e PL atual) não são somadas.",
         "- Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data.",
+        "- Taxa por bancada (D-049, `relatorios/tabelas/simetria_taxa_bancada.csv`): suplentes de senador ficam fora do denominador e do "
+        "numerador, porque a base só os lista, sem o período em que exerceram o mandato; parlamentares ligados a réus que só aparecem como "
+        "suplentes de senador não entram na taxa. A queda da taxa a partir da legislatura 56 acompanha a restrição do foro por prerrogativa "
+        "de função no STF (maio de 2018), não uma mudança medida de conduta; a comparação entre partidos usa as legislaturas 52 a 55. Os "
+        "intervalos de 95% se sobrepõem para a maior parte dos partidos: diferenças pequenas entre taxas não são distinguíveis com esses "
+        "números. O intervalo supõe pares independentes, o que não vale quando o mesmo parlamentar aparece em várias legislaturas.",
         "- O status de Eduardo Azeredo no TJMG fica `nao_verificado` em todos os grupos: não há universo lido de ações penais estaduais.",
         "",
     ]

@@ -165,21 +165,29 @@ def casos_por_partido(lig: dict, lista: pd.DataFrame, filiacoes: pd.DataFrame, i
     return casos
 
 
-def run() -> None:
-    ids = RegistroIds()
-    hoje = dt.date.today().isoformat()
+def carregar() -> dict:
+    """Lista das ações lidas (com o universo do eixo 1 pela regra da E5) e ligações réu -> parlamentar."""
     lista = pd.read_csv(CUR / "simetria_stf_ap_lista.csv", dtype=str).fillna("")
     lotes = [re.search(r"lote(\d+)", f.name).group(1) for f in relatorios()]
     todos_lotes = set(lista["lote"]) <= set(lotes)  # o padrão de réu só vale com todas as ações lidas
     lista = lista[lista["lote"].isin(lotes)].set_index("processo")
     atores, cargos, filiacoes = ler("atores").fillna(""), ler("cargos").fillna(""), ler("filiacoes").fillna("")
     proc = ler("processos")
-    id_proc = dict(zip(proc["numero_originario"], proc["id_processo"]))
     regras = pd.read_csv(CUR / "assuntos_stf_eixo1.csv", dtype=str)
     u = dict(zip(proc["numero_originario"], universo_stf(proc, dict(zip(regras["caminho_stf"], regras["decisao"])))))
     lista["universo"] = lista.index.map(u)
     reus = ler_reus()
     lig, cont = ligacoes(reus, propor([r for r in reus if r["ap"] != "AP 470"], lista, atores, cargos))
+    return {"lista": lista, "lotes": lotes, "todos_lotes": todos_lotes, "atores": atores, "cargos": cargos, "filiacoes": filiacoes,
+            "proc": proc, "reus": reus, "lig": lig, "cont": cont}
+
+
+def run() -> None:
+    ids = RegistroIds()
+    hoje = dt.date.today().isoformat()
+    c = carregar()
+    lista, lotes, todos_lotes, filiacoes, proc, reus, lig, cont = (c[k] for k in ("lista", "lotes", "todos_lotes", "filiacoes", "proc", "reus", "lig", "cont"))
+    id_proc = dict(zip(proc["numero_originario"], proc["id_processo"]))
     inst = ler("instituicoes")
     sigla = dict(zip(inst["id_instituicao"], inst["sigla"]))
     universo = ler("universo_partidos")
