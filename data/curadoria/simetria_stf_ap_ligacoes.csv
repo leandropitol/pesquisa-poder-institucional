@@ -202,6 +202,18 @@ ap,nome_partes,id_ator,decisao,motivo
 710,MARCIO HENRIQUE JUNQUEIRA PEREIRA,ATR-000927,aceita,Marcio Junqueira: prenome e sobrenome do nome civil; mandato no período
 712,COLBERT MARTINS DA SILVA FILHO,ATR-000352,aceita,Colbert Martins: prenome pouco comum e sobrenome do nome civil; mandato no período
 724,CARLOS EDUARDO QUARTIM BARBOSA,ATR-000594,rejeitada,Eduardo Barbosa: o prenome Carlos falta e o sobrenome é comum
+755,LUIZ CARLOS SOARES DOS REIS,ATR-001194,rejeitada,"Luiz Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+777,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+791,LUIZ CARLOS BEDIN,ATR-001194,rejeitada,"Luiz Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+795,EDSON GONÇALVES DOS SANTOS,ATR-000850,pendente,"Edson Santos: prenome e sobrenome muito comuns em ação com 6 réus (série de ações ambientais com réus privados), sem outro elemento; ligação não feita"
+798,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+799,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+799,LUIZ CARLOS BEDIN,ATR-001194,rejeitada,"Luiz Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+808,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+813,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+814,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+824,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+825,EDSON GONÇALVES DOS SANTOS,ATR-000850,pendente,"Edson Santos: prenome e sobrenome muito comuns em ação com 9 réus (série de ações ambientais com réus privados), sem outro elemento; ligação não feita"
 880,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,aceita_a_conferir,Professor Sérgio de Oliveira: prenome e sobrenome Oliveira coincidem (Cunha não está no nome parlamentar); mandato no período
 883,IZALCI LUCAS FERREIRA,ATR-000007,aceita,nome parlamentar de uma palavra igual ao prenome pouco comum Izalci; mandato no período
 892,JACOB ALFREDO STOFFELS KAEFER,ATR-000885,aceita,Alfredo Kaefer: nome do meio e sobrenome pouco comum do nome civil; mandato no período
