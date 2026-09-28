@@ -1,7 +1,7 @@
-"""Verificação de simetria dos status da E9 contra as ações penais do STF julgadas no mérito (D-007, D-048).
+"""Verificação de simetria dos status da E9 contra as ações penais do STF (D-007, D-048).
 
 Entradas:
-- o relatório de navegação com os réus da aba Partes (bruto, lote 1: 99 ações julgadas no mérito);
+- os relatórios de navegação com os réus da aba Partes (bruto, lotes 1 a 7; o lote 1 tem as 99 ações julgadas no mérito);
 - data/curadoria/simetria_stf_ap_lista.csv (datas de autuação e de julgamento, resultado);
 - data/curadoria/simetria_stf_ap_ligacoes.csv: decisões sobre a ligação réu -> parlamentar da base
   (aceita, aceita_a_conferir, rejeitada, pendente), com motivo;
@@ -14,9 +14,10 @@ por decisão na curadoria; sem decisão, fica pendente e é contada.
 
 Partido: filiação do réu na data do primeiro julgamento de mérito; sem filiação vigente, a última iniciada antes.
 
-Para cada status da E9 que exige simetria (réu e denunciado ficam para quando todos os lotes forem lidos, porque o
-lote 1 só tem ações julgadas no mérito), grava uma verificação com um resultado por partido do universo do ano.
-Contam as ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu: `encontrado` (ações
+Para cada status da E9 que exige simetria, grava uma verificação com um resultado por partido do universo do ano.
+Condenação: contam as ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (lote 1),
+partido na data do primeiro julgamento. Réu: só com todos os lotes lidos; contam todas as ações do eixo 1 em que o
+parlamentar é réu, partido na data de autuação. Denunciado não tem padrão lido. Resultado: `encontrado` (ações
 com réu parlamentar do partido), `sem_evidencia` (busca registrada com zero resultados) ou, quando o partido só
 tem ações de assunto "revisar" na regra da E5, `nao_verificado` com a lista dessas ações.
 Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data. Status em
@@ -42,7 +43,7 @@ from src.validacao.validar import STATUS_COM_SIMETRIA
 
 CUR = RAIZ / "data" / "curadoria"
 RAW_STF = RAIZ / "data" / "raw" / "stf"
-NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$|MADEIREIRA |MUNIC[ÍI]PIO DE |ESTADO D[OE] |UNI[ÃA]O FEDERAL)|\b(LTDA|EPP|EIRELI|S/A|S\.A\.|CIA)\b|\s-?\s?ME$")  # órgão, ente público, texto e empresa
+NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$|MADEIREIRA |MUNIC[ÍI]PIO DE |ESTADO D[OE] |UNI[ÃA]O FEDERAL)|\b(LTDA|EPP|EIRELI|S/A|S\.A\.|CIA)\b|\s-?\s?ME$|(?<!\bDE)\sS\.?A\.?$|\sS\.A\.\s")  # órgão, ente público, texto e empresa
 SCRIPT = "src.normalizacao.simetria_stf"
 FONTE_DADOS = "STF, portal (aba Partes) e Corte Aberta (decisões)"
 STATUS_ADIADOS = {"reu", "denunciado"}
@@ -52,7 +53,10 @@ PADRAO = ("Ação penal originária no STF, com assunto do eixo 1 pela regra da 
           "ao menos um réu (andamento Procedente ou Procedente em parte no Corte Aberta; o resultado por réu não foi lido), 2003 a "
           "2026, com réu que é parlamentar federal da base; partido = filiação do réu na data do primeiro julgamento de mérito "
           "(D-048, lote 1 de 99 ações julgadas no mérito)")
-SEM_GOVERNO = "A base não tem a composição da base do governo e da oposição por data; grupo não verificado"
+PADRAO_REU = ("Ação penal originária no STF, com assunto do eixo 1 pela regra da E5, com réu que é parlamentar federal da base "
+              "(aba Partes das 660 ações penais com decisão no Corte Aberta, fora as de 8 de janeiro de 2023; lotes 1 a 7 de D-048), "
+              "2003 a 2026; partido = filiação do réu na data de autuação da ação")
+SEM_GOVERNO ="A base não tem a composição da base do governo e da oposição por data; grupo não verificado"
 SEM_UNIVERSO = ("Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para "
                 "comparar partidos (D-048)")
 
@@ -146,15 +150,17 @@ def partido_na_data(filiacoes: pd.DataFrame, ator: str, data: str) -> set[str]:
     return {antes["id_partido"].iloc[-1]} if len(antes) else set()
 
 
-def casos_por_partido(lig: dict, lista: pd.DataFrame, filiacoes: pd.DataFrame, id_proc: dict) -> dict[str, dict[str, set[str]]]:
-    """universo da ação (sim, revisar, nao) -> partido -> processos, só ações com condenação."""
+def casos_por_partido(lig: dict, lista: pd.DataFrame, filiacoes: pd.DataFrame, id_proc: dict,
+                      so_condenacao: bool = True, campo_data: str = "data_primeiro_julgamento") -> dict[str, dict[str, set[str]]]:
+    """universo da ação (sim, revisar, nao) -> partido -> processos. Padrão de condenação: só ações com condenação,
+    partido na data do primeiro julgamento de mérito; padrão de réu: todas as ações, partido na data de autuação."""
     casos = defaultdict(lambda: defaultdict(set))
     for (ap, _n), atores in lig.items():
         l = lista.loc[ap]
-        if not any(r in CONDENACAO for r in l["resultados"].split("; ")):
+        if so_condenacao and not any(r in CONDENACAO for r in l["resultados"].split("; ")):
             continue
         for a, _d in atores:
-            for p in partido_na_data(filiacoes, a, l["data_primeiro_julgamento"]):
+            for p in partido_na_data(filiacoes, a, l[campo_data]):
                 casos[l["universo"]][p].add(id_proc[ap])
     return casos
 
@@ -164,6 +170,7 @@ def run() -> None:
     hoje = dt.date.today().isoformat()
     lista = pd.read_csv(CUR / "simetria_stf_ap_lista.csv", dtype=str).fillna("")
     lotes = [re.search(r"lote(\d+)", f.name).group(1) for f in relatorios()]
+    todos_lotes = set(lista["lote"]) <= set(lotes)  # o padrão de réu só vale com todas as ações lidas
     lista = lista[lista["lote"].isin(lotes)].set_index("processo")
     atores, cargos, filiacoes = ler("atores").fillna(""), ler("cargos").fillna(""), ler("filiacoes").fillna("")
     proc = ler("processos")
@@ -173,39 +180,47 @@ def run() -> None:
     lista["universo"] = lista.index.map(u)
     reus = ler_reus()
     lig, cont = ligacoes(reus, propor([r for r in reus if r["ap"] != "AP 470"], lista, atores, cargos))
-    por_u = casos_por_partido(lig, lista, filiacoes, id_proc)
-    casos, revisar = por_u["sim"], por_u["revisar"]
     inst = ler("instituicoes")
     sigla = dict(zip(inst["id_instituicao"], inst["sigla"]))
     universo = ler("universo_partidos")
-    lote1 = next(f for f in relatorios() if f.name.endswith("lote1.md"))  # as ações julgadas no mérito estão no lote 1
-    reg = {"arquivo": lote1.relative_to(RAIZ).as_posix(), "sha256": sha256(lote1)}
     existentes_b = set(ler("buscas")["id_busca"])
+    lote1 = next(f for f in relatorios() if f.name.endswith("lote1.md"))  # as ações julgadas no mérito estão no lote 1
+    arquivos = {f.relative_to(RAIZ).as_posix(): sha256(f) for f in relatorios()}
+    # padrão -> (status cobertos, casos por universo, prefixo da busca, texto da consulta, arquivo bruto, sha256, parâmetros)
+    padroes = {"condenacao": (STATUS_COM_SIMETRIA - STATUS_ADIADOS, casos_por_partido(lig, lista, filiacoes, id_proc), "lote1",
+                              "ações penais do STF do eixo 1 com condenação (D-048, lote 1) com réu parlamentar federal filiado a {s} ({p}) na data do julgamento",
+                              lote1.relative_to(RAIZ).as_posix(), sha256(lote1), {"lote": 1, "n_acoes": len(lista)}, PADRAO)}
+    if todos_lotes:
+        padroes["reu"] = ({"reu"}, casos_por_partido(lig, lista, filiacoes, id_proc, so_condenacao=False, campo_data="data_autuacao"), "reu",
+                          "ações penais do STF do eixo 1 (D-048, lotes 1 a 7) com réu parlamentar federal filiado a {s} ({p}) na data de autuação",
+                          "data/raw/stf/*/stf_relatorio_navegacao_partes_ap_lote*.md", "", {"lotes": sorted(lotes), "n_acoes": len(lista), "arquivos_sha256": arquivos},
+                          PADRAO_REU)
     buscas, busca_de = [], {}
-    for p in sorted(set(universo["id_partido"])):
-        consulta = (f"ações penais do STF do eixo 1 com condenação (D-048, lote 1) com réu parlamentar federal filiado a "
-                    f"{sigla.get(p, p)} ({p}) na data do julgamento")
-        i = ids.obter("buscas", f"{SCRIPT}|lote1|{p}")
-        busca_de[p] = i
-        if i not in existentes_b:
-            buscas.append({"id_busca": i, "data": hoje, "fonte_dados": FONTE_DADOS, "consulta": consulta,
-                           "parametros_json": json.dumps({"lote": 1, "id_partido": p, "n_acoes": len(lista)}, ensure_ascii=False, sort_keys=True),
-                           "n_resultados": str(len(casos.get(p, ()))), "sha256_resposta": reg["sha256"], "caminho_raw": reg["arquivo"], "script": SCRIPT})
+    for nome, (_st, por_u, chave, texto, arq, sha, par, _pd) in padroes.items():
+        for p in sorted(set(universo["id_partido"])):
+            i = ids.obter("buscas", f"{SCRIPT}|{chave}|{p}")
+            busca_de[(nome, p)] = i
+            if i not in existentes_b:
+                buscas.append({"id_busca": i, "data": hoje, "fonte_dados": FONTE_DADOS, "consulta": texto.format(s=sigla.get(p, p), p=p),
+                               "parametros_json": json.dumps({**par, "id_partido": p}, ensure_ascii=False, sort_keys=True),
+                               "n_resultados": str(len(por_u["sim"].get(p, ()))), "sha256_resposta": sha, "caminho_raw": arq, "script": SCRIPT})
     status = ler("status_pessoa_processo")
     trib = dict(zip(proc["id_processo"], proc["id_tribunal"]))
     stf = ids.obter("instituicoes", "orgao:STF")
     filiados = set(filiacoes["id_ator"])
-    alvo = status[status["status"].isin(STATUS_COM_SIMETRIA - STATUS_ADIADOS) & status["id_ator"].isin(filiados)]
     existentes_v = set(ler("verificacoes_simetria")["id_verificacao"])
     vs, vr = [], []
-    for _, s in alvo.iterrows():
+    alvo = [(nome, s) for nome, (sts, *_r) in padroes.items() for _, s in status[status["status"].isin(sts) & status["id_ator"].isin(filiados)].iterrows()]
+    for nome, s in alvo:
+        _st, por_u, _c, _t, _a, _s, _p, padrao = padroes[nome]
+        casos, revisar = por_u["sim"], por_u["revisar"]
         v = ids.obter("verificacoes_simetria", f"{SCRIPT}|status_pessoa_processo|{s['id_status']}")
         if v in existentes_v:
             continue
         ano = s["data"][:4]
         no_stf = trib.get(s["id_processo"]) == stf
         vs.append({"id_verificacao": v, "achado_tabela": "status_pessoa_processo", "achado_id": s["id_status"],
-                   "padrao_buscado": PADRAO if no_stf else "Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base",
+                   "padrao_buscado": padrao if no_stf else "Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base",
                    "ano_referencia": ano, "data": hoje, "script": SCRIPT})
         grupos = [("partido", p) for p in sorted(universo.loc[universo["ano"] == ano, "id_partido"])] + [("governo", "governo"), ("oposicao", "oposicao")]
         for tipo, g in grupos:
@@ -215,12 +230,12 @@ def run() -> None:
             elif not no_stf:
                 linha.update(resultado="nao_verificado", justificativa=SEM_UNIVERSO)
             elif casos.get(g):
-                linha.update(resultado="encontrado", n_casos=str(len(casos[g])), ids_encontrados=";".join(sorted(casos[g])), id_busca=busca_de[g])
+                linha.update(resultado="encontrado", n_casos=str(len(casos[g])), ids_encontrados=";".join(sorted(casos[g])), id_busca=busca_de[(nome, g)])
             elif revisar.get(g):
-                linha.update(resultado="nao_verificado", id_busca=busca_de[g],
+                linha.update(resultado="nao_verificado", id_busca=busca_de[(nome, g)],
                              justificativa=f"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: {';'.join(sorted(revisar[g]))}")
             else:
-                linha.update(resultado="sem_evidencia", n_casos="0", id_busca=busca_de[g])
+                linha.update(resultado="sem_evidencia", n_casos="0", id_busca=busca_de[(nome, g)])
             vr.append(linha)
     acrescentar("buscas", buscas)
     acrescentar("verificacoes_simetria", vs)
@@ -228,8 +243,9 @@ def run() -> None:
     ids.salvar()
     n_lig = sum(len(v) for v in lig.values())
     print(f"réus: {len(reus)}; ligações a parlamentares: {n_lig} ({dict(cont)})")
-    print(f"ações do eixo 1 com condenação, por partido: { {f'{sigla.get(p, p)} {p}': sorted(c) for p, c in casos.items()} }")
-    print(f"ações a revisar com condenação, por partido: { {f'{sigla.get(p, p)} {p}': sorted(c) for p, c in revisar.items()} }")
+    for nome, (_st, por_u, *_r) in padroes.items():
+        print(f"[{nome}] ações do eixo 1 por partido: { {sigla.get(p, p): len(c) for p, c in sorted(por_u['sim'].items(), key=lambda x: -len(x[1]))} }")
+        print(f"[{nome}] ações a revisar por partido: { {sigla.get(p, p): len(c) for p, c in por_u['revisar'].items()} }")
     print(f"buscas: {len(buscas)}; verificações: {len(vs)}; resultados: {len(vr)}")
 
 

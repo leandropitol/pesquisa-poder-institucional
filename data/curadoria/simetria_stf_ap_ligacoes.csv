@@ -282,16 +282,38 @@ ap,nome_partes,id_ator,decisao,motivo
 966,JOAO ALBERTO FRAGA SILVA,ATR-000098,aceita,Alberto Fraga: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 967,EDER MAURO CARDOSO BARRA,ATR-001386,aceita,Delegado Éder Mauro: Delegado é título; as duas palavras do nome parlamentar estão no nome civil; mandato no período
 970,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+975,RONALDO AUGUSTO LESSA SANTOS,ATR-001323,aceita,Ronaldo Lessa: prenome e sobrenome do nome civil; mandato no período
 976,ADALBERTO CAVALCANTI RODRIGUES,ATR-001392,aceita,prenome e sobrenome Cavalcanti do nome parlamentar estão no nome civil; mandato no período
+978,AUGUSTO RODRIGUES COUTINHO DE MELO,ATR-001214,aceita,Augusto Coutinho: prenome e sobrenome do nome civil; mandato no período
+983,NEWTON CARDOSO JÚNIOR,ATR-001374,aceita,Newton Cardoso Jr: Jr é abreviação de Júnior; mandato no período; mesma decisão da AP 987
 984,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome do nome civil; mandato no período
+986,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 987,NEWTON CARDOSO JÚNIOR,ATR-001374,aceita,Newton Cardoso Jr: Jr é abreviação de Júnior; mandato no período
+988,JOSÉ REINALDO CARNEIRO TAVARES,ATR-000133,aceita_a_conferir,José Reinaldo: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+989,EDER MAURO CARDOSO BARRA,ATR-001386,aceita,Delegado Éder Mauro: Delegado é título; as duas palavras do nome parlamentar estão no nome civil; mandato no período
+992,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+994,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+1000,RONALDO AUGUSTO LESSA SANTOS,ATR-001323,aceita,Ronaldo Lessa: prenome e sobrenome do nome civil; mandato no período
 1006,CARLOS CESAR CORREIA DE MESSIAS,ATR-001316,aceita,César Messias: nome do meio e sobrenome do nome civil; mandato no período
 1014,MARIA LAURA MONTEZA DE SOUZA CARNEIRO,ATR-000673,aceita,Laura Carneiro: nome do meio e sobrenome do nome civil; mandato no período
 1015,PEDRO ROBERTO ROCHA,ATR-000343,rejeitada,Roberto Rocha: o prenome Pedro falta; Roberto é nome do meio
 1015,VALDIR RAUPP DE MATOS,ATR-002285,aceita,prenome e sobrenome Raupp do nome parlamentar estão no nome civil; mandato no período
 1019,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000741,rejeitada,"Pedro Paulo: só prenomes, sem nenhum sobrenome do nome civil"
 1019,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000771,rejeitada,Paulo Ramos: o prenome Pedro falta
+1020,LUIZ CARLOS CAETANO,ATR-001194,rejeitada,"Luiz Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+1024,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 1025,FERNANDO AFFONSO COLLOR DE MELLO,ATR-002320,aceita,prenome e sobrenome Collor do nome parlamentar estão no nome civil; mandato no período
 1025,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000741,rejeitada,"Pedro Paulo: só prenomes, sem nenhum sobrenome do nome civil"
 1025,PEDRO PAULO BERGAMASCHI DE LEONI RAMOS,ATR-000771,rejeitada,Paulo Ramos: o prenome Pedro falta
 1032,EDUARDO HENRIQUE DA FONTE DE ALBUQUERQUE SILVA,ATR-000852,aceita,Eduardo da Fonte: prenome e sobrenome do nome civil; mandato no período
+1037,RICARDO JOSE MEIRELLES DA MOTTA,ATR-001737,rejeitada,José Ricardo: prenomes em outra ordem; o prenome do réu é Ricardo
+1038,MARLON ARATOR SANTOS DA ROSA,ATR-001590,aceita_a_conferir,"Marlon Santos: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
+1043,JOÃO CARLOS PAOLILO BACELAR FILHO,ATR-000889,aceita,João Carlos Bacelar: prenomes e sobrenome pouco comum do nome civil; mandato no período
+1043,JOÃO CARLOS PAOLILO BACELAR FILHO,ATR-002075,rejeitada,João Carlos: só prenomes; outro parlamentar tem prenomes e sobrenome
+1047,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
+1048,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
+1049,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
+1050,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
+1051,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
+1052,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
+2860,ANTONIA LUCILEIA DA CRUZ RAMOS CAMARA,ATR-000746,aceita_a_conferir,Antônia Lúcia: prenome igual e segundo nome parecido (Lúcia/Lucileia); única com esse nome na base; mandato no período; mesma decisão da AP 673

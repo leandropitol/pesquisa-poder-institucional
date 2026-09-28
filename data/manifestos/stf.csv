@@ -19,3 +19,4 @@ data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
 2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote4.md,https://portal.stf.jus.br,1,31232,02ef2f2f680e5a0090b131f98c3fa3b6c93625007a364fe848a20f64dc40d121
 2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote5.md,https://portal.stf.jus.br,1,45411,18a9cecfb82a9938d0760b6b253920381fc288db6b85c8418655c0af63e3a7eb
 2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote6.md,https://portal.stf.jus.br,1,28147,2978f6471031468a0ae606252b98196476e15ccb20764c4b22ab4982904ac2c5
+2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote7.md,https://portal.stf.jus.br,1,17338,e2514cad23b17f4f0757ac7d53e01fa829b2abaa0b4e608415fd1a92e5581b6b

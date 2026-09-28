@@ -43,6 +43,9 @@ def test_linhas_que_nao_sao_pessoa():
     from src.normalizacao.simetria_stf import NAO_PESSOA, so_iniciais
     assert NAO_PESSOA.search("MINISTÉRIO PÚBLICO FEDERAL") and NAO_PESSOA.search("OS MESMOS")
     assert not NAO_PESSOA.search("OSMAR MESMOS SILVA") and not NAO_PESSOA.search("MEIRE MENDES")
+    assert NAO_PESSOA.search("VEGA VALORIZACAO DE RESIDUOS S.A. - VVR")
+    assert NAO_PESSOA.search("REFLORESTADORES UNIDOS SA") and NAO_PESSOA.search("SOLVI PARTICIPACOES S/A.")
+    assert not NAO_PESSOA.search("ARNALDO FARIA DE SA") and not NAO_PESSOA.search("JOSE SANTANA")
     assert NAO_PESSOA.search("MUNICÍPIO DE SERRA") and not NAO_PESSOA.search("ESTEVÃO MUNICIPIO")
     for pj in ("ANACLETO E TONIAZZO LTDA - ME", "VALDIR NASCIMENTO DA SILVA EPP", "PAULO SARAIVA DE JESUS FRANÇA - ME", "J. P. DUTRA E CIA LTDA"):
         assert NAO_PESSOA.search(pj), pj
