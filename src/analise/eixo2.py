@@ -156,8 +156,9 @@ def acordos(a: pd.DataFrame, fh: dict, vd: dict, pres: pd.DataFrame) -> pd.DataF
     a["ano"] = a["data_assinatura"].str[:4]
     a["governo"] = [governo(d, pres) for d in a["data_assinatura"]]
     a[["bqd_fh", "bqd_vdem"]] = [rotulo_bqd(p, y, fh, vd) for p, y in zip(a["pais_iso3"], a["ano"])]
-    mundo = pd.Series({ano: sum(1 for (p, y), s in fh.items() if y == ano and s == "NF") / max(1, sum(1 for (p, y) in fh if y == ano))
-                       for ano in a["ano"].unique()})
+    anos_fh = {y for (_p, y) in fh}
+    mundo = pd.Series({ano: sum(1 for (p, y), s in fh.items() if y == ano and s == "NF") / sum(1 for (p, y) in fh if y == ano)
+                       for ano in a["ano"].unique() if ano in anos_fh})  # ano sem Freedom House fica fora da média
     linhas = []
     for gov, g in a.groupby("governo", sort=False):
         cl = g[g["bqd_fh"] != "sem_classificacao"]
