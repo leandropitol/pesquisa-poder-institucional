@@ -253,6 +253,13 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Taxa por bancada (D-049, `relatorios/tabelas/simetria_taxa_bancada.csv`): suplentes de senador ficam fora do denominador e do numerador, porque a base só os lista, sem o período em que exerceram o mandato; parlamentares ligados a réus que só aparecem como suplentes de senador não entram na taxa. A queda da taxa a partir da legislatura 56 acompanha a restrição do foro por prerrogativa de função no STF (maio de 2018), não uma mudança medida de conduta; a comparação entre partidos usa as legislaturas 52 a 55. Os intervalos de 95% se sobrepõem para a maior parte dos partidos: diferenças pequenas entre taxas não são distinguíveis com esses números. O intervalo supõe pares independentes, o que não vale quando o mesmo parlamentar aparece em várias legislaturas.
 - O status de Eduardo Azeredo no TJMG fica `nao_verificado` em todos os grupos: não há universo lido de ações penais estaduais.
 
+### Eixo 2: métricas por governo (D-053)
+
+- Votos: o Brasil só vota no Conselho de Direitos Humanos quando é membro, e o número de resoluções por governo varia com isso e com a agenda de cada ano. O país-alvo sai do título por regra; nas resoluções sobre território ocupado, o alvo é a potência ocupante ou agressora (Rússia na Ucrânia, Israel no Território Palestino Ocupado). A comparação com democracias e com a América Latina é a média do voto desses países nas mesmas resoluções. Voto em organismo multilateral é posição do Estado (Poder Executivo), não de partido.
+- Baixa qualidade democrática: Freedom House até 2024 e V-Dem até 2025; atos e operações de 2025-2026 ficam sem classificação pela Freedom House (136 dos 314 acordos do governo iniciado em 2023).
+- BNDES: o arquivo aberto não publica valor nas operações de exportação de bens (2.344); só as de serviços de engenharia (652, em dólar) têm valor, e não há operação desse tipo depois de 2015. A comparação por valor cobre só os governos de 2003 a 2016; a comparação entre todos os governos usa a contagem de operações. Parte das operações antigas não tem país de destino identificado.
+- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.
+
 ### Validador
 
 - 0 falha(s) e 0 aviso(s) na última geração.

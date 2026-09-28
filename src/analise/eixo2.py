@@ -130,15 +130,23 @@ def bndes(b: pd.DataFrame, fh: dict, vd: dict, pres: pd.DataFrame) -> pd.DataFra
     b["ano"] = b["data_contratacao"].str[:4]
     b["governo"] = [governo(d, pres) for d in b["data_contratacao"]]
     b[["bqd_fh", "bqd_vdem"]] = [rotulo_bqd(p, a, fh, vd) for p, a in zip(b["pais_iso3"], b["ano"])]
+    # o arquivo aberto só publica valor nas operações de serviços de engenharia (todas em dólar, até 2015); nas de bens
+    # não há valor, e a comparação entre todos os governos usa a contagem de operações
     linhas = []
     for gov, g in b.groupby("governo", sort=False):
-        tot = g["valor"].sum()
-        top = g.groupby("pais_iso3")["valor"].sum().sort_values(ascending=False).head(5)
-        linhas.append({"governo": gov, "n_operacoes": len(g), "valor_total": round(tot, 2),
-                       "parcela_valor_bqd_fh": round(g.loc[g["bqd_fh"] == "BQD", "valor"].sum() / tot, 4) if tot else None,
-                       "parcela_valor_sem_classificacao_fh": round(g.loc[g["bqd_fh"] == "sem_classificacao", "valor"].sum() / tot, 4) if tot else None,
-                       "parcela_valor_bqd_vdem": round(g.loc[g["bqd_vdem"] == "BQD", "valor"].sum() / tot, 4) if tot else None,
-                       "principais_destinos": "; ".join(f"{p} {v / tot:.0%}" for p, v in top.items()) if tot else ""})
+        s = g[g["linha_de_apoio"].str.contains("engenharia")]
+        tot = s["valor"].sum()
+        top = s.groupby("pais_iso3")["valor"].sum().sort_values(ascending=False).head(5)
+        cl = g[g["bqd_fh"] != "sem_classificacao"]
+        topn = g["pais_iso3"].value_counts().head(5)
+        linhas.append({"governo": gov, "n_operacoes": len(g), "n_com_indice_fh": len(cl),
+                       "parcela_operacoes_bqd_fh": round((cl["bqd_fh"] == "BQD").mean(), 4) if len(cl) else None,
+                       "parcela_operacoes_bqd_vdem": round((g.loc[g["bqd_vdem"] != "sem_classificacao", "bqd_vdem"] == "BQD").mean(), 4),
+                       "principais_destinos_por_operacoes": "; ".join(f"{p} {n / len(g):.0%}" for p, n in topn.items()),
+                       "n_servicos_engenharia": len(s), "valor_servicos_engenharia_usd": round(tot, 2),
+                       "parcela_valor_servicos_bqd_fh": round(s.loc[s["bqd_fh"] == "BQD", "valor"].sum() / tot, 4) if tot else None,
+                       "parcela_valor_servicos_bqd_vdem": round(s.loc[s["bqd_vdem"] == "BQD", "valor"].sum() / tot, 4) if tot else None,
+                       "principais_destinos_servicos_por_valor": "; ".join(f"{p} {v / tot:.0%}" for p, v in top.items()) if tot else ""})
     ordem = {g: i for i, g in enumerate(sorted(b["governo"].unique(), key=lambda s: s[-10:]))}
     return pd.DataFrame(linhas).sort_values("governo", key=lambda s: s.map(ordem))
 

@@ -198,6 +198,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_tse(base)
     linhas += _linhas_e9(base)
     linhas += _linhas_simetria(base)
+    linhas += _linhas_eixo2()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -439,6 +440,29 @@ def _linhas_e9(base: Path) -> list[str]:
         "- Réus sem correspondência única com a base entram como ator novo, com tipo provisório; a ligação do réu Carlos Alberto Rodrigues Pinto "
         "ao deputado Carlos Rodrigues é decisão manual a conferir.",
         "- Status de pessoas filiadas ainda sem verificação de simetria: aparecem como aviso do validador e não vão a relatório (D-007).",
+        "",
+    ]
+
+
+def _linhas_eixo2() -> list[str]:
+    """Métricas do eixo 2 por governo (D-053)."""
+    if not (RAIZ / "relatorios" / "tabelas" / "eixo2_votos_por_governo.csv").exists():
+        return []
+    return [
+        "### Eixo 2: métricas por governo (D-053)", "",
+        "- Votos: o Brasil só vota no Conselho de Direitos Humanos quando é membro, e o número de resoluções por governo varia com isso e "
+        "com a agenda de cada ano. O país-alvo sai do título por regra; nas resoluções sobre território ocupado, o alvo é a potência "
+        "ocupante ou agressora (Rússia na Ucrânia, Israel no Território Palestino Ocupado). A comparação com democracias e com a América "
+        "Latina é a média do voto desses países nas mesmas resoluções. Voto em organismo multilateral é posição do Estado (Poder "
+        "Executivo), não de partido.",
+        "- Baixa qualidade democrática: Freedom House até 2024 e V-Dem até 2025; atos e operações de 2025-2026 ficam sem classificação "
+        "pela Freedom House (136 dos 314 acordos do governo iniciado em 2023).",
+        "- BNDES: o arquivo aberto não publica valor nas operações de exportação de bens (2.344); só as de serviços de engenharia (652, "
+        "em dólar) têm valor, e não há operação desse tipo depois de 2015. A comparação por valor cobre só os governos de 2003 a 2016; "
+        "a comparação entre todos os governos usa a contagem de operações. Parte das operações antigas não tem país de destino "
+        "identificado.",
+        "- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as "
+        "datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.",
         "",
     ]
 

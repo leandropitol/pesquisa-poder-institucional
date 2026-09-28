@@ -1,0 +1,31 @@
+recorte,governo,n_resolucoes,n_votos_validos_brasil,brasil_sim,brasil_nao,brasil_abstencao,brasil_outros,parcela_sim_brasil,media_sim_democracias,media_sim_america_latina
+"escrutínio, alvo BQD (FH)",Luiz Inácio Lula da Silva (2003-2006),15,15,8,0,7,0,0.5333,0.7174,0.5305
+"escrutínio, alvo BQD (FH)",Luiz Inácio Lula da Silva (2007-2010),18,18,8,0,10,0,0.4444,0.7833,0.4786
+"escrutínio, alvo BQD (FH)",Dilma Rousseff (2011-2014),23,23,18,0,5,0,0.7826,0.8772,0.6291
+"escrutínio, alvo BQD (FH)",Dilma Rousseff (2015-2016),5,5,3,0,2,0,0.6,0.8286,0.5783
+"escrutínio, alvo BQD (FH)",Michel Temer (2016-2018),25,24,16,0,8,1,0.6667,0.7812,0.5297
+"escrutínio, alvo BQD (FH)",Jair Messias Bolsonaro (2019-2022),70,70,51,0,19,0,0.7286,0.8589,0.6291
+"escrutínio, alvo BQD (FH)",Luiz Inácio Lula da Silva (2023-),16,14,2,0,12,2,0.1429,0.847,0.6994
+"escrutínio, alvo BQD (V-Dem)",Luiz Inácio Lula da Silva (2003-2006),15,15,8,0,7,0,0.5333,0.7174,0.5305
+"escrutínio, alvo BQD (V-Dem)",Luiz Inácio Lula da Silva (2007-2010),18,18,8,0,10,0,0.4444,0.7833,0.4786
+"escrutínio, alvo BQD (V-Dem)",Dilma Rousseff (2011-2014),23,23,18,0,5,0,0.7826,0.8772,0.6291
+"escrutínio, alvo BQD (V-Dem)",Dilma Rousseff (2015-2016),5,5,3,0,2,0,0.6,0.8286,0.5783
+"escrutínio, alvo BQD (V-Dem)",Michel Temer (2016-2018),30,29,21,0,8,1,0.7241,0.7929,0.5751
+"escrutínio, alvo BQD (V-Dem)",Jair Messias Bolsonaro (2019-2022),70,70,51,0,19,0,0.7286,0.8589,0.6291
+"escrutínio, alvo BQD (V-Dem)",Luiz Inácio Lula da Silva (2023-),26,24,7,0,17,2,0.2917,0.847,0.6796
+"escrutínio, todos os alvos",Luiz Inácio Lula da Silva (2003-2006),17,17,10,0,7,0,0.5882,0.6845,0.576
+"escrutínio, todos os alvos",Luiz Inácio Lula da Silva (2007-2010),19,19,9,0,10,0,0.4737,0.7605,0.491
+"escrutínio, todos os alvos",Dilma Rousseff (2011-2014),25,25,20,0,5,0,0.8,0.8593,0.6531
+"escrutínio, todos os alvos",Dilma Rousseff (2015-2016),6,6,4,0,2,0,0.6667,0.8386,0.6248
+"escrutínio, todos os alvos",Michel Temer (2016-2018),32,31,23,0,8,1,0.7419,0.7998,0.594
+"escrutínio, todos os alvos",Jair Messias Bolsonaro (2019-2022),73,73,52,2,19,0,0.7123,0.8549,0.6404
+"escrutínio, todos os alvos",Luiz Inácio Lula da Silva (2023-),33,31,12,0,19,2,0.3871,0.8155,0.6813
+embargo dos EUA a Cuba,Luiz Inácio Lula da Silva (2003-2006),4,4,4,0,0,0,1.0,0.9445,1.0
+embargo dos EUA a Cuba,Luiz Inácio Lula da Silva (2007-2010),4,4,4,0,0,0,1.0,0.942,1.0
+embargo dos EUA a Cuba,Dilma Rousseff (2011-2014),4,4,4,0,0,0,1.0,0.942,1.0
+embargo dos EUA a Cuba,Dilma Rousseff (2015-2016),1,1,1,0,0,0,1.0,0.9762,1.0
+embargo dos EUA a Cuba,Michel Temer (2016-2018),3,3,3,0,0,0,1.0,0.9765,1.0
+embargo dos EUA a Cuba,Jair Messias Bolsonaro (2019-2022),3,3,0,1,2,0,0.0,0.9754,0.9792
+embargo dos EUA a Cuba,Luiz Inácio Lula da Silva (2023-),3,3,3,0,0,0,1.0,0.9756,0.954
+cooperação técnica,Michel Temer (2016-2018),1,1,1,0,0,0,1.0,0.2381,0.7143
+cooperação técnica,Jair Messias Bolsonaro (2019-2022),2,2,0,2,0,0,0.0,0.1013,0.3571
