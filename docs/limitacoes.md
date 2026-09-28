@@ -76,7 +76,7 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 328 |
+| `buscas` | 329 |
 | `verificacoes_simetria` | 5 |
 | `verificacao_resultado` | 128 |
 | `universo_partidos` | 521 |
@@ -91,7 +91,7 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Buscas
 
-- 328 buscas registradas; 72 com zero resultados.
+- 329 buscas registradas; 72 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -114,7 +114,7 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
-- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 19 buscas, coleta de 2026-09-28.
+- STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 20 buscas, coleta de 2026-09-28.
 - STF, portal (aba Partes) e Corte Aberta (decisões): 37 buscas, coleta de 2026-09-26.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
@@ -240,7 +240,7 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 ### Verificação de simetria dos status da E9
 
 - 5 verificações, 128 resultados por grupo (sem_evidencia: 52; nao_verificado: 40; encontrado: 36).
-- Universo lido: lotes 1, 2, 3, 4, 5 de D-048 (499 de 660 ações penais do STF, fora 8 de janeiro; o lote 1 reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do Ministério Público no campo de réu, "OS MESMOS"), empresas (LTDA, ME, EPP) e nomes só com iniciais ficam fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado; quatro no lote 4) não entra na lista de réus. Enquanto houver lote não lido, os status de réu e de denunciado não têm verificação e seguem como aviso do validador.
+- Universo lido: lotes 1, 2, 3, 4, 5, 6 de D-048 (599 de 660 ações penais do STF, fora 8 de janeiro; o lote 1 reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do Ministério Público no campo de réu, "OS MESMOS"), empresas (LTDA, ME, EPP), entes públicos (município) e nomes só com iniciais ficam fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado) não entra na lista de réus. Enquanto houver lote não lido, os status de réu e de denunciado não têm verificação e seguem como aviso do validador.
 - Contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em parte). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em "revisar", conforme a regra da E5; partido só com ações em "revisar" fica `nao_verificado`, com a lista das ações.
 - Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em `data/curadoria/simetria_stf_ap_ligacoes.csv`. Ligação que se apoia só no prenome, ou no prenome e num nome do meio, entra como `aceita_a_conferir` quando nenhum outro parlamentar da base tem esse nome; prenome compartilhado é rejeitado; nome comum em ação com muitos réus fica `pendente`.
 - Partido é a filiação na data do primeiro julgamento de mérito, contada pela instituição exata; fusões e incorporações (por exemplo, PL antigo e PL atual) não são somadas.

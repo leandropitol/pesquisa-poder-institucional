@@ -442,8 +442,8 @@ def _linhas_simetria(base: Path) -> list[str]:
         f"- {len(vs)} verificações, {len(vr)} resultados por grupo ({'; '.join(f'{k}: {n}' for k, n in cont.items())}).",
         f"- Universo lido: lotes {', '.join(lotes)} de D-048 ({n_lidas} de {len(lista)} ações penais do STF, fora 8 de janeiro; o lote 1 "
         "reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do "
-        "Ministério Público no campo de réu, \"OS MESMOS\"), empresas (LTDA, ME, EPP) e nomes só com iniciais ficam fora. Ação sem "
-        "réu rotulado (queixa-crime, com querelante e querelado; quatro no lote 4) não entra na lista de réus. Enquanto houver lote não lido, os "
+        "Ministério Público no campo de réu, \"OS MESMOS\"), empresas (LTDA, ME, EPP), entes públicos (município) e nomes só com iniciais ficam "
+        "fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado) não entra na lista de réus. Enquanto houver lote não lido, os "
         "status de réu e de denunciado não têm verificação e seguem como aviso do validador.",
         "- Contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em "
         "parte). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto "

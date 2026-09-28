@@ -42,7 +42,7 @@ from src.validacao.validar import STATUS_COM_SIMETRIA
 
 CUR = RAIZ / "data" / "curadoria"
 RAW_STF = RAIZ / "data" / "raw" / "stf"
-NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$|MADEIREIRA )|\b(LTDA|EPP|EIRELI|S/A|S\.A\.|CIA)\b|\s-?\s?ME$")  # órgão, texto e empresa
+NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$|MADEIREIRA |MUNIC[ÍI]PIO DE |ESTADO D[OE] |UNI[ÃA]O FEDERAL)|\b(LTDA|EPP|EIRELI|S/A|S\.A\.|CIA)\b|\s-?\s?ME$")  # órgão, ente público, texto e empresa
 SCRIPT = "src.normalizacao.simetria_stf"
 FONTE_DADOS = "STF, portal (aba Partes) e Corte Aberta (decisões)"
 STATUS_ADIADOS = {"reu", "denunciado"}

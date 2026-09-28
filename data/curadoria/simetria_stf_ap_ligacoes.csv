@@ -64,7 +64,7 @@ ap,nome_partes,id_ator,decisao,motivo
 443,JACKSON BARRETO DE LIMA,ATR-000683,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
 450,JAIRO ATAÍDE VIEIRA,ATR-000001,aceita,prenome e sobrenome Ataíde do nome parlamentar estão no nome civil; mandato no período
 451,FERNANDO AFFONSO COLLOR DE MELLO,ATR-002320,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
-462,LINDOMAR BARBOSA ALVES,ATR-000914,aceita_a_conferir,Lindomar Garçon: só o prenome pouco comum coincide (Garçon não está no nome civil); único Lindomar com mandato no período
+462,LINDOMAR BARBOSA ALVES,ATR-000914,aceita,"a aba Partes da AP 925 traz o mesmo nome civil com a forma ""OU LINDOMAR GARÇON"" (revisto no lote 6)"
 465,FERNANDO AFFONSO COLLOR DE MELLO,ATR-002320,aceita,prenome e sobrenome Collor do nome parlamentar estão no nome civil; mandato no período
 466,NELSON GOETTEN DE LIMA,ATR-000942,aceita,Nelson Goetten: prenome e sobrenome pouco comum do nome civil; mandato no período
 467,JAIRO ATAÍDE VIEIRA,ATR-000001,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
@@ -214,19 +214,74 @@ ap,nome_partes,id_ator,decisao,motivo
 814,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
 824,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
 825,EDSON GONÇALVES DOS SANTOS,ATR-000850,pendente,"Edson Santos: prenome e sobrenome muito comuns em ação com 9 réus (série de ações ambientais com réus privados), sem outro elemento; ligação não feita"
+843,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+846,ALEX SANDRO ANTÔNIO MAREGA,ATR-001170,rejeitada,Sandro Alex: as palavras estão em outra ordem (o prenome do réu é Alex Sandro) e o sobrenome Marega falta
+848,EDSON GONÇALVES DOS SANTOS,ATR-000850,pendente,"Edson Santos: prenome e sobrenome muito comuns na série de ações ambientais com réus privados (APs 795 e 825), sem outro elemento; ligação não feita"
+849,LUIZ CARLOS FAVERO,ATR-001194,rejeitada,"Luiz Carlos: só prenomes, compartilhados por mais de um parlamentar da base"
+849,MARCO ANTONIO FRANCA DE PAULA,ATR-002338,rejeitada,"Marco Antonio: só prenomes, compartilhados por mais de um parlamentar da base"
+850,URZENI DA ROCHA FREITAS FILHO,ATR-000981,aceita,Urzeni Rocha: prenome pouco comum e sobrenome do nome civil; mandato no período
+852,CARLOS ROBERTO DE CAMPOS,ATR-001254,aceita_a_conferir,Carlos Roberto: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+853,JOSÉ FRANCISCO CERQUEIRA TENÓRIO,ATR-000898,aceita,Francisco Tenório: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+854,ROMARIO DE SOUZA FARIA,ATR-001146,aceita,"Romário: nome parlamentar de uma palavra igual ao prenome pouco comum, único na base; mandato no período"
+855,MÁRCIO HENRIQUE JUNQUEIRA PEREIRA,ATR-000927,aceita,Marcio Junqueira: prenome e sobrenome do nome civil; mandato no período
+856,URZENI DA ROCHA FREITAS FILHO OU URZENIR DA ROCHA FREITAS FILHO OU URZENIR DA ROCHA FREITAS,ATR-000981,aceita,Urzeni Rocha: prenome pouco comum e sobrenome do nome civil; mandato no período
+857,URZENI DA ROCHA FREITAS FILHO OU URZENIR DA ROCHA FREITAS FILHO,ATR-000981,aceita,Urzeni Rocha: prenome pouco comum e sobrenome do nome civil; mandato no período
+859,MÁRCIO HENRIQUE JUNQUEIRA PEREIRA,ATR-000927,aceita,Marcio Junqueira: prenome e sobrenome do nome civil; mandato no período
+866,JOSÉ WELLINGTON BARROSO DE ARAÚJO DIAS,ATR-002467,aceita,Wellington Dias: nome do meio e último sobrenome do nome civil; mandato no período
+867,ANTHONY WILLIAM GAROTINHO MATHEUS DE OLIVEIRA,ATR-001089,aceita,Anthony Garotinho: prenome e sobrenome pouco comum do nome civil; mandato no período
+870,URZENI DA ROCHA FREITAS FILHO,ATR-000981,aceita,Urzeni Rocha: prenome pouco comum e sobrenome do nome civil; mandato no período
+871,RODRIGO HENRIQUE GOMES DE OLIVEIRA SROUR,ATR-000021,rejeitada,Henrique Oliveira: o prenome Rodrigo falta e o sobrenome é comum
+872,CARLOS ALBERTO PEREIRA DA COSTA,ATR-000737,rejeitada,"Dr. Carlos Alberto: só prenomes, compartilhados por mais de um parlamentar da base"
+876,CARLOS ALEXANDRE DE SOUZA ROCHA,ATR-000192,rejeitada,Carlos Souza: o último sobrenome (Rocha) é outro e o nome é comum
+878,ANDRE LUIS PAULA SANTOS,ATR-000516,aceita_a_conferir,"André de Paula: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
 880,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,aceita_a_conferir,Professor Sérgio de Oliveira: prenome e sobrenome Oliveira coincidem (Cunha não está no nome parlamentar); mandato no período
+881,JOÃO CALDAS DA SILVA,ATR-000562,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
+881,MARCO ANTÔNIO LOPES,ATR-002338,rejeitada,"Marco Antonio: só prenomes, compartilhados por mais de um parlamentar da base"
 883,IZALCI LUCAS FERREIRA,ATR-000007,aceita,nome parlamentar de uma palavra igual ao prenome pouco comum Izalci; mandato no período
+885,ANTHONY WILLIAM GAROTINHO MATHEUS DE OLIVEIRA,ATR-001089,aceita,Anthony Garotinho: prenome e sobrenome pouco comum do nome civil; mandato no período
+887,JÂNIO NATAL ANDRADE BORGES,ATR-001224,aceita_a_conferir,"Jânio Natal: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
+890,PAULO CESAR JUSTO QUARTIERO,ATR-001009,rejeitada,Dr. Paulo César: só prenomes; outro parlamentar tem prenome e sobrenome pouco comum
+890,PAULO CESAR JUSTO QUARTIERO,ATR-001217,aceita,Paulo Cesar Quartiero: prenome e sobrenome pouco comum; mandato no período
 892,JACOB ALFREDO STOFFELS KAEFER,ATR-000885,aceita,Alfredo Kaefer: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+897,ANTHONY WILLIAM GAROTINHO MATHEUS DE OLIVEIRA,ATR-001089,aceita,Anthony Garotinho: prenome e sobrenome pouco comum do nome civil; mandato no período
+902,DOMINGOS SÁVIO PEDROSO DE BARROS,ATR-001230,aceita_a_conferir,Domingos Sávio: só o prenome coincide; nenhum outro parlamentar da base tem esse prenome; mandato no período
+905,EDSON MOREIRA DA SILVA,ATR-001371,aceita,Delegado Edson Moreira: Delegado é título; prenome e sobrenome do nome civil; mandato no período
+907,JOAO ALBERTO FRAGA SILVA,ATR-000098,aceita,Alberto Fraga: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+911,JOAO ALBERTO FRAGA SILVA,ATR-000098,aceita,Alberto Fraga: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+912,VENEZIANO VITAL DO REGO SEGUNDO NETO,ATR-001391,aceita,Veneziano Vital do Rêgo: prenome pouco comum e sobrenomes seguidos do nome civil; mandato no período
+914,MARCOS JOSÉ REÁTEGUI DE SOUZA,ATR-001330,aceita,Marcos Reátegui: prenome e sobrenome pouco comum do nome civil; mandato no período
+915,MARIA AUXILIADORA SEABRA REZENDE,ATR-001188,aceita,Professora Dorinha Seabra Rezende: os dois sobrenomes do nome civil; mandato no período; mesma decisão das APs 946 e 962
 916,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome do nome civil; mandato no período
+920,BENITO DA GAMA SANTOS,ATR-000548,aceita,Benito Gama: prenome pouco comum e sobrenome do nome civil; mandato no período
+922,JOÃO CASTELO RIBEIRO GONÇALVES,ATR-000496,aceita,João Castelo: prenome e nome seguinte do nome civil; mandato no período
+922,JOÃO CASTELO RIBEIRO GONÇALVES,ATR-002193,rejeitada,João Ribeiro: Ribeiro é nome do meio; outro parlamentar tem prenome e nome seguinte
 924,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome do nome civil; mandato no período
+927,BENEVENUTO DACIOLO FONSECA DOS SANTOS,ATR-001416,aceita,"Cabo Daciolo: Cabo é título; sobrenome pouco comum, único na base; mandato no período"
+928,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+929,RONALDO AUGUSTO LESSA SANTOS,ATR-001323,aceita,Ronaldo Lessa: prenome e sobrenome do nome civil; mandato no período
+930,JOAO ALBERTO FRAGA SILVA,ATR-000098,aceita,Alberto Fraga: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 931,MARX BELTRÃO LIMA SIQUEIRA,ATR-001321,aceita,prenome e sobrenome Beltrão do nome parlamentar estão no nome civil; mandato no período
 932,TELMARIO MOTA DE OLIVEIRA,ATR-002521,aceita,prenome e sobrenome Mota do nome parlamentar estão no nome civil; mandato no período
+933,VENEZIANO VITAL DO REGO SEGUNDO NETO,ATR-001391,aceita,Veneziano Vital do Rêgo: prenome pouco comum e sobrenomes seguidos do nome civil; mandato no período
+936,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+939,JOÃO CASTELO RIBEIRO GONÇALVES,ATR-000496,aceita,João Castelo: prenome e nome seguinte do nome civil; mandato no período
+939,JOÃO CASTELO RIBEIRO GONÇALVES,ATR-002193,rejeitada,João Ribeiro: Ribeiro é nome do meio; outro parlamentar tem prenome e nome seguinte
+942,MARCOS JOSÉ REATEGUI DE SOUZA,ATR-001330,aceita,Marcos Reátegui: prenome e sobrenome pouco comum do nome civil; mandato no período
+945,MARCOS JOSÉ REÁTEGUI DE SOUZA,ATR-001330,aceita,Marcos Reátegui: prenome e sobrenome pouco comum do nome civil; mandato no período
 946,MARIA AUXILIADORA SEABRA REZENDE,ATR-001188,aceita,Professora Dorinha Seabra Rezende: os dois sobrenomes do nome civil; mandato no período
+949,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
+953,ANTÔNIO SÉRGIO ALVES VIDIGAL,ATR-001352,aceita,Sergio Vidigal: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 954,WHERLES FERNANDES DA ROCHA,ATR-001318,pendente,nome parlamentar de uma palavra (Rocha) é sobrenome comum; ligação não feita
+956,JOSÉ CÍCERO SOARES DE ALMEIDA,ATR-001319,aceita,Cícero Almeida: nome do meio e último sobrenome do nome civil; mandato no período
 958,NILTON BALBINO,ATR-000434,aceita_a_conferir,Nilton Capixaba: só o prenome coincide (Capixaba não está no nome civil); único Nilton com mandato no período
+959,JOÃO CASTELO RIBEIRO GONÇALVES,ATR-000496,aceita,João Castelo: prenome e nome seguinte do nome civil; mandato no período
+959,JOÃO CASTELO RIBEIRO GONÇALVES,ATR-002193,rejeitada,João Ribeiro: Ribeiro é nome do meio; outro parlamentar tem prenome e nome seguinte
+961,BENEVUTO DACIOLO,ATR-001416,aceita,"Cabo Daciolo: Cabo é título; sobrenome pouco comum, único na base; mandato no período; mesma pessoa da AP 927 (grafia do prenome diferente na aba Partes)"
 962,MARIA AUXILIADORA SEABRA REZENDE,ATR-001188,aceita,Professora Dorinha Seabra Rezende: os dois sobrenomes do nome civil; mandato no período
 965,PAULO PEREIRA DA SILVA,ATR-000949,aceita_a_conferir,Paulinho da Força: Paulinho é forma usual de Paulo; nenhum sobrenome coincide
+966,JOAO ALBERTO FRAGA SILVA,ATR-000098,aceita,Alberto Fraga: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 967,EDER MAURO CARDOSO BARRA,ATR-001386,aceita,Delegado Éder Mauro: Delegado é título; as duas palavras do nome parlamentar estão no nome civil; mandato no período
+970,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome pouco comum do nome civil; mandato no período
 976,ADALBERTO CAVALCANTI RODRIGUES,ATR-001392,aceita,prenome e sobrenome Cavalcanti do nome parlamentar estão no nome civil; mandato no período
 984,ANTÔNIO ROBERTO RODRIGUES GÓES DA SILVA,ATR-001473,aceita,Roberto Góes: nome do meio e sobrenome do nome civil; mandato no período
 987,NEWTON CARDOSO JÚNIOR,ATR-001374,aceita,Newton Cardoso Jr: Jr é abreviação de Júnior; mandato no período
