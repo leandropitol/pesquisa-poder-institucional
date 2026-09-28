@@ -33,10 +33,12 @@ import pandas as pd
 
 from src.base import RAIZ, ler
 from src.normalizacao.simetria_stf import CONDENACAO, carregar
+from src.simetria.governo_oposicao import SAIDA as TABELA_GOVERNO, grupo_na_data, ler_tabela as ler_tabela_governo
 
 LEGISLATURAS = {52: ("2003-02-01", "2007-01-31"), 53: ("2007-02-01", "2011-01-31"), 54: ("2011-02-01", "2015-01-31"),
                 55: ("2015-02-01", "2019-01-31"), 56: ("2019-02-01", "2023-01-31"), 57: ("2023-02-01", "2027-01-31")}
 SAIDA = RAIZ / "relatorios" / "tabelas" / "simetria_taxa_bancada.csv"
+SAIDA_GRUPOS = RAIZ / "relatorios" / "tabelas" / "simetria_taxa_governo_oposicao.csv"
 
 
 def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
@@ -116,6 +118,43 @@ def tabela(p: pd.DataFrame, m: pd.DataFrame, sigla: dict) -> pd.DataFrame:
     return t.sort_values(["legislatura", "bancada"], ascending=[True, False])
 
 
+def tabela_grupos(cargos: pd.DataFrame, filiacoes: pd.DataFrame, lig: dict, lista: pd.DataFrame, gov: pd.DataFrame) -> pd.DataFrame:
+    """Taxa por grupo (governo, oposição, nenhum, sem classificação), D-050/D-051. Unidade: parlamentar x trecho (mandato
+    presidencial x ano civil), porque o grupo de um partido muda de um trecho para outro. Denominador: quem exerceu mandato
+    no trecho, com o grupo do seu partido no início do trecho; numerador: quem é réu em ação do eixo 1 autuada no trecho."""
+    segs = gov[["inicio", "fim"]].drop_duplicates().sort_values("inicio").values.tolist()
+    c = cargos[cargos["cargo"].str.startswith("Deputado") | cargos["cargo"].str.startswith("Senador (titular)")]
+    fil = filiacoes.sort_values("data_inicio")
+    reus = {}
+    for (ap, _n), atores in lig.items():
+        l = lista.loc[ap]
+        if l["universo"] != "sim":
+            continue
+        for a, _d in atores:
+            reus.setdefault(a, []).append(l["data_autuacao"])
+    linhas = []
+    for _, r in c.iterrows():
+        fim_c = r["data_fim"] or "9999-12-31"
+        for ini, fim in segs:
+            if r["data_inicio"] <= fim and fim_c >= ini:
+                d = max(r["data_inicio"], ini)
+                f = fil[(fil["id_ator"] == r["id_ator"]) & (fil["data_inicio"] <= d)]
+                vig = f[(f["data_fim"] == "") | (f["data_fim"] >= d)]
+                f = vig if len(vig) else f
+                p = f["id_partido"].iloc[-1] if len(f) else ""
+                linhas.append({"id_ator": r["id_ator"], "inicio": ini, "fim": fim, "grupo": grupo_na_data(gov, p, d) if p else "sem_partido",
+                               "reu": any(ini <= x <= fim for x in reus.get(r["id_ator"], []))})
+    u = pd.DataFrame(linhas).drop_duplicates(["id_ator", "inicio"])
+    saida = []
+    for rotulo, sub in (("2003-2019 (antes da restrição do foro)", u[u["inicio"] < "2019-02-01"]), ("2003-2026", u)):
+        for g, x in sub.groupby("grupo"):
+            k, n = int(x["reu"].sum()), len(x)
+            a, b = wilson(k, n)
+            saida.append({"periodo": rotulo, "grupo": g, "parlamentar_ano": n, "n_reu": k, "taxa_reu": round(k / n, 4),
+                          "ic95_inf": round(a, 4), "ic95_sup": round(b, 4)})
+    return pd.DataFrame(saida)
+
+
 def run() -> None:
     c = carregar()
     if not c["todos_lotes"]:
@@ -133,6 +172,11 @@ def run() -> None:
     print(tot[tot["bancada"] >= 30][["sigla", "bancada", "n_reu", "taxa_reu", "ic95_reu_inf", "ic95_reu_sup", "n_condenacao", "taxa_reu_sem_a_conferir",
                                     "taxa_reu_com_revisar"]].sort_values("taxa_reu", ascending=False).to_string(index=False))
     print(f"-> {SAIDA.relative_to(RAIZ)}")
+    if TABELA_GOVERNO.exists():
+        g = tabela_grupos(c["cargos"], c["filiacoes"], c["lig"], c["lista"], ler_tabela_governo())
+        g.to_csv(SAIDA_GRUPOS, index=False, lineterminator="\n")
+        print(g.to_string(index=False))
+        print(f"-> {SAIDA_GRUPOS.relative_to(RAIZ)}")
 
 
 if __name__ == "__main__":

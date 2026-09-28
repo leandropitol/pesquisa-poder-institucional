@@ -460,7 +460,12 @@ def _linhas_simetria(base: Path) -> list[str]:
         "ação com muitos réus fica `pendente`.",
         "- Partido é contado pela instituição exata da filiação na data; fusões e incorporações (por "
         "exemplo, PL antigo e PL atual) não são somadas.",
-        "- Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data.",
+        "- Governo e oposição (D-050, D-051): na primeira versão das verificações ficaram `nao_verificado`; a segunda versão, datada, "
+        "classifica o partido do réu na data do caso pelas orientações de bancada no Plenário da Câmara (concordância com o Governo "
+        "de 2/3 ou mais: base; abaixo de 1/2: oposição). A classificação mede alinhamento em votação, não participação formal na "
+        "coalizão (ministérios); orientação de liderança não é o voto de cada deputado; o Senado não entra. Blocos são decompostos "
+        "pelo nome (D-051), o que amplia a cobertura mas atribui a orientação do bloco a cada membro; a partir de 2023 blocos "
+        "grandes juntam partidos de posições diferentes. A regra sem blocos fica em coluna própria para comparação.",
         "- Taxa por bancada (D-049, `relatorios/tabelas/simetria_taxa_bancada.csv`): suplentes de senador ficam fora do denominador e do "
         "numerador, porque a base só os lista, sem o período em que exerceram o mandato; parlamentares ligados a réus que só aparecem como "
         "suplentes de senador não entram na taxa. A queda da taxa a partir da legislatura 56 acompanha a restrição do foro por prerrogativa "

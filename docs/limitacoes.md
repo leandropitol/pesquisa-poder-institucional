@@ -76,9 +76,9 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 367 |
-| `verificacoes_simetria` | 20 |
-| `verificacao_resultado` | 458 |
+| `buscas` | 419 |
+| `verificacoes_simetria` | 39 |
+| `verificacao_resultado` | 888 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -91,8 +91,9 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Buscas
 
-- 367 buscas registradas; 87 com zero resultados.
+- 419 buscas registradas; 87 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
+- Câmara dos Deputados, dados abertos (arquivos anuais): 48 buscas, coleta de 2026-09-28.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
@@ -116,6 +117,7 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
 - STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 21 buscas, coleta de 2026-09-28.
 - STF, portal (aba Partes) e Corte Aberta (decisões): 74 buscas, coleta de 2026-09-28.
+- STF, portal (aba Partes) e Corte Aberta (decisões); Câmara, orientações de bancada (D-050/D-051): 4 buscas, coleta de 2026-09-28.
 - Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -239,12 +241,12 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Verificação de simetria dos status da E9
 
-- 20 verificações, 458 resultados por grupo (encontrado: 261; sem_evidencia: 127; nao_verificado: 70).
+- 39 verificações, 888 resultados por grupo (encontrado: 560; sem_evidencia: 254; nao_verificado: 74).
 - Universo lido: lotes 1, 2, 3, 4, 5, 6, 7 de D-048 (660 de 660 ações penais do STF, fora 8 de janeiro; o lote 1 reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do Ministério Público no campo de réu, "OS MESMOS"), empresas (LTDA, ME, EPP), entes públicos (município) e nomes só com iniciais ficam fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado) não entra na lista de réus. Com todos os lotes lidos, os status de réu têm verificação própria (padrão de réu, abaixo).
 - Padrão de condenação: contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em parte), partido na data do primeiro julgamento de mérito. Padrão de réu: todas as ações do eixo 1 em que o parlamentar é réu, partido na data de autuação da ação; ação penal no STF não mostra quando cada pessoa passou a réu. O status de denunciado não tem padrão lido (denúncia oferecida fica no inquérito, fora da lista de ações penais). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em "revisar", conforme a regra da E5; partido só com ações em "revisar" fica `nao_verificado`, com a lista das ações.
 - Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em `data/curadoria/simetria_stf_ap_ligacoes.csv`. Ligação que se apoia só no prenome, ou no prenome e num nome do meio, entra como `aceita_a_conferir` quando nenhum outro parlamentar da base tem esse nome; prenome compartilhado é rejeitado; nome comum em ação com muitos réus fica `pendente`.
 - Partido é contado pela instituição exata da filiação na data; fusões e incorporações (por exemplo, PL antigo e PL atual) não são somadas.
-- Governo e oposição ficam `nao_verificado`: a base não tem a composição da base do governo por data.
+- Governo e oposição (D-050, D-051): na primeira versão das verificações ficaram `nao_verificado`; a segunda versão, datada, classifica o partido do réu na data do caso pelas orientações de bancada no Plenário da Câmara (concordância com o Governo de 2/3 ou mais: base; abaixo de 1/2: oposição). A classificação mede alinhamento em votação, não participação formal na coalizão (ministérios); orientação de liderança não é o voto de cada deputado; o Senado não entra. Blocos são decompostos pelo nome (D-051), o que amplia a cobertura mas atribui a orientação do bloco a cada membro; a partir de 2023 blocos grandes juntam partidos de posições diferentes. A regra sem blocos fica em coluna própria para comparação.
 - Taxa por bancada (D-049, `relatorios/tabelas/simetria_taxa_bancada.csv`): suplentes de senador ficam fora do denominador e do numerador, porque a base só os lista, sem o período em que exerceram o mandato; parlamentares ligados a réus que só aparecem como suplentes de senador não entram na taxa. A queda da taxa a partir da legislatura 56 acompanha a restrição do foro por prerrogativa de função no STF (maio de 2018), não uma mudança medida de conduta; a comparação entre partidos usa as legislaturas 52 a 55. Os intervalos de 95% se sobrepõem para a maior parte dos partidos: diferenças pequenas entre taxas não são distinguíveis com esses números. O intervalo supõe pares independentes, o que não vale quando o mesmo parlamentar aparece em várias legislaturas.
 - O status de Eduardo Azeredo no TJMG fica `nao_verificado` em todos os grupos: não há universo lido de ações penais estaduais.
 

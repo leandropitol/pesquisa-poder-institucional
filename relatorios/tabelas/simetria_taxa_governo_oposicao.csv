@@ -1,0 +1,11 @@
+periodo,grupo,parlamentar_ano,n_reu,taxa_reu,ic95_inf,ic95_sup
+2003-2019 (antes da restrição do foro),governo,9606,108,0.0112,0.0093,0.0136
+2003-2019 (antes da restrição do foro),nenhum,1112,13,0.0117,0.0068,0.0199
+2003-2019 (antes da restrição do foro),oposicao,2025,22,0.0109,0.0072,0.0164
+2003-2019 (antes da restrição do foro),sem_classificacao,78,3,0.0385,0.0132,0.1071
+2003-2019 (antes da restrição do foro),sem_partido,10,0,0.0,0.0,0.2775
+2003-2026,governo,13045,108,0.0083,0.0069,0.01
+2003-2026,nenhum,1112,13,0.0117,0.0068,0.0199
+2003-2026,oposicao,2982,22,0.0074,0.0049,0.0111
+2003-2026,sem_classificacao,529,4,0.0076,0.0029,0.0193
+2003-2026,sem_partido,11,0,0.0,0.0,0.2588

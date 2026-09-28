@@ -39,6 +39,7 @@ from src.base import RAIZ, RegistroIds, acrescentar, ler
 from src.coleta.comum import sha256
 from src.normalizacao.stf import universo as universo_stf
 from src.normalizacao.tse import PALAVRAS_VAZIAS, norm, palavras
+from src.simetria.governo_oposicao import SAIDA as TABELA_GOVERNO, grupo_na_data, ler_tabela as ler_tabela_governo
 from src.validacao.validar import STATUS_COM_SIMETRIA
 
 CUR = RAIZ / "data" / "curadoria"
@@ -56,7 +57,9 @@ PADRAO = ("Ação penal originária no STF, com assunto do eixo 1 pela regra da 
 PADRAO_REU = ("Ação penal originária no STF, com assunto do eixo 1 pela regra da E5, com réu que é parlamentar federal da base "
               "(aba Partes das 660 ações penais com decisão no Corte Aberta, fora as de 8 de janeiro de 2023; lotes 1 a 7 de D-048), "
               "2003 a 2026; partido = filiação do réu na data de autuação da ação")
-SEM_GOVERNO ="A base não tem a composição da base do governo e da oposição por data; grupo não verificado"
+PADRAO_GRUPOS = ("; governo e oposição = classificação do partido do réu na mesma data pelas orientações de bancada da Câmara "
+                 "(D-050, com blocos decompostos por D-051; relatorios/tabelas/governo_oposicao_partidos.csv)")
+SEM_GOVERNO = "A base não tem a composição da base do governo e da oposição por data; grupo não verificado"
 SEM_UNIVERSO = ("Status em tribunal estadual (TJMG): não há universo lido de ações penais estaduais com réu parlamentar para "
                 "comparar partidos (D-048)")
 
@@ -151,9 +154,10 @@ def partido_na_data(filiacoes: pd.DataFrame, ator: str, data: str) -> set[str]:
 
 
 def casos_por_partido(lig: dict, lista: pd.DataFrame, filiacoes: pd.DataFrame, id_proc: dict,
-                      so_condenacao: bool = True, campo_data: str = "data_primeiro_julgamento") -> dict[str, dict[str, set[str]]]:
+                      so_condenacao: bool = True, campo_data: str = "data_primeiro_julgamento", grupo_de=None) -> dict[str, dict[str, set[str]]]:
     """universo da ação (sim, revisar, nao) -> partido -> processos. Padrão de condenação: só ações com condenação,
-    partido na data do primeiro julgamento de mérito; padrão de réu: todas as ações, partido na data de autuação."""
+    partido na data do primeiro julgamento de mérito; padrão de réu: todas as ações, partido na data de autuação.
+    Com `grupo_de(partido, data)`, a chave passa a ser o grupo do partido na data (governo, oposição...), D-050/D-051."""
     casos = defaultdict(lambda: defaultdict(set))
     for (ap, _n), atores in lig.items():
         l = lista.loc[ap]
@@ -161,7 +165,7 @@ def casos_por_partido(lig: dict, lista: pd.DataFrame, filiacoes: pd.DataFrame, i
             continue
         for a, _d in atores:
             for p in partido_na_data(filiacoes, a, l[campo_data]):
-                casos[l["universo"]][p].add(id_proc[ap])
+                casos[l["universo"]][grupo_de(p, l[campo_data]) if grupo_de else p].add(id_proc[ap])
     return casos
 
 
@@ -212,6 +216,32 @@ def run() -> None:
                 buscas.append({"id_busca": i, "data": hoje, "fonte_dados": FONTE_DADOS, "consulta": texto.format(s=sigla.get(p, p), p=p),
                                "parametros_json": json.dumps({**par, "id_partido": p}, ensure_ascii=False, sort_keys=True),
                                "n_resultados": str(len(por_u["sim"].get(p, ()))), "sha256_resposta": sha, "caminho_raw": arq, "script": SCRIPT})
+    # governo e oposição (D-050/D-051): grupo do partido do réu na data do caso; ativa a segunda versão das verificações
+    por_grupo = {}
+    if TABELA_GOVERNO.exists():
+        tab = ler_tabela_governo()
+        memo = {}
+
+        def grupo(p: str, d: str) -> str:
+            if (p, d) not in memo:
+                memo[(p, d)] = grupo_na_data(tab, p, d)
+            return memo[(p, d)]
+
+        por_grupo = {"condenacao": casos_por_partido(lig, lista, filiacoes, id_proc, grupo_de=grupo)}
+        if todos_lotes:
+            por_grupo["reu"] = casos_por_partido(lig, lista, filiacoes, id_proc, so_condenacao=False, campo_data="data_autuacao", grupo_de=grupo)
+        for nome, por_g in por_grupo.items():
+            _st, _pu, chave, texto, arq, sha, par, _pd = padroes[nome]
+            for g in ("governo", "oposicao"):
+                i = ids.obter("buscas", f"{SCRIPT}|{chave}|grupo:{g}")
+                busca_de[(nome, g)] = i
+                if i not in existentes_b:
+                    rotulo = "base do governo" if g == "governo" else "oposição"
+                    buscas.append({"id_busca": i, "data": hoje, "fonte_dados": FONTE_DADOS + "; Câmara, orientações de bancada (D-050/D-051)",
+                                   "consulta": texto.replace("filiado a {s} ({p})", f"de partido classificado como {rotulo}").format(),
+                                   "parametros_json": json.dumps({**par, "grupo": g, "tabela": TABELA_GOVERNO.relative_to(RAIZ).as_posix()},
+                                                                 ensure_ascii=False, sort_keys=True),
+                                   "n_resultados": str(len(por_g["sim"].get(g, ()))), "sha256_resposta": sha, "caminho_raw": arq, "script": SCRIPT})
     status = ler("status_pessoa_processo")
     trib = dict(zip(proc["id_processo"], proc["id_tribunal"]))
     stf = ids.obter("instituicoes", "orgao:STF")
@@ -222,26 +252,30 @@ def run() -> None:
     for nome, s in alvo:
         _st, por_u, _c, _t, _a, _s, _p, padrao = padroes[nome]
         casos, revisar = por_u["sim"], por_u["revisar"]
-        v = ids.obter("verificacoes_simetria", f"{SCRIPT}|status_pessoa_processo|{s['id_status']}")
+        no_stf = trib.get(s["id_processo"]) == stf
+        # segunda versão (com governo e oposição) só para status no STF; a primeira fica no histórico (D-050)
+        v2 = no_stf and nome in por_grupo
+        v = ids.obter("verificacoes_simetria", f"{SCRIPT}|{'v2|' if v2 else ''}status_pessoa_processo|{s['id_status']}")
         if v in existentes_v:
             continue
         ano = s["data"][:4]
-        no_stf = trib.get(s["id_processo"]) == stf
         vs.append({"id_verificacao": v, "achado_tabela": "status_pessoa_processo", "achado_id": s["id_status"],
-                   "padrao_buscado": padrao if no_stf else "Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base",
+                   "padrao_buscado": (padrao + (PADRAO_GRUPOS if v2 else "")) if no_stf
+                   else "Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base",
                    "ano_referencia": ano, "data": hoje, "script": SCRIPT})
         grupos = [("partido", p) for p in sorted(universo.loc[universo["ano"] == ano, "id_partido"])] + [("governo", "governo"), ("oposicao", "oposicao")]
         for tipo, g in grupos:
             linha = {"id_resultado": ids.obter("verificacao_resultado", f"{v}|{g}"), "id_verificacao": v, "grupo_tipo": tipo, "grupo_id": g}
-            if tipo != "partido":
-                linha.update(resultado="nao_verificado", justificativa=SEM_GOVERNO)
+            c_g, r_g = (casos, revisar) if tipo == "partido" else (por_grupo[nome]["sim"], por_grupo[nome]["revisar"]) if v2 else ({}, {})
+            if tipo != "partido" and not v2:
+                linha.update(resultado="nao_verificado", justificativa=SEM_GOVERNO if no_stf else SEM_UNIVERSO)
             elif not no_stf:
                 linha.update(resultado="nao_verificado", justificativa=SEM_UNIVERSO)
-            elif casos.get(g):
-                linha.update(resultado="encontrado", n_casos=str(len(casos[g])), ids_encontrados=";".join(sorted(casos[g])), id_busca=busca_de[(nome, g)])
-            elif revisar.get(g):
+            elif c_g.get(g):
+                linha.update(resultado="encontrado", n_casos=str(len(c_g[g])), ids_encontrados=";".join(sorted(c_g[g])), id_busca=busca_de[(nome, g)])
+            elif r_g.get(g):
                 linha.update(resultado="nao_verificado", id_busca=busca_de[(nome, g)],
-                             justificativa=f"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: {';'.join(sorted(revisar[g]))}")
+                             justificativa=f"Sem ação do eixo 1, mas com ação de assunto a revisar na regra da E5: {';'.join(sorted(r_g[g]))}")
             else:
                 linha.update(resultado="sem_evidencia", n_casos="0", id_busca=busca_de[(nome, g)])
             vr.append(linha)

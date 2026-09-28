@@ -1,0 +1,552 @@
+id_partido,sigla,presidente,inicio,fim,n_votacoes,n_concorda,n_via_bloco,concordancia,grupo,concordancia_obstrucao_como_nao,grupo_obstrucao_como_nao,concordancia_sem_blocos,grupo_sem_blocos
+INS-000059,PP,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,28,28,0,1.0,governo,1.0,governo,1.0,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,28,28,0,1.0,governo,1.0,governo,1.0,governo
+INS-000064,PL,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,28,28,25,1.0,governo,1.0,governo,1.0,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,28,28,0,1.0,governo,1.0,governo,1.0,governo
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,27,27,0,1.0,governo,1.0,governo,1.0,governo
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,27,27,0,1.0,governo,1.0,governo,1.0,governo
+INS-000082,PSL,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,25,25,25,1.0,governo,1.0,governo,,sem_classificacao
+INS-000085,PSC,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,6,6,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000087,MOBILIZA,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000090,PT,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,28,28,0,1.0,governo,1.0,governo,1.0,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,28,28,0,1.0,governo,1.0,governo,1.0,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,26,26,0,1.0,governo,1.0,governo,1.0,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,27,26,0,0.963,governo,0.963,governo,0.963,governo
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,25,15,0,0.6,nenhum,0.5714,nenhum,0.6,nenhum
+INS-000070,DEM,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,18,7,0,0.3889,oposicao,0.4643,oposicao,0.3889,oposicao
+INS-000067,PRONA,Luiz Inácio Lula da Silva,2003-01-01,2003-12-31,26,8,0,0.3077,oposicao,0.3571,oposicao,0.3077,oposicao
+INS-000059,PP,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,57,57,0,1.0,governo,0.9844,governo,1.0,governo
+INS-000064,PL,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,63,63,65,1.0,governo,1.0,governo,,sem_classificacao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,61,61,0,1.0,governo,1.0,governo,1.0,governo
+INS-000082,PSL,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,63,63,65,1.0,governo,1.0,governo,,sem_classificacao
+INS-000090,PT,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,64,64,0,1.0,governo,1.0,governo,1.0,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,64,64,0,1.0,governo,1.0,governo,1.0,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,64,63,0,0.9844,governo,0.9844,governo,0.9844,governo
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,63,61,0,0.9683,governo,0.9688,governo,0.9683,governo
+INS-000075,MDB,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,60,58,0,0.9667,governo,0.9677,governo,0.9667,governo
+INS-000085,PSC,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,60,58,0,0.9667,governo,0.9667,governo,0.9667,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,63,58,0,0.9206,governo,0.9206,governo,0.9206,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,60,53,0,0.8833,governo,0.873,governo,0.8833,governo
+INS-000070,DEM,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,24,12,1,0.5,nenhum,0.6667,governo,0.5,nenhum
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,28,13,0,0.4643,oposicao,0.625,nenhum,0.4643,oposicao
+INS-000067,PRONA,Luiz Inácio Lula da Silva,2004-01-01,2004-12-31,26,6,1,0.2308,oposicao,0.5088,nenhum,0.2308,oposicao
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,4,4,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000085,PSC,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,12,12,0,1.0,governo,1.0,governo,1.0,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,43,43,0,1.0,governo,1.0,governo,1.0,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,43,43,0,1.0,governo,1.0,governo,1.0,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,40,39,0,0.975,governo,0.975,governo,0.975,governo
+INS-000075,MDB,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,39,38,0,0.9744,governo,0.9744,governo,0.9744,governo
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,43,41,0,0.9535,governo,0.9535,governo,0.9535,governo
+INS-000082,PSL,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,21,20,22,0.9524,governo,0.9524,governo,,sem_classificacao
+INS-000064,PL,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,39,37,22,0.9487,governo,0.9487,governo,0.9444,governo
+INS-000059,PP,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,41,38,0,0.9268,governo,0.9268,governo,0.9268,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,27,22,0,0.8148,governo,0.825,governo,0.8148,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,30,23,0,0.7667,governo,0.7857,governo,0.7667,governo
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,30,22,0,0.7333,governo,0.7674,governo,0.7333,governo
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,11,8,0,0.7273,governo,0.7857,governo,0.7273,governo
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,28,15,0,0.5357,nenhum,0.6667,governo,0.5357,nenhum
+INS-000067,PRONA,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,28,14,0,0.5,nenhum,0.6,nenhum,0.5,nenhum
+INS-000070,DEM,Luiz Inácio Lula da Silva,2005-01-01,2005-12-31,27,12,0,0.4444,oposicao,0.5952,nenhum,0.4444,oposicao
+INS-000061,AGIR,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,14,14,0,1.0,governo,1.0,governo,1.0,governo
+INS-000064,PL,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,36,36,0,1.0,governo,1.0,governo,1.0,governo
+INS-000085,PSC,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,27,27,0,1.0,governo,1.0,governo,1.0,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,37,37,0,1.0,governo,1.0,governo,1.0,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,37,36,0,0.973,governo,0.973,governo,0.973,governo
+INS-000059,PP,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,36,35,0,0.9722,governo,0.9722,governo,0.9722,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,36,35,0,0.9722,governo,0.9722,governo,0.9722,governo
+INS-000075,MDB,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,36,34,0,0.9444,governo,0.9444,governo,0.9444,governo
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,36,32,0,0.8889,governo,0.8889,governo,0.8889,governo
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,12,10,0,0.8333,governo,0.8333,governo,0.8333,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,33,23,0,0.697,governo,0.6667,governo,0.697,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,35,24,0,0.6857,governo,0.6667,governo,0.6857,governo
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,34,23,0,0.6765,governo,0.6571,nenhum,0.6765,governo
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,36,24,0,0.6667,governo,0.6486,nenhum,0.6667,governo
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,31,18,0,0.5806,nenhum,0.5946,nenhum,0.5806,nenhum
+INS-000067,PRONA,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,25,14,0,0.56,nenhum,0.5714,nenhum,0.56,nenhum
+INS-000070,DEM,Luiz Inácio Lula da Silva,2006-01-01,2006-12-31,29,15,0,0.5172,nenhum,0.5676,nenhum,0.5172,nenhum
+INS-000069,PAN,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,43,43,47,1.0,governo,1.0,governo,,sem_classificacao
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,2,2,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000090,PT,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,89,89,10,1.0,governo,1.0,governo,1.0,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,86,85,50,0.9884,governo,0.9884,governo,1.0,governo
+INS-000059,PP,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,87,85,10,0.977,governo,0.977,governo,0.9744,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,85,83,0,0.9765,governo,0.9765,governo,0.9765,governo
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,83,81,90,0.9759,governo,0.9759,governo,,sem_classificacao
+INS-000087,MOBILIZA,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,83,81,90,0.9759,governo,0.9759,governo,,sem_classificacao
+INS-000089,PDT,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,83,81,90,0.9759,governo,0.9759,governo,,sem_classificacao
+INS-000091,PSB,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,83,81,90,0.9759,governo,0.9759,governo,,sem_classificacao
+INS-000060,PHS,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,80,78,85,0.975,governo,0.975,governo,1.0,sem_classificacao
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,71,69,76,0.9718,governo,0.9718,governo,1.0,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,87,83,91,0.954,governo,0.954,governo,,sem_classificacao
+INS-000085,PSC,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,87,83,91,0.954,governo,0.954,governo,,sem_classificacao
+INS-000061,AGIR,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,78,74,81,0.9487,governo,0.9487,governo,,sem_classificacao
+INS-000068,PL,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,87,82,10,0.9425,governo,0.9425,governo,0.9359,governo
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,80,47,0,0.5875,nenhum,0.5882,nenhum,0.5875,nenhum
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,68,28,1,0.4118,oposicao,0.4318,oposicao,0.403,oposicao
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,61,24,1,0.3934,oposicao,0.4659,oposicao,0.3833,oposicao
+INS-000070,DEM,Luiz Inácio Lula da Silva,2007-01-01,2007-12-31,43,11,0,0.2558,oposicao,0.4659,oposicao,0.2558,oposicao
+INS-000060,PHS,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,20,20,0,1.0,governo,1.0,governo,1.0,governo
+INS-000061,AGIR,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,82,82,83,1.0,governo,1.0,governo,,sem_classificacao
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,5,5,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,82,82,83,1.0,governo,1.0,governo,,sem_classificacao
+INS-000085,PSC,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,71,71,33,1.0,governo,0.9867,governo,1.0,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,82,82,0,1.0,governo,1.0,governo,1.0,governo
+INS-000096,PRTB,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,2,2,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000068,PL,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,83,82,0,0.988,governo,0.988,governo,0.988,governo
+INS-000059,PP,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,80,79,0,0.9875,governo,0.9875,governo,0.9875,governo
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,78,77,83,0.9872,governo,0.9872,governo,,sem_classificacao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,78,77,83,0.9872,governo,0.9872,governo,,sem_classificacao
+INS-000087,MOBILIZA,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,78,77,83,0.9872,governo,0.9872,governo,,sem_classificacao
+INS-000089,PDT,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,78,77,83,0.9872,governo,0.9872,governo,,sem_classificacao
+INS-000091,PSB,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,78,77,83,0.9872,governo,0.9872,governo,,sem_classificacao
+INS-000062,PTB,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,78,75,0,0.9615,governo,0.9512,governo,0.9615,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,74,68,0,0.9189,governo,0.8902,governo,0.9189,governo
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,83,48,0,0.5783,nenhum,0.5783,nenhum,0.5783,nenhum
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,39,15,0,0.3846,oposicao,0.5875,nenhum,0.3846,oposicao
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,36,9,0,0.25,oposicao,0.5422,nenhum,0.25,oposicao
+INS-000070,DEM,Luiz Inácio Lula da Silva,2008-01-01,2008-12-31,30,7,0,0.2333,oposicao,0.5556,nenhum,0.2333,oposicao
+INS-000060,PHS,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,19,19,0,1.0,governo,1.0,governo,1.0,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,111,111,0,1.0,governo,1.0,governo,1.0,governo
+INS-000096,PRTB,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000061,AGIR,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,104,98,106,0.9423,governo,0.9423,governo,,sem_classificacao
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,100,94,113,0.94,governo,0.934,governo,,sem_classificacao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,100,94,113,0.94,governo,0.934,governo,,sem_classificacao
+INS-000087,MOBILIZA,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,100,94,113,0.94,governo,0.934,governo,,sem_classificacao
+INS-000091,PSB,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,100,94,113,0.94,governo,0.934,governo,,sem_classificacao
+INS-000089,PDT,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,97,91,0,0.9381,governo,0.9216,governo,0.9381,governo
+INS-000075,MDB,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,111,103,113,0.9279,governo,0.9279,governo,,sem_classificacao
+INS-000059,PP,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,107,99,0,0.9252,governo,0.9259,governo,0.9252,governo
+INS-000068,PL,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,108,99,0,0.9167,governo,0.9083,governo,0.9167,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,105,94,13,0.8952,governo,0.8879,governo,0.9022,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,105,94,0,0.8952,governo,0.8727,governo,0.8952,governo
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,22,19,7,0.8636,governo,0.8636,governo,0.9333,governo
+INS-000085,PSC,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,94,81,19,0.8617,governo,0.8627,governo,0.8533,governo
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,97,63,0,0.6495,nenhum,0.6667,governo,0.6495,nenhum
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,81,44,0,0.5432,nenhum,0.6071,nenhum,0.5432,nenhum
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,78,41,0,0.5256,nenhum,0.5893,nenhum,0.5256,nenhum
+INS-000070,DEM,Luiz Inácio Lula da Silva,2009-01-01,2009-12-31,69,29,0,0.4203,oposicao,0.5607,nenhum,0.4203,oposicao
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,10,10,0,1.0,governo,1.0,governo,1.0,governo
+INS-000061,AGIR,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,42,41,45,0.9762,governo,0.9762,governo,,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,42,41,45,0.9762,governo,0.9762,governo,,sem_classificacao
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,40,39,45,0.975,governo,0.975,governo,,sem_classificacao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,40,39,45,0.975,governo,0.975,governo,,sem_classificacao
+INS-000091,PSB,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,40,39,45,0.975,governo,0.975,governo,,sem_classificacao
+INS-000087,MOBILIZA,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,35,34,31,0.9714,governo,0.9714,governo,1.0,sem_classificacao
+INS-000059,PP,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,43,41,0,0.9535,governo,0.9535,governo,0.9535,governo
+INS-000068,PL,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,43,41,0,0.9535,governo,0.9535,governo,0.9535,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,42,40,0,0.9524,governo,0.9524,governo,0.9524,governo
+INS-000085,PSC,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,37,35,0,0.9459,governo,0.9459,governo,0.9459,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,39,36,0,0.9231,governo,0.9231,governo,0.9231,governo
+INS-000062,PTB,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,43,39,0,0.907,governo,0.907,governo,0.907,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,41,37,0,0.9024,governo,0.9024,governo,0.9024,governo
+INS-000060,PHS,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,24,20,0,0.8333,governo,0.8333,governo,0.8333,governo
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,37,26,0,0.7027,governo,0.7209,governo,0.7027,governo
+INS-000070,DEM,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,32,22,0,0.6875,governo,0.6829,governo,0.6875,governo
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,35,23,0,0.6571,nenhum,0.675,governo,0.6571,nenhum
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2010-01-01,2010-12-31,43,27,0,0.6279,nenhum,0.6279,nenhum,0.6279,nenhum
+INS-000090,PT,Dilma Rousseff,2011-01-01,2011-12-31,75,75,0,1.0,governo,1.0,governo,1.0,governo
+INS-000099,PSD,Dilma Rousseff,2011-01-01,2011-12-31,25,25,0,1.0,governo,1.0,governo,1.0,governo
+INS-000059,PP,Dilma Rousseff,2011-01-01,2011-12-31,74,73,1,0.9865,governo,0.9865,governo,0.9863,governo
+INS-000075,MDB,Dilma Rousseff,2011-01-01,2011-12-31,73,72,0,0.9863,governo,0.9863,governo,0.9863,governo
+INS-000062,PTB,Dilma Rousseff,2011-01-01,2011-12-31,72,71,78,0.9861,governo,0.9861,governo,,sem_classificacao
+INS-000079,PCDOB,Dilma Rousseff,2011-01-01,2011-12-31,72,71,78,0.9861,governo,0.9861,governo,,sem_classificacao
+INS-000091,PSB,Dilma Rousseff,2011-01-01,2011-12-31,72,71,78,0.9861,governo,0.9861,governo,,sem_classificacao
+INS-000087,MOBILIZA,Dilma Rousseff,2011-01-01,2011-12-31,30,29,1,0.9667,governo,0.9355,governo,0.9655,governo
+INS-000089,PDT,Dilma Rousseff,2011-01-01,2011-12-31,69,65,0,0.942,governo,0.9286,governo,0.942,governo
+INS-000071,REPUBLICANOS,Dilma Rousseff,2011-01-01,2011-12-31,75,70,35,0.9333,governo,0.9333,governo,0.9024,governo
+INS-000096,PRTB,Dilma Rousseff,2011-01-01,2011-12-31,58,54,45,0.931,governo,0.931,governo,1.0,governo
+INS-000060,PHS,Dilma Rousseff,2011-01-01,2011-12-31,73,67,77,0.9178,governo,0.9178,governo,1.0,sem_classificacao
+INS-000061,AGIR,Dilma Rousseff,2011-01-01,2011-12-31,73,67,77,0.9178,governo,0.9178,governo,1.0,sem_classificacao
+INS-000068,PL,Dilma Rousseff,2011-01-01,2011-12-31,73,67,77,0.9178,governo,0.9178,governo,1.0,sem_classificacao
+INS-000073,AVANTE,Dilma Rousseff,2011-01-01,2011-12-31,73,67,77,0.9178,governo,0.9178,governo,1.0,sem_classificacao
+INS-000078,PRP,Dilma Rousseff,2011-01-01,2011-12-31,73,67,77,0.9178,governo,0.9178,governo,1.0,sem_classificacao
+INS-000082,PSL,Dilma Rousseff,2011-01-01,2011-12-31,73,67,77,0.9178,governo,0.9178,governo,1.0,sem_classificacao
+INS-000085,PSC,Dilma Rousseff,2011-01-01,2011-12-31,73,67,1,0.9178,governo,0.9178,governo,0.9167,governo
+INS-000081,CIDADANIA,Dilma Rousseff,2011-01-01,2011-12-31,31,14,78,0.4516,oposicao,0.5135,nenhum,,sem_classificacao
+INS-000093,PV,Dilma Rousseff,2011-01-01,2011-12-31,31,14,78,0.4516,oposicao,0.5135,nenhum,,sem_classificacao
+INS-000070,DEM,Dilma Rousseff,2011-01-01,2011-12-31,41,10,0,0.2439,oposicao,0.4474,oposicao,0.2439,oposicao
+INS-000098,PSOL,Dilma Rousseff,2011-01-01,2011-12-31,70,17,0,0.2429,oposicao,0.2895,oposicao,0.2429,oposicao
+INS-000092,PSDB,Dilma Rousseff,2011-01-01,2011-12-31,50,12,0,0.24,oposicao,0.4267,oposicao,0.24,oposicao
+INS-000074,PATRIOTA,Dilma Rousseff,2012-01-01,2012-12-31,7,7,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000090,PT,Dilma Rousseff,2012-01-01,2012-12-31,46,45,0,0.9783,governo,0.9783,governo,0.9783,governo
+INS-000059,PP,Dilma Rousseff,2012-01-01,2012-12-31,43,42,0,0.9767,governo,0.9767,governo,0.9767,governo
+INS-000079,PCDOB,Dilma Rousseff,2012-01-01,2012-12-31,44,41,16,0.9318,governo,0.9318,governo,0.9355,governo
+INS-000071,REPUBLICANOS,Dilma Rousseff,2012-01-01,2012-12-31,42,39,0,0.9286,governo,0.9286,governo,0.9286,governo
+INS-000091,PSB,Dilma Rousseff,2012-01-01,2012-12-31,42,39,16,0.9286,governo,0.9286,governo,0.931,governo
+INS-000075,MDB,Dilma Rousseff,2012-01-01,2012-12-31,46,41,0,0.8913,governo,0.8913,governo,0.8913,governo
+INS-000087,MOBILIZA,Dilma Rousseff,2012-01-01,2012-12-31,23,20,0,0.8696,governo,0.8696,governo,0.8696,governo
+INS-000089,PDT,Dilma Rousseff,2012-01-01,2012-12-31,43,35,0,0.814,governo,0.7955,governo,0.814,governo
+INS-000085,PSC,Dilma Rousseff,2012-01-01,2012-12-31,44,34,0,0.7727,governo,0.7727,governo,0.7727,governo
+INS-000099,PSD,Dilma Rousseff,2012-01-01,2012-12-31,39,30,0,0.7692,governo,0.775,governo,0.7692,governo
+INS-000062,PTB,Dilma Rousseff,2012-01-01,2012-12-31,42,32,7,0.7619,governo,0.7333,governo,0.75,governo
+INS-000060,PHS,Dilma Rousseff,2012-01-01,2012-12-31,43,31,49,0.7209,governo,0.7111,governo,,sem_classificacao
+INS-000061,AGIR,Dilma Rousseff,2012-01-01,2012-12-31,43,31,49,0.7209,governo,0.7111,governo,,sem_classificacao
+INS-000068,PL,Dilma Rousseff,2012-01-01,2012-12-31,43,31,49,0.7209,governo,0.7111,governo,,sem_classificacao
+INS-000073,AVANTE,Dilma Rousseff,2012-01-01,2012-12-31,43,31,49,0.7209,governo,0.7111,governo,,sem_classificacao
+INS-000078,PRP,Dilma Rousseff,2012-01-01,2012-12-31,43,31,49,0.7209,governo,0.7111,governo,,sem_classificacao
+INS-000082,PSL,Dilma Rousseff,2012-01-01,2012-12-31,43,31,49,0.7209,governo,0.7111,governo,,sem_classificacao
+INS-000096,PRTB,Dilma Rousseff,2012-01-01,2012-12-31,43,31,48,0.7209,governo,0.7111,governo,1.0,sem_classificacao
+INS-000098,PSOL,Dilma Rousseff,2012-01-01,2012-12-31,46,30,0,0.6522,nenhum,0.6522,nenhum,0.6522,nenhum
+INS-000081,CIDADANIA,Dilma Rousseff,2012-01-01,2012-12-31,34,22,49,0.6471,nenhum,0.6667,governo,,sem_classificacao
+INS-000093,PV,Dilma Rousseff,2012-01-01,2012-12-31,34,22,49,0.6471,nenhum,0.6667,governo,,sem_classificacao
+INS-000092,PSDB,Dilma Rousseff,2012-01-01,2012-12-31,38,19,0,0.5,nenhum,0.5556,nenhum,0.5,nenhum
+INS-000070,DEM,Dilma Rousseff,2012-01-01,2012-12-31,39,19,0,0.4872,oposicao,0.5435,nenhum,0.4872,oposicao
+INS-000090,PT,Dilma Rousseff,2013-01-01,2013-12-31,77,77,0,1.0,governo,0.9872,governo,1.0,governo
+INS-000084,PROS,Dilma Rousseff,2013-01-01,2013-12-31,18,17,7,0.9444,governo,0.9474,governo,0.9167,governo
+INS-000079,PCDOB,Dilma Rousseff,2013-01-01,2013-12-31,79,73,0,0.9241,governo,0.9241,governo,0.9241,governo
+INS-000059,PP,Dilma Rousseff,2013-01-01,2013-12-31,75,64,7,0.8533,governo,0.8553,governo,0.8406,governo
+INS-000071,REPUBLICANOS,Dilma Rousseff,2013-01-01,2013-12-31,74,63,0,0.8514,governo,0.84,governo,0.8514,governo
+INS-000068,PL,Dilma Rousseff,2013-01-01,2013-12-31,75,62,90,0.8267,governo,0.8289,governo,,sem_classificacao
+INS-000073,AVANTE,Dilma Rousseff,2013-01-01,2013-12-31,75,62,90,0.8267,governo,0.8289,governo,,sem_classificacao
+INS-000078,PRP,Dilma Rousseff,2013-01-01,2013-12-31,75,62,90,0.8267,governo,0.8289,governo,,sem_classificacao
+INS-000074,PATRIOTA,Dilma Rousseff,2013-01-01,2013-12-31,51,42,0,0.8235,governo,0.8235,governo,0.8235,governo
+INS-000089,PDT,Dilma Rousseff,2013-01-01,2013-12-31,71,58,0,0.8169,governo,0.8133,governo,0.8169,governo
+INS-000091,PSB,Dilma Rousseff,2013-01-01,2013-12-31,75,60,0,0.8,governo,0.8052,governo,0.8,governo
+INS-000087,MOBILIZA,Dilma Rousseff,2013-01-01,2013-12-31,57,45,0,0.7895,governo,0.7931,governo,0.7895,governo
+INS-000060,PHS,Dilma Rousseff,2013-01-01,2013-12-31,61,48,74,0.7869,governo,0.7903,governo,,sem_classificacao
+INS-000093,PV,Dilma Rousseff,2013-01-01,2013-12-31,71,55,11,0.7746,governo,0.7639,governo,0.871,governo
+INS-000061,AGIR,Dilma Rousseff,2013-01-01,2013-12-31,44,34,50,0.7727,governo,0.7727,governo,,sem_classificacao
+INS-000075,MDB,Dilma Rousseff,2013-01-01,2013-12-31,74,57,0,0.7703,governo,0.7703,governo,0.7703,governo
+INS-000082,PSL,Dilma Rousseff,2013-01-01,2013-12-31,56,43,68,0.7679,governo,0.7719,governo,,sem_classificacao
+INS-000096,PRTB,Dilma Rousseff,2013-01-01,2013-12-31,56,43,68,0.7679,governo,0.7719,governo,,sem_classificacao
+INS-000085,PSC,Dilma Rousseff,2013-01-01,2013-12-31,76,57,0,0.75,governo,0.7532,governo,0.75,governo
+INS-000062,PTB,Dilma Rousseff,2013-01-01,2013-12-31,71,53,4,0.7465,governo,0.75,governo,0.7794,governo
+INS-000099,PSD,Dilma Rousseff,2013-01-01,2013-12-31,73,50,0,0.6849,governo,0.6753,governo,0.6849,governo
+INS-000077,SOLIDARIEDADE,Dilma Rousseff,2013-01-01,2013-12-31,15,10,0,0.6667,governo,0.7,governo,0.6667,governo
+INS-000098,PSOL,Dilma Rousseff,2013-01-01,2013-12-31,69,44,0,0.6377,nenhum,0.625,nenhum,0.6377,nenhum
+INS-000092,PSDB,Dilma Rousseff,2013-01-01,2013-12-31,59,30,0,0.5085,nenhum,0.5455,nenhum,0.5085,nenhum
+INS-000081,CIDADANIA,Dilma Rousseff,2013-01-01,2013-12-31,63,28,11,0.4444,oposicao,0.4744,oposicao,0.5,nenhum
+INS-000070,DEM,Dilma Rousseff,2013-01-01,2013-12-31,58,25,0,0.431,oposicao,0.4937,oposicao,0.431,oposicao
+INS-000090,PT,Dilma Rousseff,2014-01-01,2014-12-31,50,49,0,0.98,governo,0.9444,governo,0.98,governo
+INS-000079,PCDOB,Dilma Rousseff,2014-01-01,2014-12-31,50,45,0,0.9,governo,0.8679,governo,0.9,governo
+INS-000071,REPUBLICANOS,Dilma Rousseff,2014-01-01,2014-12-31,47,37,0,0.7872,governo,0.7917,governo,0.7872,governo
+INS-000075,MDB,Dilma Rousseff,2014-01-01,2014-12-31,54,41,0,0.7593,governo,0.7593,governo,0.7593,governo
+INS-000059,PP,Dilma Rousseff,2014-01-01,2014-12-31,49,37,57,0.7551,governo,0.76,governo,,sem_classificacao
+INS-000084,PROS,Dilma Rousseff,2014-01-01,2014-12-31,49,37,57,0.7551,governo,0.76,governo,,sem_classificacao
+INS-000093,PV,Dilma Rousseff,2014-01-01,2014-12-31,47,35,0,0.7447,governo,0.7447,governo,0.7447,governo
+INS-000087,MOBILIZA,Dilma Rousseff,2014-01-01,2014-12-31,43,32,0,0.7442,governo,0.7442,governo,0.7442,governo
+INS-000068,PL,Dilma Rousseff,2014-01-01,2014-12-31,55,40,57,0.7273,governo,0.7273,governo,,sem_classificacao
+INS-000073,AVANTE,Dilma Rousseff,2014-01-01,2014-12-31,55,40,57,0.7273,governo,0.7273,governo,,sem_classificacao
+INS-000078,PRP,Dilma Rousseff,2014-01-01,2014-12-31,55,40,57,0.7273,governo,0.7273,governo,,sem_classificacao
+INS-000062,PTB,Dilma Rousseff,2014-01-01,2014-12-31,54,39,23,0.7222,governo,0.7222,governo,0.7273,governo
+INS-000076,DC,Dilma Rousseff,2014-01-01,2014-12-31,25,18,23,0.72,governo,0.72,governo,0.75,sem_classificacao
+INS-000089,PDT,Dilma Rousseff,2014-01-01,2014-12-31,53,38,0,0.717,governo,0.7222,governo,0.717,governo
+INS-000099,PSD,Dilma Rousseff,2014-01-01,2014-12-31,53,36,0,0.6792,governo,0.6852,governo,0.6792,governo
+INS-000085,PSC,Dilma Rousseff,2014-01-01,2014-12-31,52,35,0,0.6731,governo,0.6731,governo,0.6731,governo
+INS-000074,PATRIOTA,Dilma Rousseff,2014-01-01,2014-12-31,9,6,0,0.6667,sem_classificacao,0.6667,sem_classificacao,0.6667,sem_classificacao
+INS-000092,PSDB,Dilma Rousseff,2014-01-01,2014-12-31,53,33,0,0.6226,nenhum,0.6296,nenhum,0.6226,nenhum
+INS-000081,CIDADANIA,Dilma Rousseff,2014-01-01,2014-12-31,53,32,0,0.6038,nenhum,0.6111,nenhum,0.6038,nenhum
+INS-000070,DEM,Dilma Rousseff,2014-01-01,2014-12-31,52,31,0,0.5962,nenhum,0.5962,nenhum,0.5962,nenhum
+INS-000077,SOLIDARIEDADE,Dilma Rousseff,2014-01-01,2014-12-31,51,30,0,0.5882,nenhum,0.5769,nenhum,0.5882,nenhum
+INS-000098,PSOL,Dilma Rousseff,2014-01-01,2014-12-31,52,30,0,0.5769,nenhum,0.5556,nenhum,0.5769,nenhum
+INS-000091,PSB,Dilma Rousseff,2014-01-01,2014-12-31,53,30,0,0.566,nenhum,0.566,nenhum,0.566,nenhum
+INS-000088,DEMOCRATA,Dilma Rousseff,2015-01-01,2015-12-31,7,7,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000090,PT,Dilma Rousseff,2015-01-01,2015-12-31,201,195,1,0.9701,governo,0.9701,governo,0.9701,governo
+INS-000084,PROS,Dilma Rousseff,2015-01-01,2015-12-31,181,166,22,0.9171,governo,0.9126,governo,0.9074,governo
+INS-000096,PRTB,Dilma Rousseff,2015-01-01,2015-12-31,158,142,207,0.8987,governo,0.8931,governo,,sem_classificacao
+INS-000071,REPUBLICANOS,Dilma Rousseff,2015-01-01,2015-12-31,193,173,246,0.8964,governo,0.8918,governo,,sem_classificacao
+INS-000072,PODE,Dilma Rousseff,2015-01-01,2015-12-31,193,173,246,0.8964,governo,0.8918,governo,,sem_classificacao
+INS-000082,PSL,Dilma Rousseff,2015-01-01,2015-12-31,193,173,240,0.8964,governo,0.8918,governo,1.0,sem_classificacao
+INS-000087,MOBILIZA,Dilma Rousseff,2015-01-01,2015-12-31,193,173,246,0.8964,governo,0.8918,governo,,sem_classificacao
+INS-000061,AGIR,Dilma Rousseff,2015-01-01,2015-12-31,192,172,242,0.8958,governo,0.8912,governo,1.0,sem_classificacao
+INS-000073,AVANTE,Dilma Rousseff,2015-01-01,2015-12-31,191,171,242,0.8953,governo,0.8906,governo,1.0,sem_classificacao
+INS-000076,DC,Dilma Rousseff,2015-01-01,2015-12-31,191,171,244,0.8953,governo,0.8906,governo,,sem_classificacao
+INS-000078,PRP,Dilma Rousseff,2015-01-01,2015-12-31,191,171,244,0.8953,governo,0.8906,governo,,sem_classificacao
+INS-000068,PL,Dilma Rousseff,2015-01-01,2015-12-31,196,174,22,0.8878,governo,0.8832,governo,0.8757,governo
+INS-000079,PCDOB,Dilma Rousseff,2015-01-01,2015-12-31,201,176,1,0.8756,governo,0.8756,governo,0.8756,governo
+INS-000074,PATRIOTA,Dilma Rousseff,2015-01-01,2015-12-31,191,163,246,0.8534,governo,0.8534,governo,,sem_classificacao
+INS-000075,MDB,Dilma Rousseff,2015-01-01,2015-12-31,191,163,247,0.8534,governo,0.8534,governo,,sem_classificacao
+INS-000059,PP,Dilma Rousseff,2015-01-01,2015-12-31,190,161,247,0.8474,governo,0.8474,governo,,sem_classificacao
+INS-000060,PHS,Dilma Rousseff,2015-01-01,2015-12-31,190,161,246,0.8474,governo,0.8474,governo,,sem_classificacao
+INS-000062,PTB,Dilma Rousseff,2015-01-01,2015-12-31,190,161,247,0.8474,governo,0.8474,governo,,sem_classificacao
+INS-000085,PSC,Dilma Rousseff,2015-01-01,2015-12-31,190,161,246,0.8474,governo,0.8474,governo,,sem_classificacao
+INS-000099,PSD,Dilma Rousseff,2015-01-01,2015-12-31,188,155,22,0.8245,governo,0.8245,governo,0.8047,governo
+INS-000089,PDT,Dilma Rousseff,2015-01-01,2015-12-31,189,150,1,0.7937,governo,0.7947,governo,0.7937,governo
+INS-000091,PSB,Dilma Rousseff,2015-01-01,2015-12-31,182,99,11,0.544,nenhum,0.5573,nenhum,0.5449,nenhum
+INS-000093,PV,Dilma Rousseff,2015-01-01,2015-12-31,156,84,8,0.5385,nenhum,0.538,nenhum,0.5395,nenhum
+INS-000098,PSOL,Dilma Rousseff,2015-01-01,2015-12-31,188,89,0,0.4734,oposicao,0.4876,oposicao,0.4734,oposicao
+INS-000101,REDE,Dilma Rousseff,2015-01-01,2015-12-31,32,13,0,0.4062,oposicao,0.4773,oposicao,0.4062,oposicao
+INS-000081,CIDADANIA,Dilma Rousseff,2015-01-01,2015-12-31,186,69,11,0.371,oposicao,0.397,oposicao,0.3681,oposicao
+INS-000077,SOLIDARIEDADE,Dilma Rousseff,2015-01-01,2015-12-31,185,67,3,0.3622,oposicao,0.3763,oposicao,0.3571,oposicao
+INS-000070,DEM,Dilma Rousseff,2015-01-01,2015-12-31,179,56,4,0.3128,oposicao,0.3402,oposicao,0.3068,oposicao
+INS-000092,PSDB,Dilma Rousseff,2015-01-01,2015-12-31,185,57,11,0.3081,oposicao,0.3384,oposicao,0.3039,oposicao
+INS-000074,PATRIOTA,Dilma Rousseff,2016-01-01,2016-05-11,24,24,33,1.0,governo,0.9643,governo,,sem_classificacao
+INS-000075,MDB,Dilma Rousseff,2016-01-01,2016-05-11,24,24,33,1.0,governo,0.9643,governo,,sem_classificacao
+INS-000079,PCDOB,Dilma Rousseff,2016-01-01,2016-05-11,24,24,0,1.0,governo,0.9286,governo,1.0,governo
+INS-000088,DEMOCRATA,Dilma Rousseff,2016-01-01,2016-05-11,12,12,0,1.0,governo,0.9286,governo,1.0,governo
+INS-000089,PDT,Dilma Rousseff,2016-01-01,2016-05-11,25,25,0,1.0,governo,0.9643,governo,1.0,governo
+INS-000090,PT,Dilma Rousseff,2016-01-01,2016-05-11,24,24,0,1.0,governo,0.9643,governo,1.0,governo
+INS-000061,AGIR,Dilma Rousseff,2016-01-01,2016-05-11,14,13,18,0.9286,governo,0.9412,governo,,sem_classificacao
+INS-000068,PL,Dilma Rousseff,2016-01-01,2016-05-11,24,22,28,0.9167,governo,0.8929,governo,1.0,sem_classificacao
+INS-000071,REPUBLICANOS,Dilma Rousseff,2016-01-01,2016-05-11,24,22,27,0.9167,governo,0.8929,governo,1.0,sem_classificacao
+INS-000072,PODE,Dilma Rousseff,2016-01-01,2016-05-11,24,22,33,0.9167,governo,0.8929,governo,,sem_classificacao
+INS-000073,AVANTE,Dilma Rousseff,2016-01-01,2016-05-11,24,22,33,0.9167,governo,0.8929,governo,,sem_classificacao
+INS-000084,PROS,Dilma Rousseff,2016-01-01,2016-05-11,24,22,28,0.9167,governo,0.8929,governo,1.0,sem_classificacao
+INS-000099,PSD,Dilma Rousseff,2016-01-01,2016-05-11,24,22,27,0.9167,governo,0.8929,governo,1.0,sem_classificacao
+INS-000059,PP,Dilma Rousseff,2016-01-01,2016-05-11,23,21,33,0.913,governo,0.8889,governo,,sem_classificacao
+INS-000062,PTB,Dilma Rousseff,2016-01-01,2016-05-11,23,21,33,0.913,governo,0.8889,governo,,sem_classificacao
+INS-000085,PSC,Dilma Rousseff,2016-01-01,2016-05-11,23,21,33,0.913,governo,0.8889,governo,,sem_classificacao
+INS-000060,PHS,Dilma Rousseff,2016-01-01,2016-05-11,22,20,26,0.9091,governo,0.8846,governo,1.0,sem_classificacao
+INS-000082,PSL,Dilma Rousseff,2016-01-01,2016-05-11,22,20,31,0.9091,governo,0.8846,governo,,sem_classificacao
+INS-000087,MOBILIZA,Dilma Rousseff,2016-01-01,2016-05-11,11,10,11,0.9091,governo,0.9091,governo,,sem_classificacao
+INS-000098,PSOL,Dilma Rousseff,2016-01-01,2016-05-11,24,21,0,0.875,governo,0.8571,governo,0.875,governo
+INS-000101,REDE,Dilma Rousseff,2016-01-01,2016-05-11,23,20,0,0.8696,governo,0.8519,governo,0.8696,governo
+INS-000093,PV,Dilma Rousseff,2016-01-01,2016-05-11,21,15,0,0.7143,governo,0.7083,governo,0.7143,governo
+INS-000091,PSB,Dilma Rousseff,2016-01-01,2016-05-11,19,9,0,0.4737,oposicao,0.5556,nenhum,0.4737,oposicao
+INS-000081,CIDADANIA,Dilma Rousseff,2016-01-01,2016-05-11,17,8,0,0.4706,oposicao,0.5714,nenhum,0.4706,oposicao
+INS-000092,PSDB,Dilma Rousseff,2016-01-01,2016-05-11,17,8,0,0.4706,oposicao,0.5926,nenhum,0.4706,oposicao
+INS-000070,DEM,Dilma Rousseff,2016-01-01,2016-05-11,17,7,0,0.4118,oposicao,0.5556,nenhum,0.4118,oposicao
+INS-000077,SOLIDARIEDADE,Dilma Rousseff,2016-01-01,2016-05-11,17,6,0,0.3529,oposicao,0.4815,oposicao,0.3529,oposicao
+INS-000059,PP,Michel Temer,2016-05-12,2016-12-31,114,114,116,1.0,governo,1.0,governo,,sem_classificacao
+INS-000060,PHS,Michel Temer,2016-05-12,2016-12-31,105,105,0,1.0,governo,1.0,governo,1.0,governo
+INS-000062,PTB,Michel Temer,2016-05-12,2016-12-31,114,114,116,1.0,governo,1.0,governo,,sem_classificacao
+INS-000068,PL,Michel Temer,2016-05-12,2016-12-31,115,115,0,1.0,governo,1.0,governo,1.0,governo
+INS-000070,DEM,Michel Temer,2016-05-12,2016-12-31,114,114,0,1.0,governo,1.0,governo,1.0,governo
+INS-000074,PATRIOTA,Michel Temer,2016-05-12,2016-12-31,115,115,116,1.0,governo,1.0,governo,,sem_classificacao
+INS-000075,MDB,Michel Temer,2016-05-12,2016-12-31,115,115,116,1.0,governo,1.0,governo,,sem_classificacao
+INS-000078,PRP,Michel Temer,2016-05-12,2016-12-31,82,82,0,1.0,governo,1.0,governo,1.0,governo
+INS-000084,PROS,Michel Temer,2016-05-12,2016-12-31,103,103,0,1.0,governo,1.0,governo,1.0,governo
+INS-000085,PSC,Michel Temer,2016-05-12,2016-12-31,114,114,116,1.0,governo,1.0,governo,,sem_classificacao
+INS-000092,PSDB,Michel Temer,2016-05-12,2016-12-31,113,113,0,1.0,governo,1.0,governo,1.0,governo
+INS-000093,PV,Michel Temer,2016-05-12,2016-12-31,103,103,0,1.0,governo,1.0,governo,1.0,governo
+INS-000096,PRTB,Michel Temer,2016-05-12,2016-12-31,22,22,0,1.0,governo,1.0,governo,1.0,governo
+INS-000099,PSD,Michel Temer,2016-05-12,2016-12-31,115,115,0,1.0,governo,1.0,governo,1.0,governo
+INS-000071,REPUBLICANOS,Michel Temer,2016-05-12,2016-12-31,114,113,0,0.9912,governo,0.9912,governo,0.9912,governo
+INS-000077,SOLIDARIEDADE,Michel Temer,2016-05-12,2016-12-31,114,113,0,0.9912,governo,0.9912,governo,0.9912,governo
+INS-000081,CIDADANIA,Michel Temer,2016-05-12,2016-12-31,114,113,0,0.9912,governo,0.9913,governo,0.9912,governo
+INS-000072,PODE,Michel Temer,2016-05-12,2016-12-31,109,108,112,0.9908,governo,0.9818,governo,,sem_classificacao
+INS-000073,AVANTE,Michel Temer,2016-05-12,2016-12-31,109,108,112,0.9908,governo,0.9818,governo,,sem_classificacao
+INS-000082,PSL,Michel Temer,2016-05-12,2016-12-31,109,108,112,0.9908,governo,0.9818,governo,,sem_classificacao
+INS-000091,PSB,Michel Temer,2016-05-12,2016-12-31,113,108,0,0.9558,governo,0.9558,governo,0.9558,governo
+INS-000089,PDT,Michel Temer,2016-05-12,2016-12-31,67,32,0,0.4776,oposicao,0.5405,nenhum,0.4776,oposicao
+INS-000101,REDE,Michel Temer,2016-05-12,2016-12-31,72,29,0,0.4028,oposicao,0.486,oposicao,0.4028,oposicao
+INS-000088,DEMOCRATA,Michel Temer,2016-05-12,2016-12-31,89,30,0,0.3371,oposicao,0.3297,oposicao,0.3371,oposicao
+INS-000079,PCDOB,Michel Temer,2016-05-12,2016-12-31,61,19,0,0.3115,oposicao,0.4696,oposicao,0.3115,oposicao
+INS-000090,PT,Michel Temer,2016-05-12,2016-12-31,58,18,0,0.3103,oposicao,0.4696,oposicao,0.3103,oposicao
+INS-000098,PSOL,Michel Temer,2016-05-12,2016-12-31,62,17,0,0.2742,oposicao,0.4435,oposicao,0.2742,oposicao
+INS-000075,MDB,Michel Temer,2017-01-01,2017-12-31,161,161,1,1.0,governo,1.0,governo,1.0,governo
+INS-000078,PRP,Michel Temer,2017-01-01,2017-12-31,25,25,26,1.0,governo,1.0,governo,,sem_classificacao
+INS-000059,PP,Michel Temer,2017-01-01,2017-12-31,160,159,169,0.9938,governo,0.9938,governo,,sem_classificacao
+INS-000070,DEM,Michel Temer,2017-01-01,2017-12-31,160,159,0,0.9938,governo,0.9938,governo,0.9938,governo
+INS-000071,REPUBLICANOS,Michel Temer,2017-01-01,2017-12-31,157,156,0,0.9936,governo,0.9936,governo,0.9936,governo
+INS-000085,PSC,Michel Temer,2017-01-01,2017-12-31,148,147,0,0.9932,governo,0.9932,governo,0.9932,governo
+INS-000073,AVANTE,Michel Temer,2017-01-01,2017-12-31,126,125,135,0.9921,governo,0.9922,governo,,sem_classificacao
+INS-000068,PL,Michel Temer,2017-01-01,2017-12-31,160,158,0,0.9875,governo,0.9875,governo,0.9875,governo
+INS-000099,PSD,Michel Temer,2017-01-01,2017-12-31,160,158,1,0.9875,governo,0.9875,governo,0.9874,governo
+INS-000092,PSDB,Michel Temer,2017-01-01,2017-12-31,154,152,1,0.987,governo,0.987,governo,0.9869,governo
+INS-000062,PTB,Michel Temer,2017-01-01,2017-12-31,153,150,162,0.9804,governo,0.9804,governo,,sem_classificacao
+INS-000084,PROS,Michel Temer,2017-01-01,2017-12-31,153,150,162,0.9804,governo,0.9804,governo,,sem_classificacao
+INS-000082,PSL,Michel Temer,2017-01-01,2017-12-31,150,147,158,0.98,governo,0.98,governo,,sem_classificacao
+INS-000074,PATRIOTA,Michel Temer,2017-01-01,2017-12-31,134,131,0,0.9776,governo,0.9778,governo,0.9776,governo
+INS-000072,PODE,Michel Temer,2017-01-01,2017-12-31,148,139,93,0.9392,governo,0.9404,governo,0.8545,governo
+INS-000077,SOLIDARIEDADE,Michel Temer,2017-01-01,2017-12-31,159,148,4,0.9308,governo,0.9308,governo,0.9295,governo
+INS-000091,PSB,Michel Temer,2017-01-01,2017-12-31,134,116,0,0.8657,governo,0.8523,governo,0.8657,governo
+INS-000081,CIDADANIA,Michel Temer,2017-01-01,2017-12-31,150,129,0,0.86,governo,0.8609,governo,0.86,governo
+INS-000093,PV,Michel Temer,2017-01-01,2017-12-31,144,123,0,0.8542,governo,0.84,governo,0.8542,governo
+INS-000060,PHS,Michel Temer,2017-01-01,2017-12-31,115,98,32,0.8522,governo,0.8261,governo,0.7952,governo
+INS-000089,PDT,Michel Temer,2017-01-01,2017-12-31,98,60,0,0.6122,nenhum,0.6604,nenhum,0.6122,nenhum
+INS-000090,PT,Michel Temer,2017-01-01,2017-12-31,72,35,0,0.4861,oposicao,0.5796,nenhum,0.4861,oposicao
+INS-000079,PCDOB,Michel Temer,2017-01-01,2017-12-31,74,35,0,0.473,oposicao,0.5714,nenhum,0.473,oposicao
+INS-000101,REDE,Michel Temer,2017-01-01,2017-12-31,77,28,0,0.3636,oposicao,0.5175,nenhum,0.3636,oposicao
+INS-000098,PSOL,Michel Temer,2017-01-01,2017-12-31,57,12,0,0.2105,oposicao,0.4877,oposicao,0.2105,oposicao
+INS-000088,DEMOCRATA,Michel Temer,2017-01-01,2017-12-31,55,7,0,0.1273,oposicao,0.2874,oposicao,0.1273,oposicao
+INS-000059,PP,Michel Temer,2018-01-01,2018-12-31,97,97,102,1.0,governo,1.0,governo,,sem_classificacao
+INS-000068,PL,Michel Temer,2018-01-01,2018-12-31,98,98,6,1.0,governo,1.0,governo,1.0,governo
+INS-000073,AVANTE,Michel Temer,2018-01-01,2018-12-31,97,97,102,1.0,governo,1.0,governo,,sem_classificacao
+INS-000078,PRP,Michel Temer,2018-01-01,2018-12-31,8,8,11,1.0,sem_classificacao,1.0,sem_classificacao,,sem_classificacao
+INS-000080,PPL,Michel Temer,2018-01-01,2018-12-31,12,12,0,1.0,governo,1.0,governo,1.0,governo
+INS-000070,DEM,Michel Temer,2018-01-01,2018-12-31,98,97,2,0.9898,governo,0.9899,governo,0.9898,governo
+INS-000072,PODE,Michel Temer,2018-01-01,2018-12-31,98,97,86,0.9898,governo,0.9898,governo,0.9375,governo
+INS-000075,MDB,Michel Temer,2018-01-01,2018-12-31,98,97,2,0.9898,governo,0.9898,governo,0.9898,governo
+INS-000092,PSDB,Michel Temer,2018-01-01,2018-12-31,98,97,3,0.9898,governo,0.9898,governo,0.9897,governo
+INS-000099,PSD,Michel Temer,2018-01-01,2018-12-31,95,94,1,0.9895,governo,0.9796,governo,0.9894,governo
+INS-000085,PSC,Michel Temer,2018-01-01,2018-12-31,93,92,5,0.9892,governo,0.9892,governo,0.9889,governo
+INS-000077,SOLIDARIEDADE,Michel Temer,2018-01-01,2018-12-31,89,88,5,0.9888,governo,0.9888,governo,0.9884,governo
+INS-000074,PATRIOTA,Michel Temer,2018-01-01,2018-12-31,86,85,47,0.9884,governo,0.9884,governo,0.9756,governo
+INS-000062,PTB,Michel Temer,2018-01-01,2018-12-31,82,81,101,0.9878,governo,0.9062,governo,,sem_classificacao
+INS-000084,PROS,Michel Temer,2018-01-01,2018-12-31,82,81,101,0.9878,governo,0.9062,governo,,sem_classificacao
+INS-000082,PSL,Michel Temer,2018-01-01,2018-12-31,57,56,11,0.9825,governo,0.9825,governo,0.9796,governo
+INS-000071,REPUBLICANOS,Michel Temer,2018-01-01,2018-12-31,94,91,6,0.9681,governo,0.949,governo,0.9667,governo
+INS-000093,PV,Michel Temer,2018-01-01,2018-12-31,81,78,0,0.963,governo,0.9634,governo,0.963,governo
+INS-000081,CIDADANIA,Michel Temer,2018-01-01,2018-12-31,92,88,2,0.9565,governo,0.9565,governo,0.9565,governo
+INS-000060,PHS,Michel Temer,2018-01-01,2018-12-31,12,11,2,0.9167,governo,0.9231,governo,0.9167,governo
+INS-000089,PDT,Michel Temer,2018-01-01,2018-12-31,40,29,2,0.725,governo,0.6495,nenhum,0.725,governo
+INS-000091,PSB,Michel Temer,2018-01-01,2018-12-31,53,33,2,0.6226,nenhum,0.6562,nenhum,0.6226,nenhum
+INS-000101,REDE,Michel Temer,2018-01-01,2018-12-31,28,17,0,0.6071,nenhum,0.6071,nenhum,0.6071,nenhum
+INS-000079,PCDOB,Michel Temer,2018-01-01,2018-12-31,32,15,2,0.4688,oposicao,0.5859,nenhum,0.4688,oposicao
+INS-000090,PT,Michel Temer,2018-01-01,2018-12-31,24,10,0,0.4167,oposicao,0.5567,nenhum,0.4167,oposicao
+INS-000098,PSOL,Michel Temer,2018-01-01,2018-12-31,25,5,0,0.2,oposicao,0.5052,nenhum,0.2,oposicao
+INS-000060,PHS,Jair Messias Bolsonaro,2019-01-01,2019-12-31,13,13,0,1.0,governo,1.0,governo,1.0,governo
+INS-000078,PRP,Jair Messias Bolsonaro,2019-01-01,2019-12-31,5,5,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000080,PPL,Jair Messias Bolsonaro,2019-01-01,2019-12-31,5,5,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000082,PSL,Jair Messias Bolsonaro,2019-01-01,2019-12-31,239,238,29,0.9958,governo,0.9918,governo,0.9953,governo
+INS-000092,PSDB,Jair Messias Bolsonaro,2019-01-01,2019-12-31,221,210,0,0.9502,governo,0.9502,governo,0.9502,governo
+INS-000073,AVANTE,Jair Messias Bolsonaro,2019-01-01,2019-12-31,137,130,1,0.9489,governo,0.9429,governo,0.9489,governo
+INS-000084,PROS,Jair Messias Bolsonaro,2019-01-01,2019-12-31,173,164,6,0.948,governo,0.948,governo,0.9464,governo
+INS-000074,PATRIOTA,Jair Messias Bolsonaro,2019-01-01,2019-12-31,168,159,0,0.9464,governo,0.9467,governo,0.9464,governo
+INS-000099,PSD,Jair Messias Bolsonaro,2019-01-01,2019-12-31,232,219,29,0.944,governo,0.9364,governo,0.9375,governo
+INS-000071,REPUBLICANOS,Jair Messias Bolsonaro,2019-01-01,2019-12-31,226,211,0,0.9336,governo,0.9301,governo,0.9336,governo
+INS-000070,DEM,Jair Messias Bolsonaro,2019-01-01,2019-12-31,219,204,0,0.9315,governo,0.9318,governo,0.9315,governo
+INS-000100,NOVO,Jair Messias Bolsonaro,2019-01-01,2019-12-31,238,221,0,0.9286,governo,0.9208,governo,0.9286,governo
+INS-000059,PP,Jair Messias Bolsonaro,2019-01-01,2019-12-31,243,225,254,0.9259,governo,0.9268,governo,,sem_classificacao
+INS-000081,CIDADANIA,Jair Messias Bolsonaro,2019-01-01,2019-12-31,214,198,0,0.9252,governo,0.9178,governo,0.9252,governo
+INS-000085,PSC,Jair Messias Bolsonaro,2019-01-01,2019-12-31,184,170,0,0.9239,governo,0.9251,governo,0.9239,governo
+INS-000068,PL,Jair Messias Bolsonaro,2019-01-01,2019-12-31,217,200,0,0.9217,governo,0.9231,governo,0.9217,governo
+INS-000062,PTB,Jair Messias Bolsonaro,2019-01-01,2019-12-31,219,201,225,0.9178,governo,0.9182,governo,,sem_classificacao
+INS-000075,MDB,Jair Messias Bolsonaro,2019-01-01,2019-12-31,219,201,225,0.9178,governo,0.9182,governo,,sem_classificacao
+INS-000077,SOLIDARIEDADE,Jair Messias Bolsonaro,2019-01-01,2019-12-31,223,203,23,0.9103,governo,0.9111,governo,0.9306,governo
+INS-000072,PODE,Jair Messias Bolsonaro,2019-01-01,2019-12-31,166,145,29,0.8735,governo,0.8462,governo,0.8961,governo
+INS-000087,MOBILIZA,Jair Messias Bolsonaro,2019-01-01,2019-12-31,34,29,0,0.8529,governo,0.7955,governo,0.8529,governo
+INS-000093,PV,Jair Messias Bolsonaro,2019-01-01,2019-12-31,153,122,0,0.7974,governo,0.7586,governo,0.7974,governo
+INS-000101,REDE,Jair Messias Bolsonaro,2019-01-01,2019-12-31,44,25,0,0.5682,nenhum,0.6623,nenhum,0.5682,nenhum
+INS-000089,PDT,Jair Messias Bolsonaro,2019-01-01,2019-12-31,146,70,30,0.4795,oposicao,0.5238,nenhum,0.4701,oposicao
+INS-000079,PCDOB,Jair Messias Bolsonaro,2019-01-01,2019-12-31,142,68,0,0.4789,oposicao,0.5395,nenhum,0.4789,oposicao
+INS-000091,PSB,Jair Messias Bolsonaro,2019-01-01,2019-12-31,160,70,0,0.4375,oposicao,0.4911,oposicao,0.4375,oposicao
+INS-000090,PT,Jair Messias Bolsonaro,2019-01-01,2019-12-31,123,44,0,0.3577,oposicao,0.5101,nenhum,0.3577,oposicao
+INS-000098,PSOL,Jair Messias Bolsonaro,2019-01-01,2019-12-31,104,33,0,0.3173,oposicao,0.4918,oposicao,0.3173,oposicao
+INS-000074,PATRIOTA,Jair Messias Bolsonaro,2020-01-01,2020-12-31,134,132,0,0.9851,governo,0.9784,governo,0.9851,governo
+INS-000068,PL,Jair Messias Bolsonaro,2020-01-01,2020-12-31,330,324,0,0.9818,governo,0.9761,governo,0.9818,governo
+INS-000059,PP,Jair Messias Bolsonaro,2020-01-01,2020-12-31,328,320,15,0.9756,governo,0.97,governo,0.9744,governo
+INS-000099,PSD,Jair Messias Bolsonaro,2020-01-01,2020-12-31,322,314,0,0.9752,governo,0.9724,governo,0.9752,governo
+INS-000073,AVANTE,Jair Messias Bolsonaro,2020-01-01,2020-12-31,260,253,0,0.9731,governo,0.966,governo,0.9731,governo
+INS-000085,PSC,Jair Messias Bolsonaro,2020-01-01,2020-12-31,185,179,0,0.9676,governo,0.9677,governo,0.9676,governo
+INS-000071,REPUBLICANOS,Jair Messias Bolsonaro,2020-01-01,2020-12-31,329,317,0,0.9635,governo,0.961,governo,0.9635,governo
+INS-000062,PTB,Jair Messias Bolsonaro,2020-01-01,2020-12-31,322,308,15,0.9565,governo,0.9536,governo,0.9544,governo
+INS-000075,MDB,Jair Messias Bolsonaro,2020-01-01,2020-12-31,299,281,15,0.9398,governo,0.9398,governo,0.9366,governo
+INS-000084,PROS,Jair Messias Bolsonaro,2020-01-01,2020-12-31,293,274,0,0.9352,governo,0.9352,governo,0.9352,governo
+INS-000072,PODE,Jair Messias Bolsonaro,2020-01-01,2020-12-31,296,275,0,0.9291,governo,0.9259,governo,0.9291,governo
+INS-000082,PSL,Jair Messias Bolsonaro,2020-01-01,2020-12-31,337,311,0,0.9228,governo,0.9228,governo,0.9228,governo
+INS-000077,SOLIDARIEDADE,Jair Messias Bolsonaro,2020-01-01,2020-12-31,301,276,0,0.9169,governo,0.9178,governo,0.9169,governo
+INS-000070,DEM,Jair Messias Bolsonaro,2020-01-01,2020-12-31,331,299,0,0.9033,governo,0.9033,governo,0.9033,governo
+INS-000092,PSDB,Jair Messias Bolsonaro,2020-01-01,2020-12-31,334,288,0,0.8623,governo,0.8623,governo,0.8623,governo
+INS-000100,NOVO,Jair Messias Bolsonaro,2020-01-01,2020-12-31,344,284,0,0.8256,governo,0.8256,governo,0.8256,governo
+INS-000081,CIDADANIA,Jair Messias Bolsonaro,2020-01-01,2020-12-31,324,244,0,0.7531,governo,0.7531,governo,0.7531,governo
+INS-000093,PV,Jair Messias Bolsonaro,2020-01-01,2020-12-31,246,170,0,0.6911,governo,0.6911,governo,0.6911,governo
+INS-000089,PDT,Jair Messias Bolsonaro,2020-01-01,2020-12-31,307,116,0,0.3779,oposicao,0.4132,oposicao,0.3779,oposicao
+INS-000091,PSB,Jair Messias Bolsonaro,2020-01-01,2020-12-31,305,102,0,0.3344,oposicao,0.3776,oposicao,0.3344,oposicao
+INS-000101,REDE,Jair Messias Bolsonaro,2020-01-01,2020-12-31,274,90,0,0.3285,oposicao,0.37,oposicao,0.3285,oposicao
+INS-000079,PCDOB,Jair Messias Bolsonaro,2020-01-01,2020-12-31,288,81,0,0.2812,oposicao,0.3333,oposicao,0.2812,oposicao
+INS-000090,PT,Jair Messias Bolsonaro,2020-01-01,2020-12-31,293,71,0,0.2423,oposicao,0.3038,oposicao,0.2423,oposicao
+INS-000098,PSOL,Jair Messias Bolsonaro,2020-01-01,2020-12-31,274,46,0,0.1679,oposicao,0.2553,oposicao,0.1679,oposicao
+INS-000074,PATRIOTA,Jair Messias Bolsonaro,2021-01-01,2021-12-31,486,476,0,0.9794,governo,0.9794,governo,0.9794,governo
+INS-000084,PROS,Jair Messias Bolsonaro,2021-01-01,2021-12-31,513,501,0,0.9766,governo,0.9766,governo,0.9766,governo
+INS-000073,AVANTE,Jair Messias Bolsonaro,2021-01-01,2021-12-31,500,487,0,0.974,governo,0.974,governo,0.974,governo
+INS-000085,PSC,Jair Messias Bolsonaro,2021-01-01,2021-12-31,523,509,0,0.9732,governo,0.9732,governo,0.9732,governo
+INS-000062,PTB,Jair Messias Bolsonaro,2021-01-01,2021-12-31,501,487,0,0.9721,governo,0.9721,governo,0.9721,governo
+INS-000082,PSL,Jair Messias Bolsonaro,2021-01-01,2021-12-31,591,573,0,0.9695,governo,0.9695,governo,0.9695,governo
+INS-000059,PP,Jair Messias Bolsonaro,2021-01-01,2021-12-31,587,565,0,0.9625,governo,0.9625,governo,0.9625,governo
+INS-000068,PL,Jair Messias Bolsonaro,2021-01-01,2021-12-31,595,569,0,0.9563,governo,0.9564,governo,0.9563,governo
+INS-000071,REPUBLICANOS,Jair Messias Bolsonaro,2021-01-01,2021-12-31,580,554,0,0.9552,governo,0.9552,governo,0.9552,governo
+INS-000099,PSD,Jair Messias Bolsonaro,2021-01-01,2021-12-31,585,552,0,0.9436,governo,0.9436,governo,0.9436,governo
+INS-000070,DEM,Jair Messias Bolsonaro,2021-01-01,2021-12-31,552,515,0,0.933,governo,0.9332,governo,0.933,governo
+INS-000077,SOLIDARIEDADE,Jair Messias Bolsonaro,2021-01-01,2021-12-31,459,423,0,0.9216,governo,0.9219,governo,0.9216,governo
+INS-000072,PODE,Jair Messias Bolsonaro,2021-01-01,2021-12-31,520,466,0,0.8962,governo,0.8964,governo,0.8962,governo
+INS-000092,PSDB,Jair Messias Bolsonaro,2021-01-01,2021-12-31,551,478,0,0.8675,governo,0.8678,governo,0.8675,governo
+INS-000075,MDB,Jair Messias Bolsonaro,2021-01-01,2021-12-31,538,453,0,0.842,governo,0.8364,governo,0.842,governo
+INS-000081,CIDADANIA,Jair Messias Bolsonaro,2021-01-01,2021-12-31,513,410,0,0.7992,governo,0.7992,governo,0.7992,governo
+INS-000100,NOVO,Jair Messias Bolsonaro,2021-01-01,2021-12-31,568,400,0,0.7042,governo,0.7053,governo,0.7042,governo
+INS-000093,PV,Jair Messias Bolsonaro,2021-01-01,2021-12-31,262,179,0,0.6832,governo,0.6875,governo,0.6832,governo
+INS-000089,PDT,Jair Messias Bolsonaro,2021-01-01,2021-12-31,556,208,0,0.3741,oposicao,0.3901,oposicao,0.3741,oposicao
+INS-000091,PSB,Jair Messias Bolsonaro,2021-01-01,2021-12-31,536,170,0,0.3172,oposicao,0.3421,oposicao,0.3172,oposicao
+INS-000079,PCDOB,Jair Messias Bolsonaro,2021-01-01,2021-12-31,528,164,0,0.3106,oposicao,0.331,oposicao,0.3106,oposicao
+INS-000101,REDE,Jair Messias Bolsonaro,2021-01-01,2021-12-31,440,128,0,0.2909,oposicao,0.3163,oposicao,0.2909,oposicao
+INS-000090,PT,Jair Messias Bolsonaro,2021-01-01,2021-12-31,549,150,0,0.2732,oposicao,0.3091,oposicao,0.2732,oposicao
+INS-000098,PSOL,Jair Messias Bolsonaro,2021-01-01,2021-12-31,519,102,0,0.1965,oposicao,0.2469,oposicao,0.1965,oposicao
+INS-000084,PROS,Jair Messias Bolsonaro,2022-01-01,2022-12-31,326,319,0,0.9785,governo,0.9785,governo,0.9785,governo
+INS-000062,PTB,Jair Messias Bolsonaro,2022-01-01,2022-12-31,353,345,64,0.9773,governo,0.9773,governo,0.9808,governo
+INS-000085,PSC,Jair Messias Bolsonaro,2022-01-01,2022-12-31,330,321,64,0.9727,governo,0.9727,governo,0.9759,governo
+INS-000074,PATRIOTA,Jair Messias Bolsonaro,2022-01-01,2022-12-31,325,316,0,0.9723,governo,0.9723,governo,0.9723,governo
+INS-000068,PL,Jair Messias Bolsonaro,2022-01-01,2022-12-31,402,386,0,0.9602,governo,0.9602,governo,0.9602,governo
+INS-000082,PSL,Jair Messias Bolsonaro,2022-01-01,2022-12-31,43,41,0,0.9535,governo,0.9535,governo,0.9535,governo
+INS-000059,PP,Jair Messias Bolsonaro,2022-01-01,2022-12-31,396,374,0,0.9444,governo,0.9444,governo,0.9444,governo
+INS-000077,SOLIDARIEDADE,Jair Messias Bolsonaro,2022-01-01,2022-12-31,335,315,0,0.9403,governo,0.9403,governo,0.9403,governo
+INS-000083,UNIÃO,Jair Messias Bolsonaro,2022-01-01,2022-12-31,357,334,0,0.9356,governo,0.9356,governo,0.9356,governo
+INS-000099,PSD,Jair Messias Bolsonaro,2022-01-01,2022-12-31,402,376,0,0.9353,governo,0.9353,governo,0.9353,governo
+INS-000073,AVANTE,Jair Messias Bolsonaro,2022-01-01,2022-12-31,341,318,0,0.9326,governo,0.9326,governo,0.9326,governo
+INS-000075,MDB,Jair Messias Bolsonaro,2022-01-01,2022-12-31,359,331,0,0.922,governo,0.9224,governo,0.922,governo
+INS-000070,DEM,Jair Messias Bolsonaro,2022-01-01,2022-12-31,38,35,0,0.9211,governo,0.9211,governo,0.9211,governo
+INS-000071,REPUBLICANOS,Jair Messias Bolsonaro,2022-01-01,2022-12-31,389,357,0,0.9177,governo,0.9177,governo,0.9177,governo
+INS-000072,PODE,Jair Messias Bolsonaro,2022-01-01,2022-12-31,318,275,0,0.8648,governo,0.8648,governo,0.8648,governo
+INS-000092,PSDB,Jair Messias Bolsonaro,2022-01-01,2022-12-31,343,295,0,0.8601,governo,0.8601,governo,0.8601,governo
+INS-000081,CIDADANIA,Jair Messias Bolsonaro,2022-01-01,2022-12-31,195,163,12,0.8359,governo,0.8408,governo,0.8457,governo
+INS-000100,NOVO,Jair Messias Bolsonaro,2022-01-01,2022-12-31,398,271,12,0.6809,governo,0.6833,governo,0.6829,governo
+INS-000089,PDT,Jair Messias Bolsonaro,2022-01-01,2022-12-31,333,148,0,0.4444,oposicao,0.4609,oposicao,0.4444,oposicao
+INS-000093,PV,Jair Messias Bolsonaro,2022-01-01,2022-12-31,183,71,12,0.388,oposicao,0.4271,oposicao,0.3807,oposicao
+INS-000101,REDE,Jair Messias Bolsonaro,2022-01-01,2022-12-31,191,71,0,0.3717,oposicao,0.4104,oposicao,0.3717,oposicao
+INS-000091,PSB,Jair Messias Bolsonaro,2022-01-01,2022-12-31,322,97,0,0.3012,oposicao,0.342,oposicao,0.3012,oposicao
+INS-000079,PCDOB,Jair Messias Bolsonaro,2022-01-01,2022-12-31,299,90,0,0.301,oposicao,0.3617,oposicao,0.301,oposicao
+INS-000090,PT,Jair Messias Bolsonaro,2022-01-01,2022-12-31,366,107,0,0.2923,oposicao,0.3442,oposicao,0.2923,oposicao
+INS-000098,PSOL,Jair Messias Bolsonaro,2022-01-01,2022-12-31,352,74,0,0.2102,oposicao,0.2546,oposicao,0.2102,oposicao
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,4,4,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000077,SOLIDARIEDADE,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,3,3,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000091,PSB,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,9,9,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,235,231,0,0.983,governo,0.983,governo,0.983,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,235,231,0,0.983,governo,0.983,governo,0.983,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,235,231,0,0.983,governo,0.983,governo,0.983,governo
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,195,184,295,0.9436,governo,0.9436,governo,,sem_classificacao
+INS-000072,PODE,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,195,184,295,0.9436,governo,0.9436,governo,,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,195,184,295,0.9436,governo,0.9436,governo,,sem_classificacao
+INS-000099,PSD,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,195,184,295,0.9436,governo,0.9436,governo,,sem_classificacao
+INS-000083,UNIÃO,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,213,194,288,0.9108,governo,0.9108,governo,0.7273,governo
+INS-000059,PP,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,212,193,288,0.9104,governo,0.9104,governo,0.7,governo
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,211,191,288,0.9052,governo,0.9052,governo,0.5556,sem_classificacao
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,211,191,288,0.9052,governo,0.9052,governo,0.5556,sem_classificacao
+INS-000085,PSC,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,67,60,94,0.8955,governo,0.8955,governo,,sem_classificacao
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,197,165,0,0.8376,governo,0.8333,governo,0.8376,governo
+INS-000101,REDE,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,197,165,0,0.8376,governo,0.8333,governo,0.8376,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,11,8,0,0.7273,governo,0.7273,governo,0.7273,governo
+INS-000074,PATRIOTA,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,2,1,0,0.5,sem_classificacao,0.5,sem_classificacao,0.5,sem_classificacao
+INS-000068,PL,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,166,54,0,0.3253,oposicao,0.3846,oposicao,0.3253,oposicao
+INS-000100,NOVO,Luiz Inácio Lula da Silva,2023-01-01,2023-12-31,181,48,0,0.2652,oposicao,0.3277,oposicao,0.2652,oposicao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,222,220,0,0.991,governo,0.991,governo,0.991,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,222,220,0,0.991,governo,0.991,governo,0.991,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,222,220,0,0.991,governo,0.991,governo,0.991,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,175,170,0,0.9714,governo,0.9714,governo,0.9714,governo
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,176,168,273,0.9545,governo,0.9545,governo,,sem_classificacao
+INS-000072,PODE,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,176,168,273,0.9545,governo,0.9545,governo,,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,176,168,273,0.9545,governo,0.9545,governo,,sem_classificacao
+INS-000099,PSD,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,176,168,273,0.9545,governo,0.9545,governo,,sem_classificacao
+INS-000059,PP,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,202,181,273,0.896,governo,0.896,governo,,sem_classificacao
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,202,181,273,0.896,governo,0.896,governo,,sem_classificacao
+INS-000083,UNIÃO,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,202,181,273,0.896,governo,0.896,governo,,sem_classificacao
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,202,181,273,0.896,governo,0.896,governo,,sem_classificacao
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,199,156,0,0.7839,governo,0.785,governo,0.7839,governo
+INS-000101,REDE,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,199,156,0,0.7839,governo,0.785,governo,0.7839,governo
+INS-000068,PL,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,187,62,0,0.3316,oposicao,0.3645,oposicao,0.3316,oposicao
+INS-000100,NOVO,Luiz Inácio Lula da Silva,2024-01-01,2024-12-31,194,46,0,0.2371,oposicao,0.2706,oposicao,0.2371,oposicao
+INS-000071,REPUBLICANOS,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000072,PODE,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000075,MDB,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000081,CIDADANIA,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000092,PSDB,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,1,1,0,1.0,sem_classificacao,1.0,sem_classificacao,1.0,sem_classificacao
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,165,163,227,0.9879,governo,0.9881,governo,0.9864,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,165,163,227,0.9879,governo,0.9881,governo,0.9864,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,165,163,227,0.9879,governo,0.9881,governo,0.9864,governo
+INS-000089,PDT,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,85,80,0,0.9412,governo,0.9432,governo,0.9412,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,70,65,0,0.9286,governo,0.9315,governo,0.9286,governo
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,262,238,0,0.9084,governo,0.9104,governo,0.9084,governo
+INS-000101,REDE,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,262,238,0,0.9084,governo,0.9104,governo,0.9084,governo
+INS-000077,SOLIDARIEDADE,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,71,59,330,0.831,governo,0.7973,governo,1.0,governo
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,59,47,330,0.7966,governo,0.7581,governo,,sem_classificacao
+INS-000086,PRD,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,59,47,330,0.7966,governo,0.7581,governo,,sem_classificacao
+INS-000059,PP,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,96,71,427,0.7396,governo,0.7172,governo,1.0,sem_classificacao
+INS-000083,UNIÃO,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,96,71,427,0.7396,governo,0.7172,governo,1.0,sem_classificacao
+INS-000099,PSD,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,78,53,200,0.6795,governo,0.6543,nenhum,1.0,sem_classificacao
+INS-000068,PL,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,114,50,306,0.4386,oposicao,0.4237,oposicao,0.2874,oposicao
+INS-000100,NOVO,Luiz Inácio Lula da Silva,2025-01-01,2025-12-31,279,47,0,0.1685,oposicao,0.1949,oposicao,0.1685,oposicao
+INS-000089,PDT,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,36,36,0,1.0,governo,1.0,governo,1.0,governo
+INS-000091,PSB,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,47,47,0,1.0,governo,1.0,governo,1.0,governo
+INS-000079,PCDOB,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,94,93,0,0.9894,governo,0.9894,governo,0.9894,governo
+INS-000090,PT,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,94,93,0,0.9894,governo,0.9894,governo,0.9894,governo
+INS-000093,PV,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,94,93,0,0.9894,governo,0.9894,governo,0.9894,governo
+INS-000077,SOLIDARIEDADE,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,42,41,81,0.9762,governo,0.9762,governo,1.0,sem_classificacao
+INS-000086,PRD,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,40,39,81,0.975,governo,0.975,governo,,sem_classificacao
+INS-000073,AVANTE,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,44,42,81,0.9545,governo,0.9545,governo,0.75,sem_classificacao
+INS-000098,PSOL,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,85,77,0,0.9059,governo,0.9059,governo,0.9059,governo
+INS-000101,REDE,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,85,77,0,0.9059,governo,0.9059,governo,0.9059,governo
+INS-000059,PP,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,74,63,123,0.8514,governo,0.8514,governo,,sem_classificacao
+INS-000083,UNIÃO,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,74,63,123,0.8514,governo,0.8514,governo,,sem_classificacao
+INS-000099,PSD,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,74,63,123,0.8514,governo,0.8514,governo,,sem_classificacao
+INS-000068,PL,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,82,30,0,0.3659,oposicao,0.3659,oposicao,0.3659,oposicao
+INS-000103,MISSÃO,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,50,7,0,0.14,oposicao,0.1569,oposicao,0.14,oposicao
+INS-000100,NOVO,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,88,12,0,0.1364,oposicao,0.1333,oposicao,0.1364,oposicao
+INS-000076,DC,Luiz Inácio Lula da Silva,2026-01-01,2026-12-31,0,0,0,,sem_classificacao,,sem_classificacao,,sem_classificacao
