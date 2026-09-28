@@ -42,7 +42,7 @@ from src.validacao.validar import STATUS_COM_SIMETRIA
 
 CUR = RAIZ / "data" / "curadoria"
 RAW_STF = RAIZ / "data" / "raw" / "stf"
-NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$)")
+NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$|MADEIREIRA )|\b(LTDA|EPP|EIRELI|S/A|S\.A\.|CIA)\b|\s-?\s?ME$")  # órgão, texto e empresa
 SCRIPT = "src.normalizacao.simetria_stf"
 FONTE_DADOS = "STF, portal (aba Partes) e Corte Aberta (decisões)"
 STATUS_ADIADOS = {"reu", "denunciado"}
@@ -71,13 +71,14 @@ def so_iniciais(nome: str) -> bool:
 
 def ler_reus() -> list[dict]:
     """Réus de todos os lotes lidos. Fica de fora o que não é nome de pessoa: órgão do Ministério Público no campo de
-    réu, o texto "OS MESMOS" e nomes só com iniciais (processos em segredo de justiça)."""
+    réu, o texto "OS MESMOS", empresa (LTDA, ME, EPP, EIRELI, S/A) e nomes só com iniciais (processos em segredo de
+    justiça). Ação sem réu rotulado (queixa-crime com querelante e querelado) não tem linha de réu."""
     saida = []
     for f in relatorios():
         for l in f.read_text(encoding="utf-8").splitlines():
             if re.match(r"^\| \d+ \|", l):
                 c = [x.strip() for x in l.split("|")[1:-1]]
-                if c[2] and not NAO_PESSOA.match(c[2]) and not so_iniciais(c[2]):
+                if c[2] and not NAO_PESSOA.search(c[2]) and not so_iniciais(c[2]):
                     saida.append({"ap": f"AP {c[0]}", "incidente": c[1], "nome": c[2]})
     return saida
 

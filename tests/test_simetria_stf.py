@@ -41,8 +41,10 @@ def test_partido_na_data():
 
 def test_linhas_que_nao_sao_pessoa():
     from src.normalizacao.simetria_stf import NAO_PESSOA, so_iniciais
-    assert NAO_PESSOA.match("MINISTÉRIO PÚBLICO FEDERAL") and NAO_PESSOA.match("OS MESMOS")
-    assert not NAO_PESSOA.match("OSMAR MESMOS SILVA")
+    assert NAO_PESSOA.search("MINISTÉRIO PÚBLICO FEDERAL") and NAO_PESSOA.search("OS MESMOS")
+    assert not NAO_PESSOA.search("OSMAR MESMOS SILVA") and not NAO_PESSOA.search("MEIRE MENDES")
+    for pj in ("ANACLETO E TONIAZZO LTDA - ME", "VALDIR NASCIMENTO DA SILVA EPP", "PAULO SARAIVA DE JESUS FRANÇA - ME", "J. P. DUTRA E CIA LTDA"):
+        assert NAO_PESSOA.search(pj), pj
     assert so_iniciais("J. A. G. C.") and so_iniciais("S A S") and so_iniciais("PSM")
     assert so_iniciais("N.R.C.") and so_iniciais("C DE L F") and so_iniciais("E DE O DA F U DE A") and so_iniciais("D. R. DO V.")
     assert not so_iniciais("JOÃO A. SILVA") and not so_iniciais("GIACOBO")
