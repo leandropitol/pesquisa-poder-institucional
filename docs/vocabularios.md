@@ -299,6 +299,24 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `votacao_mao_erguida` | Votação de mão erguida, só com o total |
 | `sem_votacao` | Adotada sem votação (consenso ou aclamação) |
 
+## `escala_ideologica`
+
+| Código | Rótulo |
+|---|---|
+| `brc_2018` | Bolognesi, Ribeiro e Codato (2023): survey com cientistas políticos em 2018, escala 0 (esquerda) a 10 (direita) |
+
+## `faixa_ideologica`
+
+| Código | Rótulo |
+|---|---|
+| `extrema_esquerda` | Extrema-esquerda (0 a 1,5) |
+| `esquerda` | Esquerda (1,51 a 3) |
+| `centro_esquerda` | Centro-esquerda (3,01 a 4,49) |
+| `centro` | Centro (4,5 a 5,5) |
+| `centro_direita` | Centro-direita (5,51 a 7) |
+| `direita` | Direita (7,01 a 8,5) |
+| `extrema_direita` | Extrema-direita (8,51 a 10) |
+
 ## `indice_democracia`
 
 | Código | Rótulo |

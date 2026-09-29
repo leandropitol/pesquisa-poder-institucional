@@ -70,17 +70,18 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `status_pessoa_processo` | 88 |
 | `eventos` | 2298 |
 | `relacoes` | 2459 |
-| `fontes` | 304 |
+| `fontes` | 305 |
 | `fonte_judicial` | 11 |
 | `fonte_legislativa` | 1 |
 | `fonte_oficial` | 289 |
-| `fonte_base_dados` | 3 |
+| `fonte_base_dados` | 4 |
 | `evento_fonte` | 2298 |
 | `relacao_fonte` | 2509 |
-| `buscas` | 795 |
+| `buscas` | 797 |
 | `verificacoes_simetria` | 94 |
 | `verificacao_resultado` | 2017 |
 | `universo_partidos` | 521 |
+| `posicao_ideologica` | 35 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
 | `votos_multilaterais` | 26696 |
@@ -92,7 +93,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Buscas
 
-- 795 buscas registradas; 204 com zero resultados.
+- 797 buscas registradas; 204 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Base do projeto (relações 'indicou' da D-058): 33 buscas, coleta de 2026-09-29.
 - Buscador web do ChatGPT (site:), relatado pelo agente: 60 buscas, coleta de 2026-09-29.
@@ -126,6 +127,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 24 buscas, coleta de 2026-09-29.
 - STF, portal (aba Partes) e Corte Aberta (decisões): 74 buscas, coleta de 2026-09-28.
 - STF, portal (aba Partes) e Corte Aberta (decisões); Câmara, orientações de bancada (D-050/D-051): 4 buscas, coleta de 2026-09-28.
+- SciELO (Dados, revista de ciências sociais): 2 buscas, coleta de 2026-09-29.
 - Senado, dados abertos: 12 buscas, coleta de 2026-09-29.
 - TCU, Plataforma de Certidões (API pública): 4 buscas, coleta de 2026-09-29.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
@@ -294,6 +296,12 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - TCU: 568 candidaturas com conta julgada irregular (trânsito em julgado) até o primeiro turno; 1284 em qualquer data. A lista do TCU concentra gestores de recursos federais, sobretudo ex-prefeitos: partidos com mais candidatos que já foram gestores têm mais exposição, e a taxa não separa exposição de conduta. Ligação só por CPF igual no TSE e no TCU; CPF ausente no TSE deixa o candidato sem ligação.
 - Governo/oposição: grupo do partido na data da eleição pela regra de D-050 (orientação de bancada na Câmara); partidos sem votações suficientes ficam sem classificação.
 - Homogeneidade entre partidos: estatística qui-quadrado com p exato por simulação (válido com contagens pequenas), só partidos com pelo menos 30 candidaturas no recorte.
+
+### Posição ideológica dos partidos (D-062)
+
+- Escala: Bolognesi, Ribeiro e Codato (2023), survey de 2018 com cientistas políticos; 35 partidos com escore. O mesmo escore vale para 2003-2026: partidos que mudaram de posição no período ficam com a posição de 2018. Partidos criados por fusão depois de 2018 (União, PRD) ficam sem escore.
+- Nenhuma das 10 correlações entre escore e taxa por partido tem p abaixo de 0,05 (menor p: 0.057). A faixa "direita" reúne 16 partidos, entre eles MDB, PSDB e PSD, pelos cortes do artigo; a comparação entre faixas é mais informativa que o rótulo de cada uma.
+- Partidos de extrema-esquerda têm poucos eleitos e poucos candidatos que foram gestores: taxa perto de zero reflete também exposição.
 
 ### Composição do STF (D-058)
 

@@ -1,0 +1,8 @@
+codigo,rotulo
+extrema_esquerda,"Extrema-esquerda (0 a 1,5)"
+esquerda,"Esquerda (1,51 a 3)"
+centro_esquerda,"Centro-esquerda (3,01 a 4,49)"
+centro,"Centro (4,5 a 5,5)"
+centro_direita,"Centro-direita (5,51 a 7)"
+direita,"Direita (7,01 a 8,5)"
+extrema_direita,"Extrema-direita (8,51 a 10)"

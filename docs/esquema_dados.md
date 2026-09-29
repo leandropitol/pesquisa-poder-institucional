@@ -379,6 +379,24 @@ Partidos que toda verificação de um ano deve cobrir. Chave: `ano, id_partido`.
 | `criterio` | texto | sim | Ex.: bancada na Câmara no início do ano |
 | `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
 
+### `posicao_ideologica`
+
+Posição ideológica medida do partido, por escala publicada (D-062). Partido novo por fusão não herda. Chave: `id_partido, escala`.
+
+| Coluna | Tipo | Obrigatória | Descrição |
+|---|---|---|---|
+| `id_partido` | ref → `instituicoes.id_instituicao` | sim |  |
+| `escala` | vocab (`escala_ideologica`) | sim |  |
+| `ano_referencia` | ano | sim | Ano da medição |
+| `rotulo_fonte` | texto | sim | Sigla ou nome como aparece na fonte |
+| `media` | decimal | sim |  |
+| `mediana` | decimal |  |  |
+| `moda` | decimal |  |  |
+| `desvio_padrao` | decimal |  |  |
+| `n` | inteiro |  | Número de respondentes |
+| `faixa` | vocab (`faixa_ideologica`) | sim |  |
+| `id_fonte` | ref → `fontes.id_fonte` | sim | Fonte que sustenta o registro |
+
 ## Eixo relacoes externas
 
 ### `qualidade_democratica`

@@ -1,0 +1,3 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-29,data/raw/ideologia/2026-09-29/bolognesi_ribeiro_codato_2023_artigo.html,https://www.scielo.br/j/dados/a/zzyM3gzHD4P45WWdytXjZWg/?format=html&lang=pt,1,215599,cc91b233d6fe93466ed3faef70cd01bd9deaa211ee2041eb3d88229ca176eda6
+2026-09-29,data/raw/ideologia/2026-09-29/bolognesi_ribeiro_codato_2023_errata.html,https://www.scielo.br/j/dados/a/BfHDDt3rJmcxfG3rYQ8kzZp/?lang=pt,1,81711,47029e966d15d49a6621ab94305a0faacd1d99fc33aa35d3d5109c1a74bfb2f4

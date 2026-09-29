@@ -234,6 +234,13 @@ TABELAS: list[Tabela] = [
         C("criterio", "texto", True, "Ex.: bancada na Câmara no início do ano"), FONTE,
     )),
 
+    Tabela("posicao_ideologica", "rastreabilidade", "Posição ideológica medida do partido, por escala publicada (D-062). Partido novo por fusão não herda.", ("id_partido", "escala"), (
+        C("id_partido", "ref", True, fk="instituicoes.id_instituicao"), C("escala", "vocab", True, vocab="escala_ideologica"),
+        C("ano_referencia", "ano", True, "Ano da medição"), C("rotulo_fonte", "texto", True, "Sigla ou nome como aparece na fonte"),
+        C("media", "decimal", True), C("mediana", "decimal", False), C("moda", "decimal", False), C("desvio_padrao", "decimal", False),
+        C("n", "inteiro", False, "Número de respondentes"), C("faixa", "vocab", True, vocab="faixa_ideologica"), FONTE,
+    )),
+
     # ------------------------------------------------------------------ eixo 2
     Tabela("qualidade_democratica", "eixo_relacoes_externas", "Valores brutos das réguas externas, por país e ano. A classificação é calculada por código.", ("pais_iso3", "ano", "indice"), (
         C("pais_iso3", "iso3", True), C("ano", "ano", True),

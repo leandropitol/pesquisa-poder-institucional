@@ -201,6 +201,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_eixo2()
     linhas += _linhas_imprensa()
     linhas += _linhas_eixo1_universos()
+    linhas += _linhas_ideologia()
     linhas += _linhas_stf_composicao()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
@@ -475,6 +476,26 @@ def _linhas_eixo2() -> list[str]:
         "comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.",
         "- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as "
         "datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.",
+        "",
+    ]
+
+
+def _linhas_ideologia() -> list[str]:
+    """Simetria por posição ideológica (D-062)."""
+    arq = RAIZ / "relatorios" / "tabelas" / "ideologia_correlacao.csv"
+    if not arq.exists():
+        return []
+    c = pd.read_csv(arq)
+    esc = pd.read_csv(RAIZ / "data" / "base" / "posicao_ideologica.csv", dtype=str)
+    return [
+        "### Posição ideológica dos partidos (D-062)", "",
+        f"- Escala: Bolognesi, Ribeiro e Codato (2023), survey de 2018 com cientistas políticos; {len(esc)} partidos com escore. O mesmo "
+        "escore vale para 2003-2026: partidos que mudaram de posição no período ficam com a posição de 2018. Partidos criados por fusão "
+        "depois de 2018 (União, PRD) ficam sem escore.",
+        f"- Nenhuma das {len(c)} correlações entre escore e taxa por partido tem p abaixo de 0,05 (menor p: {c['p_permutacao'].min():.3f}). "
+        "A faixa \"direita\" reúne 16 partidos, entre eles MDB, PSDB e PSD, pelos cortes do artigo; a comparação entre faixas é mais "
+        "informativa que o rótulo de cada uma.",
+        "- Partidos de extrema-esquerda têm poucos eleitos e poucos candidatos que foram gestores: taxa perto de zero reflete também exposição.",
         "",
     ]
 
