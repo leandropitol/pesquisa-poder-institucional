@@ -77,7 +77,7 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2298 |
 | `relacao_fonte` | 2509 |
-| `buscas` | 787 |
+| `buscas` | 795 |
 | `verificacoes_simetria` | 94 |
 | `verificacao_resultado` | 2017 |
 | `universo_partidos` | 521 |
@@ -92,11 +92,12 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Buscas
 
-- 787 buscas registradas; 204 com zero resultados.
+- 795 buscas registradas; 204 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Base do projeto (relações 'indicou' da D-058): 33 buscas, coleta de 2026-09-29.
 - Buscador web do ChatGPT (site:), relatado pelo agente: 60 buscas, coleta de 2026-09-29.
 - ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
+- Câmara dos Deputados, dados abertos: 2 buscas, coleta de 2026-09-29.
 - Câmara dos Deputados, dados abertos (arquivos anuais): 48 buscas, coleta de 2026-09-28.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
@@ -125,7 +126,8 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 24 buscas, coleta de 2026-09-29.
 - STF, portal (aba Partes) e Corte Aberta (decisões): 74 buscas, coleta de 2026-09-28.
 - STF, portal (aba Partes) e Corte Aberta (decisões); Câmara, orientações de bancada (D-050/D-051): 4 buscas, coleta de 2026-09-28.
-- Senado, dados abertos: 10 buscas, coleta de 2026-09-29.
+- Senado, dados abertos: 12 buscas, coleta de 2026-09-29.
+- TCU, Plataforma de Certidões (API pública): 4 buscas, coleta de 2026-09-29.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
 - V-Dem Institute, pacote vdemdata (GitHub, tag V16): 1 buscas, coleta de 2026-09-24.
@@ -284,6 +286,14 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - Pelo Google, nos 4 jornais com acesso, F03 tem matéria em 0 de 4 e F05 em 2 de 4.
 - Estadão: a regra de D-055 exclui URL de blog, e a cobertura judicial do jornal está sob /blog-do-fausto-macedo/. Há matéria em 5 de 12 fatos pela regra e em 7 incluindo blogs.
 - O Google às vezes mostra um título diferente do título da página (reescrita do buscador). A unidade continua sendo o título devolvido; quando o corte do buscador escondia o desfecho, valeu o título completo lido no navegador.
+
+### Eixo 1 ampliado: candidatos, TSE e TCU (D-060, D-061)
+
+- Universo: 107113 candidaturas das eleições gerais de 2010 a 2022 (um registro por sequencial do TSE); eleições municipais fora.
+- TSE: 448 de 58415 candidaturas de 2018 e 2022 indeferidas ou cassadas por motivo do eixo 1; 705 sem a exclusão dos casos de lista (D-061: em 2022, quase todo "abuso de poder político" acompanha fraude à cota de gênero no DRAP, que atinge a lista). O TSE não publica o arquivo de motivos de 2010, e o de 2014 tem 10 linhas: a medida não cobre esses anos. O arquivo não traz a data da decisão; usa-se a do primeiro turno.
+- TCU: 568 candidaturas com conta julgada irregular (trânsito em julgado) até o primeiro turno; 1284 em qualquer data. A lista do TCU concentra gestores de recursos federais, sobretudo ex-prefeitos: partidos com mais candidatos que já foram gestores têm mais exposição, e a taxa não separa exposição de conduta. Ligação só por CPF igual no TSE e no TCU; CPF ausente no TSE deixa o candidato sem ligação.
+- Governo/oposição: grupo do partido na data da eleição pela regra de D-050 (orientação de bancada na Câmara); partidos sem votações suficientes ficam sem classificação.
+- Homogeneidade entre partidos: estatística qui-quadrado com p exato por simulação (válido com contagens pequenas), só partidos com pelo menos 30 candidaturas no recorte.
 
 ### Composição do STF (D-058)
 

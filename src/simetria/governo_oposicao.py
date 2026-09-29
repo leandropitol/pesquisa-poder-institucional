@@ -35,7 +35,8 @@ GOVERNO = {"GOV.", "Governo"}
 FEDERACOES = {"Fdr PT-PCdoB-PV": ["PT", "PCDOB", "PV"], "Fdr PSOL-REDE": ["PSOL", "REDE"], "Fdr PSDB-CIDADANIA": ["PSDB", "CIDADANIA"]}
 ALIAS = {"SOLIDARIED": ["SOLIDARIEDADE", "SD"], "SDD": ["SD", "SOLIDARIEDADE"], "SOLIDARIEDADE": ["SOLIDARIEDADE", "SD"],
          "REPUBLICAN": ["REPUBLICANOS"], "PODEMOS": ["PODE"], "PATRIOTA": ["PATRIOTA", "PATRI"], "UNIAO": ["UNIÃO"], "UNIÃO": ["UNIÃO"],
-         "MISSAO": ["MISSÃO"], "MISSÃO": ["MISSÃO"]}
+         "MISSAO": ["MISSÃO"], "MISSÃO": ["MISSÃO"],
+         "PC DO B": ["PCDOB"], "PT DO B": ["PTDOB"]}  # grafias dos arquivos do TSE
 BASE_MIN, OPOSICAO_MAX, MIN_VOTACOES = 2 / 3, 1 / 2, 10
 # D-051: nome de bloco -> partidos listados (formas abreviadas do arquivo); "Fdr" antes de um partido traz a federação
 ABREV = {"UNI": "UNIÃO", "CID": "CIDADANIA", "REP": "REPUBLICANOS", "AVAN": "AVANTE", "SOLID": "SOLIDARIEDADE", "SD": "SD"}

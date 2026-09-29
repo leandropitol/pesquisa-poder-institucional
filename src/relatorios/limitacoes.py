@@ -200,6 +200,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_simetria(base)
     linhas += _linhas_eixo2()
     linhas += _linhas_imprensa()
+    linhas += _linhas_eixo1_universos()
     linhas += _linhas_stf_composicao()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
@@ -474,6 +475,38 @@ def _linhas_eixo2() -> list[str]:
         "comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.",
         "- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as "
         "datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.",
+        "",
+    ]
+
+
+def _linhas_eixo1_universos() -> list[str]:
+    """Eixo 1 ampliado: TSE e TCU em universos de candidatos (D-060, D-061)."""
+    arq = RAIZ / "relatorios" / "tabelas" / "eixo1_taxas.csv"
+    if not arq.exists():
+        return []
+    t = pd.read_csv(arq)
+    def total(medida, universo="candidatos"):
+        x = t[(t["medida"] == medida) & (t["anos"] == "todos") & (t["universo"] == universo) & (t["grupo_tipo"] == "partido")]
+        return int(x["com_registro"].sum()), int(x["n"].sum())
+    ind, n_ind = total("tse_indeferimento")
+    ind_l, _ = total("tse_indeferimento_inclui_lista")
+    tcu_e, n_tcu = total("tcu_ate_eleicao")
+    tcu_q, _ = total("tcu_qualquer_data")
+    return [
+        "### Eixo 1 ampliado: candidatos, TSE e TCU (D-060, D-061)", "",
+        f"- Universo: {n_tcu} candidaturas das eleições gerais de 2010 a 2022 (um registro por sequencial do TSE); eleições municipais fora.",
+        f"- TSE: {ind} de {n_ind} candidaturas de 2018 e 2022 indeferidas ou cassadas por motivo do eixo 1; {ind_l} sem a exclusão dos casos "
+        "de lista (D-061: em 2022, quase todo \"abuso de poder político\" acompanha fraude à cota de gênero no DRAP, que atinge a lista). O TSE "
+        "não publica o arquivo de motivos de 2010, e o de 2014 tem 10 linhas: a medida não cobre esses anos. O arquivo não traz a data da "
+        "decisão; usa-se a do primeiro turno.",
+        f"- TCU: {tcu_e} candidaturas com conta julgada irregular (trânsito em julgado) até o primeiro turno; {tcu_q} em qualquer data. A "
+        "lista do TCU concentra gestores de recursos federais, sobretudo ex-prefeitos: partidos com mais candidatos que já foram gestores "
+        "têm mais exposição, e a taxa não separa exposição de conduta. Ligação só por CPF igual no TSE e no TCU; CPF ausente no TSE deixa "
+        "o candidato sem ligação.",
+        "- Governo/oposição: grupo do partido na data da eleição pela regra de D-050 (orientação de bancada na Câmara); partidos sem "
+        "votações suficientes ficam sem classificação.",
+        "- Homogeneidade entre partidos: estatística qui-quadrado com p exato por simulação (válido com contagens pequenas), só partidos "
+        "com pelo menos 30 candidaturas no recorte.",
         "",
     ]
 
