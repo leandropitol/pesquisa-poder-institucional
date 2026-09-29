@@ -3,3 +3,5 @@
 *.pdf binary
 *.zip binary
 *.xlsx binary
+# brutos: bytes exatamente como coletados (o sha256 do manifesto precisa bater)
+data/raw/** -text
