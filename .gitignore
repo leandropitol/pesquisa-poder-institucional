@@ -12,3 +12,8 @@ __pycache__/
 *.env
 # capturas feitas no navegador (D-015) não podem ser refeitas por script: ficam versionadas
 !data/raw/tse_partidos/
+# brutos que não podem ser refeitos por script (navegador, agentes, exportações manuais do portal do STF, que recusa
+# clientes Python): ficam versionados para o backup no repositório remoto privado
+!data/raw/stf/
+!data/raw/stf_ministros/
+!data/raw/imprensa/
