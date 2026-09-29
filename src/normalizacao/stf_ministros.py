@@ -222,7 +222,7 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
                                           "indicado": "Indicado ao STF; indicação rejeitada pelo Senado (D-058)"}[tipo]})
         return a
 
-    fora, tabela = [], []
+    fora, tabela, presidente_de = [], [], {}
     for m in bruto["ministros"]:
         fc = m.get("fontes_corrigidas", {})
         if m["data_aposentadoria"]:
@@ -247,6 +247,7 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
                        "cargo": "Ministro do Supremo Tribunal Federal", "forma_acesso": "indicado_aprovado", "data_inicio": m["data_posse"],
                        "data_fim": fim, "id_fonte": f_posse})
         r = ids.obter("relacoes", f"stf_indicou:{m['id_stf']}")
+        presidente_de[r] = m["presidente"]
         relacoes.append({"id_relacao": r, "origem_tipo": "ator", "origem_id": p, "tipo_relacao": "indicou", "destino_tipo": "ator", "destino_id": a,
                          "data_inicio": m["data_mensagem"], "data_fim": "", "eixo": "poder_institucional", "nivel_confianca": "documentado"})
         rel_fontes += [{"id_relacao": r, "id_fonte": f_ind, "localizador": f"ministro id {m['id_stf']}"},
@@ -276,6 +277,7 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
                              "data": v["dataSessao"], "link_portal": link})
         a = ator("indicado", cod, nome)
         r = ids.obter("relacoes", f"stf_indicou:senado:{cod}")
+        presidente_de[r] = "Luiz Inácio Lula da Silva"  # autoria: Presidência da República, mandato iniciado em 2023
         relacoes.append({"id_relacao": r, "origem_tipo": "ator", "origem_id": lig[("presidente", "1")]["id_ator"], "tipo_relacao": "indicou",
                          "destino_tipo": "ator", "destino_id": a, "data_inicio": v["dataApresentacao"], "data_fim": v["dataSessao"],
                          "eixo": "poder_institucional", "nivel_confianca": "documentado"})
@@ -289,34 +291,52 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
         ev_fontes.append({"id_evento": e, "id_fonte": i, "localizador": f"votação {v['codigoSessaoVotacao']}, informe legislativo de {v['dataSessao']}"})
     return {"atores": atores, "cargos": cargos, "relacoes": relacoes, "relacao_fonte": rel_fontes, "fontes": fontes, "fonte_oficial": oficiais,
             "fonte_legislativa": legislativas, "eventos": eventos, "evento_fonte": ev_fontes, "tabela": pd.DataFrame(tabela),
-            "correcoes": pd.DataFrame(correcoes), "fora_do_periodo": fora, "data": data}
+            "correcoes": pd.DataFrame(correcoes), "fora_do_periodo": fora, "data": data, "presidente_de": presidente_de}
 
 
-PADRAO_SIMETRIA = ("Relação 'indicou' entre Presidente da República e indicado ao STF (D-058). Indicações anteriores a 2003 comparadas "
-                   "com o universo de partidos de 2003, primeiro ano do estudo")
-JUSTIFICATIVA = ("Indicação ao STF é ato constitucional de todo presidente, e a coleta cobre todas as indicações dos presidentes que nomearam "
-                 "ministros em exercício de 2003 em diante, mais a indicação rejeitada de 2026, sem seleção por partido (D-058). A comparação "
-                 "por partido do presidente não foi feita: a base não tem a filiação dos presidentes nas datas das indicações")
+PADRAO_SIMETRIA = ("Relação 'indicou' entre Presidente da República e indicado ao STF (D-058, D-059). Universo: todas as indicações "
+                   "de 2003 em diante (período do estudo), inclusive a rejeitada pelo Senado; partido = partido do mandato em curso na "
+                   "data da mensagem de indicação, pelo registro de candidatura no TSE (D-059). Indicações anteriores a 2003 comparadas "
+                   "com esse universo e com o universo de partidos de 2003")
 
 
-def verificar_simetria(relacoes: list[dict], ids: RegistroIds, data: str, base: Path = BASE) -> tuple[list[dict], list[dict]]:
+def verificar_simetria(relacoes: list[dict], presidente_de: dict[str, str], ids: RegistroIds, data: str,
+                       base: Path = BASE) -> tuple[list[dict], list[dict], list[dict]]:
+    from src.normalizacao.presidencias_partido import montar as partidos_mandato, partido_na_data
+
+    mandatos = partidos_mandato()
     filiados = set(ler("filiacoes", base)["id_ator"])
     universo = ler("universo_partidos", base)
     existentes = set(ler("verificacoes_simetria", base)["id_verificacao"])
-    vs, vr = [], []
+    no_periodo = [r for r in relacoes if r["data_inicio"] >= "2003-01-01"]
+    partido = {r["id_relacao"]: partido_na_data(mandatos, presidente_de[r["id_relacao"]], r["data_inicio"]) for r in no_periodo}
+    sem = [r["id_relacao"] for r in no_periodo if not partido[r["id_relacao"]]]
+    if sem:
+        raise ValueError(f"indicação de 2003 em diante sem partido do mandato: {sem}")
+    buscas, vs, vr, busca_de = [], [], [], {}
     for r in relacoes:
         if r["origem_id"] not in filiados and r["destino_id"] not in filiados:
             continue
-        v = ids.obter("verificacoes_simetria", f"stf_ministros|relacoes|{r['id_relacao']}")
+        v = ids.obter("verificacoes_simetria", f"stf_ministros|v2|relacoes|{r['id_relacao']}")
         if v in existentes:
             continue
         ano = max(r["data_inicio"][:4], "2003")
         vs.append({"id_verificacao": v, "achado_tabela": "relacoes", "achado_id": r["id_relacao"], "padrao_buscado": PADRAO_SIMETRIA,
                    "ano_referencia": ano, "data": data, "script": "src.normalizacao.stf_ministros"})
         for g in sorted(universo.loc[universo["ano"] == ano, "id_partido"]):
-            vr.append({"id_resultado": ids.obter("verificacao_resultado", f"{v}|{g}"), "id_verificacao": v, "grupo_tipo": "partido", "grupo_id": g,
-                       "resultado": "nao_verificado", "justificativa": JUSTIFICATIVA})
-    return vs, vr
+            achados = sorted(i for i, pt in partido.items() if pt == g)
+            linha = {"id_resultado": ids.obter("verificacao_resultado", f"{v}|{g}"), "id_verificacao": v, "grupo_tipo": "partido", "grupo_id": g}
+            if achados:
+                linha.update(resultado="encontrado", n_casos=str(len(achados)), ids_encontrados=";".join(achados))
+            else:
+                if g not in busca_de:
+                    busca_de[g] = ids.obter("buscas", f"src.normalizacao.stf_ministros|{data}|indicacoes STF 2003+ partido {g}")
+                    buscas.append({"id_busca": busca_de[g], "data": data, "fonte_dados": "Base do projeto (relações 'indicou' da D-058)",
+                                   "consulta": f"indicações ao STF de 2003 em diante por presidente com partido {g} no mandato (D-059)",
+                                   "parametros_json": "{}", "n_resultados": "0", "script": "src.normalizacao.stf_ministros"})
+                linha.update(resultado="sem_evidencia", n_casos="0", id_busca=busca_de[g])
+            vr.append(linha)
+    return buscas, vs, vr
 
 
 def gravar_resultado(r: dict, ids: RegistroIds, base: Path = BASE) -> None:
@@ -330,7 +350,9 @@ def gravar_resultado(r: dict, ids: RegistroIds, base: Path = BASE) -> None:
         atual = ler(nome, base)
         feitas = set(atual[col] + "|" + atual["id_fonte"])
         acrescentar(nome, [x for x in r[nome] if f"{x[col]}|{x['id_fonte']}" not in feitas], base)
-    vs, vr = verificar_simetria(r["relacoes"], ids, r["data"], base)
+    existentes_b = set(ler("buscas", base)["id_busca"])
+    buscas, vs, vr = verificar_simetria(r["relacoes"], r["presidente_de"], ids, r["data"], base)
+    acrescentar("buscas", [b for b in buscas if b["id_busca"] not in existentes_b], base)
     acrescentar("verificacoes_simetria", vs, base)
     acrescentar("verificacao_resultado", vr, base)
     ids.salvar()

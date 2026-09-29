@@ -496,8 +496,9 @@ def _linhas_stf_composicao() -> list[str]:
         "- Datas de fim: aposentadoria = data de início do decreto (\"a partir de\") ou, sem ela, a data do decreto; falecimento = biografia "
         "ou notícia oficial. As relações `indicou` usam a data da mensagem de indicação. A indicação rejeitada de 2026 usa a data de "
         "apresentação no Senado, porque a mensagem presidencial não traz o dia nas fontes coletadas.",
-        "- Filiação dos presidentes nas datas das indicações não está na base: as verificações de simetria das relações `indicou` ficam "
-        "`nao_verificado` por partido, com justificativa.",
+        "- Partido do presidente (D-059): partido do registro de candidatura no TSE para o mandato em curso, não a filiação no dia. Jair "
+        "Bolsonaro foi eleito pelo PSL (2018) e aparece como PSL em todo o mandato 2019-2022, inclusive nas indicações de 2020 e 2021; "
+        "a filiação no dia, se usada, exige fonte própria.",
         "",
     ]
 

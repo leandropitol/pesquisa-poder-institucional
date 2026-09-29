@@ -77,9 +77,9 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2298 |
 | `relacao_fonte` | 2509 |
-| `buscas` | 754 |
-| `verificacoes_simetria` | 69 |
-| `verificacao_resultado` | 1528 |
+| `buscas` | 787 |
+| `verificacoes_simetria` | 94 |
+| `verificacao_resultado` | 2017 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -92,8 +92,9 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Buscas
 
-- 754 buscas registradas; 171 com zero resultados.
+- 787 buscas registradas; 204 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
+- Base do projeto (relações 'indicou' da D-058): 33 buscas, coleta de 2026-09-29.
 - Buscador web do ChatGPT (site:), relatado pelo agente: 60 buscas, coleta de 2026-09-29.
 - ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
 - Câmara dos Deputados, dados abertos (arquivos anuais): 48 buscas, coleta de 2026-09-28.
@@ -250,7 +251,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Verificação de simetria dos status da E9
 
-- 69 verificações, 1528 resultados por grupo (nao_verificado: 714; encontrado: 560; sem_evidencia: 254).
+- 94 verificações, 2017 resultados por grupo (nao_verificado: 714; sem_evidencia: 675; encontrado: 628).
 - Universo lido: lotes 1, 2, 3, 4, 5, 6, 7 de D-048 (660 de 660 ações penais do STF, fora 8 de janeiro; o lote 1 reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do Ministério Público no campo de réu, "OS MESMOS"), empresas (LTDA, ME, EPP), entes públicos (município) e nomes só com iniciais ficam fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado) não entra na lista de réus. Com todos os lotes lidos, os status de réu têm verificação própria (padrão de réu, abaixo).
 - Padrão de condenação: contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em parte), partido na data do primeiro julgamento de mérito. Padrão de réu: todas as ações do eixo 1 em que o parlamentar é réu, partido na data de autuação da ação; ação penal no STF não mostra quando cada pessoa passou a réu. O status de denunciado não tem padrão lido (denúncia oferecida fica no inquérito, fora da lista de ações penais). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em "revisar", conforme a regra da E5; partido só com ações em "revisar" fica `nao_verificado`, com a lista das ações.
 - Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em `data/curadoria/simetria_stf_ap_ligacoes.csv`. Ligação que se apoia só no prenome, ou no prenome e num nome do meio, entra como `aceita_a_conferir` quando nenhum outro parlamentar da base tem esse nome; prenome compartilhado é rejeitado; nome comum em ação com muitos réus fica `pendente`.
@@ -289,7 +290,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - 29 ministros em exercício em algum dia desde 2003, das páginas "Dados e Datas" da Biblioteca do STF. As páginas têm erros: Flávio Dino, data_posse: lido 2011-03-03, usado 2024-02-22 (noticia_stf_528119.html); Maurício Corrêa, data_decreto_nomeacao: lido 2004-10-27, usado 1994-10-27 (biografia_33.html); Teori Zavascki, data_fim: lido (vazio), usado 2017-01-19 (noticia_stf_500851.html); Teori Zavascki, motivo_fim: lido (vazio), usado falecimento (noticia_stf_500851.html).
 - Vaga citada no decreto de nomeação diferente da citada na mensagem de indicação: Luís Roberto Barroso (mensagem: Carlos Augusto Ayres de Freitas Britto; decreto: Antonio Cezar Peluso); André Mendonça (mensagem: Marco Aurélio Mendes de Farias Mello; decreto: Aurélio Mendes de Farias Mello). A tabela usa a mensagem; nenhuma data depende disso.
 - Datas de fim: aposentadoria = data de início do decreto ("a partir de") ou, sem ela, a data do decreto; falecimento = biografia ou notícia oficial. As relações `indicou` usam a data da mensagem de indicação. A indicação rejeitada de 2026 usa a data de apresentação no Senado, porque a mensagem presidencial não traz o dia nas fontes coletadas.
-- Filiação dos presidentes nas datas das indicações não está na base: as verificações de simetria das relações `indicou` ficam `nao_verificado` por partido, com justificativa.
+- Partido do presidente (D-059): partido do registro de candidatura no TSE para o mandato em curso, não a filiação no dia. Jair Bolsonaro foi eleito pelo PSL (2018) e aparece como PSL em todo o mandato 2019-2022, inclusive nas indicações de 2020 e 2021; a filiação no dia, se usada, exige fonte própria.
 
 ### Validador
 

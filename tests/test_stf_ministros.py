@@ -56,3 +56,15 @@ def test_nome_arquivo():
     assert nome_arquivo(b + "textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=RosaWeberDadosDatas") == "dados_datas_RosaWeber.html"
     assert nome_arquivo(b + "ostf/ministros/verMinistro.asp?periodo=STF&id=47") == "biografia_47.html"
     assert nome_arquivo(b + "noticias/verNoticiaDetalhe.asp?idConteudo=528119&ori=1") == "noticia_stf_528119.html"
+
+
+def test_partido_na_data():
+    import pandas as pd
+
+    from src.normalizacao.presidencias_partido import partido_na_data
+
+    t = pd.DataFrame([{"presidente": "A", "inicio": "2011-01-01", "fim": "2016-05-11", "id_partido": "P1"},
+                      {"presidente": "B", "inicio": "2016-05-12", "fim": "2018-12-31", "id_partido": "P2"},
+                      {"presidente": "A", "inicio": "2023-01-01", "fim": "", "id_partido": "P1"}])
+    assert partido_na_data(t, "A", "2015-04-14") == "P1" and partido_na_data(t, "B", "2017-02-06") == "P2"
+    assert partido_na_data(t, "A", "2026-04-01") == "P1" and partido_na_data(t, "A", "2019-01-01") == ""

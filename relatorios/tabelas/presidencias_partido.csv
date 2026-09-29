@@ -1,0 +1,8 @@
+presidente,inicio,fim,ano_eleicao,cargo_no_registro,nome_tse,sigla_tse,id_partido,situacao_tse,arquivo_raw,id_fonte
+Luiz Inácio Lula da Silva,2003-01-01,2006-12-31,2002,PRESIDENTE,LUIZ INACIO LULA DA SILVA,PT,INS-000090,2º TURNO,data/raw/tse/2026-09-25/consulta_cand_2002.zip:consulta_cand_2002_BR.csv,FNT-000071
+Luiz Inácio Lula da Silva,2007-01-01,2010-12-31,2006,PRESIDENTE,LUIZ INACIO LULA DA SILVA,PT,INS-000090,#NULO#,data/raw/tse/2026-09-25/consulta_cand_2006.zip:consulta_cand_2006_BR.csv,FNT-000072
+Dilma Rousseff,2011-01-01,2014-12-31,2010,PRESIDENTE,DILMA VANA ROUSSEFF,PT,INS-000090,2º TURNO,data/raw/tse/2026-09-25/consulta_cand_2010.zip:consulta_cand_2010_BR.csv,FNT-000073
+Dilma Rousseff,2015-01-01,2016-05-11,2014,PRESIDENTE,DILMA VANA ROUSSEFF,PT,INS-000090,2º TURNO,data/raw/tse/2026-09-25/consulta_cand_2014.zip:consulta_cand_2014_BR.csv,FNT-000074
+Michel Temer,2016-05-12,2018-12-31,2014,VICE-PRESIDENTE,MICHEL MIGUEL ELIAS TEMER LULIA,PMDB,INS-000075,ELEITO,data/raw/tse/2026-09-25/consulta_cand_2014.zip:consulta_cand_2014_BR.csv,FNT-000074
+Jair Messias Bolsonaro,2019-01-01,2022-12-31,2018,PRESIDENTE,JAIR MESSIAS BOLSONARO,PSL,INS-000082,2º TURNO,data/raw/tse/2026-09-25/consulta_cand_2018.zip:consulta_cand_2018_BRASIL.csv,FNT-000075
+Luiz Inácio Lula da Silva,2023-01-01,,2022,PRESIDENTE,LUIZ INÁCIO LULA DA SILVA,PT,INS-000090,ELEITO,data/raw/tse/2026-09-25/consulta_cand_2022.zip:consulta_cand_2022_BR.csv,FNT-000076
