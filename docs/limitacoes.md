@@ -76,7 +76,7 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 425 |
+| `buscas` | 556 |
 | `verificacoes_simetria` | 44 |
 | `verificacao_resultado` | 1039 |
 | `universo_partidos` | 521 |
@@ -91,12 +91,13 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Buscas
 
-- 425 buscas registradas; 87 com zero resultados.
+- 556 buscas registradas; 97 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
 - Câmara dos Deputados, dados abertos (arquivos anuais): 48 buscas, coleta de 2026-09-28.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
+- Ferramenta de busca na web do assistente (restrita ao domínio do veículo): 131 buscas, coleta de 2026-09-29.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): Aliança Progressista: 3 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): Conferência Permanente de Partidos Políticos da América Latina e do Caribe: 8 buscas, coleta de 2026-09-24.
@@ -261,6 +262,15 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - BNDES: o arquivo aberto não publica valor nas operações de exportação de bens (2.344); só as de serviços de engenharia (652, em dólar) têm valor, e não há operação desse tipo depois de 2015. A comparação por valor cobre só os governos de 2003 a 2016; a comparação entre todos os governos usa a contagem de operações. Parte das operações antigas não tem país de destino identificado.
 - Linha de base comercial (D-054): exportações do ComexStat por país e mês (cada mês no governo em exercício no dia 15). A parcela exportada para países BQD é dominada pela China (de 6% a 30% das exportações), e a tendência reflete sobretudo o crescimento desse comércio; no governo iniciado em 2023, 47% do valor exportado fica sem classificação porque a Freedom House vai só até 2024. A comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.
 - Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.
+
+### Contraste com a imprensa (D-055, D-056)
+
+- Painel: 10 veículos em uso. Sem acesso pela ferramenta de busca: Folha de S.Paulo, O Estado de S. Paulo, O Globo, Valor Econômico, BBC News Brasil; só uma reserva (Revista Oeste) tinha acesso. O painel não é uma amostra da imprensa brasileira, e a ausência de jornais impressos de circulação nacional é a maior lacuna.
+- A unidade é o título devolvido pela ferramenta de busca restrita ao domínio (até 10 links por consulta fixa). `sem_resultado` quer dizer que a matéria não apareceu nesses links, não que o veículo não a publicou: a ordem e o índice são da ferramenta, não do arquivo do veículo, e o critério de ordenação da ferramenta não é conhecido.
+- CNN Brasil e Revista Oeste não têm matéria sobre nenhum dos 7 fatos anteriores a 2020 nos resultados; comparações entre fatos de épocas diferentes devem excluir esses veículos.
+- Assimetria de cobertura observada: TJMG confirma a condenação de Eduardo Azeredo (F03, 2017) aparece em 1 de 10 veículos em uso (1 de 8 sem os veículos acima); TRF4 confirma a condenação de Lula no triplex (F05, 2018), em 7 de 10 (7 de 8). Vários veículos devolveram títulos sobre fases posteriores do caso Azeredo (ordem de prisão, STJ, embargos). O desenho não separa as causas possíveis (termos da consulta, ordem da ferramenta, projeção nacional do réu, tribunal estadual ou federal) e não permite atribuir a diferença a linha editorial.
+- Divergências: 1 (F10 Poder360). O critério é o título; matéria cujo título não informa o desfecho conta como `mencao_sem_resultado`, mesmo que o texto o informe.
+- Os esclarecimentos da régua em D-056 foram feitos durante a classificação, depois de ver os títulos, e valem para todas as linhas.
 
 ### Validador
 

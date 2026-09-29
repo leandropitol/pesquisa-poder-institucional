@@ -199,6 +199,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_e9(base)
     linhas += _linhas_simetria(base)
     linhas += _linhas_eixo2()
+    linhas += _linhas_imprensa()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -472,6 +473,47 @@ def _linhas_eixo2() -> list[str]:
         "comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.",
         "- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as "
         "datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.",
+        "",
+    ]
+
+
+def _linhas_imprensa() -> list[str]:
+    """Contraste com a imprensa (D-055, D-056)."""
+    arq = RAIZ / "relatorios" / "tabelas" / "imprensa_contraste.csv"
+    if not arq.exists():
+        return []
+    det = pd.read_csv(arq, dtype=str, keep_default_na=False)
+    veic = pd.read_csv(CURADORIA / "imprensa_veiculos.csv", dtype=str)
+    uso = det[det["resultado"].isin(["concorda", "diverge", "mencao_sem_resultado", "sem_resultado"])].copy()
+    uso["com_materia"] = uso["resultado"] != "sem_resultado"
+    fora = veic[(veic["papel"] == "principal") & (veic["situacao_acesso"] != "ok")]["veiculo"].tolist()
+    antes = uso[uso["data_fato"] < "2020-01-01"]
+    sem_antes = sorted(v for v, g in antes.groupby("veiculo") if not g["com_materia"].any())
+    ok_antes = uso[~uso["veiculo"].isin(sem_antes)]
+
+    def cobertura(f: str, tab: pd.DataFrame) -> str:
+        g = tab[tab["id_fato"] == f]
+        return f"{int(g['com_materia'].sum())} de {len(g)}"
+
+    div = uso[uso["resultado"] == "diverge"]
+    return [
+        "### Contraste com a imprensa (D-055, D-056)", "",
+        f"- Painel: {uso['veiculo'].nunique()} veículos em uso. Sem acesso pela ferramenta de busca: {', '.join(fora)}; só uma reserva "
+        "(Revista Oeste) tinha acesso. O painel não é uma amostra da imprensa brasileira, e a ausência de jornais impressos de "
+        "circulação nacional é a maior lacuna.",
+        "- A unidade é o título devolvido pela ferramenta de busca restrita ao domínio (até 10 links por consulta fixa). "
+        "`sem_resultado` quer dizer que a matéria não apareceu nesses links, não que o veículo não a publicou: a ordem e o índice "
+        "são da ferramenta, não do arquivo do veículo, e o critério de ordenação da ferramenta não é conhecido.",
+        f"- {' e '.join(sem_antes)} não têm matéria sobre nenhum dos {antes['id_fato'].nunique()} fatos anteriores a 2020 nos "
+        "resultados; comparações entre fatos de épocas diferentes devem excluir esses veículos.",
+        f"- Assimetria de cobertura observada: TJMG confirma a condenação de Eduardo Azeredo (F03, 2017) aparece em {cobertura('F03', uso)} "
+        f"veículos em uso ({cobertura('F03', ok_antes)} sem os veículos acima); TRF4 confirma a condenação de Lula no triplex (F05, 2018), "
+        f"em {cobertura('F05', uso)} ({cobertura('F05', ok_antes)}). Vários veículos devolveram títulos sobre fases posteriores do caso "
+        "Azeredo (ordem de prisão, STJ, embargos). O desenho não separa as causas possíveis (termos da consulta, ordem da ferramenta, "
+        "projeção nacional do réu, tribunal estadual ou federal) e não permite atribuir a diferença a linha editorial.",
+        f"- Divergências: {len(div)} ({'; '.join(f'{r.id_fato} {r.veiculo}' for r in div.itertuples())}). O critério é o título; "
+        "matéria cujo título não informa o desfecho conta como `mencao_sem_resultado`, mesmo que o texto o informe.",
+        "- Os esclarecimentos da régua em D-056 foram feitos durante a classificação, depois de ver os títulos, e valem para todas as linhas.",
         "",
     ]
 

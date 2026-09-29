@@ -1,0 +1,121 @@
+id_fato,veiculo,resultado,posicao,titulo,verificacao,observacao
+F01,Agência Brasil,sem_resultado,,,titulo,títulos devolvidos tratam da absolvição de 2014 (F02) e de votos daquele julgamento
+F01,CNN Brasil,sem_resultado,,,titulo,
+F01,Poder360,sem_resultado,,,titulo,
+F01,Metrópoles,sem_resultado,,,titulo,
+F01,Gazeta do Povo,sem_resultado,,,titulo,"posição 2 (""STF condena José Dirceu, Genoino e Delúbio por corrupção"") é outra decisão (corrupção ativa)"
+F01,CartaCapital,mencao_sem_resultado,1,Joaquim Barbosa condena Dirceu por formação de quadrilha; Lewandowski absolve,navegador,"título de voto do relator; posição 2 (""Dirceu, Genoino e Delúbio são condenados pelo STF"") conferida no navegador: 09/10/2012, corrupção ativa, outra decisão"
+F01,Consultor Jurídico (Conjur),concorda,4,Supremo condena José Dirceu e mais 24 réus no processo do mensalão,url_data,posições 1 e 2 são da dosimetria (12/11/2012) e 3 é voto do relator (18/10/2012); URL da posição 4 datada de 22/10/2012; título não nomeia o crime (omissão não é divergência)
+F01,JOTA,sem_resultado,,,titulo,
+F01,Migalhas,concorda,1,STF condena dez por formação de quadrilha,titulo,
+F01,Revista Oeste,sem_resultado,,,titulo,títulos devolvidos são posteriores e tratam de outros assuntos
+F02,Agência Brasil,concorda,1,Maioria do STF absolve condenados no mensalão do crime de quadrilha,titulo,
+F02,CNN Brasil,sem_resultado,,,titulo,
+F02,Poder360,sem_resultado,,,titulo,
+F02,Metrópoles,sem_resultado,,,titulo,
+F02,Gazeta do Povo,concorda,1,"Por um voto, STF absolve réus do crime de formação de quadrilha",titulo,
+F02,CartaCapital,sem_resultado,,,titulo,único título sobre quadrilha é do julgamento de 2012 (F01)
+F02,Consultor Jurídico (Conjur),concorda,2,"Condenados na Ação Penal 470 não formaram quadrilha, decide Supremo",url_data,posição 1 é a pauta da véspera (26/02/2014)
+F02,JOTA,sem_resultado,,,titulo,
+F02,Migalhas,concorda,1,STF absolve oito réus do crime de quadrilha no mensalão,titulo,
+F02,Revista Oeste,sem_resultado,,,titulo,títulos devolvidos são posteriores e tratam de outros assuntos
+F03,Agência Brasil,concorda,1,Justiça mineira mantém condenação de Eduardo Azeredo em segunda instância,titulo,
+F03,CNN Brasil,sem_resultado,,,titulo,
+F03,Poder360,sem_resultado,,,titulo,títulos devolvidos tratam de fases posteriores do mesmo caso (STJ; foragido)
+F03,Metrópoles,sem_resultado,,,titulo,títulos devolvidos tratam de fases posteriores do mesmo caso (ordem de prisão; livro escrito na prisão)
+F03,Gazeta do Povo,sem_resultado,,,titulo,títulos devolvidos tratam de fases anteriores e posteriores do mesmo caso (pedido de pena; entrega à polícia)
+F03,CartaCapital,sem_resultado,,,titulo,
+F03,Consultor Jurídico (Conjur),sem_resultado,,,titulo,títulos devolvidos tratam de fases posteriores do mesmo caso (relaxamento de prisão; soltura)
+F03,JOTA,sem_resultado,,,titulo,títulos devolvidos tratam de fases posteriores do mesmo caso (embargos no TJMG; Justiça Eleitoral)
+F03,Migalhas,sem_resultado,,,titulo,"título ""TJ/MG nega recurso e determina prisão de Azeredo"" trata dos embargos, decisão posterior"
+F03,Revista Oeste,sem_resultado,,,titulo,
+F04,Agência Brasil,sem_resultado,,,titulo,"título ""MPF pede condenação de Costa, Youssef e de mais sete"" é pedido anterior sem identificação segura do processo"
+F04,CNN Brasil,sem_resultado,,,titulo,
+F04,Poder360,sem_resultado,,,titulo,
+F04,Metrópoles,sem_resultado,,,titulo,
+F04,Gazeta do Povo,sem_resultado,,,navegador,"título ""Juiz inocenta Youssef no 1.º processo da Lava Jato"" conferido no navegador: 21/10/2014, outro processo"
+F04,CartaCapital,sem_resultado,,,titulo,
+F04,Consultor Jurídico (Conjur),sem_resultado,,,titulo,
+F04,JOTA,sem_resultado,,,titulo,
+F04,Migalhas,concorda,1,Paulo Roberto Costa e Youssef são condenados por lavagem de dinheiro ...,titulo,
+F04,Revista Oeste,sem_resultado,,,titulo,
+F05,Agência Brasil,concorda,1,"Por 3 a 0, desembargadores do TRF4 mantêm condenação de Lula no caso triplex",titulo,
+F05,CNN Brasil,sem_resultado,,,titulo,
+F05,Poder360,concorda,1,"Por unanimidade, TRF-4 mantém condenação e aumenta pena de Lula na Lava Jato",titulo,
+F05,Metrópoles,mencao_sem_resultado,7,Entenda como vai funcionar o julgamento do ex-presidente Lula no TRF4,titulo,título anterior ao julgamento; nenhum título devolvido informa o desfecho
+F05,Gazeta do Povo,concorda,2,Julgamento de Lula no TRF-4 termina com condenação do ex-presidente,titulo,posição 1 é coluna (URL /vozes/) e fica fora (D-055)
+F05,CartaCapital,sem_resultado,,,titulo,títulos devolvidos tratam do caso do sítio (F07)
+F05,Consultor Jurídico (Conjur),concorda,1,TRF-4 condena Lula a 12 anos de prisão por corrupção e lavagem,titulo,
+F05,JOTA,concorda,2,TRF4 mantém condenação e aumenta pena de Lula na Lava Jato,titulo,posição 1 é de formação de maioria (voto)
+F05,Migalhas,concorda,3,3x0: TRF aumenta pena de Lula na Lava Jato,titulo,posições 1 e 2 tratam do caso do sítio (F07)
+F05,Revista Oeste,sem_resultado,,,titulo,
+F06,Agência Brasil,concorda,1,STJ reduz pena de Lula de 12 para 8 anos de prisão no caso do triplex,titulo,
+F06,CNN Brasil,sem_resultado,,,titulo,títulos devolvidos tratam de decisões posteriores
+F06,Poder360,concorda,1,STJ reduz pena de Lula no caso tríplex do Guarujá,titulo,
+F06,Metrópoles,concorda,1,"Por unanimidade, Lula tem pena reduzida e pode deixar prisão este ano",titulo,título não nomeia o órgão (omissão não é divergência)
+F06,Gazeta do Povo,concorda,2,STJ reduz pena de prisão de Lula no caso tríplex do Guarujá,titulo,posição 1 trata de recurso posterior
+F06,CartaCapital,concorda,2,STJ diminui pena de Lula e ex-presidente poderá sair ainda este ano,titulo,posição 1 trata de recurso posterior
+F06,Consultor Jurídico (Conjur),concorda,1,STJ critica TRF-4 e reduz pena de Lula para 8 anos e 10 meses,titulo,
+F06,JOTA,concorda,2,STJ reduz pena de Lula a 8 anos e 10 meses de prisão,titulo,posição 1 é a íntegra dos votos
+F06,Migalhas,concorda,3,STJ reduz pena de Lula,titulo,posições 1 e 2 tratam de recursos posteriores
+F06,Revista Oeste,sem_resultado,,,titulo,
+F07,Agência Brasil,concorda,1,Segunda instância condena Lula a 17 anos de prisão em caso de sítio,titulo,
+F07,CNN Brasil,sem_resultado,,,titulo,"título ""TRF-4 nega recurso de Lula e mantém pena de 17 anos"" trata dos embargos de 2020, decisão posterior"
+F07,Poder360,concorda,4,Lula tem condenação mantida e pena aumentada para 17 anos no caso do sítio,navegador,posição 3 conferida no navegador: 06/05/2020 (embargos)
+F07,Metrópoles,concorda,6,"Atibaia: mesmo com pena aumentada, Lula não deve voltar à prisão",navegador,posição 1 conferida no navegador: 06/05/2020 (embargos); posição 6: 27/11/2019
+F07,Gazeta do Povo,concorda,1,Lula é condenado pelo TRF4 por corrupção no sítio de Atibaia,titulo,
+F07,CartaCapital,concorda,1,TRF-4 condena Lula no caso do sítio de Atibaia e aumenta pena para 17 anos,titulo,
+F07,Consultor Jurídico (Conjur),concorda,1,TRF-4 aumenta a pena de Lula em quase 5 anos,url_data,
+F07,JOTA,concorda,1,Lula é condenado em segunda instância no caso sítio. Pena é elevada para 17 anos,titulo,
+F07,Migalhas,concorda,2,TRF-4 aumenta pena de Lula no caso do sítio de Atibaia para 17 anos,titulo,posição 1 trata dos embargos (decisão posterior)
+F07,Revista Oeste,sem_resultado,,,titulo,
+F08,Agência Brasil,concorda,1,Fachin anula condenações de Lula na Lava Jato,titulo,
+F08,CNN Brasil,concorda,4,Ministro Fachin anula condenações de Lula e ex-presidente se torna elegível,titulo,posição 1 trata do julgamento no Plenário (decisão posterior)
+F08,Poder360,concorda,1,Fachin anula ações contra Lula em Curitiba e devolve direitos políticos ao petista,titulo,
+F08,Metrópoles,concorda,4,"Fachin anula processos de Lula na Lava Jato, e petista fica elegível",titulo,posições 1 e 2 tratam de reações e recursos
+F08,Gazeta do Povo,concorda,1,Fachin anula condenações de Lula na Lava Jato e tira ações de Curitiba,titulo,
+F08,CartaCapital,concorda,1,Fachin anula todas as condenações de Lula na Lava Jato,titulo,
+F08,Consultor Jurídico (Conjur),concorda,1,Fachin anula condenações de Lula e desloca processos para Brasília,titulo,
+F08,JOTA,concorda,1,Fachin declara vara de Curitiba incompetente e anula condenações de Lula,titulo,
+F08,Migalhas,concorda,2,Fachin anula as condenações de Lula na Lava Jato,titulo,posição 1 trata do julgamento no Plenário (decisão posterior)
+F08,Revista Oeste,concorda,1,Fachin anula condenações de Lula julgadas pela Lava Jato,titulo,
+F09,Agência Brasil,concorda,1,STF considera que Moro foi parcial nos processos de Lula,titulo,
+F09,CNN Brasil,concorda,2,STF decide que Moro foi parcial ao condenar Lula no caso do triplex,url_data,posição 1 trata do Plenário (decisão posterior); URL da posição 2 datada de 23/03/2021
+F09,Poder360,concorda,3,Cármen Lúcia muda voto e STF declara Moro parcial em condenação de Lula,titulo,posições 1 e 2 são de pedido de vista e de sessão ao vivo
+F09,Metrópoles,concorda,7,STF: Cármen Lúcia revê voto e Moro é declarado parcial contra Lula,titulo,posições 1 e 5 tratam do Plenário (decisões posteriores)
+F09,Gazeta do Povo,concorda,2,STF confirma suspeição de Moro para julgar Lula na Lava Jato,navegador,posição 1 conferida no navegador: 22/04/2021 (Plenário); posição 2: 23/03/2021
+F09,CartaCapital,concorda,3,Cármen Lúcia muda o voto e STF confirma: Moro é suspeito,titulo,posições 1 e 2 tratam do Plenário (decisões posteriores)
+F09,Consultor Jurídico (Conjur),concorda,5,"Com mudança de Cármen, 2ª Turma do STF declara Moro suspeito",url_data,posições 1 a 3 tratam do Plenário e do acórdão; 4 é o início do julgamento
+F09,JOTA,concorda,1,2ª Turma do STF declara suspeição de Moro em processo de Lula,titulo,
+F09,Migalhas,concorda,3,2ª turma do STF reconhece parcialidade de Moro em decisões sobre Lula,titulo,posições 1 e 2 tratam do Plenário (decisões posteriores)
+F09,Revista Oeste,concorda,1,"Cármen Lúcia muda voto, e Moro é considerado suspeito pelo STF",titulo,
+F10,Agência Brasil,concorda,1,Toffoli invalida provas obtidas no acordo de leniência da Odebrecht,titulo,
+F10,CNN Brasil,concorda,1,"Toffoli diz que prisão de Lula foi ""armação"" e anula provas do acordo de leniência da Odebrecht",titulo,
+F10,Poder360,diverge,1,Entenda o processo de delação da Odebrecht anulado por Toffoli,navegador,"conferido no navegador: 06/09/2023; o título informa anulação da delação, e o registro oficial é a declaração de imprestabilidade das provas do acordo de leniência; a posição 6 (""...ao anular acordo da Odebrecht"", 06/09/2023) tem a mesma diferença"
+F10,Metrópoles,sem_resultado,,,titulo,títulos devolvidos são de coluna (fora por D-055) ou tratam de reações e extensões posteriores
+F10,Gazeta do Povo,concorda,2,Toffoli anula provas de acordo da Odebrecht e diz que prisão de Lula foi “erro judiciário”,titulo,posição 1 trata de reação posterior (OEA)
+F10,CartaCapital,sem_resultado,,,titulo,títulos devolvidos tratam de extensões posteriores da decisão
+F10,Consultor Jurídico (Conjur),concorda,6,Toffoli declara imprestáveis provas da leniência da Odebrecht,url_data,posições anteriores são de 2024 ou de reação posterior; URL datada de 06/09/2023
+F10,JOTA,concorda,1,Toffoli anula provas do acordo de leniência da Odebrecht,titulo,
+F10,Migalhas,mencao_sem_resultado,2,Toffoli: Prisão de Lula foi armação e um dos maiores erros da história,navegador,"conferido no navegador: 06/09/2023, trata da decisão; o título não informa o desfecho (o subtítulo fala em decisão ""que invalida acordo da Odebrecht"")"
+F10,Revista Oeste,sem_resultado,,,titulo,títulos devolvidos tratam de reações e extensões posteriores
+F11,Agência Brasil,mencao_sem_resultado,1,"Vorcaro mantinha estrutura de intimidação de pessoas, cita ministro",navegador,"conferido no navegador: 04/03/2026, trata da decisão; o título não informa a prisão; a posição 7 (""Supremo decide por prisão preventiva..."") não abriu (página indisponível) e não permite distinguir a decisão monocrática da confirmação pela Turma"
+F11,CNN Brasil,concorda,3,Vorcaro é preso em nova fase da operação da PF sobre Master,titulo,posições 1 e 2 são blog e fase posterior; título não nomeia quem decretou (omissão não é divergência)
+F11,Poder360,concorda,4,"Operação da PF prende Daniel Vorcaro, fundador do Banco Master",titulo,posição 1 trata da confirmação pela Turma; 2 e 3 são íntegra e trecho da decisão
+F11,Metrópoles,concorda,5,Operação contra Vorcaro é 1ª prisão de Mendonça como relator do Master,titulo,posições 1 a 4 são coluna ou fases posteriores
+F11,Gazeta do Povo,concorda,8,Daniel Vorcaro é preso novamente pela PF,titulo,posições anteriores tratam de fases posteriores
+F11,CartaCapital,concorda,1,"STF determina nova prisão de Daniel Vorcaro, ex-CEO do Banco Master",titulo,
+F11,Consultor Jurídico (Conjur),concorda,1,"Daniel Vorcaro, dono do Banco Master, é preso novamente pela PF",url_data,
+F11,JOTA,concorda,5,Vorcaro é preso pela PF; veja como ele agia para influenciar o BC e intimidar opositores,titulo,posições anteriores são newsletter ou tratam de outras pessoas e fases
+F11,Migalhas,concorda,1,PF prende Daniel Vorcaro em nova fase do caso Master,titulo,
+F11,Revista Oeste,concorda,1,Leia na íntegra a decisão de Mendonça que mandou prender Vorcaro,titulo,
+F12,Agência Brasil,sem_resultado,,,titulo,títulos devolvidos tratam da convocação e de fases posteriores da CPI
+F12,CNN Brasil,concorda,1,Mendonça dispensa Ibaneis de depor em CPI do Crime Organizado,titulo,
+F12,Poder360,concorda,1,Mendonça desobriga Ibaneis de ir à CPI do Crime Organizado,titulo,
+F12,Metrópoles,sem_resultado,,,titulo,"a matéria sobre a decisão (posição 1) é coluna (URL /colunas/) e fica fora (D-055); a posição 2 trata da sessão seguinte da CPI, evento posterior"
+F12,Gazeta do Povo,concorda,1,Mendonça libera Ibaneis de comparecer à CPI do Crime Organizado,titulo,
+F12,CartaCapital,concorda,1,Mendonça desobriga Ibaneis de depor na CPI do Crime Organizado,titulo,
+F12,Consultor Jurídico (Conjur),concorda,1,André Mendonça desobriga Ibaneis Rocha de comparecer à CPI,url_data,
+F12,JOTA,sem_resultado,,,titulo,títulos devolvidos tratam da convocação e de outras pessoas
+F12,Migalhas,concorda,1,STF: Mendonça torna facultativa ida de Ibaneis Rocha a CPI,titulo,
+F12,Revista Oeste,concorda,1,Mendonça dispensa Ibaneis de depoimento na CPI do Crime Organizado,titulo,

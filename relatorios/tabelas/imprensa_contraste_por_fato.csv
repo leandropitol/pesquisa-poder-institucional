@@ -1,0 +1,13 @@
+id_fato,caso,fato_oficial,concorda,diverge,mencao_sem_resultado,sem_resultado,veiculos_em_uso,com_materia
+F01,AP 470,STF condena José Dirceu e José Genoino por formação de quadrilha,2,0,1,7,10,3
+F02,AP 470,STF absolve condenados por quadrilha nos embargos infringentes (inclui José Dirceu e José Genoino),4,0,0,6,10,4
+F03,AP 536 / TJMG,TJMG confirma condenação de Eduardo Azeredo (peculato e lavagem),1,0,0,9,10,1
+F04,Lava Jato / 5026212,13ª Vara de Curitiba condena Alberto Youssef e Paulo Roberto Costa por lavagem (Rnest) e absolve dois réus,1,0,0,9,10,1
+F05,Lava Jato / triplex,TRF4 confirma condenação de Lula no caso do triplex e aumenta a pena,6,0,1,3,10,7
+F06,Lava Jato / triplex,STJ mantém condenação de Lula no triplex e reduz a pena,8,0,0,2,10,8
+F07,Lava Jato / sítio,TRF4 confirma condenação de Lula no caso do sítio de Atibaia e aumenta a pena,8,0,0,2,10,8
+F08,Lava Jato / HC 193726,Fachin anula condenações de Lula por incompetência da 13ª Vara de Curitiba,10,0,0,0,10,10
+F09,Lava Jato / HC 164493,Segunda Turma do STF declara suspeição de Sergio Moro no caso do triplex,10,0,0,0,10,10
+F10,Lava Jato / Rcl 43007,Toffoli declara imprestáveis as provas do acordo de leniência da Odebrecht,5,1,1,3,10,7
+F11,Banco Master / Pet 15556,André Mendonça decreta prisão preventiva de Daniel Vorcaro e outros investigados,9,0,1,0,10,10
+F12,Banco Master / Pet 15556,André Mendonça torna facultativo o comparecimento de Ibaneis Rocha à CPI do Crime Organizado,7,0,0,3,10,7

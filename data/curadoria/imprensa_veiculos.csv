@@ -1,18 +1,18 @@
 veiculo,dominio,papel,ordem_reserva,situacao_acesso,observacao
-Folha de S.Paulo,folha.uol.com.br,principal,,nao_testado,
-O Estado de S. Paulo,estadao.com.br,principal,,nao_testado,
-O Globo,oglobo.globo.com,principal,,nao_testado,
-Valor Econômico,valor.globo.com,principal,,nao_testado,
-Agência Brasil,agenciabrasil.ebc.com.br,principal,,nao_testado,
-BBC News Brasil,bbc.com/portuguese,principal,,nao_testado,
-CNN Brasil,cnnbrasil.com.br,principal,,nao_testado,
-Poder360,poder360.com.br,principal,,nao_testado,
-Metrópoles,metropoles.com,principal,,nao_testado,
-Gazeta do Povo,gazetadopovo.com.br,principal,,nao_testado,
-CartaCapital,cartacapital.com.br,principal,,nao_testado,
-Consultor Jurídico (Conjur),conjur.com.br,principal,,nao_testado,
-JOTA,jota.info,principal,,nao_testado,
-Migalhas,migalhas.com.br,principal,,nao_testado,
-g1,g1.globo.com,reserva,1,nao_testado,
-UOL,noticias.uol.com.br,reserva,2,nao_testado,
-Revista Oeste,revistaoeste.com,reserva,3,nao_testado,
+Folha de S.Paulo,folha.uol.com.br,principal,,sem_acesso,busca restrita ao domínio sem nenhum link (controle 'Lula' e F05); D-056
+O Estado de S. Paulo,estadao.com.br,principal,,bloqueado,domínio recusa a ferramenta de busca (F05); D-056
+O Globo,oglobo.globo.com,principal,,sem_acesso,busca restrita ao domínio sem nenhum link (controle 'Lula' e F05); D-056
+Valor Econômico,valor.globo.com,principal,,sem_acesso,busca restrita ao domínio sem nenhum link (controle 'Lula' e F05); D-056
+Agência Brasil,agenciabrasil.ebc.com.br,principal,,ok,
+BBC News Brasil,bbc.com/portuguese,principal,,bloqueado,domínio recusa a ferramenta de busca (F05); D-056
+CNN Brasil,cnnbrasil.com.br,principal,,ok,
+Poder360,poder360.com.br,principal,,ok,
+Metrópoles,metropoles.com,principal,,ok,
+Gazeta do Povo,gazetadopovo.com.br,principal,,ok,
+CartaCapital,cartacapital.com.br,principal,,ok,
+Consultor Jurídico (Conjur),conjur.com.br,principal,,ok,
+JOTA,jota.info,principal,,ok,
+Migalhas,migalhas.com.br,principal,,ok,
+g1,g1.globo.com,reserva,1,sem_acesso,busca restrita ao domínio sem nenhum link (controle 'Lula'); D-056
+UOL,noticias.uol.com.br,reserva,2,sem_acesso,busca restrita ao domínio sem nenhum link (controle 'Lula'); D-056
+Revista Oeste,revistaoeste.com,reserva,3,ok,única reserva com acesso; entra no lugar de um principal sem acesso (D-055); D-056
