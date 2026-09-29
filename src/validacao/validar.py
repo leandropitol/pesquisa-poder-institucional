@@ -58,6 +58,7 @@ FONTES_PROCESSUAIS = {"judicial", "oficial"}
 STATUS_COM_SIMETRIA = {
     "denunciado", "reu", "condenado_1a_instancia", "condenado_2a_instancia",
     "condenado_tribunal_superior", "condenado_transito_em_julgado",
+    "candidatura_indeferida", "contas_julgadas_irregulares", "mandato_cassado",  # D-060
 }
 VALORES_INDICE = {
     "vdem_row": lambda v: v in {"0", "1", "2", "3"},

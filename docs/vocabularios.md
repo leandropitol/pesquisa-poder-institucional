@@ -144,6 +144,9 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `remessa_outra_instancia` | Remessa a outra instância |
 | `anulacao` | Anulação |
 | `prescricao_reconhecida` | Prescrição reconhecida |
+| `representacao_etica` | Representação por quebra de decoro |
+| `parecer_conselho_etica` | Parecer do Conselho de Ética |
+| `deliberacao_plenario` | Deliberação do plenário da casa legislativa |
 | `homologacao_colaboracao` | Homologação de colaboração premiada |
 | `extincao_punibilidade` | Extinção da punibilidade |
 | `outra` | Outra |
@@ -167,6 +170,9 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `condenacao_anulada` | condenação anulada | {data}: a condenação de {ator} em {processo} foi anulada. |
 | `processo_anulado` | processo anulado | {data}: o processo {processo} foi anulado em relação a {ator}. |
 | `colaborador` | colaborador | {data}: {ator} firmou colaboração premiada homologada em {processo}. |
+| `candidatura_indeferida` | candidatura indeferida ou cassada | {data}: a candidatura de {ator} foi indeferida ou cassada pela Justiça Eleitoral em {processo}{tipificacao}. |
+| `contas_julgadas_irregulares` | contas julgadas irregulares | {data}: transitou em julgado o julgamento das contas de {ator} como irregulares em {processo}. |
+| `mandato_cassado` | mandato cassado | {data}: o mandato de {ator} foi cassado em {processo}. |
 
 ## `tipo_evento`
 

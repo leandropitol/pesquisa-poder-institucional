@@ -77,6 +77,8 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("acordao_tribunal_superior", "Acórdão de tribunal superior"), ("transito_em_julgado", "Trânsito em julgado"),
         ("declinio_competencia", "Declínio de competência"), ("remessa_outra_instancia", "Remessa a outra instância"),
         ("anulacao", "Anulação"), ("prescricao_reconhecida", "Prescrição reconhecida"),
+        ("representacao_etica", "Representação por quebra de decoro"), ("parecer_conselho_etica", "Parecer do Conselho de Ética"),
+        ("deliberacao_plenario", "Deliberação do plenário da casa legislativa"),
         ("homologacao_colaboracao", "Homologação de colaboração premiada"), ("extincao_punibilidade", "Extinção da punibilidade"),
         ("outra", "Outra"),
     ),
@@ -96,6 +98,9 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("condenacao_anulada", "condenação anulada", {"modelo_frase": "{data}: a condenação de {ator} em {processo} foi anulada."}),
         ("processo_anulado", "processo anulado", {"modelo_frase": "{data}: o processo {processo} foi anulado em relação a {ator}."}),
         ("colaborador", "colaborador", {"modelo_frase": "{data}: {ator} firmou colaboração premiada homologada em {processo}."}),
+        ("candidatura_indeferida", "candidatura indeferida ou cassada", {"modelo_frase": "{data}: a candidatura de {ator} foi indeferida ou cassada pela Justiça Eleitoral em {processo}{tipificacao}."}),
+        ("contas_julgadas_irregulares", "contas julgadas irregulares", {"modelo_frase": "{data}: transitou em julgado o julgamento das contas de {ator} como irregulares em {processo}."}),
+        ("mandato_cassado", "mandato cassado", {"modelo_frase": "{data}: o mandato de {ator} foi cassado em {processo}."}),
     ),
     "tipo_evento": _v(
         ("decisao_judicial", "Decisão judicial"), ("votacao_nominal", "Votação nominal"), ("operacao_policial", "Operação policial"),
