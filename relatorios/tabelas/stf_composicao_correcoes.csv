@@ -1,0 +1,5 @@
+id_stf,nome_guerra,campo,lido,valor,arquivo,motivo
+54,Flávio Dino,data_posse,2011-03-03,2024-02-22,noticia_stf_528119.html,"a página Dados e Datas registra o termo de posse em 3 de março de 2011, incompatível com o decreto de nomeação de 31/01/2024; a notícia oficial de 27/02/2024 informa a posse na quinta-feira anterior (22/02/2024)"
+33,Maurício Corrêa,data_decreto_nomeacao,2004-10-27,1994-10-27,biografia_33.html,"a página Dados e Datas traz ""Decreto de 27 de outubro de 2004"" com publicação no DOU de 31 out. 1994; a biografia oficial registra 1994"
+47,Teori Zavascki,data_fim,,2017-01-19,noticia_stf_500851.html,o falecimento não consta da página Dados e Datas; a nota oficial de 19/01/2023 marca seis anos da morte (19/01/2017)
+47,Teori Zavascki,motivo_fim,,falecimento,noticia_stf_500851.html,idem

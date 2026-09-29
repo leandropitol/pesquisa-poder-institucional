@@ -200,6 +200,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_simetria(base)
     linhas += _linhas_eixo2()
     linhas += _linhas_imprensa()
+    linhas += _linhas_stf_composicao()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
     linhas += [f"- Aviso: {a}" for a in avisos[:20]]
@@ -473,6 +474,30 @@ def _linhas_eixo2() -> list[str]:
         "comparação com o BNDES é de parcelas, não de valores: o BNDES financia uma fração pequena e específica das exportações.",
         "- Redes partidárias: as datas são as da primeira e da última cópia arquivada da página de cada rede (Wayback, D-040), não as "
         "datas de filiação; filiações anteriores à primeira cópia (por exemplo, fundadores de uma rede) aparecem com a data da cópia.",
+        "",
+    ]
+
+
+def _linhas_stf_composicao() -> list[str]:
+    """Composição do STF (D-058)."""
+    arq = RAIZ / "relatorios" / "tabelas" / "stf_composicao.csv"
+    if not arq.exists():
+        return []
+    t = pd.read_csv(arq, dtype=str, keep_default_na=False)
+    c = pd.read_csv(RAIZ / "relatorios" / "tabelas" / "stf_composicao_correcoes.csv", dtype=str, keep_default_na=False)
+    div = t[t["vaga_divergente"] == "True"]
+    return [
+        "### Composição do STF (D-058)", "",
+        f"- {len(t)} ministros em exercício em algum dia desde 2003, das páginas \"Dados e Datas\" da Biblioteca do STF. As páginas têm erros: "
+        + "; ".join(f"{r.nome_guerra}, {r.campo}: lido {r.lido or '(vazio)'}, usado {r.valor} ({r.arquivo})" for r in c.itertuples()) + ".",
+        "- Vaga citada no decreto de nomeação diferente da citada na mensagem de indicação: "
+        + "; ".join(f"{r.nome_guerra} (mensagem: {r.vaga_de}; decreto: {r.vaga_no_decreto})" for r in div.itertuples())
+        + ". A tabela usa a mensagem; nenhuma data depende disso.",
+        "- Datas de fim: aposentadoria = data de início do decreto (\"a partir de\") ou, sem ela, a data do decreto; falecimento = biografia "
+        "ou notícia oficial. As relações `indicou` usam a data da mensagem de indicação. A indicação rejeitada de 2026 usa a data de "
+        "apresentação no Senado, porque a mensagem presidencial não traz o dia nas fontes coletadas.",
+        "- Filiação dos presidentes nas datas das indicações não está na base: as verificações de simetria das relações `indicou` ficam "
+        "`nao_verificado` por partido, com justificativa.",
         "",
     ]
 

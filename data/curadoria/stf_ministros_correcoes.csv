@@ -1,0 +1,5 @@
+id_stf,campo,valor,arquivo,trecho,motivo
+54,data_posse,2024-02-22,noticia_stf_528119.html,Novo ministro do STF tomou posse na última quinta-feira (22).,"a página Dados e Datas registra o termo de posse em 3 de março de 2011, incompatível com o decreto de nomeação de 31/01/2024; a notícia oficial de 27/02/2024 informa a posse na quinta-feira anterior (22/02/2024)"
+33,data_decreto_nomeacao,1994-10-27,biografia_33.html,"Nomeado Ministro do Supremo Tribunal Federal, em 27 de outubro de 1994","a página Dados e Datas traz ""Decreto de 27 de outubro de 2004"" com publicação no DOU de 31 out. 1994; a biografia oficial registra 1994"
+47,data_fim,2017-01-19,noticia_stf_500851.html,"O dia 19 de janeiro de 2023, esta quinta-feira, marca os seis anos da morte do ministro Teori Zavascki","o falecimento não consta da página Dados e Datas; a nota oficial de 19/01/2023 marca seis anos da morte (19/01/2017)"
+47,motivo_fim,falecimento,noticia_stf_500851.html,marca os seis anos da morte do ministro Teori Zavascki,idem

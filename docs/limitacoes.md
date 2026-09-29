@@ -59,26 +59,27 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 
 | Tabela | Registros |
 |---|---:|
-| `atores` | 2829 |
+| `atores` | 2861 |
 | `filiacoes` | 6553 |
-| `cargos` | 4628 |
+| `cargos` | 4657 |
 | `instituicoes` | 1487 |
 | `denominacoes_partido` | 67 |
 | `casos` | 4 |
 | `processos` | 10077 |
 | `fases_processo` | 6639 |
 | `status_pessoa_processo` | 88 |
-| `eventos` | 2297 |
-| `relacoes` | 2429 |
-| `fontes` | 260 |
+| `eventos` | 2298 |
+| `relacoes` | 2459 |
+| `fontes` | 304 |
 | `fonte_judicial` | 11 |
-| `fonte_oficial` | 246 |
+| `fonte_legislativa` | 1 |
+| `fonte_oficial` | 289 |
 | `fonte_base_dados` | 3 |
-| `evento_fonte` | 2297 |
-| `relacao_fonte` | 2449 |
-| `buscas` | 676 |
-| `verificacoes_simetria` | 44 |
-| `verificacao_resultado` | 1039 |
+| `evento_fonte` | 2298 |
+| `relacao_fonte` | 2509 |
+| `buscas` | 754 |
+| `verificacoes_simetria` | 69 |
+| `verificacao_resultado` | 1528 |
 | `universo_partidos` | 521 |
 | `qualidade_democratica` | 16651 |
 | `operacoes_exportacao_bndes` | 2996 |
@@ -87,11 +88,11 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `emendas_parlamentares` | 92364 |
 | `doacoes_campanha` | 12613 |
 
-Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `decisoes_judiciais`.
+Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistica`, `afirmacao_fonte`, `decisoes_judiciais`.
 
 ### Buscas
 
-- 676 buscas registradas; 171 com zero resultados.
+- 754 buscas registradas; 171 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Buscador web do ChatGPT (site:), relatado pelo agente: 60 buscas, coleta de 2026-09-29.
 - ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
@@ -119,18 +120,19 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - OEA, volumes de resoluções da Assembleia Geral (download manual do autor, D-034): 5 buscas, coleta de 2026-09-24.
 - ONU, UN Digital Library (download manual do autor, D-032): 1 buscas, coleta de 2026-09-24.
 - Portal da Transparência (CGU), download de dados: 4 buscas, coleta de 2026-09-24.
+- Portal do STF (navegador embutido, mesma origem): 75 buscas, coleta de 2026-09-29.
 - STF, Corte Aberta (exportação feita pelo autor no navegador, D-037): 24 buscas, coleta de 2026-09-29.
 - STF, portal (aba Partes) e Corte Aberta (decisões): 74 buscas, coleta de 2026-09-28.
 - STF, portal (aba Partes) e Corte Aberta (decisões); Câmara, orientações de bancada (D-050/D-051): 4 buscas, coleta de 2026-09-28.
-- Senado, dados abertos: 7 buscas, coleta de 2026-09-24.
+- Senado, dados abertos: 10 buscas, coleta de 2026-09-29.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
 - V-Dem Institute, pacote vdemdata (GitHub, tag V16): 1 buscas, coleta de 2026-09-24.
 
 ### Lacunas medidas na etapa E1 (Câmara e Senado)
 
-- Mandatos de suplente: 1132 de 4628 cargos. No Senado, o mandato de suplente não indica que houve exercício; na Câmara, o cargo de suplente só aparece quando há registro no histórico.
-- Atores sem nenhuma filiação registrada: 249 de 2829; 209 deles só têm mandato de suplente no Senado, e o Senado não publica filiação para quem não exerceu.
+- Mandatos de suplente: 1132 de 4657 cargos. No Senado, o mandato de suplente não indica que houve exercício; na Câmara, o cargo de suplente só aparece quando há registro no histórico.
+- Atores sem nenhuma filiação registrada: 281 de 2861; 209 deles só têm mandato de suplente no Senado, e o Senado não publica filiação para quem não exerceu.
 - Filiações da Câmara cobrem só o período de mandato (fonte: histórico do deputado); fora do mandato, a filiação não é observada.
 - Pares Câmara e Senado identificados como a mesma pessoa automaticamente: 115; pares ambíguos aguardando revisão: 0 (`data/curadoria/equivalencias_atores_pendentes.csv`). Até a revisão, cada lado é um ator separado.
 - Partidos: 47 registros no TSE, com 67 denominações e 17 fusões ou incorporações (fonte: página de partidos do TSE, lida no navegador; D-015). A página cobre mudanças a partir da Lei 9.096/1995.
@@ -248,7 +250,7 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Verificação de simetria dos status da E9
 
-- 44 verificações, 1039 resultados por grupo (encontrado: 560; sem_evidencia: 254; nao_verificado: 225).
+- 69 verificações, 1528 resultados por grupo (nao_verificado: 714; encontrado: 560; sem_evidencia: 254).
 - Universo lido: lotes 1, 2, 3, 4, 5, 6, 7 de D-048 (660 de 660 ações penais do STF, fora 8 de janeiro; o lote 1 reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do Ministério Público no campo de réu, "OS MESMOS"), empresas (LTDA, ME, EPP), entes públicos (município) e nomes só com iniciais ficam fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado) não entra na lista de réus. Com todos os lotes lidos, os status de réu têm verificação própria (padrão de réu, abaixo).
 - Padrão de condenação: contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em parte), partido na data do primeiro julgamento de mérito. Padrão de réu: todas as ações do eixo 1 em que o parlamentar é réu, partido na data de autuação da ação; ação penal no STF não mostra quando cada pessoa passou a réu. O status de denunciado não tem padrão lido (denúncia oferecida fica no inquérito, fora da lista de ações penais). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em "revisar", conforme a regra da E5; partido só com ações em "revisar" fica `nao_verificado`, com a lista das ações.
 - Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em `data/curadoria/simetria_stf_ap_ligacoes.csv`. Ligação que se apoia só no prenome, ou no prenome e num nome do meio, entra como `aceita_a_conferir` quando nenhum outro parlamentar da base tem esse nome; prenome compartilhado é rejeitado; nome comum em ação com muitos réus fica `pendente`.
@@ -281,6 +283,13 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Pelo Google, nos 4 jornais com acesso, F03 tem matéria em 0 de 4 e F05 em 2 de 4.
 - Estadão: a regra de D-055 exclui URL de blog, e a cobertura judicial do jornal está sob /blog-do-fausto-macedo/. Há matéria em 5 de 12 fatos pela regra e em 7 incluindo blogs.
 - O Google às vezes mostra um título diferente do título da página (reescrita do buscador). A unidade continua sendo o título devolvido; quando o corte do buscador escondia o desfecho, valeu o título completo lido no navegador.
+
+### Composição do STF (D-058)
+
+- 29 ministros em exercício em algum dia desde 2003, das páginas "Dados e Datas" da Biblioteca do STF. As páginas têm erros: Flávio Dino, data_posse: lido 2011-03-03, usado 2024-02-22 (noticia_stf_528119.html); Maurício Corrêa, data_decreto_nomeacao: lido 2004-10-27, usado 1994-10-27 (biografia_33.html); Teori Zavascki, data_fim: lido (vazio), usado 2017-01-19 (noticia_stf_500851.html); Teori Zavascki, motivo_fim: lido (vazio), usado falecimento (noticia_stf_500851.html).
+- Vaga citada no decreto de nomeação diferente da citada na mensagem de indicação: Luís Roberto Barroso (mensagem: Carlos Augusto Ayres de Freitas Britto; decreto: Antonio Cezar Peluso); André Mendonça (mensagem: Marco Aurélio Mendes de Farias Mello; decreto: Aurélio Mendes de Farias Mello). A tabela usa a mensagem; nenhuma data depende disso.
+- Datas de fim: aposentadoria = data de início do decreto ("a partir de") ou, sem ela, a data do decreto; falecimento = biografia ou notícia oficial. As relações `indicou` usam a data da mensagem de indicação. A indicação rejeitada de 2026 usa a data de apresentação no Senado, porque a mensagem presidencial não traz o dia nas fontes coletadas.
+- Filiação dos presidentes nas datas das indicações não está na base: as verificações de simetria das relações `indicou` ficam `nao_verificado` por partido, com justificativa.
 
 ### Validador
 
