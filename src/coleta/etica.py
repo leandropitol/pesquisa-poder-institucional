@@ -58,9 +58,9 @@ def coletar(data: str | None = None) -> None:
             execucao.gravar(arquivo, url.replace(str(p["id"]), "{id}"), r, {"id": p["id"]})
     contagem["camara"] = len(props)
     manifesto = {m["arquivo"].rsplit("/", 1)[1]: m for m in execucao.fechar()}
-    registrar_busca("Senado, dados abertos", "REP, DEN e PCE (Conselho de Ética) 2003 em diante", n_sen, SCRIPT, execucao.data[:10], {"siglas": SIGLAS_SENADO},
+    registrar_busca("Senado, dados abertos", f"REP, DEN e PCE (Conselho de Ética) 2003 em diante (coleta {execucao.data})", n_sen, SCRIPT, execucao.data[:10], {"siglas": SIGLAS_SENADO},
                     manifesto["senado_rep_por_ano.jsonl"], ids)
-    registrar_busca("Câmara dos Deputados, dados abertos", "proposições tipo REP apresentadas desde 2003-01-01", len(props), SCRIPT,
+    registrar_busca("Câmara dos Deputados, dados abertos", f"proposições tipo REP apresentadas desde 2003-01-01 (coleta {execucao.data})", len(props), SCRIPT,
                     execucao.data[:10], {"siglaTipo": "REP"}, manifesto["camara_rep_lista.jsonl"], ids)
     ids.salvar()
     print(contagem)
