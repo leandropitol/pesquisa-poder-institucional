@@ -1,0 +1,11 @@
+data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
+2026-09-29,data/raw/etica/2026-09-29/senado_rep_por_ano.jsonl,https://legis.senado.leg.br/dadosabertos/processo?sigla=REP&ano={ano},24,18914,c1b3b6aca64b07f59104244e9d8c1c140df03bff4780bf3d437108fca2bb4d27
+2026-09-29,data/raw/etica/2026-09-29/senado_rep_detalhe.jsonl,https://legis.senado.leg.br/dadosabertos/processo/{id},18,889778,32b6cf8d89a8f1878920e9ad16d7fb801aaab05c0dd3a897fe9953875ef9da05
+2026-09-29,data/raw/etica/2026-09-29/camara_rep_lista.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=REP&dataApresentacaoInicio=2003-01-01,4,159580,fa8370cf57a969acdd4e6f5805062e5781865495e3a6c1b218802131831293da
+2026-09-29,data/raw/etica/2026-09-29/camara_rep_detalhe.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id},385,752922,2666bc08b9015ec9cc8f1670691cf3fbe3b0d1f1efc1517c89666fc514e33161
+2026-09-29,data/raw/etica/2026-09-29/camara_rep_tramitacoes.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id}/tramitacoes,385,4473166,68f5259c6405985a956cc5d7b980226e902937a756e8806b5a2661b91ed5ba3c
+2026-09-29-b,data/raw/etica/2026-09-29-b/senado_rep_por_ano.jsonl,https://legis.senado.leg.br/dadosabertos/processo?sigla={sigla}&ano={ano},72,154474,0a0ad56d5f0aaf9e7823297b67f69a992ad7a0e64ee9b5cb1e5aee14e6fcf30b
+2026-09-29-b,data/raw/etica/2026-09-29-b/senado_rep_detalhe.jsonl,https://legis.senado.leg.br/dadosabertos/processo/{id},198,2562630,f1ebd9a6fb96ced193e660c16b91cc232d755e80f6c7bd960356d99869031d0b
+2026-09-29-b,data/raw/etica/2026-09-29-b/camara_rep_lista.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=REP&dataApresentacaoInicio=2003-01-01,4,159580,58ffc6d20ec7b5251a6bb747fde9d141be0e6954234ef4955d66267e80b51590
+2026-09-29-b,data/raw/etica/2026-09-29-b/camara_rep_detalhe.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id},385,752922,1af137e471c4d7d1e7a054c40c1b7fcf52dff931a087df23484d7848e2a4efc2
+2026-09-29-b,data/raw/etica/2026-09-29-b/camara_rep_tramitacoes.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id}/tramitacoes,385,4473166,d4437eaebaa92ebf9bed93c8f00eef898e7ba10887a7ed7729e04c1c91a4b18a
