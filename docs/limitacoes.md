@@ -76,7 +76,7 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `fonte_base_dados` | 3 |
 | `evento_fonte` | 2297 |
 | `relacao_fonte` | 2449 |
-| `buscas` | 556 |
+| `buscas` | 676 |
 | `verificacoes_simetria` | 44 |
 | `verificacao_resultado` | 1039 |
 | `universo_partidos` | 521 |
@@ -91,14 +91,16 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 
 ### Buscas
 
-- 556 buscas registradas; 97 com zero resultados.
+- 676 buscas registradas; 171 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
+- Buscador web do ChatGPT (site:), relatado pelo agente: 60 buscas, coleta de 2026-09-29.
 - ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
 - Câmara dos Deputados, dados abertos (arquivos anuais): 48 buscas, coleta de 2026-09-28.
 - Câmara, API v2: 9 buscas, coleta de 2026-09-24.
 - DataJud (CNJ), API pública, STJ: 3 buscas, coleta de 2026-09-24.
 - Ferramenta de busca na web do assistente (restrita ao domínio do veículo): 131 buscas, coleta de 2026-09-29.
 - Freedom House, planilhas históricas: 2 buscas, coleta de 2026-09-24.
+- Google (site:), via Claude in Chrome no navegador do autor, sem login: 60 buscas, coleta de 2026-09-29.
 - Internet Archive (Wayback Machine): Aliança Progressista: 3 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): Conferência Permanente de Partidos Políticos da América Latina e do Caribe: 8 buscas, coleta de 2026-09-24.
 - Internet Archive (Wayback Machine): Foro de Madri: 2 buscas, coleta de 2026-09-24.
@@ -271,6 +273,14 @@ Tabelas ainda vazias (6): `afirmacoes`, `fonte_legislativa`, `fonte_orcamentaria
 - Assimetria de cobertura observada: TJMG confirma a condenação de Eduardo Azeredo (F03, 2017) aparece em 1 de 10 veículos em uso (1 de 8 sem os veículos acima); TRF4 confirma a condenação de Lula no triplex (F05, 2018), em 7 de 10 (7 de 8). Vários veículos devolveram títulos sobre fases posteriores do caso Azeredo (ordem de prisão, STJ, embargos). O desenho não separa as causas possíveis (termos da consulta, ordem da ferramenta, projeção nacional do réu, tribunal estadual ou federal) e não permite atribuir a diferença a linha editorial.
 - Divergências: 1 (F10 Poder360). O critério é o título; matéria cujo título não informa o desfecho conta como `mencao_sem_resultado`, mesmo que o texto o informe.
 - Os esclarecimentos da régua em D-056 foram feitos durante a classificação, depois de ver os títulos, e valem para todas as linhas.
+
+#### Principais sem acesso: relatórios de navegação (D-057)
+
+- Coletas usadas: Google pelo Claude in Chrome (chrome_google) e buscador do ChatGPT (chatgpt_busca). Buscas bloqueadas: chatgpt_busca BBC News Brasil: 12; chatgpt_busca O Estado de S. Paulo: 12; chatgpt_busca O Globo: 12; chatgpt_busca Valor Econômico: 12; chrome_google BBC News Brasil: 12; chrome_google Valor Econômico: 5. A BBC News Brasil ficou sem nenhuma busca concluída. O relatório do Gemini está no bruto e fora da classificação.
+- O buscador muda o resultado. Na Folha, a única coberta pelas duas coletas, elas divergem sobre haver matéria da decisão em 7 dos 12 fatos (F01, F02, F03, F06, F07, F11, F12). Em F03 (Azeredo, TJMG) o Google não devolveu nenhum resultado e o outro buscador pôs a matéria da decisão em primeiro. `sem_resultado` mede o buscador tanto quanto o veículo, e a assimetria F03 × F05 do painel principal não deve ser lida como diferença de cobertura dos veículos.
+- Pelo Google, nos 4 jornais com acesso, F03 tem matéria em 0 de 4 e F05 em 2 de 4.
+- Estadão: a regra de D-055 exclui URL de blog, e a cobertura judicial do jornal está sob /blog-do-fausto-macedo/. Há matéria em 5 de 12 fatos pela regra e em 7 incluindo blogs.
+- O Google às vezes mostra um título diferente do título da página (reescrita do buscador). A unidade continua sendo o título devolvido; quando o corte do buscador escondia o desfecho, valeu o título completo lido no navegador.
 
 ### Validador
 

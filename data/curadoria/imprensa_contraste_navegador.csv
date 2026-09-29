@@ -1,0 +1,56 @@
+coleta,id_fato,veiculo,resultado,resultado_incluindo_blogs,posicao,titulo,verificacao,observacao
+chrome_google,F01,Folha de S.Paulo,sem_resultado,,,,titulo,posição 1 trata da dosimetria de Marcos Valério (25/10/2012); posição 2 é de 2018
+chrome_google,F02,Folha de S.Paulo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F03,Folha de S.Paulo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F04,Folha de S.Paulo,concorda,,1,Justiça condena oito por desvios em obra de refinaria da Petrobras,navegador,título da página conferido no navegador; URL de 2015/04; título não nomeia os réus (omissão não é divergência)
+chrome_google,F05,Folha de S.Paulo,concorda,,1,Tribunal amplia pena de Lula para 12 anos de prisão,url_data,Agora São Paulo (subdomínio da Folha); URL de 2018/01
+chrome_google,F06,Folha de S.Paulo,mencao_sem_resultado,,1,Chance de Lula reverter caso tríplex se torna ainda mais exígua,titulo,análise do dia seguinte à decisão (24/04/2019); nenhum título devolvido informa o desfecho
+chrome_google,F07,Folha de S.Paulo,concorda,,1,"Tribunal condena Lula em caso do sítio, amplia pena para 17",navegador,conferido no navegador: 27/11/2019
+chrome_google,F08,Folha de S.Paulo,concorda,,1,"Fachin anula condenações de Lula, e petista fica apto",navegador,conferido no navegador: 08/03/2021
+chrome_google,F09,Folha de S.Paulo,concorda,,2,"Cármen Lúcia muda voto, e Supremo declara Moro parcial em",navegador,posição 1 trata de outra decisão (F08); posição 2 conferida no navegador: 23/03/2021
+chrome_google,F10,Folha de S.Paulo,concorda,,1,Odebrecht: Entenda efeito da anulação de prova por Toffoli,navegador,"conferido no navegador: 07/09/2023; o título exibido pelo Google difere do título da página (""Provas da Odebrecht invalidadas por Toffoli incluem planilhas de pagamentos; entenda""); vale o título devolvido"
+chrome_google,F11,Folha de S.Paulo,concorda,,1,"Vorcaro, do Master, é preso em fase 3 da Compliance Zero",navegador,"conferido no navegador: 04/03/2026; título da página: ""Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero""; título não nomeia quem decretou (omissão não é divergência)"
+chrome_google,F12,Folha de S.Paulo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F01,O Estado de S. Paulo,sem_resultado,,,,titulo,posição 1 é infográfico geral; posição 2 é de 02/10/2012 e trata de outro assunto
+chrome_google,F02,O Estado de S. Paulo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F03,O Estado de S. Paulo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F04,O Estado de S. Paulo,sem_resultado,concorda,,,navegador,"todos os resultados estão sob /blog-do-fausto-macedo/ e ficam fora por D-055; com blogs, a posição 1 (""Justiça condena ex-diretor da Petrobrás por lavagem e organização criminosa na Abreu e Lima"", conferida no navegador: 22/04/2015) concordaria"
+chrome_google,F05,O Estado de S. Paulo,sem_resultado,mencao_sem_resultado,,,titulo,"resultados são do blog, de coluna (/neumanne/) ou de outras decisões; com blogs, a posição 3 (""As 22 conclusões do relator Gebran Neto em seu voto de condenação de Lula"", 30/01/2018) trata do julgamento sem informar o desfecho do colegiado"
+chrome_google,F06,O Estado de S. Paulo,concorda,,2,Ao Vivo - Caso triplex: Ministros do STJ reduzem pena de Lula,titulo,posição 1 é do blog (fora por D-055) e também concordaria (conferida no navegador: 23/04/2019)
+chrome_google,F07,O Estado de S. Paulo,mencao_sem_resultado,,1,Nova condenação de Lula será anulada? Ouça no,titulo,podcast de 28/11/2019; o título trata da decisão sem informar o desfecho do julgamento no TRF4; posição 2 é opinião
+chrome_google,F08,O Estado de S. Paulo,mencao_sem_resultado,concorda,3,Lula elegível: e agora? Ouça no 'Estadão Notícias',titulo,"podcast; posições 1, 2 e 4 a 7 são do blog (fora por D-055); com blogs, a posição 1 (""Fachin anula todas as condenações de Lula na Lava Jato"", conferida no navegador: 08/03/2021) concordaria"
+chrome_google,F09,O Estado de S. Paulo,mencao_sem_resultado,concorda,6,Suspeição de Moro: o que acontece agora com os casos,titulo,"posições 1 a 5 são do blog (fora por D-055); com blogs, a posição 1 (""Maioria da 2ª Turma do STF declara Moro parcial ao condenar Lula no caso triplex"", conferida no navegador: 23/03/2021) concordaria"
+chrome_google,F10,O Estado de S. Paulo,concorda,,6,"Toffoli ignora corrupção, anula provas contra Odebrecht e",titulo,podcast de 07/09/2023 com juízo de valor no título; posições anteriores são do blog ou de decisões posteriores
+chrome_google,F11,O Estado de S. Paulo,sem_resultado,,,,titulo,resultados tratam de fases posteriores; posição 3 é coluna; posições 5 e 9 são do blog e também tratam de fases posteriores
+chrome_google,F12,O Estado de S. Paulo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F01,O Globo,sem_resultado,,,,titulo,posições 1 e 7 são do acervo histórico; posição 2 é voto sobre corrupção (03/10/2012); demais tratam de outras datas
+chrome_google,F02,O Globo,concorda,,1,Maioria do STF absolve mensaleiros do crime de formação,navegador,conferido no navegador: 27/02/2014
+chrome_google,F03,O Globo,sem_resultado,,,,navegador,posição 1 conferida no navegador: embargos de 24/04/2018 (fase posterior do mesmo caso); posição 2 é de 2013
+chrome_google,F04,O Globo,sem_resultado,,,,titulo,resultados tratam de outras decisões e de datas posteriores
+chrome_google,F05,O Globo,sem_resultado,,,,titulo,resultados tratam da sentença de 2017 e de decisões posteriores
+chrome_google,F06,O Globo,concorda,,1,"STJ reduz pena de Lula no caso do tríplex, e ex-presidente",titulo,
+chrome_google,F07,O Globo,concorda,,2,TRF-4 mantém condenação de Lula e aumenta pena para,navegador,posição 1 é de 2021; posição 2 conferida no navegador: 27/11/2019
+chrome_google,F08,O Globo,concorda,,1,Fachin anula condenações contra Lula e mantém direitos,navegador,conferido no navegador: 08/03/2021
+chrome_google,F09,O Globo,concorda,,1,"Cármen muda o voto, e Segunda Turma do STF decide",navegador,"título exibido cortado pelo Google antes do desfecho; título completo lido no navegador (D-057): ""Cármen muda o voto, e Segunda Turma do STF decide que Moro foi parcial ao condenar Lula no caso do tríplex"""
+chrome_google,F10,O Globo,concorda,,1,Toffoli anula provas do acordo de leniência da Odebrecht,navegador,conferido no navegador
+chrome_google,F11,O Globo,concorda,,2,Vorcaro é preso de novo pela PF por determinação,navegador,posição 1 trata de decisão posterior (10/03/2026); posição 2 conferida no navegador
+chrome_google,F12,O Globo,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F01,Valor Econômico,mencao_sem_resultado,,1,Revisor muda votos e absolve por quadrilha,url_data,voto do revisor no mesmo julgamento (19/10/2012)
+chrome_google,F02,Valor Econômico,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F03,Valor Econômico,sem_resultado,,,,titulo,nenhum resultado
+chrome_google,F04,Valor Econômico,sem_resultado,,,,titulo,resultados tratam de outras decisões
+chrome_google,F05,Valor Econômico,concorda,,1,"Por unanimidade, TRF4 condena Lula e amplia pena para 12",navegador,conferido no navegador: 24/01/2018
+chrome_google,F06,Valor Econômico,sem_resultado,,,,titulo,posição 1 é reação posterior (25/04/2019); posição 2 é de 2020
+chrome_google,F07,Valor Econômico,mencao_sem_resultado,,1,Tribunal marca julgamento de Lula no processo do sítio de,url_data,pauta do julgamento (08/11/2019); nenhum título devolvido informa o desfecho
+chatgpt_busca,F01,Folha de S.Paulo,concorda,,2,Supremo condena Dirceu e mais nove por quadrilha,navegador,posição 1 é voto do relator (18/10/2012); posição 2 conferida no navegador: 23/10/2012
+chatgpt_busca,F02,Folha de S.Paulo,concorda,,2,"'É uma tarde triste para o STF', diz Barbosa sobre absolvição de condenados",navegador,posição 1 é outra decisão (14/02/2014); posição 2 conferida no navegador (27/02/2014); título não nomeia os réus (omissão não é divergência)
+chatgpt_busca,F03,Folha de S.Paulo,concorda,,1,Justiça de Minas mantém condenação de Azeredo no mensalão tucano,navegador,título da página conferido no navegador (URL de 2017/08)
+chatgpt_busca,F04,Folha de S.Paulo,concorda,,1,Justiça condena oito por desvios em obra de refinaria da Petrobras,navegador,título da página conferido no navegador
+chatgpt_busca,F05,Folha de S.Paulo,concorda,,1,Tribunal confirma condenação de Lula no caso tríplex,navegador,conferido no navegador: 24/01/2018
+chatgpt_busca,F06,Folha de S.Paulo,sem_resultado,,,,titulo,resultados tratam de outras decisões; posição 4 é página de busca do site
+chatgpt_busca,F07,Folha de S.Paulo,sem_resultado,,,,titulo,"posição 1 é de 2021; posições 2 e 5 são páginas de comentários, não matérias (a 5 traz o título ""Tribunal eleva pressão sobre STF ao usar brecha para condenar Lula no caso do sítio"")"
+chatgpt_busca,F08,Folha de S.Paulo,concorda,,1,"Fachin anula condenações de Lula, e petista fica apto a disputar eleição de 2022",navegador,conferido no navegador: 08/03/2021
+chatgpt_busca,F09,Folha de S.Paulo,concorda,,1,Entenda efeitos do julgamento no STF que declarou Moro parcial em caso de Lula,titulo,a data exibida (07/03/2021) é anterior à decisão e o título foi atualizado depois; a posição 2 é a matéria de 23/03/2021 (conferida no navegador) e também concorda
+chatgpt_busca,F10,Folha de S.Paulo,concorda,,2,Odebrecht: Entenda efeito da anulação de prova por Toffoli,navegador,posição 1 é análise posterior (15/09/2023); posição 2 conferida no navegador: 07/09/2023
+chatgpt_busca,F11,Folha de S.Paulo,sem_resultado,,,,titulo,o buscador devolveu só matérias de setembro de 2026 sobre outros assuntos
+chatgpt_busca,F12,Folha de S.Paulo,concorda,,1,Ibaneis não precisará comparecer a CPI do Crime Organizado,navegador,"URL conferida no navegador (03/04/2026; título da página: ""Mendonça desobriga ex-governador Ibaneis Rocha de comparecer à CPI do Crime Organizado""); título exibido não nomeia quem decidiu (omissão não é divergência)"

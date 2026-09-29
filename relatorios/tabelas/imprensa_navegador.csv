@@ -1,0 +1,121 @@
+coleta,id_fato,data_fato,caso,veiculo,resultado,resultado_incluindo_blogs,posicao,titulo,url,data_exibida,verificacao,observacao
+chatgpt_busca,F01,2012-10-23,AP 470,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F02,2014-02-27,AP 470,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F03,2017-08-22,AP 536 / TJMG,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F04,2015-04-22,Lava Jato / 5026212,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F05,2018-01-24,Lava Jato / triplex,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F06,2019-04-23,Lava Jato / triplex,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F07,2019-11-27,Lava Jato / sítio,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F08,2021-03-08,Lava Jato / HC 193726,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F09,2021-03-23,Lava Jato / HC 164493,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F10,2023-09-06,Lava Jato / Rcl 43007,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F11,2026-03-04,Banco Master / Pet 15556,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F12,2026-04-03,Banco Master / Pet 15556,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F01,2012-10-23,AP 470,Folha de S.Paulo,concorda,concorda,2,Folha de S.Paulo - Poder - Supremo condena Dirceu e mais nove por quadrilha - 23/10/2012,https://www1.folha.uol.com.br/fsp/poder/73562-supremo-condena-dirceu-e-mais-nove-por-quadrilha.shtml,23/10/2012,navegador,posição 1 é voto do relator (18/10/2012); posição 2 conferida no navegador: 23/10/2012
+chatgpt_busca,F02,2014-02-27,AP 470,Folha de S.Paulo,concorda,concorda,2,"'É uma tarde triste para o STF', diz Barbosa sobre absolvição de condenados - 27/02/2014 - Poder - Folha de S.Paulo",https://www1.folha.uol.com.br/poder/2014/02/1418684-supremo-derruba-crime-de-quadrilha-e-beneficia-dirceu-e-mais-sete.shtml,27/02/2014,navegador,posição 1 é outra decisão (14/02/2014); posição 2 conferida no navegador (27/02/2014); título não nomeia os réus (omissão não é divergência)
+chatgpt_busca,F03,2017-08-22,AP 536 / TJMG,Folha de S.Paulo,concorda,concorda,1,Justiça de Minas mantém condenação de Azeredo no mensalão tucano - 22/08/2017 - Poder - Folha de S.Paulo,https://www1.folha.uol.com.br/poder/2017/08/1912187-revisor-empata-julgamento-de-azeredo-no-mensalao-tucano.shtml,22/08/2017,navegador,título da página conferido no navegador (URL de 2017/08)
+chatgpt_busca,F04,2015-04-22,Lava Jato / 5026212,Folha de S.Paulo,concorda,concorda,1,Justiça condena oito por desvios em obra de refinaria da Petrobras - 22/04/2015 - Poder - Folha de S.Paulo,https://www1.folha.uol.com.br/poder/2015/04/1619602-justica-condena-reus-da-lava-jato-a-pagar-indenizacao-de-r-18-milhoes.shtml,22/04/2015,navegador,título da página conferido no navegador
+chatgpt_busca,F05,2018-01-24,Lava Jato / triplex,Folha de S.Paulo,concorda,concorda,1,Tribunal confirma condenação de Lula no caso tríplex - 24/01/2018 - Poder - Folha,https://www1.folha.uol.com.br/poder/2018/01/1952994-tribunal-confirma-condenacao-de-lula-no-caso-triplex.shtml,24/01/2018,navegador,conferido no navegador: 24/01/2018
+chatgpt_busca,F06,2019-04-23,Lava Jato / triplex,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,resultados tratam de outras decisões; posição 4 é página de busca do site
+chatgpt_busca,F07,2019-11-27,Lava Jato / sítio,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,"posição 1 é de 2021; posições 2 e 5 são páginas de comentários, não matérias (a 5 traz o título ""Tribunal eleva pressão sobre STF ao usar brecha para condenar Lula no caso do sítio"")"
+chatgpt_busca,F08,2021-03-08,Lava Jato / HC 193726,Folha de S.Paulo,concorda,concorda,1,"Fachin anula condenações de Lula, e petista fica apto a disputar eleição de 2022 - 08/03/2021 - Poder - Folha",https://www1.folha.uol.com.br/poder/2021/03/fachin-anula-condenacoes-do-ex-presidente-lula-na-lava-jato-em-curitiba.shtml,08/03/2021,navegador,conferido no navegador: 08/03/2021
+chatgpt_busca,F09,2021-03-23,Lava Jato / HC 164493,Folha de S.Paulo,concorda,concorda,1,Entenda efeitos do julgamento no STF que declarou Moro parcial em caso de Lula - 07/03/2021 - Poder - Folha,https://www1.folha.uol.com.br/poder/2021/03/entenda-pedido-de-lula-no-stf-para-anular-sentencas-de-moro-e-o-que-isso-pode-mexer-com-eleicoes-de-2022.shtml,07/03/2021,titulo,a data exibida (07/03/2021) é anterior à decisão e o título foi atualizado depois; a posição 2 é a matéria de 23/03/2021 (conferida no navegador) e também concorda
+chatgpt_busca,F10,2023-09-06,Lava Jato / Rcl 43007,Folha de S.Paulo,concorda,concorda,2,Odebrecht: Entenda efeito da anulação de prova por Toffoli - 07/09/2023 - Poder - Folha,https://www1.folha.uol.com.br/poder/2023/09/provas-da-odebrecht-invalidadas-por-toffoli-incluem-planilhas-de-pagamentos-entenda.shtml,07/09/2023,navegador,posição 1 é análise posterior (15/09/2023); posição 2 conferida no navegador: 07/09/2023
+chatgpt_busca,F11,2026-03-04,Banco Master / Pet 15556,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,o buscador devolveu só matérias de setembro de 2026 sobre outros assuntos
+chatgpt_busca,F12,2026-04-03,Banco Master / Pet 15556,Folha de S.Paulo,concorda,concorda,1,Ibaneis não precisará comparecer a CPI do Crime Organizado - 03/04/2026 - Economia - Folha,https://www1.folha.uol.com.br/mercado/2026/04/mendonca-desobriga-ex-governador-ibaneis-rocha-de-comparecer-a-cpi-do-crime-organizado.shtml,03/04/2026,navegador,"URL conferida no navegador (03/04/2026; título da página: ""Mendonça desobriga ex-governador Ibaneis Rocha de comparecer à CPI do Crime Organizado""); título exibido não nomeia quem decidiu (omissão não é divergência)"
+chatgpt_busca,F01,2012-10-23,AP 470,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F02,2014-02-27,AP 470,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F03,2017-08-22,AP 536 / TJMG,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F04,2015-04-22,Lava Jato / 5026212,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F05,2018-01-24,Lava Jato / triplex,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F06,2019-04-23,Lava Jato / triplex,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F07,2019-11-27,Lava Jato / sítio,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F08,2021-03-08,Lava Jato / HC 193726,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F09,2021-03-23,Lava Jato / HC 164493,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F10,2023-09-06,Lava Jato / Rcl 43007,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F11,2026-03-04,Banco Master / Pet 15556,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F12,2026-04-03,Banco Master / Pet 15556,O Estado de S. Paulo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F01,2012-10-23,AP 470,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F02,2014-02-27,AP 470,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F03,2017-08-22,AP 536 / TJMG,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F04,2015-04-22,Lava Jato / 5026212,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F05,2018-01-24,Lava Jato / triplex,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F06,2019-04-23,Lava Jato / triplex,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F07,2019-11-27,Lava Jato / sítio,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F08,2021-03-08,Lava Jato / HC 193726,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F09,2021-03-23,Lava Jato / HC 164493,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F10,2023-09-06,Lava Jato / Rcl 43007,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F11,2026-03-04,Banco Master / Pet 15556,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F12,2026-04-03,Banco Master / Pet 15556,O Globo,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F01,2012-10-23,AP 470,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F02,2014-02-27,AP 470,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F03,2017-08-22,AP 536 / TJMG,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F04,2015-04-22,Lava Jato / 5026212,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F05,2018-01-24,Lava Jato / triplex,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F06,2019-04-23,Lava Jato / triplex,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F07,2019-11-27,Lava Jato / sítio,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F08,2021-03-08,Lava Jato / HC 193726,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F09,2021-03-23,Lava Jato / HC 164493,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F10,2023-09-06,Lava Jato / Rcl 43007,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F11,2026-03-04,Banco Master / Pet 15556,Valor Econômico,bloqueado,bloqueado,,,,,,
+chatgpt_busca,F12,2026-04-03,Banco Master / Pet 15556,Valor Econômico,bloqueado,bloqueado,,,,,,
+chrome_google,F01,2012-10-23,AP 470,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F02,2014-02-27,AP 470,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F03,2017-08-22,AP 536 / TJMG,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F04,2015-04-22,Lava Jato / 5026212,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F05,2018-01-24,Lava Jato / triplex,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F06,2019-04-23,Lava Jato / triplex,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F07,2019-11-27,Lava Jato / sítio,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F08,2021-03-08,Lava Jato / HC 193726,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F09,2021-03-23,Lava Jato / HC 164493,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F10,2023-09-06,Lava Jato / Rcl 43007,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F11,2026-03-04,Banco Master / Pet 15556,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F12,2026-04-03,Banco Master / Pet 15556,BBC News Brasil,bloqueado,bloqueado,,,,,,
+chrome_google,F01,2012-10-23,AP 470,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,posição 1 trata da dosimetria de Marcos Valério (25/10/2012); posição 2 é de 2018
+chrome_google,F02,2014-02-27,AP 470,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F03,2017-08-22,AP 536 / TJMG,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F04,2015-04-22,Lava Jato / 5026212,Folha de S.Paulo,concorda,concorda,1,Justiça condena oito por desvios em obra de refinaria da Petrobras ...,https://m.folha.uol.com.br/poder/2015/04/1619602-justica-condena-reus-da-lava-jato-a-pagar-indenizacao-de-r-18-milhoes.shtml?mobile,,navegador,título da página conferido no navegador; URL de 2015/04; título não nomeia os réus (omissão não é divergência)
+chrome_google,F05,2018-01-24,Lava Jato / triplex,Folha de S.Paulo,concorda,concorda,1,Tribunal amplia pena de Lula para 12 anos de prisão,https://agora.folha.uol.com.br/brasil/2018/01/1953188-tribunal-mantem-condenacao-de-lula-no-caso-do-triplex.shtml,25 de jan. de 2018,url_data,Agora São Paulo (subdomínio da Folha); URL de 2018/01
+chrome_google,F06,2019-04-23,Lava Jato / triplex,Folha de S.Paulo,mencao_sem_resultado,mencao_sem_resultado,1,Chance de Lula reverter caso tríplex se torna ainda mais exígua,https://www1.folha.uol.com.br/poder/2019/04/chance-de-lula-reverter-caso-triplex-se-torna-ainda-mais-exigua.shtml,24 de abr. de 2019,titulo,análise do dia seguinte à decisão (24/04/2019); nenhum título devolvido informa o desfecho
+chrome_google,F07,2019-11-27,Lava Jato / sítio,Folha de S.Paulo,concorda,concorda,1,"Tribunal condena Lula em caso do sítio, amplia pena para 17 ...",https://www1.folha.uol.com.br/poder/2019/11/tribunal-forma-maioria-para-ignorar-stf-e-condenar-lula-em-caso-do-sitio-de-atibaia.shtml,27 de nov. de 2019,navegador,conferido no navegador: 27/11/2019
+chrome_google,F08,2021-03-08,Lava Jato / HC 193726,Folha de S.Paulo,concorda,concorda,1,"Fachin anula condenações de Lula, e petista fica apto ... - Folha",https://www1.folha.uol.com.br/poder/2021/03/fachin-anula-condenacoes-do-ex-presidente-lula-na-lava-jato-em-curitiba.shtml,8 de mar. de 2021,navegador,conferido no navegador: 08/03/2021
+chrome_google,F09,2021-03-23,Lava Jato / HC 164493,Folha de S.Paulo,concorda,concorda,2,"Cármen Lúcia muda voto, e Supremo declara Moro parcial em ...",https://www1.folha.uol.com.br/poder/2021/03/carmen-lucia-muda-voto-e-supremo-declara-moro-parcial-em-caso-de-lula.shtml,23 de mar. de 2021,navegador,posição 1 trata de outra decisão (F08); posição 2 conferida no navegador: 23/03/2021
+chrome_google,F10,2023-09-06,Lava Jato / Rcl 43007,Folha de S.Paulo,concorda,concorda,1,Odebrecht: Entenda efeito da anulação de prova por Toffoli,https://www1.folha.uol.com.br/poder/2023/09/provas-da-odebrecht-invalidadas-por-toffoli-incluem-planilhas-de-pagamentos-entenda.shtml,7 de set. de 2023,navegador,"conferido no navegador: 07/09/2023; o título exibido pelo Google difere do título da página (""Provas da Odebrecht invalidadas por Toffoli incluem planilhas de pagamentos; entenda""); vale o título devolvido"
+chrome_google,F11,2026-03-04,Banco Master / Pet 15556,Folha de S.Paulo,concorda,concorda,1,"Vorcaro, do Master, é preso em fase 3 da Compliance Zero",https://www1.folha.uol.com.br/mercado/2026/03/daniel-vorcaro-do-banco-master-e-preso-em-nova-fase-da-operacao-compliance-zero.shtml,4 de mar. de 2026,navegador,"conferido no navegador: 04/03/2026; título da página: ""Daniel Vorcaro, do Banco Master, é preso em nova fase da operação Compliance Zero""; título não nomeia quem decretou (omissão não é divergência)"
+chrome_google,F12,2026-04-03,Banco Master / Pet 15556,Folha de S.Paulo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F01,2012-10-23,AP 470,O Estado de S. Paulo,sem_resultado,sem_resultado,,,,,titulo,posição 1 é infográfico geral; posição 2 é de 02/10/2012 e trata de outro assunto
+chrome_google,F02,2014-02-27,AP 470,O Estado de S. Paulo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F03,2017-08-22,AP 536 / TJMG,O Estado de S. Paulo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F04,2015-04-22,Lava Jato / 5026212,O Estado de S. Paulo,sem_resultado,concorda,,,,,navegador,"todos os resultados estão sob /blog-do-fausto-macedo/ e ficam fora por D-055; com blogs, a posição 1 (""Justiça condena ex-diretor da Petrobrás por lavagem e organização criminosa na Abreu e Lima"", conferida no navegador: 22/04/2015) concordaria"
+chrome_google,F05,2018-01-24,Lava Jato / triplex,O Estado de S. Paulo,sem_resultado,mencao_sem_resultado,,,,,titulo,"resultados são do blog, de coluna (/neumanne/) ou de outras decisões; com blogs, a posição 3 (""As 22 conclusões do relator Gebran Neto em seu voto de condenação de Lula"", 30/01/2018) trata do julgamento sem informar o desfecho do colegiado"
+chrome_google,F06,2019-04-23,Lava Jato / triplex,O Estado de S. Paulo,concorda,concorda,2,Ao Vivo - Caso triplex: Ministros do STJ reduzem pena de Lula ...,https://politica.estadao.com.br/ao-vivo/julgamento-lula-stj,,titulo,posição 1 é do blog (fora por D-055) e também concordaria (conferida no navegador: 23/04/2019)
+chrome_google,F07,2019-11-27,Lava Jato / sítio,O Estado de S. Paulo,mencao_sem_resultado,mencao_sem_resultado,1,Nova condenação de Lula será anulada? Ouça no ...,https://www.estadao.com.br/brasil/estadao-podcasts/nova-condenacao-de-lula-sera-anulada-ouca-no-estadao-noticias/,28 de nov. de 2019,titulo,podcast de 28/11/2019; o título trata da decisão sem informar o desfecho do julgamento no TRF4; posição 2 é opinião
+chrome_google,F08,2021-03-08,Lava Jato / HC 193726,O Estado de S. Paulo,mencao_sem_resultado,concorda,3,Lula elegível: e agora? Ouça no 'Estadão Notícias',https://www.estadao.com.br/brasil/estadao-podcasts/lula-elegivel-e-agora-ouca-no-estadao-noticias/,,titulo,"podcast; posições 1, 2 e 4 a 7 são do blog (fora por D-055); com blogs, a posição 1 (""Fachin anula todas as condenações de Lula na Lava Jato"", conferida no navegador: 08/03/2021) concordaria"
+chrome_google,F09,2021-03-23,Lava Jato / HC 164493,O Estado de S. Paulo,mencao_sem_resultado,concorda,6,Suspeição de Moro: o que acontece agora com os casos ...,https://www.estadao.com.br/politica/suspeicao-de-moro-o-que-acontece-agora-com-os-casos-da-lava-jato/,24 de mar. de 2021,titulo,"posições 1 a 5 são do blog (fora por D-055); com blogs, a posição 1 (""Maioria da 2ª Turma do STF declara Moro parcial ao condenar Lula no caso triplex"", conferida no navegador: 23/03/2021) concordaria"
+chrome_google,F10,2023-09-06,Lava Jato / Rcl 43007,O Estado de S. Paulo,concorda,concorda,6,"Toffoli ignora corrupção, anula provas contra Odebrecht e ...",https://www.estadao.com.br/brasil/estadao-podcasts/noticia-no-seu-tempo-toffoli-ignora-corrupcao-anula-provas-contra-odebrecht-e-vitimiza-lula/,7 de set. de 2023,titulo,podcast de 07/09/2023 com juízo de valor no título; posições anteriores são do blog ou de decisões posteriores
+chrome_google,F11,2026-03-04,Banco Master / Pet 15556,O Estado de S. Paulo,sem_resultado,sem_resultado,,,,,titulo,resultados tratam de fases posteriores; posição 3 é coluna; posições 5 e 9 são do blog e também tratam de fases posteriores
+chrome_google,F12,2026-04-03,Banco Master / Pet 15556,O Estado de S. Paulo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F01,2012-10-23,AP 470,O Globo,sem_resultado,sem_resultado,,,,,titulo,posições 1 e 7 são do acervo histórico; posição 2 é voto sobre corrupção (03/10/2012); demais tratam de outras datas
+chrome_google,F02,2014-02-27,AP 470,O Globo,concorda,concorda,1,Maioria do STF absolve mensaleiros do crime de formação ...,https://oglobo.globo.com/politica/maioria-do-stf-absolve-mensaleiros-do-crime-de-formacao-de-quadrilha-11732409,27 de fev. de 2014,navegador,conferido no navegador: 27/02/2014
+chrome_google,F03,2017-08-22,AP 536 / TJMG,O Globo,sem_resultado,sem_resultado,,,,,navegador,posição 1 conferida no navegador: embargos de 24/04/2018 (fase posterior do mesmo caso); posição 2 é de 2013
+chrome_google,F04,2015-04-22,Lava Jato / 5026212,O Globo,sem_resultado,sem_resultado,,,,,titulo,resultados tratam de outras decisões e de datas posteriores
+chrome_google,F05,2018-01-24,Lava Jato / triplex,O Globo,sem_resultado,sem_resultado,,,,,titulo,resultados tratam da sentença de 2017 e de decisões posteriores
+chrome_google,F06,2019-04-23,Lava Jato / triplex,O Globo,concorda,concorda,1,"STJ reduz pena de Lula no caso do tríplex, e ex-presidente ...",https://oglobo.globo.com/politica/stj-reduz-pena-de-lula-no-caso-do-triplex-ex-presidente-podera-deixar-prisao-em-setembro-23616718,23 de abr. de 2019,titulo,
+chrome_google,F07,2019-11-27,Lava Jato / sítio,O Globo,concorda,concorda,2,TRF-4 mantém condenação de Lula e aumenta pena para ...,https://oglobo.globo.com/politica/trf-4-mantem-condenacao-de-lula-aumenta-pena-para-17-anos-de-prisao-no-caso-de-atibaia-24103423,28 de nov. de 2019,navegador,posição 1 é de 2021; posição 2 conferida no navegador: 27/11/2019
+chrome_google,F08,2021-03-08,Lava Jato / HC 193726,O Globo,concorda,concorda,1,Fachin anula condenações contra Lula e mantém direitos ...,https://oglobo.globo.com/politica/fachin-anula-condenacoes-contra-lula-mantem-direitos-politicos-do-ex-presidente-24915063,9 de mar. de 2021,navegador,conferido no navegador: 08/03/2021
+chrome_google,F09,2021-03-23,Lava Jato / HC 164493,O Globo,concorda,concorda,1,"Cármen muda o voto, e Segunda Turma do STF decide ...",https://oglobo.globo.com/politica/carmen-muda-voto-segunda-turma-do-stf-decide-que-moro-foi-parcial-ao-condenar-lula-no-caso-do-triplex-24937605,23 de mar. de 2021,navegador,"título exibido cortado pelo Google antes do desfecho; título completo lido no navegador (D-057): ""Cármen muda o voto, e Segunda Turma do STF decide que Moro foi parcial ao condenar Lula no caso do tríplex"""
+chrome_google,F10,2023-09-06,Lava Jato / Rcl 43007,O Globo,concorda,concorda,1,Toffoli anula provas do acordo de leniência da Odebrecht ...,https://oglobo.globo.com/politica/noticia/2023/09/06/toffoli-do-stf-anula-todas-as-provas-do-acordo-de-leniencia-da-odebrecht-e-diz-que-prisao-de-lula-foi-fruto-de-armacao.ghtml,6 de set. de 2023,navegador,conferido no navegador
+chrome_google,F11,2026-03-04,Banco Master / Pet 15556,O Globo,concorda,concorda,2,Vorcaro é preso de novo pela PF por determinação ...,https://oglobo.globo.com/politica/noticia/2026/03/04/pf-faz-operacao-para-prender-vorcaro-por-determinacao-de-andre-mendonca.ghtml,4 de mar. de 2026,navegador,posição 1 trata de decisão posterior (10/03/2026); posição 2 conferida no navegador
+chrome_google,F12,2026-04-03,Banco Master / Pet 15556,O Globo,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F01,2012-10-23,AP 470,Valor Econômico,mencao_sem_resultado,mencao_sem_resultado,1,Revisor muda votos e absolve por quadrilha | Valor Econômico,https://valor.globo.com/noticia/2012/10/19/revisor-muda-votos-e-absolve-por-quadrilha.ghtml,19 de out. de 2012,url_data,voto do revisor no mesmo julgamento (19/10/2012)
+chrome_google,F02,2014-02-27,AP 470,Valor Econômico,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F03,2017-08-22,AP 536 / TJMG,Valor Econômico,sem_resultado,sem_resultado,,,,,titulo,nenhum resultado
+chrome_google,F04,2015-04-22,Lava Jato / 5026212,Valor Econômico,sem_resultado,sem_resultado,,,,,titulo,resultados tratam de outras decisões
+chrome_google,F05,2018-01-24,Lava Jato / triplex,Valor Econômico,concorda,concorda,1,"Por unanimidade, TRF4 condena Lula e amplia pena para 12 ...",https://valor.globo.com/politica/noticia/2018/01/24/por-unanimidade-trf4-condena-lula-e-amplia-pena-para-12-anos-1.ghtml,24 de jan. de 2018,navegador,conferido no navegador: 24/01/2018
+chrome_google,F06,2019-04-23,Lava Jato / triplex,Valor Econômico,sem_resultado,sem_resultado,,,,,titulo,posição 1 é reação posterior (25/04/2019); posição 2 é de 2020
+chrome_google,F07,2019-11-27,Lava Jato / sítio,Valor Econômico,mencao_sem_resultado,mencao_sem_resultado,1,Tribunal marca julgamento de Lula no processo do sítio de ...,https://valor.globo.com/politica/noticia/2019/11/08/tribunal-marca-julgamento-de-lula-no-processo-do-sitio-de-atibaia.ghtml,8 de nov. de 2019,url_data,pauta do julgamento (08/11/2019); nenhum título devolvido informa o desfecho
+chrome_google,F08,2021-03-08,Lava Jato / HC 193726,Valor Econômico,bloqueado,bloqueado,,,,,,
+chrome_google,F09,2021-03-23,Lava Jato / HC 164493,Valor Econômico,bloqueado,bloqueado,,,,,,
+chrome_google,F10,2023-09-06,Lava Jato / Rcl 43007,Valor Econômico,bloqueado,bloqueado,,,,,,
+chrome_google,F11,2026-03-04,Banco Master / Pet 15556,Valor Econômico,bloqueado,bloqueado,,,,,,
+chrome_google,F12,2026-04-03,Banco Master / Pet 15556,Valor Econômico,bloqueado,bloqueado,,,,,,

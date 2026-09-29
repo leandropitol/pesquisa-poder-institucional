@@ -515,6 +515,42 @@ def _linhas_imprensa() -> list[str]:
         "matéria cujo título não informa o desfecho conta como `mencao_sem_resultado`, mesmo que o texto o informe.",
         "- Os esclarecimentos da régua em D-056 foram feitos durante a classificação, depois de ver os títulos, e valem para todas as linhas.",
         "",
+    ] + _linhas_imprensa_navegador()
+
+
+def _linhas_imprensa_navegador() -> list[str]:
+    """Relatórios de navegação para os principais sem acesso (D-057)."""
+    arq = RAIZ / "relatorios" / "tabelas" / "imprensa_navegador.csv"
+    if not arq.exists():
+        return []
+    det = pd.read_csv(arq, dtype=str, keep_default_na=False)
+    pv = pd.read_csv(RAIZ / "relatorios" / "tabelas" / "imprensa_navegador_por_veiculo.csv")
+    folha = pd.read_csv(RAIZ / "relatorios" / "tabelas" / "imprensa_navegador_folha_por_coleta.csv", dtype=str)
+    achou = folha[["chrome_google", "chatgpt_busca"]].ne("sem_resultado")
+    difere = folha[achou["chrome_google"] != achou["chatgpt_busca"]]["id_fato"].tolist()
+    bloq = det[det["resultado"] == "bloqueado"].groupby(["coleta", "veiculo"]).size()
+    est = pv[(pv["coleta"] == "chrome_google") & (pv["veiculo"] == "O Estado de S. Paulo")].iloc[0]
+    g = det[(det["coleta"] == "chrome_google") & det["resultado"].isin(["concorda", "diverge", "mencao_sem_resultado", "sem_resultado"])]
+
+    def cobertura(f: str) -> str:
+        x = g[g["id_fato"] == f]
+        return f"{int((x['resultado'] != 'sem_resultado').sum())} de {len(x)}"
+
+    return [
+        "#### Principais sem acesso: relatórios de navegação (D-057)", "",
+        f"- Coletas usadas: Google pelo Claude in Chrome (chrome_google) e buscador do ChatGPT (chatgpt_busca). Buscas bloqueadas: "
+        f"{'; '.join(f'{c} {v}: {n}' for (c, v), n in bloq.items())}. A BBC News Brasil ficou sem nenhuma busca concluída. O relatório do Gemini "
+        "está no bruto e fora da classificação.",
+        f"- O buscador muda o resultado. Na Folha, a única coberta pelas duas coletas, elas divergem sobre haver matéria da decisão em "
+        f"{len(difere)} dos {len(folha)} fatos ({', '.join(difere)}). Em F03 (Azeredo, TJMG) o Google não devolveu nenhum resultado e o "
+        "outro buscador pôs a matéria da decisão em primeiro. `sem_resultado` mede o buscador tanto quanto o veículo, e a assimetria "
+        "F03 × F05 do painel principal não deve ser lida como diferença de cobertura dos veículos.",
+        f"- Pelo Google, nos 4 jornais com acesso, F03 tem matéria em {cobertura('F03')} e F05 em {cobertura('F05')}.",
+        f"- Estadão: a regra de D-055 exclui URL de blog, e a cobertura judicial do jornal está sob /blog-do-fausto-macedo/. Há matéria "
+        f"em {int(est['com_materia'])} de {int(est['buscas_com_acesso'])} fatos pela regra e em {int(est['com_materia_incluindo_blogs'])} incluindo blogs.",
+        "- O Google às vezes mostra um título diferente do título da página (reescrita do buscador). A unidade continua sendo o título "
+        "devolvido; quando o corte do buscador escondia o desfecho, valeu o título completo lido no navegador.",
+        "",
     ]
 
 

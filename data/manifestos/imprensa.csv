@@ -1,2 +1,5 @@
 data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
 2026-09-29,data/raw/imprensa/2026-09-29/buscas.jsonl,ferramenta de busca na web,131,267127,fb6add7d5348e8be87f741fe6734b774d5a3585ed7946013c03907b308f47813
+2026-09-29,data/raw/imprensa/2026-09-29/navegador_claude_chrome_google.md,relatório de navegação: chrome_google (arquivo entregue relatorio_imprensa_principais.md),60,68665,4bd05b53748136d2b5c58ae807015e6fd1150528530b11067fe413443ae6c213
+2026-09-29,data/raw/imprensa/2026-09-29/navegador_chatgpt_busca.md,relatório de navegação: chatgpt_busca (arquivo entregue relatorio_imprensa_principais-chatgpt.md),60,29435,13ac9d244a8c4ce18374ff0d02ddeef9be012411e555fb55dbdc129dfe25990f
+2026-09-29,data/raw/imprensa/2026-09-29/navegador_gemini.md,relatório de navegação: gemini (arquivo entregue gemini-code-1790702388647.md),38,8133,d92a559528d08d30bd6ad174d978f7aa76221133c77c21a63c90ccada56f9fdd
