@@ -44,7 +44,8 @@ def identificar(d: pd.DataFrame) -> tuple | None:
     return next(((c, k) for c, k in EXPORTACOES if c in d.columns and tuple(sorted(k)) == classes), None)
 URL_DADOS_ABERTOS = "https://transparencia.stf.jus.br/extensions/dados_abertos/dados_abertos.html"
 LIMITE_CELULAS = 5_000_000
-PORTAL_STF, PORTAL_TJMG = "https://portal.stf.jus.br", "https://www.tjmg.jus.br"
+PORTAL_STF, PORTAL_TJMG, PORTAL_JF = "https://portal.stf.jus.br", "https://www.tjmg.jus.br", "https://eproc.jfpr.jus.br"
+NOME_PORTAL = {PORTAL_STF: "STF", PORTAL_TJMG: "TJMG", PORTAL_JF: "eproc (JFPR/TRF4) e PJe (TRF1)"}
 # arquivo entregue -> (nome no bruto, portal, quem navegou); o desfecho da AP 536 está no TJMG, para onde o STF declinou
 RELATORIOS = {"relatorio_stf_pesquisa_documental.md": ("stf_relatorio_navegacao.md", PORTAL_STF, "Claude in Chrome"),
               "relatorio_corte_aberta.md": ("stf_relatorio_navegacao_peticoes.md", PORTAL_STF, "Claude in Chrome"),
@@ -55,6 +56,8 @@ RELATORIOS = {"relatorio_stf_pesquisa_documental.md": ("stf_relatorio_navegacao.
               "relatorio_eduardo_azeredo_tjmg.md": ("tjmg_relatorio_navegacao_ap536_azeredo.md", PORTAL_TJMG, "Claude in Chrome"),
               "verificacao_claude_e9_lavajato_master.md": ("stf_verificacao_navegacao_e9_lavajato_master.md", PORTAL_STF,
                                                            "Claude Code no navegador embutido"),
+              "verificacao_claude_e9_trf4_noticias.md": ("stf_verificacao_navegacao_e9_trf4_noticias.md", PORTAL_JF, "Claude Code no navegador embutido"),
+              "relatorio_eproc_lavajato.md": ("jf_relatorio_navegacao_eproc_lavajato.md", PORTAL_JF, "Claude in Chrome"),
               "verificacao_claude_tjmg_acordaos.md": ("tjmg_verificacao_navegacao_acordaos_azeredo.md", PORTAL_TJMG,
                                                       "Claude Code no navegador embutido")}
 
@@ -99,7 +102,7 @@ def registrar_manuais(data: str) -> None:
             consulta, parametros = f"dados abertos: {f.name}", {"url": url, "arquivo_original": f.name}
         elif f.name in RELATORIOS:
             nome, url, quem = RELATORIOS[f.name]
-            portal = "STF" if url == PORTAL_STF else "TJMG"
+            portal = NOME_PORTAL[url]
             consulta = f"relatório de navegação do {quem} no portal do {portal} (arquivo {nome}; registro auxiliar, não é fonte primária)"
             linhas = 1
             parametros = {"url": url, "arquivo_original": f.name}

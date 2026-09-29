@@ -21,3 +21,5 @@ data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
 2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote6.md,https://portal.stf.jus.br,1,28147,2978f6471031468a0ae606252b98196476e15ccb20764c4b22ab4982904ac2c5
 2026-09-28,data/raw/stf/2026-09-28/stf_relatorio_navegacao_partes_ap_lote7.md,https://portal.stf.jus.br,1,17338,e2514cad23b17f4f0757ac7d53e01fa829b2abaa0b4e608415fd1a92e5581b6b
 2026-09-28,data/raw/stf/2026-09-28/stf_verificacao_navegacao_e9_lavajato_master.md,https://portal.stf.jus.br,1,7011,5deab0a23e83013d9425bedef273b7801596a62f5f4ea152bcabe3bbd5199835
+2026-09-29,data/raw/stf/2026-09-29/jf_relatorio_navegacao_eproc_lavajato.md,https://eproc.jfpr.jus.br,1,11715,b68bf475cdda0561bff24acdfb91012be98b97db7ad344b0a2ac97dd3afb72dc
+2026-09-29,data/raw/stf/2026-09-29/stf_verificacao_navegacao_e9_trf4_noticias.md,https://eproc.jfpr.jus.br,1,2876,a50ca96f4f88cedce14aae49464304370ed9b410240e6b255a591d102da43fb6

@@ -41,3 +41,5 @@ VSM-000039,status_pessoa_processo,STA-000040,"Ação penal originária no STF, c
 VSM-000040,status_pessoa_processo,STA-000067,Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base,2017,2026-09-28,src.normalizacao.simetria_stf
 VSM-000041,status_pessoa_processo,STA-000068,Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base,2018,2026-09-28,src.normalizacao.simetria_stf
 VSM-000042,status_pessoa_processo,STA-000069,Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base,2019,2026-09-28,src.normalizacao.simetria_stf
+VSM-000043,status_pessoa_processo,STA-000076,Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base,2019,2026-09-29,src.normalizacao.simetria_stf
+VSM-000044,status_pessoa_processo,STA-000077,Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base,2019,2026-09-29,src.normalizacao.simetria_stf
