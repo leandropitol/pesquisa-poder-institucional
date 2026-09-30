@@ -1,0 +1,25 @@
+coorte,desfecho,acoes,total,parcela,recorte,origem
+a partir de 2018-05-03,julgamento de mérito,3,15,0.2,coorte,
+a partir de 2018-05-03,declínio de competência,5,15,0.3333333333333333,coorte,
+a partir de 2018-05-03,em tramitação,0,15,0.0,coorte,
+a partir de 2018-05-03,extinção da punibilidade sem mérito,0,15,0.0,coorte,
+a partir de 2018-05-03,acordo homologado,0,15,0.0,coorte,
+a partir de 2018-05-03,outro encerramento,7,15,0.4666666666666667,coorte,
+até 2018-05-02,julgamento de mérito,92,350,0.26285714285714284,coorte,
+até 2018-05-02,declínio de competência,131,350,0.3742857142857143,coorte,
+até 2018-05-02,em tramitação,0,350,0.0,coorte,
+até 2018-05-02,extinção da punibilidade sem mérito,54,350,0.15428571428571428,coorte,
+até 2018-05-02,acordo homologado,0,350,0.0,coorte,
+até 2018-05-02,outro encerramento,73,350,0.20857142857142857,coorte,
+,julgamento de mérito,24,84,0.2857142857142857,origem,autuada no STF
+,declínio de competência,29,84,0.34523809523809523,origem,autuada no STF
+,em tramitação,0,84,0.0,origem,autuada no STF
+,extinção da punibilidade sem mérito,14,84,0.16666666666666666,origem,autuada no STF
+,acordo homologado,0,84,0.0,origem,autuada no STF
+,outro encerramento,17,84,0.20238095238095238,origem,autuada no STF
+,julgamento de mérito,71,281,0.2526690391459075,origem,vinda de outra instância
+,declínio de competência,107,281,0.3807829181494662,origem,vinda de outra instância
+,em tramitação,0,281,0.0,origem,vinda de outra instância
+,extinção da punibilidade sem mérito,40,281,0.1423487544483986,origem,vinda de outra instância
+,acordo homologado,0,281,0.0,origem,vinda de outra instância
+,outro encerramento,63,281,0.22419928825622776,origem,vinda de outra instância

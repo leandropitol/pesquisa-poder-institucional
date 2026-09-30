@@ -1,0 +1,4 @@
+teste,grupos,n,estatistica,p_valor
+homogeneidade entre partidos,12,337,15.228684248618032,0.16609169541522925
+governo x oposição (Fisher),2,348,,0.04889089921616243
+Spearman com escore ideológico,11,324,-0.36446563806256416,0.2658867056647168

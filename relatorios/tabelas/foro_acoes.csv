@@ -1,0 +1,650 @@
+ap,grupo,autuacao,coorte,origem,categoria,detalhe_outro,data_desfecho,anos,evento
+AP 1000,com réu parlamentar,2017-02-10,até 2018-05-02,vinda de outra instância,declinio,,2018-05-09,1.2402464065708418,1
+AP 1001,com réu parlamentar,2017-02-16,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2017-07-05,0.3805612594113621,1
+AP 1002,com réu parlamentar,2017-02-17,até 2018-05-02,autuada no STF,merito,,2020-06-10,3.3100616016427105,1
+AP 1003,com réu parlamentar,2017-02-24,até 2018-05-02,autuada no STF,merito,,2018-06-19,1.3141683778234086,1
+AP 1004,com réu parlamentar,2017-03-15,até 2018-05-02,vinda de outra instância,declinio,,2018-05-04,1.136208076659822,1
+AP 1005,com réu parlamentar,2017-04-20,até 2018-05-02,vinda de outra instância,outro,trancamento ou anulação (texto),2017-09-11,0.3942505133470226,1
+AP 1006,com réu parlamentar,2017-04-26,até 2018-05-02,vinda de outra instância,merito,,2018-06-12,1.1279945242984257,1
+AP 1007,com réu parlamentar,2017-05-03,até 2018-05-02,autuada no STF,declinio,,2023-06-12,6.108145106091718,1
+AP 1008,com réu parlamentar,2017-05-18,até 2018-05-02,vinda de outra instância,declinio,,2023-06-19,6.0862422997946615,1
+AP 1009,com réu parlamentar,2017-06-05,até 2018-05-02,vinda de outra instância,declinio,,2018-04-20,0.8733744010951403,1
+AP 1010,com réu parlamentar,2017-06-08,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2018-02-27,0.7227926078028748,1
+AP 1011,com réu parlamentar,2017-06-08,até 2018-05-02,vinda de outra instância,extincao,,2017-08-21,0.2026009582477755,1
+AP 1012,com réu parlamentar,2017-06-07,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2018-03-01,0.731006160164271,1
+AP 1013,sem réu parlamentar ligado,2017-06-08,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2018-08-06,1.160848733744011,1
+AP 1014,com réu parlamentar,2017-06-21,até 2018-05-02,vinda de outra instância,merito,,2019-05-28,1.9329226557152634,1
+AP 1015,com réu parlamentar,2017-06-29,até 2018-05-02,autuada no STF,merito,,2020-11-11,3.370294318959617,1
+AP 1016,sem réu parlamentar ligado,2017-08-29,até 2018-05-02,vinda de outra instância,declinio,,2018-05-24,0.7337440109514032,1
+AP 1017,sem réu parlamentar ligado,2017-08-29,até 2018-05-02,vinda de outra instância,declinio,,2018-05-24,0.7337440109514032,1
+AP 1018,com réu parlamentar,2017-09-15,até 2018-05-02,autuada no STF,merito,,2018-09-18,1.0075290896646132,1
+AP 1019,com réu parlamentar,2017-09-26,até 2018-05-02,autuada no STF,merito,,2020-08-24,2.9103353867214237,1
+AP 1020,sem réu parlamentar ligado,2017-10-17,até 2018-05-02,vinda de outra instância,declinio,,2018-05-16,0.5776865160848734,1
+AP 1021,sem réu parlamentar ligado,2017-10-25,até 2018-05-02,autuada no STF,merito,,2020-08-19,2.817248459958932,1
+AP 1023,com réu parlamentar,2018-02-27,até 2018-05-02,vinda de outra instância,declinio,,2018-05-29,0.24914442162902123,1
+AP 1024,com réu parlamentar,2018-03-08,até 2018-05-02,autuada no STF,declinio,,2018-05-09,0.1697467488021903,1
+AP 1025,com réu parlamentar,2018-03-14,até 2018-05-02,autuada no STF,merito,,2023-06-01,5.215605749486653,1
+AP 1026,com réu parlamentar,2018-04-06,até 2018-05-02,autuada no STF,declinio,,2018-05-21,0.12320328542094455,1
+AP 1027,com réu parlamentar,2018-05-14,a partir de 2018-05-03,autuada no STF,declinio,,2019-02-05,0.731006160164271,1
+AP 1029,sem réu parlamentar ligado,2018-06-14,a partir de 2018-05-03,autuada no STF,outro,sem decisão final na exportação,2019-05-24,0.9418206707734429,1
+AP 1030,com réu parlamentar,2018-06-18,a partir de 2018-05-03,autuada no STF,merito,,2019-10-23,1.3470225872689938,1
+AP 1031,sem réu parlamentar ligado,2018-06-20,a partir de 2018-05-03,autuada no STF,declinio,,2018-09-06,0.2135523613963039,1
+AP 1032,com réu parlamentar,2018-11-05,a partir de 2018-05-03,autuada no STF,merito,,2022-04-22,3.460643394934976,1
+AP 1034,com réu parlamentar,2018-12-13,a partir de 2018-05-03,autuada no STF,declinio,,2019-03-15,0.2518822724161533,1
+AP 1035,sem réu parlamentar ligado,2019-02-28,a partir de 2018-05-03,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2019-06-13,0.2874743326488706,1
+AP 1036,sem réu parlamentar ligado,2019-03-21,a partir de 2018-05-03,autuada no STF,merito,,2023-09-25,4.514715947980835,1
+AP 1037,sem réu parlamentar ligado,2019-03-21,a partir de 2018-05-03,autuada no STF,declinio,,2019-06-06,0.2108145106091718,1
+AP 1038,com réu parlamentar,2019-04-08,a partir de 2018-05-03,autuada no STF,declinio,,2019-04-16,0.02190280629705681,1
+AP 1039,com réu parlamentar,2019-05-24,a partir de 2018-05-03,autuada no STF,declinio,,2019-08-15,0.2272416153319644,1
+AP 1040,sem réu parlamentar ligado,2019-11-05,a partir de 2018-05-03,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2020-03-05,0.33127994524298426,1
+AP 1042,sem réu parlamentar ligado,2020-10-29,a partir de 2018-05-03,autuada no STF,declinio,,2020-11-06,0.02190280629705681,1
+AP 1043,sem réu parlamentar ligado,2020-12-04,a partir de 2018-05-03,vinda de outra instância,em_tramitacao,,2026-09-23,5.801505817932923,0
+AP 1044,com réu parlamentar,2021-06-23,a partir de 2018-05-03,autuada no STF,merito,,2022-04-20,0.8240930869267625,1
+AP 1045,com réu parlamentar,2022-09-22,a partir de 2018-05-03,autuada no STF,declinio,,2022-09-30,0.02190280629705681,1
+AP 1046,com réu parlamentar,2022-12-01,a partir de 2018-05-03,autuada no STF,outro,não identificado no texto,2023-12-12,1.0294318959616702,1
+AP 1047,com réu parlamentar,2023-03-14,a partir de 2018-05-03,autuada no STF,outro,arquivamento (texto),2025-04-08,2.0698151950718686,1
+AP 1048,com réu parlamentar,2023-03-14,a partir de 2018-05-03,autuada no STF,outro,arquivamento (texto),2025-04-08,2.0698151950718686,1
+AP 1049,com réu parlamentar,2023-03-27,a partir de 2018-05-03,autuada no STF,outro,extinção ou prescrição (texto),2024-10-29,1.593429158110883,1
+AP 1050,com réu parlamentar,2023-03-27,a partir de 2018-05-03,autuada no STF,outro,arquivamento (texto),2025-04-08,2.0342231348391513,1
+AP 1051,com réu parlamentar,2023-03-27,a partir de 2018-05-03,autuada no STF,outro,arquivamento (texto),2025-04-08,2.0342231348391513,1
+AP 1052,com réu parlamentar,2023-03-28,a partir de 2018-05-03,autuada no STF,outro,arquivamento (texto),2025-04-08,2.0314852840520192,1
+AP 1283,sem réu parlamentar ligado,2023-06-07,a partir de 2018-05-03,autuada no STF,extincao,,2025-06-09,2.00684462696783,1
+AP 1685,sem réu parlamentar ligado,2023-07-27,a partir de 2018-05-03,autuada no STF,merito,,2025-07-23,1.9904175222450375,1
+AP 1993,sem réu parlamentar ligado,2023-07-27,a partir de 2018-05-03,autuada no STF,merito,,2025-06-16,1.88911704312115,1
+AP 2328,sem réu parlamentar ligado,2023-08-29,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,3.0691307323750854,0
+AP 2330,sem réu parlamentar ligado,2023-09-05,a partir de 2018-05-03,autuada no STF,merito,,2025-02-04,1.4182067077344285,1
+AP 2331,sem réu parlamentar ligado,2023-09-12,a partir de 2018-05-03,autuada no STF,merito,,2024-07-01,0.8021902806297057,1
+AP 2409,sem réu parlamentar ligado,2023-11-06,a partir de 2018-05-03,autuada no STF,outro,declínio ou remessa (texto),2024-10-22,0.9609856262833676,1
+AP 2556,sem réu parlamentar ligado,2024-10-03,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,1.9712525667351128,0
+AP 2561,sem réu parlamentar ligado,2024-10-17,a partir de 2018-05-03,autuada no STF,extincao,,2026-05-20,1.5879534565366187,1
+AP 2818,sem réu parlamentar ligado,2026-03-20,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,0.5119780971937029,0
+AP 2827,sem réu parlamentar ligado,2026-03-30,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,0.48459958932238195,0
+AP 2830,sem réu parlamentar ligado,2026-04-08,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,0.459958932238193,0
+AP 2831,sem réu parlamentar ligado,2026-04-14,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,0.44353182751540043,0
+AP 2860,sem réu parlamentar ligado,2026-09-01,a partir de 2018-05-03,autuada no STF,em_tramitacao,,2026-09-23,0.06023271731690623,0
+AP 335,sem réu parlamentar ligado,2003-04-09,até 2018-05-02,autuada no STF,outro,declínio ou remessa (texto),2003-06-04,0.15331964407939766,1
+AP 336,com réu parlamentar,2003-05-23,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2004-12-21,1.5824777549623545,1
+AP 337,com réu parlamentar,2003-06-04,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2004-01-12,0.6078028747433265,1
+AP 338,com réu parlamentar,2003-06-04,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2007-06-20,4.043805612594114,1
+AP 339,com réu parlamentar,2003-06-17,até 2018-05-02,vinda de outra instância,declinio,,2010-12-17,7.501711156741957,1
+AP 340,com réu parlamentar,2003-06-25,até 2018-05-02,vinda de outra instância,merito,,2005-03-31,1.7659137577002053,1
+AP 341,com réu parlamentar,2003-08-07,até 2018-05-02,vinda de outra instância,extincao,,2008-05-15,4.772073921971253,1
+AP 342,com réu parlamentar,2003-08-18,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2003-12-10,0.31211498973305957,1
+AP 343,com réu parlamentar,2003-08-18,até 2018-05-02,vinda de outra instância,declinio,,2005-11-03,2.212183436002738,1
+AP 345,com réu parlamentar,2003-08-22,até 2018-05-02,vinda de outra instância,extincao,,2011-02-02,7.449691991786447,1
+AP 346,com réu parlamentar,2003-08-28,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2004-08-26,0.9965776865160849,1
+AP 347,com réu parlamentar,2003-09-03,até 2018-05-02,vinda de outra instância,merito,,2014-12-16,11.285420944558522,1
+AP 348,com réu parlamentar,2003-09-11,até 2018-05-02,vinda de outra instância,merito,,2006-12-15,3.260780287474333,1
+AP 349,com réu parlamentar,2003-09-11,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-06-22,3.7782340862423,1
+AP 350,sem réu parlamentar ligado,2003-09-18,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2004-02-12,0.4024640657084189,1
+AP 351,com réu parlamentar,2003-09-25,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-05-21,3.652292950034223,1
+AP 352,sem réu parlamentar ligado,2003-09-26,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2015-03-02,11.430527036276523,1
+AP 353,sem réu parlamentar ligado,2003-09-26,até 2018-05-02,vinda de outra instância,declinio,,2008-10-24,5.078713210130048,1
+AP 354,com réu parlamentar,2003-10-02,até 2018-05-02,vinda de outra instância,merito,,2004-10-27,1.0704996577686516,1
+AP 355,com réu parlamentar,2003-10-07,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2007-08-31,3.898699520876112,1
+AP 356,sem réu parlamentar ligado,2003-10-23,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2006-03-02,2.3572895277207393,1
+AP 357,com réu parlamentar,2003-11-13,até 2018-05-02,vinda de outra instância,declinio,,2011-03-25,7.36208076659822,1
+AP 358,sem réu parlamentar ligado,2003-10-23,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2018-08-21,14.82819986310746,1
+AP 359,com réu parlamentar,2003-12-02,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2004-02-17,0.2108145106091718,1
+AP 360,com réu parlamentar,2003-12-02,até 2018-05-02,vinda de outra instância,extincao,,2009-07-07,5.596167008898015,1
+AP 361,com réu parlamentar,2003-12-02,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2009-03-10,5.270362765229295,1
+AP 362,com réu parlamentar,2003-12-11,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2004-03-05,0.2327173169062286,1
+AP 363,sem réu parlamentar ligado,2003-12-16,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2005-03-21,1.2621492128678986,1
+AP 364,com réu parlamentar,2003-12-17,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2011-11-14,7.909650924024641,1
+AP 365,com réu parlamentar,2004-01-30,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2006-06-02,2.3381245722108144,1
+AP 366,sem réu parlamentar ligado,2004-02-10,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2006-09-19,2.6064339493497606,1
+AP 368,com réu parlamentar,2004-02-18,até 2018-05-02,autuada no STF,declinio,,2008-02-27,4.024640657084189,1
+AP 369,sem réu parlamentar ligado,2004-03-03,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2007-09-10,3.5208761122518824,1
+AP 370,com réu parlamentar,2004-03-03,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-04-23,3.137577002053388,1
+AP 371,com réu parlamentar,2004-03-30,até 2018-05-02,autuada no STF,outro,arquivamento (texto),2004-06-22,0.2299794661190965,1
+AP 372,com réu parlamentar,2004-05-19,até 2018-05-02,vinda de outra instância,merito,,2010-12-16,6.576317590691307,1
+AP 373,com réu parlamentar,2004-06-18,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2005-04-29,0.8624229979466119,1
+AP 374,com réu parlamentar,2004-06-21,até 2018-05-02,autuada no STF,extincao,,2015-09-02,11.197809719370294,1
+AP 375,com réu parlamentar,2004-06-29,até 2018-05-02,vinda de outra instância,merito,,2004-10-27,0.32854209445585214,1
+AP 378,sem réu parlamentar ligado,2004-08-10,até 2018-05-02,vinda de outra instância,declinio,,2006-05-05,1.73305954825462,1
+AP 380,com réu parlamentar,2004-09-22,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2007-10-23,3.082819986310746,1
+AP 381,com réu parlamentar,2004-10-20,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-04-26,2.513347022587269,1
+AP 382,sem réu parlamentar ligado,2004-10-20,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-04-26,2.513347022587269,1
+AP 383,com réu parlamentar,2004-10-21,até 2018-05-02,autuada no STF,outro,não identificado no texto,2018-05-29,13.60164271047228,1
+AP 385,sem réu parlamentar ligado,2004-11-22,até 2018-05-02,vinda de outra instância,declinio,,2004-12-20,0.07665982203969883,1
+AP 386,com réu parlamentar,2004-12-03,até 2018-05-02,autuada no STF,outro,extinção ou prescrição (texto),2006-04-20,1.377138945927447,1
+AP 387,sem réu parlamentar ligado,2004-12-13,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2005-10-17,0.8432580424366872,1
+AP 388,sem réu parlamentar ligado,2004-12-15,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2005-05-19,0.4243668720054757,1
+AP 389,com réu parlamentar,2005-01-06,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2006-02-10,1.0951403148528405,1
+AP 390,com réu parlamentar,2005-02-15,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2007-07-06,2.3846680355920604,1
+AP 392,com réu parlamentar,2005-05-02,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2006-11-30,1.5797399041752225,1
+AP 393,com réu parlamentar,2005-06-15,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2007-06-22,2.0177960301163584,1
+AP 394,sem réu parlamentar ligado,2005-06-29,até 2018-05-02,autuada no STF,outro,declínio ou remessa (texto),2005-11-21,0.39698836413415467,1
+AP 396,com réu parlamentar,2005-08-10,até 2018-05-02,autuada no STF,merito,,2010-10-28,5.215605749486653,1
+AP 397,com réu parlamentar,2005-08-29,até 2018-05-02,vinda de outra instância,declinio,,2011-02-09,5.448323066392882,1
+AP 398,sem réu parlamentar ligado,2005-10-13,até 2018-05-02,autuada no STF,extincao,,2015-09-01,9.883641341546886,1
+AP 399,com réu parlamentar,2005-11-24,até 2018-05-02,vinda de outra instância,extincao,,2014-02-28,8.262833675564682,1
+AP 400,com réu parlamentar,2006-01-09,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2008-05-06,2.321697467488022,1
+AP 401,sem réu parlamentar ligado,2006-02-14,até 2018-05-02,vinda de outra instância,declinio,,2007-03-28,1.1143052703627652,1
+AP 402,com réu parlamentar,2006-02-24,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-05-17,1.2238193018480492,1
+AP 404,com réu parlamentar,2006-05-15,até 2018-05-02,vinda de outra instância,extincao,,2014-09-23,8.358658453114305,1
+AP 405,sem réu parlamentar ligado,2006-06-19,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2007-02-27,0.6926762491444216,1
+AP 406,sem réu parlamentar ligado,2006-06-30,até 2018-05-02,autuada no STF,outro,declínio ou remessa (texto),2006-09-12,0.2026009582477755,1
+AP 407,sem réu parlamentar ligado,2006-07-07,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-02-15,0.6105407255304586,1
+AP 408,com réu parlamentar,2006-08-25,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-05-04,0.6899383983572895,1
+AP 409,com réu parlamentar,2006-09-15,até 2018-05-02,vinda de outra instância,merito,,2010-05-13,3.6577686516084875,1
+AP 410,sem réu parlamentar ligado,2006-10-05,até 2018-05-02,autuada no STF,outro,sem decisão final na exportação,2015-03-02,8.405201916495551,1
+AP 411,sem réu parlamentar ligado,2006-11-16,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-04-26,0.4407939767282683,1
+AP 412,com réu parlamentar,2006-11-16,até 2018-05-02,autuada no STF,outro,declínio ou remessa (texto),2007-04-26,0.4407939767282683,1
+AP 413,com réu parlamentar,2006-11-28,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2008-03-07,1.273100616016427,1
+AP 414,sem réu parlamentar ligado,2006-12-18,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2007-10-25,0.8514715947980835,1
+AP 415,com réu parlamentar,2007-02-14,até 2018-05-02,autuada no STF,extincao,,2013-08-29,6.537987679671458,1
+AP 416,com réu parlamentar,2007-03-23,até 2018-05-02,vinda de outra instância,merito,,2012-03-08,4.960985626283367,1
+AP 417,com réu parlamentar,2007-04-11,até 2018-05-02,vinda de outra instância,declinio,,2015-02-05,7.822039698836414,1
+AP 418,com réu parlamentar,2007-04-11,até 2018-05-02,vinda de outra instância,declinio,,2011-02-17,3.8548939082819986,1
+AP 420,com réu parlamentar,2007-04-19,até 2018-05-02,vinda de outra instância,declinio,,2011-03-17,3.909650924024641,1
+AP 421,com réu parlamentar,2007-04-25,até 2018-05-02,vinda de outra instância,merito,,2015-04-28,8.008213552361397,1
+AP 422,com réu parlamentar,2007-05-02,até 2018-05-02,vinda de outra instância,outro,trancamento ou anulação (texto),2008-05-30,1.0787132101300478,1
+AP 423,com réu parlamentar,2007-05-02,até 2018-05-02,vinda de outra instância,merito,,2007-10-31,0.49828884325804246,1
+AP 424,com réu parlamentar,2007-05-03,até 2018-05-02,vinda de outra instância,extincao,,2009-03-18,1.8754277891854894,1
+AP 425,sem réu parlamentar ligado,2007-05-03,até 2018-05-02,autuada no STF,declinio,,2015-07-15,8.199863107460644,1
+AP 428,sem réu parlamentar ligado,2007-05-14,até 2018-05-02,autuada no STF,outro,extinção ou prescrição (texto),2009-09-22,2.3600273785078714,1
+AP 429,sem réu parlamentar ligado,2007-06-12,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2009-05-15,1.9247091033538672,1
+AP 430,com réu parlamentar,2007-06-15,até 2018-05-02,vinda de outra instância,merito,,2008-08-07,1.1471594798083504,1
+AP 431,com réu parlamentar,2007-06-22,até 2018-05-02,vinda de outra instância,declinio,,2011-02-02,3.6167008898015056,1
+AP 432,com réu parlamentar,2007-06-22,até 2018-05-02,vinda de outra instância,merito,,2013-10-10,6.3025325119780975,1
+AP 433,com réu parlamentar,2007-06-22,até 2018-05-02,vinda de outra instância,merito,,2010-03-11,2.7186858316221767,1
+AP 434,com réu parlamentar,2007-06-25,até 2018-05-02,vinda de outra instância,declinio,,2011-02-09,3.6276522929500343,1
+AP 435,com réu parlamentar,2007-06-26,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2018-04-27,10.836413415468858,1
+AP 436,com réu parlamentar,2007-06-29,até 2018-05-02,autuada no STF,declinio,,2011-03-16,3.7125256673511293,1
+AP 437,com réu parlamentar,2007-07-03,até 2018-05-02,vinda de outra instância,extincao,,2009-04-06,1.7604380561259412,1
+AP 438,com réu parlamentar,2007-07-03,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2008-04-07,0.7638603696098563,1
+AP 439,com réu parlamentar,2007-07-10,até 2018-05-02,vinda de outra instância,merito,,2008-06-12,0.9253935660506503,1
+AP 441,sem réu parlamentar ligado,2007-08-02,até 2018-05-02,vinda de outra instância,merito,,2012-03-08,4.59958932238193,1
+AP 442,com réu parlamentar,2007-08-06,até 2018-05-02,vinda de outra instância,declinio,,2013-03-13,5.601642710472279,1
+AP 443,com réu parlamentar,2007-08-06,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2007-11-05,0.24914442162902123,1
+AP 445,com réu parlamentar,2007-08-08,até 2018-05-02,vinda de outra instância,declinio,,2011-02-25,3.5509924709103355,1
+AP 447,com réu parlamentar,2007-08-10,até 2018-05-02,vinda de outra instância,merito,,2009-02-18,1.5277207392197125,1
+AP 448,com réu parlamentar,2007-08-10,até 2018-05-02,vinda de outra instância,extincao,,2014-02-24,6.543463381245722,1
+AP 449,sem réu parlamentar ligado,2007-08-14,até 2018-05-02,vinda de outra instância,extincao,,2007-11-14,0.2518822724161533,1
+AP 450,com réu parlamentar,2007-08-17,até 2018-05-02,vinda de outra instância,merito,,2014-11-18,7.255304585900069,1
+AP 451,com réu parlamentar,2007-08-27,até 2018-05-02,vinda de outra instância,extincao,,2013-09-30,6.094455852156058,1
+AP 452,com réu parlamentar,2007-09-14,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.951403148528405,1
+AP 453,com réu parlamentar,2007-09-19,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.937713894592745,1
+AP 454,com réu parlamentar,2007-09-19,até 2018-05-02,vinda de outra instância,extincao,,2009-06-12,1.730321697467488,1
+AP 455,sem réu parlamentar ligado,2007-09-19,até 2018-05-02,vinda de outra instância,declinio,,2008-06-11,0.7282683093771389,1
+AP 456,sem réu parlamentar ligado,2007-09-19,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.937713894592745,1
+AP 457,sem réu parlamentar ligado,2007-09-20,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.9349760438056127,1
+AP 459,com réu parlamentar,2007-09-21,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.9322381930184807,1
+AP 460,com réu parlamentar,2007-09-25,até 2018-05-02,vinda de outra instância,merito,,2014-04-11,6.543463381245722,1
+AP 461,sem réu parlamentar ligado,2007-09-26,até 2018-05-02,vinda de outra instância,extincao,,2015-11-26,8.167008898015059,1
+AP 462,com réu parlamentar,2007-09-28,até 2018-05-02,vinda de outra instância,merito,,2009-06-25,1.7412731006160165,1
+AP 463,com réu parlamentar,2007-09-28,até 2018-05-02,vinda de outra instância,extincao,,2009-05-25,1.6563997262149213,1
+AP 464,sem réu parlamentar ligado,2007-10-02,até 2018-05-02,vinda de outra instância,extincao,,2015-02-05,7.345653661875428,1
+AP 465,com réu parlamentar,2007-10-10,até 2018-05-02,vinda de outra instância,merito,,2014-04-24,6.537987679671458,1
+AP 466,com réu parlamentar,2007-10-15,até 2018-05-02,vinda de outra instância,declinio,,2011-04-01,3.460643394934976,1
+AP 467,com réu parlamentar,2007-10-17,até 2018-05-02,vinda de outra instância,declinio,,2008-08-12,0.8213552361396304,1
+AP 468,com réu parlamentar,2007-11-05,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.809034907597536,1
+AP 469,com réu parlamentar,2007-11-07,até 2018-05-02,vinda de outra instância,extincao,,2009-04-06,1.4127310061601643,1
+AP 470,com réu parlamentar,2007-11-12,até 2018-05-02,vinda de outra instância,merito,,2012-12-17,5.0978781656399725,1
+AP 471,com réu parlamentar,2007-11-19,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2013-05-31,5.530458590006845,1
+AP 473,com réu parlamentar,2007-12-12,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2008-12-19,1.0212183436002737,1
+AP 474,com réu parlamentar,2007-12-12,até 2018-05-02,autuada no STF,merito,,2012-09-12,4.7529089664613275,1
+AP 475,com réu parlamentar,2007-12-14,até 2018-05-02,autuada no STF,declinio,,2011-02-02,3.137577002053388,1
+AP 477,com réu parlamentar,2008-03-18,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2015-10-28,7.611225188227242,1
+AP 478,com réu parlamentar,2008-03-28,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2021-02-11,12.876112251882272,1
+AP 479,com réu parlamentar,2008-04-03,até 2018-05-02,autuada no STF,declinio,,2011-02-17,2.8747433264887063,1
+AP 481,com réu parlamentar,2008-04-17,até 2018-05-02,vinda de outra instância,merito,,2011-09-08,3.3921971252566734,1
+AP 483,com réu parlamentar,2008-04-22,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2009-12-09,1.6317590691307324,1
+AP 484,com réu parlamentar,2008-04-30,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2015-02-26,6.825462012320329,1
+AP 485,sem réu parlamentar ligado,2008-05-13,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,2.2888432580424367,1
+AP 486,com réu parlamentar,2008-05-21,até 2018-05-02,vinda de outra instância,declinio,,2008-09-05,0.2929500342231348,1
+AP 487,sem réu parlamentar ligado,2008-05-21,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2011-03-10,2.8008213552361396,1
+AP 488,com réu parlamentar,2008-05-23,até 2018-05-02,vinda de outra instância,declinio,,2011-05-19,2.9869952087611225,1
+AP 490,com réu parlamentar,2008-06-30,até 2018-05-02,vinda de outra instância,declinio,,2009-10-26,1.322381930184805,1
+AP 491,com réu parlamentar,2008-07-07,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,6.576317590691307,1
+AP 492,com réu parlamentar,2008-07-08,até 2018-05-02,vinda de outra instância,declinio,,2011-02-01,2.568104038329911,1
+AP 493,sem réu parlamentar ligado,2008-07-17,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2015-03-16,6.661190965092403,1
+AP 494,com réu parlamentar,2008-08-07,até 2018-05-02,autuada no STF,declinio,,2008-09-09,0.09034907597535935,1
+AP 496,com réu parlamentar,2008-08-27,até 2018-05-02,vinda de outra instância,declinio,,2010-05-13,1.7084188911704312,1
+AP 497,com réu parlamentar,2008-09-05,até 2018-05-02,vinda de outra instância,merito,,2014-10-07,6.0862422997946615,1
+AP 498,com réu parlamentar,2008-09-08,até 2018-05-02,vinda de outra instância,declinio,,2010-12-17,2.272416153319644,1
+AP 499,sem réu parlamentar ligado,2008-09-25,até 2018-05-02,vinda de outra instância,declinio,,2015-02-05,6.362765229295003,1
+AP 500,com réu parlamentar,2008-09-25,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,1.919233401779603,1
+AP 501,com réu parlamentar,2008-11-04,até 2018-05-02,vinda de outra instância,declinio,,2011-02-25,2.308008213552361,1
+AP 502,sem réu parlamentar ligado,2008-11-25,até 2018-05-02,vinda de outra instância,declinio,,2009-02-27,0.25735797399041754,1
+AP 503,com réu parlamentar,2008-12-05,até 2018-05-02,vinda de outra instância,merito,,2010-05-20,1.4537987679671458,1
+AP 504,com réu parlamentar,2008-12-12,até 2018-05-02,vinda de outra instância,declinio,,2011-02-15,2.1765913757700206,1
+AP 505,sem réu parlamentar ligado,2008-12-18,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,1.6892539356605065,1
+AP 506,sem réu parlamentar ligado,2008-12-18,até 2018-05-02,vinda de outra instância,declinio,,2010-08-27,1.6892539356605065,1
+AP 507,sem réu parlamentar ligado,2009-02-20,até 2018-05-02,vinda de outra instância,declinio,,2010-04-22,1.1663244353182751,1
+AP 508,com réu parlamentar,2009-02-27,até 2018-05-02,autuada no STF,declinio,,2020-10-21,11.646817248459959,1
+AP 509,sem réu parlamentar ligado,2009-03-05,até 2018-05-02,autuada no STF,declinio,,2009-06-29,0.31759069130732376,1
+AP 510,com réu parlamentar,2009-04-28,até 2018-05-02,vinda de outra instância,declinio,,2015-02-18,5.809719370294319,1
+AP 511,sem réu parlamentar ligado,2009-04-29,até 2018-05-02,autuada no STF,declinio,,2009-11-26,0.5776865160848734,1
+AP 512,com réu parlamentar,2009-04-29,até 2018-05-02,vinda de outra instância,merito,,2015-11-17,6.551676933607118,1
+AP 513,sem réu parlamentar ligado,2009-05-22,até 2018-05-02,vinda de outra instância,declinio,,2009-11-26,0.5147159479808351,1
+AP 514,sem réu parlamentar ligado,2009-06-01,até 2018-05-02,vinda de outra instância,declinio,,2011-02-01,1.6700889801505818,1
+AP 515,com réu parlamentar,2009-06-16,até 2018-05-02,vinda de outra instância,declinio,,2011-03-09,1.727583846680356,1
+AP 516,com réu parlamentar,2009-06-23,até 2018-05-02,autuada no STF,merito,,2010-09-27,1.2621492128678986,1
+AP 517,com réu parlamentar,2009-06-26,até 2018-05-02,vinda de outra instância,extincao,,2009-09-16,0.2245037645448323,1
+AP 518,com réu parlamentar,2009-06-29,até 2018-05-02,vinda de outra instância,extincao,,2010-06-30,1.002053388090349,1
+AP 519,com réu parlamentar,2009-07-21,até 2018-05-02,vinda de outra instância,declinio,,2011-04-07,1.7111567419575633,1
+AP 520,com réu parlamentar,2009-10-06,até 2018-05-02,vinda de outra instância,declinio,,2018-05-10,8.591375770020534,1
+AP 521,com réu parlamentar,2009-10-15,até 2018-05-02,vinda de outra instância,merito,,2014-12-02,5.130732375085558,1
+AP 523,com réu parlamentar,2009-06-29,até 2018-05-02,vinda de outra instância,merito,,2014-12-09,5.44558521560575,1
+AP 524,com réu parlamentar,2007-07-17,até 2018-05-02,vinda de outra instância,declinio,,2015-07-01,7.956194387405886,1
+AP 525,sem réu parlamentar ligado,2009-05-27,até 2018-05-02,vinda de outra instância,declinio,,2011-02-14,1.7193702943189597,1
+AP 526,com réu parlamentar,2010-02-02,até 2018-05-02,autuada no STF,outro,sem decisão final na exportação,2010-03-25,0.13963039014373715,1
+AP 528,com réu parlamentar,2010-02-25,até 2018-05-02,autuada no STF,merito,,2018-06-12,8.292950034223136,1
+AP 529,com réu parlamentar,2010-03-12,até 2018-05-02,autuada no STF,declinio,,2010-06-04,0.2299794661190965,1
+AP 530,com réu parlamentar,2010-03-19,até 2018-05-02,autuada no STF,extincao,,2014-09-09,4.476386036960986,1
+AP 533,com réu parlamentar,2010-04-08,até 2018-05-02,autuada no STF,declinio,,2011-02-08,0.837782340862423,1
+AP 534,sem réu parlamentar ligado,2010-04-27,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2011-04-01,0.9281314168377823,1
+AP 535,com réu parlamentar,2010-05-11,até 2018-05-02,autuada no STF,declinio,,2011-06-01,1.056810403832991,1
+AP 536,com réu parlamentar,2010-05-13,até 2018-05-02,autuada no STF,outro,declínio ou remessa (texto),2014-08-20,4.271047227926078,1
+AP 537,sem réu parlamentar ligado,2010-05-18,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2010-11-05,0.4681724845995893,1
+AP 538,com réu parlamentar,2010-05-19,até 2018-05-02,autuada no STF,declinio,,2015-02-13,4.739219712525667,1
+AP 541,com réu parlamentar,2010-06-01,até 2018-05-02,autuada no STF,merito,,2014-03-21,3.802874743326489,1
+AP 542,com réu parlamentar,2010-06-30,até 2018-05-02,autuada no STF,declinio,,2018-05-16,7.876796714579055,1
+AP 543,sem réu parlamentar ligado,2010-08-13,até 2018-05-02,vinda de outra instância,declinio,,2011-02-25,0.5366187542778919,1
+AP 545,com réu parlamentar,2010-08-26,até 2018-05-02,autuada no STF,extincao,,2012-12-17,2.3107460643394937,1
+AP 548,com réu parlamentar,2010-10-05,até 2018-05-02,autuada no STF,declinio,,2011-02-22,0.38329911019849416,1
+AP 549,com réu parlamentar,2010-10-05,até 2018-05-02,vinda de outra instância,declinio,,2011-02-09,0.34770704996577684,1
+AP 550,sem réu parlamentar ligado,2010-11-10,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2011-03-17,0.34770704996577684,1
+AP 552,sem réu parlamentar ligado,2010-11-12,até 2018-05-02,autuada no STF,declinio,,2011-06-06,0.5639972621492129,1
+AP 553,sem réu parlamentar ligado,2010-11-23,até 2018-05-02,vinda de outra instância,declinio,,2011-03-03,0.2737850787132101,1
+AP 554,com réu parlamentar,2010-12-24,até 2018-05-02,autuada no STF,merito,,2015-05-05,4.361396303901437,1
+AP 555,com réu parlamentar,2011-01-20,até 2018-05-02,vinda de outra instância,merito,,2015-10-06,4.7091033538672145,1
+AP 556,com réu parlamentar,2011-01-20,até 2018-05-02,vinda de outra instância,merito,,2014-11-11,3.808350444900753,1
+AP 557,com réu parlamentar,2011-01-20,até 2018-05-02,vinda de outra instância,extincao,,2014-10-22,3.753593429158111,1
+AP 558,com réu parlamentar,2011-01-20,até 2018-05-02,vinda de outra instância,extincao,,2015-05-25,4.342231348391513,1
+AP 559,com réu parlamentar,2011-01-20,até 2018-05-02,vinda de outra instância,merito,,2014-08-26,3.597535934291581,1
+AP 560,com réu parlamentar,2011-01-21,até 2018-05-02,vinda de outra instância,merito,,2015-08-25,4.591375770020534,1
+AP 561,com réu parlamentar,2011-01-21,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,4.035592060232717,1
+AP 562,com réu parlamentar,2011-01-31,até 2018-05-02,vinda de outra instância,declinio,,2018-05-09,7.268993839835729,1
+AP 563,com réu parlamentar,2011-02-02,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2016-03-03,5.08145106091718,1
+AP 565,com réu parlamentar,2011-02-04,até 2018-05-02,vinda de outra instância,merito,,2013-08-08,2.507871321013005,1
+AP 566,sem réu parlamentar ligado,2011-02-10,até 2018-05-02,vinda de outra instância,declinio,,2015-02-09,3.997262149212868,1
+AP 567,sem réu parlamentar ligado,2011-02-14,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2014-11-17,3.756331279945243,1
+AP 568,com réu parlamentar,2011-02-17,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2015-06-08,4.303901437371663,1
+AP 569,com réu parlamentar,2011-02-17,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2016-11-23,5.765913757700205,1
+AP 570,sem réu parlamentar ligado,2011-02-18,até 2018-05-02,vinda de outra instância,declinio,,2013-10-25,2.6830937713894594,1
+AP 571,com réu parlamentar,2011-02-22,até 2018-05-02,vinda de outra instância,extincao,,2011-05-11,0.2135523613963039,1
+AP 572,sem réu parlamentar ligado,2011-02-25,até 2018-05-02,vinda de outra instância,merito,,2014-11-11,3.7097878165639973,1
+AP 573,com réu parlamentar,2011-02-28,até 2018-05-02,vinda de outra instância,declinio,,2012-08-30,1.5030800821355237,1
+AP 574,com réu parlamentar,2011-03-02,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,3.9260780287474333,1
+AP 575,com réu parlamentar,2011-03-02,até 2018-05-02,vinda de outra instância,declinio,,2015-02-04,3.9288158795345653,1
+AP 576,com réu parlamentar,2011-03-02,até 2018-05-02,vinda de outra instância,declinio,,2015-02-23,3.980835044490075,1
+AP 577,sem réu parlamentar ligado,2011-03-09,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2018-10-05,7.575633127994524,1
+AP 578,com réu parlamentar,2011-03-14,até 2018-05-02,vinda de outra instância,declinio,,2015-02-09,3.909650924024641,1
+AP 579,com réu parlamentar,2011-03-17,até 2018-05-02,autuada no STF,extincao,,2016-10-18,5.590691307323751,1
+AP 580,com réu parlamentar,2011-03-18,até 2018-05-02,vinda de outra instância,merito,,2016-12-13,5.7412731006160165,1
+AP 581,sem réu parlamentar ligado,2011-03-18,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,3.8822724161533197,1
+AP 582,com réu parlamentar,2011-03-22,até 2018-05-02,vinda de outra instância,extincao,,2014-06-16,3.2361396303901437,1
+AP 584,com réu parlamentar,2011-03-22,até 2018-05-02,autuada no STF,extincao,,2011-10-13,0.5612594113620808,1
+AP 585,sem réu parlamentar ligado,2011-03-23,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2015-02-24,3.9260780287474333,1
+AP 586,sem réu parlamentar ligado,2011-03-23,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2015-03-20,3.991786447638604,1
+AP 587,sem réu parlamentar ligado,2011-03-23,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2015-02-24,3.9260780287474333,1
+AP 588,sem réu parlamentar ligado,2011-03-23,até 2018-05-02,vinda de outra instância,declinio,,2012-11-23,1.672826830937714,1
+AP 590,com réu parlamentar,2011-03-28,até 2018-05-02,vinda de outra instância,declinio,,2015-02-12,3.8795345653661877,1
+AP 592,com réu parlamentar,2011-03-29,até 2018-05-02,vinda de outra instância,declinio,,2015-03-02,3.9260780287474333,1
+AP 593,com réu parlamentar,2011-03-29,até 2018-05-02,autuada no STF,extincao,,2013-10-01,2.510609171800137,1
+AP 594,com réu parlamentar,2011-03-29,até 2018-05-02,autuada no STF,extincao,,2012-02-17,0.8898015058179329,1
+AP 595,com réu parlamentar,2011-04-04,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2015-03-03,3.912388774811773,1
+AP 596,com réu parlamentar,2011-04-04,até 2018-05-02,vinda de outra instância,merito,,2013-11-07,2.595482546201232,1
+AP 597,com réu parlamentar,2011-04-12,até 2018-05-02,vinda de outra instância,extincao,,2014-02-05,2.8199863107460645,1
+AP 599,com réu parlamentar,2011-04-12,até 2018-05-02,vinda de outra instância,declinio,,2019-02-05,7.819301848049282,1
+AP 600,com réu parlamentar,2011-04-14,até 2018-05-02,vinda de outra instância,declinio,,2013-03-20,1.9329226557152634,1
+AP 603,com réu parlamentar,2011-04-27,até 2018-05-02,vinda de outra instância,declinio,,2015-03-11,3.871321013004791,1
+AP 604,sem réu parlamentar ligado,2011-04-27,até 2018-05-02,vinda de outra instância,extincao,,2011-11-17,0.5585215605749486,1
+AP 605,com réu parlamentar,2011-04-27,até 2018-05-02,vinda de outra instância,declinio,,2014-06-04,3.1047227926078027,1
+AP 606,sem réu parlamentar ligado,2011-04-28,até 2018-05-02,vinda de outra instância,declinio,,2014-08-12,3.2908966461327855,1
+AP 607,com réu parlamentar,2011-05-02,até 2018-05-02,vinda de outra instância,extincao,,2011-06-10,0.10677618069815195,1
+AP 609,com réu parlamentar,2011-05-16,até 2018-05-02,vinda de outra instância,merito,,2013-10-03,2.3846680355920604,1
+AP 610,sem réu parlamentar ligado,2011-05-18,até 2018-05-02,vinda de outra instância,declinio,,2011-09-19,0.3394934976043806,1
+AP 611,com réu parlamentar,2011-05-23,até 2018-05-02,vinda de outra instância,merito,,2014-09-30,3.356605065023956,1
+AP 612,com réu parlamentar,2011-05-24,até 2018-05-02,vinda de outra instância,merito,,2014-05-22,2.9952087611225187,1
+AP 613,com réu parlamentar,2011-05-26,até 2018-05-02,vinda de outra instância,outro,extinção ou prescrição (texto),2014-06-16,3.058179329226557,1
+AP 615,com réu parlamentar,2011-06-06,até 2018-05-02,autuada no STF,extincao,,2012-11-29,1.483915126625599,1
+AP 616,com réu parlamentar,2011-06-09,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2014-03-12,2.757015742642026,1
+AP 618,com réu parlamentar,2011-06-09,até 2018-05-02,vinda de outra instância,merito,,2016-12-13,5.514031485284052,1
+AP 619,com réu parlamentar,2011-06-10,até 2018-05-02,vinda de outra instância,merito,,2014-11-18,3.4414784394250515,1
+AP 620,sem réu parlamentar ligado,2011-06-13,até 2018-05-02,vinda de outra instância,declinio,,2012-03-01,0.7173169062286106,1
+AP 621,sem réu parlamentar ligado,2011-06-21,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2015-07-09,4.049281314168378,1
+AP 622,com réu parlamentar,2011-06-22,até 2018-05-02,autuada no STF,declinio,,2014-02-13,2.647501711156742,1
+AP 623,sem réu parlamentar ligado,2011-06-22,até 2018-05-02,vinda de outra instância,declinio,,2014-03-17,2.735112936344969,1
+AP 624,sem réu parlamentar ligado,2011-06-28,até 2018-05-02,vinda de outra instância,extincao,,2013-03-05,1.6865160848733745,1
+AP 625,com réu parlamentar,2011-07-01,até 2018-05-02,vinda de outra instância,declinio,,2015-02-23,3.649555099247091,1
+AP 628,com réu parlamentar,2011-07-15,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,3.5564681724845997,1
+AP 630,com réu parlamentar,2011-07-15,até 2018-05-02,vinda de outra instância,declinio,,2015-07-01,3.9616700889801506,1
+AP 632,com réu parlamentar,2011-08-02,até 2018-05-02,vinda de outra instância,declinio,,2015-03-12,3.6084873374401094,1
+AP 633,com réu parlamentar,2011-08-12,até 2018-05-02,vinda de outra instância,merito,,2013-10-24,2.2012320328542097,1
+AP 634,com réu parlamentar,2011-08-19,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2014-11-18,3.249828884325804,1
+AP 635,com réu parlamentar,2011-08-24,até 2018-05-02,autuada no STF,outro,não identificado no texto,2016-12-02,5.27583846680356,1
+AP 636,com réu parlamentar,2011-08-26,até 2018-05-02,vinda de outra instância,declinio,,2012-06-15,0.8049281314168378,1
+AP 637,com réu parlamentar,2011-09-01,até 2018-05-02,vinda de outra instância,declinio,,2013-09-05,2.0123203285420943,1
+AP 638,sem réu parlamentar ligado,2011-09-14,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,3.3894592744695413,1
+AP 639,sem réu parlamentar ligado,2011-09-14,até 2018-05-02,autuada no STF,outro,sem decisão final na exportação,2016-04-22,4.605065023956194,1
+AP 640,com réu parlamentar,2011-09-14,até 2018-05-02,vinda de outra instância,declinio,,2015-05-27,3.698836413415469,1
+AP 641,sem réu parlamentar ligado,2011-09-14,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2016-06-01,4.714579055441479,1
+AP 642,com réu parlamentar,2011-09-15,até 2018-05-02,autuada no STF,extincao,,2013-09-30,2.0424366872005475,1
+AP 643,sem réu parlamentar ligado,2011-09-27,até 2018-05-02,vinda de outra instância,declinio,,2011-11-08,0.11498973305954825,1
+AP 644,com réu parlamentar,2011-09-27,até 2018-05-02,vinda de outra instância,merito,,2018-02-27,6.420260095824777,1
+AP 645,com réu parlamentar,2011-09-29,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2013-02-04,1.352498288843258,1
+AP 646,com réu parlamentar,2011-10-20,até 2018-05-02,autuada no STF,declinio,,2015-08-17,3.8247775496235454,1
+AP 647,sem réu parlamentar ligado,2011-10-24,até 2018-05-02,autuada no STF,outro,decisão em segredo de justiça ou sigilosa,2018-05-22,6.576317590691307,1
+AP 648,sem réu parlamentar ligado,2011-10-24,até 2018-05-02,vinda de outra instância,extincao,,2015-09-02,3.8576317590691307,1
+AP 649,com réu parlamentar,2011-10-26,até 2018-05-02,vinda de outra instância,declinio,,2015-07-22,3.7371663244353184,1
+AP 650,com réu parlamentar,2011-11-10,até 2018-05-02,autuada no STF,extincao,,2014-11-10,3.0006844626967832,1
+AP 651,com réu parlamentar,2011-11-16,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2015-02-10,3.2361396303901437,1
+AP 653,com réu parlamentar,2011-12-21,até 2018-05-02,vinda de outra instância,extincao,,2015-09-02,3.698836413415469,1
+AP 664,sem réu parlamentar ligado,2012-01-13,até 2018-05-02,vinda de outra instância,declinio,,2013-02-07,1.0704996577686516,1
+AP 665,sem réu parlamentar ligado,2012-01-17,até 2018-05-02,autuada no STF,declinio,,2012-02-28,0.11498973305954825,1
+AP 666,com réu parlamentar,2012-02-02,até 2018-05-02,vinda de outra instância,declinio,,2015-02-12,3.028062970568104,1
+AP 668,com réu parlamentar,2012-02-10,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2015-02-06,2.9897330595482545,1
+AP 670,sem réu parlamentar ligado,2012-02-29,até 2018-05-02,autuada no STF,declinio,,2015-02-09,2.945927446954141,1
+AP 671,sem réu parlamentar ligado,2012-03-02,até 2018-05-02,vinda de outra instância,declinio,,2015-02-11,2.945927446954141,1
+AP 673,com réu parlamentar,2012-03-08,até 2018-05-02,vinda de outra instância,extincao,,2013-09-19,1.5331964407939767,1
+AP 674,com réu parlamentar,2012-03-15,até 2018-05-02,vinda de outra instância,declinio,,2015-03-11,2.9869952087611225,1
+AP 675,com réu parlamentar,2012-03-26,até 2018-05-02,vinda de outra instância,extincao,,2013-12-09,1.7056810403832992,1
+AP 676,com réu parlamentar,2012-04-03,até 2018-05-02,vinda de outra instância,merito,,2017-10-17,5.538672142368241,1
+AP 677,sem réu parlamentar ligado,2012-04-03,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2013-03-25,0.974674880219028,1
+AP 678,com réu parlamentar,2012-04-11,até 2018-05-02,vinda de outra instância,merito,,2014-11-18,2.6036960985626285,1
+AP 679,com réu parlamentar,2012-04-12,até 2018-05-02,vinda de outra instância,merito,,2014-02-06,1.8206707734428473,1
+AP 680,com réu parlamentar,2012-04-27,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,2.7707049965776864,1
+AP 681,sem réu parlamentar ligado,2012-04-30,até 2018-05-02,vinda de outra instância,declinio,,2013-11-20,1.5578370978781657,1
+AP 682,com réu parlamentar,2012-05-08,até 2018-05-02,vinda de outra instância,declinio,,2015-02-09,2.757015742642026,1
+AP 683,com réu parlamentar,2012-05-17,até 2018-05-02,vinda de outra instância,merito,,2016-08-09,4.229979466119096,1
+AP 684,sem réu parlamentar ligado,2012-05-29,até 2018-05-02,vinda de outra instância,declinio,,2013-06-10,1.0321697467488022,1
+AP 686,com réu parlamentar,2012-06-21,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,2.620123203285421,1
+AP 687,sem réu parlamentar ligado,2012-06-22,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2012-09-21,0.24914442162902123,1
+AP 688,com réu parlamentar,2012-07-12,até 2018-05-02,vinda de outra instância,declinio,,2015-03-24,2.6967830253251197,1
+AP 689,com réu parlamentar,2012-07-25,até 2018-05-02,vinda de outra instância,merito,,2014-05-08,1.78507871321013,1
+AP 690,com réu parlamentar,2012-07-26,até 2018-05-02,vinda de outra instância,extincao,,2013-04-09,0.70362765229295,1
+AP 691,sem réu parlamentar ligado,2012-07-27,até 2018-05-02,vinda de outra instância,extincao,,2013-05-09,0.783025325119781,1
+AP 692,com réu parlamentar,2012-08-14,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2013-05-10,0.7364818617385352,1
+AP 693,com réu parlamentar,2012-08-15,até 2018-05-02,vinda de outra instância,declinio,,2015-03-02,2.543463381245722,1
+AP 694,com réu parlamentar,2012-08-20,até 2018-05-02,vinda de outra instância,merito,,2017-05-02,4.698151950718686,1
+AP 695,com réu parlamentar,2012-08-20,até 2018-05-02,vinda de outra instância,extincao,,2016-09-06,4.046543463381246,1
+AP 696,com réu parlamentar,2012-08-21,até 2018-05-02,autuada no STF,extincao,,2014-02-28,1.5222450376454484,1
+AP 697,sem réu parlamentar ligado,2012-08-29,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2013-06-05,0.7665982203969883,1
+AP 698,com réu parlamentar,2012-09-10,até 2018-05-02,vinda de outra instância,declinio,,2013-03-20,0.5229295003422314,1
+AP 699,com réu parlamentar,2012-10-23,até 2018-05-02,vinda de outra instância,extincao,,2013-04-19,0.487337440109514,1
+AP 700,com réu parlamentar,2012-11-05,até 2018-05-02,vinda de outra instância,merito,,2016-02-23,3.299110198494182,1
+AP 702,com réu parlamentar,2013-02-05,até 2018-05-02,vinda de outra instância,extincao,,2015-02-20,2.0396988364134154,1
+AP 704,sem réu parlamentar ligado,2013-02-28,até 2018-05-02,vinda de outra instância,declinio,,2015-03-11,2.028747433264887,1
+AP 705,com réu parlamentar,2013-03-08,até 2018-05-02,autuada no STF,outro,não identificado no texto,2014-08-12,1.429158110882957,1
+AP 706,com réu parlamentar,2013-03-13,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2013-10-15,0.5913757700205339,1
+AP 708,sem réu parlamentar ligado,2013-05-07,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2015-10-23,2.461327857631759,1
+AP 709,com réu parlamentar,2013-05-29,até 2018-05-02,vinda de outra instância,declinio,,2015-02-05,1.6892539356605065,1
+AP 710,com réu parlamentar,2013-06-03,até 2018-05-02,vinda de outra instância,extincao,,2013-12-11,0.5229295003422314,1
+AP 711,sem réu parlamentar ligado,2013-06-07,até 2018-05-02,vinda de outra instância,declinio,,2015-02-18,1.700205338809035,1
+AP 712,com réu parlamentar,2013-06-21,até 2018-05-02,vinda de outra instância,declinio,,2014-04-11,0.8049281314168378,1
+AP 713,sem réu parlamentar ligado,2013-06-21,até 2018-05-02,vinda de outra instância,declinio,,2013-08-30,0.19164955509924708,1
+AP 714,sem réu parlamentar ligado,2013-06-26,até 2018-05-02,vinda de outra instância,declinio,,2013-08-30,0.17796030116358658,1
+AP 715,sem réu parlamentar ligado,2013-06-26,até 2018-05-02,vinda de outra instância,declinio,,2013-08-30,0.17796030116358658,1
+AP 716,sem réu parlamentar ligado,2013-07-01,até 2018-05-02,vinda de outra instância,declinio,,2014-08-18,1.1307323750855578,1
+AP 717,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 718,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 719,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 720,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 721,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 722,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 723,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 724,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 725,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 726,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 727,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 728,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 729,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 730,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 731,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-26,0.23545516769336072,1
+AP 732,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 733,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 734,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-28,0.32306639288158795,1
+AP 735,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 736,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 737,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-28,0.32306639288158795,1
+AP 738,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 739,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 740,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 741,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 742,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 743,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 744,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 745,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 746,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 747,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 748,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 749,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 750,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 751,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 752,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 753,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 754,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 755,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 756,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-07,0.2655715263518138,1
+AP 757,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 758,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.28473648186173856,1
+AP 759,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2683093771389459,1
+AP 760,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2683093771389459,1
+AP 761,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 762,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-10-07,0.2655715263518138,1
+AP 763,sem réu parlamentar ligado,2013-07-02,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2327173169062286,1
+AP 764,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 765,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2792607802874743,1
+AP 766,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2792607802874743,1
+AP 767,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2792607802874743,1
+AP 768,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2792607802874743,1
+AP 769,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2792607802874743,1
+AP 770,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 771,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2792607802874743,1
+AP 772,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 773,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 774,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 775,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 776,sem réu parlamentar ligado,2013-07-04,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2272416153319644,1
+AP 777,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 778,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 779,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 780,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 781,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 782,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2600958247775496,1
+AP 783,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 784,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 785,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 786,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 787,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 788,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 789,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 790,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.27652292950034224,1
+AP 791,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2600958247775496,1
+AP 792,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2600958247775496,1
+AP 793,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-07,0.25735797399041754,1
+AP 794,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-07,0.25735797399041754,1
+AP 795,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-07,0.25735797399041754,1
+AP 796,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2245037645448323,1
+AP 797,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2245037645448323,1
+AP 798,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2245037645448323,1
+AP 799,sem réu parlamentar ligado,2013-07-05,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2600958247775496,1
+AP 800,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2683093771389459,1
+AP 801,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.216290212183436,1
+AP 802,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2683093771389459,1
+AP 803,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.216290212183436,1
+AP 804,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.216290212183436,1
+AP 805,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-07,0.24914442162902123,1
+AP 806,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2518822724161533,1
+AP 807,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2683093771389459,1
+AP 808,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2683093771389459,1
+AP 809,sem réu parlamentar ligado,2013-07-08,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2683093771389459,1
+AP 810,sem réu parlamentar ligado,2013-07-09,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.24914442162902123,1
+AP 811,sem réu parlamentar ligado,2013-07-09,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2135523613963039,1
+AP 812,sem réu parlamentar ligado,2013-07-09,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2135523613963039,1
+AP 813,sem réu parlamentar ligado,2013-07-09,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2135523613963039,1
+AP 814,sem réu parlamentar ligado,2013-07-09,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2135523613963039,1
+AP 815,sem réu parlamentar ligado,2013-07-09,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2135523613963039,1
+AP 816,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2108145106091718,1
+AP 817,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2108145106091718,1
+AP 818,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2108145106091718,1
+AP 819,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2108145106091718,1
+AP 820,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2108145106091718,1
+AP 821,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.26283367556468173,1
+AP 822,sem réu parlamentar ligado,2013-07-10,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2108145106091718,1
+AP 823,sem réu parlamentar ligado,2013-07-11,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2080766598220397,1
+AP 824,sem réu parlamentar ligado,2013-07-11,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2080766598220397,1
+AP 825,sem réu parlamentar ligado,2013-07-11,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2080766598220397,1
+AP 826,sem réu parlamentar ligado,2013-07-12,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2053388090349076,1
+AP 827,sem réu parlamentar ligado,2013-07-12,até 2018-05-02,vinda de outra instância,declinio,,2013-09-26,0.2080766598220397,1
+AP 828,sem réu parlamentar ligado,2013-07-12,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2053388090349076,1
+AP 829,sem réu parlamentar ligado,2013-07-12,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.2053388090349076,1
+AP 830,sem réu parlamentar ligado,2013-07-15,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.24914442162902123,1
+AP 831,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2299794661190965,1
+AP 832,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2464065708418891,1
+AP 833,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.1943874058863792,1
+AP 834,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2464065708418891,1
+AP 835,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2299794661190965,1
+AP 836,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.1943874058863792,1
+AP 837,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.1943874058863792,1
+AP 838,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2464065708418891,1
+AP 839,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2464065708418891,1
+AP 840,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2464065708418891,1
+AP 841,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.1943874058863792,1
+AP 842,sem réu parlamentar ligado,2013-07-16,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.2464065708418891,1
+AP 843,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.19164955509924708,1
+AP 844,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.243668720054757,1
+AP 845,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2272416153319644,1
+AP 846,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.19164955509924708,1
+AP 847,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-09-25,0.19164955509924708,1
+AP 848,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-10-08,0.2272416153319644,1
+AP 849,sem réu parlamentar ligado,2013-07-17,até 2018-05-02,vinda de outra instância,declinio,,2013-10-14,0.243668720054757,1
+AP 850,com réu parlamentar,2013-08-01,até 2018-05-02,vinda de outra instância,declinio,,2015-03-04,1.5879534565366187,1
+AP 851,sem réu parlamentar ligado,2013-08-28,até 2018-05-02,vinda de outra instância,declinio,,2015-12-03,2.2642026009582477,1
+AP 852,sem réu parlamentar ligado,2013-09-03,até 2018-05-02,vinda de outra instância,declinio,,2014-05-08,0.676249144421629,1
+AP 853,com réu parlamentar,2013-09-23,até 2018-05-02,autuada no STF,declinio,,2015-03-11,1.462012320328542,1
+AP 854,com réu parlamentar,2013-09-24,até 2018-05-02,vinda de outra instância,extincao,,2014-03-11,0.459958932238193,1
+AP 855,com réu parlamentar,2013-09-24,até 2018-05-02,vinda de outra instância,declinio,,2015-03-04,1.4401095140314852,1
+AP 856,com réu parlamentar,2013-09-27,até 2018-05-02,autuada no STF,declinio,,2015-07-01,1.757700205338809,1
+AP 857,com réu parlamentar,2013-10-01,até 2018-05-02,vinda de outra instância,declinio,,2015-03-27,1.483915126625599,1
+AP 858,com réu parlamentar,2013-10-15,até 2018-05-02,autuada no STF,merito,,2014-08-26,0.8624229979466119,1
+AP 859,com réu parlamentar,2013-10-22,até 2018-05-02,vinda de outra instância,declinio,,2015-02-09,1.3004791238877482,1
+AP 860,sem réu parlamentar ligado,2013-10-28,até 2018-05-02,vinda de outra instância,declinio,,2014-09-08,0.8624229979466119,1
+AP 861,com réu parlamentar,2013-10-29,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2014-03-10,0.3613963039014374,1
+AP 862,com réu parlamentar,2013-10-30,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2017-03-22,3.3921971252566734,1
+AP 863,com réu parlamentar,2013-11-29,até 2018-05-02,autuada no STF,merito,,2017-05-23,3.479808350444901,1
+AP 864,com réu parlamentar,2013-12-16,até 2018-05-02,autuada no STF,extincao,,2023-05-04,9.379876796714578,1
+AP 865,sem réu parlamentar ligado,2013-12-24,até 2018-05-02,autuada no STF,extincao,,2015-08-31,1.6837782340862424,1
+AP 866,com réu parlamentar,2014-01-06,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,1.0759753593429158,1
+AP 867,com réu parlamentar,2014-03-21,até 2018-05-02,vinda de outra instância,declinio,,2015-03-04,0.9527720739219713,1
+AP 868,com réu parlamentar,2014-04-01,até 2018-05-02,vinda de outra instância,extincao,,2014-05-15,0.12046543463381246,1
+AP 869,com réu parlamentar,2014-04-08,até 2018-05-02,autuada no STF,merito,,2015-09-29,1.4757015742642026,1
+AP 870,com réu parlamentar,2014-05-13,até 2018-05-02,vinda de outra instância,declinio,,2015-07-01,1.1334702258726899,1
+AP 871,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 872,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 873,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 874,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 875,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 876,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 877,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 878,sem réu parlamentar ligado,2014-05-23,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2014-06-11,0.05201916495550993,1
+AP 879,sem réu parlamentar ligado,2014-06-16,até 2018-05-02,vinda de outra instância,declinio,,2014-09-16,0.2518822724161533,1
+AP 880,com réu parlamentar,2014-08-08,até 2018-05-02,autuada no STF,merito,,2017-09-19,3.1156741957563314,1
+AP 881,com réu parlamentar,2014-08-12,até 2018-05-02,vinda de outra instância,declinio,,2014-11-25,0.2874743326488706,1
+AP 882,com réu parlamentar,2014-09-04,até 2018-05-02,vinda de outra instância,declinio,,2015-04-13,0.6050650239561944,1
+AP 883,com réu parlamentar,2014-09-19,até 2018-05-02,autuada no STF,merito,,2018-03-20,3.4989733059548254,1
+AP 884,sem réu parlamentar ligado,2014-10-10,até 2018-05-02,vinda de outra instância,declinio,,2015-06-01,0.6406570841889117,1
+AP 885,com réu parlamentar,2014-10-14,até 2018-05-02,vinda de outra instância,declinio,,2015-08-05,0.8076659822039699,1
+AP 886,com réu parlamentar,2014-10-20,até 2018-05-02,vinda de outra instância,declinio,,2015-03-02,0.36413415468856947,1
+AP 887,com réu parlamentar,2014-10-31,até 2018-05-02,vinda de outra instância,declinio,,2015-02-03,0.2600958247775496,1
+AP 888,com réu parlamentar,2014-11-03,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2015-03-17,0.3668720054757016,1
+AP 889,com réu parlamentar,2014-11-04,até 2018-05-02,autuada no STF,declinio,,2015-02-09,0.2655715263518138,1
+AP 890,com réu parlamentar,2014-11-04,até 2018-05-02,vinda de outra instância,declinio,,2015-03-19,0.36960985626283366,1
+AP 891,com réu parlamentar,2014-11-04,até 2018-05-02,vinda de outra instância,declinio,,2019-08-15,4.777549623545517,1
+AP 892,com réu parlamentar,2014-11-04,até 2018-05-02,vinda de outra instância,merito,,2019-02-26,4.312114989733059,1
+AP 893,com réu parlamentar,2014-11-06,até 2018-05-02,vinda de outra instância,declinio,,2015-02-09,0.2600958247775496,1
+AP 894,sem réu parlamentar ligado,2014-11-13,até 2018-05-02,vinda de outra instância,outro,sem decisão final na exportação,2015-02-10,0.243668720054757,1
+AP 895,sem réu parlamentar ligado,2014-11-17,até 2018-05-02,vinda de outra instância,declinio,,2015-03-11,0.31211498973305957,1
+AP 896,com réu parlamentar,2014-11-19,até 2018-05-02,vinda de outra instância,merito,,2018-10-09,3.887748117727584,1
+AP 897,com réu parlamentar,2014-11-27,até 2018-05-02,vinda de outra instância,declinio,,2015-03-02,0.2600958247775496,1
+AP 898,com réu parlamentar,2014-11-27,até 2018-05-02,vinda de outra instância,merito,,2016-04-12,1.374401095140315,1
+AP 899,com réu parlamentar,2014-12-03,até 2018-05-02,autuada no STF,declinio,,2015-02-25,0.2299794661190965,1
+AP 900,com réu parlamentar,2014-12-11,até 2018-05-02,vinda de outra instância,declinio,,2015-02-06,0.15605749486652978,1
+AP 901,com réu parlamentar,2014-12-19,até 2018-05-02,vinda de outra instância,extincao,,2015-05-07,0.3805612594113621,1
+AP 902,com réu parlamentar,2014-12-30,até 2018-05-02,vinda de outra instância,declinio,,2015-02-04,0.09856262833675565,1
+AP 903,com réu parlamentar,2015-01-12,até 2018-05-02,vinda de outra instância,merito,,2015-05-18,0.34496919917864477,1
+AP 904,com réu parlamentar,2015-01-12,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2015-05-13,0.33127994524298426,1
+AP 905,com réu parlamentar,2015-02-09,até 2018-05-02,vinda de outra instância,outro,trancamento ou anulação (texto),2016-04-11,1.1690622861054072,1
+AP 907,com réu parlamentar,2015-02-13,até 2018-05-02,vinda de outra instância,declinio,,2018-05-04,3.2197125256673513,1
+AP 908,com réu parlamentar,2015-02-13,até 2018-05-02,vinda de outra instância,merito,,2016-11-08,1.7357973990417521,1
+AP 911,com réu parlamentar,2015-02-25,até 2018-05-02,vinda de outra instância,declinio,,2018-05-17,3.2224503764544834,1
+AP 912,com réu parlamentar,2015-03-02,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2017-05-31,2.2477754962354553,1
+AP 913,sem réu parlamentar ligado,2015-03-04,até 2018-05-02,vinda de outra instância,outro,rejeição da denúncia (texto),2016-10-04,1.5879534565366187,1
+AP 914,com réu parlamentar,2015-03-04,até 2018-05-02,vinda de outra instância,declinio,,2018-05-14,3.1950718685831623,1
+AP 915,com réu parlamentar,2015-03-04,até 2018-05-02,vinda de outra instância,declinio,,2018-05-17,3.2032854209445585,1
+AP 916,com réu parlamentar,2015-03-05,até 2018-05-02,vinda de outra instância,merito,,2016-05-17,1.2019164955509924,1
+AP 917,com réu parlamentar,2015-03-09,até 2018-05-02,vinda de outra instância,merito,,2016-06-07,1.2484599589322383,1
+AP 918,sem réu parlamentar ligado,2015-03-10,até 2018-05-02,vinda de outra instância,declinio,,2015-11-26,0.7145790554414785,1
+AP 919,sem réu parlamentar ligado,2015-03-13,até 2018-05-02,vinda de outra instância,extincao,,2015-11-23,0.6981519507186859,1
+AP 920,com réu parlamentar,2015-03-19,até 2018-05-02,vinda de outra instância,extincao,,2016-09-06,1.4702258726899384,1
+AP 921,com réu parlamentar,2015-03-19,até 2018-05-02,vinda de outra instância,merito,,2017-06-20,2.2559890485968515,1
+AP 922,com réu parlamentar,2015-03-20,até 2018-05-02,vinda de outra instância,outro,arquivamento (texto),2015-08-17,0.4106776180698152,1
+AP 923,com réu parlamentar,2015-03-23,até 2018-05-02,vinda de outra instância,declinio,,2018-05-10,3.132101300479124,1
+AP 924,com réu parlamentar,2015-03-23,até 2018-05-02,vinda de outra instância,merito,,2017-08-08,2.379192334017796,1
+AP 925,com réu parlamentar,2015-03-23,até 2018-05-02,vinda de outra instância,declinio,,2019-02-20,3.915126625598905,1
+AP 926,sem réu parlamentar ligado,2015-04-06,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2016-12-15,1.6947296372347707,1
+AP 927,com réu parlamentar,2015-04-07,até 2018-05-02,vinda de outra instância,extincao,,2017-12-12,2.6830937713894594,1
+AP 928,com réu parlamentar,2015-04-10,até 2018-05-02,vinda de outra instância,declinio,,2018-05-04,3.0663928815879533,1
+AP 929,com réu parlamentar,2015-04-14,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2021-02-12,5.834360027378508,1
+AP 930,com réu parlamentar,2015-04-15,até 2018-05-02,vinda de outra instância,declinio,,2019-02-05,3.811088295687885,1
+AP 931,com réu parlamentar,2015-04-20,até 2018-05-02,vinda de outra instância,merito,,2017-06-06,2.130047912388775,1
+AP 932,com réu parlamentar,2015-04-22,até 2018-05-02,vinda de outra instância,merito,,2016-02-16,0.8213552361396304,1
+AP 933,com réu parlamentar,2015-04-27,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2016-02-16,0.8076659822039699,1
+AP 935,com réu parlamentar,2015-04-30,até 2018-05-02,autuada no STF,merito,,2018-02-27,2.830937713894593,1
+AP 936,com réu parlamentar,2015-05-07,até 2018-05-02,vinda de outra instância,declinio,,2018-05-10,3.0088980150581794,1
+AP 937,sem réu parlamentar ligado,2015-05-18,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2019-05-17,3.997262149212868,1
+AP 938,com réu parlamentar,2015-05-18,até 2018-05-02,vinda de outra instância,declinio,,2018-05-09,2.976043805612594,1
+AP 939,com réu parlamentar,2015-05-19,até 2018-05-02,vinda de outra instância,extincao,,2017-05-25,2.0177960301163584,1
+AP 940,com réu parlamentar,2015-05-26,até 2018-05-02,autuada no STF,merito,,2022-04-04,6.8583162217659135,1
+AP 941,com réu parlamentar,2015-05-28,até 2018-05-02,vinda de outra instância,extincao,,2017-09-12,2.294318959616701,1
+AP 942,com réu parlamentar,2015-06-03,até 2018-05-02,vinda de outra instância,declinio,,2018-05-09,2.9322381930184807,1
+AP 943,com réu parlamentar,2015-06-05,até 2018-05-02,vinda de outra instância,merito,,2017-05-02,1.9082819986310746,1
+AP 944,sem réu parlamentar ligado,2015-06-05,até 2018-05-02,vinda de outra instância,declinio,,2018-05-09,2.926762491444216,1
+AP 945,com réu parlamentar,2015-06-08,até 2018-05-02,vinda de outra instância,declinio,,2018-05-04,2.9048596851471595,1
+AP 946,com réu parlamentar,2015-06-08,até 2018-05-02,vinda de outra instância,merito,,2016-08-30,1.2292950034223136,1
+AP 947,com réu parlamentar,2015-06-17,até 2018-05-02,vinda de outra instância,declinio,,2018-05-29,2.948665297741273,1
+AP 949,com réu parlamentar,2015-07-01,até 2018-05-02,vinda de outra instância,declinio,,2018-09-04,3.1786447638603694,1
+AP 951,sem réu parlamentar ligado,2015-07-09,até 2018-05-02,vinda de outra instância,outro,declínio ou remessa (texto),2015-10-26,0.29842573579739906,1
+AP 952,com réu parlamentar,2015-07-10,até 2018-05-02,vinda de outra instância,extincao,,2018-10-09,3.249828884325804,1
+AP 953,com réu parlamentar,2015-07-13,até 2018-05-02,vinda de outra instância,outro,trancamento ou anulação (texto),2017-05-11,1.8288843258042438,1
+AP 954,sem réu parlamentar ligado,2015-07-31,até 2018-05-02,vinda de outra instância,merito,,2017-08-29,2.080766598220397,1
+AP 956,com réu parlamentar,2015-08-18,até 2018-05-02,vinda de outra instância,declinio,,2018-05-04,2.7104722792607805,1
+AP 958,com réu parlamentar,2015-08-24,até 2018-05-02,vinda de outra instância,merito,,2018-02-27,2.513347022587269,1
+AP 959,com réu parlamentar,2015-08-25,até 2018-05-02,vinda de outra instância,extincao,,2016-01-29,0.42984257357973993,1
+AP 960,com réu parlamentar,2015-08-26,até 2018-05-02,vinda de outra instância,merito,,2017-06-13,1.7987679671457906,1
+AP 961,com réu parlamentar,2015-09-28,até 2018-05-02,vinda de outra instância,extincao,,2018-06-05,2.6858316221765914,1
+AP 962,com réu parlamentar,2015-10-07,até 2018-05-02,autuada no STF,merito,,2019-06-04,3.6577686516084875,1
+AP 963,sem réu parlamentar ligado,2015-10-08,até 2018-05-02,vinda de outra instância,outro,decisão em segredo de justiça ou sigilosa,2015-11-04,0.07392197125256673,1
+AP 964,sem réu parlamentar ligado,2015-11-03,até 2018-05-02,vinda de outra instância,declinio,,2018-06-05,2.5872689938398357,1
+AP 965,com réu parlamentar,2015-11-03,até 2018-05-02,autuada no STF,merito,,2020-06-08,4.596851471594798,1
+AP 966,com réu parlamentar,2015-11-06,até 2018-05-02,vinda de outra instância,declinio,,2018-05-17,2.5270362765229293,1
+AP 967,com réu parlamentar,2015-11-17,até 2018-05-02,vinda de outra instância,merito,,2016-12-13,1.0732375085557837,1
+AP 968,com réu parlamentar,2015-11-17,até 2018-05-02,vinda de outra instância,merito,,2018-05-22,2.510609171800137,1
+AP 969,com réu parlamentar,2015-11-18,até 2018-05-02,autuada no STF,extincao,,2023-08-31,7.783709787816564,1
+AP 970,com réu parlamentar,2015-11-30,até 2018-05-02,vinda de outra instância,declinio,,2018-05-08,2.43668720054757,1
+AP 971,com réu parlamentar,2015-12-23,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2016-10-13,0.8076659822039699,1
+AP 973,com réu parlamentar,2016-02-12,até 2018-05-02,vinda de outra instância,merito,,2021-09-29,5.6290212183436,1
+AP 974,com réu parlamentar,2016-02-12,até 2018-05-02,vinda de outra instância,merito,,2021-09-29,5.6290212183436,1
+AP 975,com réu parlamentar,2016-02-16,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2018-03-15,2.0752908966461328,1
+AP 976,com réu parlamentar,2016-02-25,até 2018-05-02,vinda de outra instância,merito,,2020-02-18,3.980835044490075,1
+AP 977,sem réu parlamentar ligado,2016-02-26,até 2018-05-02,vinda de outra instância,merito,,2016-08-03,0.4353182751540041,1
+AP 978,com réu parlamentar,2016-03-21,até 2018-05-02,vinda de outra instância,declinio,,2018-05-17,2.1546885694729636,1
+AP 981,sem réu parlamentar ligado,2016-05-18,até 2018-05-02,vinda de outra instância,extincao,,2016-08-02,0.2080766598220397,1
+AP 982,com réu parlamentar,2016-06-03,até 2018-05-02,autuada no STF,declinio,,2016-09-15,0.28473648186173856,1
+AP 983,com réu parlamentar,2016-06-08,até 2018-05-02,vinda de outra instância,extincao,,2018-03-07,1.7440109514031485,1
+AP 984,com réu parlamentar,2016-06-09,até 2018-05-02,vinda de outra instância,merito,,2019-06-11,3.0034223134839153,1
+AP 985,com réu parlamentar,2016-06-10,até 2018-05-02,autuada no STF,outro,não identificado no texto,2018-03-20,1.7741273100616017,1
+AP 986,com réu parlamentar,2016-06-15,até 2018-05-02,autuada no STF,declinio,,2018-05-07,1.891854893908282,1
+AP 987,com réu parlamentar,2016-06-16,até 2018-05-02,vinda de outra instância,merito,,2018-09-25,2.2751540041067764,1
+AP 988,sem réu parlamentar ligado,2016-06-27,até 2018-05-02,vinda de outra instância,extincao,,2017-10-19,1.3114305270362765,1
+AP 989,com réu parlamentar,2016-07-12,até 2018-05-02,vinda de outra instância,declinio,,2018-05-16,1.842573579739904,1
+AP 991,sem réu parlamentar ligado,2016-09-19,até 2018-05-02,vinda de outra instância,declinio,,2018-05-07,1.6290212183436004,1
+AP 992,com réu parlamentar,2016-09-23,até 2018-05-02,autuada no STF,declinio,,2018-05-11,1.6290212183436004,1
+AP 993,sem réu parlamentar ligado,2016-09-27,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2017-03-31,0.5065023956194388,1
+AP 994,com réu parlamentar,2016-09-29,até 2018-05-02,vinda de outra instância,declinio,,2018-05-09,1.6071184120465434,1
+AP 996,sem réu parlamentar ligado,2016-10-27,até 2018-05-02,autuada no STF,merito,,2018-05-29,1.5852156057494866,1
+AP 997,com réu parlamentar,2016-11-23,até 2018-05-02,vinda de outra instância,outro,não identificado no texto,2017-11-10,0.9637234770704997,1

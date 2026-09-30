@@ -1,6 +1,6 @@
 # Nota metodológica
 
-Gerada por `python -m src.relatorios.nota_metodologica` (commit 4d56720). Descreve o que o estudo mede, como, com que fontes e com que limites. Resultados estão em `relatorios/relatorio_final.md`; a linha do tempo em `relatorios/linha_do_tempo.md`; os vieses conhecidos e a cobertura medida em `docs/limitacoes.md`.
+Gerada por `python -m src.relatorios.nota_metodologica` (commit 788057b). Descreve o que o estudo mede, como, com que fontes e com que limites. Resultados estão em `relatorios/relatorio_final.md`; a linha do tempo em `relatorios/linha_do_tempo.md`; os vieses conhecidos e a cobertura medida em `docs/limitacoes.md`.
 
 ## 1. Pergunta e escopo
 
@@ -130,6 +130,7 @@ O registro completo, com justificativas, está em `docs/decisoes_metodologicas.m
 | D-065 | 2026-09-30 | Desfechos das ações penais originárias do STF para parlamentares da base, com regras fixadas antes do cálculo das taxas. (1) Fonte: texto oficial das decisões das ações penais na exportação do Corte Aberta (data/raw/stf/2026-09-24). Eventos: Procedente e Procedente em parte = `condenado_tribunal_sup… |
 | D-066 | 2026-09-30 | Causa das extinções de punibilidade do STF lida na decisão publicada. Os andamentos do Corte Aberta e as abas do portal trazem só "Declarada a extinção da punibilidade, EM dd/mm/aaaa"; a causa e o nome do acusado estão na decisão monocrática publicada no DJe. Com autorização expressa do autor (30/09… |
 | D-067 | 2026-09-30 | Eixo 3 (poder institucional), primeira parte, regras fixadas antes do cálculo. Escopo: o que os dados em mãos permitem. Ficam de fora, por falta de dado, (a) a nomeação para cargo com foro durante status de investigado ou denunciado (a base não tem cargos de ministro de Estado ou equivalentes) e (b)… |
+| D-068 | 2026-09-30 | Estudo do foro por prerrogativa de função: o que acontece com as ações penais contra parlamentares no STF, regras fixadas antes do cálculo. (1) Universo: ações penais originárias do STF da lista de D-048 (lotes 1 a 7; fora 8 de janeiro), autuadas no STF de 2003-01-01 em diante. Grupo principal: ação… |
 
 ## 7. Reprodução
 

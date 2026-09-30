@@ -1,0 +1,13 @@
+grupo,desfecho,acoes,total,parcela
+com réu parlamentar,julgamento de mérito,95,365,0.2602739726027397
+com réu parlamentar,declínio de competência,136,365,0.3726027397260274
+com réu parlamentar,em tramitação,0,365,0.0
+com réu parlamentar,extinção da punibilidade sem mérito,54,365,0.14794520547945206
+com réu parlamentar,acordo homologado,0,365,0.0
+com réu parlamentar,outro encerramento,80,365,0.2191780821917808
+sem réu parlamentar ligado,julgamento de mérito,11,284,0.03873239436619718
+sem réu parlamentar ligado,declínio de competência,193,284,0.6795774647887324
+sem réu parlamentar ligado,em tramitação,8,284,0.028169014084507043
+sem réu parlamentar ligado,extinção da punibilidade sem mérito,14,284,0.04929577464788732
+sem réu parlamentar ligado,acordo homologado,0,284,0.0
+sem réu parlamentar ligado,outro encerramento,58,284,0.20422535211267606
