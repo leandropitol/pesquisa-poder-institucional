@@ -46,6 +46,8 @@ CUR = RAIZ / "data" / "curadoria"
 RAW_STF = RAIZ / "data" / "raw" / "stf"
 NAO_PESSOA = re.compile(r"^(MINIST[ÉE]RIO P[ÚU]BLICO|OS MESMOS$|MADEIREIRA |MUNIC[ÍI]PIO DE |ESTADO D[OE] |UNI[ÃA]O FEDERAL)|\b(LTDA|EPP|EIRELI|S/A|S\.A\.|CIA)\b|\s-?\s?ME$|(?<!\bDE)\sS\.?A\.?$|\sS\.A\.\s")  # órgão, ente público, texto e empresa
 SCRIPT = "src.normalizacao.simetria_stf"
+VERSAO = "v3"  # v3 (D-065): ligações réu-parlamentar corrigidas pela conferência do nome civil; v1 e v2 ficam no histórico
+NOTA_V3 = " Versão 3 (D-065): ligações réu-parlamentar conferidas pelo nome civil das candidaturas do TSE; ligações falsas da versão 2 corrigidas."
 FONTE_DADOS = "STF, portal (aba Partes) e Corte Aberta (decisões)"
 STATUS_ADIADOS = {"reu", "denunciado"}
 SUFIXOS = {"filho", "junior", "neto", "sobrinho"}
@@ -216,7 +218,7 @@ def run() -> None:
     buscas, busca_de = [], {}
     for nome, (_st, por_u, chave, texto, arq, sha, par, _pd) in padroes.items():
         for p in sorted(set(universo["id_partido"])):
-            i = ids.obter("buscas", f"{SCRIPT}|{chave}|{p}")
+            i = ids.obter("buscas", f"{SCRIPT}|{chave}|{VERSAO}|{p}")
             busca_de[(nome, p)] = i
             if i not in existentes_b:
                 buscas.append({"id_busca": i, "data": hoje, "fonte_dados": FONTE_DADOS, "consulta": texto.format(s=sigla.get(p, p), p=p),
@@ -239,7 +241,7 @@ def run() -> None:
         for nome, por_g in por_grupo.items():
             _st, _pu, chave, texto, arq, sha, par, _pd = padroes[nome]
             for g in ("governo", "oposicao"):
-                i = ids.obter("buscas", f"{SCRIPT}|{chave}|grupo:{g}")
+                i = ids.obter("buscas", f"{SCRIPT}|{chave}|{VERSAO}|grupo:{g}")
                 busca_de[(nome, g)] = i
                 if i not in existentes_b:
                     rotulo = "base do governo" if g == "governo" else "oposição"
@@ -254,6 +256,9 @@ def run() -> None:
     filiados = set(filiacoes["id_ator"])
     existentes_v = set(ler("verificacoes_simetria")["id_verificacao"])
     vs, vr = [], []
+    vs_outros = ler("verificacoes_simetria")  # status verificados por outro módulo (ética, TCU, TSE, ...) têm padrão próprio: não entram aqui
+    de_outros = set(vs_outros.loc[vs_outros["script"] != SCRIPT, "achado_id"]) - set(vs_outros.loc[vs_outros["script"] == SCRIPT, "achado_id"])
+    status = status[~status["id_status"].isin(de_outros)]
     alvo = [(nome, s) for nome, (sts, *_r) in padroes.items() for _, s in status[status["status"].isin(sts) & status["id_ator"].isin(filiados)].iterrows()]
     for nome, s in alvo:
         _st, por_u, _c, _t, _a, _s, _p, padrao = padroes[nome]
@@ -261,12 +266,12 @@ def run() -> None:
         no_stf = trib.get(s["id_processo"]) == stf
         # segunda versão (com governo e oposição) só para status no STF; a primeira fica no histórico (D-050)
         v2 = no_stf and nome in por_grupo
-        v = ids.obter("verificacoes_simetria", f"{SCRIPT}|{'v2|' if v2 else ''}status_pessoa_processo|{s['id_status']}")
+        v = ids.obter("verificacoes_simetria", f"{SCRIPT}|{VERSAO + '|' if v2 else ''}status_pessoa_processo|{s['id_status']}")
         if v in existentes_v:
             continue
         ano = s["data"][:4]
         vs.append({"id_verificacao": v, "achado_tabela": "status_pessoa_processo", "achado_id": s["id_status"],
-                   "padrao_buscado": (padrao + (PADRAO_GRUPOS if v2 else "")) if no_stf
+                   "padrao_buscado": (padrao + (PADRAO_GRUPOS + NOTA_V3 if v2 else "")) if no_stf
                    else "Status formal em ação penal de tribunal estadual com réu que é parlamentar federal da base",
                    "ano_referencia": ano, "data": hoje, "script": SCRIPT})
         grupos = [("partido", p) for p in sorted(universo.loc[universo["ano"] == ano, "id_partido"])] + [("governo", "governo"), ("oposicao", "oposicao")]

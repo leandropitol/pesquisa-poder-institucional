@@ -317,3 +317,16 @@ ap,nome_partes,id_ator,decisao,motivo
 1051,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
 1052,JORGE KAJURU REIS DA COSTA NASSER,ATR-002582,aceita,Jorge Kajuru: prenome e nome pouco comum do nome civil; mandato no período
 2860,ANTONIA LUCILEIA DA CRUZ RAMOS CAMARA,ATR-000746,aceita_a_conferir,Antônia Lúcia: prenome igual e segundo nome parecido (Lúcia/Lucileia); única com esse nome na base; mandato no período; mesma decisão da AP 673
+969,ANDRÉ LUIZ DANTAS FERREIRA,ATR-001609,rejeitada,O texto da decisão da AP 973 identifica o réu André Luiz Dantas Ferreira como 'conhecido como deputado federal André Moura'; André Ferreira (PL-PE) é outro parlamentar (D-065)
+969,ANDRÉ LUIZ DANTAS FERREIRA,ATR-001093,aceita,"Mesmo nome civil completo das AP 973 e 974, em que o texto da decisão o identifica como deputado federal André Moura (D-065)"
+973,ANDRÉ LUIZ DANTAS FERREIRA,ATR-001609,rejeitada,O texto da decisão de 29/09/2021 identifica o réu como 'conhecido como deputado federal André Moura'; André Ferreira (PL-PE) é outro parlamentar (D-065)
+973,ANDRÉ LUIZ DANTAS FERREIRA,ATR-001093,aceita,O texto da decisão de 29/09/2021 identifica o réu como 'conhecido como deputado federal André Moura' (D-065)
+974,ANDRÉ LUIZ DANTAS FERREIRA,ATR-001609,rejeitada,A decisão de 29/09/2021 julga as APs 973 e 974 e identifica o réu como 'conhecido como deputado federal André Moura'; André Ferreira (PL-PE) é outro parlamentar (D-065)
+974,ANDRÉ LUIZ DANTAS FERREIRA,ATR-001093,aceita,A decisão de 29/09/2021 julga as APs 973 e 974 e identifica o réu como 'conhecido como deputado federal André Moura' (D-065)
+1021,EDER MAURO,ATR-001386,rejeitada,A decisão de 21/03/2024 nomeia o réu 'EDER MAURO DE SOUZA'; o nome civil do Delegado Éder Mauro nas candidaturas do TSE é Éder Mauro Cardoso Barra (D-065)
+2330,MARCELO FERNANDES LIMA,ATR-001921,rejeitada,"Nenhuma candidatura do TSE de 2002 a 2022 tem esse nome civil, e a lista de partes não traz mandato; sem evidência de identidade com o deputado Marcelo Lima (D-065)"
+996,NELSON MEURER JÚNIOR,ATR-000147,aceita,"A lista de réus do portal traz só 'Nelson Meurer Júnior' (filho) e outro réu; o texto da decisão de 29/05/2018 condena 'o réu Nelson Meurer' (deputado federal) e, em item separado, 'o denunciado Nelson Meurer Júnior'. A ação tem réu parlamentar; o vínculo do deputado com a AP é feito pelo texto da decisão (D-065)"
+542,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,rejeitada,"'Sérgio de Oliveira Cunha' é o nome civil de Sérgio Petecão nas candidaturas do TSE; o réu tem foro no STF em 2010-2017 como parlamentar, e Professor Sérgio de Oliveira foi só suplente em 2012 e 2016 (D-065)"
+542,SÉRGIO DE OLIVEIRA CUNHA,ATR-000972,aceita,Nome civil igual ao das candidaturas do TSE de Sérgio Petecão (D-065)
+880,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,rejeitada,'Sérgio de Oliveira Cunha' é o nome civil de Sérgio Petecão nas candidaturas do TSE; Professor Sérgio de Oliveira foi só suplente em 2012 e 2016 (D-065)
+880,SÉRGIO DE OLIVEIRA CUNHA,ATR-000972,aceita,Nome civil igual ao das candidaturas do TSE de Sérgio Petecão (D-065)

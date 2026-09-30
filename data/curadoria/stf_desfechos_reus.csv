@@ -1,0 +1,28 @@
+ap,id_ator,status,data,tipificacao,trecho,vinculo_manual
+AP 1002,ATR-000346,condenado_tribunal_superior,2020-06-10,"corrupção passiva (art. 317, § 1º, CP) e lavagem de dinheiro (Lei 9.613/1998, art. 1º, caput)","condenar, por maioria, o denunciado Aníbal Ferreira Gomes pelo crime do § 1° do art. 317 do CP",
+AP 1003,ATR-000722,absolvido,2018-06-19,,"por maioria, julgou improcedente a ação penal, nos termos do voto do Ministro Dias Toffoli",
+AP 1014,ATR-000673,absolvido,2019-05-28,,julgou improcedente a ação penal para absolver as rés,
+AP 1015,ATR-002285,condenado_tribunal_superior,2020-11-11,"corrupção passiva (art. 317, § 1º, CP) e lavagem de dinheiro (Lei 9.613/1998, art. 1º, caput)","condenar o denunciado Valdir Raupp de Matos como incurso nas sanções do art. 317, § 1º, do Código Penal",
+AP 1019,ATR-000448,absolvido,2020-08-24,,"por unanimidade, julgou improcedente a denúncia, nos termos do voto do Relator",
+AP 1025,ATR-002320,condenado_tribunal_superior,2023-06-01,"corrupção passiva (art. 317, caput, CP), lavagem de dinheiro (Lei 9.613/1998, art. 1º) e associação criminosa (art. 288, CP, com prescrição reconhecida)","condenar o réu Fernando Affonso Collor de Mello pela prática dos crimes previstos no art. 317, caput, do Código Penal",
+AP 1030,ATR-000708,condenado_tribunal_superior,2019-10-23,"lavagem de dinheiro (Lei 9.613/1998, art. 1º, caput) e associação criminosa (art. 288, CP)","condenar, também por unanimidade, o acusado Lúcio Quadros Vieira Lima como incurso nas sanções do art. 1º, caput, da Lei 9.613/98",
+AP 1032,ATR-000852,absolvido,2022-04-22,,julgou improcedente a denúncia para absolver os acusados Eduardo Henrique da Fonte de Albuquerque Silva,
+AP 347,ATR-000346,absolvido,2014-12-16,,"por maioria, absolveu os réus, conforme disposto no art. 386, inc. III, do Código de Processo Penal",
+AP 372,ATR-000683,absolvido,2010-12-16,,julgou improcedente a ação e absolveu os acusados,
+AP 433,ATR-000455,absolvido,2010-03-11,,"por maioria, absolveu os réus",
+AP 433,ATR-000789,absolvido,2010-03-11,,"por maioria, absolveu os réus",
+AP 447,ATR-000973,absolvido,2009-02-18,,"absolveu os réus, vencidos os Senhores Ministros Joaquim Barbosa",
+AP 516,ATR-000393,condenado_tribunal_superior,2010-09-27,"apropriação indébita previdenciária (art. 168-A, CP) e sonegação de contribuição previdenciária (art. 337-A, CP)",absolveu a ré Edna Márcia Cesílio e condenou o réu José Fuscaldi Cesílio,
+AP 528,ATR-000188,absolvido,2018-06-12,,absolveu os réus Wladimir Afonso da Costa Rabelo e Wlaudecir Antonio da Costa Rabelo,
+AP 560,ATR-001086,absolvido,2015-08-25,,"julgou improcedente a ação penal para o fim de absolver os acusados, com fundamento no art. 386, III, do CPP",
+AP 560,ATR-001433,absolvido,2015-08-25,,"julgou improcedente a ação penal para o fim de absolver os acusados, com fundamento no art. 386, III, do CPP",
+AP 565,ATR-002406,condenado_tribunal_superior,2013-08-08,"fraude à licitação (art. 90, Lei 8.666/1993)","condenar, por unanimidade, os acusados Ivo Narciso Cassol, Salomão da Silveira e Erodi Antonio Matt",
+AP 580,ATR-000037,absolvido,2016-12-13,,julgou improcedente a ação penal e absolveu o réu Paulo Roberto Gomes Mansur,
+AP 689,ATR-000806,absolvido,2014-05-08,,"julgou improcedente a ação penal para absolver os réus com base no art. 386, IV",
+AP 700,ATR-001259,absolvido,2016-02-23,,"por votação unânime, julgou improcedente a ação, nos termos do voto do Relator",
+AP 903,ATR-001432,absolvido,2015-05-18,,Absolvidos sumariamente os acusados da prática do crime do art. 347 da Lei 4.737/65,
+AP 968,ATR-000756,condenado_tribunal_superior,2018-05-22,"falsidade ideológica para fins eleitorais (art. 350, Código Eleitoral)",condenar o réu PAULO SALIM MALUF pela prática do crime de falsidade ideológica para fins eleitorais,
+AP 996,ATR-000147,condenado_tribunal_superior,2018-05-29,"corrupção passiva (art. 317, § 1º, CP)","condenar o réu Nelson Meurer como incurso nas sanções do art. 317, § 1º, do Código Penal","a lista de réus do portal traz só 'NELSON MEURER JÚNIOR' e 'CRISTIANO AUGUSTO MEURER'; o texto da decisão condena 'o réu Nelson Meurer' (deputado federal, sem sufixo) e, em item separado, 'o denunciado Nelson Meurer Júnior'; o vínculo do deputado é feito pelo nome no texto da decisão"
+AP 996,ATR-000147,punibilidade_extinta,2020-10-01,"morte do agente (art. 107, I, CP)",declaro extinta a punibilidade com relação ao investigado Nelson Meurer,"mesmo motivo da linha anterior: o nome no texto da decisão é o do deputado, sem sufixo"
+AP 973,ATR-001093,condenado_tribunal_superior,2021-09-29,"crimes de responsabilidade (Decreto-Lei 201/1967, art. 1º, I e II), c/c arts. 29 e 71 do Código Penal","condenar o réu André Luiz Dantas Ferreira, conhecido como deputado federal André Moura",o texto da decisão identifica o réu como 'conhecido como deputado federal André Moura'
+AP 974,ATR-001093,condenado_tribunal_superior,2021-09-29,"crimes de responsabilidade (Decreto-Lei 201/1967, art. 1º, I e II), c/c arts. 29 e 71 do Código Penal","condenar o réu André Luiz Dantas Ferreira, conhecido como deputado federal André Moura",o texto da decisão identifica o réu como 'conhecido como deputado federal André Moura'
