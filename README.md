@@ -11,6 +11,27 @@ réguas em `docs/protocolo.md`.
 
 Fase 0 (estrutura) concluída. Etapa E1 (Câmara e Senado) coletada e normalizada em 2026-09-24, com partidos ligados ao registro no TSE (fusões, incorporações e mudanças de nome). Etapas E2 (V-Dem e Freedom House), E3 (BNDES), E4 (STJ pelo DataJud, uso restrito), E5 (STF pelo Corte Aberta, exportação feita pelo autor; universo com revisão pendente), E6 (Portal da Transparência) concluídas em 2026-09-24. Etapa E8 em andamento: blocos A1 e A2 (votos na Assembleia Geral e no Conselho de Direitos Humanos da ONU), bloco B (atos bilaterais do Itamaraty), bloco D (filiação de partidos brasileiros a redes transnacionais) e bloco A3 (Assembleia Geral da OEA: votações nominais conferidas contra as atas e resoluções adotadas sem votação; curadoria das resoluções concluída pelo autor). Cobertura e lacunas na parte gerada de `docs/limitacoes.md`. Plano em `docs/plano_coleta.md`.
 
+## Fechamento do estudo
+
+Saídas geradas por código a partir da base (nenhum número digitado à mão), com fonte citada em cada frase:
+
+| Arquivo | Conteúdo |
+|---|---|
+| `relatorios/relatorio_final.md` | resultados por eixo, simetria, interpretação separada dos resultados e apêndice de fontes |
+| `relatorios/linha_do_tempo.md` | status formais de pessoas em processos, por ano, com partido, grupo (governo ou oposição) e fonte |
+| `relatorios/linha_do_tempo_status.csv`, `relatorios/linha_do_tempo_fases_eventos.csv` | os mesmos dados em tabela, mais fases de processo e eventos |
+| `docs/nota_metodologica.md` | definições, fontes, regras, métodos estatísticos e índice das decisões metodológicas |
+| `docs/limitacoes.md` | vieses conhecidos e cobertura medida na base |
+
+```bash
+python -m src.relatorios.limitacoes
+python -m src.relatorios.linha_do_tempo
+python -m src.relatorios.relatorio_final
+python -m src.relatorios.nota_metodologica
+```
+
+Antes de qualquer publicação, recomenda-se revisão jurídica: o material nomeia agentes públicos com status formal de processos.
+
 ## Estrutura
 
 | Pasta | Conteúdo |
