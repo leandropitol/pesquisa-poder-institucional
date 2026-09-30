@@ -15,20 +15,25 @@ Vínculo réu -> ator (mais rígido que o da simetria, porque aqui o status vai 
 ligada ao ator (D-064); ou ligação curada `aceita` / da E9, desde que o réu não tenha sufixo (Júnior, Filho, Neto) que o nome do ator não tem.
 `automatica` e `aceita_a_conferir` sem confirmação pelo nome civil ficam nos pendentes.
 
-Saídas: base (status_pessoa_processo); relatorios/tabelas/stf_desfechos.csv (auditoria) e stf_desfechos_pendentes.csv.
+Extinções de punibilidade de texto seco no Corte Aberta ("EM 27/02/2014"): a causa e o nome do acusado vêm da decisão monocrática publicada no DJe, baixada do
+portal do STF com autorização do autor (data/raw/stf/2026-09-30/pecas, com sha256 no índice e no manifesto); as linhas curadas ficam em
+data/curadoria/stf_desfechos_pdf.csv, com o trecho conferido contra o texto do PDF.
+
+Saídas: base (status_pessoa_processo, fontes e fonte_oficial das decisões); relatorios/tabelas/stf_desfechos.csv (auditoria) e stf_desfechos_pendentes.csv.
 
 Uso:
     python -m src.normalizacao.stf_desfechos
 """
 
 import csv
+import hashlib
 import re
 from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
 
-from src.base import BASE, RAIZ, RegistroIds, acrescentar, ler
+from src.base import BASE, RAIZ, RegistroIds, acrescentar, gravar, ler
 from src.normalizacao.eixo1_registros import ligar
 from src.normalizacao.simetria_stf import SUFIXOS, carregar, relatorios
 from src.normalizacao.tse import norm
@@ -45,6 +50,7 @@ CAUSA = [("morte do agente (art. 107, I, CP)", re.compile(r"[óo]bito|faleciment
          ("prescrição da pretensão punitiva", re.compile(r"prescri[çc]", re.I), "prescrito"),
          ("cumprimento de acordo de não persecução penal", re.compile(r"acordo de n[ãa]o persecu", re.I), "punibilidade_extinta")]
 PARCIAL = re.compile(r"no que concerne|quanto (?:ao|aos|[àa]s?) (?:crime|delito|infra)|em rela[çc][ãa]o (?:ao|aos|[àa]s?) (?:crime|delito|infra)", re.I)
+PECAS = RAIZ / "data" / "raw" / "stf" / "2026-09-30" / "pecas"
 SCRIPT = "src.normalizacao.stf_desfechos"
 
 
@@ -106,6 +112,11 @@ def classificar_extincao(texto: str, nome_reu: str) -> tuple[str, str] | None:
     return None
 
 
+def texto_pdf(nome: str) -> str:
+    import fitz
+    return limpo(" ".join(p.get_text() for p in fitz.open(PECAS / nome)))
+
+
 def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
     c = carregar()
     lig, lista, proc = c["lig"], c["lista"], c["proc"]
@@ -123,7 +134,7 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
 
     ja = set(ler("status_pessoa_processo", base)["id_status"])
 
-    def registrar(ap, ator, st, dt, tip, evidencia, origem, vinc, nome_reu):
+    def registrar(ap, ator, st, dt, tip, evidencia, origem, vinc, nome_reu, fonte=fonte):
         idp = id_proc[ap]
         i = ids.obter("status_pessoa_processo", f"stf_desfecho:{ap}:{ator}:{st}:{dt}")
         if i not in ja:
@@ -157,8 +168,39 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
                 registrar(ap, r["id_ator"], r["status"], r["data"], r["tipificacao"], r["trecho"], "curadoria", ok[1], ok[0])
             else:
                 pendente(ap, r["data"], r["status"], "vínculo do réu com o ator sem confirmação pelo nome civil", r["id_ator"])
+    fontes, oficiais, cobertos = [], [], set()
+    stf_id = ler("instituicoes", base).query("sigla == 'STF'")["id_instituicao"].iloc[0]
+    indice = {x["arquivo"]: x for x in csv.DictReader((PECAS / "_indice.csv").open(encoding="utf-8"))}
+    for r in csv.DictReader((CUR / "stf_desfechos_pdf.csv").open(encoding="utf-8")):
+        ap, dt, ator = r["ap"], r["data"], r["id_ator"]
+        ix = indice[r["arquivo"]]
+        if hashlib.sha256((PECAS / r["arquivo"]).read_bytes()).hexdigest() != ix["sha256"]:
+            raise ValueError(f"sha256 diverge: {r['arquivo']}")
+        if " ".join(r["trecho"].split()) not in texto_pdf(r["arquivo"]):
+            raise ValueError(f"trecho não encontrado em {r['arquivo']}: {r['trecho'][:70]}")
+        cobertos.add((ap, dt))
+        ligs = [(n, v) for n, vs in por_ap[ap] for v in vs if v[0] == ator]
+        if r["vinculo_manual"]:
+            vinc, nome_reu = "manual: " + r["vinculo_manual"][:140], ""
+        else:
+            ok = next(((n, vinculo(n, ator, v[1], nome_ator[ator], civ)) for n, v in ligs if vinculo(n, ator, v[1], nome_ator[ator], civ)), None)
+            if not ok:
+                pendente(ap, dt, r["status"], "decisão lida no PDF, mas vínculo do réu com o ator sem confirmação", ator)
+                continue
+            nome_reu, vinc = ok
+        caminho = f"data/raw/stf/2026-09-30/pecas/{r['arquivo']}"
+        fid = ids.obter("fontes", f"raw:{caminho}")
+        if fid not in {f["id_fonte"] for f in fontes}:
+            url = "https://portal.stf.jus.br/processos/" + ix["href"]
+            fontes.append({"id_fonte": fid, "tipo_fonte": "oficial", "titulo": f"STF, {ap}: decisão monocrática publicada no DJe em {ix['data_publicacao']} (peça do portal)",
+                           "data_publicacao": ix["data_publicacao"], "url": url, "data_acesso": "2026-09-30", "sha256": ix["sha256"], "caminho_raw": caminho,
+                           "licenca": "Dados públicos (Lei 12.527/2011)", "observacao": "PDF baixado do portal do STF com autorização do autor (D-066)"})
+            oficiais.append({"id_fonte": fid, "id_orgao": stf_id, "tipo_documento": "Decisão monocrática (DJe)", "data_documento": ix["data_publicacao"], "link": url})
+        registrar(ap, ator, r["status"], dt, r["tipificacao"], r["trecho"], "pdf", vinc, nome_reu, fonte=fid)
     for r in ev.itertuples():
         ap, dt, andam, texto = r.Processo, r.data, r.andamento, r.texto
+        if (ap, dt) in cobertos:
+            continue
         if ap in FORA or ap not in por_ap or ap in curadas or ap not in id_proc:
             continue
         nomes = reus.get(ap, [])
@@ -190,12 +232,17 @@ def montar(data: str, ids: RegistroIds, base: Path = BASE) -> dict:
                 registrar(ap, ator, st, dt, tip, texto, "regra", v, nome_reu)
             else:
                 pendente(ap, dt, andam, f"vínculo réu-ator sem confirmação ({decisao})", ator)
-    return {"status": status, "auditoria": pd.DataFrame(auditoria), "pendentes": pd.DataFrame(pendentes).drop_duplicates()}
+    return {"status": status, "fontes": fontes, "fonte_oficial": oficiais, "auditoria": pd.DataFrame(auditoria), "pendentes": pd.DataFrame(pendentes).drop_duplicates()}
 
 
 def run(data: str) -> None:
     ids = RegistroIds()
     r = montar(data, ids)
+    for nome, chave in (("fontes", "id_fonte"), ("fonte_oficial", "id_fonte")):
+        atual = ler(nome)
+        novos = pd.DataFrame(r[nome], dtype=str)
+        if len(novos):
+            gravar(nome, pd.concat([atual[~atual[chave].isin(novos[chave])], novos], ignore_index=True))
     acrescentar("status_pessoa_processo", r["status"])
     ids.salvar()
     saida = RAIZ / "relatorios" / "tabelas"

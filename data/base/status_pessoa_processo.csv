@@ -1264,3 +1264,34 @@ STA-001262,ATR-001374,PRC-002644,2018-09-25,absolvido,assunto no STF: DIREITO PE
 STA-001263,ATR-001093,PRC-002632,2021-09-29,condenado_tribunal_superior,"crimes de responsabilidade (Decreto-Lei 201/1967, art. 1º, I e II), c/c arts. 29 e 71 do Código Penal",FNT-000046
 STA-001264,ATR-001093,PRC-002633,2021-09-29,condenado_tribunal_superior,"crimes de responsabilidade (Decreto-Lei 201/1967, art. 1º, I e II), c/c arts. 29 e 71 do Código Penal",FNT-000046
 STA-001265,ATR-000972,PRC-002548,2017-09-19,absolvido,assunto no STF: DIREITO PENAL | CRIMES PREVISTOS NA LEGISLAÇÃO EXTRAVAGANTE | CRIMES ELEITORAIS,FNT-000046
+STA-001266,ATR-002484,PRC-000217,2017-08-21,denuncia_rejeitada,"falta de justa causa pela insuficiência dos indícios de autoria (decisão de 18/08/2017, rejeição da denúncia)",FNT-000312
+STA-001267,ATR-000760,PRC-002120,2019-10-16,punibilidade_extinta,"art. 107, II, do Código Penal, nos termos do Decreto 9.246/2017 (indulto)",FNT-000313
+STA-001268,ATR-000188,PRC-002138,2013-08-29,prescrito,"prescrição da pretensão punitiva (queixa-crime; art. 109, V, c/c art. 117, I, do CP)",FNT-000314
+STA-001269,ATR-002320,PRC-002168,2013-09-30,punibilidade_extinta,"pagamento integral do crédito tributário (art. 9º, § 2º, da Lei 10.684/2003)",FNT-000315
+STA-001270,ATR-000001,PRC-002183,2013-12-09,prescrito,prescrição da pretensão punitiva (art. 90 da Lei 8.666/1993),FNT-000316
+STA-001271,ATR-000854,PRC-002248,2012-12-17,prescrito,prescrição da pretensão punitiva,FNT-000317
+STA-001272,ATR-002424,PRC-002257,2014-10-22,prescrito,"prescrição da pretensão punitiva, reconhecida de ofício",FNT-000318
+STA-001273,ATR-002424,PRC-002336,2014-11-10,prescrito,"prescrição da pretensão punitiva, reconhecida de ofício",FNT-000319
+STA-001274,ATR-001075,PRC-002281,2014-06-16,punibilidade_extinta,"cumprimento das condições da suspensão condicional do processo (art. 89, § 5º, da Lei 9.099/1995)",FNT-000320
+STA-001275,ATR-002452,PRC-002282,2014-04-24,prescrito,"prescrição da pretensão punitiva (calúnia, art. 138 do CP)",FNT-000321
+STA-001276,ATR-000565,PRC-002289,2013-10-01,prescrito,prescrição da pretensão punitiva (art. 10 da Lei 7.347/1985),FNT-000322
+STA-001277,ATR-001217,PRC-002293,2014-02-05,prescrito,prescrição da pretensão punitiva,FNT-000323
+STA-001278,ATR-002452,PRC-002300,2015-08-04,prescrito,prescrição intercorrente da pretensão punitiva,FNT-000324
+STA-001279,ATR-000006,PRC-002306,2012-11-29,prescrito,"prescrição da pretensão punitiva (injúria, art. 140 do CP)",FNT-000325
+STA-001280,ATR-001159,PRC-002314,2013-03-05,prescrito,"prescrição da pretensão punitiva (dano qualificado, art. 163, III, do CP)",FNT-000326
+STA-001281,ATR-000894,PRC-002328,2013-09-30,prescrito,prescrição da pretensão punitiva (injúria),FNT-000327
+STA-001282,ATR-002431,PRC-002334,2015-09-02,prescrito,"prescrição da pretensão punitiva (art. 89 da Lei 8.666/1993; acusada com mais de 70 anos, art. 115 do CP)",FNT-000328
+STA-001283,ATR-000746,PRC-002345,2013-09-19,prescrito,"prescrição da pretensão punitiva (desacato, art. 331 do CP)",FNT-000329
+STA-001284,ATR-001259,PRC-002347,2013-12-09,prescrito,"prescrição da pretensão punitiva (arts. 168, § 2º, III, e 171 do CP)",FNT-000330
+STA-001285,ATR-001225,PRC-002361,2013-04-09,punibilidade_extinta,"cumprimento das condições da suspensão condicional do processo (art. 89, § 5º, da Lei 9.099/1995)",FNT-000331
+STA-001286,ATR-002193,PRC-002367,2014-02-28,punibilidade_extinta,"morte do agente (art. 107, I, do CP)",FNT-000332
+STA-001287,ATR-001198,PRC-002370,2013-04-19,prescrito,"prescrição da pretensão punitiva (art. 109, V, do CP)",FNT-000333
+STA-001288,ATR-000427,PRC-002372,2015-02-20,prescrito,prescrição da pretensão punitiva (art. 90 da Lei 8.666/1993),FNT-000334
+STA-001289,ATR-001146,PRC-002522,2014-03-11,punibilidade_extinta,pagamento integral da dívida,FNT-000335
+STA-001290,ATR-000248,PRC-002536,2014-05-15,prescrito,prescrição da pretensão punitiva,FNT-000336
+STA-001291,ATR-000496,PRC-002603,2017-05-25,punibilidade_extinta,"morte do agente (art. 107, I, do CP)",FNT-000337
+STA-001292,ATR-000967,PRC-002614,2018-10-09,punibilidade_extinta,"morte do agente (art. 107, I, do CP)",FNT-000338
+STA-001293,ATR-001416,PRC-002621,2018-06-05,punibilidade_extinta,anistia da Lei 13.293/2016,FNT-000339
+STA-001294,ATR-001093,PRC-002629,2023-08-31,punibilidade_extinta,"cumprimento de acordo de não persecução penal (art. 28-A, § 13, do CPP)",FNT-000340
+STA-001295,ATR-001374,PRC-002640,2018-03-07,punibilidade_extinta,"pagamento do débito tributário (art. 9º, § 2º, da Lei 10.684/2003 e art. 69 da Lei 11.941/2009)",FNT-000341
+STA-001296,ATR-000133,PRC-002645,2017-10-19,prescrito,"prescrição da pretensão punitiva, em reconsideração de decisão anterior (decisão de 11/10/2017)",FNT-000342

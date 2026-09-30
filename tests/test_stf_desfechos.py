@@ -32,3 +32,17 @@ def test_marcador_de_varios_reus_e_limpeza():
     assert PLURAL.search("desmembrou a ação penal")
     assert not PLURAL.search("absolveu o réu Sérgio Ivan Moraes")
     assert limpo("a_x000D_ b\n c") == "a b c"
+
+
+def test_linhas_curadas_dos_pdfs_tem_trecho_e_hash():
+    import csv
+    import hashlib
+
+    from src.normalizacao.stf_desfechos import CUR, PECAS, texto_pdf
+    indice = {x["arquivo"]: x for x in csv.DictReader((PECAS / "_indice.csv").open(encoding="utf-8"))}
+    linhas = list(csv.DictReader((CUR / "stf_desfechos_pdf.csv").open(encoding="utf-8")))
+    assert linhas
+    for r in linhas:
+        assert hashlib.sha256((PECAS / r["arquivo"]).read_bytes()).hexdigest() == indice[r["arquivo"]]["sha256"]
+        assert " ".join(r["trecho"].split()) in texto_pdf(r["arquivo"]), r["arquivo"]
+        assert r["status"] in {"prescrito", "punibilidade_extinta", "denuncia_rejeitada"}

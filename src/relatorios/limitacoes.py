@@ -723,14 +723,15 @@ def _linhas_stf_desfechos() -> list[str]:
     sem_texto = int(p["motivo"].str.startswith("texto da decisão").sum())
     return [
         "### Desfechos das ações penais do STF por pessoa (D-065)", "",
-        f"- {len(a)} status por pessoa e ação ({a['status'].value_counts().to_dict()}), a partir do texto oficial das decisões; {len(p)} eventos pendentes ({sem_texto} extinções de punibilidade com texto sem causa identificável, "
-        "como \"EM 27/02/2014\" ou \"*NI*\", que exigiriam a leitura do andamento no portal; os demais, ações com vários réus sem linha curada ou vínculo sem confirmação).",
+        f"- {len(a)} status por pessoa e ação ({a['status'].value_counts().to_dict()}), a partir do texto oficial das decisões; {len(p)} eventos pendentes ({sem_texto} extinções de punibilidade com texto seco no Corte Aberta (\"EM 27/02/2014\", \"*NI*\") cuja decisão publicada não foi lida: "
+        f"sem decisão monocrática em PDF ligada à publicação no portal (decisões antigas, ou decisões de Turma, cujo acórdão não foi baixado), PDF vazio (AP 399) ou só despachos (AP 530); as demais, ações com vários réus sem linha curada ou vínculo sem confirmação). "
+        f"{int((a['origem'] == 'pdf').sum())} status vêm de decisões monocráticas em PDF baixadas do portal do STF (D-066), com a causa e o nome do acusado lidos no texto.",
         f"- Cobertura do mérito: das {int(cob['acoes_julgadas_no_merito_com_reu_parlamentar'])} ações julgadas no mérito com réu ligado a parlamentar, {int(cob['com_desfecho_na_pessoa'])} têm o desfecho registrado na pessoa "
         f"({int(cob['julgados_pessoa_acao'])} parlamentares x ação). A ação com desfecho só no nível da ação continua na lista de pendentes.",
         "- Condenação em parte: `condenado_tribunal_superior` vale também para \"Procedente em parte\", em que o réu pode ter sido absolvido de parte das imputações; o resultado por crime não foi registrado. "
         "O trânsito em julgado por pessoa e os recursos (embargos infringentes, revisão criminal) não foram lidos.",
         "- A lista de réus do portal pode estar incompleta (na AP 996 ela omitiu o deputado): por isso, com mais de um réu, só entra linha curada com o trecho da decisão. Sete ligações réu-ação da simetria eram falsas "
-        "(homônimos ou o mesmo nome civil de outro parlamentar) e foram corrigidas na versão 3 das verificações; as versões 1 e 2 permanecem no histórico com as ligações antigas.",
+        "(homônimos ou o mesmo nome civil de outro parlamentar) e foram corrigidas na versão 4 das verificações; as versões 1 a 3 permanecem no histórico com as ligações antigas.",
         f"- Condenados entre julgados no mérito, por partido: sem diferença distinguível (p = {ph['p_valor']:.2f}, {int(ph['grupos'])} partidos com 5 ou mais julgados) nem entre governo e oposição (p = {pg['p_valor']:.2f}). "
         "O número de julgados é pequeno (dezenas por grupo); a ausência de diferença mede o que os dados não distinguem, não igualdade.",
         "",

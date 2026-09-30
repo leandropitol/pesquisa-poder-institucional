@@ -294,3 +294,34 @@ FNT-000308,INS-000002,Processo legislativo,2026-09-29,https://legis.senado.leg.b
 FNT-000309,INS-001544,Lista pública de responsáveis com contas julgadas irregulares,2026-09-29,https://certidoes.apps.tcu.gov.br/api/publico/responsaveis-contas-irregulares/exportar-para-csv?paginaAtual=1&tamanhoPagina=50000
 FNT-000310,INS-000056,Conjunto de dados abertos (ZIP),2026-09-25,https://dadosabertos.tse.jus.br/
 FNT-000311,INS-000056,Conjunto de dados abertos (ZIP),2026-09-25,https://dadosabertos.tse.jus.br/
+FNT-000312,INS-001525,Decisão monocrática (DJe),2017-08-23,https://portal.stf.jus.br/processos/downloadPeca.asp?id=312495372&ext=.pdf
+FNT-000313,INS-001525,Decisão monocrática (DJe),2019-10-18,https://portal.stf.jus.br/processos/downloadPeca.asp?id=15341501774&ext=.pdf
+FNT-000314,INS-001525,Decisão monocrática (DJe),2013-09-02,https://portal.stf.jus.br/processos/downloadPeca.asp?id=166278201&ext=.pdf
+FNT-000315,INS-001525,Decisão monocrática (DJe),2013-10-03,https://portal.stf.jus.br/processos/downloadPeca.asp?id=173945413&ext=.pdf
+FNT-000316,INS-001525,Decisão monocrática (DJe),2013-12-11,https://portal.stf.jus.br/processos/downloadPeca.asp?id=189869518&ext=.pdf
+FNT-000317,INS-001525,Decisão monocrática (DJe),2012-12-19,https://portal.stf.jus.br/processos/downloadPeca.asp?id=116478450&ext=.pdf
+FNT-000318,INS-001525,Decisão monocrática (DJe),2014-10-24,https://portal.stf.jus.br/processos/downloadPeca.asp?id=270950527&ext=.pdf
+FNT-000319,INS-001525,Decisão monocrática (DJe),2014-11-12,https://portal.stf.jus.br/processos/downloadPeca.asp?id=278113709&ext=.pdf
+FNT-000320,INS-001525,Decisão monocrática (DJe),2014-06-18,https://portal.stf.jus.br/processos/downloadPeca.asp?id=237513957&ext=.pdf
+FNT-000321,INS-001525,Decisão monocrática (DJe),2014-04-28,https://portal.stf.jus.br/processos/downloadPeca.asp?id=217186046&ext=.pdf
+FNT-000322,INS-001525,Decisão monocrática (DJe),2013-10-03,https://portal.stf.jus.br/processos/downloadPeca.asp?id=174003988&ext=.pdf
+FNT-000323,INS-001525,Decisão monocrática (DJe),2014-02-10,https://portal.stf.jus.br/processos/downloadPeca.asp?id=199527020&ext=.pdf
+FNT-000324,INS-001525,Decisão monocrática (DJe),2015-08-06,https://portal.stf.jus.br/processos/downloadPeca.asp?id=307366999&ext=.pdf
+FNT-000325,INS-001525,Decisão monocrática (DJe),2012-12-03,https://portal.stf.jus.br/processos/downloadPeca.asp?id=113938234&ext=.pdf
+FNT-000326,INS-001525,Decisão monocrática (DJe),2013-03-07,https://portal.stf.jus.br/processos/downloadPeca.asp?id=127180086&ext=.pdf
+FNT-000327,INS-001525,Decisão monocrática (DJe),2013-10-03,https://portal.stf.jus.br/processos/downloadPeca.asp?id=173972400&ext=.pdf
+FNT-000328,INS-001525,Decisão monocrática (DJe),2015-09-04,https://portal.stf.jus.br/processos/downloadPeca.asp?id=307652156&ext=.pdf
+FNT-000329,INS-001525,Decisão monocrática (DJe),2013-09-24,https://portal.stf.jus.br/processos/downloadPeca.asp?id=171699154&ext=.pdf
+FNT-000330,INS-001525,Decisão monocrática (DJe),2013-12-11,https://portal.stf.jus.br/processos/downloadPeca.asp?id=189869508&ext=.pdf
+FNT-000331,INS-001525,Decisão monocrática (DJe),2013-04-11,https://portal.stf.jus.br/processos/downloadPeca.asp?id=133172433&ext=.pdf
+FNT-000332,INS-001525,Decisão monocrática (DJe),2014-03-06,https://portal.stf.jus.br/processos/downloadPeca.asp?id=203935668&ext=.pdf
+FNT-000333,INS-001525,Decisão monocrática (DJe),2013-04-23,https://portal.stf.jus.br/processos/downloadPeca.asp?id=135371353&ext=.pdf
+FNT-000334,INS-001525,Decisão monocrática (DJe),2015-02-24,https://portal.stf.jus.br/processos/downloadPeca.asp?id=302867141&ext=.pdf
+FNT-000335,INS-001525,Decisão monocrática (DJe),2014-03-13,https://portal.stf.jus.br/processos/downloadPeca.asp?id=205841398&ext=.pdf
+FNT-000336,INS-001525,Decisão monocrática (DJe),2014-05-19,https://portal.stf.jus.br/processos/downloadPeca.asp?id=222186348&ext=.pdf
+FNT-000337,INS-001525,Decisão monocrática (DJe),2017-05-29,https://portal.stf.jus.br/processos/downloadPeca.asp?id=311894551&ext=.pdf
+FNT-000338,INS-001525,Decisão monocrática (DJe),2018-10-11,https://portal.stf.jus.br/processos/downloadPeca.asp?id=15338828862&ext=.pdf
+FNT-000339,INS-001525,Decisão monocrática (DJe),2018-06-07,https://portal.stf.jus.br/processos/downloadPeca.asp?id=314532778&ext=.pdf
+FNT-000340,INS-001525,Decisão monocrática (DJe),2023-08-31,https://portal.stf.jus.br/processos/downloadPeca.asp?id=15360649155&ext=.pdf
+FNT-000341,INS-001525,Decisão monocrática (DJe),2018-03-09,https://portal.stf.jus.br/processos/downloadPeca.asp?id=313862614&ext=.pdf
+FNT-000342,INS-001525,Decisão monocrática (DJe),2017-10-23,https://portal.stf.jus.br/processos/downloadPeca.asp?id=313078885&ext=.pdf

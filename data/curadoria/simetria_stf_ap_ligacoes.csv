@@ -114,7 +114,6 @@ ap,nome_partes,id_ator,decisao,motivo
 538,RAIMUNDO SABINO CASTELO BRANCO MAUÉS,ATR-000953,aceita,Sabino Castelo Branco: três palavras seguidas do nome civil; mandato no período
 541,JOSÉ ABELARDO GUIMARÃES CAMARINHA,ATR-000894,aceita,Abelardo Camarinha: prenome e último sobrenome do nome civil; mandato no período
 541,JOSÉ ABELARDO GUIMARÃES CAMARINHA,ATR-000901,rejeitada,"José Guimarães: palavras contidas no nome civil, mas o último sobrenome (Camarinha) coincide com outro parlamentar, que fica com a ligação"
-542,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,aceita_a_conferir,Professor Sérgio de Oliveira: prenome e sobrenome Oliveira coincidem (Cunha não está no nome parlamentar); mandato no período; mesma decisão da AP 880
 548,NELSON GOETTEN DE LIMA,ATR-000942,aceita,Nelson Goetten: prenome e sobrenome pouco comum do nome civil; mandato no período
 552,JOSÉ EDUARDO CARREIRA ALVIM,ATR-002174,rejeitada,"José Eduardo: só prenomes, compartilhados por mais de um parlamentar da base"
 554,VALDIR RAUPP DE MATOS,ATR-002285,aceita,prenome e sobrenome Raupp do nome parlamentar estão no nome civil; mandato no período
@@ -234,7 +233,6 @@ ap,nome_partes,id_ator,decisao,motivo
 872,CARLOS ALBERTO PEREIRA DA COSTA,ATR-000737,rejeitada,"Dr. Carlos Alberto: só prenomes, compartilhados por mais de um parlamentar da base"
 876,CARLOS ALEXANDRE DE SOUZA ROCHA,ATR-000192,rejeitada,Carlos Souza: o último sobrenome (Rocha) é outro e o nome é comum
 878,ANDRE LUIS PAULA SANTOS,ATR-000516,aceita_a_conferir,"André de Paula: prenome e nome do meio coincidem, o último sobrenome não; único com esse nome na base"
-880,SÉRGIO DE OLIVEIRA CUNHA,ATR-001273,aceita_a_conferir,Professor Sérgio de Oliveira: prenome e sobrenome Oliveira coincidem (Cunha não está no nome parlamentar); mandato no período
 881,JOÃO CALDAS DA SILVA,ATR-000562,aceita,prenome e sobrenome do nome parlamentar estão no nome civil; mandato no período
 881,MARCO ANTÔNIO LOPES,ATR-002338,rejeitada,"Marco Antonio: só prenomes, compartilhados por mais de um parlamentar da base"
 883,IZALCI LUCAS FERREIRA,ATR-000007,aceita,nome parlamentar de uma palavra igual ao prenome pouco comum Izalci; mandato no período
