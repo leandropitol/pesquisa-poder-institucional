@@ -1,0 +1,165 @@
+medida,recorte,grupo_tipo,grupo,sigla,n_acoes,com_declinio,taxa,ic95_inf,ic95_sup
+declinio,antes da restrição do foro,faixa_ideologica,extrema_esquerda,extrema_esquerda,2,0,0.0,0.0,0.6576280471103807
+declinio,antes da restrição do foro,faixa_ideologica,esquerda,esquerda,30,11,0.36666666666666664,0.21873702204017678,0.5448675356639506
+declinio,antes da restrição do foro,faixa_ideologica,centro_esquerda,centro_esquerda,48,21,0.4375,0.3070105464041092,0.5772522849899835
+declinio,antes da restrição do foro,faixa_ideologica,centro,centro,5,1,0.2,0.03622316096978745,0.6244717358814613
+declinio,antes da restrição do foro,faixa_ideologica,centro_direita,centro_direita,33,12,0.36363636363636365,0.22186966167959873,0.5338412737846591
+declinio,antes da restrição do foro,faixa_ideologica,direita,direita,188,67,0.35638297872340424,0.2914248653391986,0.42709291182696346
+declinio,antes da restrição do foro,faixa_ideologica,extrema_direita,extrema_direita,38,23,0.6052631578947368,0.4471758699869596,0.7440214073638108
+declinio,antes da restrição do foro,faixa_ideologica,sem_escore,sem_escore,13,1,0.07692307692307693,0.013710066379696323,0.3331453392824736
+declinio,antes da restrição do foro,faixa_ideologica,sem_partido,sem_partido,14,2,0.14285714285714285,0.040093073737921175,0.39941907763863693
+declinio,antes da restrição do foro,governo_oposicao,governo,governo,276,96,0.34782608695652173,0.2940723428292026,0.4057578468209423
+declinio,antes da restrição do foro,governo_oposicao,nenhum,nenhum,15,8,0.5333333333333333,0.3011663015105079,0.7519077474025355
+declinio,antes da restrição do foro,governo_oposicao,oposicao,oposicao,63,32,0.5079365079365079,0.38762677115387556,0.6273339718564653
+declinio,antes da restrição do foro,governo_oposicao,sem_classificacao,sem_classificacao,3,0,0.0,0.0,0.5615060804490177
+declinio,antes da restrição do foro,governo_oposicao,sem_partido,sem_partido,14,2,0.14285714285714285,0.040093073737921175,0.39941907763863693
+declinio,antes da restrição do foro,partido,INS-000059,PP,32,9,0.28125,0.15564406845647866,0.4537483693811179
+declinio,antes da restrição do foro,partido,INS-000061,AGIR,5,0,0.0,0.0,0.43449149475208104
+declinio,antes da restrição do foro,partido,INS-000062,PTB,26,6,0.23076923076923078,0.11033699683676687,0.42051925751956787
+declinio,antes da restrição do foro,partido,INS-000064,PL,13,1,0.07692307692307693,0.013710066379696323,0.3331453392824736
+declinio,antes da restrição do foro,partido,INS-000068,PL,19,10,0.5263157894736842,0.31707482511825114,0.7267049451255145
+declinio,antes da restrição do foro,partido,INS-000070,DEM,38,23,0.6052631578947368,0.4471758699869596,0.7440214073638108
+declinio,antes da restrição do foro,partido,INS-000071,REPUBLICANOS,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio,antes da restrição do foro,partido,INS-000072,PODE,3,2,0.6666666666666666,0.2076549551264879,0.9385096847238394
+declinio,antes da restrição do foro,partido,INS-000075,MDB,66,18,0.2727272727272727,0.180032031620791,0.3904245444026678
+declinio,antes da restrição do foro,partido,INS-000077,SOLIDARIEDADE,3,3,1.0,0.43849391955098227,1.0
+declinio,antes da restrição do foro,partido,INS-000078,PRP,3,3,1.0,0.43849391955098227,1.0
+declinio,antes da restrição do foro,partido,INS-000079,PCDOB,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio,antes da restrição do foro,partido,INS-000081,CIDADANIA,2,1,0.5,0.09452865480086614,0.9054713451991339
+declinio,antes da restrição do foro,partido,INS-000082,PSL,1,0,0.0,0.0,0.7934567085261071
+declinio,antes da restrição do foro,partido,INS-000084,PROS,1,1,1.0,0.20654329147389294,1.0
+declinio,antes da restrição do foro,partido,INS-000085,PSC,11,5,0.45454545454545453,0.21270957543988045,0.7199122443100118
+declinio,antes da restrição do foro,partido,INS-000087,MOBILIZA,3,3,1.0,0.43849391955098227,1.0
+declinio,antes da restrição do foro,partido,INS-000088,DEMOCRATA,1,0,0.0,0.0,0.7934567085261071
+declinio,antes da restrição do foro,partido,INS-000089,PDT,34,17,0.5,0.34069062628048985,0.6593093737195102
+declinio,antes da restrição do foro,partido,INS-000090,PT,27,10,0.37037037037037035,0.21532287067936856,0.5577109537655369
+declinio,antes da restrição do foro,partido,INS-000091,PSB,14,4,0.2857142857142857,0.11721187910109099,0.5464954117248438
+declinio,antes da restrição do foro,partido,INS-000092,PSDB,26,8,0.3076923076923077,0.16501120939792674,0.49988611514231246
+declinio,antes da restrição do foro,partido,INS-000093,PV,3,0,0.0,0.0,0.5615060804490177
+declinio,antes da restrição do foro,partido,INS-000096,PRTB,1,1,1.0,0.20654329147389294,1.0
+declinio,antes da restrição do foro,partido,INS-000098,PSOL,2,0,0.0,0.0,0.6576280471103807
+declinio,antes da restrição do foro,partido,INS-000099,PSD,17,9,0.5294117647058824,0.30962897311549487,0.738351988039119
+declinio,antes da restrição do foro,partido,sem_partido,sem_partido,14,2,0.14285714285714285,0.040093073737921175,0.39941907763863693
+declinio,todas as ações,faixa_ideologica,extrema_esquerda,extrema_esquerda,2,0,0.0,0.0,0.6576280471103807
+declinio,todas as ações,faixa_ideologica,esquerda,esquerda,30,11,0.36666666666666664,0.21873702204017678,0.5448675356639506
+declinio,todas as ações,faixa_ideologica,centro_esquerda,centro_esquerda,56,23,0.4107142857142857,0.2916657897956285,0.5412263788629634
+declinio,todas as ações,faixa_ideologica,centro,centro,5,1,0.2,0.03622316096978745,0.6244717358814613
+declinio,todas as ações,faixa_ideologica,centro_direita,centro_direita,33,12,0.36363636363636365,0.22186966167959873,0.5338412737846591
+declinio,todas as ações,faixa_ideologica,direita,direita,195,70,0.358974358974359,0.2949669589870875,0.42843096176993717
+declinio,todas as ações,faixa_ideologica,extrema_direita,extrema_direita,38,23,0.6052631578947368,0.4471758699869596,0.7440214073638108
+declinio,todas as ações,faixa_ideologica,sem_escore,sem_escore,13,1,0.07692307692307693,0.013710066379696323,0.3331453392824736
+declinio,todas as ações,faixa_ideologica,sem_partido,sem_partido,14,2,0.14285714285714285,0.040093073737921175,0.39941907763863693
+declinio,todas as ações,governo_oposicao,governo,governo,283,99,0.3498233215547703,0.2966061005617428,0.4070631022317153
+declinio,todas as ações,governo_oposicao,nenhum,nenhum,15,8,0.5333333333333333,0.3011663015105079,0.7519077474025355
+declinio,todas as ações,governo_oposicao,oposicao,oposicao,65,34,0.5230769230769231,0.40379420402276267,0.6397840974693585
+declinio,todas as ações,governo_oposicao,sem_classificacao,sem_classificacao,9,0,0.0,0.0,0.2991527535509594
+declinio,todas as ações,governo_oposicao,sem_partido,sem_partido,14,2,0.14285714285714285,0.040093073737921175,0.39941907763863693
+declinio,todas as ações,partido,INS-000059,PP,34,10,0.29411764705882354,0.16834452609931952,0.4616922588146376
+declinio,todas as ações,partido,INS-000061,AGIR,5,0,0.0,0.0,0.43449149475208104
+declinio,todas as ações,partido,INS-000062,PTB,26,6,0.23076923076923078,0.11033699683676687,0.42051925751956787
+declinio,todas as ações,partido,INS-000064,PL,13,1,0.07692307692307693,0.013710066379696323,0.3331453392824736
+declinio,todas as ações,partido,INS-000068,PL,20,10,0.5,0.2992949144298199,0.7007050855701801
+declinio,todas as ações,partido,INS-000070,DEM,38,23,0.6052631578947368,0.4471758699869596,0.7440214073638108
+declinio,todas as ações,partido,INS-000071,REPUBLICANOS,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio,todas as ações,partido,INS-000072,PODE,3,2,0.6666666666666666,0.2076549551264879,0.9385096847238394
+declinio,todas as ações,partido,INS-000075,MDB,68,19,0.27941176470588236,0.18677805007008424,0.3956365954834669
+declinio,todas as ações,partido,INS-000077,SOLIDARIEDADE,3,3,1.0,0.43849391955098227,1.0
+declinio,todas as ações,partido,INS-000078,PRP,3,3,1.0,0.43849391955098227,1.0
+declinio,todas as ações,partido,INS-000079,PCDOB,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio,todas as ações,partido,INS-000081,CIDADANIA,2,1,0.5,0.09452865480086614,0.9054713451991339
+declinio,todas as ações,partido,INS-000082,PSL,2,0,0.0,0.0,0.6576280471103807
+declinio,todas as ações,partido,INS-000084,PROS,1,1,1.0,0.20654329147389294,1.0
+declinio,todas as ações,partido,INS-000085,PSC,11,5,0.45454545454545453,0.21270957543988045,0.7199122443100118
+declinio,todas as ações,partido,INS-000087,MOBILIZA,3,3,1.0,0.43849391955098227,1.0
+declinio,todas as ações,partido,INS-000088,DEMOCRATA,1,0,0.0,0.0,0.7934567085261071
+declinio,todas as ações,partido,INS-000089,PDT,36,19,0.5277777777777778,0.3700567162693947,0.6801420709279067
+declinio,todas as ações,partido,INS-000090,PT,27,10,0.37037037037037035,0.21532287067936856,0.5577109537655369
+declinio,todas as ações,partido,INS-000091,PSB,20,4,0.2,0.0806563532712,0.41602172202575993
+declinio,todas as ações,partido,INS-000092,PSDB,26,8,0.3076923076923077,0.16501120939792674,0.49988611514231246
+declinio,todas as ações,partido,INS-000093,PV,3,0,0.0,0.0,0.5615060804490177
+declinio,todas as ações,partido,INS-000096,PRTB,1,1,1.0,0.20654329147389294,1.0
+declinio,todas as ações,partido,INS-000098,PSOL,2,0,0.0,0.0,0.6576280471103807
+declinio,todas as ações,partido,INS-000099,PSD,18,10,0.5555555555555556,0.3371606942825164,0.7544076889861088
+declinio,todas as ações,partido,sem_partido,sem_partido,14,2,0.14285714285714285,0.040093073737921175,0.39941907763863693
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,extrema_esquerda,extrema_esquerda,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,esquerda,esquerda,30,6,0.2,0.09504978102401235,0.37306047381027446
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,centro_esquerda,centro_esquerda,48,11,0.22916666666666666,0.13307691028989044,0.36539535908451154
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,centro,centro,5,0,0.0,0.0,0.43449149475208104
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,centro_direita,centro_direita,33,2,0.06060606060606061,0.016780530429070947,0.19606581717798194
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,direita,direita,188,20,0.10638297872340426,0.06992772023832766,0.15860248384670916
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,extrema_direita,extrema_direita,38,8,0.21052631578947367,0.1107466035209593,0.36346088376442165
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,sem_escore,sem_escore,13,0,0.0,0.0,0.22810184305529166
+declinio_em_mandato,antes da restrição do foro,faixa_ideologica,sem_partido,sem_partido,14,0,0.0,0.0,0.21531701192718142
+declinio_em_mandato,antes da restrição do foro,governo_oposicao,governo,governo,276,30,0.10869565217391304,0.07720529291943724,0.15092948046664972
+declinio_em_mandato,antes da restrição do foro,governo_oposicao,nenhum,nenhum,15,2,0.13333333333333333,0.0373604698913593,0.3788249920651624
+declinio_em_mandato,antes da restrição do foro,governo_oposicao,oposicao,oposicao,63,15,0.23809523809523808,0.14993653261946965,0.35635894803928175
+declinio_em_mandato,antes da restrição do foro,governo_oposicao,sem_classificacao,sem_classificacao,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,antes da restrição do foro,governo_oposicao,sem_partido,sem_partido,14,0,0.0,0.0,0.21531701192718142
+declinio_em_mandato,antes da restrição do foro,partido,INS-000059,PP,32,1,0.03125,0.005537717362550945,0.15744607800372734
+declinio_em_mandato,antes da restrição do foro,partido,INS-000061,AGIR,5,0,0.0,0.0,0.43449149475208104
+declinio_em_mandato,antes da restrição do foro,partido,INS-000062,PTB,26,0,0.0,0.0,0.12873304380462175
+declinio_em_mandato,antes da restrição do foro,partido,INS-000064,PL,13,0,0.0,0.0,0.22810184305529166
+declinio_em_mandato,antes da restrição do foro,partido,INS-000068,PL,19,2,0.10526315789473684,0.029357941395096593,0.313945504948417
+declinio_em_mandato,antes da restrição do foro,partido,INS-000070,DEM,38,8,0.21052631578947367,0.1107466035209593,0.36346088376442165
+declinio_em_mandato,antes da restrição do foro,partido,INS-000071,REPUBLICANOS,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,antes da restrição do foro,partido,INS-000072,PODE,3,2,0.6666666666666666,0.2076549551264879,0.9385096847238394
+declinio_em_mandato,antes da restrição do foro,partido,INS-000075,MDB,66,8,0.12121212121212122,0.06271770703368283,0.22137658633874846
+declinio_em_mandato,antes da restrição do foro,partido,INS-000077,SOLIDARIEDADE,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio_em_mandato,antes da restrição do foro,partido,INS-000078,PRP,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,antes da restrição do foro,partido,INS-000079,PCDOB,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,antes da restrição do foro,partido,INS-000081,CIDADANIA,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,antes da restrição do foro,partido,INS-000082,PSL,1,0,0.0,0.0,0.7934567085261071
+declinio_em_mandato,antes da restrição do foro,partido,INS-000084,PROS,1,0,0.0,0.0,0.7934567085261071
+declinio_em_mandato,antes da restrição do foro,partido,INS-000085,PSC,11,3,0.2727272727272727,0.09745880573921467,0.5656502930102463
+declinio_em_mandato,antes da restrição do foro,partido,INS-000087,MOBILIZA,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio_em_mandato,antes da restrição do foro,partido,INS-000088,DEMOCRATA,1,0,0.0,0.0,0.7934567085261071
+declinio_em_mandato,antes da restrição do foro,partido,INS-000089,PDT,34,10,0.29411764705882354,0.16834452609931952,0.4616922588146376
+declinio_em_mandato,antes da restrição do foro,partido,INS-000090,PT,27,6,0.2222222222222222,0.10607095489408958,0.4075729546307081
+declinio_em_mandato,antes da restrição do foro,partido,INS-000091,PSB,14,1,0.07142857142857142,0.012721886112291636,0.3146926955395781
+declinio_em_mandato,antes da restrição do foro,partido,INS-000092,PSDB,26,2,0.07692307692307693,0.02135463918337556,0.24141947480515052
+declinio_em_mandato,antes da restrição do foro,partido,INS-000093,PV,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,antes da restrição do foro,partido,INS-000096,PRTB,1,1,1.0,0.20654329147389294,1.0
+declinio_em_mandato,antes da restrição do foro,partido,INS-000098,PSOL,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,antes da restrição do foro,partido,INS-000099,PSD,17,1,0.058823529411764705,0.01046013064516424,0.269825452035628
+declinio_em_mandato,antes da restrição do foro,partido,sem_partido,sem_partido,14,0,0.0,0.0,0.21531701192718142
+declinio_em_mandato,todas as ações,faixa_ideologica,extrema_esquerda,extrema_esquerda,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,todas as ações,faixa_ideologica,esquerda,esquerda,30,6,0.2,0.09504978102401235,0.37306047381027446
+declinio_em_mandato,todas as ações,faixa_ideologica,centro_esquerda,centro_esquerda,56,13,0.23214285714285715,0.1409924724565329,0.35768403351924316
+declinio_em_mandato,todas as ações,faixa_ideologica,centro,centro,5,0,0.0,0.0,0.43449149475208104
+declinio_em_mandato,todas as ações,faixa_ideologica,centro_direita,centro_direita,33,2,0.06060606060606061,0.016780530429070947,0.19606581717798194
+declinio_em_mandato,todas as ações,faixa_ideologica,direita,direita,195,21,0.1076923076923077,0.07152252693654418,0.15902077989663363
+declinio_em_mandato,todas as ações,faixa_ideologica,extrema_direita,extrema_direita,38,8,0.21052631578947367,0.1107466035209593,0.36346088376442165
+declinio_em_mandato,todas as ações,faixa_ideologica,sem_escore,sem_escore,13,0,0.0,0.0,0.22810184305529166
+declinio_em_mandato,todas as ações,faixa_ideologica,sem_partido,sem_partido,14,0,0.0,0.0,0.21531701192718142
+declinio_em_mandato,todas as ações,governo_oposicao,governo,governo,283,31,0.10954063604240283,0.07825017000341492,0.15128975725957625
+declinio_em_mandato,todas as ações,governo_oposicao,nenhum,nenhum,15,2,0.13333333333333333,0.0373604698913593,0.3788249920651624
+declinio_em_mandato,todas as ações,governo_oposicao,oposicao,oposicao,65,17,0.26153846153846155,0.17018055060319132,0.3795103339782245
+declinio_em_mandato,todas as ações,governo_oposicao,sem_classificacao,sem_classificacao,9,0,0.0,0.0,0.2991527535509594
+declinio_em_mandato,todas as ações,governo_oposicao,sem_partido,sem_partido,14,0,0.0,0.0,0.21531701192718142
+declinio_em_mandato,todas as ações,partido,INS-000059,PP,34,1,0.029411764705882353,0.00521077192559663,0.1491590221634482
+declinio_em_mandato,todas as ações,partido,INS-000061,AGIR,5,0,0.0,0.0,0.43449149475208104
+declinio_em_mandato,todas as ações,partido,INS-000062,PTB,26,0,0.0,0.0,0.12873304380462175
+declinio_em_mandato,todas as ações,partido,INS-000064,PL,13,0,0.0,0.0,0.22810184305529166
+declinio_em_mandato,todas as ações,partido,INS-000068,PL,20,2,0.1,0.027865893984153206,0.30103820641179335
+declinio_em_mandato,todas as ações,partido,INS-000070,DEM,38,8,0.21052631578947367,0.1107466035209593,0.36346088376442165
+declinio_em_mandato,todas as ações,partido,INS-000071,REPUBLICANOS,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,todas as ações,partido,INS-000072,PODE,3,2,0.6666666666666666,0.2076549551264879,0.9385096847238394
+declinio_em_mandato,todas as ações,partido,INS-000075,MDB,68,8,0.11764705882352941,0.06083419938921196,0.21535118623694333
+declinio_em_mandato,todas as ações,partido,INS-000077,SOLIDARIEDADE,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio_em_mandato,todas as ações,partido,INS-000078,PRP,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,todas as ações,partido,INS-000079,PCDOB,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,todas as ações,partido,INS-000081,CIDADANIA,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,todas as ações,partido,INS-000082,PSL,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,todas as ações,partido,INS-000084,PROS,1,0,0.0,0.0,0.7934567085261071
+declinio_em_mandato,todas as ações,partido,INS-000085,PSC,11,3,0.2727272727272727,0.09745880573921467,0.5656502930102463
+declinio_em_mandato,todas as ações,partido,INS-000087,MOBILIZA,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+declinio_em_mandato,todas as ações,partido,INS-000088,DEMOCRATA,1,0,0.0,0.0,0.7934567085261071
+declinio_em_mandato,todas as ações,partido,INS-000089,PDT,36,12,0.3333333333333333,0.20214424774586046,0.49666302907033155
+declinio_em_mandato,todas as ações,partido,INS-000090,PT,27,6,0.2222222222222222,0.10607095489408958,0.4075729546307081
+declinio_em_mandato,todas as ações,partido,INS-000091,PSB,20,1,0.05,0.008881219432873136,0.23613589351256675
+declinio_em_mandato,todas as ações,partido,INS-000092,PSDB,26,2,0.07692307692307693,0.02135463918337556,0.24141947480515052
+declinio_em_mandato,todas as ações,partido,INS-000093,PV,3,0,0.0,0.0,0.5615060804490177
+declinio_em_mandato,todas as ações,partido,INS-000096,PRTB,1,1,1.0,0.20654329147389294,1.0
+declinio_em_mandato,todas as ações,partido,INS-000098,PSOL,2,0,0.0,0.0,0.6576280471103807
+declinio_em_mandato,todas as ações,partido,INS-000099,PSD,18,2,0.1111111111111111,0.031018868453582787,0.3280024486660421
+declinio_em_mandato,todas as ações,partido,sem_partido,sem_partido,14,0,0.0,0.0,0.21531701192718142

@@ -205,6 +205,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_etica()
     linhas += _linhas_eixo1_registros()
     linhas += _linhas_stf_desfechos()
+    linhas += _linhas_eixo3()
     linhas += _linhas_stf_composicao()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
@@ -734,6 +735,34 @@ def _linhas_stf_desfechos() -> list[str]:
         "(homônimos ou o mesmo nome civil de outro parlamentar) e foram corrigidas na versão 4 das verificações; as versões 1 a 3 permanecem no histórico com as ligações antigas.",
         f"- Condenados entre julgados no mérito, por partido: sem diferença distinguível (p = {ph['p_valor']:.2f}, {int(ph['grupos'])} partidos com 5 ou mais julgados) nem entre governo e oposição (p = {pg['p_valor']:.2f}). "
         "O número de julgados é pequeno (dezenas por grupo); a ausência de diferença mede o que os dados não distinguem, não igualdade.",
+        "",
+    ]
+
+
+def _linhas_eixo3() -> list[str]:
+    """Eixo 3, primeira parte (D-067): relator x presidente que indicou; uso do foro."""
+    tab = RAIZ / "relatorios" / "tabelas"
+    if not (tab / "eixo3_cobertura.csv").exists():
+        return []
+    cob = pd.read_csv(tab / "eixo3_cobertura.csv").iloc[0]
+    t2 = pd.read_csv(tab / "eixo3_relator_2x2.csv").set_index("recorte")
+    te = pd.read_csv(tab / "eixo3_foro_testes.csv")
+    gp = pd.read_csv(tab / "eixo3_foro_governo_periodo.csv")
+    gp = gp[(gp["medida"] == "declinio") & gp["p_fisher"].notna()]
+    tot, pt = t2.loc["total"], t2.loc["réu do PT"]
+    g = te[(te["medida"] == "declinio") & (te["recorte"] == "todas as ações")].set_index("teste")
+    maior = int((gp["taxa_oposicao"] > gp["taxa_governo"]).sum())
+    return [
+        "### Eixo 3: relator x presidente que indicou e uso do foro (D-067)", "",
+        "- Fora do escopo por falta de dado: nomeação para cargo com foro durante status de investigado ou denunciado (a base não tem cargos de ministro de Estado) e decisão monocrática de alto impacto "
+        "(a exportação do Corte Aberta em mãos cobre só ação penal, inquérito e petição penal; faltam ADI, ADPF, mandado de segurança e demais classes). A tabela `decisoes_judiciais` segue vazia.",
+        f"- Relator x indicação: {int(cob['julgados_resolvidos'])} julgamentos de parlamentares no mérito com ministro resolvido. A coluna \"Relator atual\" do Corte Aberta traz o relator de hoje (redistribuição); usa-se o ministro da decisão. "
+        f"Condenados: {tot['taxa_indicados_pt']:.0%} dos julgados por ministros indicados por presidente do PT ({int(tot['julgados_indicados_pt'])}) contra {tot['taxa_outros']:.0%} dos indicados por outros ({int(tot['julgados_outros'])}); p de Fisher = {tot['p_fisher']:.2f}. "
+        f"Entre réus do PT, só {int(pt['julgados_indicados_pt'] + pt['julgados_outros'])} julgamentos: a conclusão é que o n não permite distinguir, não que não haja diferença.",
+        "- O relator vem de distribuição por sorteio e o julgamento é colegiado; o partido de quem indicou não mede a orientação do ministro. O ministro que figura na decisão pode ser relator ou redator do acórdão.",
+        f"- Uso do foro: {int(cob['acoes_x_reu_no_foro'])} pares ação x réu parlamentar com vínculo confirmado; {int(cob['com_declinio'])} com decisão de declínio de competência, {int(cob['declinio_com_reu_em_mandato'])} com o réu ainda em mandato na data. "
+        f"O declínio difere entre partidos (p = {g.loc['homogeneidade entre partidos', 'p_valor']:.3f}) e entre governo e oposição (p = {g.loc['governo x oposição (Fisher)', 'p_valor']:.3f}), com taxa maior na oposição em {maior} dos {len(gp)} períodos presidenciais com os dois grupos; "
+        "nenhum período isolado tem diferença significativa, e não há correção para comparações múltiplas. A medida não distingue o motivo do declínio (fim de mandato, restrição do foro de 2018, desmembramento) e só alcança ações penais; inquéritos não têm lista de réus lida.",
         "",
     ]
 

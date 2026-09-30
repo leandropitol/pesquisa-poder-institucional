@@ -1,0 +1,16 @@
+grupo_tipo,grupo,indicado_por,n_julgados,condenados,taxa,ic95_inf,ic95_sup
+ministro,Alexandre de Moraes,Michel Temer,5,3,0.6,0.23071993220883708,0.8823817688407467
+ministro,Ayres Britto,Luiz Inácio Lula da Silva,3,2,0.6666666666666666,0.2076549551264879,0.9385096847238394
+ministro,Celso de Mello,José Sarney,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121
+ministro,Cármen Lúcia,Luiz Inácio Lula da Silva,6,2,0.3333333333333333,0.09676933255921683,0.7000116786584712
+ministro,Dias Toffoli,Luiz Inácio Lula da Silva,9,2,0.2222222222222222,0.06322376231222723,0.5474166563271946
+ministro,Edson Fachin,Dilma Rousseff,9,6,0.6666666666666666,0.35419734749908977,0.879418401317257
+ministro,Ellen Gracie,Fernando Henrique Cardoso,2,0,0.0,0.0,0.6576280471103807
+ministro,Gilmar Mendes,Fernando Henrique Cardoso,11,4,0.36363636363636365,0.15166223614131383,0.6462032231083628
+ministro,Joaquim Barbosa,Luiz Inácio Lula da Silva,2,2,1.0,0.34237195288961925,1.0
+ministro,Luiz Fux,Dilma Rousseff,12,3,0.25,0.08894003962896138,0.53231033912066
+ministro,Luís Roberto Barroso,Dilma Rousseff,9,1,0.1111111111111111,0.019890371327130535,0.4350062147680601
+ministro,Marco Aurélio,Fernando Affonso Collor de Mello,7,2,0.2857142857142857,0.0822171657090155,0.6410709098517873
+ministro,Ricardo Lewandowski,Luiz Inácio Lula da Silva,3,0,0.0,0.0,0.5615060804490177
+ministro,Rosa Weber,Dilma Rousseff,6,1,0.16666666666666666,0.03005258587173032,0.563509436563646
+ministro,Teori Zavascki,Dilma Rousseff,6,0,0.0,0.0,0.3903430336530645

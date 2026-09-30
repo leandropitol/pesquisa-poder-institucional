@@ -1,0 +1,13 @@
+medida,recorte,teste,grupos,n,estatistica,p_valor
+declinio,todas as ações,homogeneidade entre partidos,12,337,30.380387633522094,0.0012499375031248437
+declinio,todas as ações,governo x oposição (Fisher),2,348,,0.01100940047404267
+declinio,todas as ações,Spearman com escore ideológico,11,324,0.36363636363636365,0.2736863156842158
+declinio_em_mandato,todas as ações,homogeneidade entre partidos,12,337,29.589134261903286,0.0025498725063746812
+declinio_em_mandato,todas as ações,governo x oposição (Fisher),2,348,,0.002585939518030893
+declinio_em_mandato,todas as ações,Spearman com escore ideológico,11,324,-0.06363636363636364,0.8657067146642667
+declinio,antes da restrição do foro,homogeneidade entre partidos,12,323,27.193974926496214,0.0035498225088745564
+declinio,antes da restrição do foro,governo x oposição (Fisher),2,339,,0.021287606357485084
+declinio,antes da restrição do foro,Spearman com escore ideológico,11,310,0.33636363636363636,0.3168341582920854
+declinio_em_mandato,antes da restrição do foro,homogeneidade entre partidos,12,323,24.850610697943242,0.010599470026498675
+declinio_em_mandato,antes da restrição do foro,governo x oposição (Fisher),2,339,,0.012020091671315689
+declinio_em_mandato,antes da restrição do foro,Spearman com escore ideológico,11,310,-0.06363636363636364,0.8545572721363932
