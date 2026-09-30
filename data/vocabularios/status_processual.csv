@@ -16,4 +16,7 @@ processo_anulado,processo anulado,{data}: o processo {processo} foi anulado em r
 colaborador,colaborador,{data}: {ator} firmou colaboração premiada homologada em {processo}.
 candidatura_indeferida,candidatura indeferida ou cassada,{data}: a candidatura de {ator} foi indeferida ou cassada pela Justiça Eleitoral em {processo}{tipificacao}.
 contas_julgadas_irregulares,contas julgadas irregulares,{data}: transitou em julgado o julgamento das contas de {ator} como irregulares em {processo}.
+representado,representado,{data}: {ator} passou a ser representado em {processo} por quebra de decoro parlamentar.
+representacao_improcedente,representação improcedente,{data}: a representação contra {ator} em {processo} foi julgada improcedente ou o parecer pela perda do mandato foi rejeitado pelo plenário.
+sancao_disciplinar,sanção disciplinar,{data}: foi aprovada sanção disciplinar contra {ator} em {processo}{tipificacao}.
 mandato_cassado,mandato cassado,{data}: o mandato de {ator} foi cassado em {processo}.

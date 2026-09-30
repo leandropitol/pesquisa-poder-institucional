@@ -9,3 +9,5 @@ data_acesso,arquivo,url_base,n_requisicoes,bytes,sha256
 2026-09-29-b,data/raw/etica/2026-09-29-b/camara_rep_lista.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=REP&dataApresentacaoInicio=2003-01-01,4,159580,58ffc6d20ec7b5251a6bb747fde9d141be0e6954234ef4955d66267e80b51590
 2026-09-29-b,data/raw/etica/2026-09-29-b/camara_rep_detalhe.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id},385,752922,1af137e471c4d7d1e7a054c40c1b7fcf52dff931a087df23484d7848e2a4efc2
 2026-09-29-b,data/raw/etica/2026-09-29-b/camara_rep_tramitacoes.jsonl,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id}/tramitacoes,385,4473166,d4437eaebaa92ebf9bed93c8f00eef898e7ba10887a7ed7729e04c1c91a4b18a
+2026-09-29-c,data/raw/etica/2026-09-29-c/senado_prs_lista.jsonl,https://legis.senado.leg.br/dadosabertos/processo?sigla=PRS&numero={numero}&ano={ano},4,3407,613f3a91b123e28a78772c34cb28cf8776655bd09fe73fb929645e6b83ae9698
+2026-09-29-c,data/raw/etica/2026-09-29-c/senado_prs_detalhe.jsonl,https://legis.senado.leg.br/dadosabertos/processo/{id},4,57459,c3e90c2368040aa320c367ccfe19591310280ce74b0049c18962a4305e144586

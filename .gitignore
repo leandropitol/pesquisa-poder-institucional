@@ -18,3 +18,5 @@ __pycache__/
 !data/raw/stf_ministros/
 !data/raw/imprensa/
 !data/raw/ideologia/
+# coletas em APIs vivas (tramitações mudam com o tempo): a fotografia de 2026-09-29 fica versionada
+!data/raw/etica/

@@ -288,3 +288,6 @@ FNT-000300,INS-001525,Detalhamento de indicações presidenciais (portal do STF)
 FNT-000301,INS-001525,Página Dados e Datas (Biblioteca do STF),2026-07-31,https://portal.stf.jus.br/textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=AndreMendoncaDadosDatas
 FNT-000302,INS-001525,Detalhamento de indicações presidenciais (portal do STF),2026-09-29,https://portal.stf.jus.br/ostf/ministros/detalhamentos.asp?detalhamento=INDICACOES&entidade=81
 FNT-000303,INS-001525,Página Dados e Datas (Biblioteca do STF),2026-05-12,https://portal.stf.jus.br/textos/verTexto.asp?servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro&pagina=NunesMarquesDadosDatas
+FNT-000306,INS-000001,Tramitação de proposição,2026-09-29,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id}/tramitacoes
+FNT-000307,INS-000002,Processo legislativo,2026-09-29,https://legis.senado.leg.br/dadosabertos/processo/{id}
+FNT-000308,INS-000002,Processo legislativo,2026-09-29,https://legis.senado.leg.br/dadosabertos/processo/{id}

@@ -202,6 +202,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_imprensa()
     linhas += _linhas_eixo1_universos()
     linhas += _linhas_ideologia()
+    linhas += _linhas_etica()
     linhas += _linhas_stf_composicao()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
@@ -630,6 +631,42 @@ def _linhas_imprensa_navegador() -> list[str]:
         f"em {int(est['com_materia'])} de {int(est['buscas_com_acesso'])} fatos pela regra e em {int(est['com_materia_incluindo_blogs'])} incluindo blogs.",
         "- O Google às vezes mostra um título diferente do título da página (reescrita do buscador). A unidade continua sendo o título "
         "devolvido; quando o corte do buscador escondia o desfecho, valeu o título completo lido no navegador.",
+        "",
+    ]
+
+
+def _linhas_etica() -> list[str]:
+    """Conselhos de Ética (D-063)."""
+    tab = RAIZ / "relatorios" / "tabelas"
+    if not (tab / "etica_desfechos.csv").exists():
+        return []
+    d = pd.read_csv(tab / "etica_desfechos.csv")
+    nl = pd.read_csv(tab / "etica_nao_ligados.csv")
+    h = pd.read_csv(tab / "etica_homogeneidade.csv")
+    c = pd.read_csv(tab / "etica_correlacao.csv")
+    g = pd.read_csv(tab / "etica_governo_periodo.csv")
+    g = g[(g["medida"] == "representado") & (g["periodo"] != "Todo o período")]
+    sinal = g.assign(dir=lambda x: (x["taxa_governo"] > x["taxa_oposicao"]).map({True: "governo", False: "oposição"}))
+    sig = sinal[sinal["p_fisher"] < 0.05]
+    h1 = h[(h["medida"] == "representado") & h["recorte"].str.startswith("2007")]
+    tx = pd.read_csv(tab / "etica_taxas.csv")
+    ps = tx[(tx["medida"] == "representado") & (tx["recorte"] == "2003-2026") & (tx["grupo_tipo"] == "partido") & (tx["sigla"] == "PSOL")].iloc[0]
+    psol = f"PSOL ({ps['com_registro']} de {ps['n_unidades']} parlamentares-legislatura)"
+    return [
+        "### Conselhos de Ética (D-063)", "",
+        f"- {len(d)} vínculos entre representação e parlamentar ({d['casa'].value_counts().get('CD', 0)} na Câmara, {d['casa'].value_counts().get('SF', 0)} no Senado); "
+        f"{int(d['status_final'].isna().sum())} sem desfecho nos campos estruturados das fontes (não é o mesmo que \"em andamento\": só se registra o que a fonte diz); "
+        f"{len(nl)} representações não ligadas a parlamentar da base (listadas em `etica_nao_ligados.csv`; um caso é de parlamentar ausente da lista oficial de deputados por legislatura).",
+        f"- Vínculo por nome: {int((d['ligacao'] == 'subsequencia').sum())} casos por subsequência de palavras e {int((d['ligacao'] == 'curadoria').sum())} por curadoria; os demais, pelo nome parlamentar na ementa. Nomes ambíguos não são resolvidos por palpite.",
+        "- Sanção aprovada no Conselho de Ética e depois modificada ou não votada no Plenário pode constar como sanção: o critério é a aprovação registrada nos despachos; casos assim ficam sujeitos a revisão pelo texto da ata.",
+        "- `representado` mede ser alvo de representação, não mérito; representações são apresentadas por partidos, Mesa e cidadãos, e o uso do instrumento varia com o alinhamento político do momento. "
+        f"O desfecho adverso (cassação ou sanção) é raro ({int(d['status_final'].isin(['mandato_cassado', 'sancao_disciplinar']).sum())} vínculos), e as taxas por partido são imprecisas.",
+        f"- Heterogeneidade: as taxas de representação diferem entre partidos mesmo sem a 52ª legislatura (p {'< 0,001' if h1['p_valor'].iloc[0] < 0.001 else '= ' + format(h1['p_valor'].iloc[0], '.3f')}); dois partidos concentram: {psol}, e, em 2003-2007, o antigo PL. "
+        "Não há correlação com a posição ideológica (menor |ρ| entre os recortes: "
+        f"{c['spearman'].abs().min():.2f}; maior: {c['spearman'].abs().max():.2f}; nenhum p abaixo de 0,05: {int((c['p_permutacao'] < 0.05).sum())} de {len(c)}).",
+        f"- Governo x oposição: {len(sig)} de {len(g)} períodos presidenciais têm diferença significativa na taxa de representação (Fisher), com sentido diferente entre períodos "
+        f"({', '.join(f'{r.periodo}: maior em {r.dir}' for r in sig.itertuples())}); no período inteiro não há diferença. "
+        "Sem correção para comparações múltiplas; o sentido da diferença varia, o que não indica padrão estável.",
         "",
     ]
 

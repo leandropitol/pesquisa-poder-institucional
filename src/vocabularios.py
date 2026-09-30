@@ -68,7 +68,8 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("adi", "Ação direta de inconstitucionalidade"), ("adpf", "Arguição de descumprimento de preceito fundamental"),
         ("adc", "Ação declaratória de constitucionalidade"), ("mandado_seguranca", "Mandado de segurança"),
         ("reclamacao", "Reclamação"), ("recurso_extraordinario", "Recurso extraordinário"), ("recurso_especial", "Recurso especial"),
-        ("acao_civil_publica", "Ação civil pública"), ("acao_improbidade", "Ação de improbidade administrativa"), ("outra", "Outra"),
+        ("acao_civil_publica", "Ação civil pública"), ("acao_improbidade", "Ação de improbidade administrativa"),
+        ("representacao_etica", "Representação por quebra de decoro parlamentar (Conselho de Ética)"), ("outra", "Outra"),
     ),
     "fase_processual": _v(
         ("instauracao_inquerito", "Instauração de inquérito"), ("arquivamento_inquerito", "Arquivamento de inquérito"),
@@ -100,6 +101,9 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("colaborador", "colaborador", {"modelo_frase": "{data}: {ator} firmou colaboração premiada homologada em {processo}."}),
         ("candidatura_indeferida", "candidatura indeferida ou cassada", {"modelo_frase": "{data}: a candidatura de {ator} foi indeferida ou cassada pela Justiça Eleitoral em {processo}{tipificacao}."}),
         ("contas_julgadas_irregulares", "contas julgadas irregulares", {"modelo_frase": "{data}: transitou em julgado o julgamento das contas de {ator} como irregulares em {processo}."}),
+        ("representado", "representado", {"modelo_frase": "{data}: {ator} passou a ser representado em {processo} por quebra de decoro parlamentar."}),
+        ("representacao_improcedente", "representação improcedente", {"modelo_frase": "{data}: a representação contra {ator} em {processo} foi julgada improcedente ou o parecer pela perda do mandato foi rejeitado pelo plenário."}),
+        ("sancao_disciplinar", "sanção disciplinar", {"modelo_frase": "{data}: foi aprovada sanção disciplinar contra {ator} em {processo}{tipificacao}."}),
         ("mandato_cassado", "mandato cassado", {"modelo_frase": "{data}: o mandato de {ator} foi cassado em {processo}."}),
     ),
     "tipo_evento": _v(

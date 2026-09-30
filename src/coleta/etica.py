@@ -13,8 +13,11 @@ Uso:
 
 import argparse
 import datetime as dt
+import json
+import re
+from pathlib import Path
 
-from src.base import RegistroIds
+from src.base import RAIZ, RegistroIds
 from src.coleta.comum import Cliente, Execucao, registrar_busca
 
 SENADO = "https://legis.senado.leg.br/dadosabertos"
@@ -66,7 +69,45 @@ def coletar(data: str | None = None) -> None:
     print(contagem)
 
 
+def referencias_prs(pasta: Path) -> list[tuple[str, str, str]]:
+    """(identificação do processo de ética, número, ano) dos Projetos de Resolução do Senado (PRS) gerados por representações.
+
+    Só entram os processos que o próprio Senado marca como transformados em PRS (deliberação TRANSF_PROJ_RES_SEN); o
+    número vem do texto do parecer, e o PRS é o de ano igual ou posterior ao da representação."""
+    saida = []
+    for linha in (pasta / "senado_rep_detalhe.jsonl").open(encoding="utf-8"):
+        d = json.loads(linha)["corpo"]
+        if (d.get("deliberacao") or {}).get("siglaTipo") != "TRANSF_PROJ_RES_SEN":
+            continue
+        texto = " ".join((i.get("descricao") or i.get("texto") or "") for i in d["autuacoes"][0].get("informesLegislativos") or [])
+        achados = {(n, a) for n, a in re.findall(r"Projeto de Resolu[çc][ãa]o(?: do Senado)?(?: n[º°o.]*)?\s*(\d+)[, ]+de\s+(\d{4})", texto, re.I)
+                   if int(a) >= int(d["ano"])}
+        saida += [(d["identificacao"], n, a) for n, a in sorted(achados)]
+    return saida
+
+
+def coletar_prs(pasta_origem: str, data: str | None = None) -> None:
+    """Projetos de Resolução do Senado gerados por representações (resultado no plenário), da coleta em `pasta_origem`."""
+    cliente, execucao, ids = Cliente(), Execucao("etica", data), RegistroIds()
+    refs = referencias_prs(RAIZ / "data" / "raw" / "etica" / pasta_origem)
+    for origem, numero, ano in refs:
+        r = cliente.get(f"{SENADO}/processo", params={"sigla": "PRS", "numero": numero, "ano": ano})
+        corpo = execucao.gravar("senado_prs_lista.jsonl", f"{SENADO}/processo?sigla=PRS&numero={{numero}}&ano={{ano}}", r,
+                                {"origem": origem, "numero": numero, "ano": ano})
+        r.raise_for_status()
+        for p in corpo or []:
+            r2 = cliente.get(f"{SENADO}/processo/{p['id']}")
+            execucao.gravar("senado_prs_detalhe.jsonl", f"{SENADO}/processo/{{id}}", r2, {"origem": origem, "id": p["id"]})
+    manifesto = {m["arquivo"].rsplit("/", 1)[1]: m for m in execucao.fechar()}
+    registrar_busca("Senado, dados abertos", f"PRS gerados por representações do Conselho de Ética (coleta {execucao.data})", len(refs), SCRIPT,
+                    execucao.data[:10], {"origem": pasta_origem}, manifesto["senado_prs_lista.jsonl"], ids)
+    ids.salvar()
+    print(refs)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--data")
-    coletar(ap.parse_args().data)
+    ap.add_argument("--prs-de", help="pasta da coleta de representações de onde tirar os PRS")
+    a = ap.parse_args()
+    coletar_prs(a.prs_de, a.data) if a.prs_de else coletar(a.data)

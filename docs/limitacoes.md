@@ -62,24 +62,24 @@ Gerada por `python -m src.relatorios.limitacoes`. Não editar à mão.
 | `atores` | 2861 |
 | `filiacoes` | 6553 |
 | `cargos` | 4657 |
-| `instituicoes` | 1487 |
+| `instituicoes` | 1489 |
 | `denominacoes_partido` | 67 |
 | `casos` | 4 |
-| `processos` | 10077 |
-| `fases_processo` | 6639 |
-| `status_pessoa_processo` | 88 |
+| `processos` | 10522 |
+| `fases_processo` | 7270 |
+| `status_pessoa_processo` | 893 |
 | `eventos` | 2298 |
 | `relacoes` | 2459 |
-| `fontes` | 305 |
+| `fontes` | 308 |
 | `fonte_judicial` | 11 |
 | `fonte_legislativa` | 1 |
-| `fonte_oficial` | 289 |
+| `fonte_oficial` | 292 |
 | `fonte_base_dados` | 4 |
 | `evento_fonte` | 2298 |
 | `relacao_fonte` | 2509 |
-| `buscas` | 797 |
-| `verificacoes_simetria` | 94 |
-| `verificacao_resultado` | 2017 |
+| `buscas` | 823 |
+| `verificacoes_simetria` | 107 |
+| `verificacao_resultado` | 2291 |
 | `universo_partidos` | 521 |
 | `posicao_ideologica` | 35 |
 | `qualidade_democratica` | 16651 |
@@ -93,9 +93,10 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Buscas
 
-- 797 buscas registradas; 204 com zero resultados.
+- 823 buscas registradas; 229 com zero resultados.
 - BNDES, dados abertos (CKAN): 7 buscas, coleta de 2026-09-24.
 - Base do projeto (relações 'indicou' da D-058): 33 buscas, coleta de 2026-09-29.
+- Base do projeto (status_pessoa_processo): 25 buscas, coleta de 2026-09-29.
 - Buscador web do ChatGPT (site:), relatado pelo agente: 60 buscas, coleta de 2026-09-29.
 - ComexStat (MDIC), API pública e tabelas auxiliares: 3 buscas, coleta de 2026-09-28.
 - Câmara dos Deputados, dados abertos: 2 buscas, coleta de 2026-09-29.
@@ -128,7 +129,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - STF, portal (aba Partes) e Corte Aberta (decisões): 74 buscas, coleta de 2026-09-28.
 - STF, portal (aba Partes) e Corte Aberta (decisões); Câmara, orientações de bancada (D-050/D-051): 4 buscas, coleta de 2026-09-28.
 - SciELO (Dados, revista de ciências sociais): 2 buscas, coleta de 2026-09-29.
-- Senado, dados abertos: 12 buscas, coleta de 2026-09-29.
+- Senado, dados abertos: 13 buscas, coleta de 2026-09-29.
 - TCU, Plataforma de Certidões (API pública): 4 buscas, coleta de 2026-09-29.
 - TSE, portal de dados abertos (download feito pelo autor no navegador, D-042): 34 buscas, coleta de 2026-09-25.
 - TSE, página de partidos registrados (leitura no navegador, D-015): 1 buscas, coleta de 2026-09-24.
@@ -241,7 +242,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Casos-teste (etapa E9)
 
-- Casos: Ação Penal 470 (caso conhecido como Mensalão), Ação Penal 536 (caso conhecido como Mensalão mineiro), Operação Lava Jato: ação do triplex (5046512-94.2016.4.04.7000) e anulações no STF (HC 193726, HC 164493, Rcl 43007), Banco Master: apurações no STF (Inq 5026 e processos distribuídos por prevenção). Status formais registrados: 88 (reu: 40; condenado_tribunal_superior: 18; absolvido: 10; condenado_1a_instancia: 10; investigado: 4; condenado_2a_instancia: 3; condenacao_anulada: 2; processo_anulado: 1), com fonte judicial ou oficial (STF, STJ, TRF4, TJMG; D-046).
+- Casos: Ação Penal 470 (caso conhecido como Mensalão), Ação Penal 536 (caso conhecido como Mensalão mineiro), Operação Lava Jato: ação do triplex (5046512-94.2016.4.04.7000) e anulações no STF (HC 193726, HC 164493, Rcl 43007), Banco Master: apurações no STF (Inq 5026 e processos distribuídos por prevenção). Status formais registrados: 893 (representado: 481; arquivado: 297; reu: 40; condenado_tribunal_superior: 18; representacao_improcedente: 14; absolvido: 10; condenado_1a_instancia: 10; mandato_cassado: 8; sancao_disciplinar: 5; investigado: 4; condenado_2a_instancia: 3; condenacao_anulada: 2; processo_anulado: 1), com fonte judicial ou oficial (STF, STJ, TRF4, TJMG; D-046).
 - Lava Jato (D-052): os processos-âncora ficam fora do universo coletado (primeira instância federal não foi coletada; HC e Rcl não entram na E5) e entram pela E9. Carregados: a ação do triplex (5046512-94.2016.4.04.7000), com os status de Luiz Inácio Lula da Silva de condenação (primeira e segunda instâncias e STJ) seguidos da condenação anulada (HC 193726, 08/03/2021) e do processo anulado (HC 164493, 23/03/2021); a ação do sítio de Atibaia com a condenação em primeira instância (fevereiro de 2019, dia não informado), a confirmação no TRF4 (27/11/2019) e a condenação anulada (08/03/2021); as duas ações do Instituto Lula só com a anulação e a remessa à Justiça Federal do DF (sem sentença lida); a ação 5026212-82.2014.4.04.7000 (Refinaria Abreu e Lima) com oito condenados e dois absolvidos em 22/04/2015 (réus sem mandato na base); a Rcl 43007 com a decisão de 06/09/2023 sobre as provas da Odebrecht. O desfecho na Justiça Federal do DF depois de abril de 2021 não foi localizado. Fontes: notícias oficiais do TRF4, da JFPR, do STJ e do STF. A consulta processual não pôde ser usada: em 29/09/2026 o eproc da JFPR e o do TRF4 exibiam "A consulta pública está desativada.", a consulta unificada do TRF4 pedia CAPTCHA (não resolvido) e o PJe público do TRF1 contava resultados sem exibi-los (relatório no bruto). Ficaram sem leitura as ações 5083401-18.2014 e 5083258-29.2014 e o inquérito 5049557-14.2013. A data do julgamento do Plenário de 15/04/2021 diverge no próprio texto da notícia ("quinta-feira (14)").
 - A anulação de provas da Rcl 43007 foi estendida a pessoas de partidos diferentes (Paulo Bernardo, 19/06/2023; Sérgio Cabral e Gilberto Kassab, 02/08/2023; fontes registradas); as ações penais dessas pessoas não foram carregadas. A Lava Jato que correu no próprio STF está no universo da E5 (por exemplo, AP 996 e AP 1003) e entrou na verificação de simetria.
 - Banco Master (D-052): Inq 5026 e processos distribuídos por prevenção estão no universo do STF, com assunto processual ("revisar" no eixo 1); no Inq 5026 os investigados não aparecem na aba Partes. Entraram como investigados os quatro nomes da decisão de 04/03/2026 que decretou prisões preventivas (pessoas sem cargo público na base). A decisão de 03/04/2026 sobre Ibaneis Rocha Barros Júnior trata da condição de investigado atribuída pela CPI do Crime Organizado e não informa inclusão no inquérito do STF: entrou como fase do processo, não como status. Decisões sigilosas e petições sem partes não foram lidas.
@@ -255,7 +256,7 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 
 ### Verificação de simetria dos status da E9
 
-- 94 verificações, 2017 resultados por grupo (nao_verificado: 714; sem_evidencia: 675; encontrado: 628).
+- 107 verificações, 2291 resultados por grupo (sem_evidencia: 845; encontrado: 732; nao_verificado: 714).
 - Universo lido: lotes 1, 2, 3, 4, 5, 6, 7 de D-048 (660 de 660 ações penais do STF, fora 8 de janeiro; o lote 1 reúne as 99 julgadas no mérito); os réus vêm da aba Partes lida no navegador. Linhas que não são nome de pessoa (órgão do Ministério Público no campo de réu, "OS MESMOS"), empresas (LTDA, ME, EPP), entes públicos (município) e nomes só com iniciais ficam fora. Ação sem réu rotulado (queixa-crime, com querelante e querelado) não entra na lista de réus. Com todos os lotes lidos, os status de réu têm verificação própria (padrão de réu, abaixo).
 - Padrão de condenação: contam só ações com assunto do eixo 1 pela regra da E5 e com condenação de ao menos um réu (Procedente ou Procedente em parte), partido na data do primeiro julgamento de mérito. Padrão de réu: todas as ações do eixo 1 em que o parlamentar é réu, partido na data de autuação da ação; ação penal no STF não mostra quando cada pessoa passou a réu. O status de denunciado não tem padrão lido (denúncia oferecida fica no inquérito, fora da lista de ações penais). O resultado por réu não foi lido: em ação com mais de um réu, o parlamentar pode ter sido absolvido. Ações com assunto classificado como crime contra o sistema financeiro, falsidade ou crime eleitoral ficam fora ou em "revisar", conforme a regra da E5; partido só com ações em "revisar" fica `nao_verificado`, com a lista das ações.
 - Ligação réu -> parlamentar pelo nome e pelo mandato no período da ação. A Câmara só publica o nome civil em arquivos que também trazem CPF, que o projeto não guarda (D-011); por isso a ligação usa o nome parlamentar, com decisões manuais e motivo em `data/curadoria/simetria_stf_ap_ligacoes.csv`. Ligação que se apoia só no prenome, ou no prenome e num nome do meio, entra como `aceita_a_conferir` quando nenhum outro parlamentar da base tem esse nome; prenome compartilhado é rejeitado; nome comum em ação com muitos réus fica `pendente`.
@@ -302,6 +303,15 @@ Tabelas ainda vazias (5): `afirmacoes`, `fonte_orcamentaria`, `fonte_jornalistic
 - Escala: Bolognesi, Ribeiro e Codato (2023), survey de 2018 com cientistas políticos; 35 partidos com escore. O mesmo escore vale para 2003-2026: partidos que mudaram de posição no período ficam com a posição de 2018. Partidos criados por fusão depois de 2018 (União, PRD) ficam sem escore.
 - Nenhuma das 10 correlações entre escore e taxa por partido tem p abaixo de 0,05 (menor p: 0.057). A faixa "direita" reúne 16 partidos, entre eles MDB, PSDB e PSD, pelos cortes do artigo; a comparação entre faixas é mais informativa que o rótulo de cada uma.
 - Partidos de extrema-esquerda têm poucos eleitos e poucos candidatos que foram gestores: taxa perto de zero reflete também exposição.
+
+### Conselhos de Ética (D-063)
+
+- 481 vínculos entre representação e parlamentar (301 na Câmara, 180 no Senado); 157 sem desfecho nos campos estruturados das fontes (não é o mesmo que "em andamento": só se registra o que a fonte diz); 9 representações não ligadas a parlamentar da base (listadas em `etica_nao_ligados.csv`; um caso é de parlamentar ausente da lista oficial de deputados por legislatura).
+- Vínculo por nome: 12 casos por subsequência de palavras e 18 por curadoria; os demais, pelo nome parlamentar na ementa. Nomes ambíguos não são resolvidos por palpite.
+- Sanção aprovada no Conselho de Ética e depois modificada ou não votada no Plenário pode constar como sanção: o critério é a aprovação registrada nos despachos; casos assim ficam sujeitos a revisão pelo texto da ata.
+- `representado` mede ser alvo de representação, não mérito; representações são apresentadas por partidos, Mesa e cidadãos, e o uso do instrumento varia com o alinhamento político do momento. O desfecho adverso (cassação ou sanção) é raro (13 vínculos), e as taxas por partido são imprecisas.
+- Heterogeneidade: as taxas de representação diferem entre partidos mesmo sem a 52ª legislatura (p < 0,001); dois partidos concentram: PSOL (20 de 42 parlamentares-legislatura), e, em 2003-2007, o antigo PL. Não há correlação com a posição ideológica (menor |ρ| entre os recortes: 0.02; maior: 0.15; nenhum p abaixo de 0,05: 0 de 6).
+- Governo x oposição: 3 de 5 períodos presidenciais têm diferença significativa na taxa de representação (Fisher), com sentido diferente entre períodos (Lula 1 e 2: maior em governo, Temer (e Dilma até 11/05/2016): maior em oposição, Lula 3: maior em oposição); no período inteiro não há diferença. Sem correção para comparações múltiplas; o sentido da diferença varia, o que não indica padrão estável.
 
 ### Composição do STF (D-058)
 
