@@ -103,7 +103,7 @@ TABELAS: list[Tabela] = [
         C("classe", "vocab", True, vocab="classe_processual"),
         C("id_tribunal", "ref", True, fk="instituicoes.id_instituicao"),
         C("id_relator_atual", "ref", False, fk="atores.id_ator"),
-        C("data_autuacao", "data", True),
+        C("data_autuacao", "data", False, "Vazia quando a fonte não informa (registros de candidatura do TSE e processos de contas do TCU, D-064)"),
         C("id_caso", "ref", False, fk="casos.id_caso"),
         C("assuntos_tpu", "texto", False, "Assuntos da Tabela Processual Unificada do CNJ, 'código:nome' separados por ';'; no STF, o assunto do Corte Aberta com prefixo 'STF:'"),
         C("sigilo", "bool", False, "Vazio quando a fonte não informa"), C("url", "url", True), FONTE,

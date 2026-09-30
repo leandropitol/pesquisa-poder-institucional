@@ -291,3 +291,6 @@ FNT-000303,INS-001525,Página Dados e Datas (Biblioteca do STF),2026-05-12,https
 FNT-000306,INS-000001,Tramitação de proposição,2026-09-29,https://dadosabertos.camara.leg.br/api/v2/proposicoes/{id}/tramitacoes
 FNT-000307,INS-000002,Processo legislativo,2026-09-29,https://legis.senado.leg.br/dadosabertos/processo/{id}
 FNT-000308,INS-000002,Processo legislativo,2026-09-29,https://legis.senado.leg.br/dadosabertos/processo/{id}
+FNT-000309,INS-001544,Lista pública de responsáveis com contas julgadas irregulares,2026-09-29,https://certidoes.apps.tcu.gov.br/api/publico/responsaveis-contas-irregulares/exportar-para-csv?paginaAtual=1&tamanhoPagina=50000
+FNT-000310,INS-000056,Conjunto de dados abertos (ZIP),2026-09-25,https://dadosabertos.tse.jus.br/
+FNT-000311,INS-000056,Conjunto de dados abertos (ZIP),2026-09-25,https://dadosabertos.tse.jus.br/

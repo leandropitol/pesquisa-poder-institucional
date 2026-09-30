@@ -70,7 +70,7 @@ def unidades_trecho(ev: dict, gov: pd.DataFrame) -> pd.DataFrame:
             if r.data_inicio <= fim and fim_c >= ini:
                 d = max(r.data_inicio, ini)
                 p = partido_em(fil, r.id_ator, d)
-                linha = {"id_ator": r.id_ator, "inicio": ini, "grupo": grupo_na_data(gov, p, d) if p else "sem_partido"}
+                linha = {"id_ator": r.id_ator, "inicio": ini, "fim": fim, "grupo": grupo_na_data(gov, p, d) if p else "sem_partido"}
                 for medida, por_ator in ev.items():
                     linha[medida] = any(ini <= x <= fim for x in por_ator.get(r.id_ator, []))
                 linhas.append(linha)
@@ -81,13 +81,13 @@ PERIODOS = [("Lula 1 e 2", "2003-01-01", "2010-12-31"), ("Dilma 1 e início do 2
             ("Bolsonaro", "2019-01-01", "2022-12-31"), ("Lula 3", "2023-01-01", "2026-12-31")]
 
 
-def governo_por_periodo(ut: pd.DataFrame) -> pd.DataFrame:
+def governo_por_periodo(ut: pd.DataFrame, medidas: tuple = ("representado", "adverso")) -> pd.DataFrame:
     """Governo x oposição por período presidencial, com o teste exato de Fisher (bicaudal) em cada um. Períodos definidos pelo início do trecho."""
     linhas = []
     for nome, ini, fim in PERIODOS + [("Todo o período", "2003-01-01", "2026-12-31")]:
         x = ut[(ut["inicio"] >= ini) & (ut["inicio"] <= fim)]
         g, o = x[x["grupo"] == "governo"], x[x["grupo"] == "oposicao"]
-        for medida in ("representado", "adverso"):
+        for medida in medidas:
             kg, ko = int(g[medida].sum()), int(o[medida].sum())
             p = fisher_exact([[kg, len(g) - kg], [ko, len(o) - ko]])[1] if len(g) and len(o) and kg + ko else float("nan")
             linhas.append({"medida": medida, "periodo": nome, "n_governo": len(g), "registro_governo": kg, "taxa_governo": kg / len(g) if len(g) else float("nan"),

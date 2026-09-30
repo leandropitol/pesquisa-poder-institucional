@@ -126,6 +126,8 @@ Gerado por `python -m src.estrutura` a partir de `src/vocabularios.py`. Não edi
 | `acao_civil_publica` | Ação civil pública |
 | `acao_improbidade` | Ação de improbidade administrativa |
 | `representacao_etica` | Representação por quebra de decoro parlamentar (Conselho de Ética) |
+| `registro_candidatura` | Registro de candidatura (Justiça Eleitoral) |
+| `processo_tcu` | Processo de contas do Tribunal de Contas da União |
 | `outra` | Outra |
 
 ## `fase_processual`

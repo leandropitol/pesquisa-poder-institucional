@@ -75,7 +75,7 @@ def motivos() -> pd.DataFrame:
         z = zipfile.ZipFile(next((RAIZ / "data" / "raw" / "tse").glob(f"*/motivo_cassacao_{ano}.zip")))
         d = pd.concat([pd.read_csv(z.open(f), sep=";", encoding="latin-1", dtype=str) for f in z.namelist() if f.endswith(".csv")])
         col = next(c for c in d.columns if c in ("DS_MOTIVO", "DS_MOTIVO_CASSACAO"))
-        partes.append(pd.DataFrame({"ano": ano, "sq": d["SQ_CANDIDATO"], "motivo": d[col].map(norm)}))
+        partes.append(pd.DataFrame({"ano": ano, "sq": d["SQ_CANDIDATO"], "motivo": d[col].map(norm), "texto": d[col].str.strip(), "processo": d["NR_PROCESSO"] if "NR_PROCESSO" in d.columns else ""}))
     m = pd.concat(partes)
     m["eixo1"] = m["motivo"].isin(MOTIVOS_EIXO1)
     m["lista"] = m["motivo"].str.contains("|".join(MOTIVOS_LISTA))

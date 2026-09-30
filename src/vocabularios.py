@@ -69,7 +69,8 @@ VOCABULARIOS: dict[str, list[dict]] = {
         ("adc", "Ação declaratória de constitucionalidade"), ("mandado_seguranca", "Mandado de segurança"),
         ("reclamacao", "Reclamação"), ("recurso_extraordinario", "Recurso extraordinário"), ("recurso_especial", "Recurso especial"),
         ("acao_civil_publica", "Ação civil pública"), ("acao_improbidade", "Ação de improbidade administrativa"),
-        ("representacao_etica", "Representação por quebra de decoro parlamentar (Conselho de Ética)"), ("outra", "Outra"),
+        ("representacao_etica", "Representação por quebra de decoro parlamentar (Conselho de Ética)"),
+        ("registro_candidatura", "Registro de candidatura (Justiça Eleitoral)"), ("processo_tcu", "Processo de contas do Tribunal de Contas da União"), ("outra", "Outra"),
     ),
     "fase_processual": _v(
         ("instauracao_inquerito", "Instauração de inquérito"), ("arquivamento_inquerito", "Arquivamento de inquérito"),

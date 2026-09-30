@@ -203,6 +203,7 @@ def texto(base: Path = BASE) -> str:
     linhas += _linhas_eixo1_universos()
     linhas += _linhas_ideologia()
     linhas += _linhas_etica()
+    linhas += _linhas_eixo1_registros()
     linhas += _linhas_stf_composicao()
 
     linhas += ["### Validador", "", f"- {len(falhas)} falha(s) e {len(avisos)} aviso(s) na última geração."]
@@ -667,6 +668,43 @@ def _linhas_etica() -> list[str]:
         f"- Governo x oposição: {len(sig)} de {len(g)} períodos presidenciais têm diferença significativa na taxa de representação (Fisher), com sentido diferente entre períodos "
         f"({', '.join(f'{r.periodo}: maior em {r.dir}' for r in sig.itertuples())}); no período inteiro não há diferença. "
         "Sem correção para comparações múltiplas; o sentido da diferença varia, o que não indica padrão estável.",
+        "",
+    ]
+
+
+def _linhas_eixo1_registros() -> list[str]:
+    """Registros individuais do TCU e do TSE (D-064)."""
+    tab = RAIZ / "relatorios" / "tabelas"
+    if not (tab / "eixo1_registros.csv").exists():
+        return []
+    a = pd.read_csv(tab / "eixo1_registros.csv", dtype=str)
+    lig = pd.read_csv(tab / "eixo1_atores_ligados.csv", dtype=str)
+    cob = pd.read_csv(tab / "eixo1_parlamentares_cobertura.csv")
+    h = pd.read_csv(tab / "eixo1_parlamentares_homogeneidade.csv")
+    c = pd.read_csv(tab / "eixo1_parlamentares_correlacao.csv")
+    g = pd.read_csv(tab / "eixo1_parlamentares_governo_periodo.csv")
+    tcu, tse = a[a["registro"] == "TCU"], a[a["registro"] == "TSE"]
+    cg = pd.read_csv(RAIZ / "data" / "base" / "cargos.csv", dtype=str).fillna("")
+    cg = cg[cg["cargo"].str.startswith(("Deputado", "Senador")) & ((cg["data_fim"] == "") | (cg["data_fim"] >= "2003-01-01"))]
+    cg = cg.assign(suplente=cg["cargo"].str.contains("suplente"), ligado=cg["id_ator"].isin(set(lig["id_ator"])))
+    sem = cg[~cg["ligado"]]
+    titulares = cg[~cg["suplente"]]
+    ac = h[(h["medida"] == "tcu_acumulado") & (h["recorte"] == "2003-2026")].iloc[0]
+    gt = g[(g["medida"] == "tcu_acumulado") & (g["periodo"] == "Todo o período")].iloc[0]
+    return [
+        "### Registros individuais do TCU e do TSE (D-064)", "",
+        f"- {len(tcu)} status de contas julgadas irregulares (TCU) em {tcu['id_ator'].nunique()} atores e {len(tse)} de candidatura indeferida (TSE) em {tse['id_ator'].nunique()} atores. "
+        "A ligação entre lista pública e ator da base passa por CPF e nome civil da candidatura; o CPF não entra na base.",
+        f"- Ligação por candidatura: {lig['id_ator'].nunique()} atores; cobertura de {cob['ligados'].sum() / cob['parlamentar_legislatura'].sum():.1%} das unidades parlamentar x legislatura "
+        f"({sem['suplente'].mean():.0%} dos cargos sem ligação são de suplente; {int((~titulares['ligado']).sum())} de {len(titulares)} cargos de titular ficam sem ligação segura). Ator sem ligação não tem como receber registro do TCU: a ausência de registro dele não é evidência de regularidade.",
+        "- A lista pública do TCU cobre responsáveis por recursos públicos em qualquer função (prefeito, gestor); a taxa mede contas julgadas irregulares da pessoa, não do mandato. "
+        "O TCU pode rever a decisão; a lista pública não traz a revisão. Trânsito em julgado anterior a 2003 fica fora da janela.",
+        "- TSE: só 2018 e 2022 têm motivos (o TSE não publica os de 2010 e o de 2014 tem 10 linhas); a data do status é a da eleição, porque o arquivo não traz a data da decisão; "
+        "o arquivo de 2018 não traz o número do processo (vale o sequencial do candidato). Indeferimento de candidatura não é condenação e pode ter sido revertido depois; a situação final "
+        "consta na tipificação do status.",
+        f"- Parlamentares, contas irregulares acumuladas: partidos não diferem (p = {ac['p_valor']:.2f}), sem correlação com o escore ideológico "
+        f"(|ρ| entre {c['spearman'].abs().min():.2f} e {c['spearman'].abs().max():.2f}) e sem diferença entre governo ({gt['taxa_governo']:.2%}) e oposição ({gt['taxa_oposicao']:.2%}, p = {gt['p_fisher']:.2f}). "
+        "Poucos eventos por período (numerador entre 0 e 40): os intervalos são largos.",
         "",
     ]
 
