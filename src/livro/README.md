@@ -9,7 +9,8 @@ números do texto (`relatorios/livro/resultados.json`), figuras (`relatorios/liv
 ```bash
 pip install -r requirements.txt          # inclui matplotlib, openpyxl, pillow, scipy e statsmodels
 python -m src.livro                      # cálculos, figuras, tabelas, fichas e livro.json
-cd src/livro/docx && npm install && node montar_docx.js   # livro.docx
+cd src/livro/docx && npm install && cd -   # pacote docx (uma vez)
+python -m src.livro.diagramar            # livro.docx diagramado (17 x 24 cm) e livro.pdf, com sumário paginado
 ```
 
 Dependências de dados fora do Git: `data/raw/tesouro/2026-09-30/serie_historica_dez25.xlsx` (sha256 em
@@ -31,4 +32,5 @@ Decisões que fixam as regras do livro: D-069 a D-079 em `docs/decisoes_metodolo
 | `atlas.py` | registros nominais com contexto e casos de referência |
 | `matriz.py` | matriz de transformação do catálogo anterior para os capítulos |
 | `montar.py` | junta textos, resultados, figuras e tabelas em `livro.json` |
-| `docx/montar_docx.js` | gera o `.docx` (npm `docx`) |
+| `docx/montar_docx.js` | gera o `.docx` diagramado como livro (npm `docx`): 17 x 24 cm, margens espelhadas, Cambria 11 pt, partes em página ímpar, elementos pré-textuais |
+| `diagramar.py` | roda o script acima, ativa as margens espelhadas, converte para PDF (LibreOffice) e pagina o sumário |
