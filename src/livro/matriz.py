@@ -52,6 +52,6 @@ M = [
     ("T5", "Atlas C", "fefc_fp_2022", "—", "—", "TSE", "—", "—", "Não processado", "Diferença como discriminação deliberada"),
     ("T6", "Atlas C; parte no cap. 21", "motivo_cassacao 2014 a 2022", "—", "t_j9_candidaturas", "TSE", "D-060, D-061", "Motivos por eleição", "2014 com 10 linhas", "Cassação como prova de crime"),
     ("T7", "Atlas C", "consulta_coligacao 2002 a 2022", "—", "—", "TSE", "—", "—", "Não processado", "Coligação como afinidade programática"),
-    ("Parte VII", "34 a 38", "todas", "n20, n21, n22", "t_painel, t_marcos", "as de cada série", "D-070, D-071", "Escore z; ano de maior mudança", "Séries curtas e com inícios diferentes", "Simultaneidade como causa"),
+    ("Parte VII", "34 a 43", "todas", "n30 a n38, n21", "t_painel2, t_inflexoes, t_matriz, t_h1 a t_h4, t_cadeia, t_modelo, t_marcos", "as de cada série", "D-074 a D-078", "Escore z; variação por janela; matriz por período; testes das hipóteses; rede de relações", "Séries curtas e com inícios diferentes; testes múltiplos; períodos iguais a mandatos", "Simultaneidade como causa; normas como causa única"),
 ]
 COLS = ["Análise", "Capítulo", "Bases", "Gráficos", "Tabelas", "Fonte primária", "Decisões", "Dado derivado", "Principal limitação", "Risco de interpretação indevida"]

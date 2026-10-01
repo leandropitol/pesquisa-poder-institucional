@@ -8,7 +8,7 @@ O material vem de uma base auditável construída para o projeto de pesquisa sob
 
 ### Como ler este livro
 
-O livro tem oito partes. A primeira explica como os dados foram reunidos, o que cada base cobre e o que fica de fora. As partes II a VI tratam de cinco dimensões: o dinheiro das campanhas, o orçamento distribuído por emendas parlamentares, os processos e o controle sobre agentes políticos, o sistema partidário e as relações externas. A Parte VII cruza essas dimensões no tempo. A Parte VIII reúne as tabelas de referência, as fichas completas de cada gráfico e as referências por instituição.
+O livro tem oito partes. A primeira explica como os dados foram reunidos, o que cada base cobre e o que fica de fora. As partes II a VI tratam de cinco dimensões: o dinheiro das campanhas, o orçamento distribuído por emendas parlamentares, os processos e o controle sobre agentes políticos, o sistema partidário e as relações externas. A Parte VII é o núcleo analítico: põe as dimensões lado a lado de 2003 a 2026 e testa, com regras fixadas antes do cálculo, se houve transformações sistêmicas, quando ocorreram e com que evidência. A Parte VIII reúne as tabelas de referência, as fichas completas de cada gráfico e as referências por instituição.
 
 Cada gráfico traz uma ficha curta com a pergunta que responde, o período, a unidade, a fonte primária e o tratamento feito pelo autor. A ficha completa, no Atlas, acrescenta universo, resultado derivado, limitações e o código da análise. Os códigos (D1, J1, M1, X1, P1, T1) identificam as análises da base e permitem localizá-las no repositório.
 
@@ -31,4 +31,4 @@ O texto trata os fenômenos de forma institucional e evita transformar pessoas e
 
 ### Repositório e versão
 
-Os dados, os scripts e a documentação estão no repositório público do projeto: {{REPO}}. Esta edição foi gerada a partir do commit {{COMMIT}} com os scripts de `src/livro/`. As decisões metodológicas citadas (D-001 a D-073) estão em `docs/decisoes_metodologicas.md`.
+Os dados, os scripts e a documentação estão no repositório público do projeto: {{REPO}}. Esta edição foi gerada a partir do commit {{COMMIT}} com os scripts de `src/livro/`. As decisões metodológicas citadas (D-001 a D-078) estão em `docs/decisoes_metodologicas.md`.

@@ -15,11 +15,12 @@ MARCOS = [
     ("2013-08-01", "Lei 12.846 (responsabilização de pessoas jurídicas; acordo de leniência, art. 16)", "planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm", "Justiça e controle"),
     ("2015-03-17", "EC 86 (execução obrigatória das emendas individuais, 1,2% da RCL)", "planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm", "Orçamento"),
     ("2015-09-17", "STF, ADI 4650 (doações de pessoas jurídicas a campanhas)", "[REFERÊNCIA A CONFIRMAR: acórdão no portal do STF]; usada em docs/limitacoes.md", "Financiamento"),
-    ("2015-09-29", "Lei 13.165 (minirreforma eleitoral; janela de mudança de partido, art. 22-A da Lei 9.096)", "planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13165.htm", "Partidos"),
+    ("2015-09-29", "Lei 13.165 (minirreforma eleitoral; revoga o art. 81 da Lei 9.504, sobre doações de pessoas jurídicas; janela de mudança de partido, art. 22-A da Lei 9.096)", "planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13165.htm", "Partidos"),
     ("2017-10-04", "EC 97 (fim das coligações proporcionais a partir de 2020; cláusula de desempenho)", "planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm", "Partidos"),
     ("2017-10-06", "Lei 13.487 (Fundo Especial de Financiamento de Campanha)", "planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13487.htm", "Financiamento"),
     ("2018-05-03", "STF, AP 937, questão de ordem (restrição do foro por prerrogativa)", "data de corte usada em D-068; [REFERÊNCIA A CONFIRMAR: acórdão]", "Justiça e controle"),
     ("2019-06-26", "EC 100 (execução obrigatória das emendas de bancada)", "planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc100.htm", "Orçamento"),
+    ("2019-10-03", "Lei 13.878 (limite de recursos próprios na campanha, 10% do limite de gastos)", "planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13878.htm", "Financiamento"),
     ("2019-12-12", "EC 105 (transferência especial e com finalidade definida)", "planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc105.htm", "Orçamento"),
     ("2022-02-08", "TSE registra a fusão de DEM e PSL (União)", "FNT-000007 (data em data/base/instituicoes.csv)", "Partidos"),
     ("2022-12-19", "STF julga as emendas de relator (ADPF 850, 851, 854, 1014)", "[REFERÊNCIA A CONFIRMAR: data e acórdão; notícia oficial do STF não pôde ser lida]", "Orçamento"),
@@ -130,12 +131,12 @@ def main() -> None:
     a.set_title("Marcos normativos e decisões, 2013–2022")
     salvar(f, "n21", titulo="Linha do tempo dos marcos normativos e decisões usados como contexto no livro, 2013–2022",
            pergunta="Que regras formais mudaram no período em que as séries mudam?", periodo="2013–2022", unidade="datas",
-           universo="Normas e decisões citadas no livro", fonte_primaria="Textos oficiais no portal da Presidência da República (leis e emendas constitucionais), lidos em 30/09/2026; decisões do STF e registro do TSE conforme a tabela de marcos",
+           universo="Normas e decisões citadas no livro", fonte_primaria="Textos oficiais no portal da Presidência da República (leis e emendas constitucionais), lidos em 30/09 e 01/10/2026; decisões do STF e registro do TSE conforme a tabela de marcos",
            tratamento="Seleção das normas que tratam de financiamento, orçamento, partidos e controle", derivado="Nenhum",
            limitacoes="Seleção do autor; duas decisões do STF com referência a confirmar", leitura=f"{len(MARCOS)} marcos entre 2013 e 2022, {sum(1 for d, *_ in MARCOS if '2015' <= d[:4] <= '2019')} deles entre 2015 e 2019.", codigo="Parte VII")
     tabela(pd.DataFrame([dict(Data=d, Marco=t_, Referência=r_, Área=ar) for d, t_, r_, ar in MARCOS]), "t_marcos",
            titulo="Marcos normativos e decisões citados no livro", unidade="datas", periodo="2013–2022", universo="Seleção do autor",
-           fonte="Presidência da República (legislação), STF, TSE", notas="Endereços de planalto.gov.br lidos em 30/09/2026; itens marcados exigem confirmação.", codigo="Parte VII")
+           fonte="Presidência da República (legislação), STF, TSE", notas="Endereços de planalto.gov.br lidos em 30/09 e 01/10/2026; itens marcados exigem confirmação.", codigo="Parte VII")
     gravar_resultados(R)
     print(R["p7_ano_maior_mudanca"]); print(P.round(2).to_string())
 

@@ -192,7 +192,7 @@ def main() -> None:
            unidade="R$ milhões, reais de ago/2026 (barras) e nominais (linha)",
            universo="Presidenciáveis e eleitos com receitas ligadas (D-043)", fonte_primaria=F_TSE_CONTAS + "; " + F_IPCA,
            tratamento="Soma das receitas do tipo recursos próprios; deflação (D-070)", derivado="Total por eleição",
-           limitacoes="A regra de limite do autofinanciamento não está na base [REFERÊNCIA A CONFIRMAR]",
+           limitacoes="O limite ao autofinanciamento (Lei 13.878/2019) vale a partir de 2020; a base não registra a regra aplicada a cada candidato",
            leitura=f"Recursos próprios: R$ {br(rp.real[2018]/1e6,1)} mi em 2018 e R$ {br(rp.real[2022]/1e6,1)} mi em 2022, em reais de ago/2026.",
            codigo="D10")
     # --- partido como canal (D8, D9), por eleito

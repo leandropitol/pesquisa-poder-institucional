@@ -68,6 +68,10 @@ def partido_na_data(data) -> pd.Series:
 
 
 # ---------- séries externas (D-070) ----------
+from functools import lru_cache  # noqa: E402
+
+
+@lru_cache(maxsize=1)
 def ipca() -> pd.Series:
     s = pd.read_csv(CUR / "ibge_ipca_numero_indice.csv", dtype={"periodo": str})
     return s.set_index("periodo").valor

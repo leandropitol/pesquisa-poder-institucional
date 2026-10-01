@@ -36,7 +36,7 @@ A mediana de arrecadação do deputado federal eleito foi de R$ {{p2_mediana_nom
 
 As campanhas majoritárias têm outra escala. A soma das duas maiores arrecadações entre presidenciáveis e governadores eleitos foi de R$ {{p2_majoritaria_top2_real_mi.2002:d0}} milhões em 2002, R$ {{p2_majoritaria_top2_real_mi.2014:d0}} milhões em 2014 e R$ {{p2_majoritaria_top2_real_mi.2022:d0}} milhões em 2022, em reais de agosto de 2026. ◐ Os valores individuais estão no Atlas.
 
-Os recursos próprios dos candidatos (dinheiro do próprio bolso aplicado na campanha) somaram R$ {{p2_recursos_proprios_real_mi.2018:d0}} milhões em 2018 e R$ {{p2_recursos_proprios_real_mi.2022:d0}} milhões em 2022, em reais de agosto de 2026. ◐ A queda coincide com mudança na regra de limite do autofinanciamento [REFERÊNCIA A CONFIRMAR: norma e data], que a base não registra; o livro não atribui a variação a mudança de comportamento.
+Os recursos próprios dos candidatos (dinheiro do próprio bolso aplicado na campanha) somaram R$ {{p2_recursos_proprios_real_mi.2018:d0}} milhões em 2018 e R$ {{p2_recursos_proprios_real_mi.2022:d0}} milhões em 2022, em reais de agosto de 2026. ◐ A queda coincide com o limite ao autofinanciamento criado pela Lei 13.878, de 3 de outubro de 2019, que permite ao candidato usar recursos próprios até 10% do limite de gastos do cargo (art. 23, § 2º-A, da Lei 9.504/1997). ● O livro não atribui a variação a mudança de comportamento.
 
 [[fig:c11]]
 
@@ -70,7 +70,7 @@ Empresas nomeadas. A base só tem linha própria para {{p2_empresas_nomeadas_n:d
 
 ## 10. Regras e calendário
 
-As mudanças descritas nesta parte acompanham três normas. Em 2015, o STF declarou inconstitucionais as doações de pessoas jurídicas a campanhas (ADI 4650) [REFERÊNCIA A CONFIRMAR: data e acórdão no portal do STF]; a Lei 13.165, de 29 de setembro de 2015, alterou as regras de campanha. Em 6 de outubro de 2017, a Lei 13.487 instituiu o Fundo Especial de Financiamento de Campanha. ● As séries mudam na primeira eleição seguinte a cada uma dessas normas. ⇄ Essa coincidência é esperada por desenho, porque as normas mudaram as fontes permitidas; o que o livro não afirma é qualquer efeito dessas mudanças sobre quem se elege.
+As mudanças descritas nesta parte acompanham quatro normas. Em 2015, o STF declarou inconstitucionais as doações de pessoas jurídicas a campanhas (ADI 4650) [REFERÊNCIA A CONFIRMAR: data e acórdão no portal do STF]; a Lei 13.165, de 29 de setembro de 2015, alterou as regras de campanha e revogou o art. 81 da Lei 9.504/1997, que tratava das doações de pessoas jurídicas (art. 15). Em 3 de outubro de 2019, a Lei 13.878 limitou o uso de recursos próprios. Em 6 de outubro de 2017, a Lei 13.487 instituiu o Fundo Especial de Financiamento de Campanha. ● As séries mudam na primeira eleição seguinte a cada uma dessas normas. ⇄ Essa coincidência é esperada por desenho, porque as normas mudaram as fontes permitidas; o que o livro não afirma é qualquer efeito dessas mudanças sobre quem se elege.
 
 [[fig:n21]]
 

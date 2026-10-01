@@ -22,7 +22,7 @@ Três consequências atravessam o livro. As receitas de campanha cobrem apenas q
 
 ### Critérios de inclusão e exclusão
 
-Os critérios foram registrados como decisão metodológica antes do cálculo de cada medida. Quando um esclarecimento foi feito depois de ver os dados, a própria decisão o declara (por exemplo, D-051, D-061 e D-067). Para o livro foram fixadas cinco decisões novas: a publicação do repositório (D-069), as séries externas e a regra de deflação (D-070), a estrutura do livro e o tratamento de nomes (D-071), a separação entre mudanças de partido individuais e por fusão (D-072) e o índice de número efetivo de partidos (D-073).
+Os critérios foram registrados como decisão metodológica antes do cálculo de cada medida. Quando um esclarecimento foi feito depois de ver os dados, a própria decisão o declara (por exemplo, D-051, D-061 e D-067). Para a primeira versão do livro foram fixadas cinco decisões novas: a publicação do repositório (D-069), as séries externas e a regra de deflação (D-070), a estrutura do livro e o tratamento de nomes (D-071), a separação entre mudanças de partido individuais e por fusão (D-072) e o índice de número efetivo de partidos (D-073). O núcleo analítico da Parte VII acrescentou mais cinco, fixadas antes do cálculo, com um ajuste declarado: as regras do painel, das janelas e da matriz (D-074), as hipóteses e a escala de evidência (D-075), a ligação entre deputados e candidaturas (D-076), a extensão do IPCA de junho a 2002 (D-077) e os controles do teste de reeleição, definidos depois da primeira execução (D-078).
 
 ## 3. Da fonte ao gráfico
 

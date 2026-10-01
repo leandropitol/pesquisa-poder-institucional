@@ -19,7 +19,7 @@ const P = (s, o = {}) => new Paragraph({children: runs(s, o), spacing: {after: o
 function larguras(cols, rows, total) {
   const n = cols.length; const len = cols.map((c, j) => Math.max(String(c).length * 0.8, ...rows.slice(0, 80).map(r => Math.min(String(r[j] ?? '').length, 90))));
   const sq = len.map(x => Math.sqrt(Math.max(x, 3))); const s = sq.reduce((a, b) => a + b, 0);
-  let w = sq.map(x => Math.max(550, Math.round(total * x / s))); const d = total - w.reduce((a, b) => a + b, 0); w[w.indexOf(Math.max(...w))] += d; return w;
+  const mn = Math.min(550, Math.floor(total / n * 0.6)); let w = sq.map(x => Math.max(mn, Math.round(total * x / s))); const d = total - w.reduce((a, b) => a + b, 0); w[w.indexOf(Math.max(...w))] += d; return w;
 }
 function tabela(b, total) {
   const ncol = b.cols.length; const fs = ncol >= 9 ? 12 : ncol >= 7 ? 13 : 15;
@@ -76,17 +76,27 @@ const capa = [new Paragraph({spacing: {before: 2600}, children: []}),
   P('DINHEIRO, JUSTIÇA E PODER', {bold: true, size: 56, color: NAVY, align: AlignmentType.CENTER, after: 200}),
   P('Transformações das relações entre dinheiro, Estado, partidos, Justiça e política externa no Brasil, 2003–2026', {size: 28, align: AlignmentType.CENTER, after: 600}),
   P('Um estudo baseado em dados públicos auditáveis', {size: 22, color: MUTE, align: AlignmentType.CENTER, after: 120}),
-  P(`Edição de setembro de 2026 · repositório ${L.meta.repo}`, {size: 18, color: MUTE, align: AlignmentType.CENTER}),
+  P(`Segunda edição, outubro de 2026 · repositório ${L.meta.repo}`, {size: 18, color: MUTE, align: AlignmentType.CENTER}),
   P(`Gerada a partir do commit ${L.meta.commit}`, {size: 16, color: MUTE, align: AlignmentType.CENTER})];
 const sumario = [new Paragraph({children: [new PageBreak()]}), P('Sumário', {bold: true, size: 36, color: NAVY, after: 200})];
 for (const b of L.blocos) {
   if (b.t === 'part') sumario.push(P(b.x, {bold: true, color: NAVY, after: 40, before: 120}));
   if (b.t === 'h1' && /^\d+\./.test(b.x)) sumario.push(P(b.x, {size: 19, after: 10, indent: {left: 360}}));
-  if (b.t === 'h1' && /^[A-F]\. /.test(b.x)) sumario.push(P(b.x, {size: 19, after: 10, indent: {left: 360}}));
+  if (b.t === 'h1' && /^[A-H]\. /.test(b.x)) sumario.push(P(b.x, {size: 19, after: 10, indent: {left: 360}}));
 }
 const iA = L.blocos.findIndex(b => b.t === 'part' && b.x.startsWith('Parte VIII'));
 const corpo = L.blocos.slice(0, iA), atlas = L.blocos.slice(iA);
+// o corpo pode alternar retrato e paisagem com os marcadores [[paisagem]] e [[retrato]]
+function segmentos(bl) {
+  const seg = [{o: 'P', b: []}];
+  for (const b of bl) { if (b.t === 'orient') seg.push({o: b.o, b: []}); else seg[seg.length - 1].b.push(b); }
+  return seg.filter((s, i) => i === 0 || s.b.length);
+}
 const rodape = new Footer({children: [new Paragraph({alignment: AlignmentType.CENTER, children: [run('Dinheiro, Justiça e Poder · ', {size: 15, color: MUTE}), new TextRun({children: [PageNumber.CURRENT], size: 15, color: MUTE, font: FONT})]})]});
+const secoesCorpo = segmentos(corpo).map((sg, i) => ({
+  properties: {page: {size: sg.o === 'L' ? {width: PW, height: PH, orientation: PageOrientation.LANDSCAPE} : {width: PW, height: PH},
+    margin: {top: MAR, bottom: MAR, left: MAR, right: MAR}, ...(i === 0 ? {pageNumbers: {start: 1}} : {})}}, footers: {default: rodape},
+  children: i === 0 ? [...sumario, ...render(sg.b, PW - 2 * MAR)] : render(sg.b, sg.o === 'L' ? PH - 2 * MAR : PW - 2 * MAR)}));
 const doc = new Document({
   creator: 'Pesquisa poder institucional', title: 'Dinheiro, Justiça e Poder', description: 'Estudo sobre transformações institucionais no Brasil, 2003–2026',
   styles: {default: {document: {run: {font: FONT, size: 21}}}, paragraphStyles: [
@@ -96,8 +106,7 @@ const doc = new Document({
   numbering: {config: [{reference: 'bul', levels: [{level: 0, format: LevelFormat.BULLET, text: '•', alignment: AlignmentType.LEFT, style: {paragraph: {indent: {left: 540, hanging: 270}}}}]}]},
   sections: [
     {properties: {page: {size: {width: PW, height: PH}, margin: {top: MAR, bottom: MAR, left: MAR, right: MAR}}}, children: capa},
-    {properties: {page: {size: {width: PW, height: PH}, margin: {top: MAR, bottom: MAR, left: MAR, right: MAR}, pageNumbers: {start: 1}}}, footers: {default: rodape},
-     children: [...sumario, ...render(corpo, PW - 2 * MAR)]},
+    ...secoesCorpo,
     {properties: {page: {size: {width: PW, height: PH, orientation: PageOrientation.LANDSCAPE}, margin: {top: MAR, bottom: MAR, left: MAR, right: MAR}}}, footers: {default: rodape},
      children: render(atlas, PH - 2 * MAR)}]
 });

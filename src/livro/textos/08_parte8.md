@@ -1,6 +1,6 @@
 # Parte VIII — Atlas documental
 
-O Atlas reúne o material de consulta: as tabelas de referência com registros nominais, as fichas completas de cada gráfico, a agenda de dados ainda não processados, as referências por instituição e a matriz que liga o catálogo anterior às análises deste livro.
+O Atlas reúne o material de consulta: as tabelas de referência com registros nominais, as séries anuais do núcleo analítico, as fichas completas de cada gráfico, a agenda de dados ainda não processados, as referências por instituição e a matriz que liga o catálogo anterior às análises deste livro.
 
 ## A. Registros nominais
 
@@ -34,15 +34,25 @@ Sete análises dependem de arquivos do TSE já baixados e ainda não processados
 - **T6. Motivos de cassação de candidaturas (2014 a 2022).** As causas mais comuns, já usadas em parte no capítulo 21.
 - **T7. Coligações (2002 a 2022).** A rede de alianças eleitorais até o fim das coligações proporcionais.
 
-## D. Fichas completas dos gráficos
+## D. Séries anuais do núcleo analítico
+
+As tabelas trazem os valores anuais das séries do painel da Parte VII, na unidade de cada uma, e a lista completa das mudanças relevantes por janela de inflexão. A dimensão, a cobertura e a fonte de cada série estão na tabela de fontes do capítulo 35.
+
+[[tab:t_painel2]]
+
+[[tab:t_painel2b]]
+
+[[tab:t_janelas_relevantes]]
+
+## E. Fichas completas dos gráficos
 
 [[fichas]]
 
-## E. Referências por instituição
+## F. Referências por instituição
 
 [[referencias]]
 
-## F. Matriz de transformação
+## G. Matriz de transformação
 
 A matriz liga cada análise do catálogo anterior (códigos D, J, M, X, P e T) ao capítulo deste livro, às bases, gráficos e tabelas usados, à fonte primária, às decisões que fixaram as regras, ao resultado derivado, à principal limitação e ao risco de interpretação indevida.
 

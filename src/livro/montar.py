@@ -113,15 +113,15 @@ def referencias() -> list[dict]:
         ("Tesouro Nacional", ["Resultado do Tesouro Nacional, dezembro de 2025, série histórica (serie_historica_dez25.xlsx), Tabela 2.1. https://thot-arquivos.tesouro.gov.br/publicacao-anexo/27550. Baixado pelo autor em 2026-09-30; sha256 2a82626c9e8f (data/manifestos/tesouro.csv)."]),
         ("Ministério do Desenvolvimento, Indústria, Comércio e Serviços (ComexStat)", ["API pública do ComexStat, exportações e importações por país e mês. https://api-comexstat.mdic.gov.br/general. Acesso em 2026-09-28 (data/manifestos/comexstat.csv). [REFERÊNCIA A CONFIRMAR: registrar a fonte em data/base/fontes.csv]."]),
         ("Câmara dos Deputados (orientações de bancada)", ["Arquivos anuais de votações e orientações de bancada do Plenário (data/manifestos/camara_orientacoes.csv), acesso em 2026-09-28. [REFERÊNCIA A CONFIRMAR: registrar a fonte em data/base/fontes.csv]."]),
-        ("Legislação (Presidência da República, textos oficiais lidos em 2026-09-30)", [
+        ("Legislação (Presidência da República, textos oficiais lidos em 2026-09-30 e 2026-10-01)", [
             "Lei 12.846, de 1º de agosto de 2013. https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm",
             "Emenda Constitucional 86, de 17 de março de 2015. https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm",
-            "Lei 13.165, de 29 de setembro de 2015. https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13165.htm",
+            "Lei 13.165, de 29 de setembro de 2015 (art. 15 revoga o art. 81 da Lei 9.504/1997). https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13165.htm",
             "Emenda Constitucional 97, de 4 de outubro de 2017. https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm",
             "Lei 13.487, de 6 de outubro de 2017. https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13487.htm",
             "Emenda Constitucional 100, de 26 de junho de 2019. https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc100.htm",
             "Emenda Constitucional 105, de 12 de dezembro de 2019. https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc105.htm",
-            "Norma sobre limite de autofinanciamento de campanha. [REFERÊNCIA A CONFIRMAR]"]),
+            "Lei 13.878, de 3 de outubro de 2019 (art. 23, § 2º-A, da Lei 9.504/1997: recursos próprios até 10% do limite de gastos). https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13878.htm. Lida em 2026-10-01."]),
         ("Jurisprudência (Supremo Tribunal Federal)", [
             "ADI 4650, doações de pessoas jurídicas a campanhas eleitorais, 2015. [REFERÊNCIA A CONFIRMAR: data do julgamento e acórdão; a página do STF não pôde ser lida pela ferramenta de leitura]",
             "AP 937, questão de ordem, restrição do foro por prerrogativa de função, maio de 2018 (data de corte de D-068). [REFERÊNCIA A CONFIRMAR: acórdão]",
@@ -174,6 +174,8 @@ def main() -> None:
                     blocos.append(dict(t="ficha", num=n, id=i, campos=[(k, f.get(k, "")) for k in
                         ["titulo", "pergunta", "periodo", "unidade", "universo", "fonte_primaria", "fonte_secundaria", "tratamento", "derivado", "limitacoes", "leitura", "codigo", "arquivo"]]))
                 continue
+            if s in ("[[paisagem]]", "[[retrato]]"):
+                blocos.append(dict(t="orient", o="L" if s == "[[paisagem]]" else "P")); continue
             if s == "[[referencias]]":
                 blocos += referencias(); continue
             if s == "[[matriz]]":
