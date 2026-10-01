@@ -1,0 +1,1 @@
+{ "name": "livro-docx", "private": true, "dependencies": { "docx": "^9.0.0" } }

@@ -1,0 +1,7 @@
+Pergunta (hipótese nula: não há diferença),População,n,Método,Resultado,Limitação
+Declínio de competência difere entre partidos?,Pares ação × réu parlamentar,337,Qui-quadrado com p exato por simulação,"p = 0,001",Sem correção para múltiplos testes; motivo do declínio não medido
+Declínio difere entre alinhados e oposição?,Idem,348,Fisher bicaudal,"p = 0,011",Nenhum período isolado significativo
+Condenação difere entre partidos (julgados no mérito)?,Parlamentares julgados no mérito,71,Qui-quadrado com simulação,"p = 0,76","Poucos julgados por partido: ""não distingue"""
+Condenação difere por presidente que indicou o relator?,Julgamentos com relator resolvido,93,Fisher bicaudal,"p = 0,63",Relator por sorteio; decisão colegiada; amostra pequena
+Representação ética difere entre partidos?,Parlamentares-legislatura,—,Qui-quadrado com simulação,"p < 0,001 (22 partidos)",Concentração em poucos episódios
+Taxas por partido se associam à ideologia?,Partidos com escore,15 a 35,Spearman com permutação,"0 de 20 correlações com p < 0,05",Poder baixo: só detectaria associações fortes

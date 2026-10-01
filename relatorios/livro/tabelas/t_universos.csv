@@ -1,0 +1,13 @@
+Base,Tipo de conjunto,Inclusão (e exclusões principais),Decisões
+Receitas de campanha,Universo recortado,"Presidenciáveis e eleitos a governador, senador e deputado federal; receitas somadas por candidato e tipo",D-043
+Emendas parlamentares,Universo do arquivo,"Todas as linhas publicadas pela CGU de 2014 a 2026, agregadas por emenda, localidade e função",D-029
+Ações penais no STF,Universo por regra,Ações penais originárias autuadas desde 2003 com tipos penais do protocolo; réus lidos na aba Partes,"D-004, D-048, D-068"
+Status de pessoa,Registros com fonte,Status formais com fonte judicial ou oficial; 27 eventos pendentes,"D-046, D-065"
+Contas irregulares (TCU),Universo da lista,Lista pública de responsáveis; ligação aos atores pela candidatura (CPF não guardado),D-064
+Sanções e leniências,Universo parcial,CNEP inteiro; CEIS só de empresas já na base; 57 acordos de leniência,D-027
+Conselhos de Ética,Universo das listas oficiais,Representações e denúncias por quebra de decoro de 2003 a 2026,D-063
+Filiações e mandatos,Universo,Deputados (legislaturas 52 a 57) e senadores; filiação observada durante o mandato,"D-013, D-016"
+Votos multilaterais,Seleção temática,Resoluções de escrutínio sobre países e temas de democracia na ONU e OEA,"D-031, D-044, D-053"
+Atos bilaterais,Universo,Atos com um país como outra parte no Concórdia,D-041
+Crédito à exportação,Universo do arquivo,Pós-embarque de bens e serviços; valor só para serviços,D-021
+Réguas de democracia,Universo,Todos os países avaliados por V-Dem e Freedom House,"D-003, D-017, D-018"
