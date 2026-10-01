@@ -1,0 +1,6 @@
+Aspecto,Observação,Resultado,Evidência
+Tamanho do conjunto em curso,"Máximo de 113 ações em 2012; 69 em 2017, 28 em 2018, 11 em 2020",queda forte a partir de 2018,Evidência associativa (coincide com a questão de ordem na AP 937 [REFERÊNCIA A CONFIRMAR]; os declínios de cada ação estão no capítulo 18)
+Entrada de ações novas,210 autuadas em 2011–2017 e 11 em 2019–2025,queda,Evidência associativa
+Composição por origem,Autuadas no próprio STF: 29% das ações em curso em 2017 e 65% em 2019,o conjunto que permanece passa a ser majoritariamente originário do STF,Fato observado
+Idade do conjunto,"Idade mediana 2,4 anos em 2017 e 4,9 anos em 2020",envelhece (ficam as ações antigas e entram poucas),Fato observado
+Duração por coorte de autuação,"Mediana 2,57 anos (até 02/05/2018, 350 ações) e 1,35 anos (desde 03/05/2018, 15 ações); log-rank p < 0,001; encerradas em até 2 anos: 40,9% e 60,0% (Fisher p = 0,182)","log-rank aponta duração menor na coorte nova, mas o tempo de observação diferente encurta essa coorte por construção; proporção encerrada em dois anos sem diferença significativa",Não determinável (coorte nova com 15 ações e observação truncada)

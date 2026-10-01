@@ -1,0 +1,13 @@
+Relação,Classe de evidência,Em que se apoia,Limitação
+Normas (Congresso e STF) → Dinheiro eleitoral,Evidência direta,Lei 13.165/2015 (art. 15); Lei 13.487/2017; Lei 13.878/2019; decisão do STF de 2015 [REFERÊNCIA A CONFIRMAR]; dados do TSE mostram a troca de fonte na eleição seguinte,"A norma define a regra, não o comportamento dos candidatos"
+Normas (Congresso e STF) → Orçamento,Evidência direta,"EC 86/2015, EC 100/2019 e EC 105/2019; série de emendas da CGU",O arquivo só é consistente desde 2017
+Normas (Congresso e STF) → Partidos,Evidência direta,EC 97/2017; Lei 13.165/2015; NEP e mudanças de partido,Fusões dependem também de decisões partidárias não medidas
+Normas (Congresso e STF) → Justiça (STF),Evidência associativa,Questão de ordem na AP 937 [REFERÊNCIA A CONFIRMAR]; declínios e estoque de ações (capítulo 18 e H3),Passa a evidência direta quando o acórdão for confirmado; universo de ações da lista de D-048
+Dinheiro eleitoral → Competição política,Hipótese,Gini e participação dos 10% maiores entre os eleitos (capítulo 7); testes de reeleição de H1 sem resultado,As receitas medidas são só as dos eleitos; a regra interna de distribuição do fundo não foi medida
+Orçamento → Competição política,Não determinável,Modelos de reeleição de 2018 e 2022 (H1),Valor pago depende da execução e de quem exerceu o mandato; 65% e 75% dos deputados em exercício ligados à candidatura
+Competição política ↔ Partidos,Hipótese,NEP sobe até 2019 e cai em 2023 (capítulo 22),A reconcentração coincide com fusões e com a cláusula; o papel do dinheiro não foi medido
+Partidos ↔ Orçamento,Não determinável,"Razão base/fora entre 0,96 e 1,20",Emendas de relator e de comissão sem autor individual impedem o teste onde a distribuição seria mais discricionária
+Orçamento → Distribuição de recursos,Evidência associativa,"Per capita por UF, saúde, sem UF (capítulo 15 e H2)",Destino final do recurso não é observado
+Controle administrativo → Distribuição de recursos,Não determinável,Sanções e contas irregulares não estão ligadas a emendas na base,Faltam dados que liguem fiscalização a transferências
+Justiça (STF) ↔ Controle administrativo,Hipótese,Lei 12.846/2013; sanções crescem desde 2018 (capítulo 20),A série mede também a adesão ao cadastro
+Partidos → Política externa,Não determinável,Teste das trocas de governo e comparação por mandato (H4),Poucos governos; composição dos países-alvo muda a cada ano

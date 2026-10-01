@@ -1,0 +1,26 @@
+Série,Grupo,Anos de troca,Anos com variação observada,Média nas trocas (dp),Média nos demais (dp),Diferença,p (permutação)
+Despesa total da União (R$ bi reais),doméstica,5,23,0.19,0.28,-0.09,0.596
+Emendas pagas (R$ bi reais),doméstica,2,8,0.27,0.51,-0.25,0.607
+Emendas pagas (% da despesa total),doméstica,2,8,0.14,0.46,-0.32,0.714
+Emendas sem autor parlamentar identificado (% do pago),doméstica,2,8,1.12,0.93,0.19,0.464
+Transferências especiais (% do pago),doméstica,2,8,0.95,0.37,0.58,0.25
+Desigualdade per capita entre UF (Gini),doméstica,2,8,1.02,0.78,0.24,0.286
+Discricionárias do Executivo (R$ bi reais),doméstica,4,17,1.12,0.86,0.26,0.297
+Discricionárias do Executivo (% da despesa total),doméstica,4,17,0.65,0.59,0.06,0.454
+"Execução das emendas (pago/empenhado, %)",doméstica,2,8,0.27,0.67,-0.4,0.821
+Número efetivo de partidos (Câmara),doméstica,5,23,0.74,0.15,0.59,0.019
+Mudanças individuais de partido,doméstica,4,22,1.67,1.32,0.36,0.216
+Cadeiras da base do governo (%),doméstica,4,22,0.94,0.74,0.2,0.345
+Ações penais com réu parlamentar em curso no STF,doméstica,4,22,0.35,0.24,0.11,0.271
+Idade mediana das ações em curso (anos),doméstica,4,21,1.52,0.63,0.89,0.022
+Declínios de competência (réu parlamentar),doméstica,4,22,1.74,0.59,1.15,0.057
+Julgamentos de mérito (réu parlamentar),doméstica,4,22,0.97,0.55,0.43,0.184
+Sanções a empresas registradas (CGU),doméstica,3,10,0.12,0.39,-0.27,0.792
+"Contas irregulares no TCU, pessoas da base",doméstica,4,22,0.65,0.66,-0.01,0.513
+Representações nos Conselhos de Ética,doméstica,4,22,0.49,0.88,-0.39,0.764
+Votos a favor de resoluções de escrutínio (%),externa,4,22,1.22,0.87,0.35,0.169
+Coincidência com a maioria das democracias (%),externa,4,21,1.03,0.86,0.17,0.314
+Atos bilaterais assinados,externa,5,23,0.7,0.37,0.33,0.109
+Operações de exportação de serviços (BNDES),externa,5,23,0.54,0.98,-0.44,0.92
+Democracia liberal do Brasil (V-Dem),doméstica,5,23,0.77,0.09,0.68,0.006
+Pontuação do Brasil (Freedom House),doméstica,3,12,0.18,0.2,-0.03,0.636

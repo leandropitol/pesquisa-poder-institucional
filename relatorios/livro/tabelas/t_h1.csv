@@ -1,0 +1,11 @@
+Componente,Observação,Teste,Resultado,Evidência
+Financiamento empresarial,"64,2% do dinheiro dos eleitos em 2002, 32,9% em 2014, zero em 2018 e 2022",Condição necessária (a),atendida,"Evidência direta (Lei 13.165/2015, art. 15, revoga o art. 81 da Lei 9.504/1997; decisão do STF de 2015 [REFERÊNCIA A CONFIRMAR: ADI 4650]; dado do TSE)"
+Fundo eleitoral,"78,6% em 2018 e 83,1% em 2022; inexistente antes de 2018",Condição necessária (a),atendida,Evidência direta (Lei 13.487/2017; RTN)
+Fundo partidário e transferências de partidos,"Transferências de partidos: 34,0% em 2010 e 47,8% em 2014, quando misturavam fundo partidário e doações de empresas; 2,7% em 2022",Origem pública antes de 2018,não determinável,Não determinável (a prestação de contas do candidato não separa a origem do dinheiro repassado pelo partido)
+Recursos próprios,"13,5% em 2002, 8,0% em 2018, 2,1% em 2022",Descritivo,queda em 2022,"Evidência direta para a regra (Lei 13.878/2019, limite de 10% do teto de gastos); associativa para a série"
+Concentração,"Gini das receitas dos eleitos 0,451 em 2014, 0,252 em 2022",Descritivo,desconcentração,Evidência associativa (coincide com a troca de fonte; a regra de distribuição do fundo pelos partidos não foi medida)
+Total real,"R$ 3,81 bi em 2014 e R$ 2,01 bi em 2022, em reais de ago/2026",Descritivo,queda,Fato observado
+Emendas,"R$ 75,3 bi pagos em 2019–2022, cerca de 37 vezes o dinheiro de campanha de todos os eleitos de 2022",Escala,emendas muito maiores que o financiamento de campanha,Fato observado; a comparação de escala não mede uso na competição
+Emendas e reeleição,"2022: razão de chances 1,33 (IC 95% 0,87 a 2,04), p = 0,194",Associação (D-075),bivariada com sinais opostos em 2018 e 2022; sem significância com controle da base,Não determinável com estes dados
+Taxa de reeleição,"2006: 64,4%, 2010: 73,1%, 2014: 73,3%, 2018: 63,0%, 2022: 66,5%","Alta em 2018 e 2022 frente a 2014 (critério do código, D-079)",sem alta,Fato observado
+Distribuição partidária,"Emendas individuais por autor: média da base sobre a de fora entre 0,96 e 1,20 (2017–2026)",Descritivo,diferença pequena e estável,Fato observado; emendas de relator e de comissão não têm autor individual

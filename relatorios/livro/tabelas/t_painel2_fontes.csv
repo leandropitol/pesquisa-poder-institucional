@@ -1,0 +1,34 @@
+Série,Dimensão,Unidade,Cobertura,Fonte primária,Nota
+Empresas no dinheiro dos eleitos (%),Financiamento eleitoral,% das receitas,2002–2022,TSE,deputados federais eleitos na eleição
+Fundos eleitorais públicos no dinheiro dos eleitos (%),Financiamento eleitoral,% das receitas,2002–2022,TSE,
+Transferências de partidos no dinheiro dos eleitos (%),Financiamento eleitoral,% das receitas,2002–2022,TSE,origem mista até 2014 (fundo partidário e doações de empresas aos partidos)
+Recursos próprios no dinheiro dos eleitos (%),Financiamento eleitoral,% das receitas,2002–2022,TSE,
+Gini das receitas dos eleitos,Financiamento eleitoral,índice de 0 a 1,2002–2022,TSE,
+Receita mediana real por eleito (R$ mil),Financiamento eleitoral,R$ mil de ago/2026,2002–2022,"TSE, IBGE; D-070",
+Despesa total da União (R$ bi reais),Recursos públicos,R$ bilhões de ago/2026,2002–2025,"Tesouro (RTN), IBGE; D-070",
+Fundo eleitoral (FEFC) pago (R$ bi reais),Recursos públicos,R$ bilhões de ago/2026,2018–2024,"Tesouro (RTN), IBGE; D-070",existe desde 2018
+Emendas pagas (R$ bi reais),Emendas parlamentares,R$ bilhões de ago/2026,2017–2026,"CGU, IBGE; D-070",2014–2016 fora por inconsistência; 2026 parcial
+Emendas pagas (% da despesa total),Emendas parlamentares,%,2017–2025,"CGU, Tesouro (RTN); D-070",
+Emendas sem autor parlamentar identificado (% do pago),Emendas parlamentares,% do valor pago,2017–2026,CGU,"relator, comissão e bancada não têm autor individual"
+Transferências especiais (% do pago),Emendas parlamentares,% do valor pago,2017–2026,CGU,
+Desigualdade per capita entre UF (Gini),Emendas parlamentares,índice de 0 a 1,2017–2026,"CGU, IBGE; D-070",
+Discricionárias do Executivo (R$ bi reais),Execução orçamentária,R$ bilhões de ago/2026,2008–2025,"Tesouro (RTN), IBGE; D-070",
+Discricionárias do Executivo (% da despesa total),Execução orçamentária,%,2008–2025,Tesouro (RTN); D-070,
+"Execução das emendas (pago/empenhado, %)",Execução orçamentária,%,2017–2026,CGU,pago inclui restos a pagar
+Número efetivo de partidos (Câmara),Partidos,número,2002–2026,Câmara e Senado,titulares em 15 de fevereiro de cada ano
+Mudanças individuais de partido,Partidos,mudanças por ano,2003–2026,Câmara e Senado; D-072,
+Cadeiras da base do governo (%),Partidos,% das cadeiras,2003–2026,Câmara e Senado,base pela concordância com o governo nas votações nominais
+Reeleição dos deputados que concorreram (%),Partidos,% dos ligados à candidatura,2006–2022,"TSE, Câmara e Senado; D-076",
+Ações penais com réu parlamentar em curso no STF,STF,ações em 31/12,2003–2026,STF; D-037,universo de D-068; 2026 em 23/09
+Idade mediana das ações em curso (anos),STF,anos,2003–2024,STF; D-037,
+Declínios de competência (réu parlamentar),STF,ações por ano,2003–2025,STF; D-037,2026 parcial excluído
+Julgamentos de mérito (réu parlamentar),STF,ações por ano,2003–2025,STF; D-037,2026 parcial excluído
+Sanções a empresas registradas (CGU),Controle administrativo,registros por ano,2015–2025,CGU,cadastro começa em 2015; 2026 parcial excluído
+"Contas irregulares no TCU, pessoas da base",Controle administrativo,decisões por ano,2003–2025,TCU,trânsito em julgado; 2026 parcial excluído
+Representações nos Conselhos de Ética,Controle administrativo,representações por ano,2003–2025,Câmara e Senado,2026 parcial excluído
+Votos a favor de resoluções de escrutínio (%),Política externa,% dos votos do Brasil,2003–2026,ONU e OEA,ONU (AGNU e CDH) e OEA; países-alvo mudam a cada ano
+Coincidência com a maioria das democracias (%),Política externa,% das resoluções,2003–2024,"ONU e OEA, V-Dem",
+Atos bilaterais assinados,Política externa,atos por ano,2002–2025,Itamaraty,2026 parcial excluído
+Operações de exportação de serviços (BNDES),Política externa,operações por ano,2002–2025,BNDES,
+Democracia liberal do Brasil (V-Dem),Indicadores democráticos,índice de 0 a 1,2002–2025,V-Dem,
+Pontuação do Brasil (Freedom House),Indicadores democráticos,0 a 100,2012–2024,Freedom House,pontuação agregada publicada desde a edição de 2013 na base
